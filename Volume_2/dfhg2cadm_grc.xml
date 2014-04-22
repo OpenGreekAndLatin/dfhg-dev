@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mueller2cadm-grc">
+
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+
+                <title>Fragmenta Historicorum Graecorum</title>
+
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+
+                <respStmt>
+                    <persName>Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="mueller2cadm-grc"/>
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <p>Available under a Creative Commons Attribution-ShareAlike 4.0 International
+                        License</p>
+                </availability>
+                <date>2013</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="urn:cts:greekLit:tlg2338.tlg002.opp-grc1">Cadmus
+                                Milesius</author>
+
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+
+                            </imprint>
+
+                            <biblScope unit="volume">2</biblScope>
+
+                        </monogr>
+
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft#page/n3/mode/2up"
+                            >Internet Archive</ref>
+
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#GF" when="2013-10-25">Created the XML file</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text>
+
+        <body>
+
+
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+
+                <div type="textpart" subtype="book" n="1">
+
+                    <head xml:lang="grc">
+                        <persName role="author" ref="urn:cts:greekLit:tlg2338"><name type="personal"
+                                >CADMUS</name>
+                            <name type="ethnicon">MILESIUS</name></persName>.
+                        <!-- https://archive.org/stream/fragmentahistori02mueluoft#page/2/mode/1up -->
+                    </head>
+
+                    <pb n="1"/>
+
+
+                    <bibl><author role="witness">Suidas: Κάδμος ὁ Μιλήσιος, εὑρετὴς
+                            γραμμάτων.</author></bibl>
+
+                    <quote>Ἐν ἐπιγράμματι Ζήνωνος <note>(v. <bibl>Diog. L. VII, 30</bibl>)</note>·
+                            <l>Εἰ δὲ πάτρα Φοίνισσα, τίς ὁ φθόνος; ἢν καὶ ὁ Κάδμος</l>
+                        <l>κεῖνος, ἀφ᾿ οὐ γραπτὰν Ἑλλὰς ἔχει σελίδα.</l>
+                        <p><persName><name type="personal">Κάδμος</name>, <name type="patronymic"
+                                    >Πανδίονος</name>, <name type="ethnic"
+                                >Μιλήσιος</name></persName>, ἱστορικὸς, ὃς πρῶτος κατά τινας
+                            συγγραφὴν ἔγραψε καταλογάδην, μικρῷ νεώτερος Ὀρφέως. Συνέταξε δὲ Κτίσιν
+                            Μιλήτου καὶ τῆς ὅλης Ἰωνίας ἐν βι&#976;λίοις <num value="4">δ</num>.</p>
+                        <p>Ὅτι τὸν Κάδμον φασὶ πρῶτον ἐς τὴν Ἑλλάδα κομίσαι τὰ γράμματα, ἅπερ πρῶτοι
+                            Φοίνικες ἐφεῦρον.</p>
+                        <p>Κάδμος, Ἀρχελάου, Μιλήσιος, ἱστορικὸς νεώτερος. Τινὲς δὲ Λυκῖνον Κάδμον
+                            ἀνέγραψαν. Ἴσως οὖν ἐστιν ἕτερος. Ἔγραψε δὲ ταῦτα· <title>Λύσιν ἐρωτικῶν
+                                [παθῶν]</title> ἐν βι&#976;λίοις <num value="4">δ</num>, καὶ
+                                <title>Ἀττικὰς ἱστορίας</title>
+                            <num value="16">ις</num>. <note>Cf. <bibl>Eudocia p.
+                            267</bibl>.</note></p>
+                      
+                        
+                    </quote>
+
+
+                    <p>Diversa plane Suidam temere miscere in hac glossarum farragine
+                        s&#230;penumero viri docti monuerunt: scilicet Cadmum literarum inventorem
+                        dici Milesium, quum Ph&#339;nix. sit; Cadmo historico autem assignari
+                        &#230;tatem, qu&#230; tribuenda sit filio Agenoris (V. <bibl>Clinton.
+                                <title>F. H.</title> tom. <biblScope unit="volume">II</biblScope>,
+                                <biblScope unit="page">454</biblScope></bibl>). Igitur, misso Suida,
+                        de temporibus scriptoris nostri audiamus Josephum C. Apion. I, c. 2
+                        extr.:</p>
+
+
+                    <quote>Οἱ μέντοι τὰς ἱστορίας ἐπιχειρήσαντες συγγράφειν παρ᾿ αὐτοῖς (<foreign
+                            xml:lang="la">sc.</foreign> Τοῖς Ἕλλησι), λέγω δὲ τοὺς περὶ Κάδμον τὸν
+                        Μιλήσιον καὶ τὸν Ἀργεῖον Ἀκουσίλαον, καὶ μετὰ τοῦτον εἴ τινες ἄλλοι λέγονται
+                        γενέσθαι, βραχὺ τῆς τῶν Περσῶν ἐπὶ τὴν Ἑλλάδα διαστρατείας τῷ χρόνῳ
+                        προὔλα&#976;ον</quote>
+                    <note>(Exscripsit h&#230;c <bibl>Euseb. Pr. Ev. X, 7, p. 478 A</bibl>).</note>
+
+
+                    <p>Accuratius rem definire licet, atque Hecat&#230;o et Pherecyde Syrio Cadmus
+                        paullo antiquior fuisse dicendus est, si fidem merentur ii, qui Cadmum, non
+                        vero Hecat&#230;cum aut Pherecydem,prosam orationem vel historiam pedestri
+                        sermone conscriptam primum condidisse ferunt. Sic pr&#230;ter <bibl>Suidam
+                            (1.1.)</bibl>
+                        <bibl>Plinius H. N. V, 31</bibl>: <quote>Nec Miletus fraudanda cive Cadmo,
+                            qui primus prosam orationem candere instituit.</quote> Hinc sua habet
+                            <bibl>Solinus c. 49</bibl>: <quote>Miletus, Ioni&#230; caput, Cadmi olim
+                            domus, sed ejus qui primus invenit pros&#230; orationis
+                            disciplinam.</quote> Aliter <bibl>Plinius lib. VII, 56</bibl>:
+                            <quote>Prosam orationem (<foreign xml:lang="grc">συγγραφήν</foreign>)
+                            condere Pherecydes Syrius instituit Cyri regis &#230;tate, historiam
+                            Cadmus Milesius.</quote> Eodem modo inter Pherecydem Syrium et
+                        Hecat&#230;um distinguit Suidas v. <quote>Ἑκαταῖος: Ἑκ. Πρῶτος ἱστορίαν
+                            πεζῶς ἐξήνεγκεν, συγγραφὴν δὲ Φερεκύδης.</quote> Atque hoc quidem recte
+                        se habere, falso autem ad Pherecydem et Cadmum translatum esse videtur, ut
+                        scilicet conciliarent inter se qu&#230; Suidas refert v. <quote>Φὲρεκύδης:
+                            Πρῶτον δὲ (Φερεκύδην) συγγραφὴν ἐξενεγκεῖν πεζῷ λόγῳ τινὲς ἱστοροῦσιν,
+                            ἑτέρων τοῦτο εἰς Κάδμον τὸν Μιλήσιον φερόντων.</quote>
+                    </p>
+
+                    <p>Scripsit Cadmus, testante Suida, Origines Mileti et totius Ioni&#230; libris
+                        quattuor. At supposititia haberi qu&#230; sub Milesii nomine in vulgus
+                        divendebantur, docemur a <bibl>Dionysio Hal. in Jud. de Thuc. c. 23</bibl>:
+                            <quote>Οὔτε γὰρ διασώζονται, <foreign xml:lang="la">ait</foreign>, τῶν
+                            πλειόνων αἱ γραφαὶ μέχρι τῶν καθ᾿ ἡμᾶς χρόνων, οὔθ᾿ αἱ διασωζόμεναι παρὰ
+                            πᾶσιν ὡς ἐκείνων οὖσαι τῶν ἀνδρῶν πιστεύονται, ἐν αἷς εἰσιν αἵ τε Κάσμου
+                            τοῦ Μιλησίου καὶ Ἀρισταίου τοῦ Προκοννησίου καὶ τῶν παραπλησίων
+                            τούτοις.</quote> Et recte quidem judicasse eos, quorum sententiam
+                        Dionysius laudat, nullus dubito. Eodem facit quod Bion Proconnesius, anctor
+                        perantiquus, <quote>τὰ Κάδμου τοῦ παλαιοῦ μετέγραψε κεφαλαιούμενος,</quote>
+                        uti Clemens ait <bibl>Alex. Strom. VI, p, 267</bibl>. Nam vetustissimum
+                        logographum tam prolxe rem tractasse, ut opus paullo post a Bione in
+                        compendium redigeretur, haud facile quisquam crediderit; immo, si veri
+                        aliquid subest verbis Clementis, ita potius statuendum, ut libros istos
+                        Pseudo-Cadmeos ex Bionis aliorumque scriptis conflatos esse putemus.</p>
+
+                    <p>Pr&#230;ter Dionysium Cadmi mentionem faciunt Strabo et Diodorus. Quorum ille
+                            <bibl>(I, p. 18)</bibl>: <quote>Πρώτιστα, <foreign xml:lang="la"
+                                >inquit</foreign>, ή ποιητικὴ κατασκευὴ παρῆλθεν εἰς τὸ μέσον καὶ
+                            εὐδοκίμησεν· εἶτα ἐκείνην μιμούμενοι, λύσαντες τὸ μέτρον, τἄλλα
+                            φυλάξαντες τὰ ποιητικὰ <note type="footnote">Parum accurate hoc dictum
+                                esse atque refragari testimoniis <bibl>Ciceronis (De orat. II,
+                                    13)</bibl>, <bibl>Dionysii Hal. (De Thuc. c. 23)</bibl>,
+                                    <bibl>Demetrii (De eloc. § 13)</bibl>, tum alii monuerunt, tum
+                                fusius explicat <bibl>Nitzch. De Hist, Hom. I, p. 85 sqq., 91.
+                                    sqq.</bibl> Ibidem post Dahlmannum contra eos disputat, qui
+                                omnes historicos Herodoto antiquiorcs, etsi s&#230;pius argumenta
+                                vere historica vel historica mythicis mixta ab iis tractata sunt,
+                                uno <hi rend="italic">logographorum</hi> nomine comprehendunt.
+                                Ceterum cf. <bibl>Creuzer, <title>Hist.
+                                        Kunst</title>
+                                    265
+                                </bibl></note>, συνέγραψαν οἱ περὶ Κάσμον καὶ Φερεκύδην καὶ
+                            Ἑκαταῖον· εἶτα οἱ ὕστερον, ἀφαιροῦντες ἀεί τι τῶν τοιούτων, εἰς τὸ νῦν
+                            εἶδος κατήγαγον, ὡς ἂν ἀπὸ ὔψους τινός.</quote>
+                        <note>Cf. <bibl>Eustath. Ad Hom. II. p. 9, 8 ed. Rom.</bibl></note><note
+                            type="footnote"><bibl>Strabo XIV, p. 635</bibl> claro Milesios recensens
+                            postquam nominaverat Thaletem, Anaximandrum, Anaximenem pergit:
+                                <quote>Ἔτι δ᾿ Ἑκαταῖος, ὁ τὴν ἱστορίαν συντάξας· καθ᾿ ἡμᾶς δὲ
+                                Αἰσχίνης ὁ ῥήτωρ</quote>
+                            <foreign xml:lang="grc">κτλ.</foreign> excidisse <foreign xml:lang="grc"
+                                >Κάδμου</foreign> mentionem opinantur Coray ad h. I. et Groskurk. in
+                            versione Strabonis germanica, uti disco ex <bibl> Forbigero
+                                    <title>Handb. d. alt. Geogr.</title> I, <biblScope unit="page"
+                                    >48</biblScope></bibl>.</note>
+                    </p>
+
+                    <p>Diodorus vero h&#230;c (<bibl>I, 87, 3. Excerpsit Theo- <pb n="2" break="no"
+                            /> phylact. Simoc. p.186 ed. Paris.</bibl>): <quote>Τινὲς δ᾿
+                            ἐπι&#976;αλόμενοι λέγειν περὶ τῶν ἐπιζητουμένων (<foreign xml:lang="la"
+                                >sc.</foreign> περὶ τῆς ἀνα&#976;άσεως τοῦ Νείλου καὶ τῶν πηγῶν
+                                <foreign xml:lang="la">etc.</foreign>) πολὺ τῆς ἀληθείας διήμαρτον.
+                            Οἱ μὲν γὰρ περὶ τὸν Ἑλλάνικον καὶ Κάδμον, ἔτι δ᾿ Ἑκαταῖον, καὶ πάντες οἱ
+                            τοιοῦτοι, παλαιοὶ παντάπασιν ὄντες, εἰς τὰς μυθώδεις ἀποφάσεις
+                            ἀπέκλιναν.</quote>
+                    </p>
+
+                    <p>Ex Diodori loco colligere possis aut alia qu&#230;dam pr&#230;ter <foreign
+                            xml:lang="grc">Κτίσιν Ἰωνίας</foreign> Cadmo Milesio attributa esse, aut
+                        Naucratim Milesiorum coloniam de Nilo disserendi pr&#230;buisse
+                        opportunitatem. Sed quoniam et Strabo et Diodorus Cadmi non meminerunt nisi
+                        in universum de antiquissimis historicis loquentes, minime liquet num ipsi
+                        libros Cadmi, qui tunc ferebantur, inspexerint, an solam nominis famam
+                        secuti sint.</p>
+
+                    <p>Qu&#230; quum ita habeant, qu&#230;ritur nec temere qu&#230;ritur, num omnino
+                        unquam vixerit Cadmus historicus, an merum sit inventum, eorum scilicet, qui
+                        ex Cadmo literarum inventore <note type="footnote">De mythico hoc Cadmo
+                            literarum inventore, ut alios mittam, vide Movers. in egregio libro, qui
+                            inscribitur <bibl><title>Religion d. Ph&#339;nizier</title>, Bonn. 1841,
+                                    518</bibl></note> finxerint
+                        antiquissimum scriptorem. Quam quidem qu&#230;stionem jam veteres agitasse
+                        haud obscure innuunt Pliniana ista: <hi rend="italic">Nec Miletus fraudanda
+                            cive Cadmo</hi>. Nomen sane per se nihil habet offensionis. Nam ex
+                        Herodoto novimus <hi rend="italic">Cadmum</hi>, Scyth&#230; filiumn, Coorum
+                        tyrannum <note type="footnote">V. <bibl>Herodot. VII, 63 coll. VI, 23
+                                sq.</bibl>; Suidas v. <foreign xml:lang="grc">Ἐπίχαρμος</foreign>;
+                                <bibl>Hippocrat. Epist. 7</bibl>. De temporibus ejus et familia v.
+                                <bibl>Müller. <title>Dor</title>. l, 170; II, 147, 1; 353, 1; 509,
+                                36</bibl>.</note>; porro <hi rend="italic">Eucadmum</hi>, statuarium
+                        Atheniensem, affert <bibl>Pausanias X, 19, 4</bibl> (cf. <bibl>Müller.
+                                <title>Arch&#230;ol.</title> § 112, I</bibl>). At dubitationem
+                        movet, quod literarum inventori et antiquissimo scriptori idem sit nomen,
+                        eademque secundum nonnullos fuerit patria. Nihil enim est cur Suidam turpi
+                        lapsum errore putemus Cadmum <foreign xml:lang="grc">τὸν τῶν γραμμάτων
+                            εὑρετὴν</foreign>
+                        <hi rend="italic">Milesium</hi> dixisse pro <hi rend="italic"
+                            >Ph&#339;nice</hi>. Nam eodem modo <bibl>Scholiasta ad Dionys. Thrac. in
+                            Bekk. An. p. 781, 30</bibl>: <quote>Οἱ μὲν, <foreign xml:lang="la"
+                                >ait</foreign>, Προμηθέα λέγουσι τούτων (<foreign xml:lang="la"
+                                >sc.</foreign> Τῶν γραμμάτων) εὑρετὴν, ἄλλοι δὲ Φοίνικα τὸν τοῦ
+                            Ἀχιλλέως παιδαγωγὸν, ἄλλοι δὲ τὸν Μιλήσιον Κάδμον</quote>
+                        <foreign xml:lang="grc">κτλ.</foreign> ubi quum de Gr&#230;cis literarum
+                        inventoribus sermo sit, nemo grammaticum erroris incusaverit. Similiter apud
+                        eundem <bibl>schol. p. 784</bibl> liter&#230; Ph&#339;nici&#230; a
+                        Ph&#339;nice loco prope Ephesum sito nomen habere dicuntur. Nimirum
+                        literarum cognitio Ph&#339;nicum commerciis primum venit ad Gr&#230;cos
+                        Asi&#230; Minoris; inter Iones primi exstiterunt Gr&#230;corum scriptores;
+                        jam qui primi Gr&#230;corum excoluere literas, etiam invenisse gloriati
+                        sunt. Quare antiqua ver&#230; originis memoria cum recentiore commento apud
+                        complures ita coaluit, ut ex Ph&#339;nice evaderet Ph&#339;nix locus
+                        Ephesinus <note type="footnote">Nonnulli, uti Homerum Atheniensem fecerunt,
+                            sic Ph&#339;nicias literas in Attica ab Act&#230;one inventas et de
+                            Ph&#339;nice ejus filia nominatas dixerant, V. <bibl>Scammonis Περὶ
+                                εὑρημάτων fr. 2</bibl>. Reliqua commenta recensere ad me nihil
+                            attinet.</note>, ut Ph&#339;nix Cadmus abiret in Cadmum Milesium. Deinde
+                        ulterius barum rerum fabri progressi sunt. Etenim qui primus invenit
+                        literas, non potuit non scripsisse opera. Sic (ut unum tangam ex
+                        mythologumenis histori&#230; literari&#230;) Ph&#339;nix, Agenoris filius,
+                        cui Lydi et Iones secundum <bibl>Apostolium (XX, 29)</bibl> literarum
+                        inventionem tribuunt, <quote>Φοινικικοῖς γράμμασι τὴν ἀριθμητικὴν φιλοσοφίαν
+                            συνεγράψατο,</quote> teste <bibl>Cedreno <biblScope unit="page"
+                                >19</biblScope></bibl>. Ad eundem modum etiam Cadmo nostro Milesio
+                        opus aliquod assignaverint. Neque illud Suid&#230; <quote>πρῶτος συγγραφὴν
+                            ἔγραψε καταλογάδην μικρῷ νεώτερος Ὀρφέως</quote> negligenti&#230; vel
+                        acrisi&#230; grammatici imputaverim, qui eo potius aliena junxisse mihi
+                        videtur, quod <foreign xml:lang="grc">Κτίσιν Μιλήτου</foreign>
+                        <foreign xml:lang="grc">κτλ.</foreign> tanquam opus a Cadmo Orphei fere
+                        &#230;quali profeclum posuerit. Id enim ab iis demum Cadmo datum esse puto,
+                        qui quum Pherecydem et Hecat&#230;um primos pedestris orationis scriptores
+                        vulgo haberi viderent, istud de Cadmo commentum ad ver&#230; histori&#230;
+                        et chronologi&#230; similitudinem revocare allaboraverunt, ideoque principem
+                        inter logographos locum Milesio suo tribuere. Ex eodem studio explicanda
+                        qu&#230; leguntur in <bibl>Villoison. <title>An. Gr.</title>
+                            <biblScope unit="volume">II</biblScope>, <biblScope unit="page"
+                                >187</biblScope></bibl>: <quote>Οὐ γράμματα εἶχον οἱ Ἕλληνες, ἀλλὰ
+                            διὰ Φοινικείων γραμμάτων ἔγραφον τὰ αὑτῶν Ἑλληνικὰ γράμματα· καὶ γὰρ
+                            αὐτὰ τὰ Φοινίκεια τοῖς ὀνόμασιν, ὡς καὶ τὰ Ἑ&#976;ραϊκὰ, κατὰ μίμησιν
+                            τῶν Ἑ&#976;ραίων, τοῖς Φοίνιξιν εὑρέθη. Παλαμήδης δ᾿ ὕστερον ἐλθὼν,
+                            ἀρξάμενος ἀπὸ τοῦ ἂλφα, δέκα ἓξ μόνα τοῖς Ἕλλησιν εὗρε στοιχεῖα...
+                            Προσέθηκε δὲ αὐτοῖς Κάδμος ὁ Μιλήσιος γράμματα τρία, θ, φ, χ... Μετὰ
+                            ταῦτα Σιμωνίδης ὁ Κεῖος ἐλθὼν προσέθηκε δύο, η καὶ ω, Ἐπίχαρμος δὲ ὁ
+                            Συρακούσιος τρία, ζ, ξ, ψ. Καὶ οὕτως ἐπληρώθησαν τὰ εἴκοσι
+                            τέσσαρα.</quote> Patet Cadmum Μilesium h. l. a logographo non diversum
+                        esse, neque alienum ab inventore literarum, nisi quod inventi magnitudine
+                        tanto inferior est, quanto &#230;tate est junior. Ac nescio an simili modo
+                        explicandus sit junior ille Cadmus Milesius historicus, quem Suidas
+                            <quote>Λύσιν ἐρωτικῶν παθῶν ἐν βι&#976;λίοις <num value="4"
+                            >δ</num></quote> scripsisse dicit. Qui quidem titulus tum per se
+                        suspectus est <note type="footnote"><quote>«Vellem Gaisfordius) argumenta
+                                istorum librorum verbo tetigisset; nam quod in Latinis erat <hi
+                                    rend="italic">scripsit remedia amoris</hi>, alius crediderit ab
+                                homine Gr&#230;co talia provenisse. Suspicor esse reponendum
+                                    <bibl>Συλλογὴν ἐρωτικῶν <num value="4">δ</num></bibl>,»</quote>
+                            BERNHARDY. Codices nihil suppeditant: <bibl>λ. ἐρ. βι&#976;λίων <num
+                                    value="4">δ</num> codd. B C</bibl>; <bibl>λ. ἐρ. βι&#976;λίων
+                                    <num value="14">ιδ</num> ed. Mediol.</bibl>; <bibl>λ. ἐ. Παθὼν
+                                sine librorum nota cod. V</bibl>; <bibl>λ. ἐ. παθῶν ἐν βι&#976;λ.
+                                τέτταρσι cod. A</bibl>; vulgo <bibl>λ. ἐ. Παθῶν ἐν βι&#976;λίοις
+                                    <num value="14">ιδ</num></bibl>.</note>, tum male quadrat cum
+                        Hi- <pb n="3"/> storiis Atticis, qu&#230; eidem auctori ascribuntur. Quare
+                        nisi putaveris Attica quoque argumenti erotici fuisse, ut aliorum Rhodiaca,
+                        Milesiaca, Babyloniaca etc., proclivis conjectura est, pro <foreign
+                            xml:lang="grc">Λύσιν</foreign> etc. olim fuisse <foreign xml:lang="grc"
+                            >Κτίσιν ἰωνικῶν <note type="footnote">Propius ad ductus literarum
+                                accederet si quis pro <foreign xml:lang="grc">ἐρωτικῶν</foreign>
+                                scribi vellet <foreign xml:lang="grc">κρητικῶν</foreign>. Idem
+                                deinde apud Suidam pro <foreign xml:lang="grc">Λυκῖνον</foreign>
+                                reponeret <foreign xml:lang="grc">Λύκτιον</foreign>.</note> πόλεων
+                            ἐν βι&#976;λ. <num value="4">δ</num></foreign>, ideoque Suidam corruptum
+                        titulum ponere ejusdem operis, quod perverse dederat Pandionis filio <note
+                            type="footnote">Pandionis patris nonem clarissmum fictum esse jam monuit
+                            Welckerus in <bibl>Seebodii <hi rend="italic">Archiv</hi> 1830,
+                                    <biblScope unit="page">70</biblScope></bibl>.</note>, Orphei
+                        co&#230;taneo. Sed de his fortasse aliter statui possit. </p>
+
+                    <p>Monendum enim est de verbis: <foreign xml:lang="grc">Τινὲς δὲ Λυκῖνον Κάδμον
+                            ἀνέγραψαν</foreign>. Eudocia habet <foreign xml:lang="grc">καὶ Λυκῖνον
+                            καὶ Κάδμον</foreign>; ante <foreign xml:lang="grc">Κάδμον</foreign>
+                        particula <foreign xml:lang="grc">καὶ</foreign> est etiam in ed. Mediol.
+                        (Hinc Bernhardius dedit: <foreign xml:lang="grc">T. δὲ καὶ Λυκ. Κάδμον
+                            ἔγρ.</foreign>); cod. V: <foreign xml:lang="grc">λυκκῖνον Κάδμο<hi
+                                rend="stacked">ο</hi>ν</foreign>. Subesse Bernhardio videtur:
+                            <foreign xml:lang="grc">τινὲς δὲ Λυκίνου Κάδμον νέον</foreign> (sive
+                            <foreign xml:lang="grc">νεώτερον</foreign>) <foreign xml:lang="grc"
+                            >ἀνέγραψαν</foreign>. Küsterus pro <foreign xml:lang="grc"
+                            >Λυκῖνον</foreign> legendum proposuit <foreign xml:lang="grc"
+                            >Λύκιον</foreign>. <note type="footnote">Küsteri contecturam si
+                            probaveris, putari possit Suidam <foreign xml:lang="grc">Κάδμον
+                                Λύκιον</foreign>, i. e. <foreign xml:lang="grc">Ὄρος
+                                Λυκίας</foreign> in Lyci&#230; et Phrygi&#230; confiniis, quem in
+                            Lexicis auctorum suorum notatum invenerit, virum esse censuisse.</note>
+                        Ac sane patriam, non vero patrem indicari liter&#230; superstites arguunt.
+                        Lenissima mutatione scribi possit: <foreign xml:lang="grc">T. δ᾿ Ἐλευσῖνου
+                            Κάδμον</foreign>. Eleusinio pr&#230;terea bene convenirent
+                            <title>Histori&#230; Attic&#230;</title> (Cf. Atthidem Melesagor&#230;,
+                        qui item Eleusinius a nonnullis dicebatur). Sed dubitationem movent
+                        particul&#230; <foreign xml:lang="grc">καὶ</foreign> ap. Eudociam et in
+                        edit. Med., atque o supra scriptum in cod. V. Ex comparatis lectionibus
+                            <foreign xml:lang="grc">καὶ Κάδμο<hi rend="stacked">ο</hi>ν</foreign> et
+                            <foreign xml:lang="grc">Κάδμον</foreign>, erueris <foreign
+                            xml:lang="grc">καὶ Κῶον</foreign>, sive is Cadmus fuerit ex Herodoto
+                        notus sive alius. Ex K. <foreign xml:lang="grc">ΛΥκῖνον</foreign> vel ex
+                            <foreign xml:lang="grc">ΛΥKκῖνον</foreign> item aliquis eliciat <foreign
+                            xml:lang="grc">ΚΑΙ Κῷον</foreign>, atque duplicem ejusdem nominis
+                        mentionem e nota marginali in textum irrepsisse statuat. Sed hoc violentius.
+                        Igitur scripserim <foreign xml:lang="grc">Τινὲς δὲ καὶ Ἐλευσῖνος καὶ Κῶον
+                            ἀνέγραψαν</foreign>. Tum Eleusinio tribuerim <title xml:lang="la"
+                            >Atticas historias</title>. Cadmo autem ex Asclepiadarum insula oriundo
+                        alterum opus vindicaverim, quod Suidas nominat <title><app>
+                                <rdg>Λύσεις</rdg>
+                                <rdg cert="low">ἰάσεις</rdg>
+                            </app>
+                            <app>
+                                <rdg>ἐρωτικῶν</rdg>
+                                <rdg cert="low">πυρωτικῶν</rdg>
+                            </app> παθῶν</title>, quodque ad artem medicam pertinuisse conjeceris.
+                        Cadmum hunc esse illum Herodoti minime contendo, etsi Hippolochus quoque,
+                        cum quo Cadmus Coorum civitate aliquantum pr&#230;fuisse dicitur (in
+                            <bibl>Hippocrat. Ep. 7</bibl>), erat Asclepiada <note type="footnote"
+                            >Epicharmum quoque poetam, qui cum Cadmo in Siciliam transjecit, medicum
+                            fuisse constat.</note>. At satis est, opinor, conjecturarum.</p>
+
+
+                </div>
+            </div>
+
+
+        </body>
+    </text>
+</TEI>
