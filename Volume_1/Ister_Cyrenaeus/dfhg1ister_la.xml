@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="../../../Tools/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg1ister_la">
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>                
+                <respStmt>
+                    <persName>Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>                
+                <respStmt>
+                    <persName>Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg1ister_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike International 4.0 License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1450">Ister Cyrenaeus</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>                            
+                            <biblScope unit="volume">1</biblScope>
+                        </monogr>                        
+                        <ref target="https://archive.org/details/fragmentahistori01mueluoft">Internet Archive</ref>           
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        
+        </fileDesc>        
+ 
+        <encodingDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>                
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#MB" when="2014-02-10">Created the XML file</change>
+            <change who="#MB" when="2014-02-10">Encoded text</change>
+        </revisionDesc>        
+    
+    </teiHeader>
+    
+    <text>    
+        <body>            
+            <div type="edition" subtype="volume" n="1" xml:lang="la">
+                <div type="translation" subtype="volume" n="1" xml:lang="la">
+                
+                    <head xml:lang="la">
+                        <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1450.tlg004.opp-lat1" xml:lang="la">ISTRI FRAGMENTA</title>
+                    </head>
+
+                <pb n="418"/>
+                <div type="textpart"><ab><title xml:lang="la">ATTHIS.</title></ab> 
+                    <div type="textpart" subtype="book" n="1">
+                        <ab><title xml:lang="la">LIBER I.</title></ab> 
+ 
+                        <p n="1">Terram Titaniam. ... Ister libro primo Rerum Atticarum
+                        proverbium refert: <hi rend="italic">Titanas invocare</hi>. Opem enim 
+                        hominibus ferebant, clamore eorum audito, ut Nicancder 
+                        libro primo Rerum &#198;tolicarum auctor est.</p>
+
+                        <p n="2"><hi rend="italic">Titanidem accolis</hi>. De iis, qui deos amant. Titanidem 
+                        porro alii terram universam, alii Atticam intelligunt, a 
+                        Titenio quodam uno ex senioribus Titanibus, qui apud 
+                        Marathonem habitabat, qui solus adversus deos non belligeravit, ut ait Philochorus in Tetrapoli, et Ister libro 
+                        primo Rerum Atticarum.</p>
+
+                        <p n="3">Tria Lampadis festa agitant Athenienses: Panathen&#230;is,
+                        Vulcanalibus, Prometheis, ut ait Polemo libro De
+                        tabulis qu&#230; in Propyl&#230;is posit&#230; sunt. Ister vero in primo
+                        Atthidum tradit, die festo Apaturiorum, eos ex Atheniensibus,
+                        qui pulcherrimis vestibus ornati sint, sumptis facibus
+                        accensis e foco, sacra facientes, Vulcanum laudare,
+                        ad memoriam illius in mortales beneficii prodendam,
+                        puod ignis usum ceteros docuerit.</p>
+                        
+                        <p n="4">Ister ait, cursum cum facibus primum instituisse 
+                        Athenienses Vulcano sacra facientes, <hi rend="italic">etc.</hi></p>
+
+                        <p n="5"><hi rend="italic">The&#339;nia</hi>, Lycurgus in Controversia Croconidarum 
+                        adversus C&#339;ronidas. Bacchanalia, qu&#230; populi Attic&#230; celebrabant,
+                        The&#339;nia dicebantur, in quibus gentiles sacrificabant:
+                        Bacchum quippe <foreign xml:lang="grc">Θέοινον</foreign> vocabant, ut &#198;schylus
+                        declarat, et Ister in primo Collectaneorum.</p>
+
+                        <p n="6">&#198;galeum montem dicit Sophocles; hic enim in extrema
+                        parte hujus pagi situs est. Enumerant autem loca, ub
+                        maxime conflixisse Creontis et Thesei copias conjiciunt.
+                        Rupem nive candentem dicit fortasse Sophocles rupem
+                        l&#339;vem vel &#198;galeum collem. H&#230;c enim loca aiunt esse
+                        vicina, ut Ister tradit libro primo Miscellaneorum: <pb n="419"/> «Ab
+                        ora maritima <hi rend="italic">ad rupem l&#339;vem</hi>,» et deinde, paucis interjectis:«Ab hoc usque ad Colonum juxta locum, qui 
+                        dicitur <hi rend="italic">&#339;neus</hi>, atque inde versus Cephisum usque ad 
+                        viam mysticam, qu&#230; Eleusinem ducit; ab eo, unde h&#230;c 
+                        via incipit, loco progredientibus ad sinistram prospectus 
+                        patet usque ad collem &#198;galeum, qui orientem spectat.»</p>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="3">
+                            <ab><title xml:lang="la">LIBER III.</title></ab> 
+
+                        <p n="7">Panathen&#230;a. Auctor festi Erichthonius Vulcani filius,
+                        sed ante Erichthonium Athen&#230;a dicta fuisse, Ister docuit
+                        in tertio Rerum Atticarum.</p>
+                        
+                        <p n="8">Tauropolum vocant Dianam, quod tanquam taurus omnia 
+                        circumeat et lustret, ut Apollodorus ait; ut Ister vero libro
+                        tertio Miscellaneorum auctor est, quod taurum in
+                        Hippolytum a Neptuno immissum per omnes terras &#339;stro
+                        percitum agitaverit.</p>
+                        </div>
+
+                       <div type="textpart" subtype="book" n="4">
+                                <ab><title xml:lang="la">LIBER IV.</title></ab>
+
+                        <p n="9">Ister libro quarto scribit, Eumenidum matrem esse
+                        Euonymam, qu&#230; esse Terra putetur.</p>
+                       </div>
+
+                       <div type="textpart" subtype="book" n="12">
+                                    <ab><title xml:lang="la">LIBER XII.</title></ab>
+
+                        <p n="10">Jupiter Homoloius. Ister libro duodecimo Collectionis
+                        hinc par&#339;miam duci ait, quod &#198;oles consensum concordiamque
+                        pacificam <foreign xml:lang="grc">ὅμολον</foreign> appellent. Est etiam Ceres Homoloia
+                        Thebis.</p>
+                        
+                        <p n="11">Clepsydra est fons in arce, cujus Ister libro duodecimo
+                        facit mentionem, colligens qu&#230; scriptores de eo tradiderunt.
+                        Nomen habet inde, quod Etesiis exorientibus accrescit,
+                        cessantibus iis decrescit, similiter ac Nilus et 
+                        fons, qui in Delo insula est; phialam autem cruentatam, 
+                        qu&#230; in eum incidisset, conspectam esse in Phalerico viginti
+                        stadia distante: immensam profunditatem eum habere
+                        aiunt, aquam vero ejus salsam esse.</p>
+                       </div>
+
+                       <div type="textpart" subtype="book" n="13">
+                                        <ab><title xml:lang="la">LIBER XIII.</title></ab>
+
+                        <p n="12">Novam et diversam plane historiam refert de &#198;thra 
+                        Ister, in tertio decimo libro Rerum Atticarum, prodi a 
+                        quibusdam, Alexandrum Parin in Thessalia ab Achille et 
+                        Patroclo pugna ad Sperchium amnem fusum fuisse, Hectorem
+                        Tr&#339;&#230;zeniorum oppidum, quum id expugnasset,
+                        diripuisse, et &#198;thram illic depositam abduxisse. Verum
+                        id sane quam est absonum.</p>
+                        
+                        <pb n="420"/>
+                        
+                        <p n="13">Oschophori. Ister autem in tertio decimo de Theseo disserens,
+                        scribit in hunc modum: «Salutis public&#230; caussa
+                        instituit, ut bini Oschophori, genere et opibus nobiles,
+                        deligerentur.</p>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="14">
+                            <ab><title xml:lang="la">LIBER XIV.</title></ab>
+
+                        <p n="14">Theseus rapta Helena, deinde etiam Ariadnen rapuit.
+                        Ister libro decimo quarto Rerum Atticarum uxores 
+                        Thesei recensens ait, alias earum ex amore uxores ejus
+                        factas esse, alias raptu, alias vero legitimis nuptiis:
+                        ex raptu quidem Helenam, Ariadnen, Hippolytam, et
+                        Cercyonis et Sinidis filias: legitimo vero matrimonio eum
+                        habuisse Melib&#339;am Ajacis matrem.</p>
+                        
+                        <p n="15">Dea Impudentia. Colebatur etiam Athenis Impudentia
+                        et templum habebat, ut Ister libro quarto decimo refert.</p>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="16">
+                            <ab><title xml:lang="la">LIBER XVI.</title></ab>
+
+                        <p n="16"><hi rend="italic">Trapezophoros</hi> est nomen sacerdotis, ut ait Lycurgus 
+                        in oratione <hi rend="italic">de sacerdote</hi>; h&#230;c et <hi rend="italic">cosmo</hi> administrant 
+                            omnia Minerv&#230; sacra, ut idem orator in eadem oratione 
+                        declarat et Ister libro sexto decimo Collectaneorum Atlicorum.</p>
+                        </div></div>
+
+                        <div type="textpart">
+                            <ab><title xml:lang="la">FRAGMENTA INCERT&#198; SEDIS.</title></ab>
+                
+                        <p n="17">Hers&#230;, Cecropis fili&#230;, pompam ducunt, ut narrat
+                        Ister.</p>
+                        
+                        <p n="19">In efferendo funere hastam adhibere, et ad sepulchrum 
+                        proclamare. Demosthenes adversus Euergum et Mnesibulum
+                        h&#230;c de homine dicit, qui morte periit violenta. Ister
+                        vero in collectione rerum Atticarum, postquam de Procride
+                        et Cephalo locutus est, ista scribit: «Quidam aiunt, 
+                        Erechtheum in sepulchro hastam defixisse, ut c&#230;dem 
+                        indicaret. Legera enim esse consanguineis, ut hoc modo 
+                        interfectores persequantur.»</p>
+                            
+                       <pb n="421"/>
+    
+                        <p n="20">Eumolpus, non Thrax ille, sed, secundum Istrum in Collectione
+                        Atthidum, ille qui mysteria instituit, jussit perogrinos
+                        non initiari; quum vero Hercules venisset et initiari
+                        cuperet, Eleusinii, legem quidem Eumolpi servare, 
+                        sed tamen Herculi, de omni genere humano optime merito, 
+                        gratificari volentes, in ejus usum constituerunt parva
+                        mysteria. Qui iis initiabantur, myrto coronabantur.</p>
+                        
+                        <p n="21">Qu&#230;ritur, cur Eumolpid&#230; initiationi pr&#230;sint, quamvis 
+                         peregrini. Dixeris, nonnullos contendere, primum Eumolpum, filium Deiopes, qu&#230; erat Triptolemi filia, instituisse
+                         Eleusine mysteria, non Thracem illum, idque narrare Islrum in Miscellaneis.</p>
+                        
+                        <p n="22">Postquam Troja ab Hercule capta erat, Telamon accepit
+                        Theaniram, quam et Hesionam vocant, ut pr&#230;emium
+                        eximium, auctore Istro in Miscellaneis.</p>
+                        
+                        <p n="23">Athenis aiunt inventam esse artem luctandi a Phorbante,
+                        Thesei magistro. Pherecydes vero ait, Phorbantem
+                        Thesei aurigam fuisse, cum quo rapuerit Amazonem. Polemo
+                        quoque narrat, Phorbantem Atheniensem invenisse
+                        luctam; sed Ister tradit, Theseum esse a Minerva luctam 
+                        edoctum.</p>
+                        
+                        <p n="24">Ister asserit illum (Xenophontem) ex decreto Eubuli 
+                        exulasse, ejusdemque postea decreto rediisse.</p>
+                        
+                        <p n="25">Ister tradit, Cererem coronari myrto et smilace, de
+                        qua esset contentio; porro antistitem, antistitas, t&#230;diferum
+                        ceterasque sacerdotes myrteam hahere coronam: 
+                        propterea etiam Cereri eam attribui dicit.</p> 
+
+                        <pb n="422"/>
+
+                        <p n="26">Tertiam mensis diem <foreign xml:lang="grc">τριτομηνίδα</foreign> vocabant; videtur
+                        autem dies natalis esse Minerv&#230;. Ac propterea <foreign xml:lang="grc">Τριτογένειαν</foreign>
+                        eam dici Ister tradit, et eandem cum Luna existimari.</p>
+                        
+                        <p n="27">Ister etiam numerum sacrarum olearum indicat, scribens
+                            .... Nonnulli autem ramum ole&#230;, qu&#230; est in Academia,
+                        ab illa in Acropoli plantatum esse dicunt.</p>
+                        
+                        <p n="28">Anthesterion, mensis octavus apud Athenienses, Baccho
+                        sacer. Ister in libris Collectionis eum ita dictum
+                        fuisse testatur, quod plerique terr&#230; f&#339;tus tunc floreant.</p>
+                        
+                        <p n="29">C&#339;ronid&#230; sunt gens, de quibus Ister in Collectione
+                        rerum Atticarum; nomen habere videntur a C&#339;rone,
+                        quem nothum fratrem esse ferunt Croconis; inde Croconidas
+                        pr&#230; C&#339;ronidis in honore haberi.</p>
+                        
+                        <p n="30">Ister mentionem facit liminis &#230;nei et Astydamas.</p>
+                        
+                        <p n="31">P&#230;anienses et P&#230;onid&#230;; duo sunt P&#230;aniensium demi,
+                        Pandionidis tribus. Differunt vero hi a P&#230;onidis, ut Ister
+                        in Miscellaneis significat; rhetores quoque eorum meminere;
+                        etiam hic est demus Leontidis tribus.</p>
+                        
+                        <p n="32"><foreign xml:lang="grc">Περιστίαρχος</foreign>. Sic vocatur qui domum, concionem
+                        et urbem lustrat, ab <foreign xml:lang="grc">ἑστία</foreign>, i. e. focus, domus, vel a <foreign xml:lang="rebd">περιστείχειν</foreign>,
+                        i. e. a circumeundo. Ister vero in Atticis dicit,
+                        «victimas lustrales appellari <foreign xml:lang="grc">περίστια</foreign>; et eos, qui templa
+                        lustrabant, <foreign xml:lang="grc">περιστιάρχους</foreign>. Extrinsecus enim circumibant, 
+                        unoquoque sacerdotum porcellum ferente, &#230;des publicas
+                        circumcurrentes et ambitum agentes.»</p> 
+                        </div>
+
+                        <div type="textpart">
+                            <ab><title xml:lang="la">APOLLINIS APPARITIONES.</title></ab>
+                            
+                        <p n="33"><hi rend="italic">Pharmacus</hi>. Duos viros Athenis , lustrand&#230; civitatis
+                        caussa, in festo Thargeliorum educebant; quorum alter
+                        viros, alter feminas expiaret. Pharmacum autem nomine
+                        proprio appellari eum, qui quum sacras phialas
+                        furatus et ab Achille deprehensus esset, lapidibus sit <pb n="423"/>
+                            obrutus, hujusque rei esse imitamenta, qu&#230; in Thargeliis agantur, Ister tradit libro primo Apparitionum Apollinis.</p>
+                        
+                        <p n="34">Sacrificium trifarium. Ister in Apollinis apparitionibus 
+                        id constare dicit ex bobus, capris et suibus masculis, 
+                        trimis omnibus.</p>
+                        
+                        <p n="35">Simulacrum Apollinis in Delo positum in dextra
+                        manu arcum, I&#230;va Gratias habet, quarum qu&#230;vis aliquod
+                        musicum instrumentum tenet; lyram una, alia 
+                        tibias, media fistulam ori admotam. Neque meus est hic 
+                        sermo; sed Anticles et Ister in libris quos de Apparitionibus
+                        deorum scripserunt, h&#230;c retulerunt.</p>
+                            
+                        <p>Ister in Atticis ait vetitum fuisse Atticas exportare caricas,
+                        ut soli indigen&#230; iis vescerentur: quum vero multi
+                        furtim evehentes deprehenderentur, qui horum nomina
+                        apud judices deferebant, tura primum sycophantas (<hi rend="italic">ficuum indices</hi>) esse nominatos.</p>
+                        </div>
+
+                        <div type="textpart">
+                            <ab><title xml:lang="la">PTOLEMAIS.</title></ab>
+        
+                        <p n="38">Ister Callimachius, primo libro de Ptolemaide, &#198;gypti
+                        oppido, ita scribit: «Calicum Cononiorum par, et Thericleorum
+                        par aureis operculis clausorum.»</p>
+                            </div>
+
+                        <div type="textpart">
+                            <ab><title xml:lang="la">&#198;GYPTIORUM COLONI&#198;.</title></ab>
+
+                        <p n="39">Cyprus nomen accepit a Cypro filia Cinyr&#230; vel Bibli et
+                        Veneris, ut Philoslephanus in libro de lnsulis et Ister in
+                        libro de &#198;gyptiorum coloniis narrant.</p>
+                                    
+                        <p n="40">Ister in libro De colonia &#198;gyptiorum, dicit Io vel
+                        Isidem fuisse filiam Promethei.</p>
+                        
+                        <pb n="424"/>
+                        
+                        <p n="41">Olenus. ... Vocata vero fuit ab Oleno, Jovis filio, ut
+                        Ister in &#198;gyptiorum coloniis: «Sed ex Anaxithea Danaidum
+                        una et Jove, Olenum, qui Oleniis imperavit, natum fuisse.»</p>
+                        
+                        <p n="42">&#198;gialus, locus est inter Sicyonem et Buprasium, ita
+                        dictus ab &#198;gialeo Inachi filio, uti refert Ister in &#198;gyptiacis
+                        coloniis.</p>
+                        </div>
+
+                        <div type="textpart">
+                            <ab><title xml:lang="la">ARGOLICA.</title></ab>
+        
+                        <p n="43">Ab illorum <hi rend="italic">pirorum</hi> Gr&#230;co nomine (<foreign xml:lang="grc">ἄπια</foreign>) etiam Peloponnesus
+                        <hi rend="italic">Apia</hi> nominata est, quod hoc fructu abundabat, ut ait Ister in Argolicis.</p>
+                        
+                        <p n="44">Apia. ... Ister pyrastrum in Apia regione nascentem,
+                         <hi rend="italic">apium</hi> ab eadem apud exteros nominari tradit.</p>
+                        </div>
+
+                        <div type="textpart">
+                            <ab><title xml:lang="la">ELIACA.</title></ab>
+
+                        <p n="45">Plyteum, urbs Elidis cav&#230;: a Phyteo dicit eam nominari
+                        Ister quarto Eliacorum.</p>
+                        
+                        <p n="46"><hi rend="italic">Contra duos ne Hercules quidem</hi>. ... Tradit Echephyllidas,
+                        Herculem a Cteato et Euryto Molionidis, in expeditione,
+                        quam contra Augeam fecit, devictum esse; quum vero
+                        usque ad Buprasiam fugisset neminemque hostium animadvertisset,
+                        se refecisse et fluvium pr&#230;terfluentem, ex
+                        quo potum hauserit, ita alloquutum esse: Dulcis h&#230;c
+                        aqua. H&#230;c demonstratur iis qui Dyma proficiscuntor
+                        Elin, appellata ab incolis <hi rend="italic">Dulcis Aqua</hi>. Eadem referunt
+                        Pherecydes, Comarchus et Ister in Eliacis. Atque hanc
+                        ob rem Herculem, structis insidiis, occidisse Molionidas
+                        prope Cleonas, quum sacram legationem obeuntes Corinthum
+                        proficiscerentur. Ea ex caussa Eleis interdictum
+                        esse, ne ludos Isthmios frequentarent, quod Hercules
+                        quum Molionidas sacr&#230; legationis obeund&#230; caussa ad
+                        Isthmum missos occidisset, a Corinthiis esset exceptus.</p>
+                    </div>
+
+                    <div type="textpart">   
+                        <ab><title xml:lang="la">COLLECTIO SACRIFICORUM CRETICORUM.</title></ab>
+          
+                    <p n="47">Ister etiam auctor est, in eo quod de Cretensium sacrificiis edidit volumine, pueros olim Saturno immolari
+                    a Curetibus solitos fuisse.</p>
+                   </div>
+
+                    <div type="textpart">
+                        <ab><title xml:lang="la">DE PROPRIETATE CERTAMINUM.</title></ab>
+               
+                    <p n="48">Aristoteles Cyren&#230;us amantem Laidem solus despexit. <pb n="425"/>
+                    Quum meretrici itaque jurasset, se eam esse in patriam 
+                    abducturum, si ei adversus decertantes adversarios aliquam
+                    opem tulisset, postquam id perfecit, lepide jusjurandum
+                    exsequens, ejus quam simillimam pinxit imaginem
+                    eamque Cyrenas transvexit, ut scribit Ister in 
+                    libro de Proprietate certaminum.</p>
+                    </div>
+
+                   <div type="textpart">
+                       <ab><title xml:lang="la">MELOPŒI.</title></ab>
+            
+                    <p n="49">Phrynis cithar&#339;dus Mytilen&#230;us. Hic fertur primus
+                    apud Athenienses arte cithar&#339;dica vicisse in Panathen&#230;is,
+                    Callia archonte. Erat Aristoclid&#230; discipulus. Aristoclides,
+                    pr&#230;stantissimus cithar&#230;dus, qui genus duxit a Terpandro,
+                    floruit in Gr&#230;cia belli Persici tempore. Is Phrynin,
+                    quem ad se recepit, callentem tibiis canendi artem, cithara
+                    canere docuit. Ister vero ait, eum Hieronis coquum fuisse 
+                    et ab hoc cum aliis Aristoclid&#230; traditum esse: h&#230;c tamen
+                    negligenter scripsisse videtur; si enim servus et coquus 
+                    Hieronis fuisset, id non celassent comici, qui s&#230;pe ejus
+                    faciunt mentionem propter ea, qu&#230; novavit; fregit enim 
+                    vim cantus, relicto more antiquo.</p>
+                    
+                    <p n="50">Ister in eo opere, quod Melop&#339;i inscribitur, Phrynin
+                    Lesbium fuisse dicit, Canopis filium; qui, quum
+                    esset Hieronis tyranni coquus, etc.</p>
+                    
+                    <p n="51">Sophocles genere erat Atheniensis, filius Sophili, qui
+                    neque faber, ut ait Aristoxenus, lignarius neque &#230;rarius
+                    erat, neque cultrorum opifex, ut statuit Ister: sed 
+                    fortasse possidebat servos, qui fabri &#230;rarii erant et 
+                    lignarii; vix enim credibile est, talis hominis filium
+                    dignum habitum esse, qui cum Pericle et Thucydide,
+                    civium nobilissimis, exercitui pr&#230;ificeretur. Neque comici
+                    eum reliquissent intactum, qui ipso Themistocle
+                    non abstinuerunt; neque credere licet Istro, si dicit, 
+                    eum non esse Atheniensem, sed Phliasium. Possis statuere
+                    ejus genus antiquitus esse Phliasium: sed nemo, 
+                    excepto Istro , hoc memorat. ... Inter pueros operam 
+                    dabat pal&#230;stric&#230; et music&#230;, atque in utraque arte coronam
+                    adeptus est, ut Ister tradit. Idem dicit, eum invenisse
+                    albos cothurnos, quos actores et choreut&#230; subligant,
+                    atque fabulas accommodasse actorum indoli, ex
+                    hisque arte bene institutis Musarum collegisse sodalitium.
+                    ... Obiisse eum Ister et Neanthes tradunt hoc modo:
+                    Callipidem quum venisset Opunte ad Ch&#339;s celebrandos,
+                    misisse ei uvam, cujus acinum adhuc immaturum in os
+                    injicientem Sophoclem, propter summam senectutem 
+                    suffocatum esse ideoque vitam finiisse. ...  Ister ait, Athenienses
+                    hujus viri virtute commotos decrevisse, quotannis
+                    ei sacrum facere.</p>
+                              </div>
+
+
+                    <div type="textpart">
+                        <ab><title xml:lang="la">COMMENTARII.</title></ab>
+                
+                    <p n="52">Unde urbs Ithacensium Alalcomen&#230; appellatur? ... <pb n="426"/>
+                    Ister Alexandrinus in suis Commentariis retulit, nuptam 
+                    Anticleam L&#230;rt&#230;, et adductam in Alalcomenium, quod 
+                    est in B&#339;otia, Ulyssem peperisse: indeque eum quasi 
+                    urbis nomen commendantem posteris, in qua esset natus,
+                    Ithac&#230; urbem eo nomine donasse.</p>
+                    </div>
+
+                    <div type="textpart">
+                        <ab><title xml:lang="la">DICTIONES ATTIC&#198;.</title></ab>
+        
+                    <p n="53">Veteres quidem dicunt, non modo tres distingui &#230;tates,
+                    <foreign xml:lang="grc">ἀρήν</foreign>, <foreign xml:lang="grc">ἀμνός</foreign>, <foreign xml:lang="grc">ἀρνειός</foreign>, et <foreign xml:lang="grc">ἀμνοῦ</foreign>
+                    feminam esse <foreign xml:lang="grc">ἀμνὴν</foreign> ovem medi&#230; &#230;tatis, eamque <foreign xml:lang="grc">ἀμνὴν</foreign> denotare agnam annuam,
+                    sed etiam, Istrum in Dictionibus Atticis hunc ordinem statuere: <foreign xml:lang="grc">ἄρην</foreign>, deinde <foreign xml:lang="grc">ἀμνός</foreign>, deinde <foreign xml:lang="grc">ἀρνειός</foreign>,
+                    deinde <foreign xml:lang="grc">λειπογνώμων</foreign>.</p>
+                    
+                    <p n="54"><foreign xml:lang="grc">Ἀμάλλαι</foreign>, manipuli, fasciculi spicarum, Sophocles in
+                    Triptolemo; <foreign xml:lang="grc">ἀγκαλίδες</foreign> constant e centum manipulis, si
+                    Istrum sequamur, Phileta vero auctore ex ducentis. Etiam Homerus hac voce utitur.</p>
+                    
+                    <p n="55">Ister dicit, <foreign xml:lang="grc">τεύχεα</foreign> (armaturam) inde nomen accepisse,
+                    quod Cyclopes primum fecerint in Teuchio, loco Eubo&#339;&#230;.</p>
+                    </div>
+
+                    <div type="textpart">
+                        <ab><title xml:lang="la">INCERTORUM OPERUM FRAGMENTA.</title></ab>
+          
+                    <p n="56">Istrum quendam aiunt narrare, quatuor fuisse magna 
+                    diluvia, quorum uno Hellespontus diruptus Asiaque ab 
+                    Europa per eum separata sit.</p>
+                    
+                        <p n="57">Ister tradit, Arcadem Themist&#251;s et Jovis filium fuisse;
+                    hoc nomen eum sortitum esse, quod mater in feram
+                    mutata sit; a Junone enim eam in ursam (<foreign xml:lang="grc">ἄρκτον</foreign>) conversam
+                    esse.</p>
+                    
+                    <p n="58">Carne, urbs Ph&#339;nici&#230;, a Carno Ph&#339;nicis filio nomen
+                    habens, ut Ister auctor est.</p>
+                    
+                    <p n="59">Pindarus Pelopem Lydum, Ister vero eum Paphlagonem
+                    dicit.</p>
+                    
+                    <p n="60a">Ister tradit, &#198;elam, quum cognovissel Phineum Phri- <pb n="427"/>
+                    xi filios vaticiniis servasse, eum exsecratum esse, Solem
+                    autem, quum hoc audivisset, privasse eum oculis.</p>
+                    
+                    <p n="60b"><foreign xml:lang="grc">Κρίσιν</foreign> Pindarus dicit ludum Helieorum, quem Rhodii
+                    instituunt; sed falsa tradit: non enim Tlepolemo
+                    ludus celebratur, sed Soli; ut Ister tradit in libro de
+                    Solis ludis: «Rhodii instituunt Rhodi ludum gymnicum
+                    Solis, in quo corona pro pr&#230;mio est.»</p>
+                    
+                    <p n="61">Her&#339;s dicit, ad omnes orationem convertens: hoc
+                    Istri causa adnotatur qui dicit, reges solos dici her&#339;s.</p>
+                       
+                    <p n="62">Omnes her&#339;s dicebantur, non vero soli reges, ut Ister
+                    opinatur.</p>
+                    
+                    <p n="63">Siceum, ut Ister.</p>
+                    
+                    <p n="64">Eo venisse ad Alexandrum Amazonem perhibent multi,
+                    inter quos Clitarchus, Polycritus, Onesicritus, Antigenes,
+                    Ister.</p>
+                    
+                    <p n="65">Ister tradit, Meleagrides aves in Lero a nulla avium
+                        curvis unguibus armatarum l&#230;di.</p>
+                    </div>
+                </div>
+            </div>
+                </body>
+    </text>
+    </TEI>
