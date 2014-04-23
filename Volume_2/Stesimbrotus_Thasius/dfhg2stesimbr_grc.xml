@@ -95,7 +95,7 @@
         <revisionDesc>
             <change who="#SS" when="2013-10-25">Created the XML file</change>
             <change who="#SS" when="2014-01-23">Encoded text</change>
-            <change who="#SS" when="2014-04-23">Updated file according too guidelines changes</change>
+            <change who="#SS" when="2014-04-23">Updated file according to guidelines changes</change>
         </revisionDesc>
 
     </teiHeader>
