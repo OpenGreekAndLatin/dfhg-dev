@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mueller2simon_grc">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+
+                <title>Fragmenta Historicorum Graecorum</title>
+
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName>Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">mueller2simon_grc.xml</idno>
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2013</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0261"
+                                >Simonides Ceus</author>
+
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+
+                            <biblScope unit="volume">2</biblScope>
+
+                        </monogr>
+
+                        <ref target="https://archive.org/details/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#SS" when="2014-04-23">Created file; encoded text</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text xml:id="something">
+
+        <body>
+
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+
+                <div type="textpart" subtype="book" n="1">
+                    <head xml:lang="grc">
+                        <persName role="author"><name type="personal">SIMONIDES</name>
+                            <name type="ethnicon">CEUS</name></persName>.
+                        <!-- @ref pointing to this individual in the prosopography/author list -->
+                    </head>
+
+                    <pb n="42"/>
+                    <p><bibl>Suidas</bibl>: <quote><persName role="author">Σιμωνίδης
+                                Κεῖος</persName>, θυγατριδοῦς κατά τινας τοῦ προτέρου (<foreign
+                                xml:lang="la">Simonidis Leoprepid&#230;</foreign>), ὃς ἐπεκλήθη
+                            Μελικέρτης. Γέγονε δὲ πρὸ τῶν Πελοποννησιακῶν καὶ γέγραφε
+                        <title>Γενεαλογίαν</title> ἐν βι&#976;λίοις γ΄, <title>εὑρήματα</title>
+                        ἐν βι&#976;λίοις γ’.</quote>
+                        <note xml:lang="la">Postrema: <foreign xml:lang="grc">εὑρήματα
+                            κτλ</foreign>. Omittit <bibl>Eudoc. p. 383</bibl>.</note></p>
+
+                    <div type="textpart" subtype="work">
+                        <ab>
+                            <title xml:lang="grc">ΓΕΝΕΑΛΟΓΙΑΙ</title>
+                            
+                            <cit n="1" xml:lang="grc">
+                                <bibl>Schol. Apoll. Rhod. II, 866</bibl>
+                                <quote> Ὅτι Ποσειδῶνος καὶ Ἀστυπαλαίας τῆς Φοίνικος ὁ Σάμιος Ἀγκαῖος
+                                    ἦν παῖς, ὃς ἐκυ&#976;έρνα τὴν ναῦν μετὰ τὴν Τίφυος τελευτὴν, καὶ
+                                    Σιμωνίδης ὁ γενεαλόγος ὁμοίως τῷ Ἀπολλωνίῳ γενεαλογεῖ.</quote>
+                            </cit>
+                            
+                            <cit n="2" xml:id="grc">
+                                <bibl>Etym. M. Ἰτωνίς</bibl>
+                                <quote>Φησὶ δὲ ὁ γενεαλόγος Σιμωνίδης Ἰτώνου θυγατέρας γενέσθαι δύο,
+                                    Ἀθηνᾶν καὶ Ἰοδάμαν, ἃς ἐζηλωκυίας τὴν ὁπλομαχικὴν εἰς ἔριν τὴν
+                                    εἰς ἀλλήλας χωρῆσαι καὶ ἀναιρεθῆναι τὴν Ἰοδάμαν ὁπὸ τῆς
+                                    Ἀθηνᾶς.</quote>
+                                <note xml:lang="la">Sequuntur versus <bibl>Apollon. Rhod, I,
+                                        550</bibl>. Eadem, nominato auctore, narrat Tzetzes ad
+                                    Lycophr. Pro <foreign xml:lang="grc">ἀλλήλας</foreign> libri
+                                        <foreign xml:lang="grc">ἀλλήλους</foreign>, quod mutavimus,
+                                    quamquam dubitante Tafelio in <bibl>Steph. Thes. tom. I, p.
+                                        1527, C</bibl>.</note>
+                            </cit>
+                        </ab>
+                    </div>
+
+                    <div type="textpart" subtype="work">
+                        <ab><title xml:lang="grc">ΣΥΜΜΙΚΤΑ</title>
+                            
+                        <cit n="3" xml:lang="grc">
+                            <bibl>Schol. Apoll. Rh. I, 763</bibl>
+                            <quote>Φρίξος Μινυήιος] ὁ Ἰώλκιος· τὴν γὰρ Ἰωλκὸν Μινύαι ᾤκουν, ὥς φησι Σιμωνίδης
+                                ἐν Συμμίκτοις.</quote>
+                            <note xml:lang="la">Num ad Nostrum h&#230;c pertinent?
+                                De re cf, <bibl>Müller. Min. p. 248, 5</bibl>.</note>
+                        </cit>
+                        </ab>
+                    </div>
+
+
+                    <div type="textpart" subtype="work">
+                        <ab><title>E LIBRO QUARTO</title>
+                            
+                            <cit n="4" xml:lang="grc">
+                                <bibl>Etym. Gud. p. 276, 41</bibl>
+                                <quote> Ἰλεὺς ὁ Αἴαντος πατὴρ
+                                    ἐτυμολογεῖται ὑφ᾿ Ἡσιόδου (fr. 48 ed. Didot.<!-- ref to fragment -->)·
+                                   <lg>
+                                    <l>Ἰλέα, τόν ῥ ἐφίλησεν ἄναξ Διὸς υἱὸς Ἀπόλλων</l>
+                                    <l>καί οἱ τοῦτ᾿ ὀνόμην᾿ ὄνομ᾿ ἔμμεναι, οὕνεκα νύμφην</l>
+                                    <l>εὑρόμενος ἵλεων, μίχθη ἐρατῇ φιλότητι,</l>
+                                    <l>ἤματι τῷ, ὅτε τεῖχος ἐϋδμήτοιο πόληος</l>
+                                    <l>ὑψηλὸν ποίησε Ποσειδάων καὶ Ἀπόλλων.</l>
+                                   </lg>
+                                    Ταῦτα παρατίθεται ἐν δ’ Σιμωνίδης.</quote>
+                                <note>Simonides haud dubie est auctor <foreign xml:lang="grc">Συμμίκτων</foreign>, uti
+                                    bene statuit <bibl>Marckscheffel. In Hesiod. fragm.
+                                    p. 401 coll. 329</bibl>, ubi simul errorem notat Weicherti
+                                    (<bibl>Leb. d. Apoll. p. 403</bibl><!-- title in italics -->), qui ap. <bibl>Schol. Paris.
+                                    Apoll. Rhod. IV, 1212</bibl> Simonidem <hi rend="italic">genealogum</hi>
+                                    laudari putavit.</note>
+                            </cit>
+                        </ab>
+                    </div>
+
+                    <div type="commentary">
+                        <p><hi rend="italic">Simonides</hi> quidam, quinquennium in Meroe moratus,
+                            qui de &#198;thiopia scripserit, memoratur
+                           <bibl> Plinio H. H. VI, 35, p. 388 Tchn.</bibl>; quo vixerit
+                            tempore incertum; attamen Aristocreonte, Bione,
+                            Basili qui idem argumentum tractabant, junior
+                            fuisse videtur.</p>
+                        <p><hi rend="italic">Simonides</hi>, qui Dionis res gestas prodidisse
+                            dicitur ap. <bibl>Diogen. L. IV, 1, 5</bibl>, esse debet <hi rend="italic">Timonides</hi>,
+                            quem vide</p>
+                        <p><hi rend="italic">Simonides Magnesius</hi>, poeta epicus, qui carmine
+                            scripsit res gestas Antiochi M. (<bibl>Suidas s. v.
+                            coll. Meinek. ad Euphor. p. 17</bibl>); porro <hi rend="italic">Simonides
+                            Carystius s. Eretriensis</hi>, poeta, qui de Gr&#230;corum
+                            in Aulide conventu deque Iphigenia scripsit
+                            (<bibl>Suidas s. v.</bibl>), ad nos nihil pertinent.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </body>
+    </text>
+</TEI>

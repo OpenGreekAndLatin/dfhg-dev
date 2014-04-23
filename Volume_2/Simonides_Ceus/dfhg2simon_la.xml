@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mueller2simon_la">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+
+                <title>Fragmenta Historicorum Graecorum</title>
+
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName>Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">mueller2simon_la.xml</idno>
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2013</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0261"
+                                >Simonides Ceus</author>
+
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+
+                            <biblScope unit="volume">2</biblScope>
+
+                        </monogr>
+
+                        <ref target="https://archive.org/details/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#SS" when="2014-04-23">Created XML file and encoded text</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="translation" subtype="volume" n="2" xml:lang="la">
+                <div type="textpart" subtype="book" n="1">
+
+                    <div type="textpart" subtype="work">
+                        <ab><title xml:lang="la">GENEALOCI&#198;</title></ab>
+
+                        <p n="1">Neptumi et Astypal&#230;&#230; Ph&#339;nice nat&#230; filium fuisse
+                            Anc&#230;um Samium, qui post Tiphyis obitum Argo navem gubernavit, eodem
+                            modo atque Apollonius narrat Simonides Genealogiarum scriptor.</p>
+
+                        <p n="2">Simonides genealogus Itoni filias dicit fuisse duas, Minervam et
+                            Iodamam. Has armis tractandis operam dantes ex &#230;mulatione devenisse
+                            ad rixam, in qua lodama a Minerva occisa esset.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work">
+                        <ab><title>MISCELLANEA</title></ab>
+
+                        <p n="3">Iolcum Miny&#230; habitarunt, sec. Simonidem in Miscellancis.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work">
+                        <ab><title>E LIBRO QUARTO</title></ab>
+
+                        <p n="4">Ilei, patris Ajacis, nomen ad Hesiodo ita derivatur: Ileum, quem
+                            sane amavit rex Jovis filius Apollo, et ipsi hoc indidit nomen habendum,
+                            quia nympham inveniens propitiam, mixtus est jucundo amore die illo, ubi
+                            murum bene construct&#230; urbis excelsum fecit Neptunus et Apollo.
+                            H&#230;c apponit Simonides libro quarto.</p>
+                    </div>
+                </div>
+            </div>
+
+        </body>
+    </text>
+</TEI>

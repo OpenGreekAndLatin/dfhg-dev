@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mueller2stesimbr_grc">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+
+                <title>Fragmenta Historicorum Graecorum</title>
+
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName>Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename">mueller2stesimbr_grc.xml</idno>
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                        Available under a Creative Commons Attribution-ShareAlike International 4.0 License</licence>
+                </availability>
+                <date>2013</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1923">Stesimbrotus Thasius</author>
+
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+
+                            <biblScope unit="volume">2</biblScope>
+
+                        </monogr>
+
+                        <ref
+                            target="https://archive.org/details/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#SS" when="2013-10-25">Created the XML file</change>
+            <change who="#SS" when="2014-01-23">Encoded text</change>
+            <change who="#SS" when="2014-04-23">Updated file according too guidelines changes</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text xml:id="something">
+        
+        <body>
+        
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+
+                <div type="textpart" subtype="book" n="1">
+                        <head xml:lang="grc">
+                        <persName role="author"><name type="personal">STESIMBROTUS</name>
+                            <name type="ethnicon">THASIUS</name></persName>.
+                        <!-- @ref pointing to this individual in the prosopography/author list -->
+                    </head>
+
+                    <pb n="52"/>
+                    <p>Stesimbrotus, Periclis et Thucydidis &#230;qualis <note type="footnote"><cit>
+                                <quote>Περὶ τὸν αὐτὸν ὁμοῦ τι χρόνον τῷ Κίμωνι γεγονὼς</quote>
+                            </cit> (fr. 4 ex <bibl>Plutarch. Cim. 4</bibl>); Cimon moritur a. 446 a. C.— <cit>
+                                <quote>Κατά τοὺς αὐτοὺς αὐτῷ (Περικλεῖ) χρόνους γινόμενος</quote>
+                            </cit> (fr. 10 ex <bibl>Athen. XIII, 589, D</bibl>). — Librum de Themistocle,
+                            Thucydide et Pericle composuit post a. 430, quo filius Periclis
+                            Xanthippus peste abreptus est. Vide <ref type="internal"
+                                target="#n-of-fragment">fr. 11</ref>. —Alium Stesimbrotum,
+                            Epaminond&#230; f., memorat <bibl>Plutarch. Par Min. 12</bibl>.</note>, Thaso
+                        oriundus, maximam vit&#230; partem Athenis transegisse videtur, ubi mercede
+                        docuit ex more sophistarum. Famam viri testantur nomina discipulorum,
+                        Nicerati Xenophontei <note type="footnote"><bibl>Xenophon Symp. III, 6</bibl>:
+                            Postquam de rhapsodorum insipientia locutus erat Socrates, non absque
+                            ironia Nicerato dicit: <cit>
+                                <quote>Σὺ δὲ Στησιμ&#976;ρότῳ τε καὶ Ἀναξιμᾶνδρῳ καὶ ἄλλοις πολλοῖς πολὺ
+                                    δέδωκας ἀργύριον, ὥστε οὐδὲν σὲ τῶν πολλοῦ ἀξίων λέληθε</quote>
+                            </cit>.</note> et Antimachi<note type="footnote"><bibl>Suidas V.
+                                Ἀντίμαχος.</bibl> Cui cur fidem denegaverit
+                                    <bibl>Schellenberg. ad Antimach. 18</bibl>, causam idoneam non
+                            video.</note>, poet&#230; doctissimi, quem inter alia etiam carminum
+                        Homericorum editionem curasse et de patria genereque Homeri disseruisse
+                        scimus. In his exemplum secutus est Stesimbroti, qui post Theagenem primus
+                        ponitur eorum, quos Tatianus (<bibl>Or. adv. Gr., c. 48; v. p. 12</bibl>) de Homeri temporibus, genere, poesi egisse
+                        dicit. Oper&#230; pars longe major in eo posita erat, ut fabul&#230; et
+                        reconditiores poet&#230; sententi&#230; <foreign xml:lang="grc"
+                            >ἀλληγορικῶς</foreign> et <foreign xml:lang="grc">πραγματικῶς</foreign>
+                        explicarentur, Id tum reliqui&#230; (<ref type="internal"
+                            target="#@n-of-fragment">fr. 19</ref>) comprobant, tum vero, innuunt
+                        loci Platonis<note type="footnote"><bibl>Platon. Ion. p. 550, D.</bibl> Ion ad Socratem
+                            dicit: <cit>
+                                <quote>Οἶμαι κάλλιστ᾿ ἀνθρώπων λέγειν περὶ Ὁμήρου, ὡς οὔτε
+                                    Μητρόδωρος ὁ Λαμψακηνὸς οὔτε Στησίμβροτος ὁ Θάσιος οὔτε Γλαύκων
+                                    οὔτε ἅλλος οὐδεὶς τῶν πώποτε γενομένων ἔσχεν εἰπεῖν οὕτω πολλὰς
+                                    καὶ καλὰς διανοίας περὶ Ὁμήρου, ὅσας ἐγώ</quote>
+                            </cit>.</note> et Xenophontis (<bibl>Conv. III, 6</bibl>), ubi Stesimbrotus cum Glauco
+                        et Anaximandro componitur (v, <bibl>Wolf. Prolegg. 161</bibl>). Addere possis
+                        Protagoram, Hippiam, Metrodorum et totam tere qu&#230; tum pullulare Athenis
+                        c&#339;perat turbam sophistarum. Horum permulti ea via incesserint, quam de
+                        ethica carminum Hom. interpretatione monstraverat Anaxagoras (v. <bibl>Lobeck. Aglaoph. p. 157</bibl>; 
+                        <bibl>Nitsch. Hist. Hom.  vol. II, p. 86</bibl>). Sed quamvis etiam Stesimbrotus ethicas s.
+                        Morales maxime allegorias in Homero reperisse sibi videatur, tamen num in
+                        his Anaxagor&#230;, Peric1is familiari, se addixerit, vehementer dubito.</p>
+
+                    <p>Alterum opus Stesimbrotus composuit <title><title xml:lang="grc">Περὶ
+                                τελετῶν</title> sive <title type="alt" xml:lang="la">De
+                                mysteriis</title></title> , qu&#230; item latum campum
+                        pr&#230;bebant interpretationi symbolic&#230; (<bibl>Lobeck. Agl. p. 150</bibl>). Qua quomodo usus sit
+                        auctor non constat.—Laudantur denique nonnulla item argumenti mythologici
+                            (<ref type="internal" target="#@n-of-fragment">fr. 16-18</ref>),
+                        qu&#230; utrum ex scriptis recensitis fluxerint, vel ad alia hodie ignorata
+                        pertineant, incertum est.—Jam si in his maxime studiis Stesimbrotus versatus
+                        esse in iisque quasihabitasse videtur, non totum tamen se iis dedidit; nam
+                        pr&#230;ter fabulas etiam sui &#230;vi historiam tractavit, eo tamen sibi
+                        similis, quod uti mythos interpretando, sic historiam deformando ad usus
+                        suos et consilia accommodaverit.</p>
+
+                    <p>Etenim scripsit Stesimbrotus librum <title xml:lang="grc">Περὶ Θεμιστοκλέους
+                            καὶ Θουκυδίδου καὶ Περικλέους</title>, testante
+                                <bibl>Athen&#230;o  XIII, p. 589, D</bibl> (<ref type="internal" target="#n-of-fragment">fr. 10</ref>).
+                        Qu&#230; pr&#230;terea de hoc opere comperta habemus, omnia uni debentur
+                        Plutarcho, qui Pericle&#230; &#230;tatis scriptorem non negligendum duxit,
+                        etsi bene vidit non majorem ejus quam comicorum ejusdem temporis poetarum
+                        esse auctoritatem. <cit>
+                            <quote>Χαλεπὸν καὶ δυσθήρατον ἱστορίᾳ τἀληθὲς, ὅταν... ἡ τῶν πράξεων καὶ
+                                τῶν βίων ἡλικιῶτις ἱστορία τὰ μὲν φθόνοις καὶ δυσμενείαις, τὰ δὲ
+                                χαριζομένη καὶ κολακεύουσα λυμαίνηται καὶ διαστρέφῃ τὴν
+                                ἀλήθειαν.</quote>
+                        </cit> Ita Plutarchus (<bibl>Per. c. 13</bibl>)
+                        comicos et Stesimbrotum perstringens, qui de Periclis <foreign
+                            xml:lang="grc">ἀσελγείᾳ</foreign> immania mendacia sparserant. Ac
+                        Stesimbrotus quidem nefandum cum uxore filii commercium ei affinxerat (<ref
+                            type="internal" target="#n-of-fragment">fr. 9, 10</ref>). Eundem
+                        Periclem alio loco (<ref type="internal" target="#n-of-fragment">fr.
+                            11</ref>) per dies integros de ineptiis cum Protagora disputantem
+                        introducit. Haud meliores mores tribuit Themistocli, cujus historiam miro
+                        commento adulteravit (<ref type="internal" target="#n-of-fragment">fr.
+                            12</ref>). Contra Cimonem tanquam prisc&#230; virtutis exemplum
+                        repr&#230;sentasse videtur. Absunt a Cimone στωμυλία ista et δεινότης, quas
+                        jactat vulgus Atheniensium, non callet musicam et qu&#230; ejusdem generis
+                        artes sunt; sed vir est <foreign xml:lang="grc">γενναῖος καὶ
+                            ἀληθὴς</foreign>, Spartanorum simplicitatem pr&#230; se ferens aliisque
+                        commendans, denique tantum non Hercules <foreign xml:lang="grc">τὰ μέγιστ᾿
+                            ἀγαθός</foreign> (<ref type="internal" target="#n-of-fragment">fr.
+                            3</ref>). Patet Cimonem justo rudiorem fingi, ut omni modo opponatur
+                        Pericli. Similiter efformaverit Thucydidem, Melesi&#230; f., Cimonis
+                        affinem, perpetuum Periclis adversarium, accusatorem Anaxagor&#230;
+                                (<bibl>Diog. L. II, 39</bibl>),
+                        pr&#230;stantissimum factionis aristocratic&#230; instrumentum (v.
+                                <bibl>Sintenis, ad Plut. Per, c. 11, p. 117</bibl>). Procul dubio Stesimbrotus unus fuit
+                        eorum, qui optimatium paribus addicti Themistoclis et Periclis institutis
+                        disciplinam publicam corruptam et antiquam morum austeritatem in effrenem
+                        populi licentiam dissolutam, Thucydidem denique, virum <pb n="53"/>
+                        nobilissimum, pravis adversarii artificiis oppressum esse autumarunt. Atque
+                        hoc ipsum, puto, est quod exponendum Stesimbrotus sibi sumpserat. Certe inde
+                        intelligitur, cur in tiulo operis nulla mentio fiat Cimonis, quanquam
+                        permulta de eo relata erant. Neque minus costat sophistas etiam artis
+                        politic&#230; magistros egisse. Protagor&#230; nomen citasse sufficit. Cf.
+                                <bibl>Plat. Euthyphr. 305, C</bibl>, ubi Prodicus sophistas
+                        quasi medios dicit inter philosophos civitatumque administratores<note
+                            type="footnote">Cf. <bibl>Roscher. De historic&#230;
+                                doctrin&#230; apud sophist. Antiq. Vestigiis (Gotting. 1838), p. 8</bibl>.</note>. 
+                        Jam quomodo Stesimbroto res cesserit,
+                        auctori pessimis opnionibus pr&#230;occupato nec sine studio et ira
+                        scribenti, non est quod dicam. Ceterum <title xml:lang="grc"
+                            >Ὑπομνήματα</title> h&#230;c non tam just&#230; et continu&#230;
+                        histori&#230; speciem habuerint, quam declamationis, qualem de quovis
+                        argumento elaborare sophist&#230; solebant<note type="footnote"
+                                ><quote>«Mirum videri possit, quid sit cur scriptor Herodoto atque
+                                Thucydide &#230;tate vel par vel adeo superior, quique tam clarum
+                                argumentum sibi tractandum sumpserit, non modo perierit, verum adeo
+                                in oblivionem abierit, ut historiarum ejus titulus uno tantum loco,
+                                memoria vix decem exstet, neque aut inter sermonis auctores a
+                                veteribus haberetur, aut a quoquam pr&#230;ter Plutarchum, qui
+                                illorum temporum res gestas tradiderit, in auxilium vocatus sit;
+                                quod si quis exiguo operis ejus pretio tribuendum censeat, at non
+                                tanta erat &#230;qualium scriptorum copia, ut si revera historicus
+                                Stesimbrotus fuisset, minus ideo mira ejus neglectio videri posset.
+                                Unum erat hominum genus, apud quos jam illa &#230;tate scribendi
+                                cacoethes adeo invaluisse videtur, ut una omnes oblivione sepultos
+                                esse mirari non licest; sophist&#230;, qui tum temporis per
+                                Gr&#230;ci&#230; urbes vagabantur neque uni alicui literarum generi
+                                sedulam et peculiarem operam navabant, sed ingeniorum fertilitate
+                                freti, quidquid occasio tulisset, pari cum levitate atque arrogantia
+                                tractabant: quibus si Stesmbrotum quoque annumeramus, non multum a
+                                veritate aberrare nobis videmur.»</quote> C. Hermann. in <bibl>Ind.
+                                Lectt. &#230;stiv. Marburg. 1836, VIII</bibl>.</note>. Ex alia ejusdem generis
+                        scriptione fluxerit illud, quod de morte Polycratis tyranni habet Fulgentius
+                            (<ref type="internal" target="#n-of-fragment">fr. 12</ref>). Atque sic
+                        demum assequor, quomodo Hadriani &#230;tate, qua h&#230;c veteris
+                        sophistices studia reviviscere c&#339;perant, scripta Stesimbroti in lucem
+                        retrahantur, quum ab antiquioribus historicis nus quam laudentur<note
+                            type="footnote">Pr&#230;ter Plutarchum vitam Periclis scripsisse dicitur
+                            Sabinus (<bibl>Schol. Aristid. III, 500 Dindf.</bibl>: <cit>
+                                    <quote>Ταῦτα δὲ καὶ Πλούταρχος καὶ Σα&#976;ῖνος καὶ πάντες οἱ τὸν
+                                    Περικλέους βίον Πάψαντες)</quote>
+                            </cit>, quem non diversum esse puto a Sabino, Aphthonii f., sophista qui
+                            sub Hadriano floruit, et pr&#230;ter alia scripsisse dicitur <quote>εἰς
+                                Θουκυδίδην καὶ Ἀκουσίλαον (?) καὶ ἄλλους ὑπομνήματα</quote>.
+                                <bibl>Suidas v. Σαβῖνος</bibl>. Cf.
+                                    <bibl>Westermann. Gesch. d. gr. Beredsamk. § 94, 14</bibl>.</note>.
+                            </p>
+                    
+
+                    <div type="textpart" subtype="work">
+                        <ab>
+                        <title xml:lang="grc">ΠΕΡΙ ΘΕΜΙΣΤΟΚΛΕΟΥΣ ΚΑΙ ΘΟΥΚΥΔΙΔΟΥ ΚΑΙ
+                            ΠΕΡΙΚΛΕΟΥΣ</title>
+                        
+                        <cit n="1" xml:lang="grc">
+                            <bibl>Plutarch. Them. 2</bibl>
+                            <quote>Στησίμ&#976;ροτος Ἀναξαγόρου τε διακοῦσαι τὸν Θεμιστοκλέα φησὶ καὶ
+                                περὶ Μέλισσον σπουδάσαι τὸν φυσικὸν, οὐκ εὖ τῶν χρόνων ἁπτόμενος·
+                                Περικλεῖ γὰρ, ὃς πολὺ νεώτερος ἦν Θεμιστοκλέους, Μέλισσος μὲν
+                                ἀντεστρατήγει πολιορκοῦντι σαμίους (<ref>85, 1</ref>), Ἀναξαγόρας δὲ
+                                συνδιέτριβε.</quote>
+                            <note xml:lang="la">Anaxagoras natus <date>Ol. 70, 1</date>
+                                    (<date>500</date> a. C.) Athenis docere c&#339;pit <date>Ol. 75,
+                                    1</date> (<date>480</date>) sec. Demetrium Phalereum et
+                                apollodorum ap. <bibl>Diog. L. II, 7</bibl>. Itaque
+                                per annos aliquot (<date>480—469</date>) consuetudine philosophi
+                                Themistocles uti potuit, neque aliud Stesimbrotus dixerit. Melissum
+                                quidem, qui per 40 annos σοφιστεῦσαι traditur, Apollodorus ap.
+                                        <bibl>Diog. L. IX, 56</bibl> floruisse ait
+                                    <date>Ol. 84</date> (<date>444—441</date>); sed hanc potissimum
+                                posuit Olympiadem, quod ea melissi vit&#230; epocha, qua Samum
+                                contra Periclem defendit, omnium notissima erat; tum vero jam
+                                provectus &#230;tate Melissus fuisse videtur, adeo ut nihil impediat
+                                quin cum eo Themistocles versatus sit. Atque omnino caute agendum
+                                est, ubi temporum ratione habita erroris aliquem a Plutarcho
+                                convinci videmus, pr&#230;sertim scriptorem, qui quamtumvis
+                                fctionsus, tamem rerum, quas narravit, fere co&#230;vus fuit. Nam
+                                Plutarchus, alioquin chronologic&#230; doctrin&#230; contemptor (v.
+                                Solon c. <date>25</date>), ubi eam in rem suam adhibet, plerumque
+                                pendet ex Apollodori compendiis chronologicis; neque ipse rationes,
+                                cur hic vel ille maxime annus viro alicui assignetur, anquirere
+                                studuit.</note>
+                            <note xml:lang="la">Paullo post Plutarchus ex codem haud dubie
+                                Stesinmbroto, uti bene statuunt Wichers. (<bibl>De fontt. Cornel.
+                                    Nep. p. 105</bibl>) et Sintenis.,
+                                ponit h&#230;c: <cit>
+                                    <quote>Ἃ δὲ τούτων ἐξαρτῶσιν ἔνιοι διηγήματα πλάττοντες,
+                                        ἀποκήρυξιν ὑπὸ τοῦ πατρὸς αὐτοῦ, θάνατον δὲ τῆς μητρὸς
+                                        ἑκούσιον, ἐπὶ τῇ τοῦ παιδὸς ἀτιμίᾳ περιλύπου γενομένης,
+                                        δοκεῖ κατεψεῦσθαι.</quote>
+                                </cit> Cf. <bibl>Valerius M. VI, 9, 2</bibl>:
+                                    <quote xml:lang="la">Piget Themistoclis adolescentiam attingere
+                                    sive patrem adspiciam, abdicationis injungentem notam, sive
+                                    matrem suspendio finire vitam propter filii turpitudinem
+                                    coactam</quote>. <foreign xml:lang="grc">Ἀποκήρυξιν</foreign> s.
+                                abdicationem memorant etiam <bibl>&#198;lian.
+                                    V.H. II, 12</bibl>, et <bibl>Suidas v.
+                                    Ἀνεῖλεν</bibl>. Exheredatum Them. Dicit <bibl>Cornel. Nep.1.</bibl> —
+                                <quote>«Jure Plutarchum de abdicatione dubitasse ostendunt, qu&#230; de re
+                                    familiari Themistoclis dicuntur cap. 25, in <bibl>Comparat.
+                                        Aristid. <pb n="54"/> c. Cat. maj.</bibl> et a <bibl>Critia
+                                        ap. &#198;lian. X, 17</bibl>, qu&#230; neque cum
+                                    exheredatione conveniunt nec cum abdicatione, siquidem
+                                    consentaneum est abdicatos bonorum non fuisse participes
+                                    paternorum. Cf. <bibl>Petit. Legg Ath. II, 4, 157</bibl>.» <hi rend="italic"
+                                        >Sintenis</hi>. </quote>
+                            </note>
+                        </cit>
+                            
+                        <cit n="2" xml:id="grc">
+                            <bibl><ref target="bibliography.xml#plutarch-from-fr1">Idem ibid. c. 24, 5</ref></bibl>
+                            <quote><foreign xml:lang="la">Themistocles ad Admetum regem Molossorum
+                                confugit.</foreign> Ἐκεῖ δ᾿ αὐτῷ τὴν γυναῖκα καὶ τοὺς παῖδας ἐκκλέψας ἐκ τῶν
+                                Ἀθηνῶν Ἐπικράτης ὁ Ἀχαρνεὺς ἀπέστειλεν, ὃν ἐπὶ τούτῳ Κίμων ὕστερον
+                                κρίνας ἐθανάτωσεν, ὡς ἱστορεῖ Στησίμ&#976;ροτος. Εἶτ᾿ οὐκ οἶδ᾿ ὅπως
+                                ἐπιλαθόμενος τούτων ἢ τὸν Θεμιστοκλέα ποιῶν ἐπιλαθόμενον πλεῦσαί
+                                φησιν εἰς Σικελίαν καὶ παρ᾿ Ἱέρωνος αἰτεῖν τοῦ τυράννου τὴν θυγατέρα
+                                πρὸς γάμον, ὑπισχνούμενον αὐτῷ τοὺς Ἕλληνας ὑπηκόους ποιήσειν,
+                                ἀποστρεψαμένου δὲ τοῦ Ἱέρωνος οὕτως τὴν Ἀσίαν ἀπᾶραι. Ταῦτα δ᾿ οὐκ
+                                εἰκός ἐστιν οὕτω γενέσθαι.</quote> 
+                            
+                                <note xml:lang="la">Fictum esse iter Siculum et ad Persici
+                                similitudinem adornatum arguit probatorum scriptorum silentium et
+                                Thucydide&#230; narrationis diversitas. (Qu&#230; reliqua Plutarchus (quem
+                                vide) opponit, nullam habent vim.) Attamen non invenit rem
+                                Stesimbrotus, sed Timocreontis Rhodii, nisi fefellit conjectura,
+                                commento usus est. Etenim Timocreon, Suida teste, <foreign xml:lang="grc">ἔγραψε κωμῳδίαν ἐς
+                                Θεμιστοκλέα καὶ Σιμωνίδην</foreign>; scimus Themistoclem utpote μηδίζοντα et
+                                pecunia corrumpi se passum a Timocreonte perstringi (<bibl>Plut. Them.
+                                21</bibl>); similiter propter tyrannorum studium sordidamque avaritiam
+                                traducitur Simonides, uti constat; ista vero lucri cupiditas
+                                quammaxime apparuit in poeta aulico, Hieronis consiliario. Igitur
+                                quum Simonides post mortem Pausani&#230; et condemnationem Themistoclis
+                                Syracusis degeret, scenam in qua adversarios suos μηδίζοντας
+                                componeret Timocreon aulam Hieronis tyranni selegisse, atque eum in
+                                finem iter istud excogitasse videtur. — Pr&#230;terea iter Siculum
+                                memoratur ab auctore Epistol. Themist. IX, ita tamen ut rationes
+                                chronologic&#230; turbat&#230; sint. De his fusius dixi in <bibl>Comment. De &#198;schyli 
+                                Sept. c. Theb. (G&#339;tting. 1836), p. 27 sqq.</bibl></note>
+                        </cit>
+                        
+                        <cit n="3" xml:lang="grc">
+                            <bibl><ref target="bibliography.xml#plutarch-from-fr1">Idem Cimon. c. 4, 6</ref></bibl> 
+                            <quote>Στησίμ&#976;ροτος δ᾿ ὁ Θάσιος περὶ τὸν αὐτὸν ὁμοῦ τι χρόνον τῷ Κίμωνι γεγονώς φησιν
+                                    αὐτὸν οὔτε μουσικὴν οὔτε ἄλλο τι μάθημα τῶν ἐλευθερίων καὶ τοῖς Ἕλλησιν ἐπιχωριαζόντων ἐκδιδαχθῆναι,
+                                    δεινότητός τε καὶ στωμυλίας Ἀττικῆς  ἀπηλλάχθαι, καὶ τῷ τρόπῳ πολὺ τὸ γενναῖον καὶ ἀληθὲς
+                                    ἐνυπάρχειν καὶ μᾶλλον εἶναι Πελοποννήσιον τὸ σχῆμα τῆς ψυχῆς τοῦ ἀνδρὸς,
+                                    
+                                   <lg><l>Φαῦλον, ἄκομψον, τὰ μέγιστ᾿ ἀγαθὸν,</l></lg>
+                                    
+                                    κατὰ τὸν Εὐριπίδειον Ἡρακλέα· ταῦτα γὰρ ἔστι τοῖς
+                                    ὑπὸ τοῦ Στησιμβρότου γεγραμμένοις ἐπειπεῖν.</quote>
+                            
+                                <note xml:lang="la">Idem Stesimbrotus subesse videtur sequentibus:
+                                    <quote>Εἰσὶ δ᾿ οἳ τὴν Ἐλπινίκην οὐ κρύφα τῷ Κίμωνι, φανερῶς  
+                                    δὲ γημαμένην συνοικῆσαι λέγουσιν, ἀξίου τῆς εὐγενείας νυμφίου διὰ τὴν πενίαν ἀποροῦσαν· ἐπεὶ δὲ Καλλίας
+                                    τῶν εὐπόρων τις Ἀθήνησιν ἐρασθεὶς προσῆλθε τὴν ὑπὲρ τοῦ πατρὸς καταδίκην ἐκτίνειν ἕτοιμος ὢν πρὸς τὸ
+                                    δημόσιον, αὐτήν τε πεισθῆναι καὶ τὸν Κίμωνα τῷ Καλλίᾳ συνοικίσαι τὴν Ἐλπινίκην.
+                                    Οὔτε μουσικὴν</quote>] Longe aliter <ref type="internal" target="n-of-Ion-fr4">Ion. fr. 4</ref>.</note>
+                        </cit>
+                        
+                        <cit n="4" xml:lang="grc">
+                            <bibl><ref target="bibliography.xml#plutarch-from-fr3">Ib. c. 14</ref></bibl>
+                            <quote>Ἐπεὶ δὲ τῶν Περσῶν τινες οὐκ ἐ&#976;ούλοντο τὴν Χερσόνησον ἐκλιπεῖν, ἀλλὰ καὶ τοὺς Θρᾷκας ἄνωθεν
+                                    ἐπεκαλοῦντο καταφρονοῦντες τοῦ Κίμωνος μετ᾿ ὀλίγων παντάπασι τριήρων Ἀθήνηθεν ἐκπεπλευκότος, ὁρμήσας
+                                    ἐπ᾿ αὐοὺς τέσσαρσι μὲν ναυσὶ, τρισκαίδεκα τὰς ἐκείνων ἔλα&#976;εν, ἐξελάσας δὲ τοὺς Πέρσας καὶ κρατήσας
+                                    τῶν Θρᾳκῶν, πᾶσαν ᾠκειώσατο τῇ πόλει τὴν Χερσόνησον. (2) Ἐκ δὲ τούτου Θασίους μὲν ἀποστάν 
+                                
+                                <pb n="55" break="no"/>
+                                
+                                τας Ἀθηναίων καταναυμαχήσας, τρεῖς καὶ τριάκοντα ναῦς ἔλα&#976;ε καὶ τὴν πόλιν ἐξεπολιόρκησε καὶ τὰ χρυσεῖα
+                                τὰ πέραν Ἀθηναίοις προσεκτήσατο καὶ χώραν, ἧς ἐπῆρχον Θάσιοι, παρέλα&#976;εν. (3) Ἐκεῖθεν δὲ ῥᾳδίως
+                                ἐπι&#976;ῆναι Μακεδονίας καὶ πολλὴν ἀποτεμέσθαι παρασχὸν, ὡς ἐδόκει, μὴ θελήσας αἰτίαν ἔσχε δώροις ὑπὸ
+                                τοῦ βασιλέως Ἀλεξάνδρου συμπεπεῖσθαι, καὶ δίκην ἔφυγε, τῶν ἐχθρῶν συστάντων ἐπ᾿ αὐτόν. (4) Ἀπολογούμενος
+                                δὲ πρὸς τοὺς δικαστὰς, οὐκ Ἰώνων ἔφη προξενεῖν οὐδὲ Θεσσαλῶν, πλουσίων ὄντων, ὥσπερ ἑτέρους, ἵνα
+                                θεραπεύωνται καὶ λαμ&#976;άνωσιν, ἀλλὰ Λακεδαιμονίων, μιμούμενος καὶ ἀγαπῶν τὴν παρ᾿ αὐτοῖς εὐτέλειαν καὶ
+                                σωφροσύνην, ἧς οὐδένα προτιμᾶν πλοῦτον, ἀλλὰ πλουτίζων ἀπὸ τῶν πολεμίων τὴν πόλιν ἀγάλλεσθαι. (5)
+                                Μνησθεὶς δὲ τῆς κρίσεως ἐκείνης ὁ Στησίμ&#976;ροτός φησι τὴν Ἐλπινίκην ὑπὲρ τοῦ Κίμωνος δεομένην ἐλθεῖν ἐπὶ
+                                τὰς θύρας τοῦ Περικλέους (οὗτος γὰρ ἦν τῶν κατηγόρων ὁ σφοδρότατος), τὸν δὲ μειδιάσαντα, «Γραῦς εἶ,
+                                φάναι, γραῦς, ὦ Ἐλπινίκη, ὡς τηλικαῦτα διαπράττεσθαι πράγματα·» πλὴν ἔν γε τῇ δίκῃ πρᾳότατον
+                                γενέσθαι τῷ Κίμωνι καὶ πρὸς τὴν κατηγορίαν ἅπαξ ἀναστῆναι μόνον, ὥσπερ ἀφοσιούμενον.</quote>
+                                
+                            <note xml:lang="la">Eadem, non nominato Stesimbroto, iterum tangit Plutarch. In <bibl>Pericle c. 10</bibl>, ubi fortasse etiam
+                                antecedentia: <quote>ἔνιοι δέ φασιν... δύναμιν ὑπάρχειν ex eodem fonte fluxerunt</quote>.</note>                                
+                        </cit>
+                        
+                        <cit n="5" xml:lang="grc">
+                            <bibl>Plut. Cim. 16, 1</bibl>
+                            <quote>Ἦν μὲν οὖν ἀπ᾿ ἀρχῆς φιλολάκων (ὁ Κίμων)· καὶ τῶν γε παίδων τῶν διδύμων τὸν
+                                ἕτερον Λακεδαιμόνιον ὠνόμασε, τὸν δ᾿ ἕτερον Ἠλεῖον, ἐκ γυναικὸς αὐτῷ Κλειτορίας γενομένους, ὡς Στησίμ&#976;ροτος
+                                ἱστορεῖ· δι᾿ ὃ πολλάκις τὸν Περικλέα τὸ μητρῷον αὐτοῖς γένος ὀνειδίζειν.
+                                
+                            <note xml:lang="la">Aliter rem narrat Diodorus Periegeta quem vide ap. <ref target="bibliography.xml#id-for-Plut">Plutarch. l. l.</ref></note></quote>
+                        </cit>
+                        
+                        <cit n="6" xml:lang="grc">
+                            <bibl><ref target="bibliography.xml#plutarch-from-fr5">Idem ib. c. 16, 5</ref></bibl>
+                            <quote>Ἔπειτα δυνατώτεροι γενόμενοι καὶ τὸν Κίμων τοῖς Σπαρτιάταις οὐκ ἠρέμα προσκείμενον
+                                ὁρῶντες ἤχθοντο. Καὶ γὰρ αὐτὸς ἐπὶ παντὶ μεγαλύνων τὴν Λακεδαίμονα πρὸς Ἀθηναίους καὶ μάλιστα
+                                ὅτε τύχοι μεμφόμενος αὐτοῖς ἢ παροξύνων, ὥς φησι Στησίμ&#976;ροτος, εἰώθειν, «<quote>Ἀλλ᾿ οὐ Λακεδαιμόνιοί
+                                γε τοιοῦτοι.</quote>» Ὅθεν φθόνον ἑαυτῷ συνῆγε καὶ δυσμένειάν τινα παρὰ τῶν πολιτῶν.</quote>
+                        </cit>
+                        
+                        <cit n="7" xml:lang="grc">
+                            <bibl>Idem in Pericle c. 26, 2</bibl>
+                            <quote>Ἐπεὶ δὲ μείζων ἕτερος στόλος ἦλθεν ἐκ τῶν Ἀθηνῶν καὶ παντελῶς κατεκλείσθησαν
+                                οἱ Σάμιοι, λαβὼν ὁ Περικλῆς ἑξήκοντα τριήρεις ἔπλευσεν εἰς τὸν ἔξω πόντον, ὡς μὲν οἱ πλεῖστοι
+                                λέγουσι, Φοινισσῶν νεῶν ἐπικούρων τοῖς Σαμίοις προσφερομένων, ἀπαντῆσαι καὶ διαγωνίσασθαι πορρωτάτω
+                                βουλόμενος, ὡς δὲ Στησίμ&#976;ροτος, ἐπὶ Κύπρὸν στελλόμενος· ὅπερ οὐ δοκεῖ πιθανὸν εἶναι. Ὁποτέρῳ δ᾿ οὖν
+                                ἐχρήσατο τῶν λογισμῶν ἁμαρτεῖν ἔδοξε.</quote>
+                            <note xml:lang="la">Caunum versus in Cariam contendit Pericles sec. <bibl>Thucyd. I, 116, 3</bibl>. Neque <bibl>Diodorus XII, 27,
+                                5</bibl>, Cypri mentionem facit.</note>
+                        </cit>
+                        
+                        <cit n="8" xml:lang="grc">
+                            <bibl>Id. ib. c. 8, 9</bibl>
+                            <quote>Ὁ δὲ Στησίμ&#976;ροτος φησὶν ὅτι τοὺς ἐν Σάμῳ τεθνηκότας ἐγκωμιάζων ἐπὶ τοῦ βήμα
+                                
+                                <pb n="56" break="no"/>
+                                
+                                τος ἀθανάτους ἔλεγε γεγονέναι καθάπερ τοὺς θεούς· οὐ γὰρ ἐκείνους αὐτοὺς ὁρῶμεν, ἀλλὰ ταῖς τιμαῖς, ἃς
+                                ἔχουσι, καὶ τοῖς ἀγαθοῖς, ἃ παρέχουσιν, ἀθανάτους εἶναι τεκμαιρόμεθα· ταῦτ᾿ οὖν ὑπάρχειν καὶ τοῖς ὑπὲρ
+                                τῆς πατρίδος ἀποθανοῦσιν.
+                            </quote>
+                        </cit>
+                        
+                        <cit n="9" xml:lang="grc">
+                            <bibl>Plutarch. Pericl. c. 13, 14</bibl>
+                            <quote>Οἱ κωμικοὶ πολλὴν ἀσέλγειαν αὐτοῦ (Περικλέους) κατεσκέδασαν... Καὶ τί ἂν
+                                τις ἀνθρώπους σατυρικοὺς τοῖς βίοις καὶ τὰς κατὰ τῶν κρειττόνων βλασφημίας ὥσπερ δαίμονι κακῷ τῷ φθόνῳ
+                                τῶν πολλῶν ἀποθύοντας ἑκάστοτε θαυμάσειεν, ὅπου καὶ Στησίμ&#976;ροτος ὁ Θάσιος δεινὸν ἀσέ&#976;ημα καὶ μυθῶδες
+                                ἐξενεγκεῖν ἐτόλμησεν εἰς τὴν γυναῖκα τοῦ υἱοῦ κατὰ τοῦ Περικλέους; Οὕτως ἔοικε πάντη χαλεπὸν εἶναι
+                                καὶ δυσθήρατον ἱστορίᾳ τἀληθὲς, ὅταν, οἱ μὲν ὕστερον γεγονότες τὸν χρόνον ἔχωσιν ἐπιπροσθοῦντα τῇ γνώσει
+                                τῶν πραγμάτων, ἡ δὲ τῶν πράξεων καὶ τῶν βίων ἡλικιῶτις ἱστορία τὰ μὲν φθόνοις καὶ δυσμενείαις, τὰ δὲ
+                                χαριζομένη καὶ κολακεύουσα λυμαίνηται καὶ διαστρέφῃ τὴν ἀλήθειαν.</quote>
+                        </cit>
+                        
+                        <cit n="10" xml:lang="grc">
+                            <bibl>Athen&#230;us XIII, p. 589, D, E, de Pericle</bibl>
+                            <quote>Ἦν δ᾿ οὗτος ἀνὴρ πρὸς ἀφροδίσια πάνυ καταφερής· ὅστις καὶ τῇ τοῦ οἱοῦ γυναικὶ συνῆν, 
+                                ὡς Στησίμ&#976;ροτος ὁ Θάσιος ἱστορεῖ, κατὰ τοὺς αὐτοὺς αὐτῷ χρόνους γενόμενος καὶ
+                                ἑωρακὼς αὐτὸν, ἐν τῷ ἐπιγραφομένῳ Περὶ Θεμιστοκλέους καὶ Θουκυδίδου καὶ Περικλέους.</quote>
+                        </cit>
+                        
+                        <cit n="11" xml:lang="grc">
+                            <bibl>Plutarch. Pericl. c. 36, 2</bibl>
+                            <quote>Ὁ γὰρ πρεσ&#976;ύτατος αὐτοῦ τῶν γνησίων υἱῶν Ξάνθιππος φύσει τε δαπανηρὸς
+                                ὢν καὶ γυναικὶ νέᾳ καὶ πολυτελεῖ συνοικῶν, Τισάνδρου θυγατρὶ, τοῦ Ἐπιλύκου, χαλεπῶς ἔφερε τὴν τοῦ
+                                πατρὸς ἀκρί&#976;ειαν γλίσχρα καὶ κατὰ μικρὸν αὐτῷ χορηγοῦντος. Πέμψας οὖν πρός τινα τῶν φίλων ἔλα&#976;εν
+                                ἀργύριον ὡς τοῦ Περικλέους κελεύσαντος. (3) Ἐκείνου δ᾿ ὕστερον ἀπαιτοῦντος, ὁ μὲν Περικλῆς καὶ δίκην αὐτῷ
+                                προσέλαχε, τὸ δὲ μειράκιον ὁ Ξάνθιππος ἐπὶ τούτῳ χαλεπῶς διατεθεὶς ἐλοιδόρει τὸν πατέρα, πρῶτον μὲν
+                                ἐκφέρων ἐπὶ γέλωτι τὰς οἴκοι διατρι&#976;ὰς αὐτοῦ καὶ τοὺς λόγους, οὓς ἐποίει μετὰ τῶν σοφιστῶν. (4) Πεντάθλου
+                                γὰρ Χαρίππου ἀκοντίῳ πατάξαντος Ἐπίτιμον τὸν Φαρσάλιον ἀκουσίως καὶ κατακτείναντος, ἡμέραν ὅλην ἀναλῶσαι
+                                μετὰ Πρωταγόρου διαποροῦντα, πότερον τὸ ἀκόντιον ἢ τὸν βαλόντα ἢ τοὺς ἀγωνοθέτας κατὰ τὸν
+                                ὀρθότατον λόγον αἰτίους χρὴ τοῦ πάθους ἡγεῖσθαι. (5) Πρὸς δὲ τούτοις καὶ τὴν περὶ τῆς γυναικὸς δια&#976;ολὴν
+                                ὑπὸ τοῦ Ξανθίππου φησὶν ὁ Στησίυ&#976;ροτος εἰς τοὺς πολλοὺς διασπαρῆναι καὶ ὅλως ἀνήκεστον ἄχρι τῆς τελευτῆς
+                                τῷ νεανίσκῳ πρὸς τὸν πατέρα παραμεῖναι τὴν διαφοράν· ἀπέθανε γὰρ ὁ Ξάνθιππος ἐν τῷ λοιμῷ νοσήσας.</quote>
+                            <note xml:lang="la"><foreign xml:lang="grc">Τίσανδρος</foreign>]sic pro vulgata <foreign xml:lang="grc">Ἴσανδρος</foreign> scribendum, uti monet Sintenis., 
+                                laudato Andocide <bibl>Or. De pace §29 et 147</bibl>.</note>
+                        </cit>
+                    </ab>
+                    </div>
+                    
+                        <div type="textpart" subtype="work">
+                            <ab>
+                                <cit n="12" xml:lang="la"> 
+                            <bibl>Fulgent. Vocum antiqq.</bibl> <note>interpret. Init.:</note> <quote xml:lang="la">Sandapilam antiqui dici voluerunt feretrum mortuorum,
+                            id est loculum; non in quo nobilium corpora, sed in quo plebeiorum atque damnatorum cadavera portabantur:
+                            sicut Stesimbrotus Thasius de morte Polycratis Samiorum regis scripsit dicens: Posteaquam
+                            de cruce depositus sandapila etiam deportatus est.</quote> <note>—Pro Thasius codd. nonnulli Stasius. Quem habuerit
+                            Fulgentius Stesimbroti interpretem latinum qu&#230;ro. Non magis constat de opere, ubi h&#230;c Ste
+                            
+                        <pb n="57" break="no"/>
+                            
+                            simbrotus tradiderit. Num Thasius Samiorum historiam texuit, an librum scripsit talem fere, qualem
+                            Phanias composuit <title xml:lang="grc">Τυράννων ἀναρέσεις</title> inscriptum? De morte Polycratis v. interprett. ad <bibl>Herodot.
+                            III, 125</bibl>; <bibl>Valerius Max. VI, 9, 5</bibl>. Ceterum cf. <bibl>L. Lersch. De Fulgentio, Bonn. 1844, p. 36</bibl>.</note>
+                                </cit>
+                            </ab>
+                        </div>                
+                    
+                    <div type="textpart" subtype="work">
+                        <ab>
+                        <title xml:lang="grc">ΠΕΡΙ ΤΕΛΕΤΩΝ</title>
+                        
+                        <cit n="13" xml:lang="grc">
+                            <bibl>Etym. M. p. 465, 30</bibl>
+                            <quote>Ἰδαῖοι ἐκλήθησαν οἱ Δάκτυλοι ὅτι ἡ κόνις ἣν ἔρριψαν (<foreign xml:lang="la">sc. Jovis nutrices</foreign>) ἐξ Ἴδης
+                                ἦν. Στησίμ&#976;ροτος δὲ ἐν τῷ Περὶ τελετῶν Διὸς καὶ Ἴδης νύμφης αὐτοὺς λέγει* φησὶν ὅτι Ζεὺς ἐκέλευσε τὰς
+                                ἰδίας τροφοὺς λαβεὶν κόνιν καὶ ῥῖψαι εἰς τοὔπισω καὶ ἐκ τῆς κόνεως γενέσθαι τοὺς Ἰδαίους Δακτύλους.
+                            </quote>
+                            
+                            <note xml:lang="la">Post <foreign xml:lang="grc">λέγει</foreign> lacunam indicavi. Nomen auctoris nescio cujus excidisse videtur, 
+                                Cf. <bibl>Welcker, Trilog. p, 179</bibl>; <bibl>Lobeck. Aglaoph. p. 1158</bibl>. 
+                                
+                                <bibl>Apollon, Rhod. I, 1129</bibl>:
+                                    
+                                    <lg>
+                                         <l>Δάκτυλοι Ἰδαῖοι Κρηταιέες, οὕς ποτε νύμφη</l>
+                                         <l>Ἀγχιάλη Δικταῖον ἀνὰ σπέος, ἀμφοτέρῃσιν</l>
+                                         <l>δραξαμένη γαίης Οἰαξίδος, ἐβλάστησεν.</l>
+                                    </lg>
+                                    
+                                Ad h&#230;c schol.: <quote>Ὅτι δὲ νύμφη τις Οἰαξίδος γῆς δραξαμένη τοὺς καλουμένους Ἰδαίους Δακτύλους ἐποίησε,
+                                    παρὰ Στησιμ&#976;ρότου εἴληφε· καὶ ὅτι διὰ τὰ ῥυῆναι αὐτοὺς διὰ τῶν χειρῶν, Δάκτυλοι κληθῆναι. Σοφοκλῆς
+                                δὲ (<ref type="internal" target="#n-of-fragment">fr. 712</ref>) αὐτοὺς Φρύγας καλεῖ ἐν Κωφοῖς Σατύροις.</quote>
+                                
+                                Cf. Varro apud <bibl>Serv. Ad Virg, Ecl. I, 66</bibl>: «<quote xml:lang="la">Varro  ait: Quos magno Anchiale partus adducta dolore
+                                    Et geminis capiens tellurem &#338;axida palmis (Edidit in Creta. <bibl>V. Poet. Min, tom, V, p. 3, p. 1412</bibl>).</quote>»
+                                —<bibl>Diomedes Gramm. III, p. 474 P.</bibl>: <quote>Aiunt Opem in Idam montem insul&#230; Cret&#230; fugiendo delatam
+                                manus suas imposuisse memorato monti et sic infantem ipsum edidisse, et ex manuun impressione 
+                                emersisse Curetas sive Corybantas, quos a montis nomine et a qualitate facti Id&#230;os Dactylos appellarunt.</quote>
+                                —<foreign xml:lang="grc">Καὶ ὅτι δ. τ. ῥ.</foreign>] H&#230;c ad eam narrationem spectant, ex qua Dactyli e jactu pulveris Nympharum digis sparsi 
+                                nati nominatique dicuntur. Quare plura Tidentur omissa; et scholiast, et Etym. M. ex eodem fonte corrupto sua habere probabile est.</note>
+                        </cit>
+                        
+                        <cit n="14" xml:lang="grc">
+                            <bibl>Strabo X, p, 472</bibl>
+                            <quote>Ἔτι δὲ Κρόνου τινὲς τοὺς Κορύ&#976;αντας, οἱ δὲ τοῦ Διὸς καὶ Καλλιόπης φασὶ τοὺς αὐτοὺς
+                                τοῖς Κα&#976;είροις ὄντας, ἀπελθεῖν δὲ τούτους εἰς Σαμοθρᾴκην, καλουμένην πρότερον μελίτην· τὰς δὲ πράξεις
+                                αὐτῶν μυστικὰς εἶναι. Ταῦτα δ᾿ οὐκ ἀποδεξάμενος ὁ Σκήψιος ὁ τοὺς μύθους τούτους συναγαγὼν, ὡς μηδενὸς
+                                ἐν Σαμοθρᾴκῃ μυστικοῦ λόγου περὶ Κα&#976;είρων λεγομένου, παρατίθησιν ὅμως καὶ Στησιμ&#976;ρότου τοῦ
+                                Θασίου δόξαν, ὡς τὰ ἐν Σαμοθρᾴκῃ ἱερὰ τοῖς Κα&#976;είροις ἐπετελεῖτο· καλεῖσθαι δέ φησιν αὐτοὺς ἐκεῖνος ἀπὸ τοῦ
+                                ὄρους τοῦ ἐν Βερεκυντίᾳ Κα&#976;είρου.</quote>
+                            
+                            <note xml:lang="la">Lege etiam qu&#230; antecedunt ap. Strabonem, «<quote>Quorum h&#230;c, ut conjicio, sententia est: Nonnulli
+                                Corybantes (incertum omnes an duntaxat aliquos) in Samothraciam abiisse memorant, ei esse cosdem,
+                                qui in hac insula Cabiri nominentur, sed, quia Corybantum Phrygiorum vel Cretensium <foreign xml:lang="grc">πράξεις</foreign> h. c.
+                                opera et ministeria omnium sermone celebrantur, de Samothraciis autem Corybantibus nihil innotuit,
+                                dicere coacti sunt <foreign xml:lang="grc">τὰς πράξεις αὐτῶν μυστικὰς εἶναι</foreign>. Id autem impugnat Demetrius, in mysteriis nihil
+                                de Cabirorum rebus gestis tradi, neque ut Rheam comitati sint, neque ut Jovem Bacchumque educaverint,
+                                ideoque nullam causam esse cur Cabiri iidem Corybantes esse credantur. Mülleri (<bibl>Prolegg.
+                                p. 150</bibl>) conjectura pro <foreign xml:lang="grc">μηδενὸς μυστικοῦ λόγου περὶ Καβείρων λεγ.</foreign> substituentis <foreign xml:lang="grc">περὶ Κουρήτων</foreign>,
+                                non solum justo audacior, sed etiam a Demetrii argumentatione, qu&#230; tota in Coretum Corybantumve
+                                et Cabirorum dlstinctione venatur, aliena videtor; nam quod sequitur <foreign xml:lang="grc">οἱ δὲ Ἑκάτης προπόλους
+                                νομίζουσι τοὺς Κουρῆτας τοὺς αὐτοὺς τοῦς Κορύβασιν ὄντας</foreign>, id Strabonis additamentum est, quo
+                                inchoatum de Curetibus sermonem absolvit. Nihilo magis probo quod alii subsequentia verba <foreign xml:lang="grc">παρατίθησιν
+                                ὁμοίως</foreign> sollicitant <foreign xml:lang="grc">ὅμως</foreign> pr&#230;optantes; nam illud <foreign xml:lang="grc">ὁμοίως</foreign> 
+                                refertur ad pr&#230;cedentia <foreign xml:lang="grc">ὁ τοὺς μύθους συναγαγὼν τούτους</foreign>, 
+                                totumque enuntiatum hoc valet: <hi rend="italic">Demetrius ut cetera qu&#230; huc pertinent, ita etiam 
+                                Stesimbroti sententiam commemorat, sacra Samothracia Cabirorum in honorem instituta esse</hi>; qu&#230;
+                                Stesimbroti <foreign xml:lang="grc">δόξα</foreign> fuit. Hinc perspicuum fit non idem omnes sensisse; dissentientium vero non alia opinio
+                                esse potuit, quam ea sacra qu&#230; <foreign xml:lang="grc">ἱερὰ Καβείρων</foreign> dicantur, hoc nomen habere quia a Cabiris condita
+                                et administrata fuerint, non quia Cabirorum causa
+                            
+                            <pb n="58"/>
+                            
+                                fiant. Ea sine controversia Strabonis opinio fuit omniumque qui Cabiros divinarum ceremoniarum
+                                administros fuisse statuerunt, Corybantum, Dactylorum, Curetumque similes, h. e. deorum majorum
+                                paredros. Stesimbrotus vero contrarium decernit, eos esse deos sacrorum principes pr&#230;sidesque.
+                                Unde intelligi oportet eum Cabiros nequaquam in numero d&#230;monum terrestrium et gregariorum
+                                duxisse, sed deorum consentium ordini adscriptos putasse, sive ille Mercurium Proserpinamque
+                                animo complexus est, sive alios c&#339;licolarum, qui in progressu sermonis e penetralibus evocabantur.</quote>»
+                                <bibl>LOBECK Aglaoph. p. 1216</bibl>. Cum his conf. Qu&#230; disputat <bibl>Welck. Trilog. p. 235, 233</bibl>.
+                                — <foreign xml:lang="grc">ὄρους Καβείρου</foreign> mons ignotus. Servius ad <bibl>&#198;n. VI, 785</bibl>: 
+                                <quote xml:lang="la">Berecyntum, eastellum Phrygi&#230; juxta Sangarium, ubi Mater de&#251;m colitur</quote>. 
+                                Plura v. ap. <ref target="bibliography.xml#id-for-Lobeck">Lobeck. l. l</ref>.)
+                            </note>
+                        </cit>
+                        
+                        <cit n="15" xml:lang="grc">
+                            <bibl>Apostol Prov. XIX, 65</bibl>
+                            <quote>Τυφλότερος ἀσπάλακος· τοῦτο τὸ ζῷον οὐκ ἔχει ὀφθαλμούς· φησὶ δ᾿ αὐτὸ
+                                Στησίμ&#976;ροτος ὑπὸ τῆς Γῆς τυφλωθῆναι διὰ τὸ φθείρειν τοὺς καρπούς.</quote>
+                            
+                            <note xml:lang="la">Eadem Arsenius, Photius, Suidas s. v. Cf. <bibl>Leutsch. ad Diogenian. VIII, 309</bibl>, ubi de talpa
+                                laudat Schneider, ad <bibl>Aristot. H. A. IV, 8, 9</bibl>, <bibl>&#198;lian. H. A. XI, 37</bibl>.
+                                —H&#230;c quoque in libris <title xml:lang="la">De mysteriis</title> legi poterant.</note>
+                        </cit>
+                        
+                        <cit n="16" xml:lang="grc">
+                            <note type="editorial" resp="mueller" cert="low"/> <!-- certainty option 1; simple, not particularly precise or informative -->
+                            <bibl>Etym. M. p. 277, v. Διόνυσος (1)</bibl>
+                            <quote>Οἱ μὲν Διόνυσον αὐτὸν ὀνομάζουσιν, ὅτι σὺν κέρασι γεννώμενος (ὅτι κερατοφόρος
+                                ἐξελθὼν <bibl><foreign xml:lang="la">Tzetz. Lyc. 209</foreign></bibl>) 
+                                ἔνυξε τὸν Διὸς μηρὸν, ὡς Στησίμ&#976;ροτος.</quote> 
+                            <note xml:lang="la">Vide <bibl>Steph. Thes. v. <foreign xml:lang="grc">Διόνυξος</foreign></bibl>.</note>
+                        </cit>
+                        
+                        <cit n="17" xml:lang="grc">
+                            <bibl>Schol. Apoll. Rh, I, 1304</bibl>
+                            <quote source="mueller"><certainty locus="value" match="ancestor:cit" cert="low"/>  <!-- certainty option 2; more precise, but divided between two elements -->
+                                Στησίμ&#976;ροτος δέ φησιν (<foreign xml:lang="la">Boreadas ab Hercule interfectos esse</foreign>) ὅτι διαφορὰν
+                                ἔσχον πρὸς τὸν Ἡρακλέα περὶ πῶν δεδομένων δώρων ὑπὸ Ἰάσονος τοῖς ἀριστεῦσι.</quote>
+                        </cit>
+                    </ab>
+                    </div>
+                    
+                    <div type="textpart" subtype="work">
+                        <ab>
+                        <title xml:lang="grc">ΠΕΡΙ ὉΜΗΡΟΥ</title>
+                        
+                        <cit n="18" xml:lang="grc">
+                            <bibl n="1">Iriart. Vit. Hom. p. 233</bibl>
+                            <quote n="1">Ἀντίμαχος Κολοφώνιον Στησίμ&#976;ροτος δὲ Σμυρναῖον (τὸν Ὅμηρον γεγονέναι
+                                φασί).</quote>
+                            <note n="1" xml:lang="la">V. <bibl>Nitzsch. Hist. Hom. II, p. 86</bibl>; <bibl>Welck. Cycl. p. 143</bibl>.</note>
+                            
+                            <bibl n="2">Schol. ad Hom. Il. Λ, 636</bibl>
+                            <quote n="2">Ἄλλος μὲν μογέων ἀποκινήσασκε τραπέζης πλεῖον ἐὸν (<foreign xml:lang="la">sc.</foreign> Τὸ δέπας <foreign xml:lang="la">in
+                                anteced. descriptum</foreign>), Νέστωρ δ᾿ ὁ γέρων ἀμογητὶ ἄειρεν]. <foreign xml:lang="la">Cur Nestorem potissimum poeta dixerit,
+                                qu&#230;runt</foreign>. Στησίμ&#976;ροτος μέν φησιν, ἵνα δοκῇ εἰκότως πολλὰ ἔτη βε&#976;ιωκέναι· εἰ γὰρ παραμόνιος ἡ ἰσχὺς, καὶ
+                                οὐχ ὑπὸ γήρως μεμάρανται, καὶ τὰ τῆς ζωῆς εὔλογον εἶναι παραπλήσια· Ἀντιφάνης δὲ, οὐ περὶ τῆς κατὰ χεῖρα
+                                βαρύτητος λέγει, ἀλλ᾿ ὅτι οὐκ ἐμεθύσκετο σημαίνει, ἀλλ᾿ ἔφερε ῥᾳδίως τὸν οἶνον· Γλαῦκος δὲ, ὅτι κατὰ
+                                διάμετρον ἐλάμ&#976;ανε τὰ ὦτα, ἐκ μέσυ δὲ πᾶν εὔφορον.</quote> 
+                            <note n="2" xml:lang="la">Eadem, sed manca, in Crameri <bibl>Anecd, Paris, vol. III, p. 16, 14</bibl>.</note>
+                            
+                            <bibl n="3"><ref target="bibliography.xml#id-of-bibl2">Id. ib. Φ, 76</ref></bibl>
+                            <quote n="3">Ἀποροῦσι πῶς ὁ ἱκετεύων (<foreign xml:lang="la">Lycaon vitam ab Achille precans</foreign>) πρὸς τὸν Ἀχιλλέα ἔφη·
+                                «<quote>Πὰρ γὰρ σοὶ πρώτῳ πασάμην Δημήτερος ἀκτήν.</quote>» Τὸ γὰρ λέγειν, καθάπερ Στησίμ&#976;ροτος, ὅτι οἱ βάρ&#976;αροι
+                                ἄλφιτα οὐκ ἐσθίουσιν, ἀλλ᾿ ἄρτους κριθίνους, ψεῦδος.</quote>
+                            <note n="3" xml:lang="la">Eadem in Crameri <bibl>An. Par. III, p. 27, 13</bibl>.</note>
+                            
+                            <bibl n="4"><ref target="bibliography.xml#id-of-bibl2">Id. ib. Ο’, 193, γαῖα δ᾿ ἔτι κτλ.]</ref></bibl>
+                            <quote n="4">Κράτης ἐν β’ Ὁμηρικῶν καὶ Στησίμ&#976;ροτος οὕτως δέδασται.</quote>
+                        </cit>
+                    </ab>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+        </body>
+    </text>
+</TEI>

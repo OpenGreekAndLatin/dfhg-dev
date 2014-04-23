@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mueller2hippias_grc">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+
+                <title>Fragmenta Historicorum Graecorum</title>
+
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName>Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">mueller2hippias_grc.xml</idno>
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                        Available under a Creative Commons Attribution-ShareAlike International 4.0 License</licence>
+                </availability>
+                <date>2013</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1434">Hippias Eleus</author>
+
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+
+                            <biblScope unit="volume">2</biblScope>
+
+                        </monogr>
+
+                        <ref
+                            target="https://archive.org/details/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#SS" when="2013-10-25">Created the XML file</change>
+            <change who="#SS" when="2014-01-23">Encoded text</change>
+            <change who="#SS" when="2014-04-23">Updated file according too guidelines changes</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text xml:id="something">
+
+        <body>
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+
+                <div type="textpart" subtype="book" n="1">
+
+                    <head xml:lang="grc">
+                        <persName role="author"><name type="personal">HIPPIAS</name>
+                            <name type="ethnicon">ELEUS</name></persName>.
+                        <!-- @ref pointing to this individual in the prosopography/author list -->
+                    </head>
+
+                    <pb n="59"/>
+                    <p>Gorgiam Leontinum a Clemente Alexandrino <foreign xml:lang="grc"
+                            >ἱστορικόν</foreign> appellari supra vidimus (p. 20); ibidem suspicati
+                        sumus Eudemum Parium, qui cum Gorgia componitur, non diversum esse ab Eueno
+                        sophista. Uterque Amelesagoram Atticarum fabu1arum narratorem expilasse
+                        dicitur. Quod ad declamationes spectare videtur, quales erant Gorgi&#230; <title
+                            xml:lang="grc">Ἀπολογία ὑπὲρ Παλαμήδους</title> et <title xml:lang="grc"
+                            >Ἑλένης ἐγκώμιον</title>. Ali&#230; a Gorgia orationes habit&#230; sunt, quibus
+                        vere historicum argumentum suberat: <title xml:lang="grc">Λόγον
+                            Ὀλυμπικὸν</title> dico, <title xml:lang="grc">Λόγον ἐπιτάφιον</title>,
+                        nec non <title xml:lang="grc">Ἐγκώμιον εἰς Ἠλείους</title>. (Vide
+                            <bibl>Geel. Hist. crit. Sophist. in Actis Nov. Societ. Rheno-Traj.
+                            1823</bibl>; <bibl>II, p. 31, Foss. De Gorgia, Hal&#230; 1828</bibl>.)
+                        Ejusdem de Homeri genere sententiam servavit <bibl>Auctar Vit. Hom.
+                            Iriart.</bibl> (v. fragm. Damastis <!-- link to Damastes? -->); ejus de
+                        trag&#339;dia jodicium habes ap. <bibl>Plutarch.De glor. Athen. p. 348</bibl>.
+                        Porro in Cimonis <bibl>Vita Plutarchus c. 10</bibl>: <quote xml:lang="grc"
+                            >Γοργίας ὁ Λεοντῖνος φησὶ τὸν Κίμωνα τὰ χρήματα κτᾶσθαι ὡς μὲν χρῷτο,
+                            χρῆσθαι δὲ ὡς τιμῷτο</quote>. Verum ejusmodi res quavis occasione
+                        proferri potuerunt, neque ullum librum, quem historicum dicere liceat, a
+                        Gorgia scriptum esse accepimus. Idem valet de Prodico<note type="footnote"
+                            n="1">
+                            <bibl>Aristot. Rhet. II, 23</bibl>: <quote>Ἄλλος (τόπος) ἀπὸ τοῦ
+                                ὀνόματος... ὡς Κόνων Θρασύ&#976;ουλον θρασύ&#976;ουλον, καὶ Ἡρόδικος
+                                θρασύμαχον, ἀεὶ θρασύμαχος εἰ, καὶ Πῶλος, ἀεὶ σὺ πῶλος εἰ</quote>.
+                            Ad h&#230;c Schol. <quote>Ὁ δὲ Ἡρόδικος Ἀθηναῖος
+                            ἱστορικός</quote>. At de Athaniense H. nihil
+                            coastat. In aprico est sophistam intelligi, vel Herodicum Selymbrianum,
+                            medicum artisque gymnastic&#230; magistrum (<bibl>Plato Ph&#230;dr. p. 227,
+                                D</bibl>, <bibl>Protag. 316, E, Rep. 406 A</bibl>, v. <ref
+                                target="bibliography.xml#id-of-Geel">Geel. l. l.</ref>; <bibl>C.
+                                Hermaun. ad Lucian. De conscr. Hist. c. 35, p. 267</bibl>. Alius
+                            Herodicus, Gorgi&#230; frata, memoratur Platoni in <bibl>Gorg. p. 448,
+                                B</bibl>.); vel pro <foreign xml:lang="grc">Ἡρόδικος</foreign>
+                            scribendum <foreign xml:lang="grc">Πρόδικος</foreign>, uti censet
+                            Spengel. <bibl><title xml:lang="grc">Συναγ. Τεχν.</title> p. 94</bibl>,
+                            assentiente Welkero in <bibl>Rhein. Mus. tom. I, p. 563 sq</bibl>.
+                            Frequens horum nominum confusio. Cf. <bibl>Welk. Cycl. p.
+                            255</bibl>.</note> et Protagora<note type="footnote" n="2"> Cammentarios
+                            historicos (<hi rend="italic">Memoirische Arbeiten</hi>) a Protagora
+                            compositos esse putat Roscber. (<bibl>Clio p. 294</bibl>), laudato
+                            Plutarcho <bibl>Consolat. ad Apollon. c. 33</bibl>, ubi est Protagor&#230;
+                            locus de animi constantia et altitudine quam post amissos filios
+                            Pericles ostenderit. Sed h&#230;c percommode referas ad librum <title
+                                xml:lang="grc">Περὶ ἀρετῶν</title> (<bibl>Diog. L. IX , 51</bibl>.
+                                <bibl>Geel. I. I. p. 84</bibl>), in quo pr&#230;cepta exemplis
+                            philosophus illustraverit. Aliis rebus historicis locum dedit liber
+                                <title xml:lang="grc">Περὶ πολιτείας</title>
+                            <!-- same thing attributed to two different works -->.</note>. Atque
+                        omnino triumviri veteris sophistic&#230; principes, ut propiores sapienti&#230;
+                        philosophic&#230;, sic ab historicis doctrinis alieniores fuisse videntur. Horum
+                        autem successores quum humani generis disciplinas ad unam omnes attingerent
+                        et in usus suos converterent, cum eloquentia etiam eruditionem historicam
+                        sociare summopere studuerunt. Inter eos eminet Hippias Eleus, sophistarum
+                        uti arrogantissimus, sic facile doctissimus: <quote xml:lang="grc">σωρὸν καὶ
+                            ἐσμὸν σοφίας</quote> dicit <bibl>Themistius Or. XXIX, p. 345,
+                        D</bibl>.</p>
+
+                    <cit>
+                        <bibl>Suidas:</bibl>
+                        <quote>Ἱππίας, Διοπείθους, Ἠλεῖος, σοφιστὴς καὶ φιλόσοφος, μαθητὴς
+                            Ἡγησιδάμου, ὃς τέλος ὡρίζετο τὴν αὐτάρκειαν. Ἔγραψε πολλά.</quote>
+                    </cit>
+
+                    <p><bibl>Geel. I. I. p. 181</bibl>: «<quote>De Hippi&#230; &#230;tate nihil amplius
+                            affirmare licet, nisi eum fuisse Protagora multo juniorem<note
+                                type="footnote">Uxor Hippi&#230; fuit Plathane, et eaque tres genuerat
+                                filios, quorum natu minimus Aphareus. Hunc adoptavit, Plathanenque
+                                viduam Isocrates jam senex uxorem duxit, teste <bibl>Plutarch. Dec.
+                                    Orat. IV, §. 41, p. 1022 ed. Didot.</bibl> (Cf.
+                                    <bibl>Westermann. Gesch. d. gr. Bereds. § 48, 8.</bibl>) Igitur
+                                Hippias Platone multo antiquior esse non potuit.</note>: hoc ipse
+                            testatur apud Platonem <bibl>Hipp. maj. p. 96, C</bibl>. Suida teste, in
+                                <foreign xml:lang="grc">Ἱππίας</foreign>, audivit Hegesidemum<note
+                                type="footnote"><hi rend="italic">Hegesidemum</hi> quendam Cythium
+                                laudal <bibl>Plin. H. N. IX, 8</bibl>, de Delphinum erga homines
+                                amore. Eadem <bibl>Solin. c. 18</bibl>.</note>, de quo horum
+                            temporum philosopho vel sophista, nos ne fando quidem audivimus; vero
+                            simile quidem est, cum sui &#230;qualibus sophistis versatum esse, quibuscum
+                            sane divertebat apud Calliam Atheniensem; vid. <bibl>Plat. Protag. p.
+                                195, E</bibl>. Credendum est eum musicam a Lampro, rhetoricam ab
+                            Antiphontc Rhamnusio didicisse: Athen&#230;us enim (<bibl>X, p. 506,
+                            F</bibl>), <quote xml:lang="grc">Ἐν δὲ τῷ Μενεξένῳ, inquit, οὐ μόνον ὁ
+                                Ἱππίας ὁ Ἠλεῖος χλευάζεται, ἀλλὰ καὶ ὁ Ῥαμνούσιος Ἀντιφῶν καὶ ὁ
+                                μουσικὸς Λάμπρος</quote>. In Platonis autem Menexeno Hippi&#230; nomen
+                            nusquam occurrit; sed Socrates rhetorum laudationes orationesque
+                            funebres videns, se has etiam facere posse gloriatur, quippe musicam
+                            edoctum a Conno, rhetoricam ab Aspasia: <quote xml:lang="grc">Οὕτω μὲν
+                                οὖν τρεφόμενον ἄνδρα (<foreign xml:lang="la">inquit</foreign>
+                                <bibl>p. 236, A</bibl>) οὐδὲν θαυμαστὸν δεινὸν εἶναι λέγειν· ἀλλὰ
+                                καὶ ὅστις ἐμοῦ κάκιον ἐπαιδεύθη, μουσικὴν μὲν ὑπὸ Λάμπρου
+                                παιδευθεὶς, ῥητορικὴν δὲ ὑπ᾿ Ἀντιφῶντος τοῦ Ῥαμνουσίου, ὅμως κἂν
+                                οὗτος οἷόστ᾿ εἰη Ἀθηναίοις ἐπαινῶν εὐδοκιμεῖν</quote>. Quodsi
+                            Athen&#230;us tam certo scivit, Hippiam a Platone tacite designari, necesse
+                            est aliunde illi innotuerit, hos pr&#230;ceptores Hippiam
+                        habuisse.</quote></p>
+
+                    <p>«<quote xml:lang="la">Minus frequenter Athenis commorabatur, in quam urbem se
+                            raro venire simulat, propter infinitum legationum obeundarum laborem.
+                            Vid. <bibl>Hipp. maj. p. 95, D</bibl>; <bibl>Xenophon. Mem. IV,
+                            4</bibl>: <quote xml:lang="grc">Διὰ χρόνον ἀφικόμενος ὁ Ἱππίας Ἀθήναζε
+                                παρεγένετο τῷ Σωκράτει</quote>. Itaque veteres sophistas per Gr&#230;ciam
+                            circumvagantes sectatus sit, aut alios etiam artium magistros, jam tum
+                            in quovis genere orientes, diligenter audiverit, e quorum institutione,
+                            quum <pb n="60"/> felicissima valeret memoria (<bibl>Plato Hipp. maj. p.
+                                97, E</bibl><note type="footnote">Ἅπαξ ἀκούσας πεντήκοντα ὀνόματα
+                                ἀπομνημονεύω.</note>; <bibl>Philostrat. V. Sophist. p. 597</bibl>),
+                            ita profecerit, ut omnem artium disciplinarumque ambitum complecteretur,
+                            neque eas tantum, qu&#230; sola vi ingenii excolerentur, verum etiam qu&#230;
+                            manuum artificio exercerentur, probabiliter novisset (<bibl>Hipp. min.
+                                p. 230, B</bibl>, et <bibl>231, G</bibl><note type="footnote"
+                                >Socrates ad Hippiam: <quote xml:lang="grc">Ἔφησθα δὲ ἀφικέσθαι ποτε
+                                    εἰς Ὀλυμπίαν, ἃ εἶχες περὶ τὸ σῶμα ἅπαντα, σαυτοῦ ἔργα ἔχων.
+                                    Πρῶτον μὲν δακτύλιον (ἐντεῦθεν γὰρ ἤρχου) ὅν εἶχες, σαυτοῦ ἔχειν
+                                    ἔργον· ὡς ἐπιστάμενος δακτυλίους γλύφειν· καὶ ἄλλην σφραγῖδα,
+                                    σὸν ἔργον, καὶ στλεγγίδα, καὶ λήκυθον, ἃ αὐτὸς εἰργάσω· ἔπειτα
+                                    ὑποδήματα ἅ εἶχες, ἔφησθα αὐτὸς σκυτοτομῆσαι, καὶ τὸ ἱμάτιον
+                                    ὑφῆναι, καὶ τὸν χιτωνίσκον· καὶ (ὅ γε πᾶσιν ἔδοξεν ἀτοπώτατον,
+                                    καὶ σοφίας πλείστης ἐπίδειγμα) ἐπειδὴ τὴν ζώνην ἔφησθα τοῦ
+                                    χιτωνίσκου, ἣν εἶχες, εἶναι μὲν οἶαι αἱ περσικαὶ τῶν πολυτελῶν,
+                                    ταύτην δὲ αὐτὸς πλέξαι. Πρὸς δὲ τούτοις ποιήματα ἔχων ἐλθεῖν,
+                                    καὶ ἔπη καὶ τραγῳδίας καὶ διθυράμ&#976;ους καὶ καταλογάδην πολλοὺς
+                                    λόγους καὶ παντοδαποὺς συγκειμένους· καὶ περὶ τῶν τεχνῶν δὴ ὦν
+                                    ἄρτι ἐγὼ ἔλεγον, ἐπιστήμων ἀφικέσθαι διαφερόντως τῶν ἄλλων, καὶ
+                                    περὶ ῥυθμῶν καὶ ἁρμονιῶν καὶ γραμμάτων ὀρθότητος.</quote> Modo
+                                teneas Sοcratem esse, qui h&#230;c jactet. Cf. <bibl>Cicero De orat. III,
+                                    32</bibl>.</note> coll. <bibl>Philostr. l.
+                                l.</bibl>). Quo factum est ut a civitate sua idoneus haberetur
+                            aliquam reipublici&#230; curam gerendo<note type="footnote"><bibl>Hippias
+                                    maj. p. 95, D (285)</bibl>: <quote xml:lang="grc">Ἡ γὰρ Ἦλις,
+                                    Hippias inquit, ὅταν τι δέηται διαπράξασθαι πρός τινα τῶν
+                                    πόλεων, ἀεὶ ἐπὶ πρῶτον ἐμὲ ἔρχεται τῶν πολιτῶν, αἱρουμένη
+                                    πρεσ&#976;ευτὴν, ἡγουμένη δικαστὴν καὶ ἄγγελον ἱκανώτατον εἶναι τῶν
+                                    λόγων, οἳ ἂν παρὰ τῶν πόλεων ἑκάστων λέγωνταί.</quote></note>,
+                            s&#230;piusque legatus tum ad alias urbes, tum inprimis Laced&#230;monem
+                            mitteretur. <bibl>Plato l. l.</bibl> Ac per ipsam quidem
+                            harum legationum opportunitatem , suam doctrinam divenditabat: Athenis,
+                            ubi a Platone<note type="footnote"><bibl>Athen&#230;us V, p. 218, C</bibl>:
+                                    <quote>Ὁ δὲ Πλάτων καὶ τὸν Ἠλεῖον ἱππίαν συμπαρόντα ποιεῖ ἐν τῷ
+                                    Πρωταγόρᾳ, μετά τινων ἰδίων πολιτῶν· οῦς οὐκ εἰκὸς ἐν Ἀθήναις
+                                    ἀσφαλῶς διατρί&#976;ειν πρὸ τοῦ τὰς ἐνιαυσίας ἐπὶ Ἰσάρχου (<bibl>Ol.
+                                        89, 1. a. C. 424</bibl>) Ἐλαφηβολιῶνος συντελεσθῆναι
+                                    σπονδάς.</quote> Sequentia ap. ipsum legas.</note> et Xenophane
+                            sermonem cum Socrate habens fingitur; in Sicilia, ubi e regione quadam
+                            Inyca, magna institutionis mercede poscenda, ingentem pecuniam coegit
+                                (<bibl>Plato l. l. 96, C</bibl>, et
+                                <bibl>Philostrat. l. l.</bibl>); Laced&#230;mone, ubi quum
+                            homines minus avidos harum deliciarum deprehenderet, magis austero
+                            utebatur dicendi genere gravioribusque loquendi argumentis, rerum
+                            publicarum genera recensens, de coloniis operibusque publicis disputans:
+                                <quote xml:lang="grc">Περὶ τῶν γενῶν, ὦ Σώκρατες, τῶν τε ἡρώων καὶ
+                                τῶν ἀνθρώπων καὶ τῶν κατοικίσεων, ὡς τὸ ἀρχαῖον ἐκτίσθησαν αἱ
+                                πόλεις, καὶ συλλή&#976;δην πάσης τῆς ἀρχαιολογίας ἥδιστα ἀκροῶνται<note
+                                    type="footnote"><bibl>Philostrat. V. Soph. p. 495</bibl> dicit
+                                    Hippiam in ceteris Gr&#230;ci&#230; urbibus sermones instituisse de
+                                    geometria, astronomia, musica, historia naturali, pingendi arte:
+                                        <quote>ἐν Λακεδαίμονι δὲ γένη τε διῄει πόλεων καὶ ἀποικία
+                                        καὶ ἔργα, ἐπεὶ οἱ Λακεδαιμόνιοι διὰ τὸ βούλεσθαι ἄρχειν τῇ
+                                        ἰδέᾳ ταύτῃ ἔχαιρον.</quote> De his Laced&#230;moniorum deliciis
+                                    cf. <bibl>Osann. <title>Beitr&#339;ge z. Gesch. d.
+                                            gr. u. r. Lit.</title> II, p. 26</bibl>; Idem in <!-- title in italics in FHG -->
+                                    <bibl><title>Rhein. Mus.</title> 1843, p. 495 sq.: <!-- title in italics in FHG -->
+                                        <title>Der Sophist Hippias als
+                                            Arch&#230;olog.</title></bibl></note>, ὥστ᾿ ἔγωγε δι᾿ αὐτοὺς
+                                ἠνάγκασαι ἐκμεμαθηκέναι καὶ μεμελετηκέναι πάντα τὰ τοιαῦτα</quote>,
+                            H&#230;c ipse Hippias ap. <bibl>Plat. p. 97 E (275)</bibl>.</quote>» </p>
+
+                    <p>Hactenus de vita Hippi&#230;. Qu&#230; pr&#230;terea de vanitate viri et jactantia deque
+                        placitis ejus et dicendi genere ex dialogis Platonis erui possunt, apud
+                        ipsum Geelium legere est. Cf. <bibl>Brandis. Gesch. d.
+                                Philos. tom. I, p. 545</bibl>, et Heindorf. et Stallbaum. ad
+                        Platon, Hipp. maj.</p>
+
+                    <p>Scripta, qu&#230; Hippi&#230; Eleo tribuuntur, novimus duo, <title xml:lang="grc"
+                            >Συναγωγήν</title> (fr. 1<!-- ref to fragment -->) et <title
+                            xml:lang="grc">Ἀναγραφὴν Ὀλυμπιονικῶν</title> (fr. 2
+                        <!-- ref to fragment -->). His addend&#230; sunt <title xml:lang="grc">Ἐθνῶν
+                            ὀνομασίαι</title> (fr. 3<!-- ref to fragment -->), si quidem recte
+                        conjeci apud <bibl>schol. Ap, Rh. III, 1079</bibl> pro <foreign
+                            xml:lang="grc">Ἱ. ὁ Δήλιος</foreign> scribendum esse <foreign
+                            xml:lang="grc">Ἱ. ὁ Ἠλεῖος</foreign>. Similiter
+                            <bibl>Osannus l. l.</bibl> pro Hippia <hi rend="italic"
+                            >Thasio</hi> ap. Aristotelem reponi vult <hi rend="italic"
+                            >Eleum</hi><note type="footnote"><bibl>Aristot. Poet c. 25 (26
+                                Herm.)</bibl> Hippi&#230; Thasii emendationes affert duorum locorum
+                            Homeri (<bibl>Iliad β’, 15</bibl> et <bibl>ψ, 328</bibl>. Cf. <bibl>Wolf
+                                Prolegg. p. 168</bibl>, ubi Hippi&#230; acumen Loyol&#230; artibus dignum
+                            tribuit). Aliunde de Thasio isto non constat. Eleum vero multum in
+                            Homeri carmimbus versatum esse scimus (V. <bibl>Cic. De orat. III,
+                                12</bibl>, <hi rend="italic">et qu&#230;</hi> disputat <bibl>Spengel.
+                                Art. script. p. 60</bibl>). Quare <bibl>Osannus l. l. p.
+                                510</bibl> nomen ΗΛΕΙΟ&#1017; abiisse censet in ΘΑ&#1017;ΙΟ&#1017;.
+                            Id quod veri simillimum. Corruptio tamen antiqua, ut patet ex Alexandro
+                            Aphrodis. ad <bibl>Aristot. Elench. Sophist. IV, 8</bibl> (ubi Ar. eadem
+                            repetit non nominato auctore) fol. 12. —Pr&#230;terea memoratur Hippias
+                            Erythr&#230;us, incert&#230; &#230;tatis scriptor, qui patri&#230; historiam composuit
+                                (<bibl>Athen. p. 258, F</bibl>). De hoc, suo loco.</note>. —Qu&#230; ex
+                            <title xml:lang="grc">Συναγωγῇ</title> Athen&#230;us citat, ea sunt de
+                        Thargelia, cunno celeberrimo. Hinc si concludere aliquid licet, <title
+                            xml:lang="grc">Συναγωγὴν</title> fuisse putaverim <title type="alt">τῶν
+                            ἐνδόξων γυναικῶν</title> <!-- title split by a Latin phrase -->
+                        <note type="footnote">Sic Istri <title xml:lang="grc">Συναγωγὴ</title>
+                            citatur simpliciter, quam alii plenius dicunt <title type="alt">Σ.
+                                Ἀττικὴν</title> vel <title type="alt">τῶν
+                            Ἀτθίδων</title><!-- need pointer here, title is partial -->. Quamquam
+                            idem etiam <title type="alt">Συναγωγὴν τῶν Κρητικῶν θυσιῶν</title>
+                            scripserat.</note>. Accedit quod ejusmodi libri indoles bene quadrat cum
+                        Catalogo Olympionicarum et cum opere de Nominibus populorum. Neque aliena
+                        hujus generis argumenta a studiis sophistarum fuisse vel inde colligas, quod
+                        Polus quoque Catalogum eorum, qui ante Trojam pugnarunt, texuisse ferebatur
+                        (v. fragm. Damast&#230;<!-- ref to Damastes -->). Aliter statuit Bode
+                                (<bibl><title>Gesch. d. cp. Dichtk.</title> p. 28</bibl>), qui
+                        Hippiam in <title xml:lang="grc">Συναγωγῇ</title> de pulchro et venusto
+                        disputasse censet. Contra <bibl>Osannus l. l.</bibl>
+                        declamationes ab Hippia paratas et scriptas postea ab aliquo collectas,
+                        eamque collectionem <title xml:lang="grc">Συναγωγή</title> inscriptam esse
+                        statuit. Tu videas. — Qu&#230; reliqua ex Hippia afferuntur, certis libris vel
+                        declamationibus assignare non licet.</p>
+
+                    <pb n="60"/>
+
+                   <div type="textpart" subtype="work">
+                       <ab>
+                        <title xml:lang="grc">ΣΥΝΑΓΩΓΗ</title>
+                        <cit n="1" xml:lang="grc">
+                            <bibl>Athen. XIII, p. 609, A</bibl>
+                            <quote>Ἐπὶ κάλλει δὲ... δια&#976;όητοι γεγόνασι γυναῖκες, Θαργηλία ἡ Μιλησία,
+                                ἥτις καὶ τεσσαρεσκαίδεκα ἀνδράσιν ἐγαμήθη, οὖσα καὶ τὸ εἶδος πάνυ
+                                καλὴ καὶ σοφὴ, ὥς φησιν Ἱππίας ὁ σοφιστὴς ἐν τῷ ἐπιγραφομένῳ
+                                Συναγωγή.</quote>
+                            <note xml:lang="la">Osannus suspicatur Hippi&#230; de Thargelia narrationem fontem fuisse
+                                eorum, qu&#230; seriores scriptores de eadem muliere fabulantur. V.
+                                    <bibl>Plutarch. Pericl. c. 24</bibl>; <bibl>Anonym. De mulier.
+                                    in Bibl. f. alte K. u. W, 6, p. 22</bibl> (<bibl>Westermann.
+                                    Paradox. p, 217</bibl>); <bibl>Lucian. Eunuch. c. 7</bibl>;
+                                    <bibl>Suidas, Hesych. Etym. M. v, <foreign xml:lang="grc"
+                                        >Θαργήλια</foreign></bibl>; <bibl>&#198;chinis Socrat. dialogus
+                                    Περὶ τ. Θαργ. ap. Philostrat V. S. p. 919</bibl>, <bibl>Diog. L.
+                                    II, 7, 3</bibl>, de quo plura v. ap. O<bibl>sann. p. 504
+                                    sq</bibl>.</note>
+                        </cit>
+                    </ab>
+                   </div>
+
+                    <div type="textpart" subtype="work">
+                        <ab>
+                        <title xml:lang="grc">ΟΛΥΜΠΙΟΝΙΚΩΝ ΑΝΑΓΡΑΦΗ</title>
+                        <cit n="2" xml:lang="grc">
+                            <bibl>Plutarch. Numa c. 1</bibl>
+                            <quote>Τῶν Ὀλυμπιονικῶν... τὴν ἀναγραφὴν ὀψὲ φασὶν Ἱππίαν ἐκδοῦναι τὸν
+                                Ἠλεῖον, ἀπ᾿ οὐδενὸς ὁρμώμενον ἀναγκαίου πρὸς πίστιν.</quote>
+                            <note xml:lang="la"><foreign xml:lang="grc">Ἠλεῖον</foreign>] <foreign xml:lang="grc"
+                                    >Δήλιον</foreign> voluit Meziriacus, sine causa. Agnoscis
+                                levitatem sophist&#230;. De declamatianibus Hippi&#230; Olympicis v.
+                                    <bibl>Platon. Hip. min.</bibl> init., <bibl>Lucian. Herodot. c.
+                                    3</bibl>. Confer etiam <bibl>Pausaniam V, 24</bibl>, ubi
+                                loquitur de signis chori puerorum, qu&#230; Messenii naufragi posuerant:
+                                    <quote>Τὸ μὲν δὴ ἐπίγραμμα ἐδήλου τὸ ἀρχαῖον, ἀναθήματα εἶναι
+                                    τῶν ἐν πόρθμῳ Μεσσηνίων· χρόνῳ δὲ ὕστερον Ἱππίας ὁ λεγόμενος ὑπὸ
+                                    Ἑλλήνων σοφὸς, τὰ ἐλεγεῖα ἐπ᾿ αὐτοῖς ἐποίησεν</quote>. Cf.
+                                    <bibl>Osann. I. I. p. 498</bibl>.</note>
+                        </cit>
+                    </ab>
+                    </div>
+
+                   <div type="textpart" subtype="work">
+                       <ab>
+                        <title xml:lang="grc">ΕΘΝΩΝ ΟΝΟΜΑΣΙΑΙ</title>
+                        <cit n="3" xml:lang="grc">
+                            <bibl>Schol. Apoll. Rhod. III, 1079</bibl>
+                            <quote>Ἱππίας δὲ ὁ Δήλιος (<foreign xml:lang="la">scr. videtur</foreign>
+                                Ἠλεῖος) ἐν Ἐθνῶν ὀνομασίαις φησὶν ἔθνος τι καλεῖσθαι
+                                Σπάρτους.</quote>
+                            <note xml:lang="la">Idem statuit Dionysius (Samius fr. 2<!-- ref to fragment -->) ap.
+                                    <bibl>schol. Eur. Ph&#339;n. p. 670</bibl>. Ad eundem librum
+                                pertinere videntur sequentia.</note>
+                        </cit>
+                        <cit n="4" xml:lang="grc">
+                            <bibl n="1">Eustatb. ad Dionys. 270</bibl>
+                            <quote n="1">Ἱππίας ἀπὸ Ἀσίας καὶ Εὐρώπης τῶν Ὠκεανίδων τὰς Ἠπείρους
+                                καλεῖ.</quote>
+                            <bibl n="2">Schol. ad. I. I.</bibl>
+                            <quote n="2">Ἱππίας μέντοι φησὶν ἀπὸ τῶν Ὠκεανοῦ θυγατέρων (<foreign
+                                    xml:lang="la">sc. Nomen habere Asiam et Europam</foreign>)· δύο
+                                γὰρ Ὠκεανίδας πρότερον γενέσθαι, Ἀσίαν καὶ Εὐρώπην, ἀφ᾿ ὧν τὰς χώρας
+                                εἰρῆσθαι.</quote>
+                        </cit>
+                        <cit n="5" xml:lang="grc">
+                            <bibl>Schol. Pindar. Nem. VIII, 53</bibl>
+                            <quote><foreign xml:lang="la">Quattuor commemorant urbes Ephyr&#230;
+                                    nomine</foreign>: τρίτην δὲ περὶ Ἦλιν, ἧς Ἱππίας μνημονεύει. Cf.
+                                    <bibl>Apollodor. fr. 170.</bibl></quote>
+                            <note xml:lang="la">Sequuntur qu&#230; certis libris assignari nequeunt.</note>
+                        </cit>
+                        <cit n="6" xml:lang="grc">
+                            <bibl>Clem. Al. Strom. VI, p. 265, 5 Sylb.</bibl>
+                            <quote>Ἀλλ᾿ ἵνα μὴ ἐπιπλέον προΐν ὁ λόγος φιλοτιμουμένων ἡμῶν τὸ
+                                ἐνεπίφορον εἰς κλοπὴν τῶν Ἑλλήνων κατὰ τοὺς λόγους τε καὶ τὰ δόγματα
+                                ἐπιδεικνύναι, φέρε ἄντικρυς μαρτυροῦντα ἡμῖν Ἱππίαν τὸν σοφιστὴν τὸν
+                                Ἠλεῖον, ὃς τὸν αὐτὸν περὶ τοῦ προκειμένου μοι σκέμματος ἥκειν λόγον,
+                                παραστησώμεθα ὧδέ πως λέγοντα· «<quote>Τούτων ἴσως εἴρηται τὰ μὲν
+                                    Ὀρφεῖ, τὰ δὲ Μουσαίῳ κατὰ βραχὺ, ἄλλῳ ἀλλαχοῦ, τὰ δὲ Ἡσιόδῳ, τὰ
+                                    δὲ Ὁμήρῳ, τὰ δὲ τοῖς ἄλλοις τῶν ποιητῶν, τὰ δὲ ἐν συγγραφαῖς, τὰ
+                                    μὲν Ἕλλησι, τὰ δὲ &#976;αρ&#976;άροις· ἐγὼ δὲ ἐκ πάντων τούτων τὰ μέγιστα
+                                    καὶ ὁμόφυλα συνθεὶς, τοῦτον καινὸν καὶ πολυειδῆ τὸν λόγον
+                                    ποιήσομαι.</quote>»</quote>
+
+                            <pb n="61"/>
+
+                            <note xml:lang="la">H&#230;c ex pro&#339;mio declamationis alicujus. — <bibl>Lobeck. Aglaoph. p.
+                                    337</bibl>: «<quote>Horum auctorem eum esse qui pr&#230;fertur, nihil
+                                    dubitat Ebertus (<bibl>Diss. Sic. p. 8</bibl>), equidem pr&#230;stare
+                                    nolim.</quote>» Judicii causam non perspicio. Ceterum locus l.
+                                ad judicandam rationem qua argumenta sua tractarint sophist&#230;,
+                                apprime accommodatus.</note>
+                        </cit>
+                        <cit n="7" xml:lang="grc">
+                            <bibl>Argument. ad Sophoclis OEd. Tyr.</bibl>
+                            <quote>Ἴδιον δέ τι πεπόνθασιν οἱ μεθ᾿ Ὅμηρον ποιηταὶ τοὺς πρὸ τῶν
+                                Τρωικῶν βασιλεῖς τυράννους προσαγορεύοντες, ὀψέ ποτε τοῦδε τοῦ
+                                ὀνόματος εἰς τοὺς Ἕλληνας διαδοθέντος, κατὰ τοὺς Ἀρχιλόχου χρόνους,
+                                καθάπερ Ἱππίας ὁ σοφιστής φησιν. —Cf. <bibl>Suidas v.
+                                    Τύραννος</bibl>.</quote>
+                            <note xml:lang="la">Primum τύραννον innuit Gygen (<quote>Ἀρχίλοχος ὁ Πάριος κατὰ τὸν
+                                    αὐτὸν, <foreign xml:lang="la">sc. quo Gyges regnavit</foreign>,
+                                    χρόνον γενόμενος</quote>
+                                <bibl>Herodot. I, 12</bibl>). <bibl>Clem.Alex. Strom. I, p. 389
+                                    Sylb.</bibl>: <quote>Εὐφορίων ἐν τῷ περὶ Ἀλευαδῶν κατὰ Γύγην
+                                    αὐτὸν (Ὅμηρον) τίθησι γεγονέναι· ὃς βασιλεύειν ἤρξατο ἀπὸ τῆς
+                                    ιη΄ Ὀλυμπιάδος· ὃν καὶ φησὶ πρῶτον ὠνομάσθαι τύραννον</quote>.
+                                Cf. <bibl>Ebert. Sicul. p. 1 et 9 sqq.</bibl></note>
+                        </cit>
+                        <cit n="8" xml:lang="grc">
+                            <bibl>Vit. Homeri ed. Iriarte p. 233</bibl>
+                            <quote>Ἱππίας καὶ Ἔφορος Κυμαῖον (τὸν Ὅμηρόν φησι γεγονέναι).</quote>
+                            <note xml:lang="la">Eleum Hippiam, neque alium, intelligendum esse recte contendit
+                                    <bibl>Welcker. Cycl. p. 143, not. 167</bibl>. —Fortasse h&#230;e
+                                petita sunt ex oratione de studiis quibus juvenem incumbere decet,
+                                quam habuerat Laced&#230;mone. V. <bibl>Plato Hipp. maj. p. 97, F
+                                    (286)</bibl>, ubi Hippias loquitur hunc in modum: <quote>Περὶ δὲ
+                                    ἐπιτηδευμάτων καλῶν καὶ ἔναγχος αὐτόθι (<foreign xml:lang="la"
+                                        >Spart&#230;</foreign>) ηὐδοκίμησα διεξιὼν ἃ χρὴ τὸν νέον
+                                    ἐπιτηδεύειν. Ἔστι γάρ μοι περὶ αὐτῶν πάγκαλος λόγος συγκείμενος,
+                                    καὶ ἄλλως εὖ διακείμενος καὶ τοῖς ὀνόμασι. Πρόσχημα δέ μοί ἐστι
+                                    καὶ ἀρχὴ τοιάδε τις τοῦ λόγου· ἐπειδὴ ἡ Τροία ἥλων, λέγει ὁ
+                                    λόγος ὅτι Νεοπτόλεμος Νέστορα ἔροιτο ποῖά ἐστι καλὰ
+                                    ἐπιτηδεύματα, ἃ ἄν τις ἐπιτηδεύσας νέος ὢν δοκιμώτατος γένοιτο.
+                                    Μετὰ ταῦτα δὴ λέγων ἐστὶν ὁ Νέστωρ καὶ ὑποτιθέμενος αὐτῷ
+                                    πάμπολλα νόμμιμα καὶ πάγκαλα. <foreign xml:lang="la">Deinde
+                                        dicit: in eadem oratione</foreign> καὶ ἄλλα πολλὰ καὶ
+                                    παντοδαπὰ ἐπιδέδεικται καὶ περὶ ποιητῶν καὶ ἄλλων καὶ περὶ
+                                    Ὁμήρου.</quote> — Ex hoc loco sua effinxit <bibl>Philostratus
+                                    Vit. Soph. I, 11, p. 495</bibl>: <quote>Ἔστι δὲ αὐτῷ (Ἱππίᾳ) καὶ
+                                    Τρωικὸς διάλογος, οὐ λόγος· ὁ Νέστωρ ἐν Τροίᾳ κ. τ. λ.</quote>
+                                V. <bibl>Geel. p. 191</bibl>, <bibl>Osann. l. l. p.
+                                    508</bibl>.</note>
+                        </cit>
+                        <cit n="9" xml:lang="grc">
+                            <bibl>Plutarch. Lycurg. c. 23</bibl>
+                            <quote>Αὐτὸν δὲ τὸν Λυκοῦργον Ἱππίας μὲν ὁ σοφιστὴς πολεμικώτατόν φησι
+                                γενέσθαι καὶ πολλῶν ἔμπειρον στρατηγιῶν.</quote>
+                        </cit>
+                        <cit n="10" xml:lang="grc">
+                            <bibl>Diogen. L. I, 25, de Thalete</bibl>
+                            <quote>Ἀριστοτέλης δὲ καὶ Ἱππίας φασὶν αὐτὸν καὶ τοῖς ἀψύχοις
+                                μεταδιδόναι ψυχὰς, τεκμαιρόμενον ἐκ τῆς λίθου τῆς μαγνήτιδος καὶ τοῦ
+                                ἠλέκτρου.</quote>
+                            <note xml:lang="la">V. <bibl>Brandis. Gesch. d. gr. Philos. I, p. 119</bibl>.</note>
+                        </cit>
+                        <cit n="11" xml:lang="grc">
+                            <bibl>Schol. Arat. Ph&#230;n. 172</bibl>
+                            <quote>Ἱππίας δὲ καὶ Φερεκύδης (fr. 46<!-- ref to fragment -->) ζ’
+                                    (<foreign xml:lang="la">Hyadas esse dicunt</foreign>).</quote>
+                        </cit>
+                        <cit n="12" xml:lang="grc">
+                            <bibl>Schol. Pind. Pyth. IV, 288</bibl>
+                            <quote>Ταύτην (<foreign xml:lang="la">Phrixi novercam</foreign>) ὁ μὲν
+                                Πίνδαρος ἐν Ὕμνοις Δημωτικήν φησιν, Ἱππίας δὲ Γοργῶπιν.</quote>
+                            <note xml:lang="la">Cf. Pherecyd. fr. 52<!-- ref to fragment -->, ubi pro matrem
+                                scribe novercam.</note>
+                        </cit>
+                        <cit n="13" xml:lang="grc">
+                            <bibl>Stob&#230;us Flor. XXXVIII, 32, ex Plutarcho</bibl>
+                            <quote>Ἱππίας λέγει δύο εἶναι φθόνους, τὸν μὲν δίκαιον, ὅταν τις τοῖς
+                                κακοῖς φθονῇ τιμωμένοις, τὸν δὲ ἄδικον, ὅταν τοῖς ἀγαθοῖς· καὶ διπλᾶ
+                                τῶν ἄλλων οἱ φθονεροὶ κακοῦνται· οὐ γὰρ μόνον τοῖς οἰκείοις κακοῖς
+                                ἄχθονται, ὥσπερ ἐκεῖνοι, ἀλλὰ καὶ τοῖς ἀλλοτρίοις ἀγαθοῖς.</quote>
+                            <note xml:lang="la">Cf. <bibl>&#198;schyl. Agam. 843</bibl>.</note>
+                        </cit>
+                        <cit n="14" xml:lang="grc">
+                            <bibl>Idem ibid. XLII, 10, ex eodem Plutarcho</bibl>
+                            <quote>Ἱππίας φησὶν ὅτι δεινόν ἐστιν ἡ δια&#976;ολία, οὕτως ὀνομάζων, ὅτι
+                                οὐδὲ τιμωρία τις κατ᾿ αὐτῶν γέγραπται ἐν τοῖς νόμοις, ὥσπερ τῶν
+                                κλεπτῶν· καὶ ἄριστον ὂν κτῆμα τὴν φιλίαν κλέπτουσιν, ὥστε ἡ ὕ&#976;ρις
+                                κακοῦργος οὖσα, δικαιοτέρα ἐστὶ τῆς δια&#976;ολῆς, διὰ τὸ μὴ ἀφανὴς
+                                εἶναι.</quote>
+                        </cit>
+                        <cit n="15" xml:lang="grc">
+                            <bibl>Plurynichus p. 312</bibl>
+                            <quote>Παραθήκην Ἱππίαν καὶ Ἴωνά τινα συγγραφέα φασὶν εἰρηκέναι, ἡμεῖς
+                                δὲ τοῦτο παρακταθήκην ἐροῦμεν, ὡς Πλάτων καὶ Θουκυδίδης καὶ
+                                Δημοσθένης.</quote>
+                        </cit>
+                    </ab>
+                   </div>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
