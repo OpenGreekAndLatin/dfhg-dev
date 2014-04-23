@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2damast_grc">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+
+                <title>Fragmenta Historicorum Graecorum</title>
+
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName>Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2damast_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <!-- BCP 47 lang codes -->
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1868"
+                                >Damastes Sigeus</author>
+
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+
+                            <biblScope unit="volume">2</biblScope>
+
+                        </monogr>
+
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft#page/n3/mode/2up"
+                            >Internet Archive</ref>
+
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <!-- describes all languages present in the text -->
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <!--OPTIONAL - check with Simon for versioning system-->
+            <!-- @who could point to the ids of the people from respStmt -->
+            <change who="#UK" when="2014-02-11">Created the XML file</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text>
+
+        <body>
+
+
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+
+                <div type="textpart" subtype="book" n="1">
+                    <head xml:lang="grc">
+                        <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1868.tlg003"
+                            xml:lang="la"> DAMASTES SIGEENSIS</title>
+                        <persName role="author"><name type="personal">Damastes</name>
+                            <name type="ethnicon">Sigeus</name></persName>. <!-- @ref pointing to this individual in the prosopography/author list -->
+                        <!-- https://archive.org/stream/fragmentahistori02mueluoft#page/64/mode/1up -->
+                    </head>
+
+                    <pb n="64"/>
+
+                    <p>
+                        <bibl>Dionys. Hal. Jud. de Thuc. c. 5</bibl>: <quote>Ὀλίγῳ πρεσ&#976;ύτεροι
+                            τῶν Πελοποννησιακῶν καὶ μέχρι τῆς Θουκυδίδου παρεκτείναντες ἡλικίας
+                            Ἑλλάνικός τε ὁ Λέσ&#976;ιος καὶ <persName role="author"
+                                    ><name>Δαμάστης</name> ὁ <orgName>Σιγειεὺς</orgName></persName>,
+                            καὶ <persName><name>Ξενομήδης</name> ὁ
+                                <orgName>Χῖος</orgName></persName> καὶ <persName><name>Ξάνθος</name>
+                                ὁ <orgName>Λυδὸς</orgName></persName> καὶ ἄλλοι συχνοί.</quote></p>
+                        <p><bibl>Suidas</bibl>: <quote><persName role="author"><name>Δαμάστης</name>,
+                                    <orgName>Σιγειεὺς</orgName></persName> ἀπὸ Σιγείου τῆς Τρωάδος,
+                            Διωξίππου υἱὸς, γεγονὼς πρὸ τῶν Πελοποννησιακῶν, σύγχρονος Ἡροδότῳ, [τῶν
+                            πλουσιωτάτων,] ἱστορικός. Γέγραφε <title>Περὶ τῶν ἐν Ἑλλάδι
+                                γενομένων</title>, <title>Περὶ γονέων καὶ προγόνων τῶν εἰς Ἴλιον
+                                στρατευσαμένων</title> βι&#976;λία δύο, <title>Ἐθνῶν κατάλογον καὶ
+                                πόλεων</title>, <title>Περὶ ποιητῶν καὶ σοφιστῶν</title>, καὶ ἄλλα
+                            συχνά. Γέγονε δ᾿ Ἑλλανίκου μαθητής.</quote></p>
+                        <p><note>Πλουσιωτάτων] Mss. Paris., editt. Mediolan. et Veneta; παλαιοτάτων
+                            editt. Basil. et Genev. —<foreign xml:lang="grc">σύγχρ. Ἡρ.·
+                                χρονογράφος, γέγραφε</foreign>
+                            <foreign xml:lang="grc">κτλ.</foreign>
+                        <bibl>Eudoc. p. 127.</bibl></note></p>
+                        <p><ref>Idem</ref>: <quote><persName><name>Πῶλος</name>,
+                                    <orgName>Ἀκραγαντῖνος</orgName></persName>, ῥήτωρ, μᾶλλον δὲ
+                            σοφιστὴς τῶν πάλαι, διδάσκαλος Λικυμνίου, ἔγραψε <title> Γενεαλογίαν τῶν
+                                ἐπὶ Ἴλιον στρατευσάντων Ἑλλήνων καὶ βαρ&#976;άρων</title>, καὶ πῶς
+                            ἕκαστος ἀπήλλαξε· τινὲς δὲ αὐτὸ Δαμάστου ἐπιγράφουσι. <title>Νεῶν
+                                κατάλογον.</title>
+                            <title>Περὶ λέξεως.</title></quote> <note>Cf. <bibl>Eudocia p. 355.</bibl></note></p>
+                        <p><bibl>Agathemerus I, 1</bibl>: <quote><persName role="author"
+                                    ><name>Ἀναξίμανδρος</name> ὁ
+                                <orgName>Μιλήσιος</orgName></persName>, ἀκουστὴς Θάλεω, πρῶτος
+                            ἐτόλμησε τὴν οἰκουμένην ἐν πίνακι γράψαι. Μεθ᾿ ὃν
+                                    <persName><name>Ἑκαταῖος</name> ὁ
+                                <orgName>Μιλήσιος</orgName></persName>, ἀνὴρ πολυπλάνης
+                            διηκρί&#976;ωσεν ὥστε θαυμασθῆναι τὸ πρᾶγμα.
+                                    <persName><name>Ἐλλάνικος</name> γὰρ ὁ
+                                    <orgName>Λέσ&#976;ιος</orgName></persName> ἀνὴρ πολυΐστωρ,
+                            ἀπλάστως παρέδωκε τὴν ἱστορίαν. Εἶτα <persName role="author"
+                                    ><name>Δαμάστης</name> ὁ <orgName type="alt"
+                                >Κιττιεὺς</orgName></persName> (<foreign xml:lang="la"
+                                >scr.</foreign> Ὁ <persName><orgName>Σιγειεὺς</orgName></persName>)
+                            τὰ πλεῖστα ἐκ τοῦ Ἑκαταίου μεταγράψας <title>Περίπλουν</title>
+                            ἔγραψε.</quote></p>
+                        <p><bibl>Porphyrius lib. I Φιλολ. ἀκροασ.</bibl> ap. <bibl>Euseb. Pr. E. p.
+                            466</bibl>: <quote><title>Τὰ βαρ&#976;αρικὰ νόμιμα Ἑλλανίκου</title> ἐκ
+                            τῶν Ἡροδότου καὶ Δαμάστου (<foreign xml:lang="la">vulg.</foreign>
+                            Δαμάσου); συνῆκται.</quote> Avienus Or&#230; mar. 42 veteres geographos
+                        recensens post Hecat&#230;um, Hellanicum, Phileam et ignotum aliunde
+                        Pausimachum Samium ponit <quote xml:lang="la">Damastem nobili natum
+                            Sige.</quote></p>
+                    <p>Damastes<note type="footnote">De
+                                <persName>Damaste</persName> vel <persName type="alt"
+                                >Damaso</persName>, fratre Democriti, Damasippi filio, v.
+                                <bibl>Mullach. Fragm. Democrit. p. 36 sqq</bibl>. — Alium Damastem
+                            habes in Plutarcho (<bibl>Thes. c. 11</bibl>). — Damasos varios v. in
+                                <bibl>Steph. Thes.</bibl> s. v.</note> Sigeensis Herodoti
+                        &#230;qualis fuisse dicitur; equidem supparem potius dixerim, quandoquidem
+                        discipulum esse volunt Hellanici, vicini Lesbii. Nihil tamen premo verba
+                        grammatici, quum fama ista inde orta esse possit, quod in operibus suis
+                        Damastes Hellanici maxime vestigia legerit. Idque fragmentis comprobatur
+                            <ref>(fr. 1. 5. 6)</ref>.</p>
+                        <p>Nobilis generis divitias testari videtur
+                        Suidas verbis <foreign xml:lang="grc">τῶν πλουσιωτάτων</foreign>: nam
+                        alterius lectionis (<foreign xml:lang="grc">τῶν παλαιοτάτων</foreign>)
+                        auctoritas est p&#230;ne nulla, quamquam acquiescendum ea putavit vir doctus
+                        in Museo crit. <bibl>Cantabrig. tom. II, p. 108</bibl>. At nemo negabit
+                        verbis <foreign xml:lang="grc">τῶν πλουσ</foreign>. Insoliti aliquid inesse;
+                        accedit quod omittuntur ab Eudocia. Nescio an ex antedentibus <foreign
+                            xml:lang="grc">τῶν Πελοποννησιακῶν</foreign> parum distincte scriptis
+                        nata sint. Corrupta esse et loco mota etiam Bernhardyus censet. <quote>«Jam
+                            in continuis, ait, liber <title>Περὶ τῶν ἐν Ἑλλ. γεν.</title> quum
+                            argumentum aut obscurum ostendat aut incredibile, placet inscriptionem
+                            sic resarciri, <title>περὶ τῶν ἐν Ἑλλάδι γενομένων ἀρχαιοτάτων [γενῶν
+                                    <foreign xml:lang="grc">vel</foreign>
+                            ἐθνῶν]</title>. Atque haud scio an infra posita
+                                <title>ἐθνῶν κατάλογον καὶ πόλεων</title> huc referenda
+                            sint.»</quote> H&#230;c ille; atque laborare titulum <title>π. τ. ἐν
+                            Ἑλλ. γεν.</title> mihi quoque persuasum est, quum <title>Ἑλληνικὰς
+                            ἱστορίας</title> vix quisquam eo modo indicaverit. Deletis
+                            <title>γενομένων περὶ</title>, scripserim <title>περὶ τῶν ἐν Ἑλλάδι
+                            γονέων</title> etc., quibus opposita erat altera operis pars de <title
+                            xml:lang="la">Barbaris</title>, qui ante Trojam pugnaverint. Hujus enim
+                        mentionem Suidas, quum s. v.
+                            <foreign><persName>Δαμάστης</persName></foreign> omiserit, v.
+                            <title>Πῶλος</title> meminisse non neglexit.—Opus quoniam duobus libris
+                        absolutum est, Damastes breviter rem tractasse ac fila genealogica texuisse
+                        habuerit satis. De eodem loco postea amplissimum opus composuit Demetrius
+                        Scepsius, quem secutus est Apollodorus Atheniensis, Celerum qui factum sit
+                        ut Damastis liber ab aliis Polo, Gorgi&#230; discipulo, adscriberetur, haud
+                        liquet. Argumentum ejus accommodatum sane erat, quo tractando eruditiοnem
+                        sophista ostenderet.</p> 
+                        <p>Sequitur ap. <bibl>Suid.</bibl> v.
+                        <title>Πῶλος</title>, <title>Νεῶν κατάλογος</title>, qui cum antecedente
+                        opere non potuit non conjunctus esse; v.
+                                <foreign><persName>Δαμάστης</persName></foreign> sequitur
+                            <title>Ἐθνῶν κατάλογος καὶ πόλεων</title>: suspiceris <title>νεῶν
+                            κατάλογος· περίπλους</title>; at domanda conjectandi prurigo: nam recte
+                        h&#230;c sese habere videntur, quum Damastes <title>Περὶ ἐθνῶν</title>
+                        citetur <ref>Stephano Byz. (fr. 1.)</ref> Ab hoc libro non diversus qui ab
+                        Agathemero memoratur <title>Περίπλους</title>. — Ad librum <title>Περὶ
+                            ποιητῶν καὶ σοφιστῶν</title> retuli <ref>fragm. 8</ref> de majoribus Homeri. Inter
+                        ea, qu&#230; deinceps a Suida ponuntur <foreign xml:lang="grc">ἄλλα
+                            συχνά</foreign>, fuerint libri <title>Περὶ εὑρημάτων</title>
+                        <ref>(fr. 9)</ref> et chronologica qu&#230;dam, si quidem recte Damastes ab
+                        Eudocia <title>χρονολόγος</title> appellatur, Fragmentum habemus de die quo
+                        Troja expugnata sit. Fortasse etiam in libro <title>De poetis</title> ad
+                        chronologicum maxime rerum ordinem (secundum seriem sacerdotum Junonis
+                        Argiv&#230;?) recte constituendum auctor attenderat. <pb n="65"/> Quod
+                        attinet Hellanici <title>Νόμιμα βαρ&#976;αρικά</title>, qu&#230; ex Damastis
+                        libris <persName role="author">Porphyrius </persName>conflata esse opinatur, vide qu&#230; dixi in <title xml:lang="la">Vita
+                        Hellanici</title>.</p> 
+                        <p>Geographica Damastis haud semel cansuluit <persName role="author">Eratosthenes</persName>; quod
+                        crimini vertit <bibl>Strabo I, p. 47</bibl>: <quote>Οὐδὲ τοῦτ᾿ εὖ
+                            <persName role="author">Ἐρατοσθένης</persName>, ὅτι ἀνδρῶν οὐκ ἀξίων μνήμης ἐπιπλέον μέμνηται, τὰ μὲν
+                            ἐλέγχων, τὰ δὲ πιστεύων, καὶ μάρτυσι χρώμενος αὐτοῖς, οἷον Δαμάστῃ καὶ
+                            τοιούτοις ἄλλοις. Καὶ γὰρ εἴ τι λέγουσιν ἀληθὲς, οὐ μάρτυσί γε ἐκείνοις
+                            χρηστέον περὶ αὐτοῦ, οὐδὲ πιστευτέον διὰ τοῦτο. . . Ὁ δὲ Δαμάστη
+                            χρώμενος μάρτυρι οὐδὲν διαφέρει τοῦ καλοῦντος μάρτυρα τὸν <persName>Βεργαῖον</persName>
+                                (<foreign xml:lang="la">sc. Antiphanem</foreign>), ἤ τὸν Μεσσήνιον
+                            <persName role="author">Εὐήμερον</persName> καὶ τοὺς ἄλλους, οὔς αὐτὸς (ὁ <persName role="author">Ἐρατοσθένης</persName>) εἴρηκε
+                            δια&#976;άλλων τὴν φλυαρίαν. Καὶ τούτου (<foreign xml:lang="la">Damastis
+                                puto</foreign>) δ᾿ ἕνα τῶν λήρων αὐ. Τὸς λέγει, τὸνμὲν Ἀρά&#976;ιον
+                            κόλπον λίμνην ὑπολαμ&#976;άνοντος εἶναι.</quote> Cf. <ref>fr. 3</ref>.
+                        Quas reprehensiones justo severiores esse, quum ratio temporum, quibus
+                        auctores vixerint, non habita sit, recte monuerunt. Vide Bernhardy ad
+                            <bibl>Eratosth. p. 44 sqq. et passim</bibl>. Ceterum quum de rebus ipsis
+                        Damastei ex <persName role='author'>Hecat&#230;o</persName> et <persName role="author">Hellanico</persName> in plerisque penderet, maxima operum
+                        virtus in elegantiore narrationis forma posita fuisse videtur. Eum
+                        sophistarum si non studia, consuetudinem certe (Athenis) coluisse, ex opere,
+                        in quo poetis sophistas adjunxit, jure colligas. <persName role="author">Gorgias</persName> inter majores
+                        Homeri numeravit Mus&#230;um; idem Damasti placuit <ref>(fr. 8)</ref>. </p>
+                   
+                    <div type="textpart" subtype="work">
+                        <ab>
+                            <title type="main" xml:lang="grc">ΠΕΡΙΠΛΟΥΣ</title>
+                            <title type="sub" xml:lang="grc">(ΠΕΡΙ ΕΘΝΩΝ.)</title></ab>
+                        
+                            <cit n="1" xml:lang="grc">
+                                <bibl>Stephan. Byz.</bibl>
+                                <quote>Ὑπερ&#976;όρεοι. . . Δαμάστης δ᾿ ἐν τῷ <title>Περὶ
+                                        ἐθνῶν</title>· Ἄνω Σκυθῶν Ἰσσηδόνας οἰκεῖν, τούτων δ᾿
+                                    ἀνωτέρω Ἀριμάσπους, ἄνω δ᾿ Ἀριμασπῶν τὰ Ῥίπαια ὄρη, ἐξ ὦν τὸν
+                                    βορέαν πνεῖν, χιόνα δ᾿ αὐτὰ μήποτε ἐλλείπειν· ὑπὲρ δὲ τὰ ὄρη
+                                    ταῦτα Ὑπερ&#976;ορέους καθήκειν εἰς τὴν ἑτέραν θάλασσαν. </quote>
+                                <note xml:lang="la"> Sequitur Hellanicum <ref>(fr. 96 )</ref>. Cf.
+                                        <bibl>Ukert. Ueber Hecataus u. Damast. Geogr. p. 51</bibl>;
+                                        <bibl>Müller. Dor. I, p. 376</bibl>.</note>
+                            </cit>
+                            <cit n="2" xml:lang="grc">
+                                <bibl>Strabo XIII, p. 583 init., de finibus Troadis</bibl>
+                                <quote>Eὐθὺς ἐπὶ τῶν κατὰ τὴν Προποντίδα τόπων ὁ μὲν Ὅμηρος ἀπὸ τοῦ
+                                    Αἰσήπου τὴν ἀρχὴν ποιεῖται τῆς Τρωάδος· Εὔδοξος δὲ ἀπὸ Πριάπου
+                                    καὶ Ἀρτάκης, τοῦ ἐν τῇ Κυζικηνῶν νήσῳ χωρίου ἀνταίροντος τῷ
+                                    Πριάπῳ, συστέλλων ἐπ᾿ ἔλαττον τοὺς ὅρους· Δαμάστης δ᾿ ἔτι μᾶλλον
+                                    συστέλλει ἀπὸ Παρίου· καὶ γὰρ οὗτος μὲν ἔως Λεκτοῦ προάγει·
+                                    ἄλλοι δὲ ἄλλως. </quote>
+                                <note>In arctius fines contraxit <ref>Charon fr. 8</ref>.; cf.
+                                        <ref>Ephorus fr.; 89</ref>; <bibl>Sch&#339;mann. Geogr. Hom.
+                                        p. 98</bibl>; <bibl>Heyn. ad Hom. tom. V, p. 596</bibl>;
+                                        <bibl>Ukert. 1. 1. p, 47</bibl>.</note>
+                            </cit>
+                            <cit n="3" xml:lang="grc">
+                                <bibl>Strabo XIV, p. 684, de Cypro</bibl>
+                                <quote>Τί δὲ δεῖ τῶν ποιητῶν θαυμάζειν, καὶ μάλιστα τῶν τοιούτων,
+                                    οἷς ἡ πᾶσα περὶ φράσιν ἐστὶ σπουδὴ, τὰ τοῦ Δαμάστου
+                                    συγκρίνοντας, ὅστις τῆς νήσου τὸ μῆκος ἀπὸ τῶν ἄρκτων πρὸς
+                                    μεσημ&#976;ρίαν ἀποδίδωσιν, ἀπὸ Ἱεροκηπίας, ὥς φησιν, εἰς
+                                    Κλεῖδας; Οὐδὲ ὁ Ἐρατοσθένης εὖ· αἰτιώμενος γὰρ τοῦτον, οὐκ ὰπ᾿
+                                    ἄρκτων φησὶν εἶναι τὴν Ἱεροκηπίαν, ἀλλ᾿ ἀπὸ νότου· οὐδὲ γὰρ ἀπὸ
+                                    νότου, ἀλλ᾿ ἀπὸ δύσεως, εἴπερ ἐν τῇ δυσμικῇ πλευρᾷ κεῖται, ἐν ᾗ
+                                    καὶ ἡ Πάφος καὶ ὁ Ἀκάμας.</quote>
+                            </cit>
+                            <cit n="4" xml:lang="la">
+                        
+                                <bibl>Festus Ruf. Avienut Or. marit. 370</bibl>
+                                <quote>
+                                    <lg>
+                                    <l>Sed ad columnas quidquid interfunditur</l>
+                                    <l>und&#230; &#339;stuantis, stadia septem vix ait</l>
+                                    <l>Damastes esse. Caryand&#339;us Scylax</l>
+                                    <l>medium fluentem inter columnas adserit</l>
+                                    <l>tantum patere quantum &#339;stus Bospori est.</l>
+                                    </lg>
+                                </quote>
+                                <note xml:lang="la"> Ad h&#230;c clar. Letronn. in <bibl>Fragments
+                                        des poëmes géogr. de Scymnus, etc. p. 240</bibl>
+                                    <!-- french quote within a note -->
+                                    <quote xml:lang="fr"> « Le passage de Scylax auquel le poëte
+                                        fait allusion, n'existe pas dans notre périple, et n'a
+                                        jamais pu y être, puisque la largeur du détroit des colonnes
+                                        y est indiquée comme étant d'un jour de navigation, ce qui
+                                        est fort différent de sept stades; mais comme cette mesure
+                                        de sept stades est précisément celle que notre périple donne
+                                        au Bosphore de Thrace, je crois qu'Aviénus a fait tout
+                                        simplement une confusion de <pb n="66" break="no"/> deux
+                                        faits distincts, d᾿où est résulté un rapprochement inexact:
+                                        au lieu de dire que, selon Scylax, la largeur du détroit des
+                                        colonnes est égale à celle du Bosphore, il aurait dù dire
+                                        que la largeur de ce détroit, selon Damastes, était égale à
+                                        celle que Scylax donnait au Bosphore. Les citations des
+                                        anciens, si souvent faites de mémoire, présentent des
+                                        erreurs bien plus fortes que ce malentendu.» </quote></note>
+                            </cit>
+                            <cit n="5" xml:lang="la">
+                                <!-- latin quote in italics -->
+                                <bibl>Valerius Max. VIII, 13, 6</bibl>
+                                <quote>Hellanicus vero ait, quosdam ex gente Epiorum, qu&#230; pars
+                                    est &#198;toli&#230;, ducenos explere annos; eique subscribit
+                                    Damastes, hoc amplius affirmans, Lictorium quendam ex his,
+                                    maximarum virium statur&#230;que pr&#230;cipu&#230;,
+                                    trecentesimum annum cumulasse.</quote>
+                            </cit>
+                            <cit n="6" xml:lang="la">
+                                <!-- latin quote in italics -->
+                                <bibl>Plinius VII, 49, p. 37 Tchn.</bibl>
+                                <quote> Hellanicus quosdam in &#198;tolia Epiorum gentis ducentos
+                                    (sc. annos) explere. Cui adstipulatur Damastes (nonnulli libri
+                                    Damiades), memorans Pictoreum ex iis pr&#230;cipuum corpore
+                                    viribusque, etiam trecentos vixisse.</quote>
+                            </cit>
+                    </div>
+                    <div type="textpart" subtype="work">
+                        <ab>
+                            <title xml:lang="grc">[XPONIKA.]</title></ab>
+                        <!-- fragmentary work title in square brackets -->
+                        <cit n="7" xml:lang="grc">
+                                <bibl> Plutarch. Camill. c. 19</bibl>
+                                <quote><foreign xml:lang="la">Thargelion mensis Barbaris infaustus
+                                        est. Eo mense Pers&#230; ad Granicum victi,</foreign> καὶ
+                                    Καρχηδόνιοι περὶ Σικελίαν ὑπὸ Τιμολέοντος ἡττῶντο τῇ ἑ&#976;δόμῃ
+                                    φθίνοντος, περὶ ἣν δοκεῖ καὶ τὸ Ἴλιον ἁλῶναι, ὡς Ἔφορος καὶ
+                                    Καλλισθένης καὶ Δαμάστης καὶ Φύλαρχος (<foreign xml:lang="la"
+                                        >Fr. 66</foreign>) ἱστορήκασιν,</quote>
+                                <note xml:lang="la">In his aliter statuit ac Hellanicus <ref>(fr.
+                                        144)</ref>. Cf. not. ad <bibl>M. Par. p. 568</bibl>. Fluxit
+                                    numerus ex Iliade parva. Vid. <ref>Callisthenes fr. 15</ref>.
+                                </note>
+                            </cit>
+                            <cit n="8" xml:lang="grc">
+                                <bibl>Dionys. Hal, A. R. I, c. 72</bibl>
+                                <quote>Ὁ τὰς ἱερείας τὰς ἐν Ἄργει καὶ τὰ καθ᾿ ἑκάστην πραχθέντα
+                                    συναγαγὼν Αἰνείαν φησὶν ἐκ Μολοττῶν εἰς Ἰταλίαν ἐλθόντα μετ᾿
+                                    Ὀδυσσέως, οἰκιστὴν γενέσθαι τῆς πόλεως· ὠνομάσαι δ᾿ αὐτὴν
+                                    ἀπὸμιᾶς τῶν Ἰλιάδων Ῥώμης. Ταύτην δὲ λέγει ταῖς ἄλλαις Τρωάσι
+                                    παρακελευσαμένην, κοινῇ μετ᾿ αὐτῶν ἐμπρῆσαι τὰ σκάφη,
+                                    βαρυνομένην τῇ πλάνῃ. Ὁμολογεῖ δ᾿ αὐτῷ καὶ
+                                            <persName><name>Δαμάστης</name> ὁ <orgName>Σιγειεὺς
+                                        </orgName></persName> (<foreign xml:lang="la">vlg.</foreign>
+                                    <persName><orgName>Σιγεύς</orgName></persName>) καὶ ἄλλοι
+                                    τινές.</quote>
+                                <note xml:lang="la">Eadem ex Dionysio <bibl>Euseb. Arm. p. 204
+                                        Mai.</bibl>, ex Eusebio <bibl>Syncell. p. 192</bibl>. Apud
+                                        <bibl>Syncell. in codd.
+                                            </bibl><persName><name>Δαμαστὶς</name>
+                                        <orgName>Σιτιεὺς</orgName></persName> vel
+                                            <persName><orgName>Αἰγειεύς</orgName></persName>; ap.
+                                        <bibl>Euseb.</bibl>
+                                    <hi rend="italics">Damastes Sidetes</hi>. — <foreign
+                                        xml:lang="grc">᾿Ex Μολοττῶν] ἐκμολωτὸν, ἐκμολώτον</foreign>
+                                    codd. Syncell.; <hi rend="italics">captivum</hi> (<foreign
+                                        xml:lang="grc">αἰχμάλωτον</foreign>) vertit Goar. —<foreign
+                                        xml:lang="grc"><foreign xml:lang="grc">Ὁ τὰς ἱερείας..
+                                            συναγαγών</foreign></foreign>] sc. Hellanicus. Ad
+                                    Molossos &#198;neas venit ex Thracia, uti colligis ex Hellanico
+                                        <ref>(fr. 127 extrem)</ref>.</note>
+                            </cit>
+
+                    </div>
+                    <div type="textpart" subtype="work">
+                        <ab>
+                            <title xml:lang="grc">[ΠΕΡΙ ΕΥΡΗΜΑΤΩΝ.]</title></ab>
+                        <!-- fragmentary work title in square brackets -->
+                        <cit n="9" xml:lang="la">
+                                <bibl>Plinius H. N. VII, 57, de rerum inventoribus</bibl>
+                                <quote>Biremem Damastes Erythr&#230;os fecisse, triremem Thucydides
+                                    Aminoclem Corinthium.</quote>
+                                <note xml:lang="la">In indice auctorum <bibl>Plinian.</bibl>
+                                    Damastis nomen occurrit ad <bibl>libr. IV. V. VI. VII.</bibl>
+                                    Num <title>περὶ εὑρημάτων</title> Damastes data opera
+                                    scripsit?</note>
+                            </cit>
+
+                    </div>
+                    <div type="textpart" subtype="work">
+                        <ab>
+                            <title xml:lang="grc">ΠΕΡΙ ΠΟΙΗΤΩΝ ΚΑΙ ΣΟΦΙΣΤΩΝ.</title></ab>
+                        <cit n="10" xml:lang="grc">
+                                <bibl n="1">Vit. Homer. cod. Matrit. ed. Iriart. p. 233</bibl>
+                                <quote n="1"> Ἀναξιμένης καὶ Δαμάστης καὶ Πίνδαρος Χϊον τὸν Ὅμηρον
+                                    ἀποφαίνονται καὶ Θεόκριτος· ὁ δὲ Δαμάστης καὶ δέκατον αὐτὸν ἀπὸ
+                                    Μουσαίου φησὶ γεγονέναι.</quote>
+                                <bibl n="2">Proclus Vit. Hom. p. 25 in Βιογρ. Westermanni</bibl>
+                                <quote n="2"> Ἑλλάνικος καὶ Δαμάστης καὶ Φερεκύδης εἰς Ὀρφέα τὸ
+                                    γένος παράγουσιν αὐτοῦ. Μαίονα γάρ φασι τὸν Ὁμήρου πατέρα, καὶ
+                                    Δῖον τὸν Ἡσιόδου γενέσθαι Ἀπελλίδος, τοῦ Μελανωποῦ, τοῦ
+                                    Ἐπιφραδέος, τοῦ Χαριφήμου, τοῦ Φιλοτερπέος, τοῦ Ἰδμονίδα, τοῦ
+                                    Εὐκλέους, τοῦ Δωρίωνος, τοῦ Ὀρφέως. Γοργίας δ᾿ ὁ Λεοντῖνος εἰς
+                                    Μουσαῖον αὐτὸν ἀνάγει.</quote>
+                                <note xml:lang="la">Non ubique igitur Pherecydes, Hellanicus et
+                                    Damastes inter se consensere, nisi forte in <bibl>cod.
+                                        Matrit.</bibl> Damastes perperam citatur pro Gorgia Leon <pb
+                                        n="67" break="no"/> tino. Nam ubi <title xml:lang="la"
+                                        >Mus&#230;um</title> exspectas, Proclus ponit 
+                                        <title xml:lang="la">Dorionem</title>; eodem loco
+                                        <title xml:lang="grc">Δρής</title> nominatur ap. <bibl>Characem</bibl>,
+                                        <title xml:lang="grc">Ὄρτης</title> in <bibl>Certam. Hom. et Hesiodi</bibl>. Qu&#230;
+                                    nomina ex uno eodemque corrupta esse videntur. Welckerus
+                                        (<bibl>Cycl. p. 149</bibl>, ubi vide) statuit indicari iis
+                                    gentes quibus singuli Homerum vindicare studuerint, Dores,
+                                    Thraces, Odrysas(?); <title xml:lang="la">Mus&#230;um</title> vero iis deberi, qui cum
+                                    Atheniensium civitate genealogiam Homeri conjunxerint. Cf.
+                                            <bibl><ref target="bibliography.xml#blah">idem p. 192,
+                                            176</ref></bibl>; <bibl>Nitzsch. Hist. Hom. II, p.
+                                        88.</bibl></note>
+                            </cit>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </body>
+    </text>
+</TEI>

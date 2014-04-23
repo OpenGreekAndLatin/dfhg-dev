@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2anaximand_grc">
+    <!--IDs?-->
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+
+                <title>Fragmenta Historicorum Graecorum</title>
+
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName>Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName>Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2anaximand_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                        Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <!-- BCP 47 lang codes -->
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1120"
+                                >Anaximander Junior</author>
+
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+
+                            <biblScope unit="volume">2</biblScope>
+
+                        </monogr>
+
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft#page/n3/mode/2up"
+                            >Internet Archive</ref>
+
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <!-- describes all languages present in the text -->
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <!--OPTIONAL - check with Simon for versioning system-->
+            <!-- @who could point to the ids of the people from respStmt -->
+            <change who="#UK" when="2014-03-07">Created the XML file</change>
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text>
+
+        <body>
+
+
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+
+                <div type="textpart" subtype="book" n="1">
+                    <head xml:lang="grc">
+                        <title
+                            ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1120.tlg002."
+                            xml:lang="la"> ANAXIMANDER MILESIUS</title>
+                        <persName role="author"><name type="personal">Anaximander</name>
+                            <name type="ethnicon">Milesius</name></persName>. <!-- @ref pointing to this individual in the prosopography/author list -->
+                        <!-- https://archive.org/stream/fragmentahistori02mueluoft#page/63/mode/1up -->
+                    </head>
+
+                    <pb n="67"/>
+
+                    <p><bibl>Suidas</bibl>:<quote>
+                            <persName><name role="author">Ἀναξίμανδρος</name>,
+                                        <persName><name>Ἀναξιμάνδρου</name></persName>,
+                                    <orgName>Μιλήσιος</orgName></persName>, ὁ νεώτερος, ἱστορικός·
+                            γέγονε δὲ κατὰ τοὺς Ἀρταξέρξου χρόνους τοῦ Μνήμονος κληθέντος. Ἔγραψε
+                                <title>Συμ&#976;όλων Πυθαγορείων ἐξήγησιν</title>· <title>οἷόν ἐστι
+                                τὸ Ζυγὸν μὴ ὑπερ&#976;αίνειν</title>· <title>Μαχείρᾳ πῦρ μὴ
+                                σκαλεύειν</title>· <title>Ἀπὸ ὁλοκλήρου ἄρτου μὴ
+                            ἐσθίειν</title>·</quote>
+                        <foreign xml:lang="grc">καὶ τὰ λοιπά</foreign>. <note>Cf. <bibl>Eudocia</bibl>.
+                        (Artaxerxes Mnemon regn. 405—359 a. C.)</note></p> 
+                    <p><bibl>Diogen. L. II,
+                                2</bibl>:<quote><foreign xml:lang="la">Pr&#230;ter Anaximandrum
+                                philosophum</foreign> γέγονε καὶ ἄλλος <persName role="author"
+                                    ><name>Ἀναξίμανδρος</name></persName> ἱστορικὸς, καὶ αὐτὸς
+                                    <persName><orgName>Μιλήσιος</orgName></persName>, <title>τῇ
+                                Ἰάδι</title> γεγραφώς.</quote></p>
+                    <p>Anaximander h. l. fortasse non
+                        diversus est ab illo, quem cum Stesimbroto inter magistros Nicerati nominat
+                        Xenophon <bibl>Conviv. III, 6.</bibl> Stesimbroto tamen juniorem fuisse, ut
+                        qui sub Artaxerxe adhuc floruisse dicatur, facile colligas.</p>
+                    <p>Pr&#230;ter
+                        symbolorum Pythagoricorum interpretationem scripsisse videtur Historiam
+                        mythicam, si quidem recte huc referendam esse censemus quam Athen&#230;us
+                        laudat Anaximandri <title>Ἡρωολογίαν</title>.</p>
+
+                    <div type="textpart" subtype="work">
+                        <ab>
+                            <title xml:lang="grc">ΗΡΩΟΛΟΓΙΑ.</title></ab>
+                        <cit n="1" xml:lang="grc">
+                            <bibl>Athen&#230;us XI, p. 498, A</bibl>
+                            <quote>
+                                <persName role="author">Ἡσίοδος</persName> ἐν τῷ <num value="2"
+                                    >δευτέρῳ</num>
+                                <title>Μελαμποδίας</title> σὺν τῷ π σκύπφον λέγει. . . Ὁμοίως δὲ καὶ
+                                    <persName role="author">Ἀναξίμανδρος</persName> ἐν <title>τῇ
+                                    Ἡρωολογίᾳ</title>, λέγων ὧδε· Ἀμφιτρύων δὲ τὴν λείην δασάμενος
+                                τοῖς συμμάχοις, καὶ τὸν σκύπφον ἔχων ὃν εἵλετο αὑτῷ. Καὶ πάλιν· Τὸν
+                                δὲ σκύπφον Τηλεβόῃ δίδωσι Ποσειδῶν, παιδὶ τῷ ἐαυτοῦ· Τηλεβόης δὲ
+                                Πτερέλεῳ· τοῦτον ἑλὼν ἀπέπλεεν.</quote>
+                            <note xml:lang="la">Cf. <bibl>Herodori fr. I</bibl>.— <foreign
+                                    xml:lang="grc">ἐν <title>τῇ ἡρωολογίᾳ</title></foreign>] idem
+                                libri titulus reponendus apud <ref>Hecat&#230;um fr.
+                                354.</ref></note>
+                        </cit>
+                        <cit n="2" xml:lang="grc">
+                            <bibl>Bekker. Anecd. p. 783</bibl>
+                            <quote><foreign xml:lang="la">Pythodorus et Phillis Delius a Danao
+                                    literas in Gr&#230;ciam asportatas esse dicunt.</foreign>
+                                Ἐπιμαρτυροῦσι τούτοις καὶ οἱ Μιλησιακοὶ συγγραφεῖς <persName
+                                    role="author">Ἀναξίμανδρος</persName> καὶ <persName
+                                    role="author">Διονύσιος</persName> καὶ <persName role="author"
+                                    >Ἑκαταῖος</persName>, οὓς καὶ <persName role="autjor"
+                                    >Ἀπολλόδωρος</persName> ἐν <title>Νεῶν καταλόγῳ</title>
+                                παρατίθεται.</quote>
+                            <note xml:lang="la">Sine dubio
+                                    <persName><orgName>Milesius</orgName>junior</persName>
+                                intelligendus. Cf. <bibl>Nitzsch. H. Hom. I, p. 79,</bibl></note>
+                        </cit>
+                        <cit n="3" xml:lang="la">
+                            <!-- Parenthesis -->
+                            <quote> Apollini novem deputant Musas, ipsumque decimum Musis adjiciunt:
+                                illa videlicet causa, quod human&#230; vocis decem sint modulamina,
+                                unde cum decachorda Apollo pingitur cithara. Sed et lex divina
+                                decachordon dicit psalterium. Fit igitur vox quattuor dentibus
+                                econtra positis, quos lingua perculit: e quibus si uno minus fuerit,
+                                sibilum potius quam vocem reddat necesse est. Duo labia velut
+                                cymbata, verborum commoda modulantia: lingua, ut plectrum, qu&#230;
+                                curvamine quodam vocalem format spiritum; palatus, cujus concavitas
+                                projert sonum; gutturalis fistula, qa&#230; tereti meatum spiritalem
+                                pr&#230;bet excursu; et pulmo qui velut acervus follis concepta
+                                reddit ac revocat. Habes ergo novem Musarum vel Apollinis ipsius
+                                redditam rationem, sicut in libris suis
+                                        <persName><name>Anaximander</name>
+                                    <orgName type="alt">Lampsacenus</orgName></persName> et
+                                    <persName role="author"><name>Leophantes</name> (?)
+                                    Heracteopolites</persName> exponunt; et quod alii firmant, ut
+                                    <persName role="author">Pisander</persName> physicus, et
+                                    <persName role="author">Euximenes</persName>
+                                <note xml:lang="la">(i. e. <persName type="alt">Euemerus</persName>)</note> in
+                                libro <title>Θεολογουμένων</title>.</quote>
+                            <note xml:lang="la"><quote> «Vel <persName><name>Anaximandrum</name>
+                                        <orgName>Milesium</orgName></persName> vel <persName
+                                        type="alt"><name>Anaximenem</name>
+                                        <orgName>Lampsacenum</orgName></persName> dicere voluerit.
+                                    »</quote>
+                                <bibl>Voss. p. 54.</bibl> Ad Anaximandrum <bibl>Xenophontis l.
+                                    l.</bibl>, mythorum interpretem, refert <bibl>Lobeck. Aglaoph.
+                                    p. 157</bibl>. </note>
+                        </cit>
+                    </div>
+
+                </div>
+            </div>
+
+        </body>
+    </text>
+</TEI>
