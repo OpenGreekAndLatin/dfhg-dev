@@ -2,7 +2,7 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
 <?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2anaximand_la">
-    <!--IDs?-->
+
     <teiHeader>
         <fileDesc>
 
@@ -56,7 +56,7 @@
 
             <sourceDesc>
                 <listBibl xml:lang="la">
-                    <!-- BCP 47 lang codes -->
+                
                     <biblStruct>
                         <monogr>
                             <title>Fragmenta Historicorum Graecorum</title>
@@ -96,7 +96,7 @@
 
         <profileDesc>
             <langUsage>
-                <!-- describes all languages present in the text -->
+           
                 <language ident="la">Latin</language>
                 <language ident="grc">Greek</language>
 
@@ -104,8 +104,7 @@
         </profileDesc>
 
         <revisionDesc>
-            <!--OPTIONAL - check with Simon for versioning system-->
-            <!-- @who could point to the ids of the people from respStmt -->
+        
             <change who="#UK" when="2014-03-07">Created the XML file</change>
         </revisionDesc>
 
