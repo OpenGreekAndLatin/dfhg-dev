@@ -2,8 +2,7 @@
 <?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
 <?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2anaximand_grc">
-    <!--IDs?-->
-    <teiHeader>
+      <teiHeader>
         <fileDesc>
 
             <titleStmt>
@@ -96,7 +95,7 @@
 
         <profileDesc>
             <langUsage>
-                <!-- describes all languages present in the text -->
+              
                 <language ident="la">Latin</language>
                 <language ident="grc">Greek</language>
 
@@ -104,8 +103,7 @@
         </profileDesc>
 
         <revisionDesc>
-            <!--OPTIONAL - check with Simon for versioning system-->
-            <!-- @who could point to the ids of the people from respStmt -->
+         
             <change who="#UK" when="2014-03-07">Created the XML file</change>
         </revisionDesc>
 
@@ -124,7 +122,7 @@
                             ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1120.tlg002."
                             xml:lang="la"> ANAXIMANDER MILESIUS</title>
                         <persName role="author"><name type="personal">Anaximander</name>
-                            <name type="ethnicon">Milesius</name></persName>. <!-- @ref pointing to this individual in the prosopography/author list -->
+                            <name type="ethnicon">Milesius</name></persName>. 
                         <!-- https://archive.org/stream/fragmentahistori02mueluoft#page/63/mode/1up -->
                     </head>
 
