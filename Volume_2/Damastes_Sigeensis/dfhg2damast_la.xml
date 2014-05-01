@@ -114,7 +114,7 @@
         <body>
 
 
-            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+            <div type="translation" subtype="volume" n="2" xml:lang="la">
 
                 <div type="textpart" subtype="book" n="1">
                     <pb n="65"/>
