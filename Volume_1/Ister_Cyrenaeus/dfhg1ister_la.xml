@@ -86,8 +86,7 @@
     
     <text>    
         <body>            
-            <div type="edition" subtype="volume" n="1" xml:lang="la">
-                <div type="translation" subtype="volume" n="1" xml:lang="la">
+            <div type="translation" subtype="volume" n="1" xml:lang="la">
                 
                     <head xml:lang="la">
                         <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1450.tlg004.opp-lat1" xml:lang="la">ISTRI FRAGMENTA</title>
@@ -532,7 +531,7 @@
                         curvis unguibus armatarum l&#230;di.</p>
                     </div>
                 </div>
-            </div>
+            
                 </body>
     </text>
     </TEI>
