@@ -114,7 +114,7 @@
         <body>
 
 
-            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+            <div type="translation" subtype="volume" n="2" xml:lang="la">
 
                 <div type="textpart" subtype="book" n="1">
                     <pb n="65"/>
@@ -164,7 +164,7 @@
 
                     <p n="10">Anaximenes et Damastes et Pindarus Homerum Chium esse exhibent; item
                         Theocritus, Ac Damastes quidam eum esse decimum a Mus&#230;o dicit.</p>
-                    <!-- ? -->
+                 
                     <p>Hellanicus et Damastes et Pherecydes Homeri genus ab Orpheo deducunt. Etenim
                         M&#230;onem dicunt Homeri, et Dium Hesiodi patrem filios fuisse Apellidis,
                         Melanopis, Epiphradis, Chariphemi, Philoterpis, Idmonidis, Eucleis,

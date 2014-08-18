@@ -55,7 +55,7 @@
 
             <sourceDesc>
                 <listBibl xml:lang="la">
-                    <!-- BCP 47 lang codes -->
+                    
                     <biblStruct>
                         <monogr>
                             <title>Fragmenta Historicorum Graecorum</title>
@@ -95,7 +95,7 @@
 
         <profileDesc>
             <langUsage>
-                <!-- describes all languages present in the text -->
+                
                 <language ident="la">Latin</language>
                 <language ident="grc">Greek</language>
 
@@ -103,8 +103,7 @@
         </profileDesc>
 
         <revisionDesc>
-            <!--OPTIONAL - check with Simon for versioning system-->
-            <!-- @who could point to the ids of the people from respStmt -->
+            
             <change who="#UK" when="2014-02-11">Created the XML file</change>
         </revisionDesc>
 
@@ -122,8 +121,7 @@
                         <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1868.tlg003"
                             xml:lang="la"> DAMASTES SIGEENSIS</title>
                         <persName role="author"><name type="personal">Damastes</name>
-                            <name type="ethnicon">Sigeus</name></persName>. <!-- @ref pointing to this individual in the prosopography/author list -->
-                        <!-- https://archive.org/stream/fragmentahistori02mueluoft#page/64/mode/1up -->
+                            <name type="ethnicon">Sigeus</name></persName>. 
                     </head>
 
                     <pb n="64"/>
@@ -272,7 +270,7 @@
                                     ἀνωτέρω Ἀριμάσπους, ἄνω δ᾿ Ἀριμασπῶν τὰ Ῥίπαια ὄρη, ἐξ ὦν τὸν
                                     βορέαν πνεῖν, χιόνα δ᾿ αὐτὰ μήποτε ἐλλείπειν· ὑπὲρ δὲ τὰ ὄρη
                                     ταῦτα Ὑπερ&#976;ορέους καθήκειν εἰς τὴν ἑτέραν θάλασσαν. </quote>
-                                <note xml:lang="la"> Sequitur Hellanicum <ref>(fr. 96 )</ref>. Cf.
+                                <note> Sequitur Hellanicum <ref>(fr. 96 )</ref>. Cf.
                                         <bibl>Ukert. Ueber Hecataus u. Damast. Geogr. p. 51</bibl>;
                                         <bibl>Müller. Dor. I, p. 376</bibl>.</note>
                             </cit>
@@ -312,41 +310,41 @@
                                     <l>tantum patere quantum &#339;stus Bospori est.</l>
                                     </lg>
                                 </quote>
-                                <note xml:lang="la"> Ad h&#230;c clar. Letronn. in <bibl>Fragments
-                                        des poëmes géogr. de Scymnus, etc. p. 240</bibl>
-                                    <!-- french quote within a note -->
-                                    <quote xml:lang="fr"> « Le passage de Scylax auquel le poëte
-                                        fait allusion, n'existe pas dans notre périple, et n'a
-                                        jamais pu y être, puisque la largeur du détroit des colonnes
-                                        y est indiquée comme étant d'un jour de navigation, ce qui
-                                        est fort différent de sept stades; mais comme cette mesure
-                                        de sept stades est précisément celle que notre périple donne
-                                        au Bosphore de Thrace, je crois qu'Aviénus a fait tout
+                                <note> Ad h&#230;c clar. Letronn. in <bibl>Fragments
+                                        des po&#235;mes g&#233;ogr. de Scymnus, etc. p. 240</bibl>
+                                   
+                                    <quote xml:lang="fr"> « Le passage de Scylax auquel le po&#235;te
+                                        fait allusion, n'existe pas dans notre p&#233;riple, et n'a
+                                        jamais pu y &#234;tre, puisque la largeur du d&#233;troit des colonnes
+                                        y est indiqu&#233;e comme &#233;tant d'un jour de navigation, ce qui
+                                        est fort diff&#233;rent de sept stades; mais comme cette mesure
+                                        de sept stades est pr&#233;cis&#233;ment celle que notre p&#233;riple donne
+                                        au Bosphore de Thrace, je crois qu'Avi&#233;nus a fait tout
                                         simplement une confusion de <pb n="66" break="no"/> deux
-                                        faits distincts, d᾿où est résulté un rapprochement inexact:
-                                        au lieu de dire que, selon Scylax, la largeur du détroit des
-                                        colonnes est égale à celle du Bosphore, il aurait dù dire
-                                        que la largeur de ce détroit, selon Damastes, était égale à
+                                        faits distincts, d᾿où est r&#233;sult&#233; un rapprochement inexact:
+                                        au lieu de dire que, selon Scylax, la largeur du d&#233;troit des
+                                        colonnes est &#233;gale &#224; celle du Bosphore, il aurait dù dire
+                                        que la largeur de ce d&#233;troit, selon Damastes, &#233;tait &#233;gale &#224;
                                         celle que Scylax donnait au Bosphore. Les citations des
-                                        anciens, si souvent faites de mémoire, présentent des
+                                        anciens, si souvent faites de m&#233;moire, pr&#233;sentent des
                                         erreurs bien plus fortes que ce malentendu.» </quote></note>
                             </cit>
                             <cit n="5" xml:lang="la">
-                                <!-- latin quote in italics -->
+                              
                                 <bibl>Valerius Max. VIII, 13, 6</bibl>
-                                <quote>Hellanicus vero ait, quosdam ex gente Epiorum, qu&#230; pars
+                                <quote><hi rend="italics">Hellanicus vero ait, quosdam ex gente Epiorum, qu&#230; pars
                                     est &#198;toli&#230;, ducenos explere annos; eique subscribit
                                     Damastes, hoc amplius affirmans, Lictorium quendam ex his,
                                     maximarum virium statur&#230;que pr&#230;cipu&#230;,
-                                    trecentesimum annum cumulasse.</quote>
+                                    trecentesimum annum cumulasse.</hi></quote>
                             </cit>
                             <cit n="6" xml:lang="la">
-                                <!-- latin quote in italics -->
+                                
                                 <bibl>Plinius VII, 49, p. 37 Tchn.</bibl>
-                                <quote> Hellanicus quosdam in &#198;tolia Epiorum gentis ducentos
+                                <quote><hi rend="italics"> Hellanicus quosdam in &#198;tolia Epiorum gentis ducentos
                                     (sc. annos) explere. Cui adstipulatur Damastes (nonnulli libri
                                     Damiades), memorans Pictoreum ex iis pr&#230;cipuum corpore
-                                    viribusque, etiam trecentos vixisse.</quote>
+                                    viribusque, etiam trecentos vixisse.</hi></quote>
                             </cit>
                     </div>
                     <div type="textpart" subtype="work">
@@ -361,7 +359,7 @@
                                     φθίνοντος, περὶ ἣν δοκεῖ καὶ τὸ Ἴλιον ἁλῶναι, ὡς Ἔφορος καὶ
                                     Καλλισθένης καὶ Δαμάστης καὶ Φύλαρχος (<foreign xml:lang="la"
                                         >Fr. 66</foreign>) ἱστορήκασιν,</quote>
-                                <note xml:lang="la">In his aliter statuit ac Hellanicus <ref>(fr.
+                                <note>In his aliter statuit ac Hellanicus <ref>(fr.
                                         144)</ref>. Cf. not. ad <bibl>M. Par. p. 568</bibl>. Fluxit
                                     numerus ex Iliade parva. Vid. <ref>Callisthenes fr. 15</ref>.
                                 </note>
@@ -378,7 +376,7 @@
                                         </orgName></persName> (<foreign xml:lang="la">vlg.</foreign>
                                     <persName><orgName>Σιγεύς</orgName></persName>) καὶ ἄλλοι
                                     τινές.</quote>
-                                <note xml:lang="la">Eadem ex Dionysio <bibl>Euseb. Arm. p. 204
+                                <note>Eadem ex Dionysio <bibl>Euseb. Arm. p. 204
                                         Mai.</bibl>, ex Eusebio <bibl>Syncell. p. 192</bibl>. Apud
                                         <bibl>Syncell. in codd.
                                             </bibl><persName><name>Δαμαστὶς</name>
@@ -404,7 +402,7 @@
                                 <bibl>Plinius H. N. VII, 57, de rerum inventoribus</bibl>
                                 <quote>Biremem Damastes Erythr&#230;os fecisse, triremem Thucydides
                                     Aminoclem Corinthium.</quote>
-                                <note xml:lang="la">In indice auctorum <bibl>Plinian.</bibl>
+                                <note>In indice auctorum <bibl>Plinian.</bibl>
                                     Damastis nomen occurrit ad <bibl>libr. IV. V. VI. VII.</bibl>
                                     Num <title>περὶ εὑρημάτων</title> Damastes data opera
                                     scripsit?</note>
@@ -426,7 +424,7 @@
                                     Ἐπιφραδέος, τοῦ Χαριφήμου, τοῦ Φιλοτερπέος, τοῦ Ἰδμονίδα, τοῦ
                                     Εὐκλέους, τοῦ Δωρίωνος, τοῦ Ὀρφέως. Γοργίας δ᾿ ὁ Λεοντῖνος εἰς
                                     Μουσαῖον αὐτὸν ἀνάγει.</quote>
-                                <note xml:lang="la">Non ubique igitur Pherecydes, Hellanicus et
+                                <note>Non ubique igitur Pherecydes, Hellanicus et
                                     Damastes inter se consensere, nisi forte in <bibl>cod.
                                         Matrit.</bibl> Damastes perperam citatur pro Gorgia Leon <pb
                                         n="67" break="no"/> tino. Nam ubi <title xml:lang="la"

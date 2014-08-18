@@ -55,7 +55,7 @@
 
             <sourceDesc>
                 <listBibl xml:lang="la">
-                    <!-- BCP 47 lang codes -->
+                 
                     <biblStruct>
                         <monogr>
                             <title>Fragmenta Historicorum Graecorum</title>
@@ -123,7 +123,7 @@
                             xml:lang="la"> ANAXIMANDER MILESIUS</title>
                         <persName role="author"><name type="personal">Anaximander</name>
                             <name type="ethnicon">Milesius</name></persName>. 
-                        <!-- https://archive.org/stream/fragmentahistori02mueluoft#page/63/mode/1up -->
+                 
                     </head>
 
                     <pb n="67"/>
@@ -168,7 +168,7 @@
                                 τοῖς συμμάχοις, καὶ τὸν σκύπφον ἔχων ὃν εἵλετο αὑτῷ. Καὶ πάλιν· Τὸν
                                 δὲ σκύπφον Τηλεβόῃ δίδωσι Ποσειδῶν, παιδὶ τῷ ἐαυτοῦ· Τηλεβόης δὲ
                                 Πτερέλεῳ· τοῦτον ἑλὼν ἀπέπλεεν.</quote>
-                            <note xml:lang="la">Cf. <bibl>Herodori fr. I</bibl>.— <foreign
+                            <note>Cf. <bibl>Herodori fr. I</bibl>.— <foreign
                                     xml:lang="grc">ἐν <title>τῇ ἡρωολογίᾳ</title></foreign>] idem
                                 libri titulus reponendus apud <ref>Hecat&#230;um fr.
                                 354.</ref></note>
@@ -183,7 +183,7 @@
                                     >Ἑκαταῖος</persName>, οὓς καὶ <persName role="autjor"
                                     >Ἀπολλόδωρος</persName> ἐν <title>Νεῶν καταλόγῳ</title>
                                 παρατίθεται.</quote>
-                            <note xml:lang="la">Sine dubio
+                            <note>Sine dubio
                                     <persName><orgName>Milesius</orgName>junior</persName>
                                 intelligendus. Cf. <bibl>Nitzsch. H. Hom. I, p. 79,</bibl></note>
                         </cit>
@@ -207,7 +207,7 @@
                                     Heracteopolites</persName> exponunt; et quod alii firmant, ut
                                     <persName role="author">Pisander</persName> physicus, et
                                     <persName role="author">Euximenes</persName>
-                                <note xml:lang="la">(i. e. <persName type="alt">Euemerus</persName>)</note> in
+                                <note>(i. e. <persName type="alt">Euemerus</persName>)</note> in
                                 libro <title>Θεολογουμένων</title>.</quote>
                             <note xml:lang="la"><quote> «Vel <persName><name>Anaximandrum</name>
                                         <orgName>Milesium</orgName></persName> vel <persName
