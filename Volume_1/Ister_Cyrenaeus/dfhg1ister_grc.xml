@@ -110,6 +110,7 @@
         <revisionDesc>
             <change who="#MB" when="2014-02-07">Created the XML file</change>
             <change who="#MB" when="2014-02-07">Encoded text</change>
+            <change who="#SS" when="2014-08-19">Proofread and updated.</change>
         </revisionDesc>
 
     </teiHeader>
