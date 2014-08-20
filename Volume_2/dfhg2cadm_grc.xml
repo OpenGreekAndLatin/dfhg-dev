@@ -1,50 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
 <?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mueller2cadm-grc">
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2cadm_grc">
 
     <teiHeader>
         <fileDesc>
 
             <titleStmt>
-
                 <title>Fragmenta Historicorum Graecorum</title>
-
                 <editor>Karl Müller</editor>
                 <sponsor>University of Leipzig</sponsor>
                 <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
 
-
                 <respStmt>
-                    <persName>Monica Berti</persName>
+                    <persName xml:id="MB">Monica Berti</persName>
                     <resp>Editor in chief</resp>
                 </respStmt>
 
                 <respStmt>
-                    <persName>Gregory Crane</persName>
+                    <persName xml:id="GC">Gregory Crane</persName>
                     <resp>Associate editor</resp>
                 </respStmt>
 
                 <respStmt>
-                    <persName>Greta Franzini</persName>
+                    <persName xml:id="GF">Greta Franzini</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
 
                 <respStmt>
-                    <persName>Simona Stoyanova</persName>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
             </titleStmt>
 
             <publicationStmt>
                 <authority/>
-                <idno type="mueller2cadm-grc"/>
-                <authority>University of Leipzig</authority>
+                <idno type="filename">dfhg2cadm_grc.xml</idno>
                 <availability>
-                    <p>Available under a Creative Commons Attribution-ShareAlike 4.0 International
-                        License</p>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike 4.0 International
+                        License</licence>
                 </availability>
-                <date>2013</date>
+                <date>2014</date>
                 <publisher>University of Leipzig</publisher>
                 <pubPlace>Germany</pubPlace>
             </publicationStmt>
@@ -60,71 +58,75 @@
                                     <addName xml:lang="de">Karl Müller</addName>
                                 </persName>
                             </editor>
-                            <author ref="urn:cts:greekLit:tlg2338.tlg002.opp-grc1">Cadmus
-                                Milesius</author>
-
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg2338"
+                                >Cadmus Milesius</author>
                             <imprint>
                                 <publisher>Ambroise-Firmin Didot</publisher>
                                 <pubPlace>Paris, France</pubPlace>
                                 <date>1841</date>
-
                             </imprint>
-
                             <biblScope unit="volume">2</biblScope>
-
                         </monogr>
-
                         <ref
                             target="https://archive.org/stream/fragmentahistori02mueluoft#page/n3/mode/2up"
                             >Internet Archive</ref>
-
                     </biblStruct>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
 
-
         <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
             <p>The following text is encoded in accordance with EpiDoc standards and with the
                 CTS/CITE Architecture.</p>
         </encodingDesc>
 
         <profileDesc>
             <langUsage>
-
                 <language ident="la">Latin</language>
                 <language ident="grc">Greek</language>
-
             </langUsage>
         </profileDesc>
 
         <revisionDesc>
             <change who="#GF" when="2013-10-25">Created the XML file</change>
+            <change who="SS" when="2014-08-20">Proofread and updated</change>
         </revisionDesc>
-
     </teiHeader>
 
     <text>
-
         <body>
-
-
             <div type="edition" subtype="volume" n="2" xml:lang="grc">
-
                 <div type="textpart" subtype="book" n="1">
 
                     <head xml:lang="grc">
-                        <persName role="author" ref="urn:cts:greekLit:tlg2338"><name type="personal"
-                                >CADMUS</name>
-                            <name type="ethnicon">MILESIUS</name></persName>.
-                        <!-- https://archive.org/stream/fragmentahistori02mueluoft#page/2/mode/1up -->
-                    </head>
+                        <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg2338.tlg002"
+                            >CADMUS MILESIUS</title>. </head>
 
                     <pb n="1"/>
 
-
-                    <bibl><author role="witness">Suidas: Κάδμος ὁ Μιλήσιος, εὑρετὴς
-                            γραμμάτων.</author></bibl>
+                    <bibl>Suidas: Κάδμος ὁ Μιλήσιος, εὑρετὴς γραμμάτων.</bibl>
 
                     <quote>Ἐν ἐπιγράμματι Ζήνωνος <note>(v. <bibl>Diog. L. VII, 30</bibl>)</note>·
                             <l>Εἰ δὲ πάτρα Φοίνισσα, τίς ὁ φθόνος; ἢν καὶ ὁ Κάδμος</l>
@@ -142,10 +144,7 @@
                                 <title>Ἀττικὰς ἱστορίας</title>
                             <num value="16">ις</num>. <note>Cf. <bibl>Eudocia p.
                             267</bibl>.</note></p>
-                      
-                        
                     </quote>
-
 
                     <p>Diversa plane Suidam temere miscere in hac glossarum farragine
                         s&#230;penumero viri docti monuerunt: scilicet Cadmum literarum inventorem
@@ -153,23 +152,18 @@
                         &#230;tatem, qu&#230; tribuenda sit filio Agenoris (V. <bibl>Clinton.
                                 <title>F. H.</title> tom. <biblScope unit="volume">II</biblScope>,
                                 <biblScope unit="page">454</biblScope></bibl>). Igitur, misso Suida,
-                        de temporibus scriptoris nostri audiamus Josephum C. Apion. I, c. 2
-                        extr.:</p>
-
-
-                    <quote>Οἱ μέντοι τὰς ἱστορίας ἐπιχειρήσαντες συγγράφειν παρ᾿ αὐτοῖς (<foreign
-                            xml:lang="la">sc.</foreign> Τοῖς Ἕλλησι), λέγω δὲ τοὺς περὶ Κάδμον τὸν
-                        Μιλήσιον καὶ τὸν Ἀργεῖον Ἀκουσίλαον, καὶ μετὰ τοῦτον εἴ τινες ἄλλοι λέγονται
-                        γενέσθαι, βραχὺ τῆς τῶν Περσῶν ἐπὶ τὴν Ἑλλάδα διαστρατείας τῷ χρόνῳ
-                        προὔλα&#976;ον</quote>
-                    <note>(Exscripsit h&#230;c <bibl>Euseb. Pr. Ev. X, 7, p. 478 A</bibl>).</note>
-
-
-                    <p>Accuratius rem definire licet, atque Hecat&#230;o et Pherecyde Syrio Cadmus
-                        paullo antiquior fuisse dicendus est, si fidem merentur ii, qui Cadmum, non
-                        vero Hecat&#230;cum aut Pherecydem,prosam orationem vel historiam pedestri
-                        sermone conscriptam primum condidisse ferunt. Sic pr&#230;ter <bibl>Suidam
-                            (1.1.)</bibl>
+                        de temporibus scriptoris nostri audiamus <bibl>Josephum C. Apion. I, c. 2
+                            extr.</bibl>: <quote>Οἱ μέντοι τὰς ἱστορίας ἐπιχειρήσαντες συγγράφειν
+                            παρ᾿ αὐτοῖς (<foreign xml:lang="la">sc.</foreign> Τοῖς Ἕλλησι), λέγω δὲ
+                            τοὺς περὶ Κάδμον τὸν Μιλήσιον καὶ τὸν Ἀργεῖον Ἀκουσίλαον, καὶ μετὰ
+                            τοῦτον εἴ τινες ἄλλοι λέγονται γενέσθαι, βραχὺ τῆς τῶν Περσῶν ἐπὶ τὴν
+                            Ἑλλάδα διαστρατείας τῷ χρόνῳ προὔλα&#976;ον</quote>
+                        <note>(Exscripsit h&#230;c <bibl>Euseb. Pr. Ev. X, 7, p. 478
+                            A</bibl>).</note> Accuratius rem definire licet, atque Hecat&#230;o et
+                        Pherecyde Syrio Cadmus paullo antiquior fuisse dicendus est, si fidem
+                        merentur ii, qui Cadmum, non vero Hecat&#230;cum aut Pherecydem,prosam
+                        orationem vel historiam pedestri sermone conscriptam primum condidisse
+                        ferunt. Sic pr&#230;ter <bibl>Suidam (1.1.)</bibl>
                         <bibl>Plinius H. N. V, 31</bibl>: <quote>Nec Miletus fraudanda cive Cadmo,
                             qui primus prosam orationem candere instituit.</quote> Hinc sua habet
                             <bibl>Solinus c. 49</bibl>: <quote>Miletus, Ioni&#230; caput, Cadmi olim
@@ -215,10 +209,8 @@
                                 omnes historicos Herodoto antiquiorcs, etsi s&#230;pius argumenta
                                 vere historica vel historica mythicis mixta ab iis tractata sunt,
                                 uno <hi rend="italic">logographorum</hi> nomine comprehendunt.
-                                Ceterum cf. <bibl>Creuzer, <title>Hist.
-                                        Kunst</title>
-                                    265
-                                </bibl></note>, συνέγραψαν οἱ περὶ Κάσμον καὶ Φερεκύδην καὶ
+                                Ceterum cf. <bibl>Creuzer, <title>Hist. Kunst</title>
+                                265</bibl></note>, συνέγραψαν οἱ περὶ Κάσμον καὶ Φερεκύδην καὶ
                             Ἑκαταῖον· εἶτα οἱ ὕστερον, ἀφαιροῦντες ἀεί τι τῶν τοιούτων, εἰς τὸ νῦν
                             εἶδος κατήγαγον, ὡς ἂν ἀπὸ ὔψους τινός.</quote>
                         <note>Cf. <bibl>Eustath. Ad Hom. II. p. 9, 8 ed. Rom.</bibl></note><note
@@ -228,13 +220,13 @@
                                 Αἰσχίνης ὁ ῥήτωρ</quote>
                             <foreign xml:lang="grc">κτλ.</foreign> excidisse <foreign xml:lang="grc"
                                 >Κάδμου</foreign> mentionem opinantur Coray ad h. I. et Groskurk. in
-                            versione Strabonis germanica, uti disco ex <bibl> Forbigero
-                                    <title>Handb. d. alt. Geogr.</title> I, <biblScope unit="page"
-                                    >48</biblScope></bibl>.</note>
+                            versione Strabonis germanica, uti disco ex <bibl>Forbigero <title>Handb.
+                                    d. alt. Geogr.</title> I, <biblScope unit="page"
+                                >48</biblScope></bibl>.</note>
                     </p>
 
-                    <p>Diodorus vero h&#230;c (<bibl>I, 87, 3. Excerpsit Theo- <pb n="2" break="no"
-                            /> phylact. Simoc. p.186 ed. Paris.</bibl>): <quote>Τινὲς δ᾿
+                    <p>Diodorus vero h&#230;c (<bibl>I, 87, 3. Excerpsit Theo <pb n="2" break="no"/>
+                            phylact. Simoc. p.186 ed. Paris.</bibl>): <quote>Τινὲς δ᾿
                             ἐπι&#976;αλόμενοι λέγειν περὶ τῶν ἐπιζητουμένων (<foreign xml:lang="la"
                                 >sc.</foreign> περὶ τῆς ἀνα&#976;άσεως τοῦ Νείλου καὶ τῶν πηγῶν
                                 <foreign xml:lang="la">etc.</foreign>) πολὺ τῆς ἀληθείας διήμαρτον.
@@ -256,16 +248,16 @@
                         ex Cadmo literarum inventore <note type="footnote">De mythico hoc Cadmo
                             literarum inventore, ut alios mittam, vide Movers. in egregio libro, qui
                             inscribitur <bibl><title>Religion d. Ph&#339;nizier</title>, Bonn. 1841,
-                                    518</bibl></note> finxerint
-                        antiquissimum scriptorem. Quam quidem qu&#230;stionem jam veteres agitasse
-                        haud obscure innuunt Pliniana ista: <hi rend="italic">Nec Miletus fraudanda
-                            cive Cadmo</hi>. Nomen sane per se nihil habet offensionis. Nam ex
-                        Herodoto novimus <hi rend="italic">Cadmum</hi>, Scyth&#230; filiumn, Coorum
-                        tyrannum <note type="footnote">V. <bibl>Herodot. VII, 63 coll. VI, 23
-                                sq.</bibl>; Suidas v. <foreign xml:lang="grc">Ἐπίχαρμος</foreign>;
-                                <bibl>Hippocrat. Epist. 7</bibl>. De temporibus ejus et familia v.
-                                <bibl>Müller. <title>Dor</title>. l, 170; II, 147, 1; 353, 1; 509,
-                                36</bibl>.</note>; porro <hi rend="italic">Eucadmum</hi>, statuarium
+                                518</bibl></note> finxerint antiquissimum scriptorem. Quam quidem
+                        qu&#230;stionem jam veteres agitasse haud obscure innuunt Pliniana ista: <hi
+                            rend="italic">Nec Miletus fraudanda cive Cadmo</hi>. Nomen sane per se
+                        nihil habet offensionis. Nam ex Herodoto novimus <hi rend="italic"
+                            >Cadmum</hi>, Scyth&#230; filiumn, Coorum tyrannum <note type="footnote"
+                            >V. <bibl>Herodot. VII, 63 coll. VI, 23 sq.</bibl>; Suidas v. <foreign
+                                xml:lang="grc">Ἐπίχαρμος</foreign>; <bibl>Hippocrat. Epist.
+                            7</bibl>. De temporibus ejus et familia v. <bibl>Müller.
+                                    <title>Dor</title>. l, 170; II, 147, 1; 353, 1; 509,
+                            36</bibl>.</note>; porro <hi rend="italic">Eucadmum</hi>, statuarium
                         Atheniensem, affert <bibl>Pausanias X, 19, 4</bibl> (cf. <bibl>Müller.
                                 <title>Arch&#230;ol.</title> § 112, I</bibl>). At dubitationem
                         movet, quod literarum inventori et antiquissimo scriptori idem sit nomen,
@@ -350,7 +342,7 @@
                             type="footnote">Pandionis patris nonem clarissmum fictum esse jam monuit
                             Welckerus in <bibl>Seebodii <hi rend="italic">Archiv</hi> 1830,
                                     <biblScope unit="page">70</biblScope></bibl>.</note>, Orphei
-                        co&#230;taneo. Sed de his fortasse aliter statui possit. </p>
+                        co&#230;taneo. Sed de his fortasse aliter statui possit.</p>
 
                     <p>Monendum enim est de verbis: <foreign xml:lang="grc">Τινὲς δὲ Λυκῖνον Κάδμον
                             ἀνέγραψαν</foreign>. Eudocia habet <foreign xml:lang="grc">καὶ Λυκῖνον
@@ -398,12 +390,8 @@
                             <bibl>Hippocrat. Ep. 7</bibl>), erat Asclepiada <note type="footnote"
                             >Epicharmum quoque poetam, qui cum Cadmo in Siciliam transjecit, medicum
                             fuisse constat.</note>. At satis est, opinor, conjecturarum.</p>
-
-
                 </div>
             </div>
-
-
         </body>
     </text>
 </TEI>
