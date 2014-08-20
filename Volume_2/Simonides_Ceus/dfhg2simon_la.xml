@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mueller2simon_la">
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2simon_la">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-
                 <title>Fragmenta Historicorum Graecorum</title>
-
                 <editor>Karl Müller</editor>
                 <sponsor>University of Leipzig</sponsor>
                 <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
 
                 <respStmt>
-                    <persName>Monica Berti</persName>
+                    <persName xml:id="MB">Monica Berti</persName>
                     <resp>Editor in chief</resp>
                 </respStmt>
 
                 <respStmt>
-                    <persName>Gregory Crane</persName>
+                    <persName xml:id="GC">Gregory Crane</persName>
                     <resp>Associate editor</resp>
                 </respStmt>
 
                 <respStmt>
-                    <persName>Greta Franzini</persName>
+                    <persName xml:id="GF">Greta Franzini</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
 
                 <respStmt>
-                    <persName>Simona Stoyanova</persName>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
             </titleStmt>
+            
             <publicationStmt>
                 <authority/>
-                <idno type="filename">mueller2simon_la.xml</idno>
+                <idno type="filename">dfhg2simon_la.xml</idno>
                 <authority>University of Leipzig</authority>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
@@ -57,25 +56,31 @@
                             </editor>
                             <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0261"
                                 >Simonides Ceus</author>
-
                             <imprint>
                                 <publisher>Ambroise-Firmin Didot</publisher>
                                 <pubPlace>Paris, France</pubPlace>
                                 <date>1841</date>
                             </imprint>
-
                             <biblScope unit="volume">2</biblScope>
-
                         </monogr>
-
                         <ref target="https://archive.org/details/fragmentahistori02mueluoft"
                             >Internet Archive</ref>
-
                     </biblStruct>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
+        
         <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia"><catDesc>Parentheses around the number of a fragment, e. g. (1), mean Müller's uncertainty (dubia) about the attribution of a fragment to a certain author.</catDesc></category>
+                        <category xml:id="incerta"><catDesc>Square brackets around the number of a fragment, e. g. [1], mean Muller suggests an attribution of a fragment to a certain author.</catDesc></category>
+                        <category xml:id="anonyma"><catDesc>A question mark after the number of the fragmemt, e. g. 1?, means that the name of the fragmentary author is not mentioned by the source text.</catDesc></category>
+                    </category>
+                </taxonomy>
+            </classDecl>
             <p>The following text is encoded in accordance with EpiDoc standards and with the
                 CTS/CITE Architecture.</p>
         </encodingDesc>
@@ -84,12 +89,12 @@
             <langUsage>
                 <language ident="la">Latin</language>
                 <language ident="grc">Greek</language>
-
             </langUsage>
         </profileDesc>
 
         <revisionDesc>
             <change who="#SS" when="2014-04-23">Created XML file and encoded text</change>
+            <change who="#SS" when="2014-08-20">Proofrread and updated</change>
         </revisionDesc>
     </teiHeader>
 
@@ -98,7 +103,11 @@
             <div type="translation" subtype="volume" n="2" xml:lang="la">
                 <div type="textpart" subtype="book" n="1">
 
-                    <div type="textpart" subtype="work">
+                    <head xml:lang="la">
+                        <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0261.tlg005.opp-lat1">SIMONIDES CEUS.</title>
+                    </head>
+                    
+                    <div type="textpart" subtype="work" n="1">
                         <ab><title xml:lang="la">GENEALOCI&#198;</title></ab>
 
                         <p n="1">Neptumi et Astypal&#230;&#230; Ph&#339;nice nat&#230; filium fuisse
@@ -110,13 +119,13 @@
                             ad rixam, in qua lodama a Minerva occisa esset.</p>
                     </div>
 
-                    <div type="textpart" subtype="work">
+                    <div type="textpart" subtype="work" n="2">
                         <ab><title>MISCELLANEA</title></ab>
 
                         <p n="3">Iolcum Miny&#230; habitarunt, sec. Simonidem in Miscellancis.</p>
                     </div>
 
-                    <div type="textpart" subtype="work">
+                    <div type="textpart" subtype="work" n="3">
                         <ab><title>E LIBRO QUARTO</title></ab>
 
                         <p n="4">Ilei, patris Ajacis, nomen ad Hesiodo ita derivatur: Ileum, quem

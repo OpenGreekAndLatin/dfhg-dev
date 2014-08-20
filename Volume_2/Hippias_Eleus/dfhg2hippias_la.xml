@@ -121,6 +121,10 @@
                 <div type="textpart" subtype="book" n="1">
                     <pb n="61"/>
 
+                    <head xml:lang="la">
+                        <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1434.tlg002.opp-lat1">HIPPIAS ELEUS.</title>
+                    </head>
+                    
                     <div type="textpart" subtype="work" n="1">
                         <ab><title xml:lang="la">COLLECTIO</title></ab>
                         <p n="1">Ob form&#230; speciem clar&#230; mulieres fuerunt: Thargelia

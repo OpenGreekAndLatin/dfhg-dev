@@ -117,6 +117,11 @@
         <body>
             <div type="translation" subtype="volume" n="2" xml:lang="la">
                 <div type="textpart" subtype="book" n="1">
+                    
+                    <head xml:lang="la">
+                        <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1923.tlg003.opp-lat1">STESIMBROTUS THASIUS.</title>
+                    </head>
+                    
                     <div type="textpart" subtype="work" n="1">
 
                         <pb n="53"/>
