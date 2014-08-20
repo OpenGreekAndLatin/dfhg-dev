@@ -111,7 +111,7 @@
 
         <revisionDesc>
             <change who="#GF" when="2013-10-25">Created the XML file</change>
-            <change who="SS" when="2014-08-20">Proofread and updated</change>
+            <change who="#SS" when="2014-08-20">Proofread and updated</change>
         </revisionDesc>
     </teiHeader>
 
