@@ -11,19 +11,19 @@
                 <sponsor>University of Leipzig</sponsor>
                 <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
                 <respStmt>
-                    <persName>Monica Berti</persName>
+                    <persName xml:id="MB">Monica Berti</persName>
                     <resp>Editor in chief</resp>
                 </respStmt>
                 <respStmt>
-                    <persName>Gregory Crane</persName>
+                    <persName xml:id="GC">Gregory Crane</persName>
                     <resp>Associate editor</resp>
                 </respStmt>
                 <respStmt>
-                    <persName>Greta Franzini</persName>
+                    <persName xml:id="GF">Greta Franzini</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
                 <respStmt>
-                    <persName>Simona Stoyanova</persName>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
             </titleStmt>
@@ -642,7 +642,7 @@
                     </cit>
 
                     <cit n="37" xml:lang="la">
-                        <ref target="bibliography.xml#hyginus-from-fr36">Idem II, 34</ref>
+                        <bibl>Idem II, 34</bibl>
                         <quote>«<persName role="author">Ister</persName> dicit Oriona a Diana esse
                             dilectum, et p&#230;ne factum, ut ei nupsisse existimaretur. Quod quum
                             Apollo &#230;gre ferret, et s&#230;pe eam objurgans nihil egisset,
@@ -996,7 +996,7 @@
                     </cit>
 
                     <cit n="62" xml:lang="grc">
-                        <ref target="bibliography.xml#scholiaHom-from-fr61">Idem ad T, 34</ref>
+                        <bibl>Idem ad T, 34</bibl>
                         <quote>Ἡ διπλῆ, ὅτι πάντες ἥρωες ἐλέγοντο, οὐχ οἱ βασιλεῖς, ὡς <persName
                                 role="author">Ἴστρος</persName>.</quote>
                         <note xml:lang="la">Quod repetitur ad <bibl>XIII, 629</bibl> et <bibl>XV,
