@@ -1,40 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
 <?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2damast_grc">
     <teiHeader>
         <fileDesc>
-
             <titleStmt>
-
                 <title>Fragmenta Historicorum Graecorum</title>
-
                 <editor>Karl Müller</editor>
                 <sponsor>University of Leipzig</sponsor>
                 <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
 
                 <respStmt>
-                    <persName>Monica Berti</persName>
+                    <persName xml:id="MB">Monica Berti</persName>
                     <resp>Editor in chief</resp>
                 </respStmt>
-
                 <respStmt>
-                    <persName>Gregory Crane</persName>
+                    <persName xml:id="GC">Gregory Crane</persName>
                     <resp>Associate editor</resp>
                 </respStmt>
-
                 <respStmt>
-                    <persName>Greta Franzini</persName>
+                    <persName xml:id="GF">Greta Franzini</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
-
                 <respStmt>
-                    <persName>Simona Stoyanova</persName>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
-
                 <respStmt>
-                    <persName>Uta Koschmieder</persName>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
                     <resp>Student assistant</resp>
                 </respStmt>
             </titleStmt>
@@ -52,10 +46,8 @@
                 <pubPlace>Germany</pubPlace>
             </publicationStmt>
 
-
             <sourceDesc>
                 <listBibl xml:lang="la">
-                    
                     <biblStruct>
                         <monogr>
                             <title>Fragmenta Historicorum Graecorum</title>
@@ -67,61 +59,57 @@
                             </editor>
                             <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1868"
                                 >Damastes Sigeus</author>
-
                             <imprint>
                                 <publisher>Ambroise-Firmin Didot</publisher>
                                 <pubPlace>Paris, France</pubPlace>
                                 <date>1841</date>
                             </imprint>
-
                             <biblScope unit="volume">2</biblScope>
-
                         </monogr>
-
                         <ref
                             target="https://archive.org/stream/fragmentahistori02mueluoft#page/n3/mode/2up"
                             >Internet Archive</ref>
-
                     </biblStruct>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
 
-
         <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia"><catDesc>Parentheses around the number of a fragment, e. g. (1), mean Müller's uncertainty (dubia) about the attribution of a fragment to a certain author.</catDesc></category>
+                        <category xml:id="incerta"><catDesc>Square brackets around the number of a fragment, e. g. [1], mean Muller suggests an attribution of a fragment to a certain author.</catDesc></category>
+                        <category xml:id="anonyma"><catDesc>A question mark after the number of the fragmemt, e. g. 1?, means that the name of the fragmentary author is not mentioned by the source text.</catDesc></category>
+                    </category>
+                </taxonomy>
+            </classDecl>
             <p>The following text is encoded in accordance with EpiDoc standards and with the
                 CTS/CITE Architecture.</p>
         </encodingDesc>
 
         <profileDesc>
             <langUsage>
-                
                 <language ident="la">Latin</language>
                 <language ident="grc">Greek</language>
-
             </langUsage>
         </profileDesc>
 
         <revisionDesc>
-            
             <change who="#UK" when="2014-02-11">Created the XML file</change>
+            <change who="#SS" when="2014-08-20">Proofread and updated</change>
         </revisionDesc>
-
     </teiHeader>
 
     <text>
-
         <body>
-
-
             <div type="edition" subtype="volume" n="2" xml:lang="grc">
-
                 <div type="textpart" subtype="book" n="1">
+                    
                     <head xml:lang="grc">
                         <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1868.tlg003"
-                            xml:lang="la"> DAMASTES SIGEENSIS</title>
-                        <persName role="author"><name type="personal">Damastes</name>
-                            <name type="ethnicon">Sigeus</name></persName>. 
+                            xml:lang="la">DAMASTES SIGEENSIS.</title> 
                     </head>
 
                     <pb n="64"/>
@@ -258,7 +246,7 @@
                         in quo poetis sophistas adjunxit, jure colligas. <persName role="author">Gorgias</persName> inter majores
                         Homeri numeravit Mus&#230;um; idem Damasti placuit <ref>(fr. 8)</ref>. </p>
                    
-                    <div type="textpart" subtype="work">
+                    <div type="textpart" subtype="work" n="1">
                         <ab>
                             <title type="main" xml:lang="grc">ΠΕΡΙΠΛΟΥΣ</title>
                             <title type="sub" xml:lang="grc">(ΠΕΡΙ ΕΘΝΩΝ.)</title></ab>
@@ -298,8 +286,8 @@
                                     νότου, ἀλλ᾿ ἀπὸ δύσεως, εἴπερ ἐν τῇ δυσμικῇ πλευρᾷ κεῖται, ἐν ᾗ
                                     καὶ ἡ Πάφος καὶ ὁ Ἀκάμας.</quote>
                             </cit>
-                            <cit n="4" xml:lang="la">
                         
+                            <cit n="4" xml:lang="la">
                                 <bibl>Festus Ruf. Avienut Or. marit. 370</bibl>
                                 <quote>
                                     <lg>
@@ -329,8 +317,8 @@
                                         anciens, si souvent faites de m&#233;moire, pr&#233;sentent des
                                         erreurs bien plus fortes que ce malentendu.» </quote></note>
                             </cit>
+                        
                             <cit n="5" xml:lang="la">
-                              
                                 <bibl>Valerius Max. VIII, 13, 6</bibl>
                                 <quote><hi rend="italics">Hellanicus vero ait, quosdam ex gente Epiorum, qu&#230; pars
                                     est &#198;toli&#230;, ducenos explere annos; eique subscribit
@@ -338,8 +326,8 @@
                                     maximarum virium statur&#230;que pr&#230;cipu&#230;,
                                     trecentesimum annum cumulasse.</hi></quote>
                             </cit>
+                        
                             <cit n="6" xml:lang="la">
-                                
                                 <bibl>Plinius VII, 49, p. 37 Tchn.</bibl>
                                 <quote><hi rend="italics"> Hellanicus quosdam in &#198;tolia Epiorum gentis ducentos
                                     (sc. annos) explere. Cui adstipulatur Damastes (nonnulli libri
@@ -347,10 +335,11 @@
                                     viribusque, etiam trecentos vixisse.</hi></quote>
                             </cit>
                     </div>
-                    <div type="textpart" subtype="work">
+                    
+                    <div type="textpart" subtype="work" n="2">
                         <ab>
-                            <title xml:lang="grc">[XPONIKA.]</title></ab>
-                        <!-- fragmentary work title in square brackets -->
+                            <title xml:lang="grc" ana="#incerta">XPONIKA.</title></ab>
+                        
                         <cit n="7" xml:lang="grc">
                                 <bibl> Plutarch. Camill. c. 19</bibl>
                                 <quote><foreign xml:lang="la">Thargelion mensis Barbaris infaustus
@@ -364,6 +353,7 @@
                                     numerus ex Iliade parva. Vid. <ref>Callisthenes fr. 15</ref>.
                                 </note>
                             </cit>
+                        
                             <cit n="8" xml:lang="grc">
                                 <bibl>Dionys. Hal, A. R. I, c. 72</bibl>
                                 <quote>Ὁ τὰς ἱερείας τὰς ἐν Ἄργει καὶ τὰ καθ᾿ ἑκάστην πραχθέντα
@@ -392,12 +382,11 @@
                                     Molossos &#198;neas venit ex Thracia, uti colligis ex Hellanico
                                         <ref>(fr. 127 extrem)</ref>.</note>
                             </cit>
-
                     </div>
-                    <div type="textpart" subtype="work">
+                    
+                    <div type="textpart" subtype="work" n="3">
                         <ab>
-                            <title xml:lang="grc">[ΠΕΡΙ ΕΥΡΗΜΑΤΩΝ.]</title></ab>
-                        <!-- fragmentary work title in square brackets -->
+                            <title xml:lang="grc" ana="#incerta">ΠΕΡΙ ΕΥΡΗΜΑΤΩΝ.</title></ab>
                         <cit n="9" xml:lang="la">
                                 <bibl>Plinius H. N. VII, 57, de rerum inventoribus</bibl>
                                 <quote>Biremem Damastes Erythr&#230;os fecisse, triremem Thucydides
@@ -407,11 +396,12 @@
                                     Num <title>περὶ εὑρημάτων</title> Damastes data opera
                                     scripsit?</note>
                             </cit>
-
                     </div>
-                    <div type="textpart" subtype="work">
+                    
+                    <div type="textpart" subtype="work" n="4">
                         <ab>
                             <title xml:lang="grc">ΠΕΡΙ ΠΟΙΗΤΩΝ ΚΑΙ ΣΟΦΙΣΤΩΝ.</title></ab>
+                        
                         <cit n="10" xml:lang="grc">
                                 <bibl n="1">Vit. Homer. cod. Matrit. ed. Iriart. p. 233</bibl>
                                 <quote n="1"> Ἀναξιμένης καὶ Δαμάστης καὶ Πίνδαρος Χϊον τὸν Ὅμηρον
@@ -437,14 +427,11 @@
                                     gentes quibus singuli Homerum vindicare studuerint, Dores,
                                     Thraces, Odrysas(?); <title xml:lang="la">Mus&#230;um</title> vero iis deberi, qui cum
                                     Atheniensium civitate genealogiam Homeri conjunxerint. Cf.
-                                            <bibl><ref target="bibliography.xml#blah">idem p. 192,
-                                            176</ref></bibl>; <bibl>Nitzsch. Hist. Hom. II, p.
+                                            <bibl>idem p. 192,
+                                            176</bibl>; <bibl>Nitzsch. Hist. Hom. II, p.
                                         88.</bibl></note>
                             </cit>
                     </div>
-
-
-
                 </div>
             </div>
 

@@ -13,20 +13,25 @@
                     <persName xml:id="MB">Monica Berti</persName>
                     <resp>Editor in chief</resp>
                 </respStmt>
-
                 <respStmt>
                     <persName xml:id="GC">Gregory Crane</persName>
                     <resp>Associate editor</resp>
                 </respStmt>
-
                 <respStmt>
                     <persName xml:id="GF">Greta Franzini</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
-
                 <respStmt>
                     <persName xml:id="SS">Simona Stoyanova</persName>
                     <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
                 </respStmt>
             </titleStmt>
 
@@ -118,7 +123,7 @@
 
                     <div type="textpart" subtype="work" n="1">
                         <ab>
-                            <title xml:lang="grc">ΓΕΝΕΑΛΟΓΙΑΙ</title>
+                            <title xml:lang="grc">ΓΕΝΕΑΛΟΓΙΑΙ</title></ab>
                             
                             <cit n="1" xml:lang="grc">
                                 <bibl>Schol. Apoll. Rhod. II, 866</bibl>
@@ -140,11 +145,10 @@
                                     quamquam dubitante Tafelio in <bibl>Steph. Thes. tom. I, p.
                                         1527, C</bibl>.</note>
                             </cit>
-                        </ab>
                     </div>
 
                     <div type="textpart" subtype="work" n="2">
-                        <ab><title xml:lang="grc">ΣΥΜΜΙΚΤΑ</title>
+                        <ab><title xml:lang="grc">ΣΥΜΜΙΚΤΑ</title></ab>
                             
                         <cit n="3" xml:lang="grc">
                             <bibl>Schol. Apoll. Rh. I, 763</bibl>
@@ -153,11 +157,10 @@
                             <note xml:lang="la">Num ad Nostrum h&#230;c pertinent?
                                 De re cf, <bibl>Müller. Min. p. 248, 5</bibl>.</note>
                         </cit>
-                        </ab>
-                    </div>
-
-                    <div type="textpart" subtype="work" n="3">
-                        <ab><title>E LIBRO QUARTO</title>
+                        
+                        
+                        <div type="textpart" subtype="work" n="3">
+                        <ab><title>E LIBRO QUARTO</title></ab>
                             
                             <cit n="4" xml:lang="grc">
                                 <bibl>Etym. Gud. p. 276, 41</bibl>
@@ -178,7 +181,7 @@
                                     Apoll. Rhod. IV, 1212</bibl> Simonidem <hi rend="italic">genealogum</hi>
                                     laudari putavit.</note>
                             </cit>
-                        </ab>
+                    </div>
                     </div>
 
                     <div type="commentary">

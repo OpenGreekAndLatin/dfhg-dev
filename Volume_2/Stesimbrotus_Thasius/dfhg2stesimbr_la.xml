@@ -27,6 +27,14 @@
                 <respStmt>
                     <persName xml:id="SS">Simona Stoyanova</persName>
                     <resp>Editorial assistant</resp>
+                    <respStmt>
+                        <persName xml:id="UK">Uta Koschmieder</persName>
+                        <resp>Student assistant</resp>
+                    </respStmt>
+                    <respStmt>
+                        <persName xml:id="KS">Kevin Strassburger</persName>
+                        <resp>Student assistant</resp>
+                    </respStmt>
                 </respStmt>
             </titleStmt>
 

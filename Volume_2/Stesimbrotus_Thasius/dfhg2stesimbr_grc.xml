@@ -24,6 +24,14 @@
                     <persName xml:id="SS">Simona Stoyanova</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
             </titleStmt>
 
             <publicationStmt>
@@ -262,7 +270,8 @@
                     <div type="textpart" subtype="work" n="1">
                         <ab>
                             <title xml:lang="grc">ΠΕΡΙ ΘΕΜΙΣΤΟΚΛΕΟΥΣ ΚΑΙ ΘΟΥΚΥΔΙΔΟΥ ΚΑΙ
-                                ΠΕΡΙΚΛΕΟΥΣ</title>
+                                ΠΕΡΙΚΛΕΟΥΣ</title></ab>
+                        
                             <cit n="1" xml:lang="grc">
                                 <bibl>Plutarch. Them. 2</bibl>
                                 <quote>Στησίμ&#976;ροτος Ἀναξαγόρου τε διακοῦσαι τὸν Θεμιστοκλέα
@@ -317,6 +326,7 @@
                                             >Sintenis</hi>. </quote>
                                 </note>
                             </cit>
+                        
                             <cit n="2" xml:id="grc">
                                 <bibl>Idem ibid. c. 24, 5</bibl>
                                 <quote><foreign xml:lang="la">Themistocles ad Admetum regem
@@ -352,6 +362,7 @@
                                         <bibl>Comment. De &#198;schyli Sept. c. Theb. (G&#339;tting.
                                         1836), p. 27 sqq.</bibl></note>
                             </cit>
+                        
                             <cit n="3" xml:lang="grc">
                                 <bibl>Idem Cimon. c. 4, 6</bibl>
                                 <quote>Στησίμ&#976;ροτος δ᾿ ὁ Θάσιος περὶ τὸν αὐτὸν ὁμοῦ τι χρόνον
@@ -373,6 +384,7 @@
                                         πεισθῆναι καὶ τὸν Κίμωνα τῷ Καλλίᾳ συνοικίσαι τὴν Ἐλπινίκην.
                                         Οὔτε μουσικὴν</quote>] Longe aliter Ion. fr. 4.</note>
                             </cit>
+                        
                             <cit n="4" xml:lang="grc">
                                 <bibl>Ib. c. 14</bibl>
                                 <quote>Ἐπεὶ δὲ τῶν Περσῶν τινες οὐκ ἐ&#976;ούλοντο τὴν Χερσόνησον
@@ -406,6 +418,7 @@
                                     antecedentia: <quote>ἔνιοι δέ φασιν... δύναμιν ὑπάρχειν ex eodem
                                         fonte fluxerunt</quote>.</note>
                             </cit>
+                        
                             <cit n="5" xml:lang="grc">
                                 <bibl>Plut. Cim. 16, 1</bibl>
                                 <quote>Ἦν μὲν οὖν ἀπ᾿ ἀρχῆς φιλολάκων (ὁ Κίμων)· καὶ τῶν γε παίδων
@@ -416,6 +429,7 @@
                                         narrat Diodorus Periegeta quem vide ap. Plutarch. l.
                                         l.</note></quote>
                             </cit>
+                        
                             <cit n="6" xml:lang="grc">
                                 <bibl>Idem ib. c. 16, 5</bibl>
                                 <quote>Ἔπειτα δυνατώτεροι γενόμενοι καὶ τὸν Κίμων τοῖς Σπαρτιάταις
@@ -426,6 +440,7 @@
                                     Ὅθεν φθόνον ἑαυτῷ συνῆγε καὶ δυσμένειάν τινα παρὰ τῶν
                                     πολιτῶν.</quote>
                             </cit>
+                        
                             <cit n="7" xml:lang="grc">
                                 <bibl>Idem in Pericle c. 26, 2</bibl>
                                 <quote>Ἐπεὶ δὲ μείζων ἕτερος στόλος ἦλθεν ἐκ τῶν Ἀθηνῶν καὶ παντελῶς
@@ -439,6 +454,7 @@
                                         <bibl>Thucyd. I, 116, 3</bibl>. Neque <bibl>Diodorus XII,
                                         27, 5</bibl>, Cypri mentionem facit.</note>
                             </cit>
+                        
                             <cit n="8" xml:lang="grc">
                                 <bibl>Id. ib. c. 8, 9</bibl>
                                 <quote>Ὁ δὲ Στησίμ&#976;ροτος φησὶν ὅτι τοὺς ἐν Σάμῳ τεθνηκότας
@@ -448,6 +464,7 @@
                                     παρέχουσιν, ἀθανάτους εἶναι τεκμαιρόμεθα· ταῦτ᾿ οὖν ὑπάρχειν καὶ
                                     τοῖς ὑπὲρ τῆς πατρίδος ἀποθανοῦσιν. </quote>
                             </cit>
+                        
                             <cit n="9" xml:lang="grc">
                                 <bibl>Plutarch. Pericl. c. 13, 14</bibl>
                                 <quote>Οἱ κωμικοὶ πολλὴν ἀσέλγειαν αὐτοῦ (Περικλέους)
@@ -463,6 +480,7 @@
                                     τὰ δὲ χαριζομένη καὶ κολακεύουσα λυμαίνηται καὶ διαστρέφῃ τὴν
                                     ἀλήθειαν.</quote>
                             </cit>
+                        
                             <cit n="10" xml:lang="grc">
                                 <bibl>Athen&#230;us XIII, p. 589, D, E, de Pericle</bibl>
                                 <quote>Ἦν δ᾿ οὗτος ἀνὴρ πρὸς ἀφροδίσια πάνυ καταφερής· ὅστις καὶ τῇ
@@ -471,6 +489,7 @@
                                     ἐπιγραφομένῳ Περὶ Θεμιστοκλέους καὶ Θουκυδίδου καὶ
                                     Περικλέους.</quote>
                             </cit>
+                        
                             <cit n="11" xml:lang="grc">
                                 <bibl>Plutarch. Pericl. c. 36, 2</bibl>
                                 <quote>Ὁ γὰρ πρεσ&#976;ύτατος αὐτοῦ τῶν γνησίων υἱῶν Ξάνθιππος φύσει
@@ -497,11 +516,9 @@
                                     scribendum, uti monet Sintenis., laudato Andocide <bibl>Or. De
                                         pace §29 et 147</bibl>.</note>
                             </cit>
-                        </ab>
                     </div>
 
                     <div type="textpart" subtype="work" n="1.2">
-                        <ab>
                             <cit n="12" xml:lang="la">
                                 <bibl>Fulgent. Vocum antiqq.</bibl>
                                 <note>interpret. Init.:</note>
@@ -522,12 +539,12 @@
                                         <bibl>L. Lersch. De Fulgentio, Bonn. 1844, p.
                                     36</bibl>.</note>
                             </cit>
-                        </ab>
                     </div>
 
                     <div type="textpart" subtype="work" n="3">
                         <ab>
-                            <title xml:lang="grc">ΠΕΡΙ ΤΕΛΕΤΩΝ</title>
+                            <title xml:lang="grc">ΠΕΡΙ ΤΕΛΕΤΩΝ</title></ab>
+                        
                             <cit n="13" xml:lang="grc">
                                 <bibl>Etym. M. p. 465, 30</bibl>
                                 <quote>Ἰδαῖοι ἐκλήθησαν οἱ Δάκτυλοι ὅτι ἡ κόνις ἣν ἔρριψαν (<foreign
@@ -565,6 +582,7 @@
                                     dicuntur. Quare plura Tidentur omissa; et scholiast, et Etym. M.
                                     ex eodem fonte corrupto sua habere probabile est.</note>
                             </cit>
+                        
                             <cit n="14" xml:lang="grc">
                                 <bibl>Strabo X, p, 472</bibl>
                                 <quote>Ἔτι δὲ Κρόνου τινὲς τοὺς Κορύ&#976;αντας, οἱ δὲ τοῦ Διὸς καὶ
@@ -635,6 +653,7 @@
                                         colitur</quote>. Plura v. ap. <bibl>Lobeck. l. l</bibl>.)
                                 </note>
                             </cit>
+                        
                             <cit n="15" xml:lang="grc">
                                 <bibl>Apostol Prov. XIX, 65</bibl>
                                 <quote>Τυφλότερος ἀσπάλακος· τοῦτο τὸ ζῷον οὐκ ἔχει ὀφθαλμούς· φησὶ
@@ -648,6 +667,7 @@
                                     libris <title xml:lang="la">De mysteriis</title> legi
                                     poterant.</note>
                             </cit>
+                        
                             <cit n="16" xml:lang="grc">
                                 <bibl>Etym. M. p. 277, v. Διόνυσος (1)</bibl>
                                 <quote>Οἱ μὲν Διόνυσον αὐτὸν ὀνομάζουσιν, ὅτι σὺν κέρασι γεννώμενος
@@ -657,6 +677,7 @@
                                 <note xml:lang="la">Vide <bibl>Steph. Thes. v. <foreign
                                             xml:lang="grc">Διόνυξος</foreign></bibl>.</note>
                             </cit>
+                        
                             <cit n="17" xml:lang="grc">
                                 <bibl>Schol. Apoll. Rh, I, 1304</bibl>
                                 <quote>Στησίμ&#976;ροτος δέ φησιν (<foreign xml:lang="la">Boreadas
@@ -664,12 +685,12 @@
                                     πρὸς τὸν Ἡρακλέα περὶ πῶν δεδομένων δώρων ὑπὸ Ἰάσονος τοῖς
                                     ἀριστεῦσι.</quote>
                             </cit>
-                        </ab>
                     </div>
 
                     <div type="textpart" subtype="work" n="4">
                         <ab>
-                            <title xml:lang="grc">ΠΕΡΙ ὉΜΗΡΟΥ</title>
+                            <title xml:lang="grc">ΠΕΡΙ ὉΜΗΡΟΥ</title></ab>
+                        
                             <cit n="18" xml:lang="grc">
                                 <bibl n="1">Iriart. Vit. Hom. p. 233</bibl>
                                 <quote n="1">Ἀντίμαχος Κολοφώνιον Στησίμ&#976;ροτος δὲ Σμυρναῖον
@@ -706,7 +727,6 @@
                                 <quote n="4">Κράτης ἐν β’ Ὁμηρικῶν καὶ Στησίμ&#976;ροτος οὕτως
                                     δέδασται.</quote>
                             </cit>
-                        </ab>
                     </div>
 
                 </div>

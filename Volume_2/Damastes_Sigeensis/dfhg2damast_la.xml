@@ -1,41 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
 <?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2damast_la">
- 
     <teiHeader>
         <fileDesc>
-
             <titleStmt>
-
                 <title>Fragmenta Historicorum Graecorum</title>
-
                 <editor>Karl Müller</editor>
                 <sponsor>University of Leipzig</sponsor>
                 <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
 
                 <respStmt>
-                    <persName>Monica Berti</persName>
+                    <persName xml:id="MB">Monica Berti</persName>
                     <resp>Editor in chief</resp>
                 </respStmt>
-
                 <respStmt>
-                    <persName>Gregory Crane</persName>
+                    <persName xml:id="GC">Gregory Crane</persName>
                     <resp>Associate editor</resp>
                 </respStmt>
-
                 <respStmt>
-                    <persName>Greta Franzini</persName>
+                    <persName xml:id="GF">Greta Franzini</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
-
                 <respStmt>
-                    <persName>Simona Stoyanova</persName>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
-
                 <respStmt>
-                    <persName>Uta Koschmieder</persName>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
                     <resp>Student assistant</resp>
                 </respStmt>
             </titleStmt>
@@ -55,7 +48,6 @@
 
             <sourceDesc>
                 <listBibl xml:lang="la">
-         
                     <biblStruct>
                         <monogr>
                             <title>Fragmenta Historicorum Graecorum</title>
@@ -67,21 +59,16 @@
                             </editor>
                             <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1868"
                                 >Damastes Sigeus</author>
-
                             <imprint>
                                 <publisher>Ambroise-Firmin Didot</publisher>
                                 <pubPlace>Paris, France</pubPlace>
                                 <date>1841</date>
                             </imprint>
-
                             <biblScope unit="volume">2</biblScope>
-
                         </monogr>
-
                         <ref
                             target="https://archive.org/stream/fragmentahistori02mueluoft#page/n3/mode/2up"
                             >Internet Archive</ref>
-
                     </biblStruct>
                 </listBibl>
             </sourceDesc>
@@ -89,36 +76,47 @@
 
 
         <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia"><catDesc>Parentheses around the number of a fragment, e. g. (1), mean Müller's uncertainty (dubia) about the attribution of a fragment to a certain author.</catDesc></category>
+                        <category xml:id="incerta"><catDesc>Square brackets around the number of a fragment, e. g. [1], mean Muller suggests an attribution of a fragment to a certain author.</catDesc></category>
+                        <category xml:id="anonyma"><catDesc>A question mark after the number of the fragmemt, e. g. 1?, means that the name of the fragmentary author is not mentioned by the source text.</catDesc></category>
+                    </category>
+                </taxonomy>
+            </classDecl>
             <p>The following text is encoded in accordance with EpiDoc standards and with the
                 CTS/CITE Architecture.</p>
         </encodingDesc>
 
         <profileDesc>
             <langUsage>
-     
                 <language ident="la">Latin</language>
                 <language ident="grc">Greek</language>
-
             </langUsage>
         </profileDesc>
 
         <revisionDesc>
-
             <change who="#UK" when="2014-02-11">Created the XML file</change>
+            <change who="#SS" when="2014-08-20">Proofread and updated</change>
         </revisionDesc>
-
     </teiHeader>
 
     <text>
-
         <body>
-
-
             <div type="translation" subtype="volume" n="2" xml:lang="la">
-
                 <div type="textpart" subtype="book" n="1">
+                    
+                    <head xml:lang="la">
+                        <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1868.tlg003.opp-lat1"
+                            xml:lang="la">DAMASTES SIGEENSIS.</title> 
+                    </head>
+                    
                     <pb n="65"/>
-                    <ab>
+                    
+                    <div type="textpart" subtype="work" n="1">
+                        <ab>
                         <title xml:lang="la">DE GENTIBUS.</title></ab>
 
                     <p n="1">Damastes in opere <title xml:lang="la">De gentibus</title> supra
@@ -139,11 +137,12 @@
                         enim hunc, Hierocepiam non a septentrione esse ait, sed a meridie: at ne a
                         meridie quidem est, sed in occidua parte, ubi etiam Paphus sunt et
                         Acamas</p>
+                    </div>
 
-                    <pb n="66"/>
+                    <div type="textpart" subtype="work" n="2">
+                        <pb n="66"/>
                     <ab>
-                        <title xml:lang="la">[CHRONICA.]</title>
-                        <!-- work title in square brackets -->
+                        <title xml:lang="la" ana="#incerta">CHRONICA.</title>
                     </ab>
 
                     <p n="7">Carthaginienses a Timoleonte in Sicilia victi sunt Thargelionis die
@@ -157,8 +156,10 @@
                         Trojanas impulisse ut una cum ipsa naves incenderent, fatigatam scilicet
                         itineris erroribus. Consentit Hellanico etiam Damastes Sigeensis et alii
                         nonnulli.</p>
+                    </div>
 
-                    <ab>
+                    <div type="textpart" subtype="work" n="3">
+                        <ab>
                         <title xml:lang="la">DE POETIS ET SOPHISTIS.</title>
                     </ab>
 
@@ -171,7 +172,10 @@
                         Dorionis, Orphei.</p>
 
                     <pb n="67"/>
-                    <ab>
+                    </div>
+                    
+                    <div type="textpart" subtype="work" n="4">
+                        <ab>
                         <title xml:lang="la">HEROOLOGIA.</title>
                     </ab>
                     <p n="1">Hesiodus libro <title xml:lang="la">Melampodi&#230;</title> secundo
@@ -186,13 +190,9 @@
                     <p n="2">De literis a Danao in Gr&#230;ciam allatis assentiuntur Milesii
                         scriptores Anaximander, Dionysius et Hecat&#230;us.</p>
                     
-                    <pb n="68"/>
-
-
+                    <pb n="68"/></div>
                 </div>
             </div>
-
-
         </body>
     </text>
 </TEI>

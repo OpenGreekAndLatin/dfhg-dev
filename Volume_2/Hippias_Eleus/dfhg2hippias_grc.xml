@@ -13,20 +13,25 @@
                     <persName xml:id="MB">Monica Berti</persName>
                     <resp>Editor in chief</resp>
                 </respStmt>
-
                 <respStmt>
                     <persName xml:id="GC">Gregory Crane</persName>
                     <resp>Associate editor</resp>
                 </respStmt>
-
                 <respStmt>
                     <persName xml:id="GF">Greta Franzini</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
-
                 <respStmt>
                     <persName xml:id="SS">Simona Stoyanova</persName>
                     <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
                 </respStmt>
             </titleStmt>
 
@@ -345,7 +350,8 @@
 
                     <div type="textpart" subtype="work" n="1">
                         <ab>
-                            <title xml:lang="grc">ΣΥΝΑΓΩΓΗ</title>
+                            <title xml:lang="grc">ΣΥΝΑΓΩΓΗ</title></ab>
+                        
                             <cit n="1" xml:lang="grc">
                                 <bibl>Athen. XIII, p. 609, A</bibl>
                                 <quote>Ἐπὶ κάλλει δὲ... δια&#976;όητοι γεγόνασι γυναῖκες, Θαργηλία ἡ
@@ -364,12 +370,12 @@
                                         <bibl>Diog. L. II, 7, 3</bibl>, de quo plura v. ap.
                                         O<bibl>sann. p. 504 sq</bibl>.</note>
                             </cit>
-                        </ab>
                     </div>
 
                     <div type="textpart" subtype="work" n="2">
                         <ab>
-                            <title xml:lang="grc">ΟΛΥΜΠΙΟΝΙΚΩΝ ΑΝΑΓΡΑΦΗ</title>
+                            <title xml:lang="grc">ΟΛΥΜΠΙΟΝΙΚΩΝ ΑΝΑΓΡΑΦΗ</title></ab>
+                        
                             <cit n="2" xml:lang="grc">
                                 <bibl>Plutarch. Numa c. 1</bibl>
                                 <quote>Τῶν Ὀλυμπιονικῶν... τὴν ἀναγραφὴν ὀψὲ φασὶν Ἱππίαν ἐκδοῦναι
@@ -386,12 +392,12 @@
                                         σοφὸς, τὰ ἐλεγεῖα ἐπ᾿ αὐτοῖς ἐποίησεν</quote>. Cf.
                                         <bibl>Osann. I. I. p. 498</bibl>.</note>
                             </cit>
-                        </ab>
                     </div>
 
                     <div type="textpart" subtype="work" n="3">
                         <ab>
-                            <title xml:lang="grc">ΕΘΝΩΝ ΟΝΟΜΑΣΙΑΙ</title>
+                            <title xml:lang="grc">ΕΘΝΩΝ ΟΝΟΜΑΣΙΑΙ</title></ab>
+                        
                             <cit n="3" xml:lang="grc">
                                 <bibl>Schol. Apoll. Rhod. III, 1079</bibl>
                                 <quote>Ἱππίας δὲ ὁ Δήλιος (<foreign xml:lang="la">scr.
@@ -402,6 +408,7 @@
                                         670</bibl>. Ad eundem librum pertinere videntur
                                     sequentia.</note>
                             </cit>
+                        
                             <cit n="4" xml:lang="grc">
                                 <bibl n="1">Eustatb. ad Dionys. 270</bibl>
                                 <quote n="1">Ἱππίας ἀπὸ Ἀσίας καὶ Εὐρώπης τῶν Ὠκεανίδων τὰς Ἠπείρους
@@ -412,6 +419,7 @@
                                     δύο γὰρ Ὠκεανίδας πρότερον γενέσθαι, Ἀσίαν καὶ Εὐρώπην, ἀφ᾿ ὧν
                                     τὰς χώρας εἰρῆσθαι.</quote>
                             </cit>
+                        
                             <cit n="5" xml:lang="grc">
                                 <bibl>Schol. Pindar. Nem. VIII, 53</bibl>
                                 <quote><foreign xml:lang="la">Quattuor commemorant urbes Ephyr&#230;
@@ -420,6 +428,7 @@
                                 <note xml:lang="la">Sequuntur qu&#230; certis libris assignari
                                     nequeunt.</note>
                             </cit>
+                        
                             <cit n="6" xml:lang="grc">
                                 <bibl>Clem. Al. Strom. VI, p. 265, 5 Sylb.</bibl>
                                 <quote>Ἀλλ᾿ ἵνα μὴ ἐπιπλέον προΐν ὁ λόγος φιλοτιμουμένων ἡμῶν τὸ
@@ -444,6 +453,7 @@
                                     l. ad judicandam rationem qua argumenta sua tractarint
                                     sophist&#230;, apprime accommodatus.</note>
                             </cit>
+                        
                             <cit n="7" xml:lang="grc">
                                 <bibl>Argument. ad Sophoclis OEd. Tyr.</bibl>
                                 <quote>Ἴδιον δέ τι πεπόνθασιν οἱ μεθ᾿ Ὅμηρον ποιηταὶ τοὺς πρὸ τῶν
@@ -461,6 +471,7 @@
                                         τύραννον</quote>. Cf. <bibl>Ebert. Sicul. p. 1 et 9
                                         sqq.</bibl></note>
                             </cit>
+                        
                             <cit n="8" xml:lang="grc">
                                 <bibl>Vit. Homeri ed. Iriarte p. 233</bibl>
                                 <quote>Ἱππίας καὶ Ἔφορος Κυμαῖον (τὸν Ὅμηρόν φησι
@@ -488,11 +499,13 @@
                                         ὁ Νέστωρ ἐν Τροίᾳ κ. τ. λ.</quote> V. <bibl>Geel. p.
                                         191</bibl>, <bibl>Osann. l. l. p. 508</bibl>.</note>
                             </cit>
+                        
                             <cit n="9" xml:lang="grc">
                                 <bibl>Plutarch. Lycurg. c. 23</bibl>
                                 <quote>Αὐτὸν δὲ τὸν Λυκοῦργον Ἱππίας μὲν ὁ σοφιστὴς πολεμικώτατόν
                                     φησι γενέσθαι καὶ πολλῶν ἔμπειρον στρατηγιῶν.</quote>
                             </cit>
+                        
                             <cit n="10" xml:lang="grc">
                                 <bibl>Diogen. L. I, 25, de Thalete</bibl>
                                 <quote>Ἀριστοτέλης δὲ καὶ Ἱππίας φασὶν αὐτὸν καὶ τοῖς ἀψύχοις
@@ -501,11 +514,13 @@
                                 <note xml:lang="la">V. <bibl>Brandis. Gesch. d. gr. Philos. I, p.
                                         119</bibl>.</note>
                             </cit>
+                        
                             <cit n="11" xml:lang="grc">
                                 <bibl>Schol. Arat. Ph&#230;n. 172</bibl>
                                 <quote>Ἱππίας δὲ καὶ Φερεκύδης (fr. 46) ζ’ (<foreign xml:lang="la"
                                         >Hyadas esse dicunt</foreign>).</quote>
                             </cit>
+                        
                             <cit n="12" xml:lang="grc">
                                 <bibl>Schol. Pind. Pyth. IV, 288</bibl>
                                 <quote>Ταύτην (<foreign xml:lang="la">Phrixi novercam</foreign>) ὁ
@@ -514,6 +529,7 @@
                                 <note xml:lang="la">Cf. Pherecyd. fr. 52<!-- ref to fragment -->,
                                     ubi pro matrem scribe novercam.</note>
                             </cit>
+                        
                             <cit n="13" xml:lang="grc">
                                 <bibl>Stob&#230;us Flor. XXXVIII, 32, ex Plutarcho</bibl>
                                 <quote>Ἱππίας λέγει δύο εἶναι φθόνους, τὸν μὲν δίκαιον, ὅταν τις
@@ -523,6 +539,7 @@
                                     ἀλλοτρίοις ἀγαθοῖς.</quote>
                                 <note xml:lang="la">Cf. <bibl>&#198;schyl. Agam. 843</bibl>.</note>
                             </cit>
+                        
                             <cit n="14" xml:lang="grc">
                                 <bibl>Idem ibid. XLII, 10, ex eodem Plutarcho</bibl>
                                 <quote>Ἱππίας φησὶν ὅτι δεινόν ἐστιν ἡ δια&#976;ολία, οὕτως
@@ -531,13 +548,13 @@
                                     κλέπτουσιν, ὥστε ἡ ὕ&#976;ρις κακοῦργος οὖσα, δικαιοτέρα ἐστὶ
                                     τῆς δια&#976;ολῆς, διὰ τὸ μὴ ἀφανὴς εἶναι.</quote>
                             </cit>
+                        
                             <cit n="15" xml:lang="grc">
                                 <bibl>Plurynichus p. 312</bibl>
                                 <quote>Παραθήκην Ἱππίαν καὶ Ἴωνά τινα συγγραφέα φασὶν εἰρηκέναι,
                                     ἡμεῖς δὲ τοῦτο παρακταθήκην ἐροῦμεν, ὡς Πλάτων καὶ Θουκυδίδης
                                     καὶ Δημοσθένης.</quote>
                             </cit>
-                        </ab>
                     </div>
 
                 </div>
