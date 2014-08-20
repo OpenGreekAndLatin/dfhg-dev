@@ -1,51 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mueller2hippias_la">
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2hippias_la">
     <teiHeader>
         <fileDesc>
-            
             <titleStmt>
-                
                 <title>Fragmenta Historicorum Graecorum</title>
-                
                 <editor>Karl Müller</editor>
                 <sponsor>University of Leipzig</sponsor>
                 <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
-                
+
                 <respStmt>
-                    <persName>Monica Berti</persName>
+                    <persName xml:id="MB">Monica Berti</persName>
                     <resp>Editor in chief</resp>
                 </respStmt>
-                
+
                 <respStmt>
-                    <persName>Gregory Crane</persName>
+                    <persName xml:id="GC">Gregory Crane</persName>
                     <resp>Associate editor</resp>
                 </respStmt>
-                
+
                 <respStmt>
-                    <persName>Greta Franzini</persName>
+                    <persName xml:id="GF">Greta Franzini</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
-                
+
                 <respStmt>
-                    <persName>Simona Stoyanova</persName>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
             </titleStmt>
-            
+
             <publicationStmt>
                 <authority/>
-                <idno type="filename">mueller2hippias_la.xml</idno>
-                <authority>University of Leipzig</authority>
+                <idno type="filename">dfhg2hippias_la.xml</idno>
                 <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
-                        Available under a Creative Commons Attribution-ShareAlike International 4.0 License</licence>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
                 </availability>
                 <date>2013</date>
                 <publisher>University of Leipzig</publisher>
                 <pubPlace>Germany</pubPlace>
             </publicationStmt>
-            
+
             <sourceDesc>
                 <listBibl xml:lang="la">
                     <biblStruct>
@@ -57,132 +54,155 @@
                                     <addName xml:lang="de">Karl Müller</addName>
                                 </persName>
                             </editor>
-                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1434">Hippias Eleus</author>
-                            
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1434"
+                                >Hippias Eleus</author>
                             <imprint>
                                 <publisher>Ambroise-Firmin Didot</publisher>
                                 <pubPlace>Paris, France</pubPlace>
                                 <date>1841</date>
                             </imprint>
-                            
                             <biblScope unit="volume">2</biblScope>
-                            
                         </monogr>
-                        
-                        <ref
-                            target="https://archive.org/details/fragmentahistori02mueluoft"
+                        <ref target="https://archive.org/details/fragmentahistori02mueluoft"
                             >Internet Archive</ref>
-                        
                     </biblStruct>
                 </listBibl>
             </sourceDesc>
         </fileDesc>
-        
-        
+
         <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
             <p>The following text is encoded in accordance with EpiDoc standards and with the
                 CTS/CITE Architecture.</p>
         </encodingDesc>
-        
+
         <profileDesc>
             <langUsage>
                 <language ident="la">Latin</language>
                 <language ident="grc">Greek</language>
-                
+
             </langUsage>
         </profileDesc>
-        
+
         <revisionDesc>
             <change who="#SS" when="2013-10-25">Created the XML file</change>
             <change who="#SS" when="2014-01-23">Encoded text</change>
-            <change who="#SS" when="2014-04-23">Updated file according too guidelines changes</change>
+            <change who="#SS" when="2014-04-23">Updated file according too guidelines
+                changes</change>
+            <change who="#SS" when="2014-08-20">Proofread and updated</change>
         </revisionDesc>
     </teiHeader>
-    
+
     <text>
         <body>
 
             <div type="translation" subtype="volume" n="2" xml:lang="la">
-              <div type="textpart" subtype="book" n="1">  
-                  <pb n="61"/>
-                
-               <div type="textpart" subtype="work">
-                   <ab><title xml:lang="la">COLLECTIO</title></ab>
-                <p n="1">Ob form&#230; speciem clar&#230; mulieres fuerunt: Thargelia Milesia, qu&#230;
-                    quattuordecim viris nupsit, formosa admodum et sollers, ut ait Hippias Sophista
-                    in libro Synagoge inscripto.</p>
-            </div>
+                <div type="textpart" subtype="book" n="1">
+                    <pb n="61"/>
 
-               <div type="textpart" subtype="work">
-                   <ab><title xml:lang="la">OLYMPIONICARUM RECENSUS</title></ab>
+                    <div type="textpart" subtype="work" n="1">
+                        <ab><title xml:lang="la">COLLECTIO</title></ab>
+                        <p n="1">Ob form&#230; speciem clar&#230; mulieres fuerunt: Thargelia
+                            Milesia, qu&#230; quattuordecim viris nupsit, formosa admodum et
+                            sollers, ut ait Hippias Sophista in libro Synagoge inscripto.</p>
+                    </div>
 
-                <p n="2">Olympionicarum Recensum sero demum aiunt Hippiam Eleum edidisse, nullis
-                    tamen fultum argumentis ad fidem faciendam necessariis.</p>
-               </div>
+                    <div type="textpart" subtype="work" n="2">
+                        <ab><title xml:lang="la">OLYMPIONICARUM RECENSUS</title></ab>
 
-
-                <div type="textpart" subtype="work">
-                    <ab><title xml:lang="la">NOMINA GENTIUM</title></ab>
-
-                <p n="3">Hippias Eleus in Nominibus gentium populum quendam dicit appellari
-                    Spartos.</p>
-
-                <p n="4">Hippias ab Asia et Europa Oceani filiabus continentes nomen habere ait.</p>
-
-                <p n="5">Ephyra tertia circa Elin sita est; meminit ejus Hippias.</p>
-
-                <p n="6">Sed ne nostra longius procedat oratio, dum hoc agimus ut ostendamus, quam
-                    sint Gr&#230;ci proclives ad furtum et in orationibus et in dogmatibus, age adducamus
-                    Hippiam sophistam Eleum, qui aperte nobiscum facit, et id ipsum tractabat, quod
-                    ad considerandum nobis est prapositum. Sic autem dicit: «<quote>Ex his fortasse
-                        dicta sunt alia quidem ab Orpheo, alia a Mus&#230;o breviter, alia alibi: alia
-                        autem ab Hesiodo, alia ab Homero, alia ab aliis poetis; alia ab iis qu&#230;
-                        scripta sunt soluta oratione; alia a Gr&#230;cis, alia a barbaris. Ego autem quum
-                        ex his omnibus ea, qu&#230; sunt maxima et ejusdem generis, composuero, hanc
-                        novam et multiformem conficiam orationem.</quote>»</p>
-
-                <pb n="62"/>
-
-                <p n="7">Notandum est poetas posthomericos reges antetrojanos appellare tyrannos,
-                    quum sero demum hocce nomen apud Gr&#230;cos percrebuerit, Archilochi temporibus, uti
-                    Hippias sophista tradit.</p>
-
-                <p n="8">Hippias et Ephorus Homerum Cumanum fuisse perhibent.</p>
+                        <p n="2">Olympionicarum Recensum sero demum aiunt Hippiam Eleum edidisse,
+                            nullis tamen fultum argumentis ad fidem faciendam necessariis.</p>
+                    </div>
 
 
-                <p n="9">Lycurgum Hippias sophista dicit bellicosissimum atque peritia imperatoria
-                    insignem fuisse.</p>
+                    <div type="textpart" subtype="work" n="3">
+                        <ab><title xml:lang="la">NOMINA GENTIUM</title></ab>
+
+                        <p n="3">Hippias Eleus in Nominibus gentium populum quendam dicit appellari
+                            Spartos.</p>
+
+                        <p n="4">Hippias ab Asia et Europa Oceani filiabus continentes nomen habere
+                            ait.</p>
+
+                        <p n="5">Ephyra tertia circa Elin sita est; meminit ejus Hippias.</p>
+
+                        <p n="6">Sed ne nostra longius procedat oratio, dum hoc agimus ut
+                            ostendamus, quam sint Gr&#230;ci proclives ad furtum et in orationibus
+                            et in dogmatibus, age adducamus Hippiam sophistam Eleum, qui aperte
+                            nobiscum facit, et id ipsum tractabat, quod ad considerandum nobis est
+                            prapositum. Sic autem dicit: «<quote>Ex his fortasse dicta sunt alia
+                                quidem ab Orpheo, alia a Mus&#230;o breviter, alia alibi: alia autem
+                                ab Hesiodo, alia ab Homero, alia ab aliis poetis; alia ab iis
+                                qu&#230; scripta sunt soluta oratione; alia a Gr&#230;cis, alia a
+                                barbaris. Ego autem quum ex his omnibus ea, qu&#230; sunt maxima et
+                                ejusdem generis, composuero, hanc novam et multiformem conficiam
+                                orationem.</quote>»</p>
+
+                        <pb n="62"/>
+
+                        <p n="7">Notandum est poetas posthomericos reges antetrojanos appellare
+                            tyrannos, quum sero demum hocce nomen apud Gr&#230;cos percrebuerit,
+                            Archilochi temporibus, uti Hippias sophista tradit.</p>
+
+                        <p n="8">Hippias et Ephorus Homerum Cumanum fuisse perhibent.</p>
 
 
-                <p n="10">Aristoteles et Hippias tradunt Thaletem etiam rebus inanimatis animas
-                    tribuisse, et argumentum ejus sententi&#230; petiisse a magnete lapide et ab
-                    electro.</p>
+                        <p n="9">Lycurgum Hippias sophista dicit bellicosissimum atque peritia
+                            imperatoria insignem fuisse.</p>
 
 
-                <p n="11">Hippias et Pherecydes septem Hyadas esse dicunt.</p>
+                        <p n="10">Aristoteles et Hippias tradunt Thaletem etiam rebus inanimatis
+                            animas tribuisse, et argumentum ejus sententi&#230; petiisse a magnete
+                            lapide et ab electro.</p>
 
 
-                <p n="12">Phrixi novercam Pindarus in Hymnis Demoticen, Hippias Gorgopin esse
-                    dicit.</p>
+                        <p n="11">Hippias et Pherecydes septem Hyadas esse dicunt.</p>
 
 
-                <p n="13">Hippias ait duo esse genera invidi&#230;: alterum just&#230;, si quis malis et tamen
-                    honoratis invideat; alterum injust&#230;, si quis bonis invideat. Ac duplici malo
-                    invidi afficiuntur; nam non solum sua damna dolent, uti reliqui, sed etiam bona
-                    aliena.</p>
-                    
-                    <pb n="63"/>
+                        <p n="12">Phrixi novercam Pindarus in Hymnis Demoticen, Hippias Gorgopin
+                            esse dicit.</p>
 
-                <p n="14">Hippias ait. ingens malum esse calumniam, propterea quod nulla legibus in
-                    calumniatores scripta sit p&#339;na, sicuti est in fures: nam amicitiam, quod bonum
-                    est optimum, suffurantur, adeo ut insolentia, etsi multorum malorum causa, tamen
-                    justior sit calumnia, quia non est clandestina.</p>
 
-                <p n="15">Παραθήκην Hippiam et Ionem scriptorem quendam dixisse aiunt; nos id
-                    dicimus παρακαταθήκην (depositum), ut Plato, Thucydides et Demosthenes.</p>
+                        <p n="13">Hippias ait duo esse genera invidi&#230;: alterum just&#230;, si
+                            quis malis et tamen honoratis invideat; alterum injust&#230;, si quis
+                            bonis invideat. Ac duplici malo invidi afficiuntur; nam non solum sua
+                            damna dolent, uti reliqui, sed etiam bona aliena.</p>
+
+                        <pb n="63"/>
+
+                        <p n="14">Hippias ait. ingens malum esse calumniam, propterea quod nulla
+                            legibus in calumniatores scripta sit p&#339;na, sicuti est in fures: nam
+                            amicitiam, quod bonum est optimum, suffurantur, adeo ut insolentia, etsi
+                            multorum malorum causa, tamen justior sit calumnia, quia non est
+                            clandestina.</p>
+
+                        <p n="15">Παραθήκην Hippiam et Ionem scriptorem quendam dixisse aiunt; nos
+                            id dicimus παρακαταθήκην (depositum), ut Plato, Thucydides et
+                            Demosthenes.</p>
+                    </div>
+
                 </div>
-
-            </div>
             </div>
         </body>
     </text>
