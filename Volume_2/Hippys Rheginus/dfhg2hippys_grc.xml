@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2hippys_grc">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2hippys_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1438"
+                                >Hippys Rheginus</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft#page/n3/mode/2up"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#GF" when="2014-01-27">Created the XML file</change>
+            <change who="#SS" when="2014-08-21">Proofread an updated</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="1" xml:lang="grc">
+
+                    <head xml:lang="grc">
+                        <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1438.tlg003"
+                            >HIPPYS RHEGINUS</title>
+                    </head>
+
+                    <pb n="12"/>
+                    <p>Ex Asia insulisque Ionicis jam trajiciendum est in Italiam et Siciliam, ubi
+                        faustus multarum rerum concursus ad colenda studia historica Gr&#230;cos
+                        excitavit. Quid quod, si Suidam audiamus, vel ante Hecat&#230;um Milesium
+                        Messenius historiographus floruit, POLYZELUS, pater Ibyci.
+                            <quote>Ἴ&#976;υκος, <foreign xml:lang="la">ait</foreign>, Φυτίου, οἰ δὲ
+                            Πολυζήλου τοῦ Μεσσηνίου ἱστοριογράφου</quote> (sic codd. Optimi; τοῦ M.
+                        τοῦ ἱστ. editt.).</p>
+
+                    <p>Verum sphalma grammatici Polyzelum Rhodium, serioris &#230;vi historicum, cum
+                        Ibyci poet&#230; patre confundentis neminem latet. Bothius librariorum
+                        culpam esse putans vulgatam lectionem mutari voluit in <foreign
+                            xml:lang="grc">Μεσσηνίου, οὐ τοῦ ἱστορ</foreign>. Qu&#230; est emendatio
+                        paullo frigidior.</p>
+
+                    <p>Certius constat de <hi rend="italic">Theagene</hi> et <hi rend="italic"
+                            >Hippye Rheginis</hi>. Quorum ille quanquam injuria historicorum numero
+                        accensetur, tamen qu&#230; de eo referuntur perpauca indicare h.1.
+                        liceat.</p>
+
+                    <p><bibl>Tatian. Or. adv. Gr. c. 48</bibl> (ex eo <bibl>Euseb. P. E. X, II, p.
+                            491</bibl>): <quote>Περὶ τῆς ποιήσεως τοῦ Ὁμήρου γένους τε αὐτοῦ καὶ
+                            χρόνου, καθ᾿ ὃν ἤκμαζε, προηρήνευσαν οἱ πρεσβύτατοι Θεαγένης τε ὁ
+                            Ῥηγῖνος, κατὰ Καμ&#976;ύσην γεγονώς (<date>Ol. 62, 2—64, 3</date>),
+                            Στησίμ&#976;ροτός τε ὁ Θάσιος καὶ Ἀντίμαχος ὁ Κολοφώνιος, Ἡρόδοτός τε ὁ
+                            Ἁλικαρνασσεὺς καὶ Διονύσιος ὁ Ὀλύνθιος· μετ᾿ ἐκείνους Ἔφορος ὁ
+                            Κυμαῖος</quote>
+                        <foreign xml:lang="grc">κτλ.</foreign> — Hinc Scaliger in Ὀλ. ἀναγρ. ad
+                        Olymp. 63 notavit: <quote>Θεαγένης ὁ χρονολόγος ἤκμασεν</quote>.</p>
+
+                    <p><bibl>Schol. Aristoph. Av. 822</bibl>: <quote>Εἰσὶ δὲ ἄλλοι δύο Θεαγένεις,
+                            εἵς μὲν ὁ περὶ Ὁμήρου (ὁ εἰς Ὅμηρον <bibl>schol. Pac. 928</bibl>)
+                            γράψας, ἕτερος δὲ ὁ περὶ μαλακίας σκωπτόμενος</quote>. In <bibl>schol.
+                            Pac. 1. 1.</bibl> duo hi in unum conflantur. Inde pendet <bibl>Suidas v.
+                            Ἑκάτειον, Θεαγένης, Ὑήνεια</bibl>. </p>
+
+                    <p>
+                        <bibl>Schol. ad Dionys. Thrac. gramm. In <editor>Belk.</editor> Anecd. Gr.
+                            p. 729</bibl>: <quote>Ἡ δὲ περὶ Ἑλληνισμὸν (<foreign xml:lang="la"
+                                >sc.</foreign> γραμματική ἐστιν), ἥτις καὶ νεωτέρα ἐστὶν, ἀρξαμένη
+                            μὲν ἀπὸ Θεογένους (<foreign xml:lang="la">sic s&#230;pius hoc nomen
+                                scribitur</foreign>), τελεσθεῖσα δὲ παρὰ τῶν Περιπατητικῶν, παρ᾿
+                            Ἑξιφάνους (<foreign xml:lang="la">lege</foreign> Πραξιφάνους) τε καὶ
+                            Ἀριστοτέλους</quote>.</p>
+
+                    <p>Princeps est eorum, qui apologiam sive allegoricam fabularum Homer.
+                        interpretationem scripserunt. <bibl>Schol. Ven. Ad II. 20, 67, p. 533, 30
+                            Bekk.</bibl>: <quote>Οὗτος μὲν οὖν τρόπος ἀπολογίας ἀρχαῖος ὢν πάνυ καὶ
+                            ἀπὸ Θεαγένους Ῥηγίνου, ὃς πρῶτος ἔγραψε περὶ Ὁμήρου</quote>. Cf.
+                            <bibl>sch. ad Il. I, 381</bibl>. Eundem, puto, innuit <bibl>Schol. Leid.
+                            ad II. 19, 129 in <editor>Valckenarii</editor> Opusc. II, p. 127</bibl>,
+                        ubi, postquam de Gigantum bello exposuerat, addit: <quote>Ἡ ἱστορία παρὰ
+                            Ἡσιόδῳκαὶ Θεογόνῳ</quote> (<foreign xml:lang="grc">Θεοπόμπῳ</foreign>
+                        voluit Welcker <hi rend="italic">Cycl.</hi> p. 29) <note type="footnote"
+                            >Theagenes, quem de forma grammatica laudat <bibl>Etym. M. v.
+                                βε&#976;αιῶ</bibl>, non est Rheginus, uti <bibl>Vossio p. 502</bibl>
+                            videtur, sed probabiliter is, quem cum Herodiano, Tryphone, aliis
+                            recenset Anonym. De artium et disc. invent. In <bibl>cod. Coislin.
+                                (Fabric. B. Gr. IX, p. 601 ed. pr.)</bibl>; fortassis Cnidius;
+                            Herodis Attici magister (<bibl>Philostr. Vit. Herod. II, 1,
+                            14</bibl>).—Porro errat <bibl>Clintonus (F. H. tom II, p. 369)</bibl>,
+                            qui Theagenem Rheg. Significari putat a <bibl>Tzetze ad Lyc. 177</bibl>,
+                            quo loco is <foreign xml:lang="grc">ἱστορικώτερον</foreign> se in
+                            fabularum interpretatione esse dicit Alexandro Polyhistore, Apollodoro,
+                                <foreign xml:lang="grc">Ῥηγίνου τοῦ Πολυμνήμονος</foreign>, Artemone
+                            Pergameno et Cassandro Salaminio (corrige: Hegesandro Salaminiο. Cf.
+                                <bibl>fragm. Hegesandri Delphi</bibl>). V.
+                                    <bibl><editor>Welcker.</editor> Cycl. p. 134</bibl>. Etenim
+                                <foreign xml:lang="grc">Πολυμνήμων</foreign> libro titulus est.
+                            Suidas: <quote>Ῥηγῖνος, γραμματικὸς, ἕγραψε τὸν λεγόμενον
+                                Πολυμνήμονα</quote>. Cf. <bibl>Eudocia p. 371</bibl> et
+                                <bibl>Nicephorus H. Eccl. X, 36, tom. II, p. 89 Paris</bibl>.
+                            Quanquam recte fortassis statuas <foreign xml:lang="grc"
+                                >Ῥηγῖνος</foreign> non esse noman hominis, sed patri&#230;, sicuti
+                            v. c. Heraclides <hi rend="italic">Tarentinus</hi> in Geoponicis, ap.
+                            Galenum, alios, simpliciter dicitur Taretinus. Iste <foreign
+                                xml:lang="grc">Πολυμνήμων</foreign>
+                            <bibl>a Socrate H. Eccl. III, 23</bibl> componitur cum <foreign
+                                xml:lang="grc">Στεφάνῳ</foreign> Dionysii Samii, et cum <foreign
+                                xml:lang="grc">Πέπλῳ</foreign> Aristοtelis, qui libri ejusdem sunt
+                            indolis. <hi rend="italic">Rhegini</hi> de diis doctrinam Euhemeristicam
+                            pluribus exponit Malala p. 54, 7, Rhegino adjungens Diodorum. Apud
+                                <bibl>Tzetzen Hist. I, 470</bibl> in fabula de Atrei ariete legis:
+                                <quote>Πρό&#976;ατα χρυσόχροον ποῦ φέρειν τὴν ἐρέαν Ῥηγῖνος τὸν
+                                Ἰσίγονον εἰσφέρει γεγραφότα</quote>. Igitur Isigono Rheginus junior.
+                            Etiam Mirabilia collegisse in multiformi suo opere videtur: nam
+                                <bibl>Tzetzes Hist. VII, 644</bibl> de Indicis miraculis et
+                            mendaciis loquens recenset Ctesiam, Iambulum, Isigonum, Rheginum. Cf.
+                            etiam <bibl>Phot. cod. 158</bibl>. Primo ante Christum s&#230;culo vel
+                            serius vixisse mihi videtur.—Alius, nisi fallor, Rheginus, laudatur in
+                                <bibl>Stob&#230;i Floril. I, p. 54, 258, S. Maximo tom. II, p. 264,
+                                A. Melissa I, 53</bibl>.—De Theagene Macedonicorum auctore dicemus
+                            infra.—Alios hujus nominis auctores v. ap. <bibl>Sueton. Aug. c.
+                                94</bibl>; <bibl>Alexandr. Aphrodis. II, 89 in Gaz&#230;
+                                vers.</bibl>; <bibl>Galen. IV, p. I78</bibl>.</note>.</p>
+
+                    <p>Ceterum num recte Theagenes Cambysis &#230;qualis fuisse dicatur, in tanta
+                        testimoniorum penuria ne que negare licet neque affirmare. Quanquam facile
+                        accidisse Theageni credas, quod accidit Hellanico, Pherecydi, Antiocho
+                        Syracusano, Xenophani, qui omnes a nonnullis justo antiquiores esse
+                        putabantur. Utut est, Stesimbrotum certe Periclis co&#230;vum &#230;tate
+                        superavit. Atque «ex testimoniis (<bibl><editor>Nitzschius</editor> H. Hom.
+                            II p. 85</bibl> ait) efficitur, hunc omnium quotquot fama nobilitavit
+                        Homeri interpretum primum exstitisse, quem eundem primum grammaticum dicas
+                        licet, quum vere omnis grammatic&#230;, qu&#230; poetarum scriptorumque
+                        interpretatione censetur, hoc fuerit principium, ut poet&#230; nobilissimi
+                        auctoritas, tum reprehensionibus affligi c&#339;pta, enarrationis artificio
+                        vindicaretur, h. e. allegoria tum physica tum ethica. Theagenis liber sine
+                        dubio mature neglectus est pr&#230; subsequentium allegoricorum sapientia;
+                        nam cognitio <pb n="13" break="no"/> ejus omnis II. II. constat. Quocirca,
+                        quum a posterioribus non adhibitus videatur, nisi ut cultiori
+                        disciplin&#230; auctoritatem adderet, ne Tatianus quidem ipsum vidit; neque
+                        sciri licet, ecquid curiosius de Homeri vita qu&#230;siverit Theagenes.» Cf.
+                                <bibl><editor>Wolf.</editor> Prolegg. p. 161</bibl>;
+                                <bibl><editor>Lobeck.</editor> Aglaoph. p. 155 sq.</bibl></p>
+
+                    <p>Suidas: <quote>Ἵππυς, Ῥηγῖνος, ἱστορικὸς, γεγονὼς ἐπὶ τῶν Περσικῶν, καὶ
+                            πρῶτος ἔγραψε τὰς Σικελικὰς
+                            πράξεις, ἃς ὔστερον Μύης ἐπετέμετο· Κτίσιν Ἰταλίας, Σικελικῶν
+                            βι&#976;λία <num value="5">ε</num>, Χρονικὰ ὲν βι&#976;λίοις <num
+                                value="5">ε</num>, Ἀργολικῶν <num value="3">γ</num>. Οὗτος πρῶτος
+                            ἔγραψε παρῳδίαν καὶ χωλίαμ&#976;ον καὶ ὰλλα</quote>.</p>
+
+                    <p><foreign xml:lang="grc">Ἵππυς</foreign>] libro <foreign xml:lang="grc"
+                            >Ὕπυς</foreign>; quam reposui formam habes fr. 1, 2, 6; pr&#230;terea
+                        occurit <foreign xml:lang="grc">Ἱππεύς</foreign> fr. 4, <foreign
+                            xml:lang="grc">Ἱππίας</foreign> fr. 7, <foreign xml:lang="grc"
+                            >Ἵππων</foreign> fr. 5. coll. fr. Ι.—De Hippone Rhegino atheo, cum
+                        nostro historico non confundendo, vide qu&#230; laudant Küster. et
+                        Bernhardy. Ad h. 1.—<foreign xml:lang="grc">Ἀργλικῶν</foreign>] Sic ex
+                        duobus libris Bernhardy rectissime; <foreign xml:lang="grc"
+                            >ἀργολογικῶν</foreign> editt.; <foreign xml:lang="grc"
+                            >ἀρχαιολογικῶν</foreign> Eudocia, quod tueri voluit <bibl>Bast. Comment.
+                            Pal&#230;ogr. p. 754</bibl>, qui e cod. Paris. Enotaverat <foreign
+                            xml:lang="grc">ἀρχολογικῶν</foreign>.—<foreign xml:lang="grc">οὗτος
+                            πρῶτος</foreign>
+                        <foreign xml:lang="grc">κτλ.</foreign>] H&#230;c ad Hippyn nihil pertinere,
+                        sed pr&#230;cedenti articulo (<foreign xml:lang="grc">Ἱππῶναξ</foreign>)
+                        adjungenda esse jam Küsterus monuit.</p>
+
+                    <p>De vita et &#230;tate Hippyis pr&#230;ter Suidam nemo quidquam tradit.
+                        Fragmentorum indicia scrutans virum elicias, qui viderit lumina
+                        Gr&#230;ci&#230;, Argos et Athenas (fr. 3. 5), qui imbutus fuerit doctrinis
+                        Pythagoricorum (fr. 6), denique cujus scripta Phanias Eresius etiam
+                        literatissimo s&#230;culo lectu digna habuerit (fr. 6).—Reliqui&#230; tantum
+                        non omnes ex Chronicis petita sunt, qu&#230; espresse semel laudantur in
+                        fragmento quarto, ubi oraculum citatur Myscello datum conditori Crotonis.
+                        Hinc et ex fragm. 5 intelligimus satis fuse res Siculas et Italicas in
+                        Chronicis traditas fuisse, adeo ut dubitare possis, an non Chronicorum libri
+                        quinque iidem sint cum illis, quibus separatim Sicili&#230; historiam et
+                        Gr&#230;carum in Italia urbiunes origines persecutus esse dicitur. At
+                        dubitationem pr&#230;scindere videntur fragmenta 1, 2, 3, qu&#230; sunt de
+                        antiquitate populi &#198;gyptiorum deque fabulis Helladicis. Etiam
+                        philosophorum, poetarum, musicorum tempora et monumenta recensuisse Hippys
+                        videtur (fr. 6).-Myes, qui scripta auctoris nostri in compendium redegit,
+                        alibi non memoratur.</p>
+
+                    <div type="textpart" subtype="work" n="1">
+                        <ab><title type="main" xml:lang="grc">XRONIKA</title>
+                            <title type="sub" xml:lang="grc">ἐν βι&#976;λίοις <num value="5"
+                                    >ε</num></title></ab>
+
+                        <cit n="1" xml:lang="grc">
+                            <bibl>Schol. Apoll. Rh. IV, 262</bibl>
+                            <quote>Ἵππυς (Ἵππων cod. Par.) τοὺς Αἰγυπτίους ἀρχαιοτάτους γεγονέναι
+                                λέγει, καὶ πρώτους στοχάσασθαι τῆς τοῦ ἀέρος κράσεως· καὶ
+                                γονιμώτατον εἶναι τὸ τοῦ Νείλου ὕδωρ.</quote>
+                            <note xml:lang="la">De eadem re schol. laudat <hi rend="italic"
+                                    >Chronica</hi> Xenagor&#230;, Cosm&#230; &#198;gyptiaca, alia.
+                                    <foreign xml:lang="grc">Ἀρχαιοτάτους</foreign> &#198;g. dicit
+                                    <quote>διὰ τὴν τοῦ ἀέρος εὐκρασίαν καὶ διὰ τὴν φύσιν τοῦ Νείλου·
+                                    τοῦτον γὰρ πολύγονον ὄντα καὶ τὰς τροφὰς αὐτοφυεῖς παρεχόμενον
+                                    ῥᾳδίως ἐκτρέφειν τὰ ζωογονηθέντα</quote>
+                                <foreign xml:lang="grc">κτλ.</foreign> (verba sunt <bibl>Diodori I,
+                                    10, 1</bibl>); eosdemque harum rerum observatores primos
+                                exstitiesse auctores scientiarum. Ita narrasse Hippyn ex verbis
+                                schol. cum aliorum narratione collatis intelligitur. Cf.
+                                    <bibl>interpr. Herodot. ad II, 2</bibl>;
+                                        <bibl><editor>Heyne</editor> De fontibus Diodori p. XXVIII
+                                    ed. Bipont.</bibl></note>
+                        </cit>
+
+                        <cit n="2" xml:lang="grc">
+                            <bibl>Stephan. Byz. v. Ἀρκάς</bibl>
+                            <quote>Ἵππυς δὲ ὁ Ῥηγῖνος λέγεται πρῶτος καλέσαι Προσελήνους τοὺς
+                                Ἀρκάδας, καὶ τὸ ἄστρον λέγεται ἐν τῷ οὐρανῷ τότε ἄρκτος κληθῆναι, ἣ
+                                ἅμαξα λέγεται.</quote>
+                            <note xml:lang="la">—Utrumque inter se ex Hippyis sententia
+                                coh&#230;rere focilis conjectura est. Callist&#251;s s.
+                                Themist&#251;s, Arcadis matris, fabulam nemo nescit. <foreign
+                                    xml:lang="grc">οὐρανῷ</foreign>] cod. Rhedig.; sic emendaverat
+                                jam Casaubonus pro vg. <foreign xml:lang="grc">Ἀρανῶ</foreign>
+                                    (<foreign xml:lang="grc">Ἀράτῳ</foreign> voluit
+                                Holsten.).</note>
+                        </cit>
+
+                        <cit n="3" xml:lang="grc">
+                            <bibl>Schol. Eur. Med. 10 de Medea</bibl>
+                            <quote>Περὶ δὲ τῆς εἰς Κόρινθον μετοικήσεως Ἱππεὺς (<foreign
+                                    xml:lang="la">corr.</foreign> Ἵππυς) ἐκτίθεται καὶ
+                                Ἑλλάνικος.</quote>
+                            <note>Hinc procul dubio:</note>
+                            <bibl>Schol. Eur. Med. 20</bibl>
+                            <quote>Μήδειαν ὑπὸ Ἀκάστου ἐκπεσοῦσαν σὺν Ἰάσονι Ἱππότης ὑπεδέξατο
+                                Κρέοντος τοῦ πεσοῦσαν σὺν Ἰάσονι Ἱππότης ὑπεδέξατο Κρέοντος τοῦ
+                                Λυκαίθου. Ὁ Λύκαιθςο δὲ, ἐπεὶ Βελλεροφόντης ᾤχετο, ἦρξεν ἔτη <num
+                                    value="26">κζ</num>, ἔπειτα Κρέων <num value="30">λ</num>, εἶτα
+                                Ἱππότης. Ἐπεὶ δὲ Ἰάσων ἔγημε τὴν Ἱππότου θυγατέρα, τότε δὴ κτείνασα
+                                τοὺς παῖδας αὑτῆς, ἀπαλλάσσεται πρὸς Αἰγέα.</quote>
+
+                            <pb n="14"/>
+                            <note xml:lang="la">De re vide <bibl>Müller. <hi rend="italic">Min.</hi>
+                                    p. 273</bibl> et qui ibi laudantur. Sumpserit h&#230;c ex
+                                    <foreign xml:lang="grc">ἀναγραφαῖς Κορινθίων</foreign>.
+                                Gr&#230;ciam adiisse Hippyn arguunt etiam <title>Argolica</title>,
+                                ex quibus qu&#230; referuntur (fr. 8), vix. aliunde nisi ex ore
+                                sacerdotum &#198;sculapii accepit. Idem in Chronicis seriem
+                                Sacerdotum Junonis Argiv&#230; enotare haud omiserit. Atque ex
+                                Hippye, nisi fallor, petita sunt, qu&#230; Hellanicus in
+                                Sacerdotibus Jun. (fr. 26) distincte tradit de temporibus
+                                migrationum Sicularum.</note>
+                        </cit>
+
+                        <cit n="4" xml:lang="grc">
+                            <bibl>Zenob. III, 42</bibl>
+                            <quote>Δῶρον δ᾿ ὅ τι δῷ τις ἐπαίνει: αὕτη κόμμα ἐστὶ χρησμοῦ τοῦ
+                                δοθέντος Μυσκέλλῳ τῷ Ῥυπὶ, καθ᾿ ὃν δὴ χρόνον Κρότωνα οὐκ
+                                ἐ&#976;ούλετο οἰκίζειν, [ἀλλὰ] Σύ&#976;αριν, ὥς φησιν Ἵππυς
+                                    (<foreign xml:lang="la">codd.</foreign> Ἱππεύς) ἐν τῷ Περὶ
+                                χρόνων. Φησὶ δὲ σὕτως ἔχειν τὸν χρησμόν· <lg>
+                                    <l>Μύσκελλε βραχύνωτε, παρὲκ θεὸν ἄλλα ματεύων</l>
+                                    <l>πλαύματα θηρεύσεις· δῶρον δ᾿ ὅτι δῷ (ὅ διδῷ?) τις
+                                        ἐπαίνει.</l>
+                                </lg>
+                            </quote>
+
+                            <note xml:lang="la"><foreign xml:lang="grc">Ἐκ Ῥυπῶν</foreign> oriundus
+                                Μyscellus etiam <bibl>Straboni VIII, p. 387</bibl>. In
+                                    <bibl>Excerpt. Vatican. Diodori (VIII, 17)</bibl>, ubi fusius
+                                res exponitur, corrupte M, <foreign xml:lang="grc">Ἀχαῖος ἐκ
+                                    Κρήτης</foreign>.—<foreign xml:lang="grc">Κλαύματα</foreign>
+                                posui ex <bibl>Diodoro I. Ι.</bibl> ubi <foreign xml:lang="grc"
+                                    >κλαύματα</foreign> (<foreign xml:lang="grc">κλάσματα</foreign>
+                                Strabo) <foreign xml:lang="grc">μαστεύεις, δῶρον ὃ διδῷ θεὸς
+                                    αἴνει</foreign>. Zenobii. codd. <foreign xml:lang="grc"
+                                    >ἄλλα</foreign>, quod Leutsch, mutavit in <foreign
+                                    xml:lang="grc">οὐδ᾿ ἅλα</foreign>, conferri jubens <bibl>schol.
+                                    ad Hom. Od. ρ. 455</bibl>. — Tempus rei <date>Ol. 17, 3</date>
+                                sive <date>710 a. C. sec.</date> Tim&#230;um ap. <bibl>Dionys, Hal,
+                                    II, p. 361</bibl>;<date> Ol, 18</date>, <date>I sec.</date>
+                                <bibl>Euseb. Chron. V. Fischer. Tabb.</bibl> chron.</note>
+                        </cit>
+
+                        <cit n="5" xml:lang="grc" ana="#dubia">
+                            <bibl>Antigonus Hist. Mir. c. 121 (133) ed.
+                                <editor>Westerm.</editor></bibl>
+                            <quote>Ἵππυς (<foreign xml:lang="la">codd.</foreign> Ἵππων) δὲ ὁ Ῥηγῖνος
+                                [περὶ τῶν λεγομένων τόπων φθείρειν τὰ ἐμπίπτοντα] τοιοῦτόν τι
+                                γράφει· φησὶν ἐν Ἀθήναις ἐπὶ βασιλέως Ἐπαινέτου (Ὀλυμπιάδος ἕκτης
+                                καὶ τριακοστῆς, ἐν ἧ Ἀρυτάμας Λάκων νικᾷ στάδιον) τῆς Σικελίας ἐν
+                                Παλίκοις οἰκοδομηθῆναι τόπον, εἰς ὃν ὅστις ἂν εἰσέλθῃ, εἰ μὲν
+                                κατακλιθείη, ἀποθνήσκειν, εἰ δὲ περιπατοίη, οὐδὲν πάσχειν.</quote>
+                            <note xml:lang="la">Η&#230;c <bibl><editor>Westermanno</editor>
+                                    (Paradoxogr. p. XX)</bibl> et <bibl><editor>Prellero</editor>
+                                    (De Hellanico p. 38)</bibl> a nostro aliena videntur tum propter
+                                nomen <foreign xml:lang="grc">Ἵππων</foreign>, tum propter mentionem
+                                Olympiadis. Sed de Hippone aliquo mirabilium vel histori&#230;
+                                scriptore non constat. Olympiadis notitia ab alio addi potuit,
+                                fortasse a Mye excerptore. Ne dicam de Charonis historiis
+                                Xenophontisque Hellenicis, excitasse sufficiat <bibl>Diodorum (II ,
+                                    30)</bibl>, qui Dejocem <hi rend="italic">secundum
+                                    Herodotum</hi> Ol. 17, 2 regnum adeptum esse docet. Ne archontis
+                                commemorationem Hippyi abjudicem, moveor voce <foreign
+                                    xml:lang="grc">βασιλέως</foreign>, qu&#230; antiquum auctorem et
+                                exterum hominem prodit. Quodsi recte statui, colligas inde, Athenis
+                                Hippyn per tempus aliquod versatum esse, Ceterum cum Corsinio ex
+                                Eusebii Chronicis emendandum est <quote>Ὀλυμπ. ἕκτης καὶ
+                                    τετταρακοστῆς, ἐν ᾗ Χρυσόμαχος</quote>. De Ep&#230;neto archonte
+                                pr&#230;ter Nostrum nemo, Verba: <foreign xml:lang="grc">Περὶ τῶν
+                                    λεγομένων</foreign>
+                                <foreign xml:lang="grc">κτλ.</foreign> ex margine in textum
+                                irrepsisse puto. — &#198;dificium ad Palicorum fontes exstructum
+                                    <bibl>Aristoteles Mir. Ausc, c, 58</bibl> dicit δεκάκλινον,
+                                decem toros longum. In universum de Palicorum historia adi G.
+                                Hermannum in dissertatione <bibl>De &#198;schyli &#198;tn&#230;is
+                                    (1837), coll. <editor>Prellero</editor> ad Polemon. fr. p. 127
+                                    sqq.</bibl></note>
+                        </cit>
+
+                        <cit n="6" xml:lang="grc">
+                            <bibl>Plutarch. De Orac. def. c. 23 p. 422 E.</bibl>
+                            <quote>Ἵππυς δὲ ὁ Ῥηγῖνος (οὗ μέμνηται Φανίας ὁ Ἐρέσιος) ἱστορεῖ δόξαν
+                                εἶναι ταύτην Πέρωνος καὶ λόγον, ὡς ἑκατὸν καὶ ὀγδοήκοντα καὶ τρεῖς
+                                κόσμους ὄντας, ἁπτομένους δ᾿ ὰλλήλων κατὰ στοιχεῖον· ὅ τι δὴ τοῦτ᾿
+                                ἐστὶ, κατὰ στοιχεῖον ἅπτεσθαι, μὴ προσδιασαφῶν, μηδ᾿ ἄλλην τινὰ
+                                πιθανότητα προσάπτων.</quote>
+                            <note xml:lang="la">Brevis hujusmodi notitia cadit in libros
+                                Chronicorum, in quibus literariam historiam, eam maxime, qu&#230; ad
+                                Italos poetas et philosophos spectat, non neglectam fuisse probabile
+                                est, Plura de mundis illis triquetra figura positis, ita ut in
+                                quovis latere essent sexaginta, in quovis angulo unus, lege apud
+                                ipsum <bibl>Plutarchum 1. 1.</bibl></note>
+                        </cit>
+
+                        <pb n="15"/>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="2">
+                        <ab><title type="main" xml:lang="grc" ana="#incerta">ΣΙΚΕΛΙΚΑ.</title></ab>
+
+                        <cit n="7" xml:lang="grc">
+                            <bibl>Athen&#230;i Epit. p. 31, B</bibl>
+                            <quote>Ἵππυς (<foreign xml:lang="la">libri</foreign> Ἱππίας) δὲ ὁ
+                                Ῥηγῖνος τὴν εἰλεὸν καλουμένην ἄμπελον βι&#976;λίαν φησὶ καλεῖσθαι·
+                                ἣν Πόλλιν τὸν Ἀργεῖον, ὃς ἐ&#976;ασίλευσε Συρακοσίων, πρῶτον εἰς
+                                Συρακούσας κομίσαι ἐξ Ἰταλίας. Εἴη ἂν οὖν ὁ παρὰ Σικελιώταις γλυκὺς
+                                καλούμενος Πόλλιος ὁ Βί&#976;λινος οἶνος. Χρησμός [<foreign
+                                    xml:lang="la">pro his lib. C.</foreign>: ἐν τῷ χρησμῷ, φησὶν, ὁ
+                                θεὸς ηὐτομάτισε]· Πῖν᾿ οἶνον τρυγίαν, ἐπεὶ οὐκ Ἀνθηδόνα ναίεις, οὐδ᾿
+                                ἱερὰν Ὑπέραν, ὅθι γ᾿ ἄτρυτον οἶνον ἔπινες.</quote>
+                            <note xml:lang="la">Excerptorem plura omisisse patet. <foreign
+                                    xml:lang="grc">Ἵππυς</foreign>] libri <foreign xml:lang="grc"
+                                    >Ἱππίας</foreign>, sic <hi rend="italic">Hippis</hi> et <hi
+                                    rend="italic">Hippias</hi> in libris <bibl>Plinii H. N. XXXV,
+                                    40, 35</bibl>; cf. <bibl>Polemon. fr. 63</bibl>. Argivus ille
+                                rex Syracusarum excerptori deberi videatur, quoniam ita <bibl>Poltux
+                                    On. VI, 17</bibl>: <quote>Καί που καὶ γλυκὺς καὶ Πολλαῖος
+                                    (οἶνος)· ἔστι δὲ ἐκ Συρακουσῶν, Πόλλις δ᾿ αὐτὸν ὁ Ἀργεῖος πρῶτος
+                                    ἐσκεύασεν, ἀφ᾿ οὗ καὶ τοὔνομα· ἦ ἀπὸ τοῦ Συρακουσίων βασιλέως
+                                    Πόλλιος, ὡς Ἀριστοτέλης λέγει.</quote> Cf. <bibl>&#198;lian. V.
+                                    H. XII, 31</bibl>: <quote>Ἐκλήθη δὲ (ὁ Πόλλιος οἶνος) ἀπό τινος
+                                    ἐγχωρίου βασιλέως</quote>. Sed bene se habere verba
+                                Athen&#230;i, oraculum indicio est, quod Calauri&#230; mentionem
+                                faciens, cum antecedentibus coh&#230;rere aliquo modo debet. Nec
+                                aliter Aristoteles statuerit, qui de eodem oraculo et de vino
+                                Anthedonio in Tr&#339;zenirum Republ. (ap. <bibl>Athen&#230;um 1.
+                                    1.</bibl> et <bibl>Plutarch. Qu. Gr. c. 19</bibl>) locutus
+                                est.—Secundum auctorem Etym. M. vitis ex <hi rend="italic"
+                                    >Thracia</hi> in Siciliam transplantata est <foreign
+                                    xml:lang="grc">Πόλλιδος τοῦ Σικυωνίου τυράννου</foreign>, quod
+                                    <bibl>Müller. (<hi rend="italic">Dor.</hi> II, 109)</bibl>
+                                mutari jubet in <foreign xml:lang="grc">τοῦ Συρακουσίου τ.</foreign>
+                                Aliunde de Pollide hoc non constat; antequam in Siciliam trajiceret,
+                                in Calauria sive Anthedone habitasse videtur, fortasse unus ex gente
+                                Temenidarum, ad quam Bacchiad&#230; pertinebant. Pollin <hi
+                                    rend="italic">Argivum</hi>, qui una cum legatis Corinthiorum et
+                                Laced&#230;moniorum ad Persarum regem profectus sit, memorat
+                                    <bibl>Thucydidea II, 67</bibl>. Alium P. Spartiatam, Dionysii
+                                tyranni amicum, affert <bibl>Plutarch. Dion. c. 5</bibl>.—Fragmentum
+                                num recte tribuerim <foreign xml:lang="grc">Σικελικοῖς</foreign>
+                                nescio; legi potuit tum in <foreign xml:lang="grc"
+                                    >Χρονικοῖς</foreign>, tum in <foreign xml:lang="grc"
+                                    >Ἀργολικοῖς</foreign>.</note>
+                        </cit>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="3">
+                        <ab><title type="main" xml:lang="grc" ana="#incerta">ΑΠΓΟΛΙΚΑ.</title></ab>
+
+                        <cit n="8" xml:lang="grc">
+                            <bibl>&#198;lian. N. A. IX, 33</bibl>
+                            <note xml:lang="la">Qui lumbrico laborant, malo laborant ope mortali
+                                quod curari nequeat.</note>
+                            <quote>Τεκμηριῶσαι τοῦτοκαὶ Ἵππυς (Ἵππευς, Ἵππους <foreign xml:lang="la"
+                                    >var. I.</foreign>) ἱκανός. Ὃ δὲ λέγει ὁ συγγραφεὺς ὁ Ῥηγῖνος,
+                                τοιόνδε ἐστίν· γυνὴ εἶχεν ἕλμινθα, καὶ ἰάσασθαι αὐτὴν ἀπεῖπον οἱ τῶν
+                                ἰατρῶν δεινοί· οὐκοῦν εἰς Ἐπίδαυρον ἦλθεν, καὶ ἐδεῖτο τῶν θεῶν
+                                ἐξάντης γενέσθαι τοῦ συνοίκου πάθους. Οὐ παρῆν ὁ θεός· οἱ μέντοι
+                                ζάκοροι κατακλίνουσι τὴν ἄνθρωπον ἔνθα ἰᾶσθαι ὁ θεὸς εἰώθει τοὺς
+                                δεομένους· καὶ ἡ μὲν ἄνθρωπος ἡσυχάζει προσταχθεῖσα, [καὶ] οἵ γε μὴν
+                                ὑποδρῶντες τῷ θεῷ τὰ ἐς τὴν ἄσιν αὐτῇ ἐποίουν· καὶ τὴν κεφαλὴν μὲν
+                                ἀπὸ τῆς δέρης ἀφαιροῦσι, καθίησι δὲ τὴν χεῖρα ὁ ἕτερος, καὶ ἐξαιρεῖ
+                                τὴν ἕλμινθα, θηρίου μέγα τι χρῆμα· συναρμόσαι δὲ καὶ ἀποδοῦναι τὴν
+                                κεφαλὴν ἐς τὴν ἀρχαίαν ἁρμονίαν οὐκ ἐδύνατο οὐκέτι. Ὁ τοίνυν θεὸς
+                                ἀφικνεῖται, καὶ τοῖς μὲν ἐχαλέπηνεν, ὅτι ἄρα ἐπέθεντο ἔργῳ
+                                δυνατωτέρῳ τῆς ἑαυτῶν σοφίας· αὐτὸς δὲ ἀμάχῳ τινὶ καὶ θείᾳ δυνάμει
+                                ἀπέδωκε τῷ σκήνει τὴν κεφαλὴν, καὶ τὴν ξένην ἀγέστησεν.</quote>
+                            <note xml:lang="la">Ex Argolicis h&#230;c petita esse res narrata satis
+                                arguit.</note>
+                        </cit>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

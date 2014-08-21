@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2ion_grc">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2ion_grc.xml</idno>
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0308"
+                                >Ion Chius</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft#page/n3/mode/2up"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#GF" when="2013-12-05">Created the XML file</change>
+            <change who="#SS" when="2014-08-21">Proofread an updated</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="1">
+
+                    <head xml:lang="grc">
+                        <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg0308.tlg007"
+                            >ION CHIUS</title>. </head>
+
+                    <pb n="44"/>
+
+                    <p>Vitam Ionis, poet&#230;, philosophi, nec non historici, enarrarunt
+                        fragmentaque composuerunt C. <bibl><editor>Nieberdingius</editor> (Lips.
+                            1836)</bibl> et <bibl><editor>E. K&#339;pkius</editor> (Berolin.
+                            1836)</bibl>. Nos tempora auctoris constituisse et qu&#230; ad scripta
+                        ejus historica pertinent attulisse habebimus satis.</p>
+
+                    <p>Ion Chius, natus Orthomene, quem Xuthi cognomine lepide Athenienses ornasse
+                        videntur (<bibl>sch. Ar. Pac. 835</bibl>; Suidas et Harpocrat. v. <foreign
+                            xml:lang="grc">Ἴων</foreign>), puerulus admodum, <foreign xml:lang="grc"
+                            >παντάπασι μειράκιον</foreign>, Athenas profectus convivio interfuit
+                        apud <bibl><author>Laodamantem</author> (fr. 1.)</bibl> Ibi inter pocula
+                        Cimon strategema narravit, quo usus sit Byzantii (<date>Ol. 76, 3. a. C.
+                            470</date>). Aliique a convivis sermones habebantur, e quibus nos
+                        colligimus Themistoclem testarum judicio tum nondum fuisse patria ejectum,
+                        Quod quum, recte subductis calculis, fictum sit <date>Olymp. 77, 4</date>,
+                        de tempore convivii satis constat, neque longe a vero aberraveris, si
+                        natales Ionis referendas esse censeas ad <date>Olymp, 74</date>
+                            (<date>484—481</date>). Ingenium adolescentis Athenis formatum et
+                        excultum esse, quamquam id nemo tradit, pro certo affirmare ausim.
+                            <date>Olymp. 79, 1</date> (<date>464</date>). Ionem in urbe adfuisse
+                        intelligitur ex loco <bibl><author>Plutarchi</author> (fr, 7)</bibl>, Magni
+                        res momenti fuerit, quod juveni contigit, ut &#198;schyli poet&#230;
+                        consuetudine uteretur et familiaritate.—Fabulam docere c&#339;pit
+                            <date>Olympiade 82</date> (<date>452—449</date>), cujus anno postremo
+                        Cimon Nostro carissimus fato defunctus est. Non ita multo post quum
+                        optimatium factione oppressa penes populum atque. Periclem summa rerum esse
+                        c&#339;pit (inde ab <date>Ol. 84, 1</date>. <date>444 a. C.</date>), Ion in
+                        patriam rediisse videtur, ubi <date>Ol. 84, 4</date> (<date>441</date>)
+                        Sophocles Lesbum proficiscens eum convenit (fr. 1). Quamdiu tum in Chio
+                        insula degerit, non <!-- ref --> liquet. Reversum Athenas videmus <date>Ol.
+                            87, 4</date> (<date>429</date>), quo trag&#339;dia certavit cum Euripide
+                        et Iophonte (<bibl>Argum. ad Eur. Hippol.</bibl>). Idem annus fatalis fuit
+                        Pericli. <date>Olymp. 89, 3</date> (<date>421</date>) Ion ad beatos jam
+                        abierat, paullo antea, ut videtur, defunctus sexagenarius. Etenim in Pace
+                        fabula, quam hoc anno scen&#230; Aristophanes commisit, famulus Tryg&#230;i
+                        qu&#230;rit, num sit verum post mortem nos stellas fieri; affirmante rem
+                        Tryg&#230;o, famulus (v. 835): <quote>
+                            <lg>
+                                <l>Καὶ τίς ἐστιν ἀστὴρ νῦν ἐκεῖ;</l>
+                            </lg>
+                        </quote> Ille vero: <quote>
+                            <lg>
+                                <l>Ἴων ὁ Χῖος, ὅσπερ ἐποίησεν πάλαι</l>
+                                <l>ἐνθάδε τὸν Ἀοῖόν ποθ᾿· ὡς δ᾿ ἦλθ᾿, εὐθέως</l>
+                                <l>Ἀοῖον αὐτὸν πάντες ἐκάλουν ἀστέρα.</l>
+                            </lg>
+                        </quote></p>
+
+
+                    <p>Ad h&#230;c scholiasta: <quote>Ἴων ὁ Χῖος, διθυράμ&#976;ων καὶ τραγῳδίας καὶ
+                            μελῶν ποιητής. Ἐποίησε δὲ ᾠδὴν, ἧς ἡ ἀρχή· «Ἀοῖον ἀεροφοίταν ἀστέρα
+                            μείναμεν, ἀελίου λευκῇ πτέρυγι πρόδρομον.» Φαίνεται δὲ τετελευτηκὼς ἐκ
+                            τούτων. Παίζων οὖν ὁ Ἀριστοφάνης ἀοῖον αὐτόν φησιν ἀστέρα κληθῆναι·
+                            περιβόητος δὲ ἐγένετο.</quote></p>
+
+                    <p>Tydeus, Chius, <foreign xml:lang="grc">τοῦ Ἴωνος</foreign>, memoratur
+                            <bibl>Thucydidi VIII, 38</bibl>. Num is poet&#230; an alius Ionis filius
+                        fuerit, nescio.</p>
+
+                    <p>De scriptis Ionis ap. eundem scholiastam 1. 1. sequuntur h&#230;c:
+                            <quote>Ἔγραψε δὲ καὶ κωμῳδίας [?] καὶ ἐπιγράμματα (καὶ παιᾶνας καὶ
+                            ὕμνους καὶ σκολιὰ καὶ ἐγκώμια καὶ ἐλεγεῖα, καὶ καταλογάδην τὸν
+                            Πρεσ&#976;ευτικὸν λεγόμενον, ὃν νόθον ἀξιοῦσι εἶναί τινες, καὶ οὐχὶ
+                            αὐτοῦ· φαίνεται [φέρεται <foreign xml:lang="la">Dind.</foreign>] δὲ
+                            αὐτοῦ καὶ Κτίσις [<foreign xml:lang="la">sc.</foreign> Χίου], καὶ
+                            Κοσμολογικός, καὶ Ὑπομνήματα, καὶ ἄλλα τινά. Καὶ πάνυ δόκιμος ἦν. Φασὶ
+                            δὲ αὐτὸν ὁμοῦ διθύραμ&#976;ον καὶ τραγῳδίαν ἀγωνισάμενον ἐν τῇ Ἀττικῇ
+                            νικῆσαι, καὶ εὐνοίας χάριν προῖκα Χῖον οἶνον πέμψαι Ἀθηναίοις.
+                            [Σωκράτους δὲ τοῦ φιλοσόφου ἔστιν εἰς αὐτὸν λόγος λεγόμενος Ἴων].
+                            Μέμνηται αὐτοῦ καὶ Καλλίμαχος ἐν τοῖς Χωλιάμ&#976;οις, ὅτι πολλὰ
+                            ἔγραψεν.)</quote></p>
+
+                    <p>In Aldinum h&#230;c transcribens Musurus nonnulla mutavit, alia assuit ex
+                            <bibl>Suida v. Ἴων.</bibl> V. Dübner. Uncis inclusa absunt a cod.
+                        Ravennate.</p>
+
+                    <p><bibl>Harpocratio v. Ἴων</bibl>: <quote>Ἔγραψε δὲ μέλη πολλὰ καὶ τραγῳδίας
+                            καὶ φιλόσοφόν τι σύγγραμμα, τὸν τριαγμὸν ἐπιγραφόμενον, ὅπερ Καλλίμαχος
+                            ἀντιλέγεσθαί φησιν ὡς Ἐπιγένους.</quote></p>
+
+                    <p>Quod interponitur de Platonis Ione (Ephesius erat homuncio) <note
+                            type="footnote">Alius Ion, Platonis disc., <foreign xml:lang="grc">ὁ
+                                Κανών</foreign> cognomine, apud <bibl>Lucian. Couviv. c 7, p. 722
+                                ed. Didot., Philopseud. c. 6. p. 58<gap reason="lost"
+                                    unit="character" quantity="1"/></bibl>.</note>, scioli cujusdam
+                        debetur stupori. Haud minus erravit Suidas (coll, <bibl>Eudoc. p.
+                        248</bibl>) v, <foreign xml:lang="grc">Ἴων</foreign>, ubi: <foreign
+                            xml:lang="grc">Ἔγραψε περὶ μετεώρων καὶ συνθέτους λόγους</foreign>. Nata
+                        h&#230;c ex <bibl>scholio Ar. 1. 1.</bibl> male intellecto.—Ceterum vides
+                        opera, qu&#230; pedestri oratione Ion scripsisse ferebatur, si non omnia,
+                        nonnulla certe, jam ante Callimachi &#230;tatem subditicia habita esse. Ac
+                        sane mira varietas argumentorum, qu&#230; Ion poeta tractasse dicitur, ab
+                        ingenio &#230;vi Sophoclei abhorrere videtur. Sed semper h&#230;rebit
+                        dubitatio, quum ad liquidum res perduci ob fragmentorum paucitatem vix
+                        unquam possit.</p>
+
+                    <p>De <foreign xml:lang="grc">πρεσ&#976;ευτικῷ λόγῳ</foreign> aliunde non
+                        constat.—Quod <foreign xml:lang="grc">Τριαγμὸν</foreign> (vel <foreign
+                            xml:lang="grc">Τριαγμοὺς</foreign>. V. <bibl>fragm. 13</bibl>), <pb
+                            n="45"/> a <foreign xml:lang="grc">Κοσμολογικῷ λόγῳ</foreign> fortasse
+                        non diversum, at tinet, falso eum Epigeni tribui statuunt
+                                <bibl><editor>Bentlejus</editor> et <editor>Nieberding</editor>. p.
+                            98</bibl>. Scilicet Epigenem quendam dramata Ionis explicasse liquet ex
+                            <bibl>Athen&#230;o (IX, p. 468, C)</bibl>. Hunc grammaticum eundem esse
+                        censent cum Epigene, qui <title>Περὶ τῆς Ὀρφέως ποιήσεως</title> scripsisse
+                        dicitur; ab eodem denique etiam in philosophica Ionis commentario; scriptos
+                        esse, qui quum una cum illis circumferrentur, facile potuisse fieri, ut
+                            <foreign xml:lang="grc">Τριαγμοί</foreign> utrius essent, dubitaretur
+                        (Cf. tamen <bibl>Lobeck. Aglaoph, p. 340 sq.</bibl>).</p>
+
+                    <p><foreign xml:lang="grc">Χίου Κτίσις</foreign> semel laudatur in <bibl>Etym.
+                            M. (fr. 16</bibl>). Apud Athen&#230;um de eodem scripto excitatur
+                            <foreign xml:lang="grc">Ἴων ἐν τῷ περὶ Χίου</foreign> (<bibl>fr.
+                            15</bibl>); Pausanias habet: <foreign xml:lang="grc">Ἴων ἐν τῇ
+                            συγγραφῇ</foreign> (<bibl>fr. 14</bibl>). Fortasse opus prosarium natum
+                        est ex carmine (sicuti Simonidis <title>Σαμίων ἀρχαιολογία</title>).</p>
+
+                    <p><title>Ὑπομνήματα</title> sc. <title type="desc">ἱστορικὰ</title> ex uno
+                        novimus scholiasta <bibl>Arist. I. I.</bibl> Referre ad ea licet, qu&#230;
+                        in fragmentis leguntur, de Cimone, Pericle, Socrate (<bibl>fr. 4—9</bibl>).
+                        Alia de Sophocle Athen&#230;us narrat <!-- ref --> ex Ionis <title
+                            type="desc">Ἐπιδημίαις</title>, quas etiam aliis duobus locis commemorat
+                            (<bibl>fr. 1—3</bibl>). Nullus <!-- ref --> dubito verum tetigisse C.
+                            <bibl>Hermannum (Ind. lectt. &#230;st. Marburg. 1836)</bibl>, qui
+                            <title>Ὑπομνήματα</title> scholiast&#230; non diversa esse censet ab
+                            <title type="desc">Ἐπιδημίαις</title>, sive totius operis hic titulus
+                        sive partis fuerit.</p>
+
+                    <p>De argumento <foreign xml:lang="grc">Ἐπιδημιῶν</foreign>
+                        <bibl>Bentleius I. I. p. 507</bibl>: «Intellige de adventu clarorum virorum
+                        in Chium, sive de iis qui in Chio insula commorati sint. Similiter ac Polemo
+                        librum edidit De Eratosthenis adventu Athenas.»—Titulus operis Polemonis
+                        est: <foreign xml:lang="grc">Περὶ τῆς Ἀθήνησι Ἐρατοσθένους
+                            ἐπιδημίας</foreign>, i. e. <hi rend="italic">de Eratosthenis</hi> (quam
+                        is per opera sua profitetur) <hi rend="italic">Athenis commoratione</hi>, ut
+                        recte explicat <bibl>Prellerus ad Polem. p. 85</bibl>. Jam si cum hoc opere
+                        liber Ionis componendus est, Athen&#230;us genuinam tituli formulam in
+                        brevius contraxisse videri deberet. Nam ubi de opere simpliciter <foreign
+                            xml:lang="grc">Ἐπιδημίαι</foreign> inscripto sermo est, nemo de aliis ac
+                        ipsius auctoris <foreign xml:lang="grc">ἐπιδημίαις</foreign> cogitaverit. Ac
+                        vix ita statuisset Bentleius,nisi fragmentum ab Athen&#230;o servatum his
+                        inciperet verbis: <foreign xml:lang="grc">Σοφοκλεῖ τῷ ποιητῇ ἐν Χίῳ
+                            συνήντησα</foreign>. Sed h&#230;c fallacia sunt, quum ex media
+                        narratione, quam de Sophoclis ingenio et moribus Ion instituit, deprompta
+                        esse possint.</p>
+
+                    <p><bibl>Nieberdingii sententia (p. 76. 79)</bibl> h&#230;c est: «Quum Ion
+                        plurimum &#230;tatis su&#230; Athenis aliisqne Gr&#230;ci&#230; locis
+                        consumserit, et quum pr&#230;terea alius ejusdem liber inscribatur <foreign
+                            xml:lang="grc">Συνεκδημητικός</foreign> (<bibl>fr. 10</bibl>), qui est
+                        prorsus contrarius <foreign xml:lang="grc">ταῖς Ἐπιδημίαις</foreign>, non
+                        absurdum equidem videri possit, si quis titulum ita explicet, ut in hoc
+                        libro enarrata fuerint, qu&#230; Ioni domi i. e. in insula Chio evenerint
+                        vel animadversa fuerint memoratu dinga, in <foreign xml:lang="grc"
+                            >Συνεκδημητικῷ</foreign> vero ea, qu&#230; extra patriam viderit, comes
+                        scilicet amici peregrinantis.»</p>
+
+                    <p>Hermanno, cui assentior, <foreign xml:lang="grc">Ἐπιδημίαι</foreign>
+                        significare videntur commorationes quas Athenis aliisque in urbibus Ion
+                        fecit. E&#230;dem, si patriam poet&#230; respexeris, <foreign xml:lang="grc"
+                            >ἐκδημίαι</foreign>, atque liber, qui de his erat, <foreign
+                            xml:lang="grc">λόγος ἐκδημητικός</foreign> dici potuerunt. Quare nescio
+                        an <foreign xml:lang="grc">συνεκδημητικός</foreign> fuerit quasi alter
+                            <foreign xml:lang="grc">ἐκδημητικός</foreign>, vel prioris appendix.
+                        Ceterum ita <bibl><editor>Hermannus</editor> I. I. p. 9</bibl>: «Quovis
+                        pignore contendimus <foreign xml:lang="grc">ἐπιδημιῶν</foreign> librum... ea
+                        continuisse, qu&#230; Ion apud exteros vidisset atque audiisset in
+                        peregrinationibus suis, de quibus <foreign xml:lang="grc"
+                            >ἐπιδημεῖν</foreign> solenne verbum est; nam quod ejus libri fragmentum
+                        exstat de sermone Ionis cum Sophocle Chii habito, tamen de homine Attico
+                        loquitur, cujus ei memoria etiam in suis ipsius itineribus describendis
+                        occurrere poterat. Facilis autem conjectura est sophistas pariter ac poetas,
+                        qui illa &#230;tate per universam Gr&#230;ciam vagabantur multumque temporis
+                        Athenis peragebant, si quando domum rediissent, popularibus suis non modo
+                        narrasse, verum interdum etiam scripta reliquisse, qu&#230; de hominibus per
+                        totum orbem famosis comperissent atque in cominentarios retulissent; quas
+                        etsi narrationes necesse erat pro singulorum ingeniis diversas esse, tamen
+                        rumores potius populique fabellas quam veram rerum memoriam prodere potuisse
+                        apparet, neque exaggerationibus et portentis, qualia pergre redeuntes
+                        jactare solent, caruisse verisimile est.»</p>
+
+                    <p>Restat ut memorem sententiam <bibl>F. Ritteri (<hi rend="italic">Rhein.
+                                Mus.</hi> 1843, p. 187)</bibl>. Is enim quum qu&#230; ab universa
+                        fere antiquitate de Sophocle <foreign xml:lang="grc">στρατηγῷ</foreign>
+                        narrantur, pro vano commento habeat, molestissmum ipsi Ionis testimonium ita
+                        removet, ut <foreign xml:lang="grc">Ἐπιδημίῶν</foreign> librum suppositicium
+                        esse statuat. Argumenta tamen viri doctissimi, qu&#230; paucis comprehendi
+                        in not. ad fragm. 1, non ejusmodi esse mihi videntur, ut vim habeant
+                        persuadendi.</p>
+
+                    <p>De fide Ionis et auctoritate vereor ne paullo severius Hermannus judicaverit,
+                        Certe fragmentis nihil inest quod justam reprehensionis causam suppeditare
+                        possit, nisi forte crimini vertendum censeas, quod Ion ut Cimoni addictus
+                            (<bibl>fr. 5. 6. 7</bibl>), sic a Pericle alienior fuerit. In illo
+                        laudat morum jucunditatem ingeniique dulcedinem, hujus notat <foreign
+                            xml:lang="grc">τὴν μεγαλαυχίαν καὶ τὴν τῶν ἄλλων περιφρόνησιν</foreign>
+                            (<bibl>fr. 5 coll. 8</bibl>). Quam sentiendi rationem ridet
+                        Pericle&#230; virtutis pr&#230;co Plutarchus.<quote>Ἀλλ᾿ Ἴωνα μὲν, <foreign
+                                xml:lang="la">inquit</foreign>, ὥσπερ τραγικὴν διδασκαλίαν ἀξιοῦντα
+                            τὴν ἀρετὴν ἔχειν τι πάντως καὶ σατρικὸν μέρος ἐπωμεν</quote>. Periclis
+                        odium etiam ex iis explicare potuisset, qu&#230; refert <bibl>Athen&#230;us
+                            X, p. 436, E</bibl>
+                        <quote>Βά <pb n="46" break="no"/> των δ᾿ ὁ Σινωπεὺς ἐν τοῖς Περὶ Ἴωνος τοῦ
+                            ποιητοῦ φιλοπότην φησὶ γενέσθαι καὶ ἐρωτικώτατον τὸν Ἴωνα. Καὶ αὐτὸς δὲ
+                            ἐν τοῖς ἐλεγείοις ἐρᾶν μὲν ὁμολογεῖ Χρυσίλλης τῆς Κορινθίας, Τελέου δὲ
+                            θυγατρὸς, ἧς καὶ Περικλέα τὸν Ὀλύμπιον ἐρᾶν φησὶ Τηλεκλείδης ἐν
+                            Ἡσιόδοις.</quote> Sed ejusmodi machinis haud opus est. Legas fragm. 19,
+                        ubi Spartana virtus et breviloquentia summis laudibus extolluntur, atque
+                        illud (7), quo de Cimone egit qui Laced&#230;moniis contra Helotes
+                        opitulandum esse suasit, ne clauda fiat Gr&#230;cia; neque quemquam fugiet
+                        Ionem partibus optimatium favisse, qui semper in Laced&#230;monios
+                        propensiores, Periclis erant adversarii. Qua ex parte similis fuit amici sui
+                        Sophoclis (v. <bibl>Hermann. ad &#338;dip. p. 39</bibl>). In Chio patria
+                        rerum administrationem tum penes optimates fuisse commode monet Roscher. <hi
+                            rend="italic">Clio</hi>, I, p. 292.</p>
+
+                    <p>Jam quod attinet orationis colorem atque delectum rerum narrandarum, vel in
+                        paucis qu&#230; habemus reliquiis poet&#230; symposiaci ingenium agnoscimus
+                        suave et jucundum. Conviviorum descriptiones et sermones ad pocula habiti
+                        bonam operis partem absumpserint. Similiter in libro De Chii originibus
+                        pr&#230; ceteris &#338;nopionis fabulam et qu&#230; alia ad vini culturam et
+                        usum pertinet <foreign xml:lang="grc">ἀνὴρ φιλοπότης</foreign> exposuisse
+                        videtur. — Dialecti ionic&#230; reliquias satis luculentas pr&#230;bet
+                        fragmentum primum.</p>
+
+
+                    <div type="textpart" subtype="work" n="1">
+                        <ab>
+                            <title type="main" xml:lang="grc">ΥΠΟΜΝΗΜΑΤΑ. <title type="sub"
+                                    >ΕΠΙΔΗΜΙΑΙ.</title></title>
+                        </ab>
+
+                        <cit n="1" xml:lang="grc">
+                            <bibl>Athen&#230;us XIII, p. 603, E</bibl>
+                            <quote>Φιλομεῖραξ δὲ ἦν Σοφοκλῆς, ὡς Εὐριπίδης φιλογύνης. Ἴων γοῦν ὁ
+                                ποιητὴς ἐν ταῖς ἐπιγραφομέναις Ἐπιδημίαις γράφει οὕτως· «Σοφοκλεῖ τῷ
+                                ποιητῇ ἐν Χίῳ συνήντησα ὅτε ἔπλει εἰς Λέσ&#976;ον στρατηγὸς, ἀνδρὶ
+                                παιδιώδει παρ᾿οἶνον καὶ δεξιῷ. Ἑρμησίλεω δὲ, ξένου οἱ ἐόντος καὶ
+                                προξένου Ἀθηναίων, ἑστιῶντος αὐτὸν, ἐπεὶ παρὰ τὸ πῦρ ἑστεὼς ὁ τὸν
+                                οἶνον ἐγχέων παῖς <note xml:lang="la">[<foreign xml:lang="grc"
+                                        >ἐρυθρὸς</foreign> interponit Schwgh.]</note> ἐὼν δῆλος ἦν,
+                                εἶπέ τε, Βούλει με ἡδέως πίνειν; φάντος δ᾿ αὐτοῦ, Βραδέως τοίνυν καὶ
+                                πρόσφερέ μοι καὶ ἀπόφερε τὴν κύλικα. Ἔτι πολὺ μᾶλλον ἐρυθριάσαντος
+                                τοῦ παιδὸς, εἶπε πρὸς τὸν συγκατακείμενον, Ὡς καλῶς Φρύνιχος
+                                ἐποίησεν, εἴπας· <lg>
+                                    <l>Λάμπει δ᾿ ἐπὶ πορφυρέαις παρῇσι φῶς ἔρωτος.</l>
+                                </lg> Καὶ πρὸς τόδε ἠμείφθη ὁ Ἐρετριεὺς ἢ Ἐρυθραῖος γραμμάτων ἐὼν
+                                διδάσκαλος· <quote>«Σοφὸς μὲν δὴ σύ γε εἶ, ὦ Σοφόκλεις, ἐν ποιήσει·
+                                    ὅμως μέντοι γε οὐκ εὖ εἴρηκε Φρύνιχος, πορφυρέας εἰπὼν τὰς
+                                    γνάθους τοῦ καλοῦ Εἰ γὰρ ὁ ζωγράφος χρώματι πορφυρέῳ ἐναλείψειε
+                                    τουδὶ τοῦ παιδὸς τὰς γνάθους, οὐκ ἂν ἔτι καλὸς φαίνοιτο. Οὐ
+                                    κάρτα δεῖ τὸ καλὸν τῷ μὴ καλῷ φαινομένῳ εἰκάζειν.»</quote>
+                                Ἀναγελάσας ἐπὶ τῷ Ἐρετριεῖ Σοφοκλῆς· <quote>Οὐδὲ τόδε σοι ἀρέσκει
+                                    ἄρα, ὦ ξένε, τὸ Σιμωνίδειον, κάρτα δοκέον τοῖς Ἕλλησιν εὖ
+                                    εἰρῆσθαι· <lg>
+                                        <l>Πορφυρέου ἀπὸ στόματος ἱεῖσα φωνὰν παρθένος;</l>
+                                    </lg> οὐδ᾿ ὁ ποιητὴς, ἔφη, λέγων χρυσοκόμαν Ἀπόλλωνα; Χρυσέας
+                                    γὰρ εἰ ἐποίησεν ὁ ζωγράφος τὰς τοῦ θεοῦ κόμας, καὶ μὴ μελαίνας,
+                                    χεῖρον ἂν ἦν τὸ ζωγράφημα. Οὐδὲ ὁ φὰς ῥοδοδάκτυλον; Εἰ γάρ τις
+                                    εἰς ῥόδεον χρῶμα βάψειε τοὺς δακτύλους, πορφυρο&#976;άφου χεῖρας
+                                    καὶ οὐ γυναικὸς καλῆς ποιήσειε.» Γελασάντων δὲ, ὁ μὲν Ἐρετριεὺς
+                                    ἐνωπήθη τῇ ἐπιραπίξει, ὁ δὲ πάλιν τοῦ παιδὸς τῷ λόγῳ εἴχετο.
+                                    Εἴρετο γάρ μιν, ἀπὸ τῆς κύλικος κάρφος τῷ μικρῷ δακτύλῳ
+                                    ἀφαιρετέοντα, εἰ καθορᾷ τὸ κάρφος. Φάντος δὲ καθορᾶν, Ἄπο τοίνυν
+                                    φύσησον αὐτὸ, ἵνα μὴ πλύνοιτο ὁ δάκτυλος εὗ. Προσαγαγόντος δ᾿
+                                    αὐτοῦ τὸ πρόσωπον πρὸς τὴν κύλικα, ἐγγυτέρω τὴν κύλικα τοῦ
+                                    ἑαυτοῦ στόματος ἦγεν, ἵνα δὴ ἡ κεφαλὴ τῇ κεφαλῇ <pb n="47"/>
+                                    ἀσσοτέρα γένηται. Ὡς δ᾿ ἦν οἱ κάρτα πλησίον, προσλα&#976;ὼν τῇ
+                                    χειρὶ ἐφίλησεν. Ἐπικροτησάντων δὲ πάντων σὺν γέλωτι καὶ βοῇ, ὡς
+                                    εὖ ὑπηγάγετο τὸν παῖδα, Μελετῶ, εἶπε, στρατηγεῖν, ὦ ἄνδρες·
+                                    ἐπειδήπερ Περικλῆς ποιεῖν με ἔφη, στρατηγεῖν δ᾿ οὐκ ἐπίστασθαι.
+                                    Ἆρ᾿ οὖν οὐ κατ᾿ ὀρθόν μοι πέπτωκε τὸ στρατήγημα; Τοιαῦτα πολλὰ
+                                    δεξιῶς ἔλεγέ τε καὶ ἔπρησσεν, ὅτε πίνοι ἢ πράσσοι. Τὰ μέντοι
+                                    πολιτικὰ οὔτε σοφὸς οὔτε ῤεκτήριος ἦν, ἀλλ᾿ ὡς ἄν τις εἷς τῶν
+                                    χρηστῶν Ἀθηναίων.»</quote>
+                            </quote>
+                            <note xml:lang="la">Λάμπει] λάμπειν <bibl>Athen. p. 564, F</bibl>, ubi
+                                eundem versum excitat.—<foreign xml:lang="grc">Ἀναγελάσας</foreign>]
+                                Coray. <foreign xml:lang="grc">Εἰκάζειν ἄν. γελάσας</foreign> libri.
+                                    <foreign xml:lang="grc">Πορφυρέου ἀπὸ</foreign>] <foreign
+                                    xml:lang="grc">ἀπὸ</foreign> metri causa deleri vult
+                                    <bibl>B&#339;ckh. De metr. Pind. p. 175</bibl>.—<foreign
+                                    xml:lang="grc">Ποιήσειε</foreign>] <foreign xml:lang="grc"
+                                    >ποιήσει</foreign> vel <foreign xml:lang="grc">ποιήσειεν
+                                    ἄν</foreign> proponunt Jacobs. et Dindorf.—<foreign
+                                    xml:lang="grc">Πράσσοι</foreign>] <foreign xml:lang="grc"
+                                    >παίζοι</foreign> vult <bibl>Toup, Emend. II, p. 542</bibl>,
+                                probante Schweigh. <foreign xml:lang="grc">Ὅτε ἔπλει εἰς Λ.
+                                    Στρατηγός</foreign>] Sophocles unus fuit ex decem ducibus, quos
+                                Athenienses contra Samios rebellantes miserunt cum navibus
+                                sexaginta. Testem ex permultis unum citasse sufficiat Androtionem
+                                ap. achol. <bibl>Aristid. tom. III, p, 485 ed.
+                                        <editor>Dindf.</editor> (v. Snpplem. ad fragm.
+                                Andr.)</bibl>. E navibus illis 60 nonnull&#230; e Samo dimiss&#230;
+                                sunt in Chium Lesbumque, ut auxilia inde adveherent (<bibl>Thuc. I,
+                                    116</bibl>); harum dux fuit Sophocles, ut ex n. 1. colligitur.
+                                V. Aug. Seidler. Dissert. <bibl><hi rend="italic">De tempore quo
+                                        primum acto est Antigone</hi> p. 49</bibl>.;
+                                    <bibl>B&#339;ckh. <hi rend="italic">Abhandl d. Berlin.
+                                        Acad.</hi> 1824, p, 44. 53</bibl>; <bibl>Sch&#339;ll., <hi
+                                        rend="italic">Sophocles, sein Leben u. Wirken</hi> p.
+                                    158</bibl>. Rem ita esse negat Franc. Ritter (<hi rend="italic"
+                                    >Vorgebliche Strategie d. Sophocl. gegen Samos, in
+                                        </hi><bibl><hi rend="italic">Rhein. Mus.</hi> 1843, p. 187
+                                    sqq.</bibl>). Nam dimissis in Chium navibus, contra Samios ad
+                                Tragiam ins. pugnatum est <foreign xml:lang="grc">Περικλέους δεκάτου
+                                    στρατηγοῦντος</foreign>. Ita <bibl>Thucyd. I. I</bibl>. Porro in
+                                fragm. nostro Sophocles ait <foreign xml:lang="grc">Περικλῆς
+                                    Ἔφη</foreign>, <hi rend="italic">dicere solebat</hi>, Sic loqui
+                                non potuit e Samo veniens. Ac profecto non de bello Samio auctor,
+                                sed de illo cogitari voluit, quod <date>Ol. 88, 1 et 2</date>
+                                    (<date>428</date> et <date>427</date>) Athen. Contra Lesbrios
+                                gesserunt. Tum vero Sophocles septuagenarius neque ducis munere
+                                fungi potuit, neque puerum formosum exosculatus fuerit. Deinde in
+                                fragm. Nostro legitur <foreign xml:lang="grc">οὐ ῥεκτήριος
+                                    ἦν</foreign>, igitur mortuus Sophocles, quum tamen quindecim
+                                annis post Ionis obitum diem obierit. Postremo Ion de vivente adhuc
+                                Sophocle nullo modo dixisset: <foreign xml:lang="grc">ἦν ὡς ἄν τις
+                                    εἷς τῶν χρηστῶν Ἀθηναίων</foreign>.—Qu&#230; quum ita sint,
+                                sequitur librum <foreign xml:lang="grc">Ἐπιδημίαι</foreign>
+                                inscriptum esse supposititium; ueque ille diversus fuit a <foreign
+                                    xml:lang="grc">Πρεσ&#976;ευτικῷ</foreign>, quem spurium esse jam
+                                inter vett. nonnulli contenderunt. H&#230;c fere Ritterus. Quam
+                                firma sint argumenta tu videas. De significatione vocis <foreign
+                                    xml:lang="grc">χρηστῶν</foreign> n. I. bene monet C. F.
+                                    <bibl>Hermann. <hi rend="italic">Qu. &#338;dipod.</hi> p. 30, n.
+                                    63</bibl>.</note>
+                        </cit>
+
+                        <cit n="2" xml:lang="grc">
+                            <bibl>Athen&#230;us III, p. 93, A</bibl>
+                            <quote>Τῶν δὲ χημῶν μνημονεύει Ἴων ὁ Χῖος ἐν Ἐπιδημίαις.</quote>
+                            <note xml:lang="la">Probabiliter de convivio quodam agens.</note>
+                        </cit>
+
+                        <cit n="3" xml:lang="grc">
+                            <bibl>Athen&#230;us III, p. 107, A</bibl>
+                            <quote>Ἑξῆς εἰσεκομίσθη ταγηνιστὰ ἥπατα, περιειλημένα τῷ καλουμένῳ
+                                ἐπίπλῳ... Καὶ ὁ Χῖος δὲ Ἴων ἐν ταῖς Ἐπιδημίαις ἔφη· «Τῷ ἐπίπλῳ
+                                ἐπικαλύψας.»</quote>
+                            <note>Ex iisdem <foreign xml:lang="grc">ἐπιδημίαις</foreign> fluxerint
+                                sequentia.</note>
+                        </cit>
+
+                        <cit n="4" xml:lang="grc">
+                            <bibl>Plutarch. Cimon. c. 9</bibl>
+                            <quote>Συνδειπνῆσαι δὲ τῷ Κίμωνί φησιν ὁ Ἴων παντάπασι μειράκιον ἥκων
+                                εἰς Ἀθήνας ἐκ Χίου παρὰ Λαομέδοντι· καὶ τῶν σπονδῶν γενομένων
+                                παρακληθέντος ᾆσαι καὶ ᾄσαντος οὐκ ἀηδῶς ἐπαινεῖν τοὺς παρόντας ὡς
+                                δεξιώτερον Θεμιστοκλέους· ἐκεῖνον γὰρ ᾄδειν μὲν οὐ φάναι μαθεῖν οὐδὲ
+                                κιθαρίζειν, πόλιν δὲ ποιῆσαι μεγάλην καὶ πλουσίαν ἐπίστασθαι·
+                                τοὐντεῦθεν, οἷον εἰκὸς ἐν πότῳ, τοῦ λόγου ῥυέντος ἐπὶ τὰς πράξεις
+                                τοῦ Κίμωνος καὶ μνημονευομένων τῶν μεγίστων, αὐτὸν ἐκεῖνον ἓν
+                                διελθεῖν στρατήγημα τῶν ἰδίων ὠς σοφώτατον. (2) Ἐπεὶ γὰρ ἐκ Σηστοῦ
+                                καὶ Βυ <pb n="48" break="no"/>ζαντίου πολλοὺς τῶν βαρ&#976;άρων
+                                αἰχμαλώτους λα&#976;όντες οἱ σύμμαχοι τῷ μὲν Κίμωνι διανεῖμαι
+                                προσέταξαν, ὁ δὲ χωρὶς μὲν αὐτοὺς, χωρὶς δὲ τὸν περὶ τοῖς σώμασι
+                                κόσμον αὐτῶν ἔθηκεν, ᾐτιῶντο τὴν διανομὴν ὡς ἄνισον. Ὁ δὲ τῶν
+                                μερίδων ἐκέλευσεν αὐτοὺς ἑλέσθαι τὴν ἑτέραν, ἣν δ᾿ ἂν ἐκεῖνοι
+                                καταλίπωσιν ἀγαπήσειν Ἀθηναίους. (3) Ἡροφύτου δὲ τοῦ Σαμίου
+                                συμ&#976;ουλεύσαντος αἱρεῖσθαι τὰ Περσῶν μᾶλλον ἢ Πέρασας, τὸν μὲν
+                                κόσμον αὐτοὶ ἔλα&#976;ον, Ἀθηναίοις δὲ τοὺς αἰχμαλώτους ἀπέλιπον.
+                                (4) Καὶ τότε μὲν ὁ Κίμων ἀπῄει γελοῖος εἶναι δοκῶν διανομεὺς, τῶν
+                                μὲν συμμάχων ψέλια χρυσᾶ καὶ μανιάκας καὶ στρεπτοὺς καὶ κάνδυας καὶ
+                                πορφύραν φερομένων, τῶν δ᾿ Ἀθηναίων γυμνὰ σώματα κακῶς ἠσκημένα πρὸς
+                                ἐργασίαν παραλα&#976;όντων. (5) μικρὸν δὲ ὕστερον οἱ τῶν ἑαλωκότων
+                                φίλοι καὶ οἰκεῖοι κατα&#976;αίνοντες ἐκ Φρυγίας καὶ Λυδίας
+                                ἐλυτροῦντο μεγάλων χρημάτων ἕκαστον, ὥστε τῷ Κίμωνι τεσσάρων μηνῶν
+                                τροφὰς εἰς τὰς ναὺς ὑπάρξαι καὶ προσέτι τῇ πόλει χρυσίον οὐκ ὀλίγον
+                                ἐκ τῶν λύτρων περιγενέσθαι. <note xml:lang="la">In idem fere tempus
+                                    incidit, nisi fallor, quod narrat <bibl>Plutarchus De profect.
+                                        in virt. c. 8</bibl>
+                                    <quote>Αἰσχύλος μὲν γὰρ Ἰσθμοῖ θεώμενος ἀγῶνα πυκτῶν, ἐπεὶ
+                                        πληγέντος τοῦ ἑτέρου τὸ θέατρον ἐξέκραγε, νύξας Ἴωνα τὸν
+                                        Χῖον, Ὁρᾷς, ἔφη, οἷον ἡ ἄσκησίς ἐστιν; ὁ πεπληγὼς σιωπᾷ, οἱ
+                                        δὲ θεώμενοι βοῶσι</quote>. Quod in <foreign xml:lang="grc"
+                                        >ὑπομνήμασι</foreign> memorare Ιon vix
+                                omiserit.</note></quote>
+                        </cit>
+
+                        <cit n="5" xml:lang="grc">
+                            <bibl>Plutarch. Pericl. c. 5, 3</bibl>
+                            <quote>Ὁ δὲ ποιητὴς Ἴων μοθωνικήν φησι τὴν ὁμιλίαν καὶ ὑπότυφον εἶναι
+                                τοῦ Περικλέους καὶ ταῖς μεγαλαυχίαις αὐτοῦ πολλὴν ὑπεροψίαν
+                                ἀναμεμῖχθαι καὶ περιφρόνησιν τῶν ἄλλων· ἐπαινεῖ δὲ τὸ Κίμωνος
+                                ἐμμελὲς καὶ ὑγρὸν καὶ μεμουσωμένον ἐν ταῖς περιφοραῖς. (4) Ἀλλ᾿ Ἴωνα
+                                μὲν ὥσπερ τραγικὴν διδασκαλίαν ἀξιοῦντα τὴν ἀρετὴν ἔχειν τι πάντως
+                                καὶ σατυρικὸν μέρος ἐῶμεν· τοὺς δὲ τοῦ Περικλέους τὴν σεμνότητα
+                                δοξοκομπίαν τε καὶ τῦφον ἀποκαλοῦντας ὁ Ζήνων παρεκάλει καὶ αὐτούς
+                                τι τοιοῦτο δοξοκομπεῖν, ὡς τῆς προσποιήσεως αὐτῆς τῶν καλῶν
+                                ὑποποιούσης τινὰ λεληθότως ζῆλον καὶ συνήθειαν.</quote>
+                        </cit>
+
+                        <cit n="6" xml:lang="grc">
+                            <bibl>Plutarch. Cimon. c. 5</bibl>
+                            <quote>Ἦν δὲ καὶ ἰδέαν οὐ μεμπτὸς (ὁ Κίμων), ὡς Ἴων ὁ ποιητής φησιν,
+                                ἀλλὰ μέγας, οὔλῃ καὶ πολλῇ τριχὶ κομῶν τὴν κεφαλήν.</quote>
+                        </cit>
+
+                        <cit n="7" xml:lang="grc">
+                            <bibl>Plutarch. Cimon. c. 16.</bibl>
+                            <note xml:lang="la">Laced&#230;monii post Spartam terr&#230; motu
+                                concussam ab Helotibus et Messeniis lacessiti, misso Periclida
+                                legato Atheniensium implorant auxilium [<date>Ol. 79, 1</date>.
+                                    <date>464 a. C.</date>]. Non esse his obtemperandum probare
+                                populo studet Ephialtes; sed pervincit sententia Cimonis.</note>
+                            <quote>Ὁ δ᾿ Ἴων ἀπομνημονεύει καὶ τὸν λόγον, ᾧ μάλιστα τοὺς Ἀθηναίους
+                                ἐκίνησε παρακαλῶν μήτε Ἑλλάδα χωλὴν μήτε τὴν πόλιν ἑτερόζυγα
+                                περιιδεῖν γεγενημένην.</quote>
+                        </cit>
+
+                        <cit n="8" xml:lang="grc">
+                            <bibl>Plutarch. Pericl. c. 28</bibl>
+                            <quote>Θαυμαστὸν δὲ τι καὶ μέγα φρονῆσαι καταπολεμήσαντα τους Σαμίους
+                                φησὶν αὐτὸν (τὸν Περικλῆ) ὁ Ἴων, ὡς τοῦ μὲν Ἀγαμέμνονος ἔτεσι δέκα
+                                βάρ&#976;αρον πόλιν, αὐτοῦ δὲ μησὶν ἐννέα τοὺς <pb n="49" break="no"
+                                /> πρώτους καὶ δυνατωτατους Ἰώνων έλόντος (<date>Ol. 85, 1</date>.
+                                    <date>440 a. C.</date>).</quote>
+                        </cit>
+
+                        <cit n="9" xml:lang="grc">
+                            <bibl>Diogen. Laert. II, 7</bibl>
+                            <quote>Ἴων δὲ ὁ Χῖος καὶ νέον ὄντα (τὸν Σωκράτη) εἰς Σάμον σὺν Ἀρχελάῳ
+                                ἀποδημῆσαι φησὶν.</quote>
+                            <note xml:lang="la"><foreign xml:lang="grc">Ἀρχελάῳ</foreign>] sc.
+                                philosopho, Socratis magistro. Ceterum recte monet Nieberdingius non
+                                contraria h&#230;c esse iis qu&#230; in Critone c. 52 dicit Plato,
+                                de Socrate <hi rend="italic">cive Atheniense</hi>, non de
+                                adolescentulo loquens. Maligne egit <bibl>Athen&#230;us V. p.
+                                    2l6</bibl>.</note>
+                        </cit>
+                    </div>
+
+
+                    <div type="textpart" subtype="work" n="2">
+                        <ab>
+                            <title type="main" xml:lang="grc">ΣΥΝΕΚΔΗΜΗΤΙΚΟΣ</title>
+                        </ab>
+
+                        <cit n="10" xml:lang="grc">
+                            <bibl>Pollux II, 4, 19</bibl>
+                            <quote>Παρὰ Ἴωνι τῷ τραγικῷ ἐν τῷ ἐπιγραφομένῳ Συνεκδημητικῷ καὶ
+                                σπανοπώγων τις ὀνομάζεται.</quote>
+                            <note><foreign xml:lang="grc">Ἴωνι</foreign> corr. <bibl>Leopard. Em.
+                                    II, 20</bibl>; vulgo <foreign xml:lang="grc"
+                                >Δίωνι</foreign>.</note>
+                        </cit>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="3">
+                        <ab>
+                            <title type="main" xml:lang="grc" ana="#incerta">ΠΡΕΣΒΕΥΤΙΚΟΣ.</title>
+                        </ab>
+
+                        <cit n="11" xml:lang="grc">
+                            <note xml:lang="la"><foreign xml:lang="grc">Λόγον
+                                    πρεσ&#976;ευτικὸν</foreign> inter scripta Ιonis recenset
+                                scholiasta <bibl>Aristoph. (Pac. 835)</bibl>, addens tamen a
+                                nonnullis eum pro spurio haberi. De quibusnam legationibus in eo
+                                sermo fuerit, nescio an suspicari liceat ex <bibl>Sexto Empirico
+                                    Adv. mathem. II, c. 24</bibl>, ubi h&#230;c</note>
+                            <quote>Ἐκ μέσων μέντοι γε καὶ Χίων πρεσ&#976;ευτὴν περὶ ἐξαγωγῆς πυροῦ
+                                δεόμενον, ἐπεὶ μακρῶς ἡρμήνευσε τὴν δέησιν, ἄπρακτον ἐξαπέστειλαν
+                                    (<foreign xml:lang="la">sc.</foreign> Οἱ Λακεδαιμόνιοι), ἑτέρου
+                                δὲ περφθέντος συντομωτέρου (ἤπειγε γὰρ ἀνάγκη τοὺς Χίους) ἔδοσαν.
+                                Κενὸν γὰρ θύλακον αὐτοῖς οὗτος ἀνατείνας, ἀλφίτων αὐτὸν ἔφη δεῖσθαι.
+                                Ὅμως δ᾿ οὖν καὶ τοῦτον ὡς ἀδολέσχην ἐμέμψαντο· ἀποχρώντως γὰρ ἂν
+                                κενὸς δειχθεὶς ὁ θύλακος ἐσήμηνε τὴν τῶν Χίων αἴτησιν. Ἔνθεν ὁ
+                                τραγικὸς Ἴων κινηθεὶς εἶπεν ἐπ᾿ αὐτῶν· Οὐ γὰρ λόγοις Λάκαινα
+                                πυργοῦται πόλις, ἀλλ᾿ εὖτ᾿ Ἄρης νεοχμὸς ἐμπέσῃ στρατῷ, βουλὴ μὲν
+                                ἄρχει, χεὶρ δ᾿ ἐπεξεργάζεται.</quote>
+                            <note xml:lang="la">«<bibl>Fabricius ad h. I</bibl>. adnotavit, totam
+                                hanc historiunculam ex Ione esse depromptam et finitam ab Ione ipso
+                                cum his versibus. H&#230;c equidem non crederem. Versus ex
+                                trag&#339;dia quadam sunt, in qua Laced&#230;moniorum respublica
+                                laudatur. Namtiuncalam a Sexto aliunde allatam esse censeo, neque
+                                tamen abnuerem, si quis illam ex historicis Ionis libris, fortasse
+                                ex Chii Originibus depromptam esse contenderet» <bibl><hi
+                                        rend="italic">K&#339;pke</hi> p. 91</bibl>.</note>
+                        </cit>
+
+                        <cit n="12" xml:lang="grc">
+                            <quote><bibl>Plutarch. De fortun. Rom. c. 1 (p. 389 ed. Didot.)</bibl>
+                                Ἴων μὲν οὖν ὁ ποιητὴς ἐν τοῖς δίχα μέτρου καὶ καταλογάδην αὐτῷ
+                                γεγραμμένοις φησὶν, ἀνομοιότατον πρᾶγμα τῇ σοφίᾳ τὴν τύχην οὖσαν,
+                                ὁμοιοτάτων πραγμάτων γίνεσθαι δημιουργόν· αὔξουσιν ἀμφότεραι,
+                                προσκοσμοῦσιν, ἄνδρας εἰς δόξαν ἀνάγουσιν, εἰς δύναμν, εἰς
+                                ἡγεμονίαν.</quote>
+                            <note xml:lang="la">Eadem Plutarchus denuo tangit in <bibl>Qu&#230;st.
+                                    Symp. VIII, 1</bibl>, init. Potuit h&#230;c sententia in
+                                    <foreign xml:lang="grc">Ὑπομνήμασι</foreign> Iocum habere.
+                                Fortasse tamen aptius refertur ad Ionis <foreign xml:lang="grc"
+                                    >Τριαγμόν</foreign>, de quo ita Harpocratio v. <foreign
+                                    xml:lang="grc">Ἴων</foreign>· <quote>Ἔγραψε... καὶ φιλόσοφόν τι
+                                    σύγγραμμα, τὸν Τριαγμὸν ἐπιγραφόμενον, ὅπερ Καλλίμαχος
+                                    ἀντιλέγεσθαί φησιν ὡς Ἐπιγένους· ἐν ἐνίοις δὲ καὶ πληθυντικῶς
+                                    ἐπιγράφεται Τριαγμοί, καθὰ Δημήτριος ὁ Σκήψιος καὶ Ἀπολλωνίδης ὁ
+                                    Νικαεύς. Ἀναγράφουσι δὲ ὲν αὐτῷ τάδε· (ἥδε corr. Lobeck. Agl. p.
+                                    722,) <!-- <rdg>s here --> μοι τοῦ λόγου. Πάντα τρία καὶ πλέον
+                                    τοῦδε πλέον ἔλασσον [καὶ οὔτε πλέον οὔτε ἔλασσον corr. Bentlej.
+                                    Ep. Ad Mill. p. 67] <!-- <rdg>s here --> τούτων τριῶν. Ἑνὸς
+                                    έκάστου ἀρετὴ τριὰς, σύνεσις καὶ κράτος καὶ τύχη.»</quote> Cf.
+                                    <bibl>Isocrat. Π. Ἀντιδόσ. p. 322, 11 ed. Dindf.</bibl>
+                                <quote>Ἴων δ᾿ <pb n="50"/> οὐ πλείω τριῶν <foreign xml:lang="la"
+                                        >sc.</foreign> τὸ πλῆθος ἔφη εἶναι τῶν ὄντων</quote>.
+                                    <bibl>Diog. Laert. VIII, 8</bibl>
+                                <quote>Ἴων δὲ ὁ Χῖος ἐν τοῖς τριαγμοῖς φησὶν αὐτὸν (<foreign
+                                        xml:lang="la">sc.</foreign> τὸν Πυθαγόραν) ἔνια ποιήσαντα
+                                    ἀνενεγκεῖν εἰς Ὀρφέα.</quote> Eadem <bibl>Clem. Alex. Strom. I,
+                                    p. 333</bibl>, A. Apud <bibl>Suidam et Eudoc. v. Ὀρφεὺς</bibl>
+                                hunc in modum corrupta sunt: <quote>Ὀρφεὺς ἔγραψε Τριαγμούς·
+                                    λέγονται δὲ εἶναι Ἴωνος τοῦ τραγικοῦ</quote>. —Ad eundem librum
+                                referenda sunt qu&#230; de tribus elementis ex Ione leguntur ap. Jo.
+                                Philopon. in <bibl>Aristot, Π, γεν. Καὶ φθορ. fol. 46, b</bibl>
+                                <quote>Πῦρ καὶ γῆν ὁ Παρμενίδης ὑπέθετο· ταῦτα δὲ μετὰ τοῦ ἀέρος Ἴων
+                                    ὁ Χῖος, ὁ τραγῳδοποιός.</quote>—Apud <bibl>Stob&#230;um (Ecl.
+                                    Phys. I, p. 552 Heer.)</bibl> Ion dicitur lunam habere <foreign
+                                    xml:lang="grc">σῶμα τῇ μὲν ὑαλοειδὲς, διαυγὲς, τῇ δ᾿
+                                    ἀφεγγές</foreign>. H&#230;c sunt qu&#230; ex philosophicis Ionis
+                                scriptis innotuerunt, Cf. <bibl>Nieberding. p. 92 sqq.</bibl>;
+                                    <bibl>K&#339;pke p. 79 sqq.</bibl></note>
+                        </cit>
+                    </div>
+
+
+                    <div type="textpart" subtype="work" n="4">
+                        <ab>
+                            <title type="main" xml:lang="grc">XΙΟΥ ΚΤΙΣΙΣ</title>
+                        </ab>
+
+                        <cit n="13" xml:lang="grc">
+                            <bibl>Pausan. VII, 4, 8</bibl>
+                            <quote>Ἴωνι δὲ τῷ ποιήσαντι τραγῳδίαν ἐστὶν ἐν τῇ συγγραφῇ τοιάδε
+                                εἰρημένα· Ποσειδῶνα ἐς τὴν νῆσον ἔρημον οὖσαν ἀφικέσθαι, καὶ νύμφῃ
+                                τε ἐνταῦθα συγγενέσθαι καὶ ὑπὸ τὰς ὠδῖνας τῆς νύμφης χιόνα ἐξ
+                                οὐρανοῦ πεσεῖν ἐς τὴν γῆν, καὶ ἀπὸ τούτου Ποσειδῶνα τῷ παιδὶ ὄνομα
+                                θέσθαι Χίον· συγγενέσθαι δὲ αὐτὸν καὶ ἑτέρᾳ νύμφῃ καὶ γενέσθαι οἱ
+                                παῖδας Ἄγελόν τε καὶ Μέλανα· ἀνὰ χρόνον δὲ καὶ Οἰνοπίωνα ἐς τὴν Χίον
+                                κατᾶραι ναυσὶν ἐκ Κρήτης, ἕπεσθαι δέ καὶ τοὺς παῖδας Τάλον καὶ
+                                Εὐάνθην καὶ Μέλανα καὶ Σάλαγόν (?) τε καὶ Ἀθάμαντα (?). Ἀφίκοντο δὲ
+                                καὶ Κᾶρες ἐς τὴν νῆσον ἐπὶ τῆς Οἰνοπίωνος βασιλείας καὶ Ἄ&#976;αντες
+                                ἐξ Εὐ&#976;οίας. Οἰνοπίωνος δὲ καὶ τῶν παίδων ἔλα&#976;εν ὕστερον
+                                Ἄμφικλος τὴν ἀρχήν· ἀφίκετο δὲ ἐξ Ἱστιαίας ὁ Ἄμφικλος τῆς ἐν
+                                Εὐ&#976;οίᾳ κατὰ μάντευμα ἐκ Δελφῶν. Ἕκτωρ δὲ ἀπὸ τοῦ Ἀμφίκλου
+                                τετάρτῃ γενεᾷ, βασιλείαν γὰρ ἔσχε καὶ οὗτος, ἐπολέμησεν Ἀ&#976;άντων
+                                καὶ Καρῶν τοῖς οἰκοῦσιν ἐν τῇ νήσῳ, καὶ τοὺς μὲν ἀπέκτεινεν ἐν ταῖς
+                                μάχαις, τοὺς δὲ ἀπελθεῖν ἠνάγκασεν ὑποσπόνδους. Γενομένης δὲ
+                                ἀπαλλαγῆς πολέμου Χίοις, ἀφικέσθαι τηνικαῦτα ἐς μνήμην Ἕκτορα ὡς
+                                σφᾶς καὶ Ἴωσι δέοι συνθύειν ἐς Πανιώνιον· τρίποδα δὲ ἆθλον
+                                λα&#976;εῖν αὐτὸν ἐπὶ ἀνδραγαθίᾳ παρὰ τοῦ κοινοῦ φησι τοῦ Ἰώνων.
+                                Τοσαῦτα εἰρηκότα ἐς Χίους Ἴωνα εὕρισκον· οὐ μέντοι ἐκεῖνό γε εἴρηκε
+                                καθ᾿ ἥντινα αἰτίαν Χῖοι τελοῦσιν ἐς Ἴωνας.</quote>
+                            <note xml:lang="la"><foreign xml:lang="grc">Τῆς νύμφης χιόνα</foreign>]
+                                Cf. <bibl>Hecat&#230;i fr. 99. Plinius H. N. V, 31</bibl>: <hi
+                                    rend="italic">Metrodorus et Cleobulus Chium a Chione nympha,
+                                    aliqui a nive</hi> (sc. appellatam esse dicunt). — <foreign
+                                    xml:lang="grc">Οἰνωπίωνα</foreign>] <bibl>Plutarch. Thes. c.
+                                    20</bibl>
+                                <quote>Ἔνιοι δὲ καὶ τεκεῖν ἐκ Θησέως Ἀριάδνην, Οἰνοπίωνα καὶ
+                                    Στάφυλον, ὧν καὶ ὁ Χῖος Ἴων ἐστὶ, περὶ τῆς ἑαυτοῦ πατρίδος
+                                    λέγων.</quote> «<foreign xml:lang="grc">Τὴν πότε Θησεΐδης
+                                    ἔκτισεν Οἰνοπίων</foreign> (<bibl>eleg. fr. 51
+                                K&#339;pk.</bibl>).» Cf, <bibl>Welck, <hi rend="italic">Cycl.</hi>
+                                    p. 155</bibl>. Vulgo &#338;nopides est Bacchi vel Rhadamanthi
+                                filius; <bibl>v. Diodor. V, 79, 1; Schol. Apoll, Rh. 3, 996</bibl>.
+                                Plura de &#338;nopione pr&#230;bent Interpret. ad <bibl>Diodor. 1.
+                                    1.</bibl>, ad <bibl>Apollodor. I, 4, 4</bibl>, ad <bibl>Pausan.
+                                    1. 1</bibl>; <bibl>V&#339;lcker. <hi rend="italic">Mythol. d.
+                                        Iap. Gesch.</hi> p. 112 sqq.</bibl>—Quod totum locum
+                                attinet, Pausanias nihil nisi summa qu&#230;dam capita ex Ionis
+                                libro enotasse videtur, neque id satis accurate, ni fallor. Confusam
+                                esse narrationem recte monet Hermann. <bibl><hi rend="italic">Gr.
+                                        Staatsalterth.</hi> § 77, 11</bibl>. </note>
+                        </cit>
+
+                        <cit n="14" xml:lang="grc">
+                            <bibl>Athen&#230;us X, p. 426, E</bibl>
+                            <quote>Ἡ δ᾿ οὖν κρᾶσις αὕτη παρὰ τὸ ἔθος οὖσα ἐπέμνησε τάχα καὶ τὴν
+                                θρυλουμένην παροιμίαν· <lg>
+                                    <l>Ἤ πέντε πίνειν, ἢ τρί᾿, ἢ μὴ τέτταρα.</l>
+                                </lg> Ἢ γὰρ δύο πρὸς πέντε πίνειν φασὶ δεῖν, ἢ ἕνα πρὸς τρεῖς. Περὶ
+                                δὲ ταύτης τῆς κράσεως Ἴων ὁ ποιητὴς ἐν τῷ Περὶ Χίου φησὶν, ὅτι εὑρὼν
+                                ὁ μάντις Παλαμήδης ἐμαντεύσατο, πλοῦν ἔσεσθαι τοῖς Ἕλλησι, πίνουσι
+                                τρεῖς πρὸς ἕνα κυάθους.</quote>
+                        </cit>
+
+                        <pb n="51"/>
+
+                        <cit n="15" xml:lang="grc">
+                            <bibl>Etym. M.</bibl>
+                            <quote>Λόγχας τὰς μερίδας Ἴωνες λέγουσιν. Ἴων ἐν Χίου κτίσει (<foreign
+                                    xml:lang="la">sic Bentl.</foreign>; Κίου κτήσει <foreign
+                                    xml:lang="la">libri</foreign>)· «Ἐκ τῆς τέως λόγχης λόγχας
+                                ποιεῖν.»</quote>
+                            <note xml:lang="la">Cf. <bibl>Hesych. v. <foreign xml:lang="grc"
+                                        >Λόγχη</foreign> et <foreign xml:lang="grc"
+                                        >Δίλογχον</foreign></bibl>: <foreign xml:lang="grc">Δίλογχον
+                                    τὴν Βένδιν Κρατῖνος ἐν Θρᾴτταις ἐκάλεσεν, ἤτοι ὅτι δύο τιμὰς
+                                    ἐκληρώσατο οὐρανίαν τε καὶ χθονίαν· λόγχας γὰρ ἐκάλουν τοὺς
+                                    κλήρους</foreign>, <foreign xml:lang="grc">κτλ.</foreign> Quid
+                                Ion spectaverit obscurum.</note>
+                        </cit>
+
+                        <cit n="16" xml:lang="grc">
+                            <bibl>Phrynichus. p. 312. ed. Lob.</bibl>
+                            <quote>Παραθήκην Ἱππίαν καὶ Ἴωνά τινα συγγραφέα φασὶν εἰρηκέναι, ἡμεῖς
+                                δὲ τοῦτο παρακαταθήκην ἐροῦμεν, ὡς Πλάτων καὶ Θουκυδίδης καὶ
+                                Δημοσθένης.</quote>
+                        </cit>
+                        <note xml:lang="la">Num h&#230;c ad Ionem nostrum, tamquam <foreign
+                                xml:lang="grc">συγγραφέα</foreign> grammatico non notum, an ad alium
+                            quemvis Ionicum scriptorem pertineant, qu&#230;ri possit. Herodotum
+                            istis verbis notari putat Dindorf. In <bibl>Thes. Gr. v.</bibl>
+                            <foreign xml:lang="grc">Παραθήκη</foreign>. De quo dubitaverim.</note>
+
+                        <cit n="17" xml:lang="grc">
+                            <bibl>Suidas et Photius</bibl>
+                            <quote>Ὑμεῖς, ὦ Μεγαρεῖς, οὔτε τρίτοι οὔτε τέταρτοι· Χρησμοῦ κομμάτιόν
+                                ἐστι παροιμιαζόμενον οὕτως <foreign xml:lang="la">(initium oraculi
+                                    excidit)</foreign>: <lg>
+                                    <l>Ἴππον Θεσσαλικὴν, Λακεδαιμονίην τε γυναῖκα,</l>
+                                    <l>ἄνδρες δ᾿οἳ τίνουσιν ὕδωρ καλῆς Ἀρεθούσης·</l>
+                                    <l>ἀλλ᾿ ἔτι καὶ τοῦδ᾿ εἰσὶν ἀμείνονες οἵτε μεταξὺ</l>
+                                    <l>Τίρυνθος ναίουσι καὶ ἀρκαδίης πολυμήλου,</l>
+                                    <l>Ἀργεῖοι λινοθώρηκες, κέντρα πτολέμοιο.</l>
+                                    <l>Ὑμεῖς δ᾿ Αἰγιέες οὔτε τρίτοι, οὔτε τέταρτοι,</l>
+                                    <l>οὔτε δυωδέκατοι, οὔτ᾿ ἐν λόγῳ, οὔτ᾿ ἐν ἀριθμῷ.</l>
+                                </lg> Ἱστορεῖ δὲ Μνασέας, ὅτι Αἰγιεῖς οἱ ἐν Ἀχαΐᾳ καταναυμαχήσαντες
+                                Αἰτωλοὺς καὶ λα&#976;όντες πεντηκόντορον αὐτῶν δεκάτην Πυθοῖ
+                                ἀνατιθέντες ἠρώτων τίνες κρείττους εἶεν τῶν Ἑλλήνων· ἡ δὲ Πυθία
+                                ἔχρησεν αὐτοῖς τὰ προκείμενα. Καὶ Ἴων δὲ Αἰγιεῦσι δοθῆναι τὸν
+                                χρησμὸν ἱστορεῖ. Τινὲς δὲ οἴονται Μεγαρεῦσιν εἰρῆσθαι αὐτὸν καὶ
+                                προφέρονται· Ὑμεῖς δ᾿, ὦ Μεγαρεῖς, οὔτε τρίτοι <foreign
+                                    xml:lang="grc">κτλ.</foreign>, ὡς καὶ Καλλίμαχος ἐν τοῖς
+                                Ἐπιγραμματίοις </quote>
+
+                            <note xml:lang="la">(26 ed. Bentl.)</note>
+
+                            <quote>Eadem narrant <bibl>Tzetz. Chil. IX, hist. 291, v. 864
+                                    sqq.</bibl>; <bibl>Schol. Theocrit. XIV, 48</bibl>;
+                                    <bibl>Eustath. ad II. B, 574 p. 292, 6</bibl>, ubi tamen Ionis
+                                non fit mentio <bibl>Tzetzes I. I.</bibl>: <lg>
+                                    <l>Μνασέας δὲ ὁ Παταρεὺς ἐν τοῖς αὐτοῦ βι&#976;λίοις</l>
+                                    <l>αὐτούς φησι τοὺς Αἰγιεῖς τοὺς ἐν τῆ Ἀχαίᾳ,</l>
+                                    <l>τοὺς Αἰτωλοὺς νικήσαντας μάχῃ τῇ κατὰ στόλον</l>
+                                    <l>ναῦν τούτων πεντηκόντορον Πυθοῖ ἀναθεμένους,</l>
+                                    <l>καὶ ἐπαρθέντας ἐπ᾿ αὐτῇ πυνθάνεσθαι τῇ νίκῃ·</l>
+                                    <l>τίνων Ἑλλήνων κρείττονες τελοῦσιν ἐπ᾿ ἀνδρείᾳ;</l>
+                                    <l>Τὴν δὲ Πυθίαν πρὸς αὐτοὺς τάδε τὰ ἔπη φάνοι·</l>
+                                    <l>«Γαίης μὲν πάσης τὸ Πελασγικὸν Ἄργος ἄμεινον,</l>
+                                    <l>ἵπποι Θετταλικαὶ, Λακεδαιμόνιαι δὲ γυναῖκες <foreign
+                                            xml:lang="grc">κτλ.</foreign>»</l>
+                                    <l>Τοῦτον ὃν ἔφην τὸν χρησμὸν κατ᾿ ἔπος οὕτω λέγει</l>
+                                    <l>Μνασέας Αἰγιεῦσι μὲν αὐτοῖς χρησμῳδηθῆναι·</l>
+                                    <l>ὁ δὲ Καλλίμαχος αὐτοῦ τοῖς λόγοις ἀντιπίπτων</l>
+                                    <l>οὐκ Αἰγιεῦσιν εἴρηκεν, ἀλλὰ τοῖς Μεγαρεῦσιν.</l>
+                                </lg>
+                            </quote>
+
+                            <note xml:lang="la">Num Ionis mentio ap. Suidam recte se habeat, dubito.
+                                Apud Tietzem in fine narrationis iterum memoratur Mnaseas. Quare
+                                nescio an ap. Suidam. <foreign xml:lang="grc">ΚΑΙ ΙΩΝΔΕ</foreign>
+                                ortum sit ex compendio scriptur&#230; <foreign xml:lang="grc">ΚΑΙ
+                                    ΜΝΑΣ.</foreign> Pr&#230;ter laudata cf. Stephan. v. <foreign
+                                    xml:lang="grc">Αἴγιον</foreign>; <bibl>Apostol. I, 80</bibl>;
+                                    <bibl>Diogenian. I, 80</bibl>; <bibl>Arsen. 26</bibl>;
+                                    <bibl>Zenob. I, 48</bibl>, ubi Leutschius h&#230;c: «Oraculum
+                                integrum exstat apud schol. ad <bibl>Theocrit. XIV, 73, Anth. Palat.
+                                    XIV, 73</bibl>, ubi vid. Jacobsius: quod quum alii Megarensibus
+                                (Cf. <bibl>Wüstemann. ad Theocr. I. I.</bibl>), alii &#198;giensibus
+                                    (<bibl>Strab. X, 1, 13, p. 449</bibl>) datum esse contenderent,
+                                factum est ut scriptores eo utentes modo ad hunc modo ad illum
+                                populum referrent. <cit xml:lang="grc">
+                                    <bibl>Libanius Epist, 1516</bibl>
+                                    <quote>ἀλλὰ νῦν ὁ μὴ ἐκείνων (<foreign xml:lang="la"
+                                            >sc.</foreign> Τῶν νόμων) μετέχων Αἰγιεὺς ἀτεχνῶς, οὔτ᾿
+                                        ἐν λόγῳ οὔτ᾿ ἐν ἀριθμῷ.</quote>
+                                </cit> utrumque nominat <bibl>Plutarch. Symp. V, 7</bibl>
+                                <quote>τῶν δὲ Δημοκριτείων, ἔφη, εἰδώλων, ὥσπερ Αἰγιέων ἢ Μεγαρέων
+                                    ἀριμὸς οὐδεὶς οὐδὲ λόγος</quote>, ubi male Reiskius <foreign
+                                    xml:lang="grc">Αἰγινητῶν</foreign> legi voluit (Cf.
+                                    <bibl>Müller. &#198;ginet. p. 140</bibl>), quamvis ap.
+                                    <bibl>Eustath. Opusc. p. 257, 70 Taf.</bibl> legatur:
+                                    <quote>Διεκφαίνεται δὲ κατά τινα παροιμιακὸν Αἰγινήτην (μάλιστα
+                                    μὲν οὖν Αἰγιέα) οὔτε δεύτερος καὶ οὔτε τρίτος ἢ ἀλλος
+                                    πολλοστός.</quote> add. <bibl>Alciphr. Epist. III, 34</bibl>
+                                <quote>ἡμῶν ὡς Μεγαρέων ἢ Αἰγιέων οὐδεὶς λόγος.</quote> Alludit
+                                    <bibl>Demosth. Pro coron. § 309</bibl>.» </note>
+                        </cit>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

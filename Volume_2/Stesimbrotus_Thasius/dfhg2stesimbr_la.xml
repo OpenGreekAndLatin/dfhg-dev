@@ -23,18 +23,17 @@
                     <persName xml:id="GF">Greta Franzini</persName>
                     <resp>Editorial assistant</resp>
                 </respStmt>
-
                 <respStmt>
                     <persName xml:id="SS">Simona Stoyanova</persName>
                     <resp>Editorial assistant</resp>
-                    <respStmt>
-                        <persName xml:id="UK">Uta Koschmieder</persName>
-                        <resp>Student assistant</resp>
-                    </respStmt>
-                    <respStmt>
-                        <persName xml:id="KS">Kevin Strassburger</persName>
-                        <resp>Student assistant</resp>
-                    </respStmt>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
                 </respStmt>
             </titleStmt>
 
@@ -125,11 +124,13 @@
         <body>
             <div type="translation" subtype="volume" n="2" xml:lang="la">
                 <div type="textpart" subtype="book" n="1">
-                    
+
                     <head xml:lang="la">
-                        <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1923.tlg003.opp-lat1">STESIMBROTUS THASIUS.</title>
+                        <title
+                            ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1923.tlg003.opp-lat1"
+                            >STESIMBROTUS THASIUS.</title>
                     </head>
-                    
+
                     <div type="textpart" subtype="work" n="1">
 
                         <pb n="53"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="mueller2stesimbr_grc">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2stesimbr_grc">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -36,7 +36,7 @@
 
             <publicationStmt>
                 <authority/>
-                <idno type="filename">mueller2stesimbr_grc.xml</idno>
+                <idno type="filename">dfhg2stesimbr_grc.xml</idno>
                 <authority>University of Leipzig</authority>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
