@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2xenomed_grc">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2xenomedes_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg2306"
+                                >Xenomedes Chius</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft#page/43/mode/1up"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#KS" when="2014-07-26">Created the XML file</change>
+            <change who="#SS" when="2014-08-25">Proofread and updated</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="1">
+                    <head xml:lang="grc">
+                        <title
+                            ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg2306.tlg003.opp-grc1"
+                            >XENOMEDES CHIUS</title>
+                    </head>
+
+                    <pb n="43"/>
+
+                    <p>Xenomedes Chius a <bibl>Dionysio Hal. (De Thuc. c. 5)</bibl> cum Hellanico et
+                        Damaste inter eos recensetur, qui sint <foreign xml:lang="grc">ὀλίγῳ
+                            πρεσβύτεροι Πελοποννησιακῶν καὶ μέχρι τῆς Θουκυδίδου ἡλικίας
+                            παρεκτείναντες.</foreign> Paucissima, qu&#230; &#230;tatem tulerunt,
+                        fragmenta argumenti sunt mythologici. Lucianus <bibl>Herodot. c. 4</bibl>
+                            (<bibl>p. 243 Didot.</bibl>) habet h&#230;c: Herodotus, ait, Olympiae
+                        historias suas recitans brevissimo tempore magnam gloriam adeptus eat:
+                            <quote xml:lang="grc">ὅπερ ὕστερον κατανοήσαντες ἐπίτομόν τινα ταύτην
+                            ὁδὸν ἐς γνῶσιν Ἱππίας τε ὁ ἐπιχώριος αὐτῶν σοφιστὴς καὶ Πρόδικος ὁ Κεῖος
+                            καὶ Ἀναξιμένης ὁ Χῖος καὶ Πῶλος ὁ Ἀκραγαντῖνος καὶ ἄλλοι συχνοὶ λόγους
+                            ἔλεγον ἀεὶ πρὸς τὴν πανήγυριν, ἀφ᾿ ὧν γνώριμοι ἐν βραχεῖ ἐγίγνοντο. Ibi
+                            pro Ἀναξιμ. ὁ X.</quote> scribendum esse puto <foreign xml:lang="grc"
+                            >Ξενομήδης</foreign> tum propter patri&#230; mentionem, tum propter
+                        &#230;tatem virorum, quibuscum componitur. <bibl>Nitzschius Hist. Rom. II,
+                            p. 88</bibl>, de Lampsaceno Anaximene Philippi et Alexandri temporibus
+                        florente cogitari vult.—<foreign xml:lang="grc">Ζηνὶς ἢ Ζηνεὺς ὁ Χῖος ἐν τῷ
+                            Περὶ πατρίδος</foreign> laudatur ap. <bibl>Athenæum XIII, p. 601</bibl>,
+                        F. Aliunde de eo non constat. Suspicari possis latere mentionem Xenomedis.
+                        Vide Scriptores &#230;tatis incert&#230; s. v. Zenis. </p>
+
+                    <cit n="1" xml:lang="grc">
+                        <bibl>Schol. Aristoph. Lysistr. 447</bibl>
+                        <quote>Οὔτω τὴν Ἄρτεμιν ἐκάλουν, τὴν δὲ αἰτίαν Ἀπολλόδωρος ἐν τῷ Περὶ θεῶν
+                                <bibl>(fr. 40)</bibl> ἐκτίθεται· ἔστι <!-- ref here --> δ᾿ ὄτε καὶ
+                            τὴν Ἀθηνᾶν οὕτω καλοῦσιν, ὡς Ξενομήδης ἱστορεῖ.</quote>
+                    </cit>
+
+                    <cit n="2" xml:lang="grc">
+                        <bibl> Schol. Victor. ad. II. Π΄. 328:</bibl>
+                        <quote>Ἀμισωδάρου] Οὗτος Καρίας δυνάστης, οὗ τὴν θυγατέρα ἔγημε
+                            Βελλεροφόντης, ὡς Ξενομήδης (Ξενομήδη cod.) ἔφη.</quote>
+                    </cit>
+
+
+                    <cit n="3" xml:lang="grc">
+                        <bibl>Etym. Gudian. p. 257 v.</bibl>
+                        <quote>Θέλγειν: Ἐνομίδης ἐτυμολογεῖ ὁ τὰ Θεῖα γράψας (sc. Τοὺς Τελχῖνας ἀπὸ
+                            τοῦ θέλγειν), παρά φησι καὶ τοὺς Τελχῖνας ὥστε θελγῖνες φησὶ, ἐνόντα
+                            τοῖς ὕδασι τῆς φύσεως καὶ ἀνὰ ἐποίουν ἕως φυτῶν βασκαίνοντες.</quote>
+                        <note>Eadem brevius <bibl>Etym. M. p. 425, 8:</bibl>
+                            <quote>Ἐνομίδης δὲ ὁ τὰ Θεῖα γράψας καὶ τοὺς Τελχῖνας ἐτυμολογήσας
+                                εἶπεν, ὅτι θελγῖνας ἦσαν. Ξενομήδης</quote> corrigit <bibl>W.
+                                Dindorf. in Add. ad Lobeck. Agl. p. 1358.</bibl> Lοcum
+                            corruptissimum ita fere resarciri velim: <quote>παρό φησι· «Καὶ τοὺς
+                                Τελχῖνας, ὥστε θελγῖνας, θέλγειν τινές φασι τὰ θάλλοντα, ἃ τοῖς
+                                ὕδασι τῆς Στυγὸς καταρραίνοντες αὖα ἐποίουν, ἕως φυτῶν
+                                βασκαίνοντες.</quote> Ex eodem fonte hausit <bibl>Suidas v.
+                                Θέλγει·</bibl>
+                            <quote>Καὶ Τελχῖνες θελγῖνές τινές εἰσι· τὰ γὰρ θάλλοντά φασι
+                                βασκαίνοντες τοῖς ὕδασι τῆς φύσεως αὖα ἐποίουν, ἕως φυτῶν
+                                βασκαίνοντες· ubi pro φύσεως</quote> reponendum <foreign
+                                xml:lang="grc">στυγὸς</foreign> primus monuit Junius in
+                                <bibl>Catalog. p, 205. Cf. Zenob, V, 41:</bibl>
+                            <quote>forei Τῷ τῆς στυγὸς ὕδατι τὴν γῆν καταῤῥέοντες ἄρνον
+                                [καταρραίνοντες ἄκαρπον <bibl>Lobeck, Agl. p. 1191</bibl>]
+                                ἐποίουν.</quote> Eadem narrat Nonnus <bibl>Dion. XIV, 36</bibl>. Cf.
+                                <bibl>Strabo XIV, p. 601</bibl>. <bibl>Welckerus Trilog. p. 187 ap.
+                                Etym. Gud.</bibl> legi voluit: <quote>Ἐννομίδης [<foreign
+                                    xml:lang="la">nomen hoc auctoris ignotum</foreign>]... καὶ τοὺς
+                                Τελχῖνας (ὥστε Θελγῖνές φησι) ἐνόντα (ἐνόντας?) τοῖς ὕδασι τῆς
+                                φύσεως· καὶ αὖα ἐποίουν ἕως φυτῶν βασκαίνοντες.</quote> Ceterum,
+                            nisi forte pro <foreign xml:lang="grc">Ἐνομίδης</foreign> scribi malis
+                                <foreign xml:lang="grc">Ἐπιμενίδης</foreign>, qu&#230;ritur an non
+                            ad Xenomedem pertineat Historia Telchiniaca, de cujus auctore fama erat
+                            incerta. <cit>
+                                <bibl>AthenæusVIII, p. 282, F:</bibl>
+                                <quote>Ὁ τὴν Τελχινιακὴν ἱστορίαν συνθεὶς εἴτ Ἐπιμενίδης ἐστὶν ὁ
+                                    Κρὴς ἢ Τηλεκλείδης εἴτ᾿ ἄλλος τις, ἱερούς φησιν εἶναι ἰχθύας
+                                    δελφῖνας καὶ πομπίλους· ἔστι δ᾿ ὁ πομπίλος ζῷον ἐρωτικὸν ὡς ἂν
+                                    καὶ αὐτὸς γεγονὼς ἐκ τοῦ οὐρανίου αἵματος ἅμα τῇ
+                                    Ἀφροδίτῃ.</quote>
+                            </cit>
+                            <quote>«Teleclidi comico h&#230;c temere tribui jam Meinekius monuit
+                                    <bibl>Scen. Quæst. I, p. 30</bibl>; ne ab Epimenide illo yetere
+                                scripta putemus obstat scrihendi genus et nominis <foreign
+                                    xml:lang="grc">ἱστορία</foreign> usus novitius.»</quote>
+                            <bibl>Lobeck. I. I.</bibl> Postremo argumento non multum tribuerim.
+                        </note>
+                    </cit>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
