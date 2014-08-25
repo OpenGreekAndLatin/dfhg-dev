@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg1antiochhist_la">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg1antiochhist_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author
+                                ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1145.tlg003"
+                                >Antiochus Syracusanus</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">1</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft#page/43/mode/1up"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#KS" when="2014-08-05">Created the XML file</change>
+            <change who="#SS" when="2014-08-25">Proofread and updated</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="translation" subtype="volume" n="1" xml:lang="la">
+
+                <pb n="180"/>
+
+                <div type="textpart" subtype="work" n="1">
+                    <ab>
+                        <title xml:lang="la">E SICILÆ HISTORIA</title>
+                    </ab>
+
+                    <p n="1" xml:lang="la">At Antiochus Syracusanus nullum quidem tempus declarat,
+                        quo classis in insulam trajecerit, sed Siculos fuisse dicit qui coloni&#230;
+                        ducem sibi pr&#230;fecerint, et sedibus mutalis eo migrarint, ab
+                        &#338;notrorum et Opicorum copiis per vim exacti.</p>
+
+                    <p n="2" xml:lang="la">Statuas etiam Lipar&#230;i, Tyrrhenis navali proelio
+                        victis, dedicarunt. Lipar&#230;i ipsi Cnidiorum colonia fuerunt, cujus ducem
+                        hominem Cnidium Pentathlum nomine fuisse, Antiochus Syracusanus Xenophanis
+                        filius in Siciliensi Historia scriptum reliquit. Addit, Cnidios ex ea urbe,
+                        quam ad Pachynum Sicli&#230; promontorium condiderant, ab Elymis et
+                        Ph&#339;nicibus bello pulsos insulas tenuisse desertas adhuc aut ejectis
+                        prioribus colonis, qu&#230; ex Homericis versibus nostra etiamnum &#230;tate
+                        &#198;olic&#230; nuncupantur. Earum unam, cui Lipara nomen, urbe condita
+                        incoluere: Hieram, Strongylen, et Didymas ad arationes reservarunt, et in
+                        eas navibus (<note type="editorial">agri colendi causa</note>)
+                        transmittunt.</p>
+                </div>
+
+                <div type="textpart" subtype="work" n="2">
+                    <ab>
+                        <title xml:lang="la">EX ITALÆ HISTORIA</title>
+                    </ab>
+
+                    <p n="3" xml:lang="la">Antiochus Syracusanus, antiquissimus historicus, ubi de
+                        Italia condita agit, veteres colonos recensens, et quam ejus partem singuli
+                        occuparint, &#338;notros ait primos post hominum memoriam in ea habitasse:
+                        sic autem ille: Antiochus Xenophanis filius h&#230;c de Italia scripsil, ex
+                        veterum monumentis ea qu&#230; fide dignissima et certissima erant. Hanc
+                        regionem qu&#230; nunc Italia vocatur, olim tenuerunt &#338;notri. Deinde
+                        postquam commemoravit reipupublic&#230; formam qua utebantur, et Italum ad
+                        tempus regem eorum fuisse, a quo, mutato nomine, dicti sunt Itali; huic
+                        autem Morgetem successisse, a quo Morgetes appellati; et Siculum a Morgete
+                        hospitio exceptum, dum proprium sibi imperium struit, gentem divisisse:
+                        h&#230;c subjicit: Ita igitur Siculi, et Morgetes, et Itali fuerunt, qui
+                        erant &#338;notri.</p>
+
+                    <p n="4" xml:lang="la">Postea tamen temporis progressu Italia vocata est, sub
+                        viro pr&#230;potente, cui nomen erat Italus. Antiochus autem <pb n="181"/>
+                        Syracusanus ait hunc fuisse virum probum ac sapientem, qui populos vicinos
+                        partim verbis induxit, partim vi coegit, et sibi adjunxit: atque ita in suam
+                        potestatem redegit totam illam regionem quae est inter sinus Napetinum et
+                        Scyletinum: atque hanc primam, Itali temporibus, Italiam fuisse appellatam.
+                        Quum autem hujus imperio potitus fuisset, et multos populos subditos
+                        haberet, statim dominationem in gentes finitimas affectasse, et multas
+                        civitates in unum coactas su&#230; ditioni subjecisse dicit. Hunc autem
+                        genere &#338;notrum fuisse.</p>
+
+                    <p n="5" xml:lang="la">Brettos, urbs Tyrrhenorum, qu&#230; a Bretto Herculis
+                        filio et Baletia Balet&#230; filia nomen babet. Incol&#230;, Brettii. Atque
+                        Brettia dicitur regio et lingua. Antiocbus vero perhibet, Italiam primum
+                        vocatam fuisse Brettiam, deinde &#338;notriam.</p>
+
+                    <p n="6" xml:lang="la">Antiochus in opere, quod de Italia conscripsit, hanc
+                        regionem ait Italiam appellatam fuisse, ac de ea se scribere: prius autem
+                        dictam fuisse &#338;notriam. Terminum autem ei constituit, ad mare quidem
+                        Tyrrhenum, quem et nos Bruttiis assignavimus, Laum flumen: ad Siculum autem
+                        fretum, Metapontium. Sed Tarentinam regionem, qu&#230; continuo agrum
+                        Metapontinum subsequitur, extra Italiam sub lapygi&#230; nomine censet. Apud
+                        vetustiores autem ait, eos tantum &#338;notros ac Italos fuisse habitos, qui
+                        intra isthmum siti versus fretum vergerent Siculum. Is isthmus stadiorum
+                        centum et sexaginta inter duos jacet sinus, Hipponiatem <note>(quem
+                            Napitinum nominavit Antiochus)</note> atque Scylletium. Longitudo
+                        littoris, quod intra fretum et isthmum continetur est bis mille stadiorum.
+                        Successu autem temporis ait Italiæ et &#338;notri&#230; nomen fuisse
+                        propagatum usque ad Metaponticam et Siritidem regionem: habitasse enim ea
+                        loca Chonas, gentem &#338;notricani satis nobilem, territorioque nomen
+                        Choni&#230; fecisse. Atque hic quidem more antiquorum simplicius locutus
+                        est, nullo posito Lucanorum et Bruttiorum discrimine.</p>
+
+                    <p n="7" xml:lang="la">Quodsi quis ad remotiora respicere velit, et tertia
+                        qu&#230;dam Roma his antiquior invenietur, qu&#230; condita fuit antequam
+                        &#198;neas et Trojani in Italiam venirent. Hoc autem nec vulgaris aliquis,
+                        nec recens scriptor memori&#230; prodidit, sed Antiochus Syracusanus, cujus
+                        et ante mentionem feci. Is enim ait, Morgete in Italia regnante <note>(erat
+                            autem tunc Italia a Tarento Pæstum usque ora maritima)</note> ad eum
+                        quendam Romanum exsulem venisse. Hæc autem sunt ipsius verba: Postquam
+                        Italus consenuit, Morges regnavit. Hujus tempore, vir quidam nomine Siculus,
+                        Roma profugus, ad eum venit. Atque ex hujus Syracusani scriptoris
+                        auctoritate qu&#230;dam antiqua Roma belli Trojani temporibus prior
+                        invenitur. Sed utrum in eodem loco sita fuerit in quo nostri seculi urbs
+                        incolitur, an vero alius locus ita vocatus fuerit, quum ille rem istam
+                        incertam reliquerit, nec ego conjicere possum.</p>
+
+                    <pb n="182"/>
+
+                    <p n="8" xml:lang="la">Super hoc litus, universa sita est Campania, regio omnium
+                        felicissima: circum enim jacent cum tumuli terr&#230; fertiles, tum Samnitum
+                        Oscorumque montes. Antiochus ab Opicis habitatam fuisse eam regionem narrat,
+                        qui iidem et Ausones appellarenlur.</p>
+
+                    <p n="9" xml:lang="la">Tradit Antiochus, quo tempore Harpagus Cyri copiarum dux
+                        Phoc&#230;am cepit, cives, quibuscuuque facultatum tantum esset, totis cum
+                        familiis naves conscendisse, primumque cum Creontiade ad Cyrnum ac Massiliam
+                        appulisse, indeque repulsos Eleam condidisse.</p>
+
+                    <p n="10" xml:lang="la">Rhegium a Chalcidensibus conditum est, qui quum,
+                        decimatione oraculi jussu institula, Apollini propter agrorum sterilitatem
+                        consecrati essent, eo deinde a Delphis commigrasse feruntur, domo sibi etiam
+                        aliis adscitis. Antiochus autem scribit, Chalcidenses a Zancl&#230;is
+                        evocatos, principemque coioniæ Antimnestumiis constitutum fuisse.</p>
+
+                    <p n="11" xml:lang="la">Antiochus scriptum reliquit, quum Ach&#230;is deus
+                        mandasset, ut Crotonem conderent, Myscellum eo locum speculandi causa
+                        venisse; quumque jam conditam ibi videret Sybarin, vicino amni cognominem,
+                        eam poliorem judicasse, profectumque ad oraculum qu&#230;sivisse,
+                        concedereturne Sybarin loco Crotonis condere, responsumque sic fuisse: <lg>
+                            <l>Gibbose Myscelle, contra dei voluntatem alia requiris,</l>
+                            <l>vanaque venaris; qu&#230; dantur dona, probato.</l>
+                        </lg> (<note type="editorial">Erat autem Myscellus nonnihil
+                        gibbosus.</note>) Itaque reversum condidisse Crotonem, adjuvante etiam
+                        Archia Syracusarum conditore, qui forte eo appulit, quum ad Syracusas
+                        condendas tenderet cursum.</p>
+
+                    <p n="12" xml:lang="la">Antiochus auctor est, Tarentinos contra Thurios et
+                        Cleandriam imperatorem, qui Sparta exulabat, ob Siritidem belligerautes, ita
+                        pacem coivisse, ut &#230;quo utrinque Siritis jure incoleretur, Tarentinorum
+                        tamen judicaretur colonia: eam postea Heracleam appellatam, cum nomine locum
+                        quoque mutavisse.</p>
+
+                    <p n="13" xml:lang="la">Subsequitur Metapontum, a navali Heracle&#230; dissitum
+                        stadiis centum et quadraginta. Conditum aiunt a Pyliis, qui cum Nestore ab
+                        Ilio navigaverunt; quos tanto successu terram coluisse aiunt, ut auream
+                        messem Delphis dedicarent. A Pyliis urbem esse conditam, ab exsequiis
+                        Neleidum ratiocinantur. Urbem eam Samnites deleverunt. Antiochus scribit,
+                        locum illum incolis destitutum Ach&#230;os quosdam occupasse evocatos ab
+                        Ach&#230;is Sybarin incolentibns. Arcessitos autem eos fuisse ob
+                        Ach&#230;orum [qui Laconia pulsi fuerant] odium in Tarentinos, ut ne hi, qui
+                        vicini erant, locum illum occuparent. Quum autem du&#230; essent urbes
+                        Metapontiis viciniores Tarento, a Sybaritis <pb n="183"/> persuasum fuisse
+                        iis, quos arcessiverant, ut Metapontum occoparent: quod eo potiti, Siritidem
+                        quoque essent habituri: sin ipsi se ad Siritin contulissent, fore ut
+                        Tarentini a latere imminentes Metapontum suam facerent. Successu temporis
+                        bello cum Tarentinis et qui supra adjacent &#338;notris conflato, accepta
+                        agri parte, qui tunc fuerit Itali&#230; et lapygi&#230; terminus, pacem
+                        composuisse.</p>
+
+                    <p n="14" xml:lang="la">Originem Tarenti Antiochus referens ait, Messeniaco
+                        bello conflato, eos, qui Laced&#230;moniorum castra non fuissent secuti,
+                        servos lata senteutia esse judicatos, Helotesque dictos; qui vero Spartanis
+                        nati essent durante bello liberi, eos Parthenias appellatos, et ignominia
+                        notatos fuisse. Hos, iniquissime rem ferentes, quum numero valerent,
+                        insidiates esse populo. Quod quum populus sensisset, sub misit quosdam, qui
+                        ficta cum illis amicitia, insidias patefacerent. Inter conspiratos fuit
+                        etiam Phalanthus, princeps reliquorum habitus, et qui omnino a senatu
+                        delectis invisus esset. Compositum fuit ut, ludis Hyacinthinis in
+                        Amycl&#230;o commissis, quando galerum Phalanthus imponeret, impetus fieri
+                        deberet in populares, quos coma notos faciebat. Sed quum qujdam occulte
+                        detexissent institutum Phalanthe&#230; factionis, certamine jam incepto,
+                        pr&#230;co in medium progressus, edixit ne Phalanthus galerum capiti
+                        imponeret. Ita Partheni&#230; quum eo indicio delatam conspirationem
+                        sentirent, alii diffugerunt, alii supplices veniam petierunt. Quos cives
+                        bono animo jussos esse, in custodiam tradiderunt. Phalanthum autem misere
+                        Delphos, ut oraculum de colonia deducenda exquireret; estque ei tale datum:
+                            <quote>Satyrium tibi do, piugues pagosque Tarenti incolere, infestis et
+                            Iapygas opprimere armis</quote>.</p>
+
+                    <p n="15" xml:lang="la">Lariss&#230; in templo Minerv&#230;, in arce est
+                        sepulchrum Acrisii; Athenis autem in arce, Cecropis, ut ait Antiochus in
+                        nono Historiarum.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
