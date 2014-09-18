@@ -129,115 +129,124 @@
 
                 <div type="textpart" subtype="work" n="1">
 
-                    <ab><title type="main" xml:lang="la">COMMENTARII.</title>
-                        <title type="sub">EPIDEMI&#198;.</title></ab>
+                    <ab><title xml:lang="la">COMMENTARII.</title></ab>
 
-                    <pb n="46"/>
+                    <div type="textpart" subtype="book" n="1">
+                        <ab><title>EPIDEMI&#198;.</title></ab>
+                        <pb n="46"/>
 
-                    <p n="1">In adolescentulorum amorem pronus etiam fuit Sophocles ut in mulierum
-                        Euripides. Ion quidem poeta, in libro qui inscribitur Epidemi&#230;,
-                        h&#230;c scribit: «Cum Sophocle poeta in Chio congressus sum, quum exercitus
-                        imperator Lesbum navigaret, viro jocoso inter pocula et urbane face to.
-                        Convivio illum excipiebat Hermesilaus, et privatim hospes, et Atheniensium
-                        publicus. Ad ignem stabat puer vinum ministrans, [rubicunda] facio insignis:
-                        quem ille compellans, «Vis, inquit, suaviter me bibere?» Adnuente puero:
-                        Igitur lente mihi, ait, et admove poculum et aufer. Tum multo etiam magis
-                        erubescente puero, ei qui juxta ipsum accumbebat, ait Sophocles: Quam pulcre
-                        istud dixit Phrynichus! Splendet in purpureis genis lumen amoris. Ad hoc
-                        dictum respondit Eretrieus aut Erythr&#230;us ludimagister: Sapiens tu sane
-                        es, Sophocles, in poes: verumtamen non bene dixit Phrynichus, purpureas esse
-                        dicens formoso puero genas: quod si enim pictor colore purpureo inungeret
-                        pueri hujus genas, non amplius formosus adpareret. Non utique oportet
-                        pulcrum cum eo quod pulcrum non est comparare. Ibi risum non tenens
-                        Sophocles, interrogavit Eretrieum: Ne istud quidem, hospes, tibi placet
-                        Simenideum, quod sane bene dictum videtur Gr&#230;cis! Purpureo ab ore
-                        emittens vocem virgo: nec poeta qui auricomum dixit Apollinem? Nam si aureas
-                        pictor comas faceret deo, non nigras, pejor etiam futura erat pictura. Nec
-                        is qui roseis-digitis (Eoa) dixit? Nam si quis raseo colore mulieris
-                        tingeret digitos, purpurari&#230; manus faceret, non formos&#230; mulieris.
-                        Tum orto risu omnium, Eretrieus quidem castigatione ista repressus est,
-                        Sophocles vero ad sermonem cum puero institutum rursus se conver <pb n="47"
-                            break="no"/> tit. Quem ubi vidit festucam e calice minimo digito tollere
-                        parantem, interrogavit, an festucam conspiceret? Quumque ille, conspicere
-                        se, respondisset;—Flatu igitur, inquit, eam expelle, ne digitum madefacias.
-                        Ut vero faciem ad calicem admovit puer, propius ille ori suo calicem
-                        admovit, quo caput capiti propius esset: quo ubi fuit proximum, manu
-                        prehansum osculatus est. Tum plaudentibus omnibus cum risu, clamantibusque
-                        quam lepide deceptum puerum ad se perlexisset: Meditor, inquit ille, o viri,
-                        artem imperatoriam, quoniam Pericles me dixit versus quidem nosse condere,
-                        artem ducis bellici non callere. Nonne igitur satis bene mihi cessit hoc
-                        strategema? Talia multa scite dixit fecitque, quum biberet hilaritatique
-                        sese daret: verum ad gerendam rempublicam nec solerti&#230; satis in eo
-                        fuit, nec industri&#230;; sed erat velut unus e probis commodisque civibus
-                        Atheniensibus.»</p>
+                        <p n="1">In adolescentulorum amorem pronus etiam fuit Sophocles ut in
+                            mulierum Euripides. Ion quidem poeta, in libro qui inscribitur
+                            Epidemi&#230;, h&#230;c scribit: «Cum Sophocle poeta in Chio congressus
+                            sum, quum exercitus imperator Lesbum navigaret, viro jocoso inter pocula
+                            et urbane face to. Convivio illum excipiebat Hermesilaus, et privatim
+                            hospes, et Atheniensium publicus. Ad ignem stabat puer vinum ministrans,
+                            [rubicunda] facio insignis: quem ille compellans, «Vis, inquit, suaviter
+                            me bibere?» Adnuente puero: Igitur lente mihi, ait, et admove poculum et
+                            aufer. Tum multo etiam magis erubescente puero, ei qui juxta ipsum
+                            accumbebat, ait Sophocles: Quam pulcre istud dixit Phrynichus! Splendet
+                            in purpureis genis lumen amoris. Ad hoc dictum respondit Eretrieus aut
+                            Erythr&#230;us ludimagister: Sapiens tu sane es, Sophocles, in poes:
+                            verumtamen non bene dixit Phrynichus, purpureas esse dicens formoso
+                            puero genas: quod si enim pictor colore purpureo inungeret pueri hujus
+                            genas, non amplius formosus adpareret. Non utique oportet pulcrum cum eo
+                            quod pulcrum non est comparare. Ibi risum non tenens Sophocles,
+                            interrogavit Eretrieum: Ne istud quidem, hospes, tibi placet Simenideum,
+                            quod sane bene dictum videtur Gr&#230;cis! Purpureo ab ore emittens
+                            vocem virgo: nec poeta qui auricomum dixit Apollinem? Nam si aureas
+                            pictor comas faceret deo, non nigras, pejor etiam futura erat pictura.
+                            Nec is qui roseis-digitis (Eoa) dixit? Nam si quis raseo colore mulieris
+                            tingeret digitos, purpurari&#230; manus faceret, non formos&#230;
+                            mulieris. Tum orto risu omnium, Eretrieus quidem castigatione ista
+                            repressus est, Sophocles vero ad sermonem cum puero institutum rursus se
+                            conver <pb n="47" break="no"/> tit. Quem ubi vidit festucam e calice
+                            minimo digito tollere parantem, interrogavit, an festucam conspiceret?
+                            Quumque ille, conspicere se, respondisset;—Flatu igitur, inquit, eam
+                            expelle, ne digitum madefacias. Ut vero faciem ad calicem admovit puer,
+                            propius ille ori suo calicem admovit, quo caput capiti propius esset:
+                            quo ubi fuit proximum, manu prehansum osculatus est. Tum plaudentibus
+                            omnibus cum risu, clamantibusque quam lepide deceptum puerum ad se
+                            perlexisset: Meditor, inquit ille, o viri, artem imperatoriam, quoniam
+                            Pericles me dixit versus quidem nosse condere, artem ducis bellici non
+                            callere. Nonne igitur satis bene mihi cessit hoc strategema? Talia multa
+                            scite dixit fecitque, quum biberet hilaritatique sese daret: verum ad
+                            gerendam rempublicam nec solerti&#230; satis in eo fuit, nec
+                            industri&#230;; sed erat velut unus e probis commodisque civibus
+                            Atheniensibus.»</p>
 
-                    <p n="2">Chamarum (<hi rend="italic">conchyliorum generis</hi>) meminii Ion
-                        Chius in Epidemiis.</p>
+                        <p n="2">Chamarum (<hi rend="italic">conchyliorum generis</hi>) meminii Ion
+                            Chius in Epidemiis.</p>
 
-                    <p n="3">Illata deinde sunt frixa in sartagine jecinora, epiplo (<hi
-                            rend="italic">omento</hi>) quod vocatur involuta... Ion quoque Chius in
-                        Epidemiis dixit: «Epiplo obtexit.»</p>
+                        <p n="3">Illata deinde sunt frixa in sartagine jecinora, epiplo (<hi
+                                rend="italic">omento</hi>) quod vocatur involuta... Ion quoque Chius
+                            in Epidemiis dixit: «Epiplo obtexit.»</p>
 
-                    <p n="4">Ion se, quum adolescens admodum ex Chio Athenas venisset,
-                        c&#339;navisse apud Laomedontem cum Cimone ait: jussumque hunc peractis
-                        libationibus canere, pr&#230;stitisse id non ineleganter, eamque ob rem ab
-                        iis qui aderant laudatum utpote Themistocle exercitatiorem. Is enim non se
-                        canere aut ludere fidibus didicisse aiebat, sed urbis ad magnitudinem et
-                        divitias evehendi artem callere. Exinde, ut inter pocula fieri assolet,
-                        deducto ad res Cimonis gestas ser <pb n="48" break="no"/> mone, maximisque
-                        earum commemoratis, unum ait ab ipso suorum strategematum recitatum, quod
-                        prudentissimum ipse judicaret. (2) Socios quum a Sesto et Byzantio multus
-                        barbaros cepissent, partitionem sibi commisisse. Tum se ab una parte
-                        captivis, ab altera vestibus et instrumento omni eorum posito, quum inique
-                        in divisione versatus diceretur, optionem sociis dedisse utram ipsi vellent
-                        partem eligendi, reliqua Athenienses contentos futuros. (3) Auctore
-                        Herophyto Samio, uti Persarum potius bona quam corpora acciperent, illi
-                        ornamenta accepere, Atheniensibus captivos reliquerunt: (4) quum quidem ipse
-                        in pr&#230;sentia risui haberetur, quod inepte pr&#230;dam partitus esset:
-                        nempe sociis armillas aureas et torques et candyas et tunicas purpureas
-                        auferentibus, quum Athenienses nuda corpora, eaque male ad laborem instituta
-                        acciperent. (5) Paulo post captivorum amicos et propinquos ex Phrygia et
-                        Lydia adventantes, singulos captivorum magna redemisse pecunia, ita ut
-                        quattuor mensium stipendia in classem inde nactus, ac pr&#230;terea ex
-                        pretio redemptionum multum auri in &#230;rarium sit relatum. &#198;schylus
-                        Isthmici certaminis spectator, quum unus pugilum plagam accepisset,
-                        theatrumque clamorem sustulisset, latere Ionis Chii fosso, ut is
-                        animadverteret: Viden', inquit, exercitatio quid possit? tacet ictus,
-                        spectatores vociferantur.</p>
+                        <p n="4">Ion se, quum adolescens admodum ex Chio Athenas venisset,
+                            c&#339;navisse apud Laomedontem cum Cimone ait: jussumque hunc peractis
+                            libationibus canere, pr&#230;stitisse id non ineleganter, eamque ob rem
+                            ab iis qui aderant laudatum utpote Themistocle exercitatiorem. Is enim
+                            non se canere aut ludere fidibus didicisse aiebat, sed urbis ad
+                            magnitudinem et divitias evehendi artem callere. Exinde, ut inter pocula
+                            fieri assolet, deducto ad res Cimonis gestas ser <pb n="48" break="no"/>
+                            mone, maximisque earum commemoratis, unum ait ab ipso suorum
+                            strategematum recitatum, quod prudentissimum ipse judicaret. (2) Socios
+                            quum a Sesto et Byzantio multus barbaros cepissent, partitionem sibi
+                            commisisse. Tum se ab una parte captivis, ab altera vestibus et
+                            instrumento omni eorum posito, quum inique in divisione versatus
+                            diceretur, optionem sociis dedisse utram ipsi vellent partem eligendi,
+                            reliqua Athenienses contentos futuros. (3) Auctore Herophyto Samio, uti
+                            Persarum potius bona quam corpora acciperent, illi ornamenta accepere,
+                            Atheniensibus captivos reliquerunt: (4) quum quidem ipse in
+                            pr&#230;sentia risui haberetur, quod inepte pr&#230;dam partitus esset:
+                            nempe sociis armillas aureas et torques et candyas et tunicas purpureas
+                            auferentibus, quum Athenienses nuda corpora, eaque male ad laborem
+                            instituta acciperent. (5) Paulo post captivorum amicos et propinquos ex
+                            Phrygia et Lydia adventantes, singulos captivorum magna redemisse
+                            pecunia, ita ut quattuor mensium stipendia in classem inde nactus, ac
+                            pr&#230;terea ex pretio redemptionum multum auri in &#230;rarium sit
+                            relatum. &#198;schylus Isthmici certaminis spectator, quum unus pugilum
+                            plagam accepisset, theatrumque clamorem sustulisset, latere Ionis Chii
+                            fosso, ut is animadverteret: Viden', inquit, exercitatio quid possit?
+                            tacet ictus, spectatores vociferantur.</p>
 
-                    <p n="5">Ceterum Ion poeta Periclem in consuetudine superbum fuisse
-                        arrogantemque ait, ipsiusque jactantiam multo aliorum contemptu ac superbia
-                        permixtam: contra Cimonis in convictu suavitatem gratiosamque comitatem
-                        laudat. (4) Sed Ionem nos missum facimus, qui in virtute tragicam aliquam et
-                        satyricam disciplinam requisiverit; eos antem qui Periclis gravitatem
-                        arroganti&#230; et fastus nomine notabant, Zenon hortabatur, ut ipsi quoque
-                        ejusmodi arrogantium sibi sumerent: scilicet eam simulationem occulte
-                        studium quoddam atque consuetudinem honestatis ingeneraturam.</p>
+                        <p n="5">Ceterum Ion poeta Periclem in consuetudine superbum fuisse
+                            arrogantemque ait, ipsiusque jactantiam multo aliorum contemptu ac
+                            superbia permixtam: contra Cimonis in convictu suavitatem gratiosamque
+                            comitatem laudat. (4) Sed Ionem nos missum facimus, qui in virtute
+                            tragicam aliquam et satyricam disciplinam requisiverit; eos antem qui
+                            Periclis gravitatem arroganti&#230; et fastus nomine notabant, Zenon
+                            hortabatur, ut ipsi quoque ejusmodi arrogantium sibi sumerent: scilicet
+                            eam simulationem occulte studium quoddam atque consuetudinem honestatis
+                            ingeneraturam.</p>
 
-                    <p n="6">Forma quoque spectabilis Cimon erat, uti Ion poeta dicit; nam magnus
-                        erat statura, et crispa multaque c&#230;sarie caput exornatus.</p>
+                        <p n="6">Forma quoque spectabilis Cimon erat, uti Ion poeta dicit; nam
+                            magnus erat statura, et crispa multaque c&#230;sarie caput
+                            exornatus.</p>
 
-                    <p n="7">Ion etiam orationem commemorat, qua maxime moverit Athenienses,
-                        exhortans ne Gr&#230;ciam claudam esse sinerent, neque urbem, qu&#230;
-                        alteram jugi partem traheret, negligerent.</p>
+                        <p n="7">Ion etiam orationem commemorat, qua maxime moverit Athenienses,
+                            exhortans ne Gr&#230;ciam claudam esse sinerent, neque urbem, qu&#230;
+                            alteram jugi partem traheret, negligerent.</p>
 
-                    <p n="8">Mirum quantum superbiisse Periclem post debellatos Samios Ion tradit,
-                        quum Agamemnonem dixisset post decem demum annos urbem barbaram, ipsum vero
-                        novem men- <pb n="49" break="no"/> sium spatio primos potentissimosque Ionum
-                        debellasse.</p>
+                        <p n="8">Mirum quantum superbiisse Periclem post debellatos Samios Ion
+                            tradit, quum Agamemnonem dixisset post decem demum annos urbem barbaram,
+                            ipsum vero novem men- <pb n="49" break="no"/> sium spatio primos
+                            potentissimosque Ionum debellasse.</p>
 
-                    <p n="9">Ion Chius Socratem ait juvenem abhuc Samum profectum esse cum
-                        Archelao.</p>
+                        <p n="9">Ion Chius Socratem ait juvenem abhuc Samum profectum esse cum
+                            Archelao.</p>
+                    </div>
 
-                    <div type="textpart" subtype="work" n="2">
-                        <ab><title type="sub">SYNECDEMETICUS</title></ab>
+                    <div type="textpart" subtype="book" n="2">
+                        <ab><title>SYNECDEMETICUS</title></ab>
 
                         <p n="10">Apud Ionem tragicum in libro, qui <hi rend="italic"
                                 >Synecdemeticus</hi> inscribitur, etiam <foreign xml:lang="grc"
                                 >σκανοπώγων</foreign> aliquis, sive barbam raram habens,
                             memoratur.</p>
-
-                        <p n="11">Chiorum legatum, qui ut Chiis frumentum exportare liceret,
+</div>
+                    
+                        <div type="textpart" subtype="book" n="3"> <!-- [Presbeutikos] in the Greek file -->
+                            <p n="11">Chiorum legatum, qui ut Chiis frumentum exportare liceret,
                             rogabat, quoniam in rogando prolixa fuerat usus oratisse, re infecta
                             amandarunt (Laced&#230;monii). Misso autem altero, qui egit
                             compendiosius (Chios enim premebat necessitas), concesserunt. Is enim
@@ -247,75 +256,77 @@
                             tragicus de iis dixit: Non fortis est verbis Lac&#230;na civitas, sed
                             irruit quum Mars recens exercitum, senatus imperat, manusque
                             conficit.</p>
+                        </div>
+                    
 
+                    <div type="textpart" subtype="book" n="4">
+                        <!-- title unknown -->
                         <p n="12"> Ion poeta in his qu&#230; soluta oratione scripsit, fortunam ait,
                             et sapientiam, quum sint inter se dissimillim&#230;, simillimarum rerum
                             effectrices esse. Augent amb&#230; et ornant viros, ad gloriam,
                             potentiam, imperium evehunt. </p>
                     </div>
 
-                    <div type="textpart" subtype="work" n="3">
-                        <pb n="50"/>
+                </div>
 
-                        <ab><title type="sub">DE CHII ORIGINIBUS</title></ab>
+                <div type="textpart" subtype="work" n="2">
+                    <pb n="50"/>
 
-                        <p n="13">Ion vero, trag&#339;diarum scriptor, historiarum monumentis
-                            mandavit, Neptunum in desertam aliquando insulam <hi rend="italic"
-                                >Chium</hi> venisse; in ea cognitam ab ipso nympham quandam et ea
-                            parturiente e c&#339;lo nivem (<hi rend="italic">Gr&#339;cis</hi>
-                            chiona) effusam; a quo rei eventu nomen filio Chio imposuisse Neptunum.
-                            Eundem ex alia quadam nympha filios Agelum et Melanem suscepisse.
-                            &#338;nopionem postea e Creta in Chium insulam appuiisse et cum eo una
-                            filios Talum, Euanthem, Melanem, Salagum et Athamantem (<hi
-                                rend="italic">Staphylum et Thoantem</hi>). &#338;nopione regnante
-                            Cares eodem venisse et Abantes ex Eub&#339;a: successisse deinde in
-                            regnum &#338;nopioni et filiis Amphiclum, advenam hominem ab
-                            Histi&#230;a Eub&#339;&#230;, ex Apollinis Delphici oraculo. Quarta post
-                            Amphiclum &#230;tate Hector (nam et hic rex fuit) cum Caribus et
-                            Abantibus insul&#230; inquilinis bellavit, et eorum parte justo
-                            pr&#339;lio fusa, reliquos in deditionem acceptos e sedibus suis
-                            expulit. Compositis demum Chii rebus in memoriam Hectori rediit commune
-                            sacrum fieri a suis oportere cum universo Ionum conventu; et ab eo
-                            conventu tripodem illi, ut idem refert, virtutis pr&#230;mium delatum.
-                            H&#230;c de Chiis Ionem tradidisse comperi, quum causam tamen ille non
-                            exposuerit quamobrem cum Ionibus c&#339;pti fuerint Chii censeri.</p>
+                    <ab><title>DE CHII ORIGINIBUS</title></ab>
 
-                        <p n="14">H&#230;c mixtio quum sit contra morem, in memoriam fortasse
-                            revocarit convivis tritum sermone proverbium: aut quinque bibere, vel
-                            tria, aut non quattuor. Nam aut duas partes cum quinque aiunt oportere
-                            bibere, aut unam cum tribus. De hac vero mixtione dicit Ion pocta in
-                            libro de Chio, eum qui illam invenisset Palamedem vatem, vaticinatum
-                            esse Gr&#230;cis, commodam iis fore navigationem, si tres cum uno
-                            cyathos biberent.</p>
+                    <p n="13">Ion vero, trag&#339;diarum scriptor, historiarum monumentis mandavit,
+                        Neptunum in desertam aliquando insulam <hi rend="italic">Chium</hi> venisse;
+                        in ea cognitam ab ipso nympham quandam et ea parturiente e c&#339;lo nivem
+                            (<hi rend="italic">Gr&#339;cis</hi> chiona) effusam; a quo rei eventu
+                        nomen filio Chio imposuisse Neptunum. Eundem ex alia quadam nympha filios
+                        Agelum et Melanem suscepisse. &#338;nopionem postea e Creta in Chium insulam
+                        appuiisse et cum eo una filios Talum, Euanthem, Melanem, Salagum et
+                        Athamantem (<hi rend="italic">Staphylum et Thoantem</hi>). &#338;nopione
+                        regnante Cares eodem venisse et Abantes ex Eub&#339;a: successisse deinde in
+                        regnum &#338;nopioni et filiis Amphiclum, advenam hominem ab Histi&#230;a
+                        Eub&#339;&#230;, ex Apollinis Delphici oraculo. Quarta post Amphiclum
+                        &#230;tate Hector (nam et hic rex fuit) cum Caribus et Abantibus insul&#230;
+                        inquilinis bellavit, et eorum parte justo pr&#339;lio fusa, reliquos in
+                        deditionem acceptos e sedibus suis expulit. Compositis demum Chii rebus in
+                        memoriam Hectori rediit commune sacrum fieri a suis oportere cum universo
+                        Ionum conventu; et ab eo conventu tripodem illi, ut idem refert, virtutis
+                        pr&#230;mium delatum. H&#230;c de Chiis Ionem tradidisse comperi, quum
+                        causam tamen ille non exposuerit quamobrem cum Ionibus c&#339;pti fuerint
+                        Chii censeri.</p>
 
-                        <pb n="51"/>
+                    <p n="14">H&#230;c mixtio quum sit contra morem, in memoriam fortasse revocarit
+                        convivis tritum sermone proverbium: aut quinque bibere, vel tria, aut non
+                        quattuor. Nam aut duas partes cum quinque aiunt oportere bibere, aut unam
+                        cum tribus. De hac vero mixtione dicit Ion pocta in libro de Chio, eum qui
+                        illam invenisset Palamedem vatem, vaticinatum esse Gr&#230;cis, commodam iis
+                        fore navigationem, si tres cum uno cyathos biberent.</p>
 
-                        <p n="15"><foreign xml:lang="grc">Αόγχας</foreign> Iones dicunt <hi
-                                rend="italic">partes</hi>. Ion De Chii originibus: «Ex una qu&#230;
-                            per tempus fuerat parte partes complures fecere.»</p>
+                    <pb n="51"/>
 
-                        <p n="16"><foreign xml:lang="grc">Παραθήκην</foreign> Hippiam et Ionem
-                            scriptorem quendam dixisse aiunt, nos id <foreign xml:lang="grc"
-                                >παρακαταθήκην</foreign> vocamus, ut Plato et Thucydides et
-                            Demosthenes.</p>
+                    <p n="15"><foreign xml:lang="grc">Αόγχας</foreign> Iones dicunt <hi
+                            rend="italic">partes</hi>. Ion De Chii originibus: «Ex una qu&#230; per
+                        tempus fuerat parte partes complures fecere.»</p>
 
-                        <p n="17">[Inter omnes terras pr&#230;stat Pelasgicum Argos] inter equas
-                            Thessalic&#230; pr&#230;stant, inter feminas Laced&#230;mo- [ni&#230;,
-                            inter viros ii qui aquam bibunt pulcr&#230; Arethus&#230;; sed
-                            pr&#230;stantiores etiam hisce sunt qui inter Tirynthem habitant et
-                            Arcadiam ovibus divitem, argivi linteos thoraces gestantes, aculei
-                            bellorum. At vos, &#198;gienses, neque tertii estis neque quarti neque
-                            duodecimi, nec omnino in numerum et rationem ve- [nistis. Narrat vero
-                            Mnaseas (<hi rend="italic">libro De oraculis</hi>) &#198;gienses
-                            Achai&#230; quum pr&#339;lio navali contra &#198;tolos commisso
-                            victoriam reportassent, decimam pr&#230;d&#230; Delphis dedicantes
-                            interrogasse quinam Gr&#230;corum essent pr&#230;stantissimi.
-                            Responditque Pythia qu&#230; modo apposuimus. Ac Ion (<hi rend="italic"
-                                >Mnaseas?</hi>) quidem &#198;giensibus oraculum datum narrat, contra
-                            alii Megarensibus ita responsum esse aiunt, leguntque: «At vos,
-                            Megarenses, neque tertii estis, etc.,» quemadmodum etiam Callimachus in
-                            Epigrammatis statuit.</p>
-                    </div>
+                    <p n="16"><foreign xml:lang="grc">Παραθήκην</foreign> Hippiam et Ionem
+                        scriptorem quendam dixisse aiunt, nos id <foreign xml:lang="grc"
+                            >παρακαταθήκην</foreign> vocamus, ut Plato et Thucydides et
+                        Demosthenes.</p>
+
+                    <p n="17">[Inter omnes terras pr&#230;stat Pelasgicum Argos] inter equas
+                        Thessalic&#230; pr&#230;stant, inter feminas Laced&#230;mo- [ni&#230;, inter
+                        viros ii qui aquam bibunt pulcr&#230; Arethus&#230;; sed pr&#230;stantiores
+                        etiam hisce sunt qui inter Tirynthem habitant et Arcadiam ovibus divitem,
+                        argivi linteos thoraces gestantes, aculei bellorum. At vos, &#198;gienses,
+                        neque tertii estis neque quarti neque duodecimi, nec omnino in numerum et
+                        rationem ve- [nistis. Narrat vero Mnaseas (<hi rend="italic">libro De
+                            oraculis</hi>) &#198;gienses Achai&#230; quum pr&#339;lio navali contra
+                        &#198;tolos commisso victoriam reportassent, decimam pr&#230;d&#230; Delphis
+                        dedicantes interrogasse quinam Gr&#230;corum essent pr&#230;stantissimi.
+                        Responditque Pythia qu&#230; modo apposuimus. Ac Ion (<hi rend="italic"
+                            >Mnaseas?</hi>) quidem &#198;giensibus oraculum datum narrat, contra
+                        alii Megarensibus ita responsum esse aiunt, leguntque: «At vos, Megarenses,
+                        neque tertii estis, etc.,» quemadmodum etiam Callimachus in Epigrammatis
+                        statuit.</p>
                 </div>
             </div>
         </body>

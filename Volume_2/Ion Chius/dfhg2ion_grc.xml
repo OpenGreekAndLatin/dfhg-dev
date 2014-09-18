@@ -28,7 +28,7 @@
                     <resp>Editorial assistant</resp>
                 </respStmt>
                 <respStmt>
-                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <persName xml:id="UK">Uta Koschmieder</persName> 
                     <resp>Student assistant</resp>
                 </respStmt>
                 <respStmt>
@@ -72,7 +72,7 @@
                             <biblScope unit="volume">2</biblScope>
                         </monogr>
                         <ref
-                            target="https://archive.org/stream/fragmentahistori02mueluoft#page/n3/mode/2up"
+                            target="https://archive.org/stream/fragmentahistori02mueluoft"
                             >Internet Archive</ref>
                     </biblStruct>
                 </listBibl>
@@ -358,11 +358,13 @@
 
                     <div type="textpart" subtype="work" n="1">
                         <ab>
-                            <title type="main" xml:lang="grc">ΥΠΟΜΝΗΜΑΤΑ. <title type="sub"
-                                    >ΕΠΙΔΗΜΙΑΙ.</title></title>
+                            <title>ΥΠΟΜΝΗΜΑΤΑ.</title>
                         </ab>
 
-                        <cit n="1" xml:lang="grc">
+                        <div type="textpart" subtype="book" n="1">
+                            <ab><title>ΕΠΙΔΗΜΙΑΙ.</title></ab>
+                            
+                            <cit n="1" xml:lang="grc">
                             <bibl>Athen&#230;us XIII, p. 603, E</bibl>
                             <quote>Φιλομεῖραξ δὲ ἦν Σοφοκλῆς, ὡς Εὐριπίδης φιλογύνης. Ἴων γοῦν ὁ
                                 ποιητὴς ἐν ταῖς ἐπιγραφομέναις Ἐπιδημίαις γράφει οὕτως· «Σοφοκλεῖ τῷ
@@ -561,10 +563,9 @@
                                 adolescentulo loquens. Maligne egit <bibl>Athen&#230;us V. p.
                                     2l6</bibl>.</note>
                         </cit>
-                    </div>
-
-
-                    <div type="textpart" subtype="work" n="2">
+                        </div>
+                        
+                        <div type="textpart" subtype="book" n="2">
                         <ab>
                             <title type="main" xml:lang="grc">ΣΥΝΕΚΔΗΜΗΤΙΚΟΣ</title>
                         </ab>
@@ -577,9 +578,9 @@
                                     II, 20</bibl>; vulgo <foreign xml:lang="grc"
                                 >Δίωνι</foreign>.</note>
                         </cit>
+                        
                     </div>
-
-                    <div type="textpart" subtype="work" n="3">
+                        <div type="textpart" subtype="book" n="3"> 
                         <ab>
                             <title type="main" xml:lang="grc" ana="#incerta">ΠΡΕΣΒΕΥΤΙΚΟΣ.</title>
                         </ab>
@@ -611,7 +612,10 @@
                                         rend="italic">K&#339;pke</hi> p. 91</bibl>.</note>
                         </cit>
 
-                        <cit n="12" xml:lang="grc">
+                        
+                    </div>
+                        <div type="textpart" subtype="book" n="4"> <!-- title unknown -->
+                            <cit n="12" xml:lang="grc"> 
                             <quote><bibl>Plutarch. De fortun. Rom. c. 1 (p. 389 ed. Didot.)</bibl>
                                 Ἴων μὲν οὖν ὁ ποιητὴς ἐν τοῖς δίχα μέτρου καὶ καταλογάδην αὐτῷ
                                 γεγραμμένοις φησὶν, ἀνομοιότατον πρᾶγμα τῇ σοφίᾳ τὴν τύχην οὖσαν,
@@ -652,10 +656,10 @@
                                 scriptis innotuerunt, Cf. <bibl>Nieberding. p. 92 sqq.</bibl>;
                                     <bibl>K&#339;pke p. 79 sqq.</bibl></note>
                         </cit>
+                        </div>
                     </div>
 
-
-                    <div type="textpart" subtype="work" n="4">
+                    <div type="textpart" subtype="work" n="2">
                         <ab>
                             <title type="main" xml:lang="grc">XΙΟΥ ΚΤΙΣΙΣ</title>
                         </ab>

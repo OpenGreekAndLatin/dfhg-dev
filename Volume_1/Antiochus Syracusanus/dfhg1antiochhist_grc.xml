@@ -67,7 +67,7 @@
                             <biblScope unit="volume">1</biblScope>
                         </monogr>
                         <ref
-                            target="https://archive.org/stream/fragmentahistori01mueluoft#page/181/mode/1up"
+                            target="https://archive.org/stream/fragmentahistori01"
                             >Internet Archive</ref>
                     </biblStruct>
                 </listBibl>
@@ -256,8 +256,7 @@
                     </cit>
                     
                     <cit n="10" xml:lang="grc">
-                        <bibl>Strabo VI, p. 257=VI, 227 ed. <persName type="editor"
-                                >Tzschuck</persName></bibl>
+                        <bibl>Strabo VI, p. 257=VI, 227 ed. Tzschuck</bibl>
                         <quote>Κτίσμα δ᾿ ἐστὶ τὸ Ῥήγιον Χαλκιδέων· οὕς κατὰ χρησμὸν δεκατευθέντας τῷ
                             Ἀπόλλωνι δι᾿ ἀφορίαν, ὕστεραν ἐκ Δελφῶν ἀποικῆσαι δεῦρο φασὶ,
                             παραλαβόντας καὶ ἄλλους τῶν οἴκοθεν· ὡς δ᾿ Ἀντίοχος φησὶ, Ζαγκλαῖοι

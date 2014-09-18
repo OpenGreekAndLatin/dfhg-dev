@@ -252,8 +252,8 @@
                             implacabilem diecordiam usque ad mortem ei cum patre permansisse: peste
                             enim periit Xanthippus.</p>
                     </div>
-
-                    <div type="textpart" subtype="work" n="2">
+<!-- div type="textpart" subtpe="work" n="2" is in Latin, from an unknown work, so no translation here -->
+                    <div type="textpart" subtype="work" n="3">
 
                         <pb n="57"/>
                         <ab><title xml:lang="la">DE INITIIS</title></ab>
@@ -283,7 +283,7 @@
                             iis cum Hercule de donis, quos a Iasone principes acceperant.</p>
                     </div>
 
-                    <div type="textpart" subtype="work" n="3">
+                    <div type="textpart" subtype="work" n="4">
                         <ab><title xml:lang="la">DE HOMERO</title></ab>
 
                         <p n="18">Antimachus Homerum fuisse Colophonium, Stesimbrotus Smyrn&#230;um
