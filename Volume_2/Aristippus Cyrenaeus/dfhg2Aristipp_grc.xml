@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2aristipp_grc">
+    <teiHeader>
+        <fileDesc>
+ 
+            <titleStmt>
+ 
+                <title>Fragmenta Historicorum Graecorum</title>
+ 
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+ 
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>                
+ 
+            </titleStmt>
+ 
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2aristipp_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike International 4.0 License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+ 
+            <sourceDesc>
+                <listBibl xml:lang="la">
+             
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg2513">Arstippus Cyren&#230;us</author>
+ 
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+ 
+                            <biblScope unit="volume">2</biblScope>
+ 
+                        </monogr>
+ 
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+ 
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+ 
+ 
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia"><catDesc>Parentheses around the number of a fragment, e. g. (1), mean Müller's uncertainty (dubia) about the attribution of a fragment to a certain author.</catDesc></category>
+                        <category xml:id="incerta"><catDesc>Square brackets around the number of a fragment, e. g. [1], mean Muller suggests an attribution of a fragment to a certain author.</catDesc></category>
+                        <category xml:id="anonyma"><catDesc>A question mark after the number of the fragmemt means that the name of the fragmentary author is not mentioned by the source text.</catDesc></category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+ 
+        <profileDesc>
+            <langUsage>
+            
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+ 
+            </langUsage>
+        </profileDesc>
+ 
+        <revisionDesc>
+
+            <change who="#KS" when="2014-08-07">Created the XML file</change>
+            <change who="#KS" when="2014-08-07">Encoded text</change>
+            <change who="#MB" when="2014-12-23">Proofread and updated</change>
+            
+        </revisionDesc>
+ 
+    </teiHeader>
+ 
+    <text xml:id="something">
+ 
+        <body> 
+ 
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="2">
+ 
+                    <head xml:lang="grc">
+                        <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg2513.tlg001.opp-grc1">ARISTIPPUS CYREN&#198;US</title>
+                    </head>
+ 
+                    <pb n="79"/>   
+                            <p><bibl>Diogenes L. II, 83</bibl>, Aristippi (*) Socratici scripta
+                            recensens: <quote>Τοῦ δὲ Κυρηναϊκοῦ φιλοσόφου φέρεται βιβλία,
+                            τρία μὲν ἱστορίας τῶν κατὰ Λιβύην, ἀπεσταλμένα
+                            Διονυσίῳ <note type="editorial">(Sicili&#230; tyranno)</note>.</quote> De his aliunde
+                            non constat. Aliud philosophi opus, quod etsi non
+                            potest historicum dici, multa tamen ex historia repetita
+                            continuit, inscriptum erat: <title xml:lang="grc">Περὶ τῆς παλαιᾶς
+                            τρυφῆς</title>. Id s&#230;pius laudat Diogenes (**), verum in
+                            scriptorum recensu non affert, nisi forte dixeris
+                            idem esse, cujus titulos <bibl>Diogenes 1. 1.</bibl> ponit hos :
+                            <quote>Πρὸς τοὺς ἐπιτιμῶντας ὅτι κέκτηται οἶνον παλαιὸν καὶ
+                            ἑταίρας. Πρὸς τοὺς ἐπιτιμῶντας ὅτι πολυτελῶς ὀψωνεῖ</quote>
+                            (V. <bibl>Voss. Hist. Gr. p. 54</bibl>). Utut est, recte <bibl>Luzacius
+                            Lectt. Att. p. 108</bibl>: <quote>«Ab ejusmodi viro, qualem
+                            Aristippum modo dicebamus, qui moribus erat
+                            facilis, comis, humanus, quanquam in vita desultorius,
+                            sibique ac suis pr&#230;ceptis minime constans, — a tali,
+                            inquam, viro proficisci neutiquam potuerunt
+                            commentarii <title xml:lang="grc">Περὶ παλαιᾶς τρυφῆς</title>, probrorum
+                            in summos sapienti&#230; magistros vivendique &#230;ceptores
+                            pleni; quos libros tanquam Aristippi plus
+                            semel in testimonium Diogenes quidem vocat Laertius,
+                            sub tanti tamen viri nomine suppositos esse
+                            censet Bruckerus (<bibl>Hist. Phil. I, p. 592</bibl>) ab hominibus
+                            impudentibus, qui suos ipsi mores illius auctoritate
+                            tegere vellent: cui equidem plane assentior,
+                            etiamsi Baylius (<bibl>Lex. v. Aristote</bibl>) ceterique
+                            fidem istorum libellorum sine ulla fraudis suspicione
+                            fuerint secuti. Pr&#339;terquam enim quod calumni&#230;
+                            in philosophos aliarum sectarum principes
+                            alien&#230; videantur fuisse ab illius persona, qui,
+                            ab <foreign xml:lang="grc">ἀγελάστῳ</foreign> Aristoxeno similibusque valde diversus,
+                            delectationem amabat et gaudia, jocosque
+                            excipiebat jocis , non maledictis et injuriis; ipsa insuper
+                            temporum ratio, tali in causa argumentum
+                            certissimum, non patitur ut turpia de moribus
+                            Aristotelis prodere, aut Polemonem f&#230;do amore a
+                            severissimo Xenocrate dilectum, Socratis auditor
+                            scribere potuerit, diu ante demortuus, quam florerent
+                            in schola Aristoteles et Xenocrates.</quote></p>
+                        
+                            <note type="footnote" n="1">Alius Aristippus et Arcadicorum auctor, de quo dicemus
+                            suo loco.</note>
+                            <note type="footnote" n="2">
+                            <bibl n="1">Diogen. L. I, 96 de Periandro</bibl> <quote>Φησἰ δὲ <persName role="author">Ἀρίστιππος</persName>
+                            ἐν πρῶτῳ <title>Περὶ παλαιᾶς τρυφῆς</title> περὶ αὐτοῦ τάδε, ὡς ἄρα
+                            ἐρασθεῖσα ἡ μήτηρ αὐτοῦ Κράτεια, συνῆν αὐτῷ λάθρα· καὶ
+                            δς ῆδετο. Φανεροῦ δὲ γενομένου, βαρὺς πᾶσιν ἐγένετο διὰ τὸ
+                            ἀλγεῖν ἐπὶ τῆ φώρᾳ.</quote> <note>Multis h&#339;c exponit <bibl>Parthenius. Erot.</bibl></note>
+                                <ref>Idem V, 3</ref> <quote><persName role="author">Ἀρίστιππος</persName> δ᾿ ἐν τῷ <num type="ordinal" value="1">πρώτῳ</num> <title>Περὶ παλ. τρυφῆς</title>
+                            φησὶν ἐρασθῆναι τὸν Ἀριστοτέλην παλλακίδος τοῦ Ἑρμείου.</quote>
+                                <ref>Idem II, 23</ref>, de Socrate <quote>Οὗ <note type="editorial" xml:lang="la">(sc. <foreign xml:lang="grc">Ἀλκιβιάδου</foreign>)</note> καὶ ἐρασθῆνή
+                                    φησιν αὐτὸν <persName role="grc">Ἀρίστιππος</persName> ἐν <num type="ordinal" value="4">τετάρτῳ</num> <title>Περὶ παλαιας τρυφῆς</title>.</quote>
+                            Eadem <bibl>Athen&#339;us XIII, P. 566, D</bibl>.
+                                <ref>Idem II, 48</ref>, de Xenophonte <quote>Καὶ αὐτόν φησιν <persName role="author">Ἀρίστιππος</persName>
+                            ἐν <num type="ordinal" value="4">τετάρτῳ</num> <title>Περὶ παλαιᾶς τρυφῆς</title> ἐρασθῆναι Κλεινίου·
+                            προς ὄν καὶ ταῦτα εἰπεῖν· Νῦν γὰρ ἐγὼ Κλεινίαν ἥδιον μὲν θεῶμαι
+                            ἤ τἄλλα πάντα ἐν ἀνθρώποις καλά. Τυφλὸς δὲ τῶν ἄλλων
+                            παντων δεξαίμην ᾶν ἣ Κλεῖνίου ἑνὸς ὄντος γενέσθαι. Ἄχθομαι
+                            δὲ καὶ νυκτὶ καὶ ῦπνῳ, ὅτι ἐκεῖνον οὐχ ὁρῶ· ἡμέρᾳ δὲ καὶ
+                            ἡλίῳ τὴν μεγίστην χάριν οῖδα, ὅτι μοι Κλεινίαν ἀναφαίνουσι.</quote>
+                                <ref>Idem III, 29</ref>, de Platone<quote><persName role="author">Ἀρίστιππος</persName> δ᾿ ἐν τῷ <num type="ordinal" value="4">τετάρτῳ</num>
+                            <title>Περὶ παλαιᾶς τρυφῆς</title> φησὶν αὐτὸν Ἀστέρος μειρακίου τινὸς,
+                            ἀστρολογεῖν συνασκουμένου, ἐρασθῆναι· ἀλλὰ καὶ Δίωνος τοῦ
+                            προειρημένου.</quote>
+                                <ref>Idem IV, 19</ref>, de Polemone Atheniense <quote>Ὡς ἐῴκει δὴ, ὁ
+                            Πολέμων κατὰ πάντα ἐζηλώκει τὸν Ξενοκράτην· καὶ ἐρασθῆναι
+                            αὐτοῦ φησὶν <persName role="author">Ἀρίστιππος</persName> ἐν <num type="ordinal" value="4">τετάρτῳ</num> <title>Περὶ παλαιᾶς τρυφῆς</title>.</quote>
+                                <ref>Idem V, 39</ref>, de Aristotele<quote>Οὖ (Θεοφράστου) καὶ τοῦ υἱέος
+                            Νικομάχου φησὶν ἐρωτικῶς διατεθῆναι, καίπερ ὄντα διδάσκαλον,
+                            <persName role="author">Ἀρίστιππος</persName> ἐν <num type="ordinal" value="4">τετάρτῳ</num> <title>Περὶ παλαιᾶς τρυφῆς</title>.</quote></note>
+  
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>
