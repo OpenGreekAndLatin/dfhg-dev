@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2clytus_la">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2clytus_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike 4.0 International
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1282"
+                                >Clytus Milesius</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/details/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#KS" when="2013-11-27">Created the XML file</change>
+            <change who="#KS" when="2013-11-27">Encoded text</change>
+            <change who="#MB" when="2014-12-23">Proofread and updated.</change>            
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="2" xml:lang="la">
+                <div type="textpart" subtype="book" n="3">
+                    
+                    <head xml:lang="la">
+                        <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1282.tlg002.opp-la1"
+                            >CLYTUS MILESIUS</title></head>
+                    
+                    <pb n="333"/>
+                    <div type="textpart" subtype="work" n="1"><ab>
+                        <title xml:lang="la">DE MILETO.</title></ab>
+                        <div type="textpart" subtype="book" n="1"><ab>
+                            <title xml:lang="la">E LIBRO PRIMO.</title></ab>                            
+                           
+                             <p n="1">Clytus Milesius, Aristotelis discipulus, primo libro De
+                                Mileto de meleagridibus ita scribit: « Circa Dian&#230; Virginis
+                                templum, quod Leri est, aves sunt qu&#230; meleagrides vocantur.
+                                Palustris locus est in quo aluntur. Pullos suos
+                                nullo amoris affectu prosequitur h&#230;c avis, et teneros ita
+                                negligit, ut sacerdotes curam eorum gerere oporteat.
+                                Magnitndo ei est generosi galli gallinacei; caput pro corporis
+                                nole rarvum, idemque glabrum; super capite vero
+                                habet cristam carneam, duram, rotundam, qu&#230; ex capite
+                                eminet veluti clavus, colore ligneo. Ad maxillas, loco barl&#339;,
+                                habet oblongam carunculam, ab ore incipientem, rubentiorem
+                                quam in gallinaceis. Quam vero galli gallinacei
+                                rostro adh&#230;rentem habent, quam barbam nonnulli vocant,
+                                [latine palea vel mentum dicitur,] eam non habet, eaque
+                                parte mutila est. Rostrum vero acutius et majus habet,
+                                quam gallinaceus : collum nigrum, crassius et brevius gallinaceis:
+                                corpus vero totum variegatum, universo quidem
+                                colore rubro, sed eo frequentibus albis distincto,
+                                [non] majoribus quam lentes. Insunt autem hi orbiculi in
+                                rhombis, qui magis nigri sunt quam color universus. Quare
+                                etiam ipsi rhombi varietatem aliquam efficiunt : quum id,
+                                quod In illis nigrum est, intra se contineat colorem candidiorem;
+                                id vero quod album, colorem multo nigriorem.»</p>
+                           
+                            <p n="2">Clytus Aristotelicus in libris De Mileto Polycratem ait,
+                                Samiorum tyrannum, luxus studio quidquid esset ubique
+                                nobile et clarum coegisse, canes ex Epiro, capras e Scyro,
+                                Mileto oves, sues e Sicilia.</p>
+                            
+                            <p n="3">Constat Thaletem etiam reipublic&#230; commodis optime
+                                consuluisse. Nam quum Milesios Crœsus ad societatem
+                                ineundam sollicitaret, obstitit ille: eaque res postea, Cyro
+                                victoria potito, salus civitatis fuit. Clytus vero asserit, ut tradit
+                                Heraclides, solitariam eum ac privatam vitam adamasse.</p></div></div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

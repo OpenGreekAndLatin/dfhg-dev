@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2clytus_grc">
+
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2clytus_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike 4.0 International
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1282"
+                                >Clytus Milesius</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/details/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#KS" when="2013-11-27">Created the XML file</change>
+            <change who="#KS" when="2013-11-27">Encoded text</change>
+            <change who="#MB" when="2014-12-23">Proofread and updated.</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="3">
+
+                    <head xml:lang="grc">
+                        <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1282.tlg002.opp-grc1"
+                            >CLYTUS MILESIUS</title></head>
+                     
+                    <pb n="333"/>
+                    <div type="textpart" subtype="work" n="1"><ab>
+                        <title xml:lang="grc">ΠΕΡΙ ΜΙΛΗΤΟΥ.</title></ab>
+                        <div type="textpart" subtype="book" n="1"><ab>
+                            <title xml:lang="la">E LIBRO PRIMO.</title></ab>
+
+                        <cit n="1" xml:lang="grc">
+                        <bibl>Athen&#230;us XIV, p. 655, B</bibl>  
+                        <quote><persName role="author"><name>Κλύτος</name> ὁ <orgName>Μιλήσιος</orgName></persName>,
+                        Ἀριστοτέλους δὲ μαθητὴς, ἐν τῷ <num type="ordinal" value="1">πρώτῳ</num> <title>Περὶ Μιλήτου</title>
+                        γράφει περὶ αὐτῶν οὕτως· <quote>«Περὶ δὲ τὸ ἱερὸν τῆς
+                        Παρθένου ἐν Λέρῳ εἰσὶν οἱ καλούμενοι ὄρνιθες μελεαγρίδες.
+                        Ὁ δὲ τόπος ἐστὶν ἑλώδης, ἐν ᾧ τρέφονται. Ἔστι
+                        δὲ ἄστοργον πρὸς τὰ ὄρνεον καὶ ὀλιγωρεῖ τῶν
+                        νεωτέρων, ὥστε ἀνάγκη τοῖς ἱερεῦσιν ἐπιμελεῖσθαι
+                        αὐτῶν. Ἔχει δὲ τὸ μὲν μέγεθος ὄρνιθος γενναίου, τὴν
+                        δὲ κεφαλὴν μικρὰν πρὸς τὸ σῶμα, καὶ ταύτην ψιλὴν,
+                        ἐπ᾿ αὐτῆς δὲ λόφον σάρκινον, σκληρὸν, στρογγύλον,
+                        ἐξέχοντα τῆς κεφαλῆς ὥσπερ πάτταλον, καὶ τὸ χρῶμα
+                        ξυλοειδῆ. Πρὸς δὲ ταῖς γνάθοις ἀπὸ τοῦ στόματος ἀρξαμένην
+                        ἀντὶ πώγωνος μακρὰν σάρκα καὶ ἐρυθροτέραν
+                        τῶν ὀρνίθων. Τὴν δὲ τοῖς ὄρνισιν ἐπὶ τῷ ῥύγχει γινομένην,
+                        ἣν ἔνιοι πώγωνα καλοῦσιν, οὐκ ἔχει· διὸ καὶ ταύτῃ
+                        κολοβόν ἐστι. Ῥύγχος δὲ ὀξύτερον καὶ μεῖζον ἢ ὄρνις
+                        ἔχει. Τράχηλος μέλας, παχύτερος καὶ βραχύτερος
+                        τῶν ὀρνίθων. Τὸ δὲ σῶμα ἅπαν ποικίλον, μέλανος
+                        ὄντος τοῦ χρώματος ὅλου, πτίλοις λευκοῖς καὶ πυκνοῖς
+                        διειλημμένου [οὐ?] μείζοσι φακῶν. Οὗτοι δ᾿ εἰσὶν
+                        ἐν ῥόμβοις οἱ κυκλίσκοι μέλασι τοῦ ὅλου χρώματος·
+                        διὸ καὶ ποικιλίαν τινὰ οἱ ῥόμβοι παρέχονται, τοῦ μὲν
+                        μέλανος ἔχοντος λευκότερον τὸ χρῶμα, τοῦ δὲ λευκοῦ
+                        πολὺ μελάντερον. Τὸ δὲ κατὰ τὰς πτέρυγας αὐταῖς
+                        πεποίκιλται λευκῷ πριονώδεσι σχήμασι [πυρώδεσι] καὶ
+                        παρ᾿ ἄλληλα κειμένοις. Σκέλη δὲ ἄκεντρα, ὅμοια τοῖς
+                        ὀρνιθείοις. Παραπλήσιαι δ᾿ εἰσὶν αἱ θήλειαι τοῖς ἄρρεσι·
+                        διὸ καὶ δυσδιάκριτόν ἐστι τὸ τῶν μελεαγρίδων γένος.»</quote>
+                        τοσαῦτα καὶ ὁ περιπατητικὸς φιλόσοφος περὶ τῶν μελεαγρίδων
+                        ἱστόρησεν.</quote>
+                        <note>Leros insula a Milesiis erat incolis frequentata.
+                        Cf. <bibl>Strabo XIV, p. 635</bibl>. De avibus illis Dian&#230; sacris
+                        cf. <bibl>&#198;lianus H. An. IV, 42</bibl>, ubi inter alia <quote xml:lang="grc">Ὅσοι δὲ
+                        ἄρα αἰδοῦνται τὸ θεῖον, καὶ εἰ μᾶλλον τὴν Ἄρτεμιν,
+                        οὐκ ἂν ποτε τῶνδε τῶν ὀρνίθων ἐπὶ τροφὴν προσάψαιντο·
+                        καὶ ἥτις ἡ αἰτία, ἴσασί τε οἱ τὴν νῆσον οἰκοῦντες
+                        τὴν Λέρον, καὶ ἔνεστι μαθεῖν ἀλλαχόθεν.</quote>
+                        Nicander libro tertio Metamorphoseon ap. <bibl>Antoninum
+                        Lib. c. 3</bibl> narrat <quote xml:lang="grc">Αἱ δὲ ἀδελφαὰ αὐτοῦ <note type="editorial">(sc.
+                        Meleagri qui ira Dian&#230; perierat)</note> παρὰ τὸ σῆμα
+                        ἐθρήνουν ἀδιαλείπτως, ἄχρις αὐτὰς Ἄρτεμις ἁψαμένη
+                        ῥάβδῳ μετεμόρφωσεν εἰς ὄρνιθας καὶ ἀπῴκισεν εἰς
+                        Λέρον τὴν νῆσον, ὀνομάσασα Μελεαγρίδας.</quote> Locus ubi
+                        templum Dian&#230; Virginis stetit, etiam nunc vocatur
+                        Παρθένοι. Vide <bibl>Ross. Reisen auf. d. gr. Inseln
+                        Π, ρ. 121 sq</bibl>.</note></cit></div>
+                                                        
+                        <div type="textpart" subtype="incerta" n="1"><ab>
+                            <title xml:lang="la">E LIBRIS INCERTIS.</title></ab>
+                    
+                        <cit n="2" xml:lang="grc">
+                        <bibl>Athen&#230;us XII, p. 540, C</bibl> 
+                        <quote><persName role="author">Κλύτος</persName> <note type="editorial">(Κλεῖτος edd.
+                        Ante Schweigh.)</note> δ᾿ ὁ Ἀριστοτελικὸς ἐν τοῖς <title>περὶ
+                        Μιλήτου</title> Πολυκράτη φησὶ, τὸν Σαμίων τύραννον, ὑπὸ
+                        τρυφῆς τὰ πανταχόθεν συνάγειν· κύνας μὲν ἐξ Ἠπείρου,
+                        αἶγας δὲ ἐκ Σκύρου, ἐκ δὲ Μιλήτου πρόβατα, ὗς
+                        δὲ ἐκ Σικελίας.</quote><note>Eadem tradit Alexis libro tertio
+                        Samiorum Annalium apud <bibl>Athen. l. l</bibl>. De ovium
+                        et lan&#230; Milesi&#230; pr&#230;stantia v. <bibl>Strabo XII, p. 578</bibl>;
+                        <bibl>Plinius VIII, 48, 73; XXIX, 2, 9</bibl>; <bibl>Virgil. Georg.
+                        III, 306; IV, 334</bibl>; <bibl>Columella VII, 2, 3</bibl>.</note></cit>
+                    
+                        <cit n="3" xml:lang="grc">
+                        <bibl>Diogen. L. I, 25, de Thalete Milesio</bibl>
+                        <quote>Δοκεῖ δὲ καὶ ἐν τοῖς πολιτικοῖς ἄριστα βεβουλεῦσθαι. Κροίσου
+                        γοῦν πέμψαντος πρὸς Μιλησίους ἐπὶ συμμαχίᾳ, ἐκώλυσεν·
+                        ὅπερ, Κύρου κρατήσαντος, ἔσωσε τὴν πόλιν. <persName role="author">Κλύτος</persName>
+                        (olim καὶ αὐτὸς) δέ φησιν, ὡς Ἡρακλείδης ἱστορεῖ,
+                        μονήρη αὐτὸν γεγονέναι καὶ ἰδιαστήν.</quote></cit></div></div>
+               
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
