@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2dioschist_grc">
+    <teiHeader>
+        <fileDesc>
+ 
+            <titleStmt>
+ 
+                <title>Fragmenta Historicorum Graecorum</title>
+ 
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+ 
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+ 
+            </titleStmt>
+ 
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2dioschist_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike International 4.0 License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+ 
+            <sourceDesc>
+                <listBibl xml:lang="la">
+             
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg2409">Dioscorides</author>
+ 
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+ 
+                            <biblScope unit="volume">2</biblScope>
+ 
+                        </monogr>
+ 
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+ 
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+ 
+ 
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia"><catDesc>Parentheses around the number of a fragment, e. g. (1), mean Müller's uncertainty (dubia) about the attribution of a fragment to a certain author.</catDesc></category>
+                        <category xml:id="incerta"><catDesc>Square brackets around the number of a fragment, e. g. [1], mean Muller suggests an attribution of a fragment to a certain author.</catDesc></category>
+                        <category xml:id="anonyma"><catDesc>A question mark after the number of the fragmemt means that the name of the fragmentary author is not mentioned by the source text.</catDesc></category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+ 
+        <profileDesc>
+            <langUsage>
+            
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+ 
+            </langUsage>
+        </profileDesc>
+ 
+        <revisionDesc>
+
+            <change who="#KS" when="2014-08-23">Created the XML file</change>
+            <change who="#KS" when="2014-08-23">Encoded text</change>
+            <change who="#MB" when="2014-12-23">Proofread and updated.</change>
+            
+        </revisionDesc>
+ 
+    </teiHeader>
+ 
+    <text>
+        <body>
+ 
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="3">
+ 
+                    <head xml:lang="grc">
+                        <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg2409.tlg004.opp-grc1">DIOSCORIDES</title>
+                         
+                    </head>
+                         
+ <pb n="192"/>
+           <p>Antequam ad discipulos Aristotelis transeamus,
+           interponere liceat fragmenta Dioscoridis. Casu
+           enim factum est ut omissa sint in libro secundo,
+           ubi Dioscorides cum reliquis Isocratis discipulis
+           componendus erat. Etenim Dioscoridem (*) qui
+           <title xml:lang="grc">Αακωνικὴν πολιτείαν</title> <ref>(fr. 1—3)</ref> scripsit, eundem
+           habeo, cujus libros <title xml:lang="grc">Περὶ νομίμων</title> citantur <ref>fr. 4.</ref>
+           Hujus vero operis pars fuerint ea, qu&#230; <title xml:lang="grc">Περὶ τῶν
+           παρ᾿ Ὁμήρῳ νόμων</title> leguntur <ref>fragm. 5</ref>, ubi Dioscorides
+           appelllatur<foreign xml:lang="grc">ὁ Ἰσοκράτους μαθητής</foreign>. Quod si
+           verum est, admitti nequit conjectura Jonsii (<bibl>De
+           scr. Hist. Phil. II, 6, 5</bibl>), qui nostrum esse putat
+           Dioscoridem (**) patrem Zenonis Tarsensis, qui
+           a. 207 Chrysippo in schola successit (V. <ref>Clinton.
+               ad h. a.</ref>); nam Isocrates mortuus est a. 338, Chrysippus
+           vero natus est a. 260, quo tempore Noster
+           jam senex esse debuit. Quare Chrysippi mentio in
+           <ref>fragm. 5</ref> non a Dioscoride profecta, sed ab Athenæo
+           interposita esse putanda est.—Ceterum ita rem
+           Dioscoridem in libris suis tractasse, ut qu&#230; de institutis
+           et moribus Gr&#230;corum exponeret, ad pr&#230;cepta
+           philosophi&#230; moralis revocaret, ex <ref>fragm. 5</ref>
+           patet luculentissime.</p>
+                        
+                        <note n="1" type="footnote">(*) Alios dioscorides duodecim receuset <bibl>Jonsius I, 5,
+                            57.</bibl> De varia nominis scriptura (<foreign xml:lang="grc">Διοσκορίδης</foreign> et <foreign xml:lang="grc">Διοσκουρίδης</foreign>.
+                                <foreign xml:lang="grc">Διουσκουρίδας</foreign> in inscript. Β&#339;otica) vide <bibl>Dindorf. In
+                            Steph. Thes. s. v.</bibl></note>
+                        <note n="2" type="footnote">(**) Libros quos ad hunc Dioscoridem scripsit Chrysippus
+                            vide ap. <bibl>Diog. L. VII, 190. 193. 197. 198. 200. 202</bibl>.</note>
+                        
+                        
+           <div type="textpart" subtype="work" n="1">
+               <ab><title xml:lang="grc">ΛΑΚΩΝΙΚΗ ΠΟΛΓΤΕΙΑ.</title></ab>
+           
+           <cit n="1" xml:lang="grc"><bibl>Plutarch Lyc. c. 11, 7</bibl> <note>(Lycurgo Alcander
+           oculum excusserat;)</note> <quote>Τοῦ δὲ πάθους ὑπόμνημα Λυκοῦργος
+           ἱδρύσατο τῆς Ἀθηνᾶς ἱερὸν, ἢν Ὀπτιλέτιν
+           προσηγόρευσε· τοὺς γὰρ ὀφθαλμοὺς ὀπτίλους οἱ τῇδε
+           Δωρεῖς καλοῦσιν. Ἔνιοι μέντοι τὸν Λυκοῦργον, ὧν
+           καὶ <persName role="author">Διοσκορίδης</persName> ἐστὶν ὁ συντεταγμένος τὴν <title>Λακωνικὴν
+           πολιτείαν</title>, πληγῆναι μέν φασιν, οὐ τυφλωθῆναι δὲ τὸν
+           ὀφθαλμόν· ἀλλὰ καὶ τὸ ἱερὸν τῇ θεῷ τῆς ἀκέσεως χαριστήριον
+           ἱδρύσασθαι.</quote> <note>Dere v. <bibl>Müller. Dor. I, p. 138</bibl> et <ref>397</ref>.</note></cit>
+           
+           <div type="textpart" subtype="book" n="1"><ab>
+               <title xml:lang="la">E LIBRO SECUNDO.</title></ab>
+           
+           <cit n="2" xml:lang="grc"><bibl>Athen&#230;us IV, p. 140, B:</bibl> <quote>Ἀλλὰ μὴν οὐδ᾿ ὀρθαγορίσκοι
+           λέγονται, ὥς φησιν ὁ Πολέμων, οἱ γαλαθηνοὶ
+           χοῖροι, ἀλλ᾿ ὀρθραγορίσκοι, ἐπεὶ πρὸς τὸν ὄρθρον πιπράσκονται
+           ὡς Περσαῖος ἱστορεῖ ἐν τῇ <title>Λακωνικῇ πολιτείᾳ</title>,
+           καὶ <persName role="author">Διοσκουρίδης</persName> ἐν <num type="ordinal" value="2">δευτέρῳ</num> <title>Πολιτείας</title>, καὶ
+           <persName role="author">Ἀριστοκλῆς</persName> ἐν τῷ <num type="ordinal" value="1">προτέρῳ</num> καὶ οὗτος τῆς <title>Λακώνων
+           πολιτείας</title>.</quote></cit>
+           
+           <cit n="3" xml:lang="grc"><bibl>Plutarch. Agesil. c. 35:</bibl> <quote>Ὀλίγαις δὲ ὕστερον
+           ἡμέραις περὶ τὴν Μαντίνειαν ἐμαχέσαντο, καὶ τὸν
+           Ἐπαμινώνδαν, ἤδη κρατοῦντα τῶν πρώτων, ἔτι δ᾿ ἐγκείμενον
+           καὶ κατασπεύδοντα τὴν δίωξιν, Ἀντικράτης Λάκων
+           ὑποστᾶς ἔπαισε δόρατι μὲν, ὡς <persName role="author">Διοσκουρίδης</persName>
+           ἱστόρηκε· Λακεδαιμόνιοι δὲ Μαχαιρίωνας ἔτι νῦν τοὺς
+           ἀπογόνους τοῦ Ἀντικράτους καλοῦσιν, ὡς μαχαίρᾳ
+           πατάξαντος. Οὕτω γὰρ ἐθαύμασαν καὶ ὑπερηγάπησαν
+           αὐτὸν φόβῳ τοῦ Ἐπαμινώνδου ζῶντος, ἕστε τιμὰς μὲν
+           ἐκείνῳ καὶ δωρεὰς ψηφίσασθαι, τῷ γένει δ᾿ ἀτέλειαν,
+           ἢν ἔτι καὶ καθ᾿ ἡμᾶς ἔχει Καλλικράτης, εἷς τῶν
+           Ἀντικράτους ἀπογόνων.</quote></cit></div></div>
+           
+           <pb n="193"/>
+           <div type="textpart" subtype="work" n="2">
+               <ab><title xml:lang="grc">ΠΕΡΙ ΝΟΜΙΜΩΝ.</title></ab>
+           
+           <cit n="4" xml:lang="grc"><bibl>Photius Lex.:</bibl><quote>Σκυτάλη... <persName role="author">Διοσκουρίδης</persName> <note type="editorial">(Διοσκορίδης
+           <bibl>Suidas</bibl>)</note> δὲ ἐν τοῖς <title>Περὶ νομίμων</title> τοὺς δανείζοντας
+           ἐν Σπάρτῃ διαιρεῖν σκυτάλην δύο παρόντων μαρτύρων
+           καὶ γ4ράγειν τὸ συμβόλαιον ἐν ἑκατέρῳ τμήματι· καὶ
+           τὸ μὲν ἑνὶ τῶν μαρτύρων· διδόναι, τὸ δὲ δι᾿ ἑαυτοῦ
+           ἔχειν.</quote> <note>Ε <bibl>Photio</bibl> eadem Suidas; ex Suida <bibl>Euidocia
+           p. 280</bibl> et <bibl>Musurus in schol. Ald. ad Aristophan.
+           Av. 1283</bibl>. Cf. <bibl>Müller. Dor. II, p. 315</bibl>.</note></cit>
+           </div>
+           
+               <div type="textpart" subtype="work" n="3">
+                   <ab><title xml:lang="grc">ΠΕΡΙ ΤΩΝ ΠΑΡ᾿ ὉΜΗΡΩ ΝΟΜΩΝ.</title></ab>
+          
+           <cit n="5" xml:lang="grc"><bibl>Suidas v. Ὅμηρος:</bibl> <quote>Ὅτι <persName role="author">Διοσκορίδης</persName> ἐν τοῖς
+           <title>Περ᾿ Ὁμήρῳ νόμοις</title> φησὶν, ὡς ὁ ποιητὴς ὁρῶν τὴν
+           σωφροσύνην οἰκειοτάτην ἀρετὴν οὖσαν καὶ πρώτην
+           τοῖς νέοις, ἔτι δὲ ἁρμόττουσαν καὶ καλῶν χορηγὸν οὖσαν,
+           βουλόμενος πάλιν <note type="editorial">(<bibl>Athen.</bibl> Πᾶσιν)</note> ἐμφῦσαι ἀυτὴν
+           ἀπ᾿ ἀρχῆς καὶ ἐφεξῆς, ἵνα τὴν σχολὴν καὶ τὸν ζῆλον
+           ἐν τοῖς καλοῖς ἔργοις ἀναλίσκωσι, καὶ ὦσιν εὐεργετικοὶ
+           καὶ κοινοὶ πρὸς ἀλλήλους, εὐτελῆ κατεσκεύασε πᾶσι
+           τὸν βίον καὶ αὐτάρκη, λογιζόμενος τὰς ἐπιθυμίας καὶ
+           τὰς ἡδονὰς ἰσχυροτάτας γίνεσθαι καὶ πρώτας ἔτι τε καὶ
+           ἐμφύτους οὔσας περὶ ἐδωδὴν καὶ πόσιν· τοὺς δὲ διαμεμενηκότας
+           ἐν ταῖς εὐτελείαις, εὐτάκτους καὶ περὶ τὸν
+           ἄλλον βίον γινομένους ἐγκρατεῖς. Ἐφ᾿ ᾧ καὶ ἁπλῆν
+           ἀποδέδωκε τὴν δίαιταν πᾶσι, καὶ αὐτὴν ὁμοίως
+           βασιλεῦσί τε καὶ ἰδιώταις, λέγων (<bibl>Od. Α’, 138</bibl>)·
+               <lg><l>παρὰ δὲ ξεστὴν ἐτάνυσσε τράπεζαν·</l>
+           <l>σῖτον δ᾿ αἰδοίη ταμίη παρεθηκε φέρουσα,</l>
+           <l>δαιτρὸς δὲ κρειῶν πίνακας παρέθηκεν ἀείρας,</l></lg>
+           καὶ τούτων ὀπτῶν καὶ ὡς ἐπιτοπολὺ βοείων. Παρὰ δὲ
+           ταῦτα οὔτε ἐν ἑορταῖς οὔτ᾿ ἐν ἄλλῃ συνόδῳ παρατίθησιν
+           οὐδέν· καίτοι πολλάκις τὸν Ἀγαμέμνονα ποιήσας
+           δειπνίζοντα τοὺς ἀρίστους, Μενέλαον δὲ τοὺς Ἑρμιόνης
+           γάμους ποιοῦντα καὶ τοῦ υἱοῦ καὶ τῆς θυγατρός· καὶ
+           τοῦ Τηλεμάχου πρὸς αὐτὸν παραγενομένου,
+           (<bibl>Od. Δ’, 66</bibl>) <lg><l>νῶτα βοὸς παρέθηκεν ἀείρας</l>
+           <l>ὄπτ᾿, ἐν χερσὶν ἑλῶν, τά ῥά οἱ γέρα πάρθεσαν αὐτῷ·</l></lg>
+           οὐ γὰρ θρῖα καὶ κάνδυδον καὶ ἄμητας μελίπηκτά τε
+           τοῖς βασιλεῦσιν ἐξαίρετα παρατίθησιν Ὅμηρος, ἀλλὰ
+           ἀφ᾿ ὧν εὖ ἕξειν ἔμελλον τὸ σῶμα καὶ τὴν ψυχήν. Καὶ
+           Αἴαντα μετὰ τὴν μονομαχίαν νώτοισι γέραιρεν ὁ Ἀγαμέμνων,
+           καὶ Νέστορι γεραιῷ ὄντι κρέας ὀπτὸν βοὸς
+           δίδωσι, καὶ Ἀλκίνῳ δὲ, τρυφερὸν ᾑρημένῳ βίον·
+           σπουδάζων ἡμᾶς ἀποστῆσαι τῶν ἀτάκτων ἐπιθυμιῶν.
+           Καὶ Νέστορα δὲ ποιεῖ παρὰ τῇ θαλάσσῃ τῷ Ποσειδῶνι
+           κεχαρισμένην τινὰ θυσίαν ἐπιτελοῦντα, καὶ πολλοὺς
+           ἔχοντα, τάδε παρακελευόμενον,
+           <lg><l>Ἀλλ᾿ ἄγ᾿, ὁ μέν πεδίονδ᾿ ἐπὶ βοῦν ἴτω,</l></lg>
+           καὶ τὰ ἑξῆς. Καὶ Ἀλκίνους δὲ τὸς τρυφερωτάτους
+           ἑστιῶν Φαίακας καὶ τὸν Ὀδυσσέα ξενίζων, ἐπιδεικνύμενος
+           αὐτῷ τὴν τοῦ κήπου κατασκευὴν καὶ τῆς οἰκίας
+           καὶ τὸν αὑτοῦ βίον, τοιαύτας παρατίθεται τραπέζας·
+           καὶ τοὺς μνηστῆρας, ὑβριστὰς ὄντας καὶ πρὸς ἡδονὰς
+           ἀνειμένους, οὔτε ἰχθύας ἐσθίοντας ποιεῖ ποιεῖ οὔτε ὄρνιθας
+           οὔτε μηλίπηκτα, περιελὼν παντὶ σθένει τὰς μαγειρικὰς
+           μαγγανείας.</quote>
+               <note>H&#230;c Suidas sumpsit ex <bibl>Athen&#230;o I, 9, E</bibl>, sed integriore,
+           quam nos habemus, libro usus. Caput hoc
+           in <bibl>Athen&#230;i Exc.</bibl> inscribitur <quote xml:lang="grc">Περὶ τοῦ τῶν ἠρώων
+           καθ᾿ Ὅμηρον βίου</quote>. Dioscroidis mentio omissa est.
+           Discrepantias singulas non enotabo. V. <bibl>Berhardy
+           ad Suid.</bibl> Et <bibl>Dindorf. Ad Athen.</bibl>—<foreign xml:lang="grc">Καὶ Νέστορα δὲ
+               ποιει κτλ.]</foreign> H&#230;c manca sunt. <ref>Athen&#230;us</ref> noster plenior
+           <quote xml:lang="grc">Καὶ Νέστωρ δὲ βόας θύει Ποσειδῶνι παρὰ τῇ
+           <pb n="194"/>           
+           θαλάττῃ διὰ τῶν φιλτάτων καὶ οἰκειοτάτων τέκνων,
+           βασιλεὺς ὢν καὶ πολλοὺς ἔχων ὑπηκόους. Ὁσιωτάτη
+           γὰρ αὕτη ἡ θυσία θεοῖς καὶ προσφιλεστέρα ἡ διὰ τῶν
+           οἰκείων καὶ εὐνουστάτων ἀνδρῶν.</quote>—In postremis
+           <ref>Athen&#230;us</ref> <quote xml:lang="grc">τὰς μαγειρικὰς μαγγανείας καὶ τὰ, ὡς
+           ὁ Μένανδρός φησιν, ὑποβινητιῶντα βρώματα, καὶ τὸ
+           παρὰ πολλοῖς λασταυροκάκκαβον καλούμενον βρῶμα,
+           ὥς φησι Χρύσιππος, οὗ ἡ κατασκευὴ περιεργοτέρα.</quote>
+            Qu&#230; ipse Athen&#230;us de suo addidit, sicuti mox
+           Philochori locum interposuit. Etenim pergit Excerptor
+           <bibl>Athen&#230;i c. 16:</bibl> <quote>Πρίαμος δὲ παρὰ τῷ ποιητῇ
+           καὶ ὀνειδίζει τοῖς υἱοῖς ἀναλίσκουσι τὰ μὴ νενομισμένα,
+           <lg><l>Ἀρνῶν ἠδ᾿ ἐρίφων ἐπιδήμιοι ἁρπακτῆρες.</l></lg>
+           [Φιλόχορος δὲ ἱστορεῖ καὶ κεκωλύσθαι Ἀθήνησιν
+           ἀπέκτου ἀρνὸς μηδένα γεύεσθαι, ἐπιλιπούσης ποτὲ τῆς
+           τῶν ζῴων τούτων γενέσεως.] Ἑλλήσποντον δὲ Ὅμηρος
+           ἰχθυόεντα προσαγορεύων, καὶ τοὺς Φαίακας πλωτικωτάτους
+           ποιῶν, καὶ ἐν τῇ Ἰθάκῃ εἰδὼς λιμένας
+           πλείους καὶ νήσους προσεχεῖς πολλὰς, ἐν αἷς ἰχθύων
+           ἐγίνετο πλῆθος καὶ ἀγρίων ὀρνίθων, καὶ εὐδαιμονίαν
+           δὲ καταριθμῶν τὸ τὴν θάλασσαν ἰχθῦς παρέχειν,
+           ὅμως τούτων οὐδὲν οὐδένα ποιεῖ προσφερόμενον· καὶ
+           μὴν οὐδ᾿ ὀπώραν παρατίθησί τινι, καίπερ οὖσαν πολλὴν,
+           καὶ ἥδιστα ταύτης μνημονεύων καὶ πάντα χρόνον
+           παρασκευάζων ἀθάνατον. <quote>«Ὄγχνη γὰρ, φησὶν,
+           ἐπ᾿ ὄγχνῃ»</quote> καὶ τὰ ἑξῆς. Ἀλλὰ μὴν οὐδὲ στεφανουμένους
+           οὐδὲ μυρουμένους ποιεῖ, ὥσπερ οὐδὲ θυμιῶντας,
+           ἀλλὰ πάντων τούτων ἀπολύων τοὺς ἀνθρώπους εἰς εὐτέλειαν
+           καὶ αὐτάρκειαν ἐξαιρεῖται τοὺς πρὸ τοῦ. Καὶ
+           θεοῖς δὲ ἁπλῆν ἀποδίδωσι δίαιταν, νέκταρ καὶ ἀμβροσίαν.
+           Καὶ τοὺς ἀνθρώπους δὲ ποιεῖ τιμῶντας αὐτοὺς
+           ἀπὸ τῆς διαίτης, ἀφελὼν λιβανωτὸν καὶ σμύρναν καὶ
+           στεφάνους καὶ τὴν περὶ ταῦτα τρυφήν. Καὶ τῆς ἁπλῆς
+           δὲ ταύτης διαίτης οὐκ ἀπλήστως ἀπολαύοντας παρίστησιν,
+           ἀλλ᾿ ὡς οἱ κράτιστοι τῶν ἰατρῶν ἀφαιροῦσι τὰς
+           πλησμονάς.
+           <lg><l>Αὐτὰρ ἐπεὶ πόσιος καὶ ἐδητύος ἐξ ἔρον ἕντο,</l></lg>
+           καὶ τὴν ἐπιθυμίαν πληρώσαντες οἱ μὲν ἐξώρμων ἐπὶ μελέτην
+           ἀθλητικὴν, δίσκοισι τερπόμενοι καὶ αἰγανέαις,
+           τῇ παιδιᾷ τὰ πρὸς σπουδὴν ἐκμελετῶντες· οἱ δὲ κιθαρῳδῶν
+           ἠκροῶντο τὰς ἡρωικὰς πράξεις ἐν μέλει καὶ
+           ῥυθμῷ ποιούντων.
+           Διὸ οὐδὲν θαυμαστὸν, τοὺς οὕτω τεθραμμένους
+           ἀφλεγμάντους εἶναι τὰ σώματα καὶ τὰς ψυχάς. Ἐνδεικνύμενος
+           οὖν καὶ εὐταξίαν ὡς ὑγιεινόν ἐστι καὶ
+           εὔχρηστον καὶ κοινὸν, τὸν σοφώτατον Νέστορα πεποίηκε
+           Μαχάονι τῷ ἰατρῷ τετρωμένῳ τὸν δεξιὸν
+           ὦμον προσφέροντα οἶνον, ταῖς φλεγμοναῖς ἐναντιώτατον
+           ὄντα–καὶ τοῦτον Πράμνειον, ὃν ἴδμεν παχὺν
+           καὶ πολύτροφον—οὐ διψήσεως ἄκος, ἀλλ᾿ ἐμφορήσεως
+           ἕνεκα· πεπωκότι γοῦν παρακελεύεται συνεχῶς τοῦτο
+           ποιεῖν· <quote>«Σὺ μὲν, φησὶ, καθήμενος πῖνε.»</quote> Καὶ ἐπιξύοντα
+           τυρὸν αἴγειον. ἐπὶ δὲ κρόμυον ποτοῦ ὄψον. Ἵνα
+           πλεῖον πίνῃ, καίτοι ἀλλαχοῦ λέγων τὸν οἶνον ἐκλύειν
+           τὴν ἰσχὺν καὶ ἀπογυιοῦν. Περὶ δὲ τοῦ Ἕκτορος Ἑκάβη,
+           οἰομένη μένειν αὐτὸν τὸ καταλειπόμενον τῆς ἡμέρας,
+           <pb n="195"/>
+           παρακαλεῖ πιεῖν σπείσαντα, προτρεπομένη εἰς θυμηδίαν.
+           Ὁ δ᾿ ὑπερτίθεται, πρὸς πρᾶξιν ἐξιών. Καὶ ἡ μὲν
+           ἀπερισπάστως ἐπαινεῖ τὸν οἶνον, ὁ δὲ μετὰ ἄσθματος
+           ἥκων ἀπωθεῖται· καὶ ἡ μὲν ἀξιοῖ σπείσαντα πιεῖν,
+           ὁ δὲ καθῃμαγμένος ἀσεβὲς ἡγεῖτο. Οἶδε δὲ ὁ Ὅμηρος
+           καὶ τὸ ὠφέλιμον καὶ τὸ σύμμετρον τοῦ οἴνου, οἷς τὸν
+           χανδὸν ἕλκοντα αὐτὸν βλάπτεσθαι φησί. Καὶ κράσεων
+           δὲ γένη διάφορα ἐπίσταται· οὐκ ἂν γὰρ Ἀχιλλεὺς τὸ
+           ζωρότερον κεραίρειν διέστειλε, μὴ οὔσης τινὸς καθημερινῆς
+           κράσεως. Ἴσως οὖν οὐκ ἐγίνωσκεν αὐτὸν εὐδιαφόρητον
+           ἄνευ στερεμνίου σιτίου μίγματος, ὃ τοῖς ἰατροῖς
+           διὰ τὴν τέχνην ἐστὶ δῆλον· τοῖς γοῦν καρδιακοῖς μετὰ
+           οἴνου σιτῶδες ἀναμίσγουσί τι πρὸς κατοχὴν τῆς δυνάμεως.
+           Ἀλλ᾿ ἐκεῖνος τῷ μὲν Μαχάονι μετ᾿ ἀλφίτου καὶ
+           τυροῦ δέδωκε τὸν οἶνον, τὸν δ᾿ Ὀδυσσέα ποιεῖ συνάπτοντα
+           τὴν ἀπὸ τῶν σιτίων καὶ οἴνων ὠφέλειαν·
+           <lg><l>Ὀς δέ κ᾿ ἀνὴρ οἴνοιο κορεσσάμενος καὶ ἐδωδῆς.</l></lg>
+           Τῷ δὲ κωθωνιζομένῳ δίδωσι τὸν ἡδύποτον, οὕτω καλέσας αὐτόν·
+           <lg><l>Ἐν δὲ πίθοι οἴνοιο παλαιοῦ ἡδυπότοιο.</l></lg>
+           Ποιεῖ δὲ Ὅμηρος καὶ τὰς τὰς κόρας καὶ τὰς γυναῖκας
+           λουούσας τοὺς ξένος, ὡς οὔτε φλεγμονὴν οὔτε
+           ἀκρασίαν τῶν εὖ βεβιωκότων καὶ σωφρόνως ἁπτομένας.
+           Ἀρχαῖον δὲ τοῦτο ἔθος. Λούουσι γοῦν καὶ αἱ Κωκάλου
+           θυγατέρες, ὡς νενομισμένον, τὸν Μίνω παραγενόμενον
+           εἰς Σικελίαν. Τῆς μέθης δὲ κατατρέχων
+           ὁ ποιητὴς, τὸν τηλικοῦτον Κύκλωπα ὑπὸ μικροῦ σώματος
+           διὰ ταύτην ἀπολλύμενον παρίστησι, καὶ Εὐρυτίωνα
+           τὸν Κένταυρον· τούς τε παρὰ Κίρκῃ λέοντας
+           ποιεῖ καὶ λύκους, ταῖς ἡδοναῖς ἐπακολουθήσαντας. Τὸν
+           δὲ Ὀδυσσέα σώζει, τῷ Ἑρμοῦ λόγῳ πεισθέντα· διὸ
+           καὶ ἀπαθὴς γίνεται. Ἐλπήνορα δὲ, πάροινον ὄντα καὶ
+           τρυφερὸν, κατακρημνίζει. Καὶ Ἀντίνοος δὲ, λέγων
+           πρὸς Ὀδυσσέα «Οἶνός σε τρώει μελιηδής», αὐτὸς οὐκ
+           ἀπείχετο τοῦ πώματος· διὸ καὶ τρωθεὶς ἀπώλετο, ἔτι
+           κρατῶν τὸ ποτήριον. Ποιεῖ δὲ καὶ τοὺς Ἕλληνας ἐν
+           τῷ ἀπόπλῳ μεθύοντας, διὸ καὶ στασιάζοντας· ὅθεν καὶ
+           ἀπόλλυνται. Ἱστορεῖ δὲ καὶ τὸν δεινότατον Αἰνείαν
+           τῶν Τρώων ἐν τῷ βουλεύεσθαι, διὰ τὴν ἐν τῇ μέθῃ
+           παρρησίαν καὶ τὰς ἀπειλὰς, ἃς Τρωσὶν ὑπέσχετο οἰνοποτάζων,
+           ὑπομείναντα τὴν Ἀχιλλέως ὁρμὴν καὶ μικροῦ
+           παραπολλύμενον. Καὶ Ἀγαμέμνων δὲ λέγει που περὶ
+           αὑτοῦ.
+           <lg><l>Ἀλλ᾿ ἐπεὶ ἀασάμην, φρεσὶ λευγαλέῃσι πιθήσας,</l>
+           <l>ἤ οἴνῳ μεθύων, ἤ μ᾿ ἔβλαψαν θεοὶ αὐτοί.</l></lg>
+           Εἰς τὴν αὐτὴν τιθεὶς πλάστιγγα τὴν μέθην τῇ μανίᾳ.
+           —Οὕτω δὲ τὰ ἔπη ταῦτα προηνέγκατο Διοσκουρίδης
+           ὁ Ἰσοκράτους μαθητής.—Καὶ ὁ Ἀχιλλεὺς δ᾿ ὀνειδίζων
+           τῷ Ἀγαμέμνονι, φησίν.
+           Οἰνοβαρὲς, ὄμματ᾿ ἔχων.
+           <pb n="196"/>
+           Ταῦτ᾿ εἶπε τὸ Θέσσαλον σόφισμα <note type="editorial">(i. e. Myrtilus,
+           unus e dipnosophistis)</note>.</quote>
+               <note>Ceterum etiam eorum qu&#230; in sequentibus de vita
+           heroum Homericorum permulta affert, magnam
+           partem e Dioscuride fluxisse probabile est.</note></note></cit></div>
+                   
+                   <div type="textpart" subtype="work" n="4">
+                       <ab><title xml:lang="grc">ΑΠΟΜΝΗΜΟΝΤΥΜΑΤΑ.</title></ab>
+     
+           <cit n="6" xml:lang="grc"><bibl>Diogenes L. I, 63:</bibl> <quote>Καὶ αὐτόν <note type="editorial">(τὸν Σόλωνα)</note> φησι
+           <persName role="author">Διοσκουρίδης</persName> ἐν τοῖς <title>Ἀπομνημονεύμασιν</title>, ἐπειδὴ δακρύοι τὸν
+           παῖδα τελευτήσαντα, πρὸς τὸν εἰπόντα
+           «Ἀλλ᾿ οὐδὲν ἀνύτεις», εἰπεῖν, <quote>«Δι᾿ ἀυτὸ δὲ τοῦτο
+           δακρύω, ὅτι οὐδὲν ἀνύτω»</quote>.</quote></cit>
+           
+           <cit n="7" xml:lang="grc"><bibl>Athen&#230;us XI, p. 507, D:</bibl> <quote>Ἦν δὲ ὁ Πλάτων πρὸς
+           τῇ κακοηθείᾳ καὶ φιλόδοξος, ὅστις ἔφησεν, Ἔσχατον
+           τὸν τῆς δόξης χιτῶνα ἐν τῷ θανάτῳ αὐτῷ ἀποδυόμεθα,
+           ἐν διαθήκαις, ἐν ἐκκομιδαῖς, ἐν τάφοις· ὥς φησι <persName role="author">Διοσκουρίδης</persName>
+           ἐν τοῖς <title>Ἀπομνημονεύμασι</title>.</quote> <note>H&#230;c Athen&#230;us
+           sumpsisse videtur ex <bibl>Commentariis Hegesandri</bibl>.</note></cit>
+           
+           <cit n="8" xml:lang="grc"><bibl>Schol. Apoll. Rhod. I, 741:</bibl> <quote><persName role="author">Διοσκορίδης</persName> δὲ ὑπὸ
+           Ἀπόλλωνος (τὴν λύραν δοθῆναι Ἀμφίονι λέγει).</quote></cit></div></div>
+                    
+                    </div>        
+        </body>
+    </text>
+</TEI>

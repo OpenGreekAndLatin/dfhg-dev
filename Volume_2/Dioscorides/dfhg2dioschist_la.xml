@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2dioschist_la">
+    <teiHeader>
+        <fileDesc>
+ 
+            <titleStmt>
+ 
+                <title>Fragmenta Historicorum Graecorum</title>
+ 
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+ 
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+ 
+            </titleStmt>
+ 
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2dioschist_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike International 4.0 License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+ 
+            <sourceDesc>
+                <listBibl xml:lang="la">
+             
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg2409">Dioscorides</author>
+ 
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+ 
+                            <biblScope unit="volume">2</biblScope>
+ 
+                        </monogr>
+ 
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+ 
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+ 
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia"><catDesc>Parentheses around the number of a fragment, e. g. (1), mean Müller's uncertainty (dubia) about the attribution of a fragment to a certain author.</catDesc></category>
+                        <category xml:id="incerta"><catDesc>Square brackets around the number of a fragment, e. g. [1], mean Muller suggests an attribution of a fragment to a certain author.</catDesc></category>
+                        <category xml:id="anonyma"><catDesc>A question mark after the number of the fragmemt means that the name of the fragmentary author is not mentioned by the source text.</catDesc></category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+ 
+        <profileDesc>
+            <langUsage>
+            
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+ 
+            </langUsage>
+        </profileDesc>
+ 
+        <revisionDesc>
+
+            <change who="#KS" when="2014-11-25">Created the XML file</change>
+            <change who="#KS" when="2014-11-25">Encoded text</change>
+            <change who="#MB" when="2014-12-23">Proofread and updated.</change>
+        </revisionDesc>
+ 
+    </teiHeader>
+ 
+    <text>
+        <body>
+ 
+            <div type="edition" subtype="volume" n="2" xml:lang="grc"> 
+                <div type="textpart" subtype="book" n="3">
+ 
+                    <head xml:lang="la">
+                        <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg2409.tlg004.opp-lat1">DIOSCORIDES</title>
+                    </head>
+  
+ <pb n="192"/>
+                        <div type="textpart" subtype="work" n="1">
+                            <ab><title xml:lang="LA">DE LACONICA REPUBLICA.</title></ab>
+                            
+                            <p n="1">Lycurgus ad memoriam ejus rei sancendam Minerv&#230;
+                            templum posuit nomine Optiletidis: nam oculos Dorienses
+                            istius regionis <foreign xml:lang="grc">ὀπτίλους</foreign> vocant. Auctores habeo, inter eosque
+                            Dioscoridem, qui de republica Spartana scripsit, qui ictum
+                            quidem oculum. Non tamen eo captum Lycurgum asserant:
+                            quin imo gratiarum actionis nomine pro medela
+                            de&#230; fanum id ab eo exstructum.</p>
+                        
+                            <div type="textpart" subtype="book" n="1">
+                                <ab><title  xml:lang="la">E LIBRO SECUNDO.</title></ab>
+                           
+                            <p n="2">Ceterum non Orthagorisci, ut ait Polemon, vocantur
+                            lachantes porcelli, sed or thragorisci, quod <foreign xml:lang="la">πρὸς τὸν ὄρθρον</foreign>
+                            (sub diluculum) veneunt, ut Pers&#230;us tradit in Laced&#230;moniorum
+                            Rep. Et dioscroides secundo Reipublic&#230; libro et
+                            Aristocles in priore librorum, quos et ipse de Laced&#230;moniorum
+                            rep. scripsit.</p>
+                            
+                            <p n="3">Paucis post diebus ad Mantineam pugnatum est. Ibi
+                            Epaminondam, quum primos in fugam conjectos insequereture,
+                            Anticrates Laco sustinens hasta feriit, ut quidem
+                            Dioscorides narrat; nam Lacedæmonii eos qui ab Anti
+                            crate genus ducunt ducunt etiamnum Machærionas vocant; quod
+                            <foreign xml:lang="la">μαχαίρᾳ</foreign>, i. e. ense, Epaminondam percusser it. Adeo enim
+                            Epaminond&#230; terror carum Spartanis ejus percussorem reddidit,
+                            ut ei honores ac munera, posteritati immunitatem
+                            decreverint; qua etiam nostra &#230;tate Callicartes unus de
+                            Anticratis posteris fruitur.</p></div></div>
+                          
+                           <pb n="193"/>
+                           <div type="textpart" subtype="work" n="2">
+                               <ab><title xml:lang="la">DE INSTITUTIS.</title></ab>
+                            
+                            <p n="4">Dioscorides De institutis dicit, feneratores Spart&#230; dividere
+                            scytalen, duobus testibus pr&#230;sentibus, et in utraque
+                            ejus parte contractum scribere; et alteram quidem uni ex
+                            testibus dare, alteram vere sibi reservare.</p></div>
+                            
+                            <div type="textpart" subtype="work" n="3">
+                                <ab><title xml:lang="la">DE HOMERICIS INSTITUTIS.</title></ab>
+                            
+                            <p n="5">Dioscorides in Homericis Institutis ait, poetam, quum
+                            videret temperantiam in juvenibus virtutem esse primariam
+                            et tati illi maxime convenientem, qu&#230;que honesta
+                            omnia suppeditaret, quumque eam ab initio et deinceps animis
+                            illorum inserere vellet, ut omne otium et studium in
+                            rebus honestis consumerent, essentque benefici et mutuis
+                            officiis se juvarent: victum vilem et paratu omnibus facilem
+                            tribuisse reputantem cupiditates illas et voluptates,
+                            <bibl>fragmenta Hist GR.—Vol. II</bibl>.
+                            Qu&#230; in cibo et potu versantur, esse vehementissimas et
+                            primas hominiumque animis natura insitas; illos vero, qui
+                            frugaltati semper studuissent, in relique etiam vita moderatos
+                            et continentes esse. Quare simplicem victum omnibus
+                            tribuit eundemque regibus pariter ac privatis, dicens: Dolatam
+                            vero apposuit mensam; verecunda autem palinas;
+                            canium nempe assatarum, earumque plerumque bubularum.
+                            Pr&#230;ter h&#230;c vero neque in diebus festis neque in
+                            alio conventu quiduam aliud apponit; quamvis s&#230;pius
+                            faciat Agamemnonem convivio excipientem Gr&#230;corum
+                            principes. Menelaus etiam celebrat nuptias Hermiones filiæ
+                            itemque filii. Quum autem Telemachus ad eum venisset,
+                            ej Terga bovis apposuit assa, manibus suis ea capiens,
+                            qu&#339; ipsi ut eæimia apposita erant: haud enim thria vel
+                            candylon vel ametas mellitasve placentas regibus pr&#230; cete.
+                            Ris ut eximia apponit Homerus, sed talia, qu&#230; et corport
+                            et animo vigorem datura sint. Et Ajacem post certamen
+                            singulare Agamemno tergo bubulo donat. Nestori quoque
+                            seni, et Alcino laute et delicate viventi carnem bubulam                                                  
+                            <pb n="194"/>                                                       
+                            assam apponit, ab immoderatis nimirum cuplditatibus nos
+                            abducere studens; Nestorem etiam, quum juxta mare gratum
+                            Neptuno sacrificium institueret, liberorum ministerio
+                            utentem facit, etiamsi multos haberet alios, ubi ait: Sed
+                            age, alius quidem in campum ad bovem eat, etc. Alcinous
+                            etiam Ph&#230;acibus deliciarum amantissimis epulum
+                            præbens, et Ulyssi, quem hospitio exceperat, hortos et
+                            domum victusque sui rationem ostendens tales apponit dapes.
+                            Ad h&#230;c procos, homines petulantes et voluptatibus
+                            maxime deditos, nec pisces facit edentes, neque aves aut
+                            placentas mellitas: ut omnia gul&#230; irritamenta abouleret.
+                            Priamus vero apud poetam objurgat etiam filios, quod ea,
+                            quæ nefas esset, absumerent:
+                            agnorum atque hœdorum publici raptores.
+                            [Philochorus vero memori&#230; prodidit, Athenis quoque,
+                            quum defecisset aliquando pecudum genus, vetitum fuisse
+                            ne quis intonso agno vesceretur.] Porro, licet Hellespontum
+                            piscosum nominarit Homerus, et Ph&#230;acas navigationi
+                            inprimis operam dantes fecerit, et in Ithaca insula
+                            plures portus noverit, multasque in propinquo insulas,
+                            in quibus piscium et silvestrium volucrium magna esset
+                            copia, atque etiam in parte quadam felicitatis illorum locorum
+                            numerarit, quod plsces mare pr&#230;beat; neminem tamen
+                            aliquid horum comedentem inducit. Sed ne poma
+                            quidem et id genus fructuum mensis imposita facit,
+                            quamvis nec deesset copia, et lubens eorum mentionem
+                            fecerit poeta, et nullo tempore intermorientem eorundem
+                            proventum fuisse prodiderit, quum ait, Pyra succedunt
+                            pyris, et qu&#230; sequuntur. Porro nec coronis, nec unguentis,
+                            nec suffimentorum odoribus utentes facit. Sed omnibus
+                            his deliciis eximens homines, in libertatem ac vitam
+                            paucis contentam, præsertim reges vindicat. Atque etiam
+                            diis simplicem tribuit victum, nectar et ambrosiam. Et
+                            homines inducit de ipsorum victu illos honorantes, procul
+                            ablegans thura, myrrham, coronas, aliasque in hoc genere
+                            delicias. Ac ne ipso quidem illo victu immoderatius utentes
+                            inducit: sed, quod pr&#230;stantissimi faciunt medici, nimiam
+                            detrahit plenitudinem.
+                            Postuam exempta fames epulis, mens&#230;que remot&#230;,
+                            postquam cibi potusque desiderium explessent, alii ad
+                            ludos thleticos exibant, discis jaculisque se oblectantes,
+                            et ludicro illo certamine ad seria sese exercentes: alii citharœdos
+                            audiebant, heroum res gestas modis numerisque
+                            exsequentes.
+                            Quare nil mirum, tali modo enutritos nec corporibus
+                            turgescere, nec animis. Significans igitur etiam, quam
+                            salubris sit, quamque late patentem utilitatem habeat
+                            moderata vita, spientissimum Nestorem Machaoni medico,
+                            quum in dextero humero vulnus accepisset, vinum
+                            porrigentem inducit, quod est tumoribus inflammationibusque
+                            maxime contrarium, illudque Pramnium, quod
+                            novimus crassum esse multumque alere; et id quidem                           
+                            <pb n="195"/>                                                                                  
+                            non modo ut sitis remedium, sed quo sese largius etiam
+                            iagurgitet: certe postquam ille jam bibit, hortatur hic, ut
+                            assidue id agat: Tu, inquit, sede bibegue. Caseumque
+                            caprinum deradentem facit, insuperque cepam adjicientem,
+                            quod potioni esset obsonium, quo copiosius biberet:
+                            quanquam alibi dicit, vinum exsolvere vires, et enervare
+                            hominem. Sed, quod ad hectorem spectat, eum quidem
+                            mecuba, reliquum diei in urbe manere cupiens, ad bibendum
+                            invitat libandumque, et ad l&#230;titiam hortatur; at ille,
+                            ad conflictum reversurus, in aliud tempus differt. Et &#230;c
+                            quidem indesinenter laudat vinum; at ille, anhelosus venieus,
+                            respuit. Et instat quidem hæc, ut libet bibatque; at
+                            ille. Utpote cruore respersus, fas esse negat. Novit vero
+                            Homerus modum etiam vini, et quatenus illud conducat;
+                            quandoquidem avidius trahentibus nocere ait. Atque
+                            etiam varia temperandi vini genera novit: non enim meracius
+                            temperandum dixisset Achilles, ni fuisset quædam
+                            quotidiana temperatura. At fortassis nescivit poeta, facile
+                            dogero vinum ac divanescere, solidiore cibo non admixto;
+                            quod medicis per artem compertum est. Itaque cardiacis
+                            hi viaum ita pr&#230;hent, ut panem aut aliquem ex eo genere
+                            cibum admisceant, ad retinendam vini vim. At ille etiam
+                            Machaoni cum polenta et caseo dedit vinum; Ulyssem vero
+                            cibi ac potionis utilitatem conjungentem facit:
+                            Quicumque vir vino satiatus et cibo.
+                            Compotanti vero tribuit, quem ducem sive suavem potum
+                            vocat:
+                            Ibi vero dolia vini veteris dulcis.
+                            Apod cundem Homerum virgines atque femin&#230; hospites
+                            lavant; nec illi, ut qui vitam recte instituerunt,
+                            libidine inflammantur; et h&#230; illos modeste attrectant.
+                            Priscus enim ille mos fuit. Sane Cocali fili&#230;, pro consueto
+                            more, Minoem lavant in siciliam adventantem. Ebrietatem
+                            vero vituperans poeta, Cyclopem tam vastum ob eam fingit
+                            ab homuncione pusillo interemptum, eademque de causa
+                            Eurytionem Centaurum periisse: et apud Circen Ulyssis
+                            socios in leones et lupos mutatos facit, quoniam voluptates
+                            essent secuti; Ulyssem vero servatum, quod Mercurii
+                            mandatis paruisset, qua prudentia illæsus evasit. Jam Elpenor,
+                            vino madens et luxu solutus, præceps ruit: et Antinous,
+                            sic Ulyssem adfatus,
+                            Vinum te l&#230;dit mellitum;
+                            quum ab ejus potu ipse abstinuisset, sauciatus interiit
+                            manu adhuc tenens poculum. Gr&#230;cos etiam, quum classis
+                            solvenda esset, vinolentos describit, et idcirco seditiosos;
+                            quod fuit illis exitiosum. Narrat idem, &#198;neam, Trojanorum
+                            omnium consuitissimum, ob suam, quum vino madidus
+                            esset, in dicendo libertatem et audaciam, ac ea qu&#230; inter
+                            pocula apud Trojanos minatus Gr&#230;cis fuerat, Achillis impetum
+                            sustinentem p&#230;ne occubuisse. Et Agamemnonem
+                            alicubi de temulentia sic loquentem inducit:
+                            Sed quoniam peccavi, animo obsecutus pernicioso,
+                            sive ebrius, sive l&#230;sus c&#339;lesti numinis ira:
+                            eadem in lance ponentem ebrietatem et animi furorem.
+                            (Sic enim versus illos protulit Dioscorides, Isocratis discipulus.)
+                            Et Agamemnoni Achilles sic conviciatur:
+                            Vino gravis, cui caninus est oculus.
+                            H&#230;c disputa vit Thessalum sophisma.</p></div>
+                            
+                            <pb n="196"/>
+                          
+                             <div type="textpart" subtype="work" n="4"><ab>
+                                 <title xml:lang="la">MEMORABILIA.</title></ab>
+                            
+                            <p n="6">Dioscorides in Memorabilibus refert Solonem, quum
+                            lacrimaretur lugens defunctum filium, dicereturque a quodam,
+                            «At nihil proficis,» respondisse: «At propter hoc
+                            ipsum illacrimor quod nihil proticio.»</p>
+                            
+                            <p n="7">Erat Plato non malevolus solum, verum etiam glori&#230;
+                            cupidus; is qui dixerat: «Extremam tunicam, glori&#230; cupiditatem,
+                            in ipsa morte deponimus, in testamentis, in
+                            exsequiis, in sepulcrorum monumentis,» ut tradit dioscorides
+                            in Memorabilibus.</p>
+                            
+                            <p n="8">Dioscorides ait ad Apolline Apolline Amphionem lyra denatum esse.</p>
+                                       
+            </div></div></div>
+        </body>
+    </text>
+</TEI>
