@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg3alexandrides_la">
+
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+
+                <title>Fragmenta Historicorum Graecorum</title>
+
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg3alexandrides_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/"
+                                >Alexandrides Delphus</author>
+                            <!-- no cts urn -->
+
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+
+                            <biblScope unit="volume">3</biblScope>
+
+                        </monogr>
+
+                        <ref target="https://archive.org/stream/fragmentahistori03mueluoft">Internet
+                            Archive</ref>
+
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt means that the
+                                name of the fragmentary author is not mentioned by the source
+                                text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+
+            <change who="#UK" when="2014-10-03">Created XML file</change>
+            <change who="#UK" when="2014-10-03">Encoded text</change>
+            <change who="#MB" when="2015-01-02">Proofread and updated.</change>
+            
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text>
+
+        <body>
+
+
+            <div type="translation" subtype="volume" n="3" xml:lang="la">
+
+                <div type="textpart" subtype="book" n="5">
+
+                    <pb n="106"/>
+
+                    <div type="textpart" subtype="work">
+                        <ab>
+                            <title type="main" xml:lang="la">DE DELPHICO ORACULO.</title>
+                        </ab>
+
+                        <p n="1">Parnassum, Delphorum montem, nonnulli nomen accepisse dicunt a
+                            Parnasso, qui etiam primus in Pytho loco oracula ediderit, ut
+                            Alexandrides ait libro primo De Delphico oraculo.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work">
+                        <ab>
+                            <title type="main" xml:lang="la">DE DIREPTIS TEMPLI DELPHICI
+                                DONARIIS.</title>
+                        </ab>
+                        
+                        <p n="2"><hi rend="italics">Summum cape et medium habebis</hi>.
+                            Apell&#230;i(?) ex bello Clistheneo superstites deum interrogarunt,
+                            utrum prior ipsorum urbs restauranda ipsis, an alia &#230;dificanda
+                            esset. Respondit Pythia: <hi rend="italics">Pare verbis meis, summum
+                                cape et habebis medium.</hi> Igitur urbem, qu&#230; arcem habebat
+                            mediam, occupantes inhabitarunt. Historia apud Alexandridem libro primo
+                            De direptis templi Delphici thesauris.</p>
+
+                        <p n="3">Lysander ex manubiis &#230;ream sui statuam Delphis posuit et
+                            uniuscujusque pr&#230;fectorum navibus, et stellas Castorum aureas,
+                            qu&#230; ante Leuctricam pugnam de medio sublat&#230; sunt. In
+                            Brasid&#230; et Acanthiorum thesauro triremis sita fuit bicubitalis, ex
+                            auro et ebore confecta, quam Cyrus Lysandro ob partam victoriam
+                            gratulans misit. Anaxandrides Delphicus scriptum reliquit, depositum
+                            etiam ibi Lysandri fuisse, talentum scilicet arenti et minas
+                            quinquaginta duas, undecimque stateres: qu&#230; cum iis, qu&#230; de
+                            paupertate viri in confesso sunt, non conveniunt.</p>
+
+                        <p n="4">Silphium plauta permagni &#230;stimatur, hanc ob causam <pb n="106"
+                                break="no"/>Battus, quem etiam Aristotelem vocant, in Libya Cyrenen
+                            urbem condidit jussu oraculi, quod ab Apolline acceperat. Cujus
+                            beneficii gratiam referre regi volentes Cyren&#230;i cives annulum
+                            faciendum curarunt, in quo urbs silphium regi offerens visebatur. Folia
+                            hujus plant&#230; et fructus et stirps et succus et omnino tota planta
+                            in magno pretio est. Ampeliot&#230; vero Liby&#230; gens silphii stirpem
+                            Delphos miserunt donarium, ut Alexandrides narrat.</p>
+
+                        <p n="5">Alexandrides Delphus Apollinem pro mancipio serviisse ait propterea
+                            quod draconem Pythicum interfecisset.</p>
+
+                        <p n="6"><hi rend="italics">Quis est apud Delphos Hosioter, et cur unum de
+                                mensibus appellant Bysium?</hi> Hosioter est victima qu&#230;
+                            immolatur quum creatur Hosius <note>(vox <hi rend="italics">sanctum</hi>
+                                notat)</note>. Quinque autem sunt <hi rend="italics">Hosii</hi> per
+                            omnem vitam, multisque in rebus adsunt vatibus, atque una etiam
+                            sacrificant: quippe a Deucalione genus crediti trahere. <hi
+                                rend="italics">Bysius</hi> mensis, ut plerique putant, <hi
+                                rend="italics">Physius</hi> est, a nascendo sic dictus: est enim
+                            veris initio, quo tempore pleraque nascuntur et germinant: sed res ita
+                            non habet. Non enim Delphi B littera pro Ph utuntur, ut Macedones, qui
+                                <hi rend="italics">Bilippum, Balacrum, Beronicam</hi> dicunt
+                                <note>(qu&#230; sunt <hi rend="italics">Philippus, Phalacrus,
+                                    Pheronice</hi>)</note>, sed loco litter&#230; P, soliti <hi
+                                rend="italics">batein</hi> dicere et <hi rend="italics">bicron</hi>,
+                            qu&#230; sunt <hi rend="italics">patein</hi> et <hi rend="italics"
+                                >picron</hi>. Est ergo <hi rend="italics">Bysius</hi> dictum pro <hi
+                                rend="italics">Pysius</hi>, quod eo mense deum scitantur. Atque
+                            h&#230;c sententia convenit cumantiquis Delphorum observationibus. Mense
+                            enim isto oraculum primo exstitit, et septimanam istam deo natalitiam
+                            putant, <hi rend="italics">polyphthoumque</hi> nominant, non a coquendis
+                                <hi rend="italics">phthoibus</hi>, quod est placent&#230; genus, sed
+                            quod multa tum responsa deus edat. Sero enim cœpit singulis mensibus
+                            oracula requirentibus respondere: antiquitus semel duntaxat in anno
+                            vaticinabatur Pythia, idque ista die, ut Callisthenes et Alexandridas
+                            tradiderunt.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work">
+                        <ab>
+                            <title type="main" xml:lang="la">DE LYCOREA.</title>
+                        </ab>
+
+                        <p n="7">Lycorea, vicus Delphicus. Callimachus libro tertio. A Lycoreo rege
+                            nomen habet. Civis Lycorensis et Lycorius et Lycorites. Est etiam
+                            Juppiter Lycoreus, et Lycoreum, teste Alexandro in secundo De
+                            Lycorea.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </body>
+    </text>
+</TEI>
