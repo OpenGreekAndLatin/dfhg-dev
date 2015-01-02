@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2diyll_grc">
+
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2diyll_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike 4.0 International
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1911"
+                                >Dyillus Atheniensis</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/details/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#KS" when="2013-11-28">Created the XML file</change>
+            <change who="#KS" when="2013-11-28">Encoded text</change>
+            <change who="#MB" when="2015-01-02">Proofread and updated.</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="4">
+
+                    <head xml:lang="grc">
+                        <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1911.tlg003.opp-grc1"
+                            >DIYLLUS ATHENIENSIS</title></head>
+                           
+                            <pb n="360"/>
+                            <p><bibl>Diodorus XVI, 14, 4</bibl> ad Ol. 105, 4, a. C. 357:
+                                    <quote>Καλλισθένης τὴν τῶν Ἑλληνικῶν πραγμάτων ἱστορίαν
+                                    γέγραφε ἐν βιβλίοις δέκα, καὶ κατέστροφεν εἰς τὴν κατάληψιν
+                                    τοῦ ἱεροῦ καὶ παρανομίαν Φιλομήλου τοῦ Φωκέως·
+                                    <persName role="author"><name>Δίυλλος</name> δ᾿ ὁ <orgName>Ἀθηναῖος</orgName></persName> ἦρκται τῆς ἱστορίας
+                                    ἀπὸ τῆς ἱεροσυλήσεως καὶ γέγραφε βίβλους εἴκοσι καὶ
+                                    ἑπτὰ, συμπεριλαβὼν πάσας τὰς ἐν τοῖς χρόνοις τούτοις
+                                    γενομένας πράξεις περί τε τὴν Ἑλλάδα καὶ τὴν Σικελίαν.</quote>
+                                    <ref>Idem XVl., 76, 5</ref> ad Ol. 109, 4. a. C. 341: <quote>Τῶν
+                                    δὲ συγγραφέων Ἔφορος μὲν ὁ Κυμαῖος τὴν ἱστορίαν
+                                    ἐνθάδε κατέστροφεν εἰς τὴν Περίνθου πολιορκίαν...
+                                    <persName role="author"><name>Δίυλλος</name> δ᾿ ὁ <orgName>Ἀθηναῖος</orgName></persName> τῆς δευτέρας συντάξεως ἀρχὴν
+                                    πεποίηται τῆς Ἐφόρου ἱστορίας τὴν τελευτὴν, καὶ τὰς
+                                    ἑξῆς πράξεις συνείρει τάς τε τῶν Ἑλλήνων καὶ τῶν
+                                    βαρβάρων μέχρι τῆς Φιλίππου τελευτῆς.</quote>
+                                    <ref>Idem XXI, 5 (Exc. H&#339;schel.)</ref>:<quote> Ὅτι Δίυλλος
+                                    (cod. Δίαλλος) Ἀθηναῖος συγγραφεὺς τὰς κοινὰς πράξεις
+                                    συντάξας ἔγραψε βιβλία εἴκοσιν ἕξ (Supra εἴκοσι
+                                    καὶ ἑπτά)· Ψάων δὲ ὁ Πλαταιεὺς τὰς ἀπὸ τούτου διαδεξάμενος
+                                    πράξεις ἔγραψε βιβλία τριάκοντα.</quote>
+                                    Quod antecedit in Excerptis H&#339;schelianis fragmentum
+                                    est de Agathocle Crotonem occupante,
+                                    circa an. 399 a. Chr.; quod sequitur fragmentum
+                                    de Samnitis a Fabio clade affectis pertinet ad annum
+                                    295, Olymp. 121, 2.
+                                    Igitur Diylli histori&#230; in plures <foreign xml:lang="grc">συντάξεις</foreign> sive
+                                    partes, in libros vero viginti septem vel viginti sex
+                                    distribut&#230; erant; prima pars spatium amplectebatur
+                                    annorum sedecim (357—341), cujus historiam
+                                    Demophilus, Ephori patris opus absolveas,
+                                    summis tantum lineolis adumbraverat; altera continebat
+                                    quæ sequentibus annis quinque [341—336)
+                                    ad obitum usque Philippi sunt gesta.
+                                    Ex terti&#230; partis libro nono res narratur, qu&#230;
+                                    pertinet ad an. 315 a. C. Quousque auctor descenderit,
+                                    accuratius quidem definiri nequit, probabile
+                                    vero est eum substitisse eo in anno, quo
+                                    patria urbs obsidione et fame pressa, post fugam
+                                    Lacharis tyranni, Demetrio Poliorcet&#230; sese dedidit.
+                                    (*) Quod contigit circa annum 295, uti videtur;
+                                    nam ne hoc quidem accaratissime exputare licet (v.
+                                    Diyllum statuarium memorat <bibl>Pausauias X, 11, 7</bibl>;
+                                    alium Atheniensem habes ap, <bibl>B&#339;ckh. C. I.l, p. 220, 7</bibl>.                                                                       
+                                    <bibl>Clinton. F. H. a. 299</bibl>.<bibl>Droysen. Hellenism, I,
+                                    p. 734</bibl>).—&#198;tas scriptoris ex tradita ab ipso historia
+                                    et ex loco Plutarchi contituenda est. Etenim <bibl>Plutarchus
+                                    De glor. Athen. c. I (p. 433 Didot)</bibl>: <quote>Ξεωοφῶν;
+                                    ait, αὐτὸς ἑαυτοῦ γέγονεν ἱστορία... οἱ δὲ ἄλλοι
+                                    πάντες ἱστορικοὶ, Κλειτόδημοι, Δίυλλοι, Φιλόχορος, Φύλαρχος,
+                                    ἀλλοτρίων γεγόνασιν ἔργων, ὥσπερ δραμάτων,
+                                    ὑποκριταί.</quote> Clitodemus floruit inter Ol. 90 et 100,
+                                    Philochorus ab Ol. 119—129. Medio inter hos
+                                    Diyllo assignamus tempus medium, floruisse eam
+                                    dicentes ab Ol. 112 ad Ol. 122 (330—290).—Quod
+                                    auctoritatem et famam scriptoris attinet,
+                                    vide fragm. I, ubi Plutarcho dicitur ἀνὴρ οὐ τῶν
+                                    παρημελημένων ἐν ἱστορίᾳ.—Apud Plinium Diyllus
+                                    historicus recensetur inter auctores, ex quibus liber
+                                    VII Hist. Nat. consarcinatus est.</p>
+                    
+                    <note type="footnote">(*) <bibl>Dahlmannus (Forschungen tom. I, p. 33)</bibl> historias
+                    usque ad mortem Agathoclis deductas esse putavit.</note>
+                    
+                    <div type="textpart" subtype="work">
+                        <ab><title xml:lang="grc">ΙΣΤΟΡΙΑΙ.</title></ab>
+                              
+                                    <cit n="1" xml:lang="grc">
+                                    <bibl>Plutarch. De Herodoti mat. c. 26 (p. 1050 Didot.)</bibl> 
+                                    <quote>(Ἡρόδοτος) τὴν διαβολὴν... ἔχει κολακεύσας
+                                    τοὺς Ἀθηναίους ἀργύριον πολὺ λαβεῖν παρ᾿ αὐτῶν...
+                                    Ὅτι μέντοι δέκα τάλαντα δωρεὰν ἔλαβεν ἐξ Ἀθηνῶν,
+                                    Ἀνύτου τὸ ψήφισμα γράψαντος, ἀνὴρ Ἀθηναῖος οὐ τῶν
+                                    παρημελημένων ἐν ἱστορίᾳ, <persName role="author">Δίυλλος</persName>, εἴρηκεν.</quote> 
+                                    <note>Cf. <bibl>Euseb. Chron. Ad Ol. 83, 4</bibl>. a. C. 445: <quote>Ἡρόδοτος
+                                    ἐτιμήθη παρὰ τῶν Ἀθηναίων βουλῆς ἐπαναγνοὺς
+                                    αὐτοῖς τοὺς βίβλους.</quote>
+                                    <quote>«Herodotus quum libros suos
+                                    Athenis legisset, honore affectus est.»</quote> Vide <bibl>Dahlmann.
+                                    Forschungen etc. I, p. 32</bibl>, qui recitationem
+                                    hanc sicuti alteram, Olympicam, serioris &#230;vi commentum
+                                    habet. Qu&#230; sententia adversarios naeta
+                                    plurimos. V. <bibl>B&#230;hr. Herod. tom. IV, p. 384 sq</bibl>.
+                                    <bibl>Heyse De vit. Herodot, p, 56</bibl>: <quote>«Maxime consentaneum
+                                    essc videtur eam potissimam partem hac
+                                    occasione in lucem protractam, quæ Gr&#230;ci&#230; et
+                                    ante omnea Atheniensium fortiter et gloriose facta
+                                    enarrabat. Quorum enarrationem si audivisse statueris
+                                    Athenienses, facile iuietliges cur non satis
+                                    sibi habuerint laudibus et plausu persecutos esse
+                                    auctorem, sed insuper pr&#230;mio eum donaverint.
+                                    Pr&#230;mium enim retulisse neque per se improbabile
+                                    est, neque magnum virum dedecet, modo De corruptum
+                                    sed ornatum hoc pretio eum putes.»</quote>
+                                    Locus Diylli ex pro&#339;mio petitus esse videtur.</note></cit>
+                                              
+                 <pb n="361"/>      
+                        <div type="textpart" subtype="part" n="1">
+                            <ab><title xml:lang="grc">[ΤΡΓΤΗ ΣΥΝΤΑΞΙΣ.]</title></ab>
+                                
+                                    <cit n="2" xml:lang="grc">
+                                        <bibl>Harpocratio</bibl> 
+                                    <quote>Ἀριστίων· Ὑπερίδης Κατὰ Δημοσθένους.
+                                    Οὗτος Σάμιος μέν ἐστιν ἢ Πλαταιεὺς, ὡς <persName role="author">Δίυλλός</persName>
+                                    <note type="editorial">(Ὕιλλος corrupt.)</note> φησιν, ἐκ μειρακυλλίου
+                                    δ᾿ ἑταῖρος Δημοσθένους, ἐπέμφθη δ᾿ ὑπ᾿ αὐτοῦ πρὸς
+                                    Ἡφαιστίωνα ἕνεκα διαλλαγῶν, ὥς φησι Μαρσύας ἐν
+                                    ε' τῶν Περὶ Ἀλέξανδρον <note type="editorial">(Ol. III, 2, 335)</note>.</quote> <note>Vide
+                                    <bibl>Marsy&#230; Pell&#230;i fr. 9</bibl>.</note></cit></div>
+                                
+                    <div type="textpart" subtype="book" n="1">
+                        <ab><title xml:lang="la">E LIBRO NONO.</title></ab>
+                                
+                                    <cit n="3" xml:lang="grc">
+                                    <bibl>Athen&#230;us IV, p. 155, A</bibl>
+                                    <quote><persName role="author"><name>Δίυλλος</name> <note type="editorial">(διύαλος libri; corr. Cas.)</note> δ᾿ ὁ <orgName>Ἀθηναῖος</orgName></persName> ἐν τῇ <num type="ordinal" value="9">ἐνάτῃ</num> <title>τῶν ἱστοριῶν</title>
+                                    φησὶν, ὡς Κάσσανδρος ἐκ Βοιωτίας ἐπανιὼν, καὶ
+                                    θάψας τὸν βασιλέα καὶ τὴν βασίλισσαν ἐν Αἰγαῖς, καὶ
+                                    μετ᾿ αὐτῶν τὴν Κύνναν, τὴν Εὐρυδίκης μητέρα, καὶ
+                                    τοῖς ἄλλοις τιμήσας, οἷς προσήκει, καὶ μινομαχίας
+                                    ἀγῶνα ἔθηκεν, εἰς ὃν κατέβησαν τέσσαρες τῶν στρατιωτῶν.</quote>
+                                    <note>Diyllum expressit <bibl>Diodorus XIX, 52, 5</bibl> (ad Ol.
+                                    116, I. a. C. 315 init.): <quote>Μετὰ δὲ ταῦτα βασιλικῶς
+                                    ἤδη διεξάγων (Κάσσανδρος) τὰ κατὰ τὴν ἀρχὴν, Εὐρυδίκην
+                                    καὶ Φίλιππον τοὺς βασιλεῖς, ἔτι δὲ Κύνναν,
+                                    ἣν τοῖς βασιλεῦσι. Τιμήσας δὲ τοὺς τετελευτηκότας
+                                    ἐπιταφίοις ἀγῶσι, κατέγραφε τῶν Μακεδόνων τοὺς
+                                    εὐθέτους, διεγνωκὼς εἰς Πελοπόννησον στρατεύειν.</quote>
+                                    De Cynna, Philippi et Audat&#230; Illyri&#230; filia, cf.
+                                    <bibl>Poy&#230;m. VIII, 60</bibl>. <bibl>Arrianus De Success. Alex. § 23
+                                    p. 243 Didot.</bibl> (ubi Κυνάνη), <bibl>Arrian. Exped. Alex.
+                                    I, 5, 7</bibl> (ubi Κύνα).</note></cit></div>
+                                    
+                        <div type="textpart" subtype="incerta">
+                            <ab><title xml:lang="la">DUBIA.</title></ab>
+                                
+                                    <cit n="4" xml:lang="grc">
+                                    <bibl>Athen&#230;us XlII, p. 593, F</bibl> 
+                                    <quote>Δημήτριος δὲ ὁ Φαληρεὺς,
+                                    Λαμπιτοῦς τῆς Σαμίας ἑταίρας ἐρασθεὶς,
+                                    ἡδέως δι᾿ αὐτὴν καὶ Λαμπιτὼ προσηγορεύετο, ὥς φησι
+                                    <persName role="author">Δίυλλος</persName>· ἐκαλεῖτο δὲ καὶ Χαριτοβλέφαρος.</quote>
+                                    <note>Cf. <bibl>Diog. L. V, 76</bibl>: <quote>Δίδυμος δὲ ἐν Συμποσιακοῖς,
+                                    καὶ Χαριτοβλέφαρον καὶ Λαμπετὼ καλεῖσθαι αὐτόν
+                                    (τὸν Δημήτριον) φησιν ἀπό τινος ἑταίρας.</quote>
+                                    <quote>«Legendum apud Athen&#230;um Δίδυμος pro Δίυλλος
+                                    recte ex Laertio monuerunt viri docti, Casaubonus
+                                    ad Laertium et Meuraius ad Hesychium
+                                    Miles. <ref>(p. 16 extr. Orelli)</ref>.»</quote> <bibl>Menagius</bibl>.</note></cit>
+                                
+                                    <cit n="5" xml:lang="grc">
+                                    <bibl>Etym. M. p. 526, 30</bibl>
+                                    <quote>Κόμανα] παρὰ τὸ κόμη
+                                    γίνεται θηλυκὸν κομάνη· τὸ οὐδέτερον, κόμανον, καὶ τὰ
+                                    Κόμανα· λέγεται γὰρ τὸ Ἀγαμέμνονος υἱὸν Ὀρέστην
+                                    φεύγοντα μετὰ τῆς ἀδελφῆς ἐκεῖσε τὴν κόμην ἀποκείρασθαι.
+                                    Πόλις Κόμανα Θύιλλις· μεθερμηνεύεται σύσκια
+                                    κατὰ τὴν Ἰώνων φωνήν.</quote>
+                                    <note>Locum turbatum ita fere expleverim: <quote>ὅθεν
+                                    πόλις Κόμανα ὠνομάσθη. Δίυλλος vel ὡς Δίυλλος·
+                                    ἄλλοις δὲ κτλ.</quote> Post καὶ τὰ Κόμανα fortasse excidit
+                                    Καππαδοκίας. Fuit etiam ὄρος Κόμανον Cappadoci&#230;,
+                                    cujus ex Damascii Vita Isidori meminit <bibl>Photius
+                                    Bibl. p. 340, 18</bibl>: <quote>ἐπὶ τὸν Κόμανον τὸ ὄρος τῶν Ὀρεστιαδῶν.</quote></note></cit></div></div></div>
+                        
+                </div>
+        </body>
+    </text>
+</TEI>

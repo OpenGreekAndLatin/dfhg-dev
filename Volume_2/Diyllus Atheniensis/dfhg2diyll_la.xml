@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2diyll_la">
+
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2diyll_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike 4.0 International
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1911"
+                                >Dyillus Atheniensis</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/details/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#KS" when="2013-11-28">Created the XML file</change>
+            <change who="#KS" when="2013-11-28">Encoded text</change>
+            <change who="#MB" when="2015-01-02">Proofread and updated.</change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="4">
+
+                    <head xml:lang="la">
+                        <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1911.tlg003.opp-lat1"
+                            >DIYLLUS ATHENIENSIS</title></head>
+<pb n="360"/>
+                    
+                    <div type="textpart" subtype="work" n="1">
+                        <ab><title xml:lang="la">HISTORI&#198;.</title></ab>
+                                
+                                <p n="1">Herodoto exprobratur, quod magnam ab Atheniensibus
+                                propter adulationem acceperit pecuniam... Sane decem talenta
+                                Athenis dono venisse ipsi, anyto rogationis auctore,
+                                Diyllus scripsit Atheniensis, homo in historia haud contemneudus.</p>
+                       
+   <pb n="361"/>                     
+                        <div type="textpart" subtype="part" n="1">
+                            <ab><title xml:lang="la">PARS TERTIA.</title></ab>
+                            
+                             <p n="2">Aristion, Samius est vel Plat&#230;ensis, ut Diyllus ait. Inde
+                                a prima adolescentia amicus fuit Demosthenis, a quo ad
+                                Heph&#230;stionem reconciliationis causa missus est, ut Marsyas
+                                ait libro quinto Rerum Alexaodri.</p></div>
+                            
+                            <div type="textpart" subtype="book" n="1">
+                                <ab><title xml:lang="la">E LIBRO NONO.</title></ab>
+                            
+                             <p n="3">Diyllus Atheniensis nono Historiarum libro scribit, Cassandrum
+                                 e B&#339;otia redeuntem, quum regem et reginam
+                                 sepeliisset &#198;gis, cum iisque Cynnam matrem Eurydices, et
+                                ommibus honoribus quibus par erat prosecutus esset dufunctos,
+                                certamen etiam edidisse gladiatorium, in illudque
+                                descendisse quattuor ex militibus.</p>
+                            
+                                <p n="4">Demetrius Phalereus amore captus Lampitus, Sami&#230;
+                                meetricis, lubens et ipse lampito se appellari passus est,
+                                ut ait Diyllus (Didymus); idem vero etiam Charitoblepharus
+                                (I. e. venustis superciliis) appellabatur.</p>
+                            
+                             <p n="5"><foreign xml:lang="grc">Κόμανα</foreign>. Α κόμη fit κομάνη femininum, et neutrum κόμανον
+                                 et τὰ Κόμανα. (cujus nominis urbs est Cappadoci&#230;.)
+                                Fertur enim Agamemnonis filium Orestem cum sorore fugientem
+                                ibi comam totondisse, unde nomen urbi inditum.
+                                Diyllus(?). Alii secundum Ionicam dialectum vocem inter
+                                pretantur <foreign xml:lang="grc">σύσκια</foreign>, umbrosa.</p></div></div>
+                    
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
