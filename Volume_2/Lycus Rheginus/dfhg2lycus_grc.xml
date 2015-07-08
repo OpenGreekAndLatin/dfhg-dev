@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2Lycus_grc">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2lycus_grc">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -35,7 +35,7 @@
 
             <publicationStmt>
                 <authority/>
-                <idno type="filename">dfhg2Lycus_grc.xml</idno>
+                <idno type="filename">dfhg2lycus_grc.xml</idno>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
                         under a Creative Commons Attribution-ShareAlike International 4.0
