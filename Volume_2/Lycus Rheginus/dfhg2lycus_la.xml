@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2Lycus_la">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2Lycus_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1470"
+                                >Lycus Rheginus</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft#page/370/mode/2up"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Müller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#UK" when="2014-11-17">Created the XML file</change>
+            <change who="#UK" when="2014-11-17">Encoded the text</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="translation" subtype="volume" n="2" xml:lang="la">
+                <div type="textpart" subtype="book" n="4">
+
+                    <head xml:lang="la">
+                        <title
+                            ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1470.tlg004.opp-lat1"
+                            xml:lang="la">LYCUS RHEGINUS.</title>
+                    </head>
+
+                    <pb n="369"/>
+
+                    <div type="textpart" subtype="work" n="1">
+                        <ab>
+                            <title xml:lang="grc">(DE REBUS ALEXANDRI EPIROT&#198;?)</title>
+                        </ab>
+
+                        <p n="1">Scidrus, urbs Itali&#230;. Gentile Scidrianus, uti est apud Lycum
+                            in libro De Alexandro.</p>
+
+                        <p n="2">Larinos boves Lycus Rheginus in Historiis de Alexandro dicit nomen
+                            habere a Larino quodam bubulco (qui Geryonis boves ab Hercule acceperit
+                            [vel furatus sit] et eximie aluerit). Sunt tamen qui eos a <foreign
+                                xml:lang="grc">λάρος</foreign> (marina avi?) sic dictos esse velint;
+                            alii autem syllabam <foreign xml:lang="grc">ρι</foreign> cum spiritu
+                            aspero scribunt, ut <foreign xml:lang="grc">λαρίνους</foreign> sit idem
+                            quod <foreign xml:lang="grc">μεγαλορίνους</foreign> (magno naso
+                            pr&#230;ditos): cujusmodi boves in Chaonia esse dicunt, quos etiam
+                            Cestrinos vocant.</p>
+                    </div>
+
+                    <pb n="370"/>
+
+                    <div type="textpart" subtype="work" n="2">
+                        <ab>
+                            <title xml:lang="la">[ITALICA.]</title>
+                        </ab>
+                        <note>E LIBRO TERTIO.</note>
+
+                        <p n="3">Capta Troja, Diomedes saburr&#230; loco lapides muri Trojani in
+                            navem suam injecit. Qua quum Argos navigasset, ibique necem ab uxore
+                            ipsi intentatam vix effugisset, profectus est in Italiam. Offendit tum
+                            draconem Colchicum, quem Ph&#230;acidem terram vastantem interfecit manu
+                            tenens Glauci clypeum aureum. Scilicet putavit draco clypeum istum esse
+                            aureum vellus arietis. Propterea Diomedes quum maximopere<!-- sic? -->
+                            honoraretur, statuas sui ex lapidibus illis quos Troja solvens in navem
+                            injecerat, confecit et per omnem istic campum collocavit. Postea vero
+                            Daunus, ubi eum interfecerat, etiam statuas evertit et in mare conjecit.
+                            Ill&#230; autem a fluctibus sustentat&#230; in terram ad fundamenta sua
+                            redierunt. Narrant h&#230;c Tim&#230;us Siculus et Lycus libro
+                            tertio.</p>
+
+                        <p n="4">De animalibus Callimchus ait Lycum narrare in Diomedea insula
+                            ardeas a Gr&#230;cis quidem istuc locorum delatis non solum tangi se
+                            pati, verum etiam advolare ad eos et in sinus eorum capita abdere, ac
+                            benevole adblandiri; ferri autem ab indigenis Diomedis socios in avium
+                            harum naturam transmutatos esse.</p>
+
+                        <pb n="371"/>
+
+                        <p n="5">Theopompus Venetos inquit Adriam accolentes, quum arationis
+                            terti&#230; et sementis faciend&#230; tempus adest, monedulis placentas
+                            quasdam et mazas optime condectas muneri mittere; quas quidem idcirco
+                            proponunt, ut veluti placamenta monedulis sint, et induci&#230; cum iis
+                            pact&#230;, ne Ceteris fructum terr&#230; commissum refodiant aut
+                            sublegant. Lycus quum h&#230;c vera esse fatetur, tum eosdem addit loros
+                            etiam rubros proponere, et his propositis discedere; monedularum greges
+                            quidem extra fines manere, verum duas aut tres selectas obviam mitti
+                            legatis urbium, ut inspiciant quanta donorum oblatorum sit copia;
+                            qu&#230; ut eam perspexerunt, ad suas revertuntur, easque invitant eo
+                            modo, quo h&#230; quidem vocare, ill&#230; intelligere solent. Jam
+                            igitur gregatim, instar nubium, accedunt, ac si offas objectas
+                            comederitn, se cum iis pacem et habere Veneti intelligunt; sin
+                            contempserint, et tanquam vilia non dignetur comedere, indigen&#230;
+                            sibi persuasum habent illarum contemptum famen minari. Nam veluti
+                            homines muneribus incorrupti, sic ill&#230; nihil ex objectis escis
+                            gustantes in arationes involant, et maximam satorum partem acerbissime
+                            pr&#230;dantur, animo irato effodientes et investigantes.</p>
+
+                        <p n="6">Lycus narrat Thuir&#230; regionis montem esse humilem, sub quo
+                            antrum situm sit Nympharum, cui Alusi&#230; nomen indigen&#230;
+                            indiderunt ab Alusia amne pr&#230;terfluente. In monte isto pastor
+                            indigena pecora domini sui pascens frequentibus Musas honoravit
+                            sacrificiis. Quod &#230;gre ferens herus cum in arca inclusum exposuit.
+                            Sed animo rem volens ambigebat herus, num forte Mus&#230; illum
+                            servaverint. Itaque, quanquam bimestre jam temporis spatium
+                            pr&#230;terlapsum erat, ad arcam accedit, claustrisque remotis hominem
+                            viventem deprehendit, arcam vero favis repletam repperit.</p>
+
+                        <pb n="372"/>
+
+                        <p n="7">Lycus Cyrnios, Sardini&#230; incolas, long&#230;vos esse dicit,
+                            quod melle semper vescantur, cujus magna apud eos copia est.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="3">
+                        <ab>
+                            <title xml:lang="la">SICULA.</title>
+                        </ab>
+
+                        <p n="8">De fluviis et fontibus loquens Callimachus ait Lycum narrare
+                            Camicum per mare fervens fluere, <hi rend="italics">Anapum</hi> (?) vero
+                            et Crimisum in superficie aquam frigidam, infra vero calidam habere;
+                            porro Himeram ex una eodemque fonte profectum in duos scindi alveos,
+                            quorum alter salsam haberet, alter potabilem aquam.</p>
+
+                        <p n="9">Lycum Rheginus, Callimacho teste, narrat fontem in Sicanorum
+                            ditione acetum ferre, quo uterentur ad condienda cibaria; fontem vero in
+                            Mytistrato quasi oleo fluere, idque oleum, quod Mytistratium vocant, in
+                            lucernis usurpari ac tuberibus et scabiei posse mederi. Haud longe inde
+                            alium esse fontem, qui ab Arcturo usque ad Pleiadem nihilo pejorem quam
+                            alii aquam ejiceret, ab Pleiade vero usque ad Arcturum interdiu fumum
+                            exhalaret calidum, noctu flammis repletus esset.</p>
+
+                        <p n="11">Lycum, Callimacho teste, narrat lacum ad Mylas arboribus
+                            circumdatum, in medio suo aquam ejicere aliam frigidam, aliam contra
+                            calidam.</p>
+
+                        <p n="12">In Leontinorum regione Lycus narrat esse lacus duos, quos <hi
+                                rend="italics">Palicorum fratres</hi> vocant; ferventissimam aquam
+                            ejaculari, fontes vero frigidos esse; avium genus appropinquans eis
+                            statim exspirare, homines post diem tertium.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="4">
+                        <ab>
+                            <title xml:lang="la">LIBYCA.</title>
+                        </ab>
+
+                        <p n="13">Abrotonum Lycus Rheginus castellum esse putat; Strabo aliique
+                            urbem dicunt; urbs scilicet Libyph&#339;nicum est.</p>
+
+                        <pb n="373"/>
+
+                        <p n="14">Lycus narrat in Libya pecora reliquo quidem tempore vel ex adverso
+                            inter se posita dormire, vel uti casus ferat; ea autem nocte, qua Sirius
+                            oriatur, omnia ad sidus hoc conversa, eoque ortus signo indigenas
+                            uti.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="5">
+                        <ab>
+                            <title xml:lang="la">(DE NESTORE?)</title>
+                        </ab>
+
+                        <p n="15" ana="dubia">Multa templa a Ptolem&#230;o Philadelpho consecrata
+                            esse Lycus (?) quoque, eo loco, quo loquitur de Nestoris (<hi
+                                rend="italics">poculo</hi>, <hi rend="italics">quod.</hi> (?))
+                            Philadelphus faciendum curavit, declarat ita loquens:
+                                <quote>«&#198;dificavit etiam utrique parenti templum permagnum, et
+                                sororibus Arsino&#230; et Philoter&#230;.»</quote></p>
+                    </div>
+
+                    <pb n="374"/>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
