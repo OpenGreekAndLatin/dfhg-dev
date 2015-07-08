@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2idomeneus_la">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2idomeneus_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1442"
+                                >Idomeneus Lampsacenus</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft#page/488/mode/2up"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Müller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+            <p>In FHG Müller groups Idomeneus Lampsacenus with Dionysius Heracleensis. In this
+                digital publication they are treated separately. Dionysius Heracleensis:
+                dfhg2DionysHeracl_la.xml.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#UK" when="2015-06-10">Created the XML file</change>
+            <change who="#UK" when="2015-06-10">Encoded the text</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="translation" subtype="volume" n="2" xml:lang="la">
+                <div type="textpart" subtype="book" n="4">
+
+                    <head xml:lang="la">
+                        <title
+                            ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1442.tlg004.opp-lat1"
+                            xml:lang="la">IDOMENEUS LAMPSACENUS.</title>
+                    </head>
+
+                    <pb n="489"/>
+
+                    <div type="textpart" subtype="work" n="1">
+                        <ab><title type="main" xml:lang="la">DE SOCRATICIS.</title></ab>
+
+                        <p n="1">Erat Socrates etiam in oratoria, sicut Idomeneus quoque refert,
+                            promptus atque acer: sed eum Trigintaviri dicendi artem, ut ait
+                            Xenophon, docere vetuerunt. Exagitatur etiam ab Aristophane, ut qui
+                            deteriorem causam superiorem faceret. Primus quippe ut Favorinus in
+                            Omnigena historia scribit, cum &#198;schine discipulo artem dicendi
+                            docuit; id quod Idomeneus quoque refert in libris De Socraticis.</p>
+
+                        <p n="2">Sermones quos Critonem Plato fecit in carcere loquentem, quum
+                            Socrati fugam suaderet &#198;schinis fuisse tradit Idomeneus: illi vero
+                            a Platone hujus odio fuisse attributos.</p>
+                        <p>&#198;schinem Idomeneus tradit in carcere fugam Socrati suadere tentasse,
+                            non Critonem: verum Platonem, quia &#198;schines Aristippum magis
+                            amplecteretur, Critoni illos sermones attribuisse. Insimulabatur
+                            &#198;schines, inprimis a Menedemo Eretriensi, quod Socratis dialogos
+                            complures pro suis venditaverit, quos a Xanthippe acceperit.</p>
+
+                        <p n="3">Quis putasset &#198;schinem talibus fuisse moribus, qualem Lysias
+                            dicit in orationibus De contractibus? Quem e Dialogis qui sub ipsius
+                            nomine feruntur, ut &#230;quum et moderatum <pb n="490" break="no"/>
+                            hominem admiramur: nisi revera sapientis Socratis sunt scripta illa,
+                            huic vero donata a Xanthippe, uxore Socratis, post ejus obitum, ut
+                            Idomeneus ait.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="2">
+                        <ab><title type="main" xml:lang="la">[DE DEMAGOGIS.]</title></ab>
+
+                        <p n="4">Idomeneus scribit Pisistratidas quoque, Hippiam et Hipparchum,
+                            lauta epula et comessationes invenisse: itaque et equorum et aliarum
+                            rerum <note>(<hi rend="italics">scortorum?</hi>)</note> ingens multitudo
+                            penes illos erat: unde grave ait fuisse illorum imperium.</p>
+
+                        <p n="5">Themistocles, ut ait Idomeneus, nonne junctis quadrigis meretricum
+                            pleno foro in urbem invectus est? Erant autem ill&#230; Lamia et Scione
+                            et satyra et Nannium.</p>
+                        <p>Themistocles, quo tempore nondum Athenienses vulgo temulenti&#230; et
+                            scortationi dediti erant, <hi rend="italics">quadrigis junctis
+                                meretricularum</hi> publice per Ceramicum hominibus frequentem mane
+                            transvectus est. Quam rem narrans Idomeneus ambigue locutus est; ut
+                            necias, utrum quattuor meretrices veluti equos quadrigis junxerit, an in
+                            quadrigis illas fecerit sedere.</p>
+
+                        <p n="6">Thucydidem Melesi&#230; filium <note>(<hi rend="italics">deb.:
+                                    Themistoclem</hi>)</note> exilio perpetuo ab Atheniensium populo
+                            mulctatum bonaque ejus publicata esse, ipsum vero ad Artaxerxem fugisse,
+                            planum facit Idomeneus libro secundo hunc in modum: «Athenienses,
+                            inquit, ipsum et familiam ejus exilio perpetuo mulctarunt, utpote
+                            Gr&#230;ci&#230; proditorem, atque bona ejus publicata sunt.»</p>
+
+                        <p n="7">Qui ergo fidem mereatur Idomeneus, Periclem culpans, quod is
+                            Ephialten amicum suum atque ejusdem in republica factionis,
+                            &#230;mulatione invidiaque glori&#230; adductus, per fraudem necaverit?
+                            Hanc enim bilem nescio unde collectam ei viro suffudit.</p>
+
+                        <p n="8">Accusationi Periclis subscripsit Cleo, si Idomeneum sequimur; sin
+                            Theophrastum, Simmias; Heraclides Ponticus Lacratidam nuncupat.</p>
+
+                        <p n="9">Magistratum gessisse Aristidem, non tamen sorte, sed suffragiis
+                            Atheniensim electum, affirmat Idomeneus.</p>
+
+                        <pb n="491"/>
+
+                        <p n="10">Aristides publicorum redituum procurator constitutus, non alios
+                            tantum sui temporis, sed etiam qui ante ipsum fuissent magistratus,
+                            multa peculatos ostendit, maxime autem Themistoclem, qui <lg>
+                                <l>catus quidem, ast incontinentis vir manus.</l>
+                            </lg> Itaque is, coitione multorum contra Aristidem facta, rationes
+                            administrati officii reddentem peculatus crimine condemnavit, ut refert
+                            Idomeneus. Sed primis et optimis civium indigne hoc ferentibus, non modo
+                            mulctatus ille non est, sed rursus eidem negtio pr&#230;fectus. Tum
+                            Aristides p&#339;nituisse prioris se instituti simulans, seque leniorem
+                            pr&#230;bens, peculatoribus placuit, quum non inquireret in eorum facta,
+                            neque ea detegeret: itaque hi publica onusti pecunai, summis laudibus
+                            Aristidem tollere, prensareque ejus nomine populum, ut rursus munus hoc
+                            ei demandarent.</p>
+
+                        <p n="11">Mardonio iterum in Atticam irrumpente, rursus in Salaminem
+                            trajecerunt. Aristides autem Spartam missus tarditatem et negligentiam
+                            eis exprobravit, qui rursus Athenas barbaro prodidissent, simulque
+                            petiit, ut salvis adhuc Gr&#230;ci&#230; partibus opitulatum irent.
+                            H&#230;c ut audiverunt Ephori, interdiu festum diem agendo ludum et
+                            socordiam pr&#230; se ferebant (agebantur enim Hyacinthia), noctu clam
+                            Atheniensibus quinque millia delectorum Spartanorum, quorum quivis
+                            septem secum Helotas trahebat, emiserunt. Quum denuo incusaret eos
+                            Aristides, atque ipsi ridentes hominem delirare et somniare dicerent:
+                            jam enim ad Oresteum exercitum esse contra peregrinos (eo nomine Persas
+                            significabant) proficiscentem: alieno tempore eos ludere ac pro hostibus
+                            amicos decipere Aristides respondit. H&#230;c narratio est Idomenei:
+                            quippe in Aristidis edicto non ipse legatus, sed Cimon, Xanthippus et
+                            Myronides feruntur.</p>
+
+                        <p n="12">Hyperides orator, paterna domo ejecto filio Glaucippo, Myrrhinam
+                            sumptuosissimam meretricem recepit, et hanc quidem habuit in urbe; in
+                            Pir&#230;eo vero Aristagoram; Eleusine Philam, quam ingenti pecunia
+                            emptam, dein liberam dimisit, et dispensandis rebus domesticis
+                            pr&#230;fecit, ut Idomeneus tradit.</p>
+
+                        <p n="13">Intemperanter libidinosus hic orator erat, ut ait Idomeneus. Sic
+                            Aristarchi cujusdam adolescentuli amore captus, ob illumque inter pocula
+                            insultans Nicodemo, oculos ei<pb n="492" break="no"/> extudit. Perinde
+                            vero etiam in obsonia et in adolescentulos et in mulieres sumptus
+                            ingentes profudisse perhibetur. Quare scriba illius aliquando dixit:
+                                <quote>«De Demosthene quid dicere quispiam possit? Nam qu&#230; ille
+                                toto anno meditatus est, ea una nocte una mulier miscet
+                                conturbatque.»</quote> Quin et domum suam recepisse fertur Cnosionem
+                            quendam adolescentulum, quamquam uxorem habens: quare indignata illa,
+                            ipsa quoque cum Cnosione concubuit.</p>
+
+                        <p n="14">Si quidem pistillorum fabricatoris, ut Idomeneus ait, filius
+                            Phocion erat, ignobiles has ejus natales commemorare non omisisset in
+                            oratione sua Glaucippus, Hyperidis filius, qui sexcenta in eum convicia
+                            collegit effuditque.</p>
+
+                        <p n="15">&#198;schines orator, secundum Demetrium Phalereum, Socratis
+                            philosophi, deinde vero Platonis discipulus fuit; secundum C&#230;cilium
+                            vero et Idomeneum et Hermippum, non audivit illos viros disciplin&#230;
+                            causa.</p>
+
+                        <p n="15a">Oratio, quam de falsa legatione contra &#198;schinem Demosthenes
+                            scripsit, num etiam dicta sit, haud liquet. Idomeneus quidem refert
+                            triginta tantum suffragiis absolutum &#198;schinem fuisse. Verum haud
+                            ita res se habere videtur, si quidem ex orationibus De corona ab utroque
+                            scriptis colligi aliquid licet. Neuter enim contentionis hujus diserte
+                            et perspicue ita meminit, ut ad causam forensem deventum esse
+                            pateat.</p>
+
+                        <p n="16">Statim misit Alexander qui tradi sibi postularent demagogos decem,
+                            uti Idomeneus et Duris tradiderunt, vel octo potius, sicuti plurimi
+                            iique pr&#230;stantiores scriptores referunt.</p>
+
+                        <p n="17">Empusa spectrum est ex eorum numero, qu&#230; Hecate immittere
+                            solet; varias illud assumere solet formas. Nominabatur vero etiam
+                            Onocole. Empusa autem dicebatur propterea quod <foreign xml:lang="grc"
+                                >ἐμποδίζειν</foreign>, <hi rend="italics">impedire</hi>, homines
+                            solet, aut inde quod (<foreign xml:lang="grc">ἑνἰ ποδὶ</foreign>, <hi
+                                rend="italics">uno tantum pede</hi>, incedit, quoniam) alterum pedem
+                            &#230;neum habet, alterum vero asininum. &#198;schinis itaque mater
+                            Empusa vocabatur, ut Demosthenes dicit, quod omnia faceret patereturque
+                            (nam spectrum quoque formas quascunque assumit); sicuti vero Idomeneus
+                            in libro De demagogis ait, quod e tenebricosis locis appareret
+                            initiandis.</p>
+                    </div>
+                    <pb n="493"/>
+
+                    <div type="textpart" subtype="work" n="3">
+                        <ab><title type="main" xml:lang="la">DE REBUS SAMOTHRACI&#198;.</title></ab>
+                        <div type="textpart" subtype="book" n="1">
+                            <p>In Samothracia habitabat Electra, Atlantis filia, ibique ab indigenis
+                                appellabatur Strategis. Eandem Hellanicus Electryonen dici ait.
+                                Peperit vero liberos tres; Dardanum, qui in Trojana regione sedem
+                                fixit, et quem ab indigenis etiam Polyarchen appellari ferunt;
+                                deinde Eetionem, quem etiam Iasionem vocant; hic quum in Cereris
+                                simulacrum superbisset, fulmine interfectus esse dicitur; filiam
+                                vere Electra habuit Harmoniam, quam Cadmus uxorem duxit. Hanc de
+                                Electr&#230; matris nomine portas Thebarum Electridas nominasse
+                                narrat Hellanicus libro primo Troicorum et Idomeneus libro primo
+                                Troicorum <note>(<hi rend="italics">De rebus
+                                    Samothraci&#230;</hi>)</note>.</p>
+                        </div>
+                    </div>
+                    <pb n="494"/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
