@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg1clitodem_la">
+
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="TY">Tariq Yousef</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg1clitodem_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2015</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.387"
+                                >Clidemus</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">1</biblScope>
+                        </monogr>
+                        <ref target="https://archive.org/details/fragmentahistori01mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#TY" when="2015-01-21">Automatically created the XML file</change>
+            <change who="#MB" when="2015-01-30">Proofread and updated</change>
+        </revisionDesc>
+        
+    </teiHeader>
+
+<text>
+    <body>
+        <div type="translation" subtype="volume" n="1" xml:lang="la">
+            <head xml:lang="la">
+                <title
+                    ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1276.tlg003.opp-lat1"
+                    xml:lang="la">CLITODEMI FRAGMENTA</title>
+            </head>
+            <pb n="359"/>
+
+            <div type="textpart" subtype="work" n="1">
+                <ab><title type="main" xml:lang="la">ATTHIS</title></ab>  
+                <div type="textpart" subtype="book" n="1">
+                    <ab><title xml:lang="la">LIBER PRIMUS.</title></ab>
+                    
+<p n="1" >Agr&#230;, locus extra Athenarum urbem situs, ubi parva
+Cereris mysteria agu ntur, qu&#230; vocantur mysteria ἐν
+Ἄγρας (in Agr&#230; &#230;de) eodem modo ac dicitur ἐν Ἀσκληπιοῦ
+(in &#198;sculapii &#230;de). Pherecrates in Vetulis: «Simul atque
+consedimus in Agr&#230; &#230;de.» Dian&#230; quoque Agr&#230;&#230;
+ibi est templum. Plato in Ph&#230;dro: «Ubi ad Agr&#230;&#230; templum
+transimus.» Et Clidemus libro primo: «Superiorem
+«Ilissi partem ad Agram si transieris, ad ripam offendes
+«montem illum, qui nunc dicitur Agra, olim Helicon,
+«et aram Neptuni Heliconii in vertice;» et libro quarto:
+«In templum Cereris matris, in Agris situm.»</p>
+
+<p n="2" >Primo libro Atthidis, tribum quamdam, ait Clidemus,
+coquorum fuisse, qui nomen et jura eorum habuissent,
+qui δημιουργοὶ vocabantur; illosque hoc curasse
+ut plebs rite sacrificaret.</p>
+
+<p n="3" >Clidemus coquos, ait, pr&#230;cones vocari.</p>
+
+<p n="4" >Melanippeum est Melanippi, qui Theseum patrem habuit,
+heroum, ut ait Asclepiades in Tragodumenis. Clidemus
+libro primo Atthidis id esse dicit in Melite demo.</p>
+
+<p n="5" >Diverso modo et diffuse de his Clidemus disseruit, alte
+repetens, decretum fuisse Gr&#230;corum commune, ne quo
+navigaret triremis ulla, qu&#230; plus quinque (quinquaginta)
+viris caperet, sed soli navis Argûs duci Iasoni (licuisse
+majori navi) circum vehi ad latrocinia mari summovenda.
+Quum D&#230;dalus autem navigio perfugisset Athenas, Mi-
+                    <pb n="359" />noa, qui pr&#230;ter decreta persequeretur eum longis navibus,
+                    in Siciliam tempestate ejectum vit&#230; ibi finem fecisse.
+                    Postquam vero filius ejus Deucalion, infensus Atheniensibus,
+                    per legatos dedi sibi depoposcisset D&#230;dalum,
+                    alioqui, quos accepisset obsides Minos, pueros interfecturum
+                    se denuntians, leniter ei respondisse Thesea, eam
+                    afferentem excusationem quod consobrinus suus esset
+                    D&#230;dalus et sanguine junctus, cujus esset mater Erechthei
+                    filia Merope; sed &#230;dificare instituisse classes, alteram
+                    in Thym&#230;tadaium demo ibidem procul via publica,
+                    alteram per Pitthea Tr&#339;zene, quo rem occultam haberet.
+                    Omnibus comparatis eum solvisse, D&#230;dalumque
+                    et exules Cretenses secum traxisse duces, atque exspectante
+                    nemine, sed naves pacatas arbitrantibus advenire
+                    Cretensibus, portum occupavisse, et descensione facta
+                    contendisse cursu Gnossum, pr&#230;lioque in porta Labyrinthi
+                    conserto, Deucalionem cum satellitibus confecisse.
+                    Quum vero regni procurationem suscepisset Ariadna,
+                    f&#339;dere cum ea icto, impuberes eum recepisse, amicitiamque
+                    cum Atheniensibus Cretenses junxisse, juratos, nunquam
+                    se bellum cum iis commissuros esse.</p>
+
+<p n="6">Scribit Clidemus, singula exsequi ad unguem laborans,
+sinistrum Amazonum cornu ad Amazonion (ut nunc vocatur)
+declinasse, dextrum secundum Chrysam ad Pnycem
+pertinuisse. Conflixisse cum hoc Athenienses, a
+Museo concurrentes cum Amazonibus. Sepulchra esse
+c&#230;sorum in platea, qu&#230; fert ad portam secundum Chalcodontis
+fanum, quam Piraicam nunc nominant. Ibi
+Athenienses pulsos fuisse usque ad Eumenidum templum,
+et terga feminis dedisse. A Palladio vero et Ardetto et
+Lyceo invectos pepulisse dextrum earum cornu usque ad
+castra multasque stravisse. Quarto mense ictum Hippolyta
+interprete foedus. Hippolytam enim hic eam, qu&#230;
+cum Theseo consueverit, non Antiopam appellat.</p>
+            
+                    <p n="7">Appellatur etiam Macedoni&#230; pars Macetia, ut Marsyas
+                        libro primo Macedonicorum. Sed etiam omnem Macedoniam
+                        appellare Macetiam consuevit Clidemus in prioribus
+                        libris Atthidis: «Atque migrarunt supra &#198;gialum
+                        in superiorem partem Maceti&#230;.»</p>
+
+                </div>
+            
+                <div type="textpart" subtype="book" n="3">
+                    <ab><title xml:lang="la">LIBER TERTIUS.</title></ab>
+            
+<p n="8" >Naucraria. Prius nomina naucraria et naucrarus in
+usu erant. Naucraria idem fere quod symmoria et de-
+    <pb n="361" />mus; naucrarus idem fere significat, quod demarchus,
+    Solone sic nominante, ut Aristoteles quoque tradit:
+    dubitaveris vero, num in legibus naucrarias et naucraros
+    secundum naucrarias creandos constituerit. Postea a temporibus
+    Clisthenis in usu erant vocabula demi et demarchi
+    (quod docet Aristoteles in Politia), servata ea reipublic&#230;
+    ratione, quam Solon constituerat. Tribus erant quatuor,
+    ut antea, tribuum reges item quatuor; singul&#230;
+    tribus in ternas trittyes et duodenas naucrarias divis&#230;
+    erant. Clidemus libro terlio dicit: «Quum Clisthenes decem
+    tribus substituisset quattuor illis, qu&#230; antea fuerant,
+    factum est, ut in quinquaginta quoque partes Athenienses
+    dividerentur, eosque ita divisos vocabant naucrarias, ut
+    nunc in centum partes distributos vocant symmorias.»</p>
+                </div>
+
+    <div type="textpart" subtype="book" n="12">
+        <ab><title xml:lang="la">LIBER DUODECIMUS.</title></ab>
+        
+<p n="9" >Putei Agamemnonii. Narrant Agamemnonem prope Aulidem
+et in multis Gr&#230;ci&#230; locis puteos fodisse, ut Clidemus
+libro duodecimo Atthidis.</p>
+    </div>
+                </div>
+                    
+                    <div type="textpart" subtype="incerta" n="4">
+        <ab><title type="main" xml:lang="la">FRAGMENTA INCERT&#198; SEDIS</title></ab>
+
+<p n="10" >De Creontis (Corinthiorum regis) filia non consentiunt
+cum Euripide scriptores. Clitodemus ait, eam appellari
+Creusam, nupsisse autem Xutho; Anaxicrates vero eam
+dicit Glaucam.</p>
+
+<p n="11" >Clidemus in Atthide dicit: «Et parasiti electi sunt
+Herculi.»</p>
+
+<p n="12" >Clitodemus auctor est, Agamemnone cum Palladio Athenas
+appellente, Demophontem id rapuisse et persequentium
+multos interfecisse. Agamemnone autem hoc graviter ferente,
+judicium ea de re habitura esse a quinquaginta
+Atheniensibus totidemque Argivis, quos Ephetas appellatos
+esse aiunt, quod ab utraque parte controversi&#230; disceptatio
+eis permissa esset.</p>
+<pb n="362" />
+
+<p n="13" >Clidemus Themistoclem narrat pecuniam in classem
+astu parasse. Descendentibus in Pir&#230;eum Atheniensibus
+in simulacro Minerv&#230; desideratam ait fuisse &#230;gidem.
+Themistoclem igitur, quum specie qu&#230;rentis excuteret
+omnia, immensam vim pecuni&#230; invenisse in impedimentis
+abditam: quain medium prolata abundasse classiarios
+milites viatico.</p>
+
+<p n="14" >In quibus (desideratis) fuerunt Athenienses duo et
+quinquaginta, omnes ex tribu &#198;antide, qu&#230;, ut Clidemus
+ait, pugnavit fortissime. Quamobrem nymphis Sphragitidibus
+&#198;antid&#230; victori&#230; caussa, sacra ex Apollinis oraculo
+pr&#230;scripta sumptu publico faciebant.</p>
+
+<p n="15" >Clitodemus, eorum qui literis res Atticas mandarunt
+vetustissimus auctor, dicit in rerum Atticarum commentario,
+comparata ab Atheniensibus classe ad Siciliensem
+expeditionem, magnum corvorum numerum Delphos convolasse,
+irruentesque in illud signum, aurum rostris avellisse.
+Additum et ibidem, hastam, noctuas, et caryotas,
+qu&#230; in palma illa ad palmularum similitudinem ex auro
+fact&#230; fuerant, eosdem illos corvos abrupisse. Sed et aha
+prodigia commemorat Clitodemus, qu&#230; ab ea navigatione
+suscipienda Athenienses deterrere debuerant.</p>
+
+<p n="16" >Bos septimus; bovem septimum Clitodemus in Atuiide
+dicit esse placentam Lun&#230; sacram.</p>
+    </div>
+    
+    <div type="textpart" subtype="work" n="5">
+        <ab><title type="main" xml:lang="la">PROTOGONIA</title></ab>
+
+<p n="17" >Fuisse in honore coquorum artem, intelligere
+licet ex Cerycibus apud Athenienses. Hi enim coquorum
+et poparum victimas mactantium fungebantur munere,
+ut ait Clidemus libro primo Protogoni&#230;.</p>
+<pb n="363" />
+        
+        <p n="18">Pnyx; Atheniensium concio ita appellabatur; sæpe
+        ejus mentio fit apud Atticos. Clidemus libro tertio Protogoniæ:
+        «Conveniebant in Pnycem, ita appellatam propter
+        hominum frequentiam in ea densatara (πυκνήν).</p>
+    </div>
+
+<div type="textpart" subtype="work" n="6">
+    <ab><title type="main" xml:lang="la">EXEGETICUM</title></ab>
+
+<p n="19" >Scriptor Exegetici Tritopatores dicit esse C&#339;li et Terr&#230;
+filios, nomina autem eorum, Cottum, Briareum, Gygen.</p>
+
+<p n="20" >Sigillatim apud Athenienses ἀπόνιμμα dicitur lustralis
+aqua, qu&#230; vel in honorem mortuorum adhibetur,
+vel ad lustrandos homines piaculo quodam obstrictos:
+quemadmodum et Clidemus, in libro qui Exegeticus inscribitur.
+Nam sub titulo de inferiis scribit h&#230;c: «Scrobem
+fodere oportet ab occidente sepulcri; deinde ad scrobem
+versus occidentem respiciens, aquam effunde, h&#230;c verba
+pronuncians: Vobis lavacrum, quibus oportet et quibus
+fas est. Deinde rursus unguentum infunde.</p>
+
+<p n="21" >Hyes. Epithetum Bacchi, quemadmodum ait Clidemus:
+«Quoniam ipsi sacrificia facimus eo tempore, quo deus
+pluit.»</p>
+
+<p n="22" >Plana. Clidemus: «Et arcem complanarunt, et Pelasgico
+muro novem portas habente cinxerunt.»</p>
+
+<p n="23" >Proerosia, sacra qu&#230; fiunt ante arationem. Clitodemus
+ea vocat Proacturia</p>
+    </div>
+<pb n="364" />
+    
+    <div type="textpart" subtype="work" n="7">
+        <ab><title type="main" xml:lang="la">REDITUS</title></ab>
+        <p n="24">Fuerat Phya illa corollarum venditrix; eamque in matrimonium
+        dedit Pisistratus Hipparcho filio, ut Clidemus
+        narrat octavo libro Nostorum. «Dedit vero (inquit)
+        etiam Hipparcho filio in matrimonium mulierem illam,
+        quæ curru urbem cum ipso invecta erat, Phyam Socratis
+        filiam; et Charmi, qui polemarchus fuerat, filiam forma
+        præstantissimam Hippiæ dedit uxorem; is post ipsum
+        tyrannidem occupavit.» Fuerat autem, ut ait, Charmus
+        ille amator Hippiæ, et Cupidinem illum apud Academiam
+        primus posuit, qui hos versiculos inscriptos habet:
+        Vafer Amor, tibi hanc aram erexit
+        Charmus ad umbrosum limitem gymnasii.</p>
+    </div>
+
+    <div type="textpart" subtype="incerta" n="8">
+        <ab><title type="main" xml:lang="la">FRAGMENTUM INCERT&#198; SEDIS</title></ab>
+
+<p n="25" >Προοικίαι apud Clitodemum: idem cum Demo.</p>
+
+    </div>
+    
+    
+    <div type="textpart" subtype="incerta" n="9">
+        <ab><title type="main" xml:lang="la">FRAGMENTA INCERTA</title></ab>
+
+        <p n="26" >Clidemus ex iisdem quidem elementis animalia et
+plantas constare putavit, sed impurioribus et minus calidis:
+itaque tanto naturam earum ab animali distare.</p>
+
+<p n="27" >Frigida &#230;state, calida hieme geminare existimant,
+ut utraque natura attemperata utrique tempori sit. Ita
+enim et Clidemus censet. Qu&#230; quidem opinio fortasse
+haud falsa est.</p>
+
+        <p n="28" >Serere jubent alii vergiliis orieutibus; tunc enim se-<pb n="365" />mina servari in terra sicca, et sine ullo humore: alii occidentibus,
+            ut etiam Clidemus, quod imbres die septimo
+            ab occasu insequantur.</p>
+    
+<p n="29" >Ex hujusmodi causa plerumque ficus scabiem, olea
+lichenem, vitis fluorem patitur, ut Clidemus quoque
+auctor est.</p>
+
+<p n="30" >Sunt qui fulgur, quemadmodum et Clidemus, haud
+esse dicant, sed apparere, comparantes ut similem affectionem,
+si mare virga percutiatur (aqua enim noctu resplendere
+videtur); sic, quum humor in nebula percutiatur,
+splendoris apparentiam esse fulgur.</p>
+    </div>
+
+			</div>
+        		
+    </body>
+	</text>
+</TEI>
