@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg1demon_grc">
+ <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="TY">Tariq Yousef</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg1demon_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2015</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                                <persName>
+                                    <name xml:lang="la">Theodorus Müller</name>
+                                    <name xml:lang="de">Theodor Müller</name>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.463"
+                                >Demon</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">1</biblScope>
+                        </monogr>
+                        <ref target="https://archive.org/details/fragmentahistori01mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#TY" when="2015-02-04">Automatically created the XML file</change>
+            <change who="#MB" when="2015-02-05">Proofread and updated</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    <text>
+        <body>
+<div type="edition" subtype="volume" n="1" xml:lang="grc">
+    
+    <head>
+        <title
+            ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1307.tlg003.opp-grc1"
+            xml:lang="la">DEMONIS FRAGMENTA</title>
+    </head>
+    <pb n="378"/>
+    
+    <div type="textpart" subtype="work" n="1">
+        <ab><title type="main" xml:lang="grc">ΑΤΘΙΣ.</title></ab>
+        <div type="textpart" subtype="book" n="4">
+            <ab><title xml:lang="la">LIBRI QUARTI FRAGMENTUM.</title></ab>
+
+<cit n="1" xml:lang="grc"><bibl>Athen. III, 17, p. 96, D, E</bibl><quote>Δήμων ἐν τετάρτῳ
+Ἀτθίδος, «Ἀφείδαντά φησι βασιλεύοντα Ἀθηνῶν Θυμοίτης,
+ὁ νεώτερος ἀδελφὸς, νόθος ὢν, ἀποκτείνας,
+αὐτὸς ἐβασίλευσεν· ἐφ᾿ οὗ Μέλανθος Μεσσήνιος ἐκπεσὼν
+τῆς πατρίδος, ἐπήρετο τὴν Πυθίαν, ὅπου κατοικήσει.
+Ἡ δὲ ἔφη, ἔνθα ἂν ξενίοις πρῶτον τιμηθῇ,
+τοὺς πόδας αὐτῷ καὶ τὴν κεφαλὴν ἐπὶ τῷ δείπνῳ
+παραθέντων. Καὶ τοῦτ᾿ ἐγένετο αὐτῷ ἐν Ἐλευσῖνι·
+τῶν ἱερειῶν γὰρ τότε πάτριόν τινα ἑορτὴν ἐπιτελουσῶν,
+καὶ πάντα τὰ κρέα κατηναλωκυιῶν, τῶν δὲ ποδῶν
+καὶ τῆς κεφαλῆς ὑπολοίπων ὄντων, ταῦτα, τῷ
+Μελάνθῳ ἀπέστειλαν.»</quote>
+</cit>
+        </div>
+        </div>
+    
+    <div type="textpart" subtype="incerta" n="2">
+        <ab><title type="main" xml:lang="grc">FRAGMENTA INCERT&#198; SEDIS.</title></ab>            
+
+<cit n="2" xml:lang="grc"><bibl>Suidas v. Τριτοπάτορες</bibl><quote>Δήμων ἐν τῇ Ἀτθίδι φησὶν,
+ἀνέμους εἶναι τοὺς Τριτοπάτορας.</quote>
+</cit>
+
+<cit n="3" xml:lang="grc"><bibl>Plutarch. Thes. 19</bibl><quote>Δήμων δὲ καὶ τὸν Ταῦρον
+ἀναιρεθῆναί φησι τὸν τοῦ Μίνω στρατηγὸν, ἐν τῷ λιμένι
+διαναυμαχοῦντα, τοῦ Θησέως ἐκπλέοντος.</quote>
+</cit>
+
+<cit n="4" xml:lang="grc"><bibl>Plutarch.Thes. 23</bibl><quote>Ἄγουσι δὲ καὶ τὴν τῶν ὠσχοφορίων
+ἑορτὴν, Θησέως καταστήσαντος. Οὐ γὰρ ἁπάσας
+αὐτὸν ἐξαγαγεῖν τὰς λαχούσας τότε παρθένους,
+ἀλλὰ τῶν συνήθων νεανίσκων δύο θηλυφανεῖς μὲν
+ὀφθῆναι καὶ νεαροὺς, ἀνδρώδεις δὲ τὰς ψυχὰς καὶ
+προθύμους, λουτροῖς τε θερμοῖς καὶ σκιατροφίαις,
+καὶ ταῖς περὶ τὴν κόμην καὶ λειότητα καὶ χροιὰν
+ἀλοιφαῖς καὶ κοσμήσεσιν ὥς ἐστιν ἐξαλλάξαντα κομιδῆ,
+καὶ διδάξαντα φωνῆν καὶ σχῆμα καὶ βάδισιν ὡς
+ἔνι μάλιστα παρθένοις ὁμοιοῦσθαι, καὶ μηδὲν φαίνεσθαι
+διαφέροντας, ἐμβαλεῖν εἰς τὸν τῶν παρθένων
+ἀριθμὸν, καὶ διαλαθεῖν ἅπαντας. Ἐπεὶ δὲ ἐπανῆλθεν,
+αὐτόν τε πομπεῦσαι καὶ τοὺς νεανίσκους οὕτως ἀμπεχομένους,
+ὡς νῦν ἀμπέχονται τοὺς ὠσχοὺς φέροντες.
+Φέρουσι δὲ, Διονύσῳ καὶ Ἀριάδνῃ χαριζόμενοι,
+διὰ τὸν μῦθον,
+ἢ μᾶλλον, ὅτι συγκομιζομένης ὀπώρας
+ἐπανῆλθον. Αἱ δὲ δειπνοφόροι παραλαμβάνονται, καὶ
+κοινωνοῦσι τῆς θυσίας, ἀπομιμούμεναι τὰς μητέρας
+ἐκείνων τῶν λαχόντων (ἐπεφοίτων γὰρ αὐτοῖς ὄψα καὶ
+σιτία κομίζουσαι), καὶ μῦθοι λέγονται, διὰ τὸ κἀκείνας
+εὐθυμίας ἕνεκεν καὶ παρηγορίας μύθους διεξιέναι τοῖς
+παισί. Ταῦτα μὲν οὖν καὶ Δήμων ἱστόρηκεν.</quote>
+</cit>
+    </div>
+<pb n="379" />
+
+    <div type="textpart" subtype="work" n="3">
+        <ab><title type="main" xml:lang="grc">ΠΕΡΙ ΠΑΡΟΙΜΙΩΝ.</title></ab>
+
+<cit n="5" xml:lang="grc"><bibl>Scholiast. Aristoph. Av. 301 ad illud, Τίς γλαῦκ᾿
+Ἀθήναζ᾿ ἤγαγε; hoc adnotavit</bibl><quote>Παροιμία δέ ἐστιν
+ἐπὶ τῶν μάτην ἐπισωρευόντων τινὰ ἐπὶ τοῖς προϋπάρχουσι.
+... Δήμων δέ φησιν, ὅτι οὐ τοῦ ζῴου μόνον
+πληθύνοντος ἐν τῆ πόλει, ἀλλὰ καὶ τοῦ νομίσματος·
+καὶ ὅτι οὐκ ἐν ἀργύρῳ μόνῳ, ἀλλὰ καὶ ἐν χαλκῷ
+χαράσσουσι τὴν γλαῦκα· διὸ τὴν παροιμίαν εἰρῆσθαι.</quote>
+</cit>
+
+<cit n="6" xml:lang="grc"><bibl>Hesych.</bibl><quote>Οἰναῖοι τὴν χαράδραν· παροιμία, τιθεμένη
+ἐπὶ τῶν ἑαυτοῖς κακόν τι προσελκομένων. Φησὶ
+δὲ Δήμων, ὅτι τῆς Ἀττικῆς ἐστι τόπος Οἰνόη· οἱ δ᾿
+ἐνταῦθα γεωργοῦντες, παροχετεύοντες τὴν ἄνω φερομένην
+χαράδραν, ἀρδεύειν τὰ δένδρα καὶ τὰς ἀμπέλους
+ἐπεχείρουν. Ὕδατος δὲ πολλοῦ γενομένου, συνέβη
+καταῤῥαγέντα τὸν ποταμὸν τῶν κτημάτων πολλὰ
+διαφθεῖραι, καὶ τῶν τόπων δὲ τοὺς κύκλους ἐγχῶσαι.</quote>
+<note>Phavorinus h&#230;c repetivit. Idem proverbium
+explicatur a Zenobio V, 29 et Suida v. Οἰναῖοι τ.
+χαρ. Pro κύκλους Hesychii editores conjecerunt
+κοίλους seu κάρπους scribendum esse. Siebelis suspicatur,
+tales κύκλους intelligendos esse, quales
+fuerint veterum Britannorum, de quibus Strabo
+IV, p. 200 ita: Πόλεις δ᾿ αὐτῶν εἰσὶν οἱ δρυμοί·
+περιφράξαντες γὰρ δένδρεσι καταβεβλημένοις εὐρυχωρῆ
+κύκλον, καὶ αὐτοὶ ἐνταῦθα καλυβοποιοῦνται καὶ
+τὰ βοσκήματα κατασταθμεύουσιν.</note>
+</cit>
+
+<cit n="7" xml:lang="grc"><bibl>Photii Lex.</bibl><quote>Ὄνος ἄγων μυστήρια, Δήμων ἐπὶ
+τοῦ μύλου λέγεσθαί φησιν, ὅτι στεφανοῦσιν αὐτὸν
+τότε.</quote>
+<note>Eadem apud Suidam habes. Hesych.: Ὄνος, ὁ
+ἀνώτερος λίθος τοῦ μύλου.</note>
+</cit>
+
+<cit n="8" xml:lang="grc"><bibl>Photii Lex.</bibl><quote>Ἡ φανοῦ θύρα· Φανόν φησι
+Δήμων ὀβολοστάτην εἶναι, ἄλλως δὲ τυφλόν.</quote>
+<note>Cf. Eustath. ad Hom., p. 1959: Φανίου θύρα,
+παροιμία ἐπὶ τῶν ψευδῶς προσποιουμένων θησαυρὸν
+ἑαυτοῖς ἀποκεῖσθαι. Zenob. Proverb. 4, 24 et Suidam
+h. v. Apud Photium pro ἄλλως scripsit
+Kuster ad Suid. ἄλλοι.</note>
+</cit>
+
+<cit n="9" xml:lang="grc"><bibl>Scholiastes Aristoph. Ran. 439, postquam
+proverbii ὁ Διὸς Κόρινθος alias attulit interpretationes,
+hoc addit</bibl><quote>Ὁ δὲ Διὸς Κόρινθος, παῖς Διὸς,
+βασιλεὺς Κορίνθου. ... Μεγαρέας φασὶ Κορινθίων ἀποίκους,
+καὶ πολλὰ τοῖς Κορινθίοις κατ᾿ ἰσχὺν τῆς πόλεως
+ὑπείκειν· ἄλλα τε γὰρ πλείονα τοὺς Κορινθίους προστάσσειν,
+καὶ τῶν Βακχιαδῶν εἴ τις τελευτήσαι (διῴκουν
+δὲ οὗτοι τὴν πόλιν), ἔδει Μεγαρέων ἄνδρας
+καὶ γυναῖκας, ἐλθόντας εἰς Κόρινθον, συγκηδεύειν
+τὸν νεκρὸν τῶν Βακχιαδῶν. Ὡς δὲ ὕβρεως
+οὐδὲν ἀπέλειπον οἱ Κορίνθιοι, τὰ δὲ τῶν Μεγαρέων
+ἔῤῥωτο, καὶ πρὸς ἐλπίσι τοῦ μηδὲν παθεῖν ἀποστάντας
+αὐτοὺς, ἀλλ᾿ ἀφεῖναι, πέμπουσι δῆτα πρέσβεις
+οἱ Κορίνθιοι, κατηγορήσοντας Μεγαρέων· οἳ προσελθόντες
+εἰς τὴν ἐκκλησίαν, ἄλλα τε πολλὰ διεξῆλθον,
+καὶ τέλος, δικαίως στενάξει ὁ Διὸς Κόρινθος, εἰ
+μὴ λάβοι δίκην παρ᾿ αὐτῶν. Ἐφ᾿ οἷς παροργισθέντες
+οἱ Μεγαρεῖς τοὺς πρέσβεις λίθοις ἔβαλον, καὶ μετὰ
+μικρὸν, ἐπιβοηθησάντων τινῶν τοῖς Κορινθίοις καὶ
+μάχης γενομένης, νικήσαντες, φυγῇ τῶν Κορινθίων
+ἀποφυγόντων ἐφαπτόμενοι, κτείνοντες ἅμα παίειν τὸν
+Διὸς Κόρινθον ἐκέλευον. Ὅθεν, φησὶν ὁ Δήμων, ἔτι
+καὶ νῦν ἐπὶ τῶν ἄγαν σεμνυνομένων, καὶ δειλῶς ἀπαλλαττόντων
+τὴν παροιμίαν ταύτην τετάχθαι.</quote>
+    <pb n="380"/><note>Eadem leguntur apud Schol. ad Pind. Nem.
+    VII, 155, unde a Francino in scholia Aristoph.
+    illata sunt. Siebelis hunc locum ex Schol. in Platon.
+    in Siebenkesii Anecd. Gr&#230;c. ita emendavit:
+    ... Τὰ δὲ τῶν Μεγαρέων ἔῤῥωτο καὶ πρὸς ἐλπίσιν τοῦ
+    μηδὲν παθεῖν ἀποστάντας αὐτοὺς· Κορινθίων ἀφίστανται.
+    Πέμπουσι δῆτα ....εἰ μὴ λήψονται δίκην παρ᾿
+    αὐτῶν. Ἐφ᾿ οἷς....τοὺς πρέσβεις παραχρῆμα λίθοις
+    ἔβαλον, καὶ μετὰ μικρὸν... φυγῇ τῶν Κορινθίων ἀποχωρούντων
+    ἐφαπτόμενοι... παίειν ἀλλήλοις ...ἐκέλεουν.</note>
+</cit>
+
+<cit n="10" xml:lang="grc"><bibl>Scholiast. Aristoph. Plut. 1000</bibl><quote>Πάλαι ποτ᾿
+ἦσαν ἄλκιμοι Μιλήσιοι. Περὶ τῆς παροιμίας ταύτης
+Δήμων οὕτω φησί· τῶν Καρῶν περὶ τοῦ πολέμου πρὸς
+τοὺς Ἀμβρακιώτας βουλευσαμένων, ἀλκιμωτάτους
+ὄντας τῶν ἐν πολέμῳ γειτόνων, τίνας χρὴ ποιεῖσθαι
+συμμάχους, οἱ μὲν τοὺς Μιλησίους ἡγοῦντο δεῖν παρακαλεῖν·
+καὶ γὰρ εὐημέρουν τότε μάλιστα τῶν περιοίκων,
+καὶ διὰ τὸ γειτνιᾷν τῇ Καρίᾳ τὴν τούτων
+χώραν· οἱ δὲ διαλύσασθαι πρὸς τοὺς Πέρσας συνεβούλευον,
+τὴν τούτων ἀρχὴν μεγίστην γεγονέναι φάσκοντες,
+καὶ πάντων ἀλκιμωτάτους εἶναι, κρατοῦντας τῆς
+Ἀσίας. Ἔδοξεν οὖν τοῖς Καρσὶν ἐρωτῆσαι τὸν Ἀπόλλωνα
+... Τὸν δὲ θεὸν ἀποκρίνεσθαι,
+Πάλαι ποτ᾿ ἦσαν ἄλκιμοι Μιλήσιοι.
+Τοῦ δὲ χρησμοῦ διαδοθέντος εἰς τὰς Ἀσιατίδας πόλεις,
+οἱ μὲν Μιλήσιοι τὴν προφῆτιν αἰτιασάμενοι διεφθάρθαι
+χρήμασιν ὑπὸ τῶν μηδιζόντων, πανδημεὶ [τοῖς
+καρσὶ βοηθήσαντες, καὶ] τοῖς Πέρσαις μετ᾿ ἐκείνων
+συμβαλόντες, σχεδὸν ἅπαντες ἀπέθανον. Τὸν δὲ χρησμὸν
+διὰ τὴν ἀλήθειαν εἰς παροιμίαν ἐλθεῖν.</quote>
+<note>Pro Δάμων, quod vulgo hoc loco legitur, Siebelis
+bene reposuit Δήμων. Phavorinus v. Μιλήσιοι,
+qui eadem refert, eandem in auctoris nomine
+corruptelam exhibet.
+Narrantur vero h. l. eadem, qu&#230; legimus apud
+Herodot. V, 118-120 et in Diodor. Exc. Vatican.
+p. 37 ed. Mai (p. 40 ed. Dindorf.). Quare Hemsterhusius
+ad Aristoph. l. l. pro: πρὸς τοὺς Ἀμβρακιώτας,
+quod nihili est, reponi jussit: πρὸς τῷ
+Λαβρανδέως ἄλσει i. e. ad lucum Jovis larbrandei.
+Equidem malim: πρὸς τῷ Διὸς Στρατιώτου (se.
+Ἱερῷ vel τεμένει vel ἄλσει), quod ad verba Scholiast&#230;
+propius accedit. Herodotus enim l. l. c.
+119: ἐνθεῦτεν δὲ οἱ διαφυγόντες αὐτῶν (sc. Carum)
+κατειλήθησαν ἐς Λάβρανδα, ἐς Διὸς Στρατίου ἱρὸν,
+μέγα τε καὶ ἅγιον ἄλσος πλατανίστων.</note>
+</cit>
+
+<cit n="11" xml:lang="grc"><bibl>Schol. Homer. Odyss. Υ, 301</bibl><quote>Οἱ τὴν Σαρδόνα
+κατοικοῦντες, ἀπὸ Καρχηδονίων ὄντες, χρῶνται νόμῳ
+τινὶ βαρβαρικῷ καὶ πολὺ τῶν Ἑλλήνων διηλλαγμένῳ.
+Τῷ γὰρ Κρόνῳ θύουσιν ἡμέραις τισὶ τεταγμέναις οὐ
+μόνος τῶν αἰχμαλώτων τοὺς καλλίστους, ἀλλὰ καὶ
+τῶν πρεσβυτέρων τοὺς ὑπὲρ ἑβδομήκοντα ἔτη γεγενημένους.
+Τούτοις δὴ θυομένοις τὸ μὲν δακρύειν αἰσχρὸν
+εἶναι δοκεῖ καὶ δοῦλον, τὸ δὲ ἀσπάζεσθαι καὶ γελᾷν
+ἔσχατον καὶ προϊόντων ἀνδρῶδές τε καὶ καλόν. Ὅθεν
+φασὶ καὶ τὸν ἐπὶ κακῷ προσποίητον γέλωτα κληθῆναι
+Σαρδόνιον. Ἡ δὲ ἱστορία παρὰ Δήμωνι.</quote>
+<note>Siebelis: «ἔσχατον καὶ προϊόντων insolentius
+dictum est pro ἔσχατον καὶ προϊόντας, sed nescio
+an scribendum sit: ἐσχάτων καὶ προϊόντων, dum
+extrema etiam parantur.» Quod ferri non potest.
+Legendum puto: ἐπ᾿ ἔσχατα προϊόντας. Paulo ante
+fort. Δουλικόν. Ceterum cf. Tim&#230;i fr. 28, 29.
+</note></cit>
+
+<cit n="12" xml:lang="grc"><bibl>Photius s. v, Σαρδ. γελ.</bibl><quote>Παροιμία ἐπὶ τῶν ἐπ᾿
+ὀλέθρῳ τῷ σφῶν αὐτῶν γελώντων, ἣν Δήμων μὲν διαδοθῆναι,
+ὅτι οἱ Σαρδόνα κατοικοῦντες αἰχμαλώτων
+τε τοὺς καλλίστους καὶ πρεσβυτέρους ὑπὲρ ἑβδομήκοντα
+ἔτη τῷ κρόνῳ ἔθυον γελῶντας, ἕνεκα τοῦ τὸ
+ἔπανδρον ἐμφῆναι.</quote>
+<note>Suidas et Apostolius eadem referunt, ille tamen
+εὔανδρον habet pio ἔπανδρον: apud hunc καὶ
+Δήμων scribendum pro Καδήμων.</note>
+</cit>
+
+<cit n="13" xml:lang="grc"><bibl>Zenobii Proverb. V, 52</bibl><quote>Ὅπου αἱ ἔλαφοι τὰ
+    κέρατα ἀποβάλλουσιν. Ὁ Δήμων φησὶν, ἐν τοῖς τρα-<pb n="381" />
+χέσι καὶ δυσβάτοις τόποις τοὺς ἐλάφους προστρίβοντας
+        τὰ κέρατα πρὸς τὰς θάμνους, ἀποβάλλειν αὐτά·
+        ὅθεν ἐπὶ τῶν ἐργώδεις τὰς διατριβὰς ποιουμένων εἰρῆσθαι
+        τὴν παροιμίαν.</quote>
+    <note>Cf. Aristot. Histor. Anim. IX, 5.</note></cit>
+
+<cit n="14" xml:lang="grc"><bibl>Proverbior. gr&#230;cor. e Vaticana Biblioth. Append.
+In Proverb. Gr&#230;c. ab. A. Schotto editis, IV,
+20, p. 319</bibl><quote>Τὴν Συρακουσίων δεκάτην· Δήμων
+Συρακουσίους εὐδαιμονήσαντας φησι ψηφίσασθαι τὴν
+δεκάτην τῶν ὑπαρχόντων ἀποδίδοσθαι εἰς ἐπισκευὴν
+ναῶν τε καὶ ἀναθημάτων καὶ ἱερείων· πολλοῦ δὲ χρήματος
+συναχθέντος, εἰς παροιμίαν ἐλθεῖν.</quote>
+<note>Cf. Strab. VI, p. 261.</note>
+</cit>
+
+<cit n="15" xml:lang="grc"><bibl>Photii Lex.</bibl><quote>Φοινίκων συνθῆκαι. Οἱ τὴν Καρχηδίνα
+κτίσαντες Φοίνικες, ὅτε προσέπλευσαν τῇ Λιβύῃ, ἐδεήθησαν
+τῶν ἐγχωρίων, δέξασθαι αὐτοὺς νύκτα καὶ
+ἡμέραν. Ἐπιτυχόντες δὲ τούτου, οὐκ ἐβούλοντο ἀπαλάσσεσθαι,
+ὡς συντιθέμενοι νύκτας καὶ ἡμέρας μένειν.
+Διὸ λέγεσθαι τοῦτο ἐπὶ τῶν ἐνεδρευτικῶς συντιθεμένων.
+Τὰ δ᾿ ὅμοια Δήμων ἐπὶ Μεταποντίνων ἱστορεῖ.</quote>
+<note>Suidas idem Demonis fragmentum exhibet.
+Cf. Strab. VI, p. 265.</note>
+</cit>
+
+<cit n="16" xml:lang="grc"><bibl>Photii Lex.</bibl><quote>Ἡδέα χελώνης κρέα φαγεῖν ἢ μὴ
+φαγεῖν. Τῆς χελώνης ὀλίγα κρέα βρωθέντα στρόφους
+ποιεῖ, πολλὰ δὲ καθαίρει. Ὅθεν καὶ τὴν παροιμίαν.
+Δήμων.</quote>
+<note>Verba ἡδέα ... μὴ φαγεῖν Siebelis ex Suida,
+Zenobii et Diogeniani Proverbiis ita corrigenda
+esse censet: Ἢ δεῖ χελώνης κρέα φαγεῖν, ἢ μὴ φαγεῖν.</note>
+</cit>
+
+<cit n="17" xml:lang="grc"><bibl>Stephan. Byz.</bibl> <quote>Δωδώνη. ... Ἔστι καὶ Δωδωναῖον
+χαλκεῖον παροιμία ἐπὶ τῶν πολλὰ λαλούντων, ὡς
+μὲν ὁ Δήμων φησὶν, ἀπὸ τοῦ τὸν ναὸν τοῦ Δωδωναίου
+Διὸς τοίχους μὴ ἔχοντα, ἀλλὰ τρίποδας πολλοὺς ἀλλήλων
+πλησίον, ὥστε τὸν ἑνὸς ἁπτόμενον παραπέμπειν
+διὰ τῆς ψαύσεως τὴν ἐπήχησιν ἑκάστῳ, καὶ διαμένειν
+τὴν ἦχον ἄχρις αὖθις τοῦ ἑνὸς ἐφάψηται. Ἡ
+παροιμία δὲ οὔ φησιν εἰ μὴ χαλκίον ἓν, ἀλλ᾿ οὐ λέβητας
+ἢ τρίποδας πολλούς.</quote>
+       <note>Pinedo scripsit μὲν ὁ Δήμων pro vulgato Μενεδήμων,
+            Suidam sequutus (v. Δωδων. Χαλκ.): legitur
+            Demonis nomen etiam in Bibl. Coisl., ubi Stephani
+            Byz. fragmentum exstat. In eadem Bibl.
+            Coisl. legitur καὶ ante διαμένειν, quod in vulg.
+            omissum est. Pro αὖθις ibidem reperitur ἄν τις,
+            quod præferunt Montfaucon. Et Preller. (Polemon.
+            fragm. p. 57), atque hic quidem ita locum interpretatur:
+            Durat sonus tamdiu, quamdiu quis
+            pulsat unam ex pelvibus illis, abs qua ad ceteras
+            propagetur sonus. Sed ἄχρις non significat quamdiu,
+            et omnino inutile est observare, sonum perdurare
+            tamdiu, quamdiu quis pulset, quod sponte
+            intelligitur; id vero explicandum est, quamdiu
+            duret sonus una impulsione excitatus. Tuentur
+            αὖθις Siebelis et Welcker (ad Philostr. Imagg. II,
+            33, p. 566), quorum hic loci explicationem addit:
+            donec ad primum redierit, unde motus exiit et
+            hunc, puta, denuo excitet, unde novus sonorum et
+            vibrationum in orbem actarum ordo incipit, paulatim
+            tantum impulsionis vehementia decrescente
+            et languescente, nisi quis unum ex lebetibus inhi
+            bendo seu a proximo reprimendo his circulationibus
+            finem imponat. Sed verba ἄχρις ἄν τις τοῦ ἑνὸς
+            ἐφάψηται non bene redduntur per «donec ad
+            primum redierit (sc. sonus)», et nullus hoc modo
+            vibrationum terminus indicatur, ut verba ista
+            plane supervacanea esse videantur. Nos αὖθις
+            quidem defendimus, ita vero locum interpretamur:
+            durat sonus, donec unum illum denuo quis
+            pulset sc. ὁ ἑνὸς ἁπτόμενος. Docemur igitur his
+            verbis, sonum perdurare usque dum per omnes
+            pelves propagatus sit, ut, paulatim decrescens,
+            fere desinat, quum ad ultimam pervenerit; sonum
+            per unum circuitum perdurare eo ipso significatur,
+            quod quum ad orbis finem pervenit.
+            Prima pelvis denuo pulsanda sit, ut novus sono-<pb n="382" />
+            rum ordo incipiat.—Sub finem vulgo scriptum
+            est εἰ μὴ χαλκίον, ἐν ἄλλῳ λέβητας, quod Montfaucon.
+            ita correxit, ut scripsimus.</note></cit>
+
+<cit n="18" xml:lang="grc"><bibl>Suidas</bibl><quote>Δωδωναῖον χαλκεῖον. Ἐπὶ τῶν μακρολογούντων·
+Δήμων γάρ φησιν ὅτι τὸ τοῦ Διὸς μαντεῖον
+ἐν Δωδώνῃ λέβησιν ἐν κύκλῳ περιείληπται. Τούτους
+δὲ ψαύειν ἀλλήλους, καὶ κρουσθέντος τοῦ ἑνὸς, ἠχεῖν
+ἐκ διαδοχῆς πάντας· ὡς διὰ πολλοῦ χρόνου γίνεσθαι
+τῆς ἠχῆς τὴν περίοδον. Ἀριστείδης δὲ ὡς πλάσμα
+διελέγχων, δύο φησὶ στύλους εἶναι, καὶ ἐπὶ μὲν τοῦ
+ἑτέρου λέβητα, ἐπὶ θατέρου δὲ παῖδα κρατοῦντα μάστιγα,
+ἧς τοὺς ἱμάντας χαλκέους ὄντας σειομένους ὑπ᾿
+ἀνέμου τῷ λέβητι προσκρούειν· τὸν δὲ τυπτόμενον
+ἠχεῖν. ... Πρὸς Δήμωνα· εἰ δὲ πολλοὶ ἦσαν, οὐκ ἂν
+ἑνικῶς ἐλέγετο ἡ παροιμία.</quote>
+<note>Eustathius ad Odyss. Ξ, p. 1760 eadem refert,
+sed Demonem non nominat. Pro Ἀριστείδης
+apud Suidam et Eustathium vulgo legebatur
+Ἀριστοτέλης, sed istud nomen reponendum est
+ex Steph. Byz. qui iis, qu&#230; supra attulimus,
+h&#230;c addit: Προσθετέον οὖν τῷ περιηγητῇ Πολέμωνι
+ἀκριβῶς τὴν Δωδώνην ἐπισταμένῳ καὶ Ἀριστείδῃ
+τὰ τούτου μεταγεγραφότι, λέγοντι κατὰ τὴν δευτέραν·
+Ἐν τῇ Δωδώνῃ στῦλοι δύο παράλληλοι καὶ
+παρεγγὺς ἀλλήλων, καὶ ἐπὶ μὲν θατέρου χαλκίον ἐστὶν
+οὐ μέγα, τοῖς δὲ νῦν παραπλήσιον λέβησι, ἐπὶ δὲ
+θατέρου παιδάριον ἐν τῇ δεξιᾷ χειρὶ μαστίγιον ἔχον,
+οὗ κατὰ τὸ δεξιὸν μέρος ὁ τὸ λεβήτιον ἔχων κίων
+ἕστηκεν. Ὅταν οὖν ἄνεμον συμβῇ πνεῖν, τοὺς τῆς
+μάστιγος ἱμάντας χαλκοῦς ὄντας ὁμοίως τοῖς ἀληθινοῖς
+ἱμᾶσιν αἰωρουμένους ὑπὸ τοῦ πνεύματος συνέβαινε
+ψαύειν τοῦ χαλκίου καὶ τοῦτο ἀδιαλείπτως ποιεῖν ἕως
+ἂν ὁ ἄνεμος διαμένῃ. De Aristide, qui opus de proverbiis
+scripserat, vid. Preller. Polem. fragm.
+p. 59. De proverbio Δωδωναῖον χαλκεῖον cf. etiam
+Strabonem lib. VII, p. 321, qui, ut Aristides,
+Polemone utitur auctore.—Siebelis articulum
+ante ἑνὸς expungendum esse censet: sed probabiliter
+ipse Suidas falso adhibuit articulum, quem
+fortasse apud eum quo usus est auctorem eo
+sensu eoque loco, quo legitur apud Stephanum
+Byz., positum reperit et temere alio sensu alioque
+loco usurpavit.</note>
+</cit>
+
+<cit n="19" xml:lang="grc"><bibl>Harpocrat.</bibl><quote>Μυσῶν λείαν, Δημοσθένης ἐν τῷ ὑπὲρ
+Κτησιφῶντος. Παροιμία τίς ἐστιν οὕτω λεγομένη, ἥν
+φησι Δήμων ἐν τεσσαρακοστῇ περὶ παροιμιῶν τὴν
+ἀρχὴν λαβεῖν ἀπὸ τῶν καταδραμόντων ἀστυγειτόνων
+τε καὶ λῃστῶν τὴν Μυσίαν κατὰ τὴν τοῦ Τηλέφου τοῦ
+βασιλέως ἀποδημίαν.</quote>
+<note>Pro ἐν τεσσαρακοστῇ Gronovius ex optimo codice
+restituit ἐν πρώτῃ, quod et Phavorinus habet,
+qui h. v. Harpocrationis verba repetit. Pro Δήμων
+Phavor. exhibet Δημοφῶν, quod mutandum
+est in Δήμων.</note>
+</cit>
+
+<cit n="20" xml:lang="grc"><bibl>Schol. Vat. Eurip. Rhes. 250</bibl><quote>Ἕνι δὲ θάρσος
+ἐν αἰχμαῖς ποτὲ Μυσῶν] Κέχρηται δὲ καὶ νῦν
+Εὐριπίδης τῇ παροιμίᾳ παρὰ τοὺς χρόνους. Δήμων
+γοῦν ἐξηγούμενος περὶ αὐτ.. φησὶν ὡς ὕστερον
+τῶν Τρωϊκῶν λοιμοῦ καὶ φθορᾶς καρποῦ περιεληλυθυίας
+τὴν Ἑλλάδα μαντευομένην περὶ τῶν παρόντων
+χρῆσθαι τὴν Πυθίαν, τηνικαῦτα παῦλαν αὐτοῖς τῶν
+δεινῶν, ἐπειδάν τινες τῶν ἀπὸ Ἀγαμέμνονος ἐχόντων
+τὸ γένος πλεύσαντες εἰς Τροίαν τὰς πόλεις κτίσωσι,
+καὶ τῶν θεῶν τιμὰς ἀναλαμβάνωσιν, ἃς ἠφανίσθαι
+συνέβαινεν ὑπὸ τοῦ πολεμοῦ. Ταύτην τὴν μαντείαν
+παραδεξάμενον τὸν Ὀρέστην συνέβη λιπεῖν τὸν βίον.
+Μετὰ δὲ Ὀρέστην Τισαμενὸν λαβεῖν τὴν ἀρχὴν καὶ
+μετ᾿ ἐκεῖνον Κομήτην· οὐ χρωμένα ποῦ δέοι πλεῖν,
+κατὰ γὰρ εὐλάβειαν καὶ δὶς καὶ τρὶς παρὰ τῶν αὐτῶν
+ἐπανέρχεται τοῦ θειοῦ, δοθῆναι χρησμὸν, ἐπὶ τὸν
+ἔσχατον Μυσῶν πλεῖν. Κατολιγωρήσαντας δὲ πολλῶν
+συνηθροισμένων τοῦ χρησμοῦ ἀφίστασθαι καὶ τὸν
+Κομήτην καταλιπεῖν, μικρὸν πεφροντικέναι λέγοντας
+αὐτοῦ τε καὶ τοῦ Μυσοῦ ἐσχάτου. Κατὰ τὴν ἐρχομέ-<pb n="383"/>
+νην γενεὰν πλινθιλυ πάλιν συναγείραντος τὴν στρατιὰν,
+καὶ τοῦ θεοῦ. Τὸν αὐτὸν ἐπενέγκαντος χρησμὸν, διὰ τὸ
+παράδοξον εἰς παροιμίαν διὰ τοῦτο προστῆναι φασίν·
+εἰσὶ δὲ οἳ Τηλέφῳ γενέσθαι τὸν χρησμὸν τοῦτον·
+μαντευομένῳ γὰρ αὐτῷ περὶ γονέων, ἐπὶ τίνας ἂν
+τόπους πλανηθεὶς ἐξεύροι τοὺς αὐτοῦ γονεῖς, τὸν
+θεὸν προστάξαι ἐλθεῖν ἐπὶ τὸν ἔσχατον Μυσῶν, νέμεσθαι
+γὰρ τὰ χωρία τότε Μυσοὺς, ἐπιτυχεῖν τῇ
+μητρί.</quote>
+<note>Hoc fragmentum, misere luxatum, fortasse
+        ita restituendum est ut scribatur ἐξηγούμενος περὶ
+        αὐτῆς pro ἐξηγ. Περὶ αὐτ.., αὖ χρωμένῳ, ποῖ
+        δέοι πλεῖν, κατὰ γὰρ εὐλάβειαν καὶ δὶς καὶ τρὶς περὶ
+        τῶν αὐτῶν ἐπανέρχεται ἐπὶ τὸ θεῖον (sive τὸν θεὸν),
+        δοθῆναι χρ. etc. pro οὐ χρωμένα ποῦ etc., κατολιγωρήσαντας
+        δὲ πολλοὺς τῶν συνηθροισμένων pro κατολιγωρήσαντας
+        δὲ πολλῶν συνηθρ., Πενθίλου pro
+        πλινθιλυ, atque περιστῆναι pro διὰ τοῦτο προστῆναι,
+        τοὺς αὑτοῦ γονεῖς pro τοῦ αὐτοῦ γονεῖς, et καὶ
+        inseratur ante ἐπιτυχεῖν. De Comete in Asiam
+        profecto V. Pausan. VII, 6, 2.
+    Penthilus ille, aliunde, quantum sciam, non
+        notus, bene distinguendus est a Penthilo Orestis
+        filio. Quem si recte, ut puto, ex corrupta voce
+        Scholiastæ erui, præclarum nacti sumus testimonium,
+        quo confirmetur Odofredi Mülleri, viri
+        immortalis, conjectura: neque Orestem neque
+        Penthilum filium, sed posteros eorum coloniarum
+        in Lesbum Asiamque deductarum principes
+        esse putandos.</note>
+</cit>
+    
+    <cit n="21" xml:lang="grc"><bibl>Photii Lex.</bibl> <quote>Εὐγενέστερος Κόδρου· ... διοργισθέντες
+        δὲ οἱ λοιποὶ συλλαβόντες αὐτὸν (Κόδρον) ἀνεῖλον,
+        ὡς Δήμων.</quote>
+    <note>Dubitandum est, num Demonis hoc sit fragmentum:
+        in nonnullis enim codd. scriptum est
+        Δημο...., et a Suida adducitur eadem de re Εὔδημος
+        ἐν τῷ περὶ λέξεων ῥητορικῶν.</note></cit>
+</div>
+    
+    <div type="textpart" subtype="work" n="4">
+        <ab><title type="main" xml:lang="grc">ΠΕΡΙ ΘΥΣΙΩΝ.</title></ab>
+    
+    <cit n="22" xml:lang="grc"><bibl>Harpocrat.</bibl> <quote>Προκώνια, Λυκοῦργος κατὰ Μενεσαίχμου.
+        Δίδυμος δὲ «προκώνια, φησὶν, ἐστὶ, πυροὶ
+        μέλιτι κεχρισμένοι.» Ἀριστοφάνης δὲ ὁ γραμματικὸς
+        καὶ Κράτης τὰ ἐξ ἀφρύκτων κριθῶν, οὕτω φασὶν ὀνομάζεσθαι.
+        Ἔοικε δὲ καὶ ἐκ πυρῶν καὶ ἐκ κριθῶν γίνεσθαι,
+        ὡς Ἀντικλείδης ἐν τοῖς ἐξηγητικοῖς ὑποσημαίνει.
+        Δήμων δ᾿ ἐν τῷ περὶ θυσιῶν φησι· «καὶ
+        προκώνιά ἐστι κάγχρυς κατηριγμέναι μετ᾿ ἀρωμάτων.»</quote>
+    <note>Eadem referunt Photius in Lex., Suidas et
+        Phavorinus. Pollux VI, 77, scribit πρόκωνα, quod
+        etiam apud Hesychium tuentur editores.</note></cit>
+    </div>
+			</div>
+		</body>
+	</text>
+</TEI>

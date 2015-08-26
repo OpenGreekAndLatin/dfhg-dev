@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg1demon_la">
+
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="TY">Tariq Yousef</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg1acus_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2015</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.463"
+                                >Demon</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">1</biblScope>
+                        </monogr>
+                        <ref target="https://archive.org/details/fragmentahistori01mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#TY" when="2015-02-04">Automatically created the XML file</change>
+            <change who="#MB" when="2015-02-05">Proofread and updated</change>
+        </revisionDesc>
+        
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="translation" subtype="volume" n="1" xml:lang="la">
+                <head xml:lang="la">
+                    <title
+                        ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1307.tlg003.opp-lat1"
+                        xml:lang="la">DEMONIS FRAGMENTA</title>
+                </head>                
+                <pb n="378"/>
+                <div type="textpart" subtype="work" n="1">
+                    <div type="textpart" subtype="book" n="4">
+                        <ab><title xml:lang="la">LIBRI QUARTI FRAGMENTUM</title></ab>
+
+<p n="1" >Demon quarto libro Rerum Atticarum scribit: «Aphidantem,
+Atheniensium regem, junior frater Thym&#339;tes,
+qui spurius erat, interfecit et regnum ipse occupavit. Quo
+regnante Melanthus Messenius, patria pulsus, qu&#230;sivit
+e Pythia, quonam habitatum concederet. Respondit illa,
+ubi primum pro hospitali munere pedes et caput ipsi
+in c&#339;nam apponerentur. Id autem ei accidit Eleusine:
+quum enim ibi femin&#230; sacerdotes festum aliquem diem
+patrio more celebrarent, omnesque carnes absumsissent,
+et nihil nisi pedes et caput reliquum esset, h&#230;c ill&#230; Melantho
+miserunt.»</p>
+                    </div>
+                    </div>
+
+                <div type="textpart" subtype="incerta" n="2">
+                    <ab><title type="main" xml:lang="grc">FRAGMENTA INCERT&#198; SEDIS.</title></ab>                        
+
+<p n="2" >Demon in Atthide dicit, Tritopatores esse ventos.</p>
+
+<p n="3" >Demo ait Taurum Minois ducem commisso cum Theseo,
+qui solveret e portu, pr&#339;lio navali ab hoc interfectum
+esse.</p>
+
+<p n="4" >Solemne celebrant Oschophoriorum ex Thesei instituto;
+neque enim omnes eum sorte lectas virgines ferunt eduxisse,
+sed familiares adolescentes duos: quorum, quum
+muliebri quidem vultu et florente, sed fortibus forent pectoribus
+et impigri, thermis, umbratili vita, et com&#230; l&#230;voris
+colorisque caussa unctionibus atque comptu, impense
+mutaverat speciem et finxerat vocem, gestum et incessum,
+ut quam maxime virgines repraesentarent, neque
+usquam viderentur ab iis discrepare; hos inseruisse in
+virginum numerum, atque omnes fefellisse; postquam
+redux fuerit, et illum et adolescentes illos pompam duxisse
+eo quo nunc amiciantur cultu, qui palmites cum racemis
+ferant. Hos ferunt in Liberi patris et Ariadn&#230; honorem,
+propter fabulam: aut potius quod ea tempestate rediissent,
+qua colliguntur poma. Qu&#230; c&#339;nam ferunt femin&#230;, Deipnophor&#230;
+dict&#230;, assistunt et adhibentur sacrificio, illorumque
+sortitorum matres agunt: portaverunt enim iis
+obsonia et epulas. Fabul&#230; autem narrantur, eo quod et
+ill&#230; leniendi liberos et erigendi caussa, fabulas iis recitaverint.
+Atque h&#230;c Demon quoque prodidit.</p>
+                </div>
+<pb n="379" />
+
+                <div type="textpart" subtype="work" n="3">
+                    <ab><title xml:lang="la">DE PROVERBIIS.</title></ab>
+
+<p n="5" >Quis noctuam Athenas adduxit? Hoc proverbium de
+iis dicitur, qui, qu&#230; adsunt, inutiliter accumulant. Demo
+ait, quia non modo avium illarum, sed etiam numorum
+magna esset in hac urbe multitudo, neque in solis argenteis
+numis, sed etiam in &#230;reis noctu&#230; notam imprimi;
+propterea hoc proverbium dici solere.</p>
+
+<p n="6" >&#338;n&#339;i torrentem. Hoc proverbium de iis dicitur, qui
+ipsi malum sibi parant. Ait autem Demo, &#338;noen esse
+pagum Attic&#230;; hunc qui incolerent agricolas, per canalem
+deducentes torrentem de loco superiori, elaborasse
+ut arbores et vites irrigarent; quum vero aqua multum
+accrevisset, accidisse ut fluvius cum impetu delatus
+latifundia vastaret pagorumque circulos inundaret.</p>
+
+<p n="7" >Asinus mysteria portans. Demo ait, hoc dici de lapide
+molari, quod eum coronis ornaverint eo tempore ( in sacris
+Eleusiniis).</p>
+
+<p n="8" >Phani janua. Phanum Demo dicit fuisse f&#339;neratorem,
+alii vero c&#230;cum.</p>
+
+<p n="9" >Jovis Corinthus, Jovis filius, rex Corinthi. Aiunt, Megarenses,
+Corinthiorum colonos, in multis rebus Corinthiis
+propter civitatis eorum potentiam obtemperasse. Etenim
+tum alia officia iis injunxisse Corinthios, tum id,
+ut, si quis Bacchiadarum (hi urbis imperium tenebant) obiisset,
+Megarensium et viri et mulieres Corinthum proficiscerentur
+illique funus cum ipsis facerent. Sed quum
+Corinthii non desisterent a superbia, Megarenses vero
+majorem potestatem adipiscerentur atque sperarent, se
+impune defecturos esse, deseruerunt Corinthios. Miserunt
+tum Corinthii legatos, ad accusandos Megarenses;
+qui in concionem venientes quum alia multa admonuerunt,
+tum vero sub finem: jure gemiturum esse Jovis Corinthum,
+si p&#339;nam de iis non sumerent. Qua oratione
+Megarenses irritati, legatos lapidibus statim incessiverunt
+atque paulo post, pugna inita, Corinthios, quibus
+nonnulli auxilio venerant, devicerunt in fugamque conjecerunt;
+fugientes autem quum consequuti essent, interfecerunt
+eos seque invicem adhortali sunt, ut verberarent
+Jovis Corinthum. Quare etiamnunc, ait Demo, de
+nimium jactantibus et ignave rem suam deserentibus
+usurpatur hoc proverbium.</p>
+<pb n="380" />
+
+<p n="10" >Quondam fuere strenui Milesii. De hoc proverbio
+Demo ita scribit: Quum Cares ad lucum Jovis Labrandii
+(vel Stratii) de bello consultarent, alii Milesios censuerunt
+esse advocandos: eos enim auctoritate maxime valere
+omnium, qui circa habitarent, eorumque terram
+Cari&#230; esse vicinam. Alii suaserunt, ut cum Persis paciscerentur,
+eos maximum habere imperium dicentes, omniumque
+esse potentissimos, in quorum ditione esset
+Asia. Placuit igitur, ut Apollinem consulerent. Deus iis
+respondit:
+Fuere quondam strenui Milesii.
+Hoc oraculo per Asi&#230; urbes divulgato, Milesii sacerdoti
+exprobrantes, corruptam eam esse ab iis, qui Medis faverent,
+Caribus omni populo auxilio venerunt, atque
+Persas cum his aggressi, omnes fere c&#230;si sunt. Oraculum
+propter veritatem in proverbium abiit.</p>
+
+<p n="11" >Apud eos, qui Sardiniam incolunt, a Carthaginiensibus
+oriundos, obtinet mos barbarus et a Gr&#230;cis plane alienus.
+Saturno enim certis diebus mactant ex captivis et fortissimos
+et seniorum eos, qui annum septuagesimum jam
+egressi sunt. His, qui immolantur, lacrimari turpe atque
+illiberale esse videtur, se invicem vero amplecti et ridere
+dum extrema perpessuri sunt, honestum et fortis animi.
+Unde risum simulatum de malo aliquo, aiunt, appellari
+Sardonium. H&#230;c narratio extat apud Demonem.</p>
+
+<p n="12" >Risus Sardonius. Proverbium de iis, qui, quum pereunt,
+rident. Id autem inde ortum esse Demon tradit,
+quod Sardi captivorum pulcherrimos et senes septuagenariis
+majores Saturno immolarent, qui ad constantiam et
+fortitudinem suam declarandam ridere solerent.</p>
+
+<p n="13" >Ubi cervi cornua abjiciunt. Demo ait, in locis asperis
+    <pb n="381" />et inviis cervos cornua ad frutices atterere eoque modo
+    abjicere; proinde proverbium dici de iis, qui in locis
+    difficilibus degunt.</p>
+                    
+<p n="14" >Syracusanorum decimam. Refert Demon Syracusanos
+rerum copia affluentes suffragio decrevisse decimam eorum,
+qu&#230; possiderent, portionem impendere in templorum
+instaurationem, in donaria et sacrificia. Congesta sic
+magna pecuni&#230; vi, vulgi tritum est sermone proverbium.</p>
+
+<p n="15" >Ph&#339;nicum pacta. Ph&#339;nices, qui Carthaginem condiderunt,
+quum ad Libyam navibus appulissent, rogarunt
+illius regionis incolas, ut ipsos reciperent noctem et
+diem. Hoc autem impetrato, discedere noluerunt, quasi
+pacti fuissent, se noctes et dies ibi mansuros esse. Quam
+ob rem hoc dici de iis tradunt, qui insidiose paciscuntur.
+Similia Demo de Metapontinis narrat.</p>
+
+<p n="16" >Testudinis carnem aut edas aut non edas. Testudinis
+caro, si paulum edis, tormenta facit; si multum edis,
+purgat; unde proverbium ortum est. Demo.</p>
+
+<p n="17" >Dodona.—Est autem &#198;s Dodon&#230;um proverbium in
+loquaces, uti Demo auctor est: quia Dodon&#230;i Jovis
+templum muros non habet, sed tripodas plurimos arctissime
+sibi invicem junctos, adeo ut si unum percutias,
+strepitum simul ob contactum ad unumquemque eorum
+transmittas, qui perdurat, usque dum sonus ad unum
+illum redierit atque denuo hic pulsetur. In proverbio
+autem nonnisi de uno dicitur aheno, non vero de multis
+lebetibus sive tripodibus.</p>
+<pb n="382" />
+
+<p n="18" >&#198;s Dodon&#339;um. Proverbium de iis qui multa garriunt.
+Demon enim narrat, Dodon&#230;i Jovis oraculum lebetibus
+fuisse circumdatum inter se contiguis; adeo ut uno pulsato,
+reliqui omnes ordine resonarent, diu durante soni
+illius circuitu. Aristides vero ut figmentum hoc explodens
+duas dicit esse columnas, in quarum altera lebes sit, et
+in altera puer, flagellum tenens, &#230;reis loris instructum,
+qu&#230; a vento agitata impingant in lebetem; qui pulsatus
+sonum edat.—Adversus Demonem: si multi fuissent
+[lebetes], proverbium hoc non efferretur numero singulari.</p>
+
+<p n="19" >Mysorum pr&#339;dam. Demosthenes pro Ctesiphonte.
+Est proverbium usitatum, quod Demon libro primo Par&#339;miarum
+scribit ortum a vicinis praedonibus, qui Telepho
+rege absente Mysiam latrociniis infestabant.</p>
+
+<p n="20" >Utitur etiam nunc Euripides hoc proverbio, contra temporum
+rationem. Demo quidem de eo exponens dicit,
+quum post bellum Troicum pestilentia Gr&#230;ciam invasisset
+frugesque essent perdit&#230;, Pythiam de his rebus con.
+sultam, respondisse, calamitates tum finem habituras esse
+quum viri nonnulli ab Agamemnone orti, Trojam profecti
+et urbes condituri et cultum deorum restituturi essent,
+qu&#230; bello interiissent. Accidit vero, ut Orestes, quum
+oraculum accepisset, vita cederet. Post Orestem deinde
+Tisamenum regnum suscepisse, et post hunc Cometem.
+Huic denuo ex oraculo qu&#230;renti quonam sibi proficiscendum
+esset (nam religiose de eadem re bis et ter
+deum adiit), responsum datum esse, proficiscendum
+esse ad extremum Mysorum. Quum vero multi eorum,
+qui congregati essent, despectui haberent oraculum, eos
+defecisse et Cometem deseruisse, parum se curare dicentes,
+et ipsum et extremum Mysorum. Sequenti autem
+    <pb n="383" />
+    &#230;tate Penthilus denuo exercitum coegit atque deus idem
+    dedit oraculum, qu&#230; res quod admodum singularis ac
+    mira esset, oraculum illud, aiunt, abiisse in proverbium.
+    Sunt vero, qui dicant, hoc oraculum Telepho datum esse:
+    eum enim quum qu&#230;sivisset, quonam terrarum sibi eundum
+    esset, ut parentes reperiret, deum jussisse ad extremum
+    Mysorum proficisci: Mysos enim tum has regiones
+    incoluisse: atque reperisse eum matrem.</p>
+
+<p n="21" >Codro generosior. Reliqui irati eum (Codrum) prehenderuut
+et interfecerunt, ut Demo tradit.</p>
+                </div>
+                
+                <div type="textpart" subtype="work" n="4">
+                    <ab><title xml:lang="la">DE SACRIFICIIS.</title></ab>                
+
+<p n="22" >Προκώνια, Lycurgus in Menes&#230;chmum. Προκώνια, inquit
+Didymus, est illitum melle triticum. Aristophanes
+grammaticus et Crates farinam ex hordeo non tosto interpretantur·
+verum e tritico et hordeo fieri videntur,
+ut auctor est Anticlides in Exegeticis. Demon autem libro
+de Sacrificiis scribit, Προκώνια est hordeum confractum
+contusumve cum aromatibus.</p>
+                </div>
+
+<note type="footnote">Fragm. 20 extr. post ἔσχατον Μυσῶν exciderunt: ἀφικόμενον δὲ εἰς Τευδρανίαν; in latinis igitur
+in Teuthraniam (Mysos enim tum incoluisse has regiones) matrem repperisse.»</note>
+
+			</div>
+		</body>
+	</text>
+</TEI>
