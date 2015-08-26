@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+ 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2phaen_grc">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2phaen_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.1069">Phanias Eresius</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#KS" when="2014-11-04">Created the XML file</change>
+           
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="3" xml:lang="grc">
+                <head xml:lang="grc">
+                    <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1578.tlg001.opp-grc1">Phanias Eresius</title> </head>
+
+                <pb n="292"/>
+                <p><bibl>Strabo XIII, p. 618</bibl> : Ἐξ Ἐρέσου ὖσαν Θεόφραστός
+                τε καὶ Φανίας, οἱ ἐκ τῶν περιπάτων φιλόσοφκ,
+                Ἀριστοτέλους γνώριμοι.
+                <bibl>Suidas</bibl> : Φανίας ἢ Φαινίας Ἐρέσιος (*), φιλόσοφος
+                περιπατητικὸς, Ἀριστοτέλους μαθητής. Ἦν δ᾿ ἐπὶ τῆς
+                ριά Ὀλυμπιάδος καὶ μετέπειτα ἐπ᾿ Ἀλεξάνδρου τοῦ
+                Μακεδόνος. Sincera nominis forma est Φανίας,
+                cujus solemnis in codd. varietas Φαινίας; pr&#230;terea
+                nomen scriptoris abiit in Φάνης et Φανίης, de quibus
+                multus est <bibl>Ebert. In Diss. Sic. p. 77 sq</bibl>.
+                Libri Phani&#230;, ἀνδρὸς φιλοσόφου καὶ γραμμάτων οὐκ
+                ἀπείρου ἱστορικῶν (<ref>Plutarch. v. fr. 8</ref>), memorantur:
+                1. Περὶ πρυτάνεων Ἐρεσίων, <ref>fr. I</ref>.
+                2. Περὶ τῶν ἐν Σικελίᾳ τυράννων, <ref>fr. 12—13</ref>.
+                3. Τυράννων ἀναίρεσις ἐκ τιμωρίας, <ref>fr. 14—16</ref>.
+                4. Περὶ ποιητῶν, <ref>fr. 17–18</ref>.
+                5. Πρὸς τοὺς σοφιστάς, <ref>fr. 19</ref>.
+                6. Περὶ τῶν Σωκρατικῶν, <ref>fr. 20—21</ref>.
+                7. Πρὸς Διόδωρον (Philosophica), <ref>fr. 24</ref>.
+                8. (Οἰ μαθηταὶ αὐτοῦ sc. Ἀριστοτέλους, Εὔδημος
+                καὶ Φανίας καὶ Θεόφραστος, κατὰ ζῆλον τοῦ διδασκάλου
+                γεγραφήκασι Κατηγορίας καὶ Περὶ ἑρμηνείας καὶ
+                Ἀναλυτικήν. <bibl>Ammonius in Arist. Categ. p. 5.</bibl>)
+                9. Περὶ φυτῶν, <ref>fr. 27–40</ref>.
+                Opus De Eresiorum Prytanibus fuisse chronicum
+                similiter ac Charonis Πρυτάνεις ἢ ἄρχοντες Λακεδαιμονίων
+                censent <bibl>Ebertus (Diss. Sic. p. 86)</bibl> et
+                <bibl>B&#339;ckhius (ad Marm. Par. in C. Inscr. II, p. 305)</bibl>.
+                quod quamvis ex uno quod superest fragmento
+                demonstrari non possit, nihil tamen, quin recte
+                ita statuatur, impedire videtur; pr&#230;sertim quuum
+                ex aliis locis (<ref>fr. 2. 3. 5</ref>) intelligatur multum Phaniam
+                ad tempora rerum accurate constituenda attendisse.
+                Neque vero ea qu&#230; de Solonis temporibus
+                ex archontum Atticorum serie constitutis (<ref>fr. 3. 5.</ref>)
+                afferuntur, ex isto <title>Περὶ πρυτάνεων</title> opere fluxisse
+                putaverim. Fieri sane potuit, ut Phanias Lesbios
+                Patri&#230; magistratus cum archontibus Atticis componeret,
+                attamen minime probabile est quemquam
+                Theophrasti ætate Atheniensium historiam secundum
+                seriem prytanum Eresiorum adornasse indeque
+                libri petiisse inscriptionem. Quare qu&#230; leguntur
+                <ref>fragm. 3—11</ref>, ex opere historico, cujus
+                titulum nunc ignoramus, deprompta esse censeo.
+                De opere <title>Τυράννων ἀναίρεσις ἐκ τιμωρίας</title> inscripto
+                Ebert.: «Verte, ait, Tyrannorum occisio sumend&#230;
+                de iis vindict&#230; gratia sive ad ulciscendam,
+                quæ accepta erat, injuriam facta. Consulto Phani&#230;
+                ita conceptum fuisse titulum arbitror, ne quacunque
+                de causa obtruncati hic tyranni qu&#230;ritarentur,
+                sed qui <foreign xml:lang="grc">ὕβρεως</foreign> pœnas dedissent, quorumque
+                cædibus minus mutanda civitatis forma, quam ultio
+                iraque explenda spectat&#230; fuissent, quamquam vel
+                hujuscemodi c&#230;dis pedissequa s&#230;pe fuerit rerum
+                mutatio. Fuit sane, ut docet exemplorum multitudo,
+                at non caput et una materia scripturo fuit.
+                Id judicium nititur hoc Aristotelis loco (<bibl>Polit. V,
+                8, 9</bibl>) : Τῶν ἐπιθέσεων αἱ μὲν ἐπὶ τὸ σῶμα γίνονται
+                τῶν ἀρχόντων, αἱ δ᾿ ἐπὶ τὴν ἀρχήν. Αἱ μὲν οὖν δι᾿
+                ὕβριν ἐπὶ τὸ σῶμα· τῆς δὲ ὕβρεως οὔσης πολυμεροῦς,
+                ἕκαστον αὐτῶν αἴτιον γίνεται τῆς ὀργῆς· τῶν δ᾿ ὀργιζομένων
+                σχεδὸν οἱ πλεῖστοι τιμωρίας χάριν ἐπιτίθενται,
+                ἀλλ᾿ οὐχ᾿ ὑπεροχῆς. Jam ibi sequuntur proposit&#230;
+                exempla sententiæ, Harmodius et Aristogito, amasius
+                ille idemque interfector Periandri etc. cf. <bibl>Plutarch.
+                Mor. p. 760, B; 768, F</bibl>. »
+                De reliquis Phani&#230; scriptis pluribus h. l. exponere
+                oper&#230; vix pretium. Nom pr&#230;termittenda
+                vero sententia <bibl>B&#339;ckhii l. l</bibl>., qui auctorem Chronici
+                    Marmorei pr&#230; ceteris libros historicos Phani&#230;
+                    nostri adhibuisse suspicatur. Verba <bibl>B&#339;ckhii exscripsi
+                in Introd. Ad M. Par. p. 537</bibl>.</p>
+                
+                <note type="footnote">(*) Phani&#230; reliquias collegit <bibl>Voisin., Diatribe de Phania
+                Eresio. Gandav. 1824.</bibl> Cf. <bibl>Ebert. Sic. p. 76</bibl>; <bibl>Plehn. Lesb. p.
+                215</bibl>; <bibl>B&#339;ckh. C. I. II, p. 304</bibl>. Distinguendi ab Eresio : Phanias,
+                Atheniensis ut videtur, navarchus ap. <bibl>Xenophon. Hell.
+                V, I, 26</bibl> (ubi in 3 codd Φαινίας). Hunc intellex erit Harpocrat. :
+                Φονίας, ὄνομα κύριον, τῶν ἐστρατηγηκότων τις. Ad eundemque
+                referenda videtur oratio Lysi&#230; ὑπὲρ Φανίου παρανόμων,
+                cujus meminit <bibl>Athen&#230;us XII, p. 551, D</bibl>, Cf. <bibl>&#339;lscher. De
+                    vit. et script. Lysi&#230; (Berolin. 1837) p. 176 sq</bibl>. — Phanias
+                quidam sub Antiocho illo, qui philosophos regno suo expulit,
+                ap. <bibl>Athen. XII, p. 547, A</bibl> (cf. <bibl>Schweigh. In Indice s.
+                h. v.</bibl>). — Phanias, Appii Pulcri libertus, ap. <bibl>Cic. Ep.
+                ad Div. II, 13; III, 1</bibl>. — Phanias, medicus haud dubie,
+                ap. <bibl>Galen. Vol. II, p. 795, C</bibl>. qu&#230;ritur num ab Eresio diversus
+                sit Phanias Physicus, de quo <bibl>Plinius H. N. XXII</bibl>,
+                c. 13 : Condidit laudes ejus (urtic&#230;) Phanias Physicus;
+                utilissimam cibis coctam conditamve professus, arteri&#230;,
+                tussi, ventris destillationi, stomacho, panis, parotidibus,
+                etc. Qu&#230; nisi medici sunt, legi in Eresii <title>Περὶ φυτῶν</title> opere
+                potuerunt. — Theophrasti ad Phaniam epistolas commemorant
+                <bibl>Diogenes L. V, 37</bibl> et <bibl>schol. Apoll. Rhod. I, 972</bibl>.</note>
+               
+                <pb n="293"/>
+                
+                
+                <div type="textpart" subtype="subwork" n="1"><ab><title>ΠΕΡΙ ΠΡΥΤΑΝΕΩΝ ΕΠΕΣΙΩΝ.</title></ab>
+                <div type="textpart" subtype="part" n="1"><ab><title>E LIBRO SECUNDO.</title></ab>
+                
+                <cit n="1" xml:lang="grc">
+                 <bibl>Athen&#230;us VIII, p. 333, A</bibl> 
+                <quote>Φανίας (Φαινίας vgo)
+                γοῦν ἐν δευτέρῳ Πρυτάνεων Ἐρεσίων ἐν Χερρονήσῳ
+                φησὶν ἐπὶ τρεῖς ἡμέρας ὗσαι τὸν θεὸν ἰχθύας.</quote>
+                <note>Eadem libri notitia omissa <bibl>Eustath. ad ll. p. 35 Bas.</bibl> Cf.
+                <bibl>Phylarch. ap. Athen. l. l.</bibl> (<ref>fr. 4</ref>)</note></cit>
+               
+                <cit n="1a" xml:lang="grc">
+                <bibl>Idem I, p. 16, E</bibl> 
+                <quote>Καὶ οἱ μνηστῆρες δὲ παρ᾿ αὐτῷ
+                πεσσοῖσι προπάροιθε θυράων ἐτέρποντο, οὐ παρὰ τοῦ
+                Μεγαλοπολίτου Διοδώρου ἢ Θεοδώρου μαθόντες τὴν
+                πεττείαν, οὐδὲ τοῦ Μυτιληναίου Λέοντος τοῦ ἀνέκαθεν
+                Ἀθηναίου, ὃς ἀήττητος ἦν κατὰ τὴν πεττευτικὴν, ὥς
+                φησι Φανίας.</quote></cit>
+                
+                <cit n="2" xml:lang="grc">
+                <bibl>Clemens Alex. I, p. 145, 35 Sylb.</bibl>
+                <quote>Ἀπὸ τούτου<note type="editroial">(sc. Ab reditu Heraclidarum)</note> ἐπὶ Εὐαίνετον ἄρχοντα,
+                ἐφ᾿ οὗ φασιν Ἀλέξανδρον εἰς τὴν Ἀσίαν διαβῆναι, ὡς
+                μὲν Φανίας <note type="editorial">(libri Φανείας)</note> ἔτη ἑπτακόσια δέκα πέντε.</quote>
+                <note>De hoc computo vide <ref>Fragm. chronol. p. 128.</ref></note></cit>
+                
+                <cit n="3" xml:lang="grc">
+                <bibl>Plutarch. Solon. c. 14</bibl> 
+                <quote>Ἐνταῦθα δὴ τῶν Ἀθηναίων
+                οἱ φρονιμώτατοι συνορῶντες τὸν Σόλωνα μόνον
+                μάλιστα τῶν ἁμαρτημάτων ἐκτὸς ὄντα καὶ μήτε τοῖς
+                πολουσίοις κοινωνοῦντα τῆς ἀδικίας μήτε ταῖς τῶν πενήτων
+                ἀνάγκαις ἐνεχόμενον, ἐδέοντο τοῖς κοινοῖς προσελθεῖν
+                καὶ καταπαῦσαι τὰς διαφοράς. Καίτοι Φανίας
+                ὁ Λέσβιος αὐτὸν ἱστορεὶ τὸν Σόλωνα χρησάμενον ἀπάτῃ
+                πρὸς ἀμφοτέρους ἐπὶ σωτηρίᾳ τῆς πόλεως ὑποσχέσθαι
+                κρύφα τοῖς μὲν ἀπόροις τὴν νέμησιν, τοῖς δὲ χρηματικοῖς
+                βεβαίωσιν τῶν συμβολαίων. Ἀλλ᾿ αὐτὸς ὁ Σόλων
+                ὀκνῶν φησὶ τὸ πρῶτον ἅψασθαι τῆς πολιτείας καὶ δεδοικὼς
+                τῶν μὲν τὴν φιλοχρηματίαν, τῶν δὲ τὴν ὑπερηφανίαν.
+                Ἡρέθη δὲ ἄρχων μετὰ Φιλόμβροτον ὁμοῦ καὶ
+                διαλλακτὴς καὶ νομοθέτης, δεξαμένων προθύμως αὐτὸν
+                ὡς μὲν εὔπορον τῶν πλουσίων, ὡς δὲ χρηστὸν τῶν πενήτων.</quote>
+                <note>De anno Philombroti vide <bibl>Clinton. F. H.
+                 tom. II, pr&#230;f. p. XI</bibl>.</note></cit>
+               
+                
+                <cit n="4" xml:lang="grc">
+                <bibl>Lex. Gudian. p. 335 v. Κύρβεις</bibl>
+                <quote>... Ἀσκληπιάδης ἐν τοῖς τῶν ἀξόνων Ἐξηγητικοῖς ἀπὸ Κύρβεως τοὺ τὰς
+                θυσίας <note type="editorial">(sic Salmas.; vgo οὐσίας)</note> ὁρίσαντος· ὥς φησι
+                Φανίας ὁ Ἐρέσιος <note type="editorial">(vgo Ἐφέσιος)</note>, ἀπὸ τοῦ ταῦτα κυρωθῆναι
+                τοῖς γράμμασιν.</quote> 
+                <note>Scilicet litera β in Κύρβεις
+                olim fuit digamma. <bibl>V. Welcker. Trilog. p.
+                191</bibl>. <bibl>Etym. M. et Suidas s. v. Gramm. ap. Cramer.
+                Anecd. I, p. 221; II, p. 455</bibl>. Cf. <bibl>Aristotelis fr. II</bibl>,
+                <bibl>Apollodori fr. 24 sqq</bibl>.; <bibl>Preller. Ad Polem. p. 89</bibl>.
+                <bibl>Steph. Thes. Gr. s. v. p. 2138 B</bibl>.</note></cit>
+               
+                
+                <cit n="5" xml:lang="grc">
+                <bibl>Plutarch. Solon. c. 32</bibl>  
+                <quote>Ἐπεβίωσε δ᾿ οὖν ὁ Σόλων
+                ἀρξαμένου τοῦ Πεισιστράτου τυραννεῖν, ὡς μὲν Ἡρακλείδης
+                ὁ Ποντικὸς ἱστορεὶ, συχνὸν χρόνον, ὡς δὲ
+                Φανίας ὁ Ἐρέσιος ἐλάττονα δυοῖν ἐτῶν. Ἐπὶ Κωμίου
+                μὲν γὰρ ἤρξατο τυραννεὶν Πεισίστρατος· ἐφ᾿ ὑγεστράτου
+                δὲ Σόλωνά φησιν ὁ Φανίας ἀποθανεῖν, τοῦ
+                μετὰ Κωμίαν ἄρξαντος.</quote>
+                <note> Cf. <bibl>Clinton. Ad an. 560</bibl>.
+                <bibl>Marm. Par. ep. 40</bibl>.</note></cit>
+                
+                
+                <pb n="294"/>
+                
+               
+                <cit n="6" xml:lang="grc">
+                <bibl>Plutarch. Themist. c. I</bibl>
+                <quote>Θεμιστοκλεῖ δὲ τὰ μὲν
+                ἐκ γένους ἀμαυρότερα πρὸς δόξαν ὑπῆρχε· πατρὸς γὰρ
+                ᾖν Νεοκλέους οὐ τῶν ἄγαν ἐπιφανῶν Ἀθήνησι, Φρεαῤῥίου
+                τῶν δήμων ἐκ τῆς Λεοντίδος φυλῆς· νόθος δὲ πρὸς
+                μητρὸς, ὡς λέγουσιν·
+                Ἀβρότονον Θρήισσα γυνὴ γένος· ἀλλὰ τεκέσθαι
+                τὸν μέγαν Ἕλλησιν φημὶ Θεμιστοκλέα.
+                Φανίας μέντοι τὴν μητέρα Θεμιστοκλέους οὐ Θρᾷτταν,
+                ἀλλὰ Καρίνην, οὐδ᾿ Ἀβρότονον ὄνομα, ἀλλ᾿ Εὐτέρπην
+                ἀναγράφει· Νεάνθης δὲ καὶ πόλιν αὐτῇ τῆς Καρίας
+                Ἁλικαρνασσὸν προστίθησι.</quote></cit>
+                
+                
+                <cit n="7" xml:lang="grc">
+                <bibl>Idem ib. c. 7</bibl> 
+                <quote>Ἐπεὶ δὲ τοῖς Ἀφέταις τοὺ βαρβαρικοῦ
+                στόλου προσμίξαντος ἐκπλαγεὶς Εὐρυβιάδης τῶν
+                κατὰ στόμα νεῶν τὸ πλῆθος, ἄλλας δὲ πυνθανόμενος
+                διακοσίας ὑπὲρ Σκιάθου κύκλῳ περιπλεῖν, ἐβούλετο
+                τὴν ταχίστην εἴσω τῆς Ἑλλάδος κομισθεὶς ἅψασθαι
+                Πελοποννήσου καὶ τὸν πεζὸν στρατὸν ταῖς ναυσὶ προσπεριβαλέσθαι,
+                παντάπασιν ἀπρόσμαχον ἡγούμενος τὴν
+                κατὰ θάλατταν ἀλκὴν βασιλέως, δείσαντες οἱ Εὐβοεῖς,
+                μὴ σφᾶς οἱ Ἕλληνες πρόωνται, κρύφα τῷ Θεμιστοκλεῖ
+                διελέγοντο Πελάγοντα μετὰ χρημάτων πολλῶν πέμψαντες·
+                ἃ λαβὼν ἐκεῖνος, ὡς Ἡρόδοτος ἱστόρηκε, τοῖς
+                περὶ τὸν Εὐρυβιάδην ἔδωκεν. Ἐναντιουμένου δ᾿ αὐτῷ
+                τῶν πολιτῶν Ἀρχιτέλους, ὃς ἦν μὲν ἐπὶ τῆς ἱερᾶς νεὼς
+                τριήραρχος, οὐ ἔχων δὲ χρήματα τοὶς ναύταις χορηγεῖν
+                ἔσπευδεν ἀποπλεῦσαι, παρώξυνεν ἔτι μᾶλλον ὁ Θεμιστοκλῆς
+                τοὺς πολίτας ἐπ᾿ αὐτὸν, ὥστε τὸ δεῖπνον ἁρπάσαι
+                συνδραμόντας. Τοῦ δ᾿ Ἀρχιτέλους ἀθυμοῦντος ἐπὶ τούτῳ
+                καὶ βαρέως φέροντος εἰσέπεμψε Θεμιστοκλῆς πρὸς αὐτὸν
+                ἐν κίστῃ δεῖπνον ἄρτων καὶ κρεῶν, ὑποθεὶς κάτω τάλαντον
+                ἀργυρίου καὶ κελεύσας αὐτόν τε δειπνεῖν ἐν τῷ
+                παρόντι καὶ μεθ᾿ ἡμέραν ἐπιμεληθῆναι τῶν τριηριτῶν·
+                εἰ δὲ μὴ, καταβοήσειν αὐτοῦ πρὸς τοὺς πολίτας, ὡς
+                ἔχοντος ἀργύριον παρὰ τῶν πολεμίων. Ταῦτα μὲν οὖν
+                Φανίας ὁ Λέσβιος εἴρηκεν.</quote></cit>
+                
+                
+                <cit n="8" xml:lang="grc">
+                <bibl>Idem ib. c. 13</bibl> 
+                <note>Pr&#339;lium ad Salaminem inituro</note>
+                <quote>Θεμιστοκλεῖ παρὰ τὴν ναυαρχίδα τριήρη σφαγιαζομένῳ
+                τρεῖς προσήχθησαν αἰχμάλωτοι, κάλλιστοι μὲν ἰδέσθαι
+                τὴν ὄψιν, ἐσθῆσι δὲ καὶ χρυσῷ κεκοσμημένοι διαπρεπῶς.
+                Ἐλέγοντο δὲ Σανδάκης παῖδες εἶναι τῆς βασιλέως
+                ἀδελφῆς καὶ Ἀρταύκτου. Τούτους ἰδὼν Εὐφραντίδης
+                ὁ μάντις, ὡς ἅμα μὲν ἀνέλαμψεν ἐκ τῶν ἱερῶν μέγα καὶ
+                περιφανὲς πῦρ, ἅμα δὲ πταρμὸς ἐκ τῶν δεξιῶν ἐσήμηνε,
+                τὸν Θεμιστοκλέα δεξιωσάμενος ἐκέλευσε τῶν νεανίσκων
+                κατάρξασθαι καὶ καθιερεῦσαι πάντας ὠμηστῇ Διονύσῳ
+                προσευξάμενον· οὕτω γὰρ ἅμα σωτηρίαν τε καὶ νίκην
+                ἔσεσθαι τοῖς Ἕλλησιν. Ἐκπλαγέντος δὲ τοῦ Θεμιστοκλέους
+                ὡς μέγα τὸ μάντευμα καὶ δεινὸν, οἶον εἴωθεν
+                ἐν μεγάλοις ἀγῶσι καὶ πράγμασι χαλεποῖς, μᾶλλον ἐκ
+                τῶν παραλόγων ἢ τῶν εὐλόγων τὴν σωτηρίαν ἐλπίζοντες
+                οἱ πολλοὶ τὸν θεὸν ἅμα κοινῇ κατεκαλοὺντο φωνῇ καὶ
+                τοὺς αἰχμαλώτους τῷ βωμῷ προσαγαγόντες ἠνάγκασαν,
+                ὡς ὁ μάντις ἐκέλευσε, τὴν θυσίαν συντελεσθῆναι. Ταῦτα
+                μὲν οὖν ἀνὴρ φιλόσοφος καὶ γραμμάτων οὐκ ἄπειρος
+                ἱστορικῶν Φανίας ὁ Λέσβιος εἴρηκε.</quote></cit>
+                
+                
+                
+                
+                <pb n="295"/>
+                
+                
+                
+                <cit n="9" xml:lang="grc">
+                <bibl>Idem ibid. c. 27</bibl>
+                <quote>Θουκυδίδης μὲν οὖν καὶ Χάρων
+                ὁ Λαμψακηνὸς ἱστοροῦσι τεθνηκότος Ξέρξου πρὸς τὸν
+                υἱὸν αὐτοῦ τῷ Θεμιστοκλεῖ γενέσθαι τὴν ἔντευξιν,
+                Ἔφορος δὲ καὶ Δείνων καὶ Κλείταρχος καὶ Ἡρακλείδης,
+                ἔτι δ᾿ ἄλλοι πλείονες, πρὸς αὐτὸν ἀφικέσθαι τὸν
+                Ξέρξην. Τοῖς δὲ χρονικοῖς δοκεῖ μᾶλλον ὁ Θουκυδίδης
+                συμφέρεσθαι, καίπερ οὐδ᾿ αὐτοῖς ἀτρέμα συνταττομένοις.
+                νοις. Ὁ δ᾿ οὖν Θεμιστοκλῆς γενόμενος παρ᾿ αὐτὸ τὸ
+                δεινὸν ἐντυγχάνει πρῶτον Ἀρταβάνῳ τῷ χιλιάρχῳ
+                λέγων Ἕλλην μὲν εἶναι, βούλεσθαι δ᾿ ἐντυχεῖν βασιλεῖ
+                περὶ μεγίστων πραγμάτων καὶ πρὸς ἃ τυγχάνει
+                μάλιστα σπουδάζων ἐκεῖνος. Ὁ δέ φησιν, « Ὦ ξένε,
+                νόμοι διαφέρουσιν ἀνθρώπων, ἄλλα δ᾿ ἄλλοις καλὰ,
+                καλὸν δὲ πᾶσι τὰ οἰκεῖα κοσμεῖν καὶ σώζειν. Ὑμᾶς
+                μὲν οὖν ἐλευθερίαν μάλιστα θαυμάζειν καὶ ἰσότητα
+                λόγος, ἡμῖν δὲ πολλῶν νόμων καὶ καλῶν ὄντων κάλλιστος
+                οὗτός ἐστι, τιμᾶν βασιλέα καὶ προσκυνεῖν εἰκόνα
+                θεοῦ τὰ πάντα σώζοντος. Εἰ μὲν οὖν ἐπαινῶν
+                τὰ ἡμέτερα προσκυνήσεις, ἔστι σοὶ καὶ βασιλέα θεάσασθαι
+                καὶ προσειπεῖν, εἰ δ᾿ ἄλλο τι φρονεῖς, ἀγγέλοις
+                ἑτέροις χρήσῃ πρὸς αὐτόν· βασιλεῖ γὰρ σὐ πάτριον ἀνδρὸς
+                ἀκροᾶσθαι μὴ προσκυνήσαντος. » Ταῦτα ὁ Θεμιστοκλῆς
+                ἀκούσας λέγει πρὸς αὐτόν· « Ἄλλ᾿ ἔγωγε τὴν
+                βασιλέως, ὦ Ἀρτάβανε, φήμην καὶ δύναμιν αὐξήσων
+                ἀφῖγμαι καὶ αὐτός τε πείσομαι τοῖς ὑμετέροις νόμοις,
+                ἐπεὶ θεῷ τῷ μεγαλύναντι Πέρσας οὕτω δοκεῖ, καὶ
+                δι᾿ ἐμὲ πλείονες τῶν νῦν βασιλέα προσκυνήσουσιν·
+                ὥστε τοῦτο μηδὲν ἐμποδὼν ἔστων τοῖς λόγοις, οὓς
+                βούλομαι πρὸς ἐκεῖνον εἰπεῖν, » « τίνα δ᾿, εἶπεν
+                ὁ Ἀρτάβανος, Ἑλλήνων ἀφῑχθαί σε φῶμεν; οὐ γὰρ
+                ἰδιώτῃ τὴν γνώμην ἔοικας. » Καὶ ὁ Θεμιστοκλῆς,
+                « Τοῦτ᾿ οὐκέτ᾿ ἂν, ἔφη, πύθοιτό τις, Ἀρτάβανε, πρότερος
+                βασιλέως. » Οὕτω μὲν ὁ Φανίας φησίν· ὁ δ᾿ Ἐρατοσθένης
+                ἐν τοῖς Περὶ πλούτου προσιστόρησε διὰ γυναικὸς
+                Ἐρετρικῆς, ἣν ὁ χιλίαρχος εἶχε, τῷ Θεμιστοκλεῖ
+                τὴν αὐτὸν ἔντευξιν γενέσθαι καὶ σύστασιν.</quote></cit>
+                
+                
+                <cit n="10" xml:lang="grc">
+                <bibl>Idem ibid. c. 29, 10</bibl>
+                <quote>Πόλεις δ᾿ αὐτῷ (Themistocli
+                ab Artaxerxe) τρεῖς μὲν οἱ πλεῖστοι δοθῆναι
+                λέγουσιν εἰς ἄρτον καὶ οἶνον καὶ ὄψον, Μαγνησίαν καὶ
+                Λάμψακον καὶ Μυοῦντα· δύο δ᾿ ἄλλας προστίθησιν
+                ὁ Κυζικηνὸς Νεάνθης καὶ Φανίας, Περκώτην καὶ Παλαίσκηψιν,
+                εἰς στρώμνην καὶ ἀμπεχόνην.</quote> 
+                <note>Eadem non
+                injecta Phani&#230; mentione<bibl> Athen&#230;us p. 29, F, schol.
+                Ad Aristoph. Eq. 84</bibl>.</note></cit>
+                
+                
+                <cit n="11" xml:lang="grc">
+                <bibl>Athen&#230;us I, p. 48, D</bibl>
+                <quote>Τὸν οὖν Κρῆτα Τιμαγόραν,
+                ἢ τὸν ἐκ Γόρτυνος <note type="editorial">(scr. Vid. Voisino τὸν οὖν Τ.
+                ἢ τὸν ἐκ Γόρτυνος Κρῆτα)</note>, ὥς φησι Φανίας ὁ Περιπατητικὸς,
+                Ἔντιμον, ὃς ζήλῳ Θεμιστοκλέους ἀνέβη
+                ὡς βασιλέα, τιμῶν Ἀρταξέρξης, σκηνήν τε ἔδωκεν
+                αὐτῷ διαφέρουσαν τὸ κάλλος καὶ τὸ μέγεθος, καὶ
+                κλίνην ἀργυρόποδα, ἔπεμψε δὲ καὶ στρώματα πολυτελῆ,
+                καὶ τὸν ὑποστρώσοντα, φάσκων οὐκ ἐπίστασθαι
+                τοὺς Ἕλληνας ὑποστρωννύειν. Καὶ ἐπὶ τὸν συγγενικὸν
+                ἄριστον ἐκαλεῖτο ὁ Κρὴς οὗτος, τὸν βασιλέα
+                ψυχαγωγήσας· ὅπερ οὐδενὶ πρότερον τῶν Ἑλλήνων                                
+                <pb n="296"/>                              
+                ἐγένετο, ἀλλ᾿ οὐδ᾿ ὕστερον. Αὕτη γὰρ ἡ τιμὴ τοῖς
+                συγγενέσι διεφυλάττετο. Τιμαγόρᾳ μὲν γὰρ τῷ Ἀθηναίῳ,
+                τῷ προσκυνήσαντι βασιλέα, καὶ μάλιστα τιμηθέντι,
+                τοῦτο οὐχ ὑπῆρξε· τῶν δὲ παρατιθεμένων
+                βασιλεῖ τούτῳ τινὰ ἀπὸ τῆς τραπέζης ἀπέστελλε.
+                Ἀνταλκίδᾳ δὲ τῷ Λάκωνι τὸν αὑτοῦ στέφανον εἰς μύρον
+                βάψας ἔπεμψε. Τῷ δ᾿ Ἐντίμῳ τοιαῦτα πολλὰ ἐποίει,
+                καὶ ἐπὶ τὸν συγγενικὸν ἄριστον ἐκάλει. Ἐφ᾿ ᾧ οἱ
+                Πέρσαι χαλεπῶς ἔφερον, ὡς τῆς τε τιμῆς δημευομένης,
+                καὶ στρατείας ἐπὶ τὴν Ἑλλάδα πάλιν ἐσομένης. Ἔπεμψε
+                δὲ καὶ κλίνην αὐτῷ ἀργυρόποδα, καὶ στρωμνὴν,
+                καὶ σκηνὴν οὐρανόροφον ἀνθινὴν, καὶ θρόνον ἀργυροῦν,
+                καὶ ἐπίχρυσον σκιάδιον, καὶ φιάλας λιθοκολλήτους
+                χρυσᾶς, καὶ ἀργυρᾶς δὲ μεγάλας ἑκατὸν, καὶ κρατῆρας
+                ἀργυροῦς, καὶ παιδίσκας ἑκατὸν, καὶ παῑδας ἑκατὸν,
+                χρυσοὺς τε ἑξακισχιλίους, χωρὶς τῶν εἰς τὰ ἐπιτήδεια
+                καθ᾿ ἡμέραν διδομένων.</quote>
+                <note>Qu&#230; ex his Phani&#230; debeantur, qu&#230; Heraclid&#230;
+                Cumano, qui in antecedentibus memoratur, haud
+                liquet. <bibl>De Timagora Atheniensi v. Xenoph. Hell.
+                VII, I, 33, 38</bibl>, ibiq. interpr.</note></cit></div></div>
+                    
+                <div type="textpart" subtype="subwork" n="2"><ab><title>ΠΕΡΙ ΤΩΝ ΕΝ ΣΙΚΕΛΙΑ ΤΥΡΑΝΝΩΝ.</title></ab>
+                
+                
+                <cit n="12" xml:lang="grc">
+                <bibl>Athen&#230;us VI, p. 231, E</bibl>
+                <quote>Καὶ τὰ ἐν Δελφοῖς δὲ
+                ἀναθήματα τὰ ἀργυρᾶ καὶ τὰ χρυσᾶ ὑπὸ πρώτου Γύγου
+                τοῦ Λυδῶν βασιλέως ἀνετέθη· καὶ πρὸ τῆς τούτου βασιλείας
+                ἀνάργυρος, ἔτι δὲ ἄχρυσος, ἦν ὁ Πύθιος, ὡς
+                Φανίας τέ φησιν ὁ Ἐρέσιος καὶ Θεόπομπος ἐν τῇ τεσσαρακοστῇ
+                τῶν Φιλιππικῶν. Ἱστοροῦσι γὰρ οὗτοι
+                κοσμηθῆναι τὸ Πυθικὸν ἱερὸν ὑπό τε τοῦ γύγου καὶ
+                τοὺ μετὰ τοῦτον Κροίσου, μεθ᾿ οὓς ὑπό τε Γέλωνος
+                καὶ Ἱέρωνος τῶν Σικελιωτῶν, τοῦ μὲν τρίποδα καὶ
+                Νίκην χρυσοῦ πεποιημένα ἀναθέντος, καθ᾿ οὓς χρόνους
+                Ξέρξης ἐπεστράτευε τῇ Ἑλλάδι, τοὺ δ᾿ Ἱέρωνος τὰ
+                ὅμοια. Λέγει δὲ οὕτως ὁ Θεόπομπος· «Ἦν γὰρ κτλ. (ν.
+                fr. 219.) Ἱστορεῖ τὰ αὐτὰ καὶ Φανίας ἐν τῷ Περὶ τῶν
+                ἐν Σικελίᾳ τυράννων, ὡς χαλκῶν ὄντων τῶν παλαιῶν
+                ἀναθημάτων καὶ τριπόδων καὶ λεβήτων καὶ ἐγχειριδίων,
+                ὧν ἐφ᾿ ἑνὸς καὶ ἐπιγεγράφθαι φησίν·
+                Θάησαί μ᾿· ἐτεὸν γὰρ ἐν Ἰλίου εὐρέι πύργῳ
+                ἢν, ὅτε καλλικόμῳ μαρνάμεθ᾿ ἀμφ᾿ Ἑλένῃ·
+                καί μ᾿ Ἀντηνορίδης ἐφόρει κρείων Ἑλικάων.
+                Νῦν δέ με Λητοίδου θεῖον ἔχει δάπεδον.
+                Ἐπὶ δὲ τρίποδος, ὃς ἦν εἷς τῶν ἐπὶ Πατρόκλῳ ἄθλων
+                τεθέντων·
+                Χάλκεός εἰμι τρίπους· Πυθοὶ δ᾿ ἀνάκειμαι ἄγαλμα,
+                καί μ᾿ ἐπὶ Πατρόκλῳ θῆκεν πόδας ὠκὺς Ἀχιλλεύς·
+                Τυδείδης δ᾿ ἀνέθηκε βοὴν ἀγαθὸς Διομήδης,
+                νικήσας ἵπποισι παρὰ πλατὺν Ἑλλήσποντον.</quote></cit>
+                
+                
+                <cit n="13" xml:lang="grc">
+                <bibl>Idem I, p. 6, C</bibl>
+                <quote>Φανίας δέ φησιν, ὅτι Φιλόξενος
+                ὁ Κυθήριος ποιητὴς, περιπαθὴς ὢν τοῖς ὄψοις, δειπνῶν
+                ποτε παρὰ Διονυσίῳ, ὡς εἶδεν ἐκείνῳ μὲν μεγάλην
+                τρίγλαν παρατεθεῖσαν, ἑαυτῷ δὲ μικρὰν, ἀναλαβὼν
+                αὐτὴν εἰς τὰς χεῖρας πρὸς τὸ οὖς προσήνεγκε. Πυθομένου
+                δὲ τοῦ Διονυσίου, τίνος ἕνεκεν τοῦτο ποιεῖ, εἶπεν
+                <pb n="297"/>                               
+                ὁ Φιλόξενος, ὅτι γράφων τὴν Γαλάτειαν βούλοιτό
+                τινα παρ᾿ ἐκείνης τῶν κατὰ Νηρέα πυθέσθαι· τὴν δὲ
+                ἠρωτημένην ἀποκεκρίσθαι, διότι νεωτέρα ἁλοίη· διὸ μὴ
+                παρακολουθεῖν· τὴν δὲ τῷ Διονυσίῳ παρατεθεῖσαν,
+                πρεσβυτέραν οὖσαν, εἰδέναι πάντα σαφῶς ἃ βούλεται
+                μαθεῖν. Τὸν οὖν Διονύσιον γελάσαντα ἀποστεῖλαι αὐτῷ
+                τὴν τρίγλαν τὴν παρακειμένην αὐτῷ. Συνεμέθυε δὲ τῷ
+                Φιλοξένῳ ἡδέως ὁ Διονύσιος. Ἐπεὶ δὲ τὴν ἐρωμένην
+                Γαλάτειαν ἐφωράθη διαφθείρων, εἰς τὰς λατομίας ἐνεβλήθη·
+                ἐν αἷς ποιῶν τὸν Κύκλωπα συνέθηκε τὸν μῦθον
+                εἰς τὸ περὶ αὑτὸν γενόμενον πάθος, τὸν μὲν Διονύσιον
+                Κύκλωπα ὑποστησάμενος, τὴν δ᾿ αὐλητρίδα Γαλάτειαν,
+                ἑαυτὸν δ᾿ Ὀδυσσέα.</quote>
+                <note>Η&#230;c etiam ad libros <title>Περὶ ποιητῶν</title>
+                referre licet.</note></cit>
+                
+                    <div type="textpart" subtype="part" n="1"><ab><title>ΤΥΡΑΝΝΩΝ ΑΝΑΙΠΕΣΙΣ ΕΚ ΤΤΤΙΜΩΠΙΑΣ.</title></ab>
+                
+                
+                <cit n="14" xml:lang="grc">
+                <bibl>Idem III, p. 90, E</bibl>
+                <quote>Σωληνισταὶ δ᾿ ἐκαλοῦντο οἱ
+                συνάγοντες τὰ ὄστρεα ταῦτα (sc. Τοὺς σωλῆνας), ὡς
+                ἱστορεῖ Φανίας ὁ Ἐρέσιος ἐν τῷ ἐπιγραφομένῳ Τυράννων
+                ἀναίρεσις ἐκ τιμωρίας, γράφων οὕτως· « Φιλόξενος,
+                ὁ καλούμενος σωληνιστὴς, ἐκ δημαγωγοῦ τύραννος
+                ἀνεφάνη, ζῶν τὸ μὲν ἐξ ἀρχῆς· ἁλιευόμενος καὶ
+                σωληνοθήρας ὢν, ἀφορμῆς δὲ λαβόμενος καὶ ἐμπορευσάμενος
+                βίον ἐκτήσατο.»</quote></cit>
+                
+                
+                <cit n="15" xml:lang="grc">
+                <bibl>Idem X, p. 438, C</bibl>
+                <quote>Φανίας δὲ ὁ Ἐρέσιος ἐν τῷ ἐπιγραφομένῳ
+                Τυράννων ἀναίρεσις ἐκ τιμωρίας Σκόπαν
+                φησὶ, τὸν Κρέοντος μὲν υἱὸν, Σκόπα δὲ τοῦ παλαιοῦ
+                ὑϊδοῦν, φιλοποτοῦντα διατελέσαι, καὶ τὴν ἐπάνοδον
+                τὴν ἀπὸ τῶν συμποσίων ποιεῖσθαι ἐπὶ θρόνου καθήμενον,
+                καὶ ὑπὸ τεσσάρων βασταζόμενον, οὕτως οἴκαδε
+                ἀπιέναι.</quote></cit>
+                
+                
+                <cit n="16" xml:lang="grc">
+                <bibl>Parthenius Erot. c. 7</bibl>
+                <quote>περὶ Ἱππαρίνου. ἱστορεῖ
+                Φανίας ὁ Ἐρέσιος. — Ἐν δὲ τῇ Ἰταλῇ Ἡρακλείᾳ
+                παιδὸς διαφόρου τὴν ὄψιν, Ἱππαρῖνος ἦν αὐτῷ ὄνομα,
+                τῶν πάνυ δοκίμων, Ἀντιλέων ἠράσθη· ὅς πολλὰ μηχανώμενος
+                οὐδαμῇ δυνατὸς ἦν αὐτὸν ἁρμόσασθαι, περὶ
+                δὲ γυμνάσια διατρίβοντι πολλὰ τῷ παιδὶ προσρυεὶς
+                ἔφη, τοσοῦτον αὐτοῦ πόθον ἔχειν, ὥστε πάντα πόνον
+                ἀνατλῆναι, καὶ ὅ τι ἂν κελεύοι μηδενὸς αὐτὸν ἁμαρτήσεσθαι.
+                Ὁ δὲ ἄρα κατειρωνευόμενος προσέταξεν
+                αὐτῷ, ἀπό τινος ἐρυμνοῦ χωρίου, ὃ μάλιστα ἐφρουρεῖτο
+                ὑπό του τῶν Ἡρακλεωτῶν τυράννου, τὸν κώδωνα κατακομίσαι,
+                πειθόμενος μὴ ἄν ποτε τελέσειν αὐτὸν
+                τόνδε τὸν ἆθλον. Ἀντιλέων δὲ κρύφα τὸ φρούριον ὑπελθῶν
+                καὶ λοχήσας τὸν φύλακα τοῦ κώδωνος κατακαίνει,
+                καὶ ἐπειδὴ ἀφίκετο πρὸς τὸ μειράκιον, ἐπιτελέσας τὴν
+                ὑπόσχεσιν, ἐν πολλῇ αὐτῷ εὐνοίᾳ ἐγένετο, καὶ ἐκ
+                τοῦδε μάλιστα ἀλλήλους ἐφίλουν. Ἐπεὶ δὲ ὁ τύραννος
+                τῆς ὥρας ἐγλίχετο τοῦ παιδὸς καὶ οἶός τε ἦν αὐτὸν βίᾳ
+                ἄγεσθαι, δυσανασχετήσας ὁ Ἀντιλέων ἐκείνῳ μὲν παρεκελεύσατο
+                μὴ ἀντιλέγειν κινδυνεύειν, αὐτὸς δὲ οἴκοθεν
+                ἐξιόντα τὸν τύραννον προσδραμὼν ἀνεῖλεν· καὶ
+                τοῦτο δράσας δρόμῳ ἵετο καὶ διέφυγεν ἂν, εἰ μὴ προβάτοις
+                συνδεδεμένοις ἀμφιπεσὼν ἐχειρώθη. Διὸ τῆς
+                πόλεως εἰς τἀρχαῖον ἀποκαταστάσης, ἀμφοτέροις παρὰ               
+                <pb n="298"/>
+                τοῖς Ἡρακλεώταις ἐτέθησαν εἰκόνες χαλκαῖ, καὶ νόμος
+                ἐγράφη, μηδένα ἐλαύνειν τοῦ λοιποῦ πρόβατα συνδεδεμένα.</quote>
+                <note>Προσρυεὶς] προσφυεὶς Legrand.; vulgatam tuetur
+                Bast. Post <bibl>Abresch. Lectt. Arist&#230;n. p. 151</bibl>. — ὑπό
+                τοῦ τῶν Ἡρ. Τυρ.] « cod. Et Cornar.; ὑπὸ τοῦ Gale
+                et Legrand. Margo codicis ascriptum habet τοῦ
+                Ἀρχελάου, quod Cornarii interpretatio lat. expressit.
+                » Passov. — Ad narrationem de ovibus ap. Heracleenses
+                colligatis Schneiderus : « An huc pertinet
+                locus <bibl>Varronis De re rust. II, 9, 6</bibl>? De Heracle&#230;
+                emporio et ovibus deductis τοῖς τὴν Ἡράκλειαν
+                οἰκοῦσι Τυρρηνοῖς, <bibl>Theophrast. Hist. Plant. IX, 16</bibl>.»</note></cit></div></div>
+                
+                <div type="textpart" subtype="subwork" n="3"><ab><title>ΠΕΡΙ ΠΟΙΗΤΩΝ.</title></ab>
+                    <div type="textpart" subtype="part" n="1"><ab><title>E LIBRO SECUNDO.</title></ab>
+               
+                
+                <cit n="17" xml:lang="grc">
+                <bibl>Athen&#230;us VIII, p. 352, C</bibl>
+                <quote>Φανίας δ᾿ ὁ Περιπατητικὸς
+                δευτέρῳ Περὶ ποιητῶν « Στρατόνικος (φησὶν)
+                ὁ Ἀθηναῖος δοκεῖ τὴν πολυχορδίαν εἰς τὴν ψιλὴν κιθάρισιν
+                πρῶτος εἰσενεγκεῖν, καὶ πρῶτος μαθητὰς τῶν
+                ἀρμονικῶν ἔλαβε, καὶ διάγραμμα συνεστήσατο. Ἦνδὲ
+                καὶ ἐν τῷ γελοίῳ οὐκ ἀπίθανος. » Φησὶ δὲ καὶ τελευτῆσαι
+                αὐτὸν διὰ τὴν ἐν τῷ γελοίῳ παρρησίαν ὑπὸ
+                Νικοκλέους τοῦ Κυπρίων βασιλέως φάρμακον πιόντα,
+                διὰ τὸ σκώπτεν αὐτοῦ τοὺς θἱούς. </quote>
+                <note>Cf. <bibl>Clearchus ap. Athen. p. 350, A.</bibl></note></cit>
+                
+                
+                <cit n="18" xml:lang="grc">
+                <bibl>Clem. Alex. I, 21, p. 144, 8</bibl>
+                <quote>Ἑλλάνικος γοῦν
+                τοῦτον (τὸν Τέρπανδρον) ἱστορεῖ κατὰ Μίδαν γεγονέναι,
+                Φανίας δὲ πρὸ Τερπάνδρου τιθεὶς Λέσχην τὸν Λέσβιον,
+                Ἀρχιλόχου νεώτερον φέρει τὸν Τέρπανδρον, διημιλλῆ·
+                σθαι δὲ τὸν Λέσχην Ἀρκτίῳ καὶ νενικηκέναι.</quote> 
+                <note>Cf. <bibl>Welcker. Cycl. p. 212</bibl>.</note></cit></div></div>
+                
+                <div type="textpart" subtype="subwork" n="4"><ab><title> ΠΡΟΣ ΤΟΥΣ ΣΟΦΙΣΤΑΣ.</title></ab>
+               
+                
+                
+                <note>Cf. Westermann. Hist. Eloq. Gr. § 78, 3.</note>
+                
+                <cit n="19" xml:lang="grc">
+                <bibl>Athen&#230;us XIV, p. 638, B</bibl>
+                <quote>Καὶ μοχθηρῶν δὲ ᾀσμάτων
+                γεγόνασι ποιηταὶ, περὶ ὧν φησὶ Φανίας ὁ Ἐρέσιος
+                ἐν τοῖς Πρὸς τοὺς σοφιστὰς, γράφων οὕτως· Τελένικος
+                ὁ Βυζάντιος, ἔτι δὲ Ἀργᾶς ποιηταὶ μοχθηρῶν ὄντες
+                νόμων, πρὸς μὲν τὸν ἴδιον χαρακτῆρα τῆς ποιήσεως
+                εὐπόρουν, τῶν δὲ Τερπάνδρου καὶ Φρύνιδος νόμων
+                οὐδὲ κατὰ μικρὸν ἠδύναντο ἐπιψαῦσαι.»</quote>
+                <note>« Dicat aliquis Phaniam fortassis loquentem de
+                sophistarum plausu adductum videri esse ut vel
+                malorum cantorum in suo genere successum opponeret. »
+                <bibl>Ebert. p. 83</bibl></note></cit></div>
+                
+                    <div type="textpart" subtype="subwork" n="5"><ab><title>[ΠΕΡΙ ΦΙΛΟΣΟΦΩΝ.]</title></ab>
+                        <div type="textpart" subtype="part" n="1"><ab><title>ΠΕΡΙ ΤΩΝ ΣΩΚΡΑΤΙΚΩΝ.</title></ab>
+                            
+            
+                
+                <cit n="20" xml:lang="grc">
+                <bibl>Diogenes L. VI, 8, de Antisthene</bibl> 
+                <quote>Ἐρωτηθεὶς ὑπό του (καθά φησι Φανίας ἐν τῷ περὶ Σωκρατικῶν),
+                τί ποιῶν καλὸς κἀγαθὸς ἔσοιτο, ἔφη « Εἰ τὰ κακὰ
+                ἃ ἔχεις, ὅτι φευκτά ἐστι, μάθοις παρὰ τῶν εἰδότων.</quote></cit>
+                
+                
+                <cit n="21" xml:lang="grc">
+                <bibl>Id. ibid. II, 65, de Aristippo</bibl>
+                <quote>Οὗτος σοφιστεύσας
+                (ὥς φησι Φανίας ὁ Περιπατητικὸς Ἐρέσιος) πρῶτος τῶν
+                Σωκρατικῶν μισθοὺς εἰσεπράξατο, καὶ ἀπέστειλε χρήματα
+                τῷ διδασκάλῳ. Καί ποτε πέμψας αὐτῷ μνᾶς εἴκοσι,
+                παλινδρόμους ἔλαβεν, εἰπόντος Σωκράτους, τὸ δαιμόνιον
+                αὐτῷ μὴ ἐπιτρέπειν· ἐδυσχέραινε γὰρ ἐπὶ τούτῳ.</quote></cit>
+                            
+                <pb n="299"/>
+                
+                <cit n="22" xml:lang="grc">
+                <bibl>Plutarchus De defect. orac. c. 23, p. 422, E</bibl>
+                <quote>Ἵππυς ὁ Ῥηγῖνος, οὗ μέμνηται Φανίας ὁ Ἐρέσιος,
+                ἱστορεῖ δόξαν εἶναι ταύτην Πέτρωνος καὶ λόγον, ὡς
+                ἑκατὸν καὶ ὀγδοήκοντα καὶ τρεῖς κόσμους ὄντας, ἁπτομένους
+                δ᾿ ἀλλήλων κατὰ στοιχεῖον <foreign xml:lang="grc">κτλ.</foreign> <note type="editorial">(vide <bibl>Hippyis
+                Rhegini fr. 6</bibl>)</note>.</quote>
+                <note>Hinc et e sequenti fragm. colligo Phaniam non
+                modo de Socraticis, sed de reliquis etiam philosophis
+                egisse; nec improbabile est librum <title>Περὶ
+                Σωκρατικῶν</title> nonnisi partem majoris De philosophis
+                operis fuisse.</note></cit>
+                
+                
+                <cit n="23" xml:lang="grc">
+                <bibl>Suidas</bibl>
+                <quote>Ἀρχύτας Ταραντῖνος... Φιλοσοφίαν ἐκπαιδεύων
+                μαθητάς τ᾿ ἐνδόξους ἔσχε καὶ βιβλία συνέγραψε
+                πολλά. Τοῦτον φανερῶς γενέσθαι διδάσκαλον Ἐμπεδοκλέους.</quote>
+                <note>«Latet auctoris cujuspiam nomen, nec multum
+                opinor ab φανερῶς conjecturam recedere φησὶ Φανίας
+                ὁ Ἐρέσιος. » bernhardy. Ceterum de re tradita
+                aliunde non constat, ac omnino caret veri similitudine.
+                V. <bibl>Sturz. Empedocl. p. 19</bibl>.
+                Reliquorum fragmentorum, qu&#230; ad historiam
+                minus pertinent, verba gr&#230;ca apposuisse habemus
+                satis.</note></cit></div></div>
+                
+                            <div type="textpart" subtype="subwork" n="6"><ab><title>ΠΡΟΣ ΔΙΟΔΩΡΟΝ.</title></ab>
+                
+                
+                <cit n="24" xml:lang="grc">
+                <bibl>Alexander Aphrodis. in Exc. Gr. ap. Brandis.
+                De perditis libr. Aristot. De ideis et de bone p. 18</bibl>
+                <quote>Λέγει δὲ Φανίας ἐν τῷ Διόδωρον, Πολύξενον τὸν
+                σοφιστὴν τὸν τρίτον ἄνθρωπον εἰσάγειν λέγοντα· εἰ κατὰ
+                μετοχήν τε καὶ μετουσίαν τῆς ἰδέας καὶ τοῦ αὐτοανθρώπου
+                ὁ ἄνθρωπός ἐστι, δεῖ τινα εἶναι ἄνθρωπον, ὃς πρὸς
+                τὴν ἰδέαν ἕξει τὸ εἶναι· δὲ ὁ αὐτοάνθρωπος, ὅ ἐστιν
+                ἰδέα, κατὰ μετοχὴν ἰδέας, οὔτε ὁ τὶς ἄνθρωπος· λείπεται
+                ἄλλον τινὰ εἶναι τρίτον ἄνθρωπον τὸν πρὸς τὴν
+                ἰδέαν τὸ εἶναι ἔχοντα.</quote>
+                <note>Fortasse ex libro <title>Πρὸς τοὺς
+                σοφιστάς</title>, ut conjicit <bibl>Ebert. l. l</bibl>.</note></cit></div>
+                                
+                                <div type="textpart" subtype="subwork" n="6"><ab><title>ΠΕΡΙ ΦΥΤΩΝ.</title></ab>        
+                                    <div type="textpart" subtype="part" n="1"><ab><title>E LIBRO PRIMO.</title></ab>
+                
+                
+                <cit n="25" xml:lang="grc">
+                <bibl>Athen&#230;us II, p, 61, F</bibl>
+                <quote>Φανίας δὲ ἐν πρώτῳ Περὶ
+                φυτῶν· « Τὰ δὲ οὐδὲ φύει τὴν ἀνθίνην, οὐδὲ τῆς σπερματικῆς
+                ἴχνος κορυνήσεως, οὐδὲ σπερματώσεως, οἷον
+                μύκης, ὕδνον, πτέρις, ἕλιξ. » Ὁ αὐτὸς φησὶ, « Πτέρις,
+                ἣν ἔνιοι βλάχνον καλοῦσι.» </quote>
+                <note>Alium locum ex libro I vide <ref>fr. 27</ref>.</note></cit></div>
+                                        
+                                        <div type="textpart" subtype="part" n="2"><ab><title>E LIBRO QUINTO.</title></ab>
+                
+                
+                <cit n="26" xml:lang="grc">
+                <bibl>Idem II, p. 70, D</bibl>
+                <quote>Φανίας δ᾿ ἐν πέμπτῳ Περὶ
+                φυτῶν κάκτον Σικελικήν τινα καλεῖ, ἀκανθῶδες φυτὸν,
+                ὡς καὶ Θεόφραστος ἐν ἕκτῳ Περὶ φυτῶν.</quote></cit>
+                
+                
+                
+                <cit n="27" xml:lang="grc">
+                <bibl>Idem IX, p. 371, D</bibl>
+                <quote>Μνημονεύει τοῦ σταφυλίνου
+                καὶ Θεόφραστος. Φανίας δ᾿ ἐν πέμπτῳ Περὶ φυτῶν γράφει
+                οὕτως· « Κατὰ δὲ τὴν αὐτοῦ τοῦ σπέρματος φύσιν
+                ὁ καλούμενος σὴψ καὶ τὸ τοῦ σταφυλίνου σπέρμα.» Κἀν
+                τῷ πρώτῳ δέ φησι· «Πετασώδη τὴν τῶν σπερμάτων
+                ἀπείληφε φύσιν ἄννησον, μάραθον, σταφυλῖνος, καυκαλὶς,
+                κώνειον, κόριον, σκιὰς, ἣν ἔνιοι μυηφόνον. »
+                Ἐπεὶ δὲ ἄρου ἐμνημόνευσεν ὁ Νίκανδρος, προσαποδοτέον,
+                ὅτι Φανίας ἐν τῷ προειρημένῳ βιβλίῳ γράφει
+                οὕτως· «Δρακόντιον, ὃ ἔνιοι ἄρον ἀρωνία. »</quote></cit></div>
+                
+                                            <div type="textpart" subtype="part" n="3"><ab><title>E LIBRO SEPTIMO.</title></ab>
+                
+                
+                <cit n="28" xml:lang="grc">
+                <bibl>Idem II, p. 64, D</bibl>
+                <quote>Θεόφραστος δ᾿ ἐν ἑβδόμῳ Φυτικῶν
+                «Ἐνιαχοῦ (φησὶν) οὕτω γλυκεῖς εἰσιν οἱ βολβοὶ,
+                ὥστε καὶ ὠμοὺς ἐσθίεσθαι, ὥσπερ ἐν τῇ Ταυρικῇ Χεῤῥονήσῳ. »
+                Τὰ αὐτὰ αὐτὰ ἱστορεῖ καὶ Φανίας. «Ἔστι δὲ καὶ
+                γένος (φησὶ) βολβῶν )Θεόφραστος) ἐριοφόρων, ὃ φύεται
+                ἐν αἰγιαλοῖς. Ἔχει δὲ τὸ ἔριον ὑπὸ τοὺς πρώτους χιτῶνας,
+                ὥστε ἀνὰ μέσον εἶναι τοῦ ἐδωδίμου, τοῦ ἐντὸς
+                καὶ τοῦ ἔξω. Ὑφαίνεται δ᾿ ἐξ αὐτοῦ καὶ πόδεια καὶ
+                ἄλλα ἱμάτια· » (ὡς καὶ Φανίας φησὶ) « τὸ δὲ ἐν Ἰνδοῖς
+                τριχῶδες ἐστί.»</quote></cit></div>
+                
+                                                <div type="textpart" subtype="incerta" n="1"><ab><title>E LIBRIS INCERTIS..</title></ab>
+                
+                
+                <cit n="29" xml:lang="grc">
+                <bibl n="1">Idem p. 54, E</bibl>
+                <quote n="1">Φανίας ἐν τοῖς Περὶ φυτῶν φησί·
+                « Τραγήματος ἔχει χώραν, ἁπαλὰ μὲν, ὦχρος, κύαμος,
+                ἐρέβινθος· ξηρὰ δὲ, ἑφθὰ καὶ φρυκτὰ σχεδὸν τὰ
+                πλεῖστα.</quote>
+                <bibl n="2">Idem II, p. 58, D</bibl>
+                <quote n="2">Φανίας δὲ ἐν τοῖς Φυτικοῖς φησι·
+                « Τῆς ἡμέρου μαλάχης ὁ σπερματικὸς τύπος καλεῖται
+                πλακοῦς, ἐμφερὴς ὢν αὐτῷ· τὸ μὲν γὰρ κτενῶδες ἀνάλογον
+                καθάπερ ἡ τοῦ πλακοῦντος κρηπὶς, κατὰ μέσον
+                δὲ τοῦ πλακουντικοῦ ὄγκου τὸ κέντρον ὀμφαλικόν. Καὶ
+                περιληφθείσης τῆς κρηπῖδος ὅμοιον γίνεται τοῖς θαλαττίοις
+                περιγεγραμμένοις ἐχίνοις. »</quote></cit>
+                
+                
+                <pb n="300"/>
+                
+              
+                <cit n="30" xml:lang="grc">
+                <bibl>Idem I, p. 29, F</bibl>
+                <quote>Φησὶ δὲ Φανίας ὁ Ἐρέσιος,
+                Μενδαίους τοὺς βότρυς ἐπὶ τῇ ἀμπέλῳ ῥαίνειν τῷ ἐλατηρίῳ·
+                διὸ γίνεσθαι τὸν οἶνον μαλακόν.</quote></cit>
+                
+                
+                <cit n="31" xml:lang="grc">
+                <bibl>Idem IX, p. 406, C</bibl>
+                <quote>Μετὰ ταῦτα περιενεχθεισῶν
+                ὀρνίθων τε ὀπτῶν φακῆς τε καὶ πισῶν αὐταῖς χύτραις,
+                ἔτι δὲ τῶν τοιούτων, περὶ ὧν Φανίας ὁ Ἐρέσιος
+                ἐν τοῖς Περὶ φυτῶν τάδε γράφει· «Πᾶσα γὰρ χεδροπώδης
+                ἥμερος φύσις ἐνσπέρματος ἡ μὲν ἑψήσεως ἕνεκα
+                σπείρεται, οἷον ὁ κύαμος, πισός· ἐτνηρὸν γὰρ ἐκ τούτων
+                ἕψημα γίνεται· τὰ δὲ πάλιν αὖθις λεκιθώδη, καθάπερ
+                ἄρακος· τὸ δὲ φακῆς, οἷον ἀφάκη, φακός· τὸ δὲ
+                χόρτου ἕνεκα τῶν τετραπόδων ζῴων, οἷον ὄροβος μὲν
+                ἀροτήρων βοῶν, ἀφάκη δὲ προβάτων.»</quote></cit>
+                
+                
+                <cit n="32" xml:lang="grc">
+                <bibl>Idem I, p. 32, A</bibl>
+                <quote>Περὶ δὲ τῆς τοῦ ἀνθοσμίου οἴνου
+                σκευασίας Φανίας ὁ Ἐρέσιός φησι τάδε· « Γλεύκει
+                παραχεῖται ἐπὶ χοῦς πεντήκοντα εἷς θαλάσσης, καὶ γίνεται
+                ἀνθοσμίας. » Καὶ πάλιν· « Ἀνθοσμίας γίνεται ἐκ
+                νέων ἀμπέλων ἰσχυρότερος ἢ ἐκ παλαιῶν. » Ἑξῆς τέ
+                φησι· « Τὰς ὀμφακώδεις συμπατήσαντες ἀπέθεντο,
+                καὶ ἀνθοσμίας ἐγένετο. »</quote></cit>
+                
+                
+                <cit n="33" xml:lang="grc">
+                <bibl>Idem II, p. 51, E</bibl>
+                <quote>Φανίας δ᾿ ὁ Ἐρέσιος, ὁ Ἀριστοτέλους
+                μαθητὴς, τὸν τῆς ἀγρίας συκαμίνου καρπὸν μόρον
+                καλεῖ, ὄντα καὶ αὐτὸν γλυκύτατον καὶ ἥδιστον, ὅτε
+                πεπανθείη. Γράφει δὲ οὕτως· « Τὸ μόρον τὸ βατῶδες,
+                ξηρανθείσης τῆς σφαίρας τῆς συκαμινώδους, σπερματικὰς
+                ἔχει τὰς συκαμινώδεις διαγονὰς, καθάπερ ὑποφαινούσας,
+                καὶ διαφυὰς ἔχει ψαθυρὰς καὶ εὐχύμους. »</quote></cit>
+                
+                
+                <cit n="34" xml:lang="grc">
+                <bibl>Idem II, p. 66, D</bibl>
+                <quote>Φανίας· « Βρωτὰ μὲν ἁπαλὰ τῷ
+                ἐπικαρπίῳ σικυὸς καὶ πέπων ἄνευ τοῦ σπέρματος, πεττόμενον
+                δὲ τὸ περικάρπιον μόνον. Κολοκύντη δὲ ὠμὴ
+                μὲν ἄβρωτος, ἑφθὴ δὲ καὶ ὀπτὴ βρωτή. »</quote></cit>
+                
+                              
+                <cit n="35" xml:lang="grc">
+                <bibl>Idem ΙΙΙ, p. 84, C, D</bibl>
+                <quote>Τούτοις ἀντιλέγειν ἔχει,
+                ὅτι μὴ τὸ νῦν κιτρίον λεγόμενον σημαίνεται, σαφέστερα
+                μαρτύρια παρατιθέσθω, καίτοι καὶ Φανίου τοῦ Ἐρεσίου
+                ἔννοιαν ἡμῖν διδόντος, μήποτε ἀπὸ τῆς κέδρου τὸ
+                κεδρίον ὠνόμασται. Καὶ γὰρ τὴν κέδρον φησὶν ἐν πέμπτῳ
+                Περὶ φυτῶν ἀκάνθας ἔχειν περὶ τὰ φύλλα. ὅτι
+                δὲ τὸ αὐτὸ τοῦτο καὶ περὶ τὸ κιτρίον ἐστὶ, παντὶ δῆλον.</quote></cit>
+                
+                
+               
+                <cit n="36" xml:lang="grc">
+                <bibl>Etym. M. p. 515, 48</bibl>
+                <quote>Kίτριον. Φάνης <note type="editorial">(sic)</note>
+                ὁ Ἐρέσιος ἔννοιαν ἡμῖν δίδωσι, μήποτε ἀπὸ τῆς κέδρου
+                τὸ κίτριον ὠνόμασται· καὶ γὰρ τὴν κέδρον φασὶν
+                ἀκάνθας ἔχειν περὶ τὰ φύλλα, ὡς τὸ κίτριον. Ἀθηναῖοι
+                δὲ ἀπὸ τοῦ τόπου αὐτὸ ἐτυμολογοῦσιν.</quote></cit>
+                
+                
+                <cit n="37" xml:lang="grc">
+                <bibl>Schol. Theocrit. VII, 134</bibl>
+                <quote>Φανίας δὲ φησὶν οἰναρίζειν,
+                τὸ περιαιρεῖν τῶν οἰναρέων καὶ τρυγᾶν.</quote></cit>
+                
+                
+                <cit n="38" xml:lang="grc">
+                <bibl>Antigonus Mirab. c. 171 (155 Westerm.)</bibl>
+                <quote>Φανίαν δὲ <note type="editorial">(sc. Ἱστορεῖν φασι)</note> τὴν τῶν Πυράκων λίμνην
+                ὅταν ἀναξηρανθῇ κάεσθαι.</quote>
+                <note>Πυράκων] Συράκων Bentleius; Πυρραίων (in
+                Thessalia Meursius.) Cf. <bibl>Theophrast. De plant. II,
+                8</bibl>. Noster locus item ex opere De plantis peti
+                potuit.</note></cit>
+                
+                
+                <cit n="39" xml:lang="grc">
+                <bibl>Id. Ibid. c. 186 (171 Westerm.)</bibl>
+                <quote>Φανίαν δὲ κατά τινας τόπους τῆς Λέσβου καὶ περὶ τῶν Νεανδρίδων
+                τὰς βώλους τὰς τῶν ὄψεων καθηγήσεις γίνεσθαι
+                καὶ χρησίμας, καὶ εἰς ὕδωρ ἐμβληθείσας οὔτε καταδύωειν
+                οὔτε κατατήκεσθαι.</quote></cit>
+                
+                
+                <cit n="40" xml:lang="grc">
+                <bibl>Hesych. v. Κήρυκες</bibl>
+                <quote>Ἐκαλεῖτο δὲ καὶ γένος ἰθαγενῶν,
+                ἀπὸ Κήρυκος τοῦ Ἑρμοῦ. Φανίας. Καὶ τοὺς ἐρινάζοντας
+                τοὺς ἐρινοὺς κήρυκας λέγουσιν.</quote>
+                <note>Fortasse Phaniæ Eresii mentio latet apud <bibl>Eustath.
+                Ad Odyss. Λ, 522, p. 1697, 60</bibl>, ubi hæc : Ἐρέσιος
+                δὲ ἱστορεῖ καὶ Πρωτεσιλάῳ δοθῆναι μνήμονα Δάρδανον
+                Θετταλὸν, δοθέντος χρησμοῦ Φυλάκῳ τῷ πατρὶ, ἀναιρεθῆναι
+                εἰ προπηδήσει· ὃ καὶ γέγονε.
+                EPIGRAMMATA Phaniæ, nescio cujus, leguntur
+                in B<bibl>runckii Anal. Vet. Poet. Gr. Tom. II, p. 52
+                sqq.</bibl> <bibl>Jacobs. Anthol. Tom. II, p. 53 sqq.</bibl></note></cit></div></div>
+                
+                <pb n="301"/>
+              
+                    
+                                </div></div>
+        </body>
+             
+       
+    </text>
+</TEI>
