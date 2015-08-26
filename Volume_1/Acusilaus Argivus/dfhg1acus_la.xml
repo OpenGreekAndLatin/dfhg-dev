@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg1acus_la">
+
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="TY">Tariq Yousef</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg1acus_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2015</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:cattg.307.1"
+                                >Acusilaus Argivus</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">1</biblScope>
+                        </monogr>
+                        <ref target="https://archive.org/details/fragmentahistori01mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#TY" when="2015-01-21">Automatically created the XML file</change>
+            <change who="#MB" when="2015-01-27">Proofread and updated</change>
+        </revisionDesc>
+        
+    </teiHeader>
+
+    <text>
+        <body>
+<div type="translation" subtype="volume" n="1" xml:lang="la">
+    <head xml:lang="la">
+        <title
+            ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg0392.tlg002.opp-lat1"
+            xml:lang="la">ACUSILAI FRAGMENTA</title>
+    </head>
+<pb n="100"/>
+
+<p n="1" >Hesiodus principio Chaos exstitisse dicit ... post Chaos
+h&#230;c duo exstitisse, Terram atque Amorem. ... Acusilaus
+quoque cum Hesiodo consentit. Atque ita passim, Amorem
+ex antiquissimis esse, conceditur. Quum vero talis
+sit, maximorum bonorum nobis est causa.
+Hesiodus Amorem Chai et Terr&#230;, Acusilaus Noctis et
+&#198;theris filium esse dicit.
+Acusilaus Chaos statuere mihi videtur primum rerum
+principium, ut prorsus ignotum. Post hoc unum h&#230;c duo;
+Erebum, principium masculinum, et Noctem, principium
+femininum, hoc pro infinito, illud pro finito. Ex horum
+commixtione ortos esse dico &#198;therem, Amorem, Intelligentiam,
+tres illas, qu&#230; mente percipiuntur, substantias.</p>
+
+<p n="2" >C&#339;us, pater Laton&#230;, sic nominatus a <foreign xml:lang="grc">κοεῖν</foreign>, quod idem
+est ac <foreign xml:lang="grc">νοεῖν</foreign> et <foreign xml:lang="grc">συνιέναι</foreign> (scire, intelligere), ita ut <foreign xml:lang="grc">κοῖος</foreign> sit
+quasi <foreign xml:lang="grc">νοῖος</foreign> <hi rend="italic">prudens</hi>, <hi rend="italic">intelligens</hi>. Nam &#198;oles litera <foreign xml:lang="grc">κ</foreign> pro
+<foreign xml:lang="grc">ν</foreign> utuntur. Hesiodus: <hi rend="italic">C&#339;um et Hyperiona et Iapetum</hi>.
+Hi vero Titanes et Titanides vocantur, ut ait Acusilaus.</p>
+
+<p n="3" >Acusilaus tres ventos esse dicit secundum Hesiodum:
+boream, zephyrum, notum. Nam <foreign xml:lang="grc">ἀργέστην</foreign> (velocem, vel
+album, i. e. albas nubes in c&#339;lo congerentem) ait zephyri
+epitheton esse.</p>
+
+<p n="4" >Animalia, qu&#230; morsu venenato l&#230;dunt, ex Titanum
+sanguine orta esse non legitur apud Hesiodum; Acusilaus
+vero ex Typhonis sanguine omnia animalia, qu&#230; morsu
+vulnerant, nata esse dicit.</p>
+
+<p n="5" >Acusilaus Scyllam Phorcynis et Hecat&#230; filiam esse tradit;
+verum in E&#339;is magnis Scylla Phorbantis est ex
+Hecate.</p>
+
+<p n="6" >Acusilaus Argivus ex Cabira et Vulcano natum ait Cadmilum,
+ex hoc tres Cabiros, ex his Nymphas Cabiridas.</p>
+
+<p n="7" >Deucalio, sub quo diluvium, filius erat Promethei et,
+<pb n="101" /> ut plurimi dicunt, Clymen&#230;, secundum Hesiodum vero
+Pandor&#230;; secundum Acusilaum natus est ex Hesione,
+Oceani filia, et ex Prometheo. Tralaticia sunt illa de Deucalione et de Pyrrha, eosque
+lapides post tergum jacientes fecisse homines testatur
+Acusilaus</p>
+
+<p n="8" >Acusilaus et Hesiodus in E&#339;is magnis dicunt ex Iophossa,
+&#198;et&#230; filia, Phrixum genuisse Argum.</p>
+
+<p n="9" >Plurimi narrant vellus illud aureum fuisse; Acusilaus
+vero in libro de Genealogiis dicit ex mari purpura tinctum
+esse.</p>
+
+<p n="10" >Endymionem Hesiodus dicit Aethlio, Jovis filio, ex
+Calyce natum, cui a Jove dono datum esset, se moriturum
+mortis arbitrum esse. Eadem narrant Pisander,
+Acusilaus, Pherecydes.</p>
+
+<p n="11" >Oceaniet Tethyos Inachus, Inachi et Meli&#230;, Oceani fili&#230;,
+    Phoroneus et &#198;gialeus liberis carens, a quo &#198;gialea nomen
+habet. Phoroneus, Peloponnesi princeps, e Telodice
+nympha Apin genuit et Nioben. Apis, a quo regio Peloponnesiaca
+Apia nominata est, quum tyrannice viveret,
+a Thelxione et Telchine interficitur. Niobes, Apidis sororis,
+ex Jove filius est Argus, a quo terra nominata est, et
+pr&#230;ter Argum, ut Acusilaus dicit, Pelasgus, a quo Peloponnesus,
+qu&#230; et Apia audit, usque ad Pharsaliam et Larissam,
+appellata est Pelasgia.</p>
+
+    <p n="11a">Acusilaus in primo libro passim ostendit Acheloum
+        omnium fluviorum esse antiquissimum. Dicit enim:
+        «Oceanus vero uxorem ducit Tethyn ipsius sororem, Ex
+        his nascuntur ter mille fluvii, quorum Achelous natu
+        maximus est, et pr&#230; ceteris habetur in honore.»</p>
+
+<p n="12" >Jovis ex Niobe, filius erat Argus et Acusilao auctore,
+Pelasgus, a quo Peloponnesi incol&#230; Pelasgi nominati sunt.
+Hesiodus vero Pelasgum autochthonem esse dicit.</p>
+
+<p n="13" >Ante Ogygen nihil apud Gr&#230;cos narratur dignum quod
+memoretur, excepto Phoroneo, illius &#230;quali, atque Inacho,
+Phoronei patre, qui primus Argolidis rex erat, ut narrat
+Acusilaus.</p>
+
+<p n="14" >Acusilaus dicit Phoroneum fuisse primum hominum.
+... Hinc Plato in Tim&#230;o secutus Acusilaum, scribit:
+<pb n="102" /> Et quum vellet eos aliquando inducere ut dicerent de rebus
+antiquis ejus civitatis, aggreditur dicere qu&#230; sunt antiquissima,
+de Phoroneo, qui dictus est primus hominum,
+et de Niobe.
+Ab Ogyge, quem indidem satum esse credunt, sub quodammodo
+ingens illud primumque diluvium, regnante Argis Phoroneo,
+Atticam invasisse Acusilaus anctor est, ad primam
+usque olympiadem . . . anni colliguntur viginti supra mille.</p>
+
+<p n="15" >Hesiodus et Acusilaus narrant antiquissimorum temporum
+homines ad mille annos vixisse.</p>
+
+<p n="16" >Mycenen Inachi filiam, Acestoris uxorem fuisse illo
+carmine narratur, quas E&#230;as magnas Gr&#230;ci dicunt, eamque
+urbi nomen dedisse ajunt. Quem vero Acusilao attribuunt
+sermonem, Myceneum Spartonis fuisse filium, spartonem
+Phoronei, mihi qtique non probant, siquidem
+neque Laced&#230;moniis.</p>
+
+<p n="17" >Argum Panopten (omnia oculis cernentem) Acusilaus
+ex terra ortum dicit.</p>
+
+<p n="18" >Hesiodus et Acusilaus Pirenis filiam Io esse dicunt.</p>
+ 
+    <p n="19">Pro&#230;ti fili&#230;...in insaniam inciderunt, quod, utHesiodus 
+        inquit, Dionysi ferias minime receperant; ut Acusilaus, 
+        quod Junonis simulacrum nihili fecerant.</p> 
+
+    <p n="20">Taurum Cretensem Acusilaus ait Europam Jovi per 
+        mare portasse.</p> 
+
+    <p n="21">Talis vit&#230; finis Actseoni (a canibus lacerato) fuit Jove 
+        irascente, ut Acusilaus narrat, quod Semeles nuptias ambiisset.</p>
+    
+    <p n="22">Asopus fluvius, ut Acusilaus dicit, Perus et Neptuni 
+        filius est.</p> 
+    
+    <p n="23">Erechtheus, rex Atheniensium, filiam habuit Orithyiam 
+        summa excellentem venustate. Quam quum Canephoram, 
+        ut saciificia offerret Minerv&#230; Poliadi, in Acropolin misisset,
+        tanto Boreas ventus puell&#230; amore exarsit, ut non 
+        animadversus a pr&#230;sentibus puellamque servantibus furtim
+        eam subriperet et in Thessaliam translatam sibi jungeret
+        connubio. Filios ex ea habuit Zeten et Calain , qui 
+        propter virtutem suam cum semideis Argo nave vecti 
+        sunt in Colchidem, unde vellus illud reportarent.</p>
+<pb n="103"/>
+
+<p n="24" >Zetes et Calais, ut Acusilaus dicit, ad Tenum ab Hercule
+interfecti sunt.</p>
+
+<p n="25" >Causam,cur Coronis Ischyn Apollini pr&#230;ferendum duxerit,
+Acusilaus aflert, quippe qu&#230; verita ne a deo 
+contemtui haberetur,cum mortali hiomine esse maluisset.</p>
+     
+    <p n="26">Edito oraculo post dissolutam Priamidarum dominationem
+        prosapiam Ancliis&#230; regnum Trojanorum habituram 
+        esse , Venus cum Anchise vegetam &#230;tatem jam egresso 
+        concubuit. Ex quo quum &#198;neani peperisset, ut Priamidarum
+        potestatem subvertendi occasionem nancisceretur, 
+        Alexandro Helen&#230; amorem injecit, et post illius raptum 
+        a Trojanorum partibus stare visa est ; re vera autem hac
+        auxilii specie solabatur cladem eorum, ne prorsus desperantes
+        Helenam redderent.</p> 
+
+    <p n="27">Eurypylus, filius Astyoch&#230; et Telephi, Herculis filii,
+        in Mysi&#230; regno patri successit. Cujus de polentia quum
+        Priamus audivisset, misit qui ad belli societatem eum
+        permovereut, et, respondente illo non licere sibi propter
+        matrem , Astyoch&#230; dono misit vitem auream. Qua accepla,
+        misit illa filium in expeditionem. Hunc vero Neoptolemus,
+        Achillis filius, occidit.
+        Hyperochi Eurypylus, cujus Ormenus, cujus Pheres, 
+        cujus Amyntor, cujus Astydamia, Tlepolemi mater; et
+        ipse Amyntor ad Jovem genus refert.</p>
+     
+    <p n="28">Menelaus genuit — ex serva Pieride ab &#198;tolia oriunda,
+        sive, ut Acusilaus ait, e Teridae Megapentliem.</p>
+    
+    <p n="29">Acusilaus libro tertio dicit, quum Uranus exsecaretur, 
+        accidisse ut gutt&#230; in terram deciderent; ex his ortos 
+        esse Ph&#230;aces; alii dicunt, Gigantes. Etiam Alc&#230;us eodem
+        modo quo Acusilaus Ph&#230;aces dicit ex Urani guttis
+        genus ducere.</p>
+
+<p n="30" >Perelai filii, Ithacus et Neritus, a Jove oriundi, incolebant
+Cephaleniam. Placuit his consuetas sedes relinquentes
+in Ithacam transmigrare. Ubi quum locum viderent
+peraptum habitationibus propterea quod circumjacentem
+regionem superabat, colonia huc deducta , Itliacam condiderunt.
+Et Ithaca quidem insula ab Ithaco nomen
+accepit, Neritus vero, mons vicinus, a Nerito.</p>
+
+<p n="31" >Homeridae, familia in Chio insula, nt Acusilaus aitlibro
+tertio.</p>
+			</div>
+		</body>
+	</text>
+</TEI>
