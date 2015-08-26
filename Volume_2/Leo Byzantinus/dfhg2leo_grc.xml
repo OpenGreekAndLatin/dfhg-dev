@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2leo_grc">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2leo_grc.xml</idno>
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2013</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.820"
+                                >Leo Byzantius</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref target="https://archive.org/details/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#KS" when="2014-11-17">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="3" xml:lang="grc">
+                
+                    <head xml:lang="grc">
+                        <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1941.tlg003.opp-grc1">LEO BYZANTIUS.</title>
+                </head>
+
+                <pb n="327"/>
+
+                                
+                    
+                    <p><bibl>Suidas</bibl> : <quote>Λέων, Λέοντος, Βυζάντιος, φιλόσοφος
+                    περιπατητικὸς καὶ σοφιστής, μαθητὴς Πλάτωνος,
+                    ἢ, ὥς τινες, Ἀριστοτέλους. Ἔγραψε τὰ κατὰ Φίλιππον
+                    καὶ τὸ Βυζάντιον βιβλίοις ζ᾿, Τευθραντικὸν, Περὶ Βησαίου,
+                    Τὸν ἱερὸν πόλεμον, Περὶ στάσεων, τὰ κατ᾿
+                    Ἀλέξανδρον. <note type="editorial">(Eadem <bibl>Eudocia p. 283.</bibl>)</note>
+                    Οὗτος ἦν σφόδρα παχύς· καὶ πρεσβεύσας πρὸς
+                    Ἀθηναίους γέλωτα ἐκίνησε, καὶ τῆς πρεσβείας ἐκράτησεν,
+                    ἐπειδὴ πίων ἐφαίνετο καὶ περιττὸς τὴν γαστέρα.
+                    Ταραχθεὶς δ᾿ οὐδὲν ἀπὸ τοῦ γέλωτος, « Τί, ἔφη,
+                    ὦ Ἀθηναῖοι, γελᾶτε; ἢ ὅτι παχὺς ἐγὼ καὶ τοσοῦτος;
+                    Ἔστι μοι καὶ γυνὴ πολλῷ παχυτέρα, καὶ ὁμονοοῦντας
+                    μὲν ἡμᾶς χωρεῖ ἡ κλίνη, διαφερομένους δὲ οὐδ᾿ ἡ οἰκία.»
+                    Καὶ εἰς ἓν ἦλθεν ὁ τῶν Ἀθηναίων δῆμος, ἁρμοσθεὶς
+                    ὑπὸ τοῦ Λέοντος, σοφῶς ἐπισχεδιάσαντος τῷ
+                    καιρῷ. Οὗτος ὁ Λέων ἀποκρουόμενος τὸν Φίλιππον
+                    ἀπὸ τοῦ Βυζαντίου διεβλήθη παρὰ Φιλίππου πρὸς τοὺς
+                    Βυζαντίους δι᾿ ἐπιστολῆς ἐχούσης οὕτως· « Εἰ τοσαῦτα
+                    χρήματα παρεῖχον Λέοντι, ὁπόσα με ᾐτεῖτο, ἐκ πρώτης
+                    ἂν ἔλαβον τὸ Βυζάντιον. » Ταῦτα ἀκούσαντος τοῦ
+                    δήμου καὶ ἐπισυστάντος τῇ οἰκίᾳ τοῦ Λέοντος, φοβηθεὶς
+                    μή πως λιθόλευστος παρ᾿ αὐτῶν γένηται, ἑαυτὸν ἦγξε,
+                    μηδὲν ἀπὸ τῆς σοφίας καὶ τῶν λόγων κερδάνας ὁ δείλαιος</quote> (*).
+                    <bibl>Idem</bibl> : <quote>Λέων, Ἀλαβανδεύς, ῥήτωρ. Ἔγραψε
+                    Καρικῶν βιβλία δ᾿, Λυκιακὰ ἐν βιβλίοις β', Τέχνην,
+                    Περὶ στάσεων, Τὸν ἱερὸν πόλεμον Φωκέων καὶ Βοιωτῶν
+                    <note type="editorial">(Θηβαίων cod. E)</note>.</quote>Eadem <bibl>Eudocia p. 281.</bibl>
+                    Τευθραντικόν] cod. Paris. A; τεθρανικόν V, τυθραντικόν
+                    V, τευθρανικόν reliqq. — <title>Περὶ Βησαίου</title>
+                    sic duo codd. Paris. AV; omisit et lacunam indicavit
+                    E; reliqui : <title>Περὶ Βησάλου</title>. « Sine dubio corruptum.
+                    Meursius Gloss. Gr.-barb. v. Βήσαλον, scr.
+                    <title>Περὶ βησάλων</title>, insigni errore, a quo nec Ducangius
+                    cavit in Gloss. Med. Et inf. Gr., quasi βήσαλον,
+                    ortum a latino bessalis, ea lateris cocti significatione
+                    Græcis quo tempore vixit Leo Byz. Fuisset notum.»
+                    HEMSTERHUSIUS. « Suspicor latitare nomen regis
+                    Βηρισάδου. » BERNHARDYUS. Perbene; certe optime
+                    hoc argumentum cadit in auctorem Byzantium
+                    (Vide <bibl>de Berisade illo Ponti rege Athenæum
+                    VIII, p. 349, D</bibl>; <bibl>Demosthenem p. 624</bibl>; <bibl>Dinarchum
+                    p. 95, 36</bibl>. In numis et inscriptionibus
+                    nomen est Παιρισάδης.<bibl>V. B&#339;ckh. C. I. II, p. 92.</bibl>)
+                    Licet tamen tueri lectionem π. Βησαίου; intelligi
+                    potest scriptum De oraculo Bes&#230;, de&#230; &#198;gypti&#230;
+                    (de quo vide Vales. <bibl>Ad Ammian. Marcellin. XIX,
+                    12</bibl>), qu&#230; in Besa urbe (postea Antinoopoli appellata
+                    est) colebatur. — Περὶ στάσεων] om. E. —
+                    οὗτος ἦν... καιρῷ] Fluxerunt h&#230;c e <bibl>Philostrat. Vit.
+                    Sophist. I, 2, p. 485</bibl>. — Καὶ τῆς πρεσβείας ἐκράτησεν]
+                    « H&#230;c Philostratus ignorat, qu&#230; sub finem
+                    narrationis oportuit collocari. » BERNHARDY. —
+                    Ἀποκρουόμενος κτλ.] Historiam uberius narrat
+                    <bibl>Hesychius Milesius De Constantin. Orig. § 26,
+                    p. 49 sq</bibl>. Cf. <bibl>Stephan. Byz. v. Βόσπορος, Eustathius
+                    ad Dionys. Per. 140 extr</bibl>.
+                    Jam si sub examen vocaveris Suidiana h&#230;c,
+                    facile intellexeris misceri incongrua. Primum enim
+                    patet Leontem Byzantiorum demagogum et sophistam,
+                    qui anno 340 a. C. vitam suspendio finivit,
+                    diversum esse ab eo qui res Philippi et Alexandri
+                    literis tradidit. Ad demagogum illum pertinet
+                    Plato magister, uti patet e <bibl>Philostrato Vit. Soph.
+                    I, 2, p. 485</bibl> (ex quo hausisse Suidas putandus est),
+                    qui juvenem Leontem audiisse Platonem refert.
+                    Idem ex <bibl>Plutarchi Phocion. c. 14</bibl> patet, ubi : Λέων
+                    (sic scrib. Pro vg. Κλέων) ἀνὴρ Βυζαντίων πρῶτος
+                    ἀρετῇ καὶ τῷ Φωκίωνι γεγονὼς ἐν Ἀκαδημείᾳ συνήθης.
+                    Idemque haud dubie est cum Leonte Academico
+                    philosopho, cui Alcyonem dialogum <bibl>Platonicum
+                    vindicabant Nicias apud Athen&#230;um XI,
+                    p. 503, C</bibl>, et Fanorinus apud <bibl>Diogenem L. III,
+                    62</bibl>. Quod deinde Aristotelem attinet, non potuit
+                    is Leontis demagogi magister esse. Igitur verba
+                    περιπατητικὸς et μαθητὴς Ἀριστοτέλους simplicissime
+                    referuntur ad historicum nostrum, qui item fuerit
+                    Byzantius. (Frequens enim apud Byzantions nomen
+                    Leontis.) De vita ejus nihil traditum accepimus.
+                    Fortasse est Leon Melant&#230; et Pancreontis
+                    pater, cujus in testamento Theophrastæ mentio
+                    fit (<bibl>Diog. L. v, 51</bibl>).
+                    Ex operibus, qu&#230; apud Suidam memorantur.
+                    Libri septem De bello quod Philippus contra Byzantios
+                    gessit, libri Dc bello sacro sive Phocico,</p>
+                    
+                    
+                    
+                    <note type="footnote">Cf. <bibl>Plutarch. Mor. p. 804, C</bibl><quote> Ὁ Βυζάντιος Λέων ἡκε δή
+                    ποτε τοῖς Ἀθηναίοις στασιάζουσι διαλεξόμενος· ὀφθεὶς δὲ
+                    μικρὸς καὶ γελασθεὶς, Τί δὴ, εἰπεν, εἰ τὴν γυναῖκά μου θεάσαισθε
+                    μόλις ἐξικνουμένην πρὸς τὸ γόνυ; Πλείων οὖν ἐγένετο
+                    γέλως· Ἀλλ᾿ ἡμᾶς, ἔφη, μικροὺς οὕτως ὄντας, ὅταν διαφερώμεθα
+                    μεθα πρὸς ἀλλήλους ἡ Βυζαντίων πόλις οὐ χωρεῖ.</quote>
+                    <bibl>Idem p. 633, C</bibl><quote>Λέων ὁ Βυζάντιος, εἰπόντος Πασιάδου
+                    πρὸς αὐτὸν, ὀφθαλμισθῆναι δι᾿ αὐτοῦ τοὺς ὀφθαλμοὺς, Ἀσθένειαν,
+                    ἔφη, σώματος ὀνειδίζεις, νέμεσιν οὐχ ὁρῶν ἐπὶ τῶν
+                    ὤμων βαστάζοντά σου τὸν υἱόν· εἰχε δὲ κυρτὸν ὁ Πασιάδης
+                    υἱόν. [Ἀνθρώπινον, ἔφη, πάθος ὀνειδίζεις, ἐπὶ τοῦ νώτου φέρων
+                    τὴν ωέμεσιν, <bibl>idem p. 88, F.</bibl>]</quote>
+                    <bibl>Idem Vit. Nici&#230; c. 22</bibl><quote>Ὁ Βυζάντιος Λέων πρὸς τοὺς
+                    ἑαυτοῦ πολίτας· « Βούλομαι γὰρ μᾶλλον ὑφ᾿ ὑμῶν ἢ μεθ᾿
+                    ὑμῶν ἀποθανεῖν.»</quote></note>
+                    
+                    <pb n="328"/>
+                    
+                    
+                    <p>et <title>De rebus Alexanderi</title>, uti argumentis inter se
+                    juncti sunt, sic eidem omnes auctori deberi non
+                    dubito. Contra liber <title>Περὶ στάσεων</title> sive De statibus
+                    (De rebellionibus verterat Vossius, probante
+                    Eberto)vindicandus est Leonti Alabandensi, <title>Τέχνης
+                    ῥητορικῆς</title> auctori, inter cujus opera ab ipso
+                    etiam Suida commemoratur. Τευθραντικός sive
+                    Declamatio de Teuthrante Mysi&#339; rege, et liber
+                    <title>Περὶ Βησαίου</title> vel Βησάλυ, num recte Aristotelico
+                    Leonti adscribatur, non ausim dijudicare.
+                    Quodsi cum Bernhardyo scribendum putaveris <title>Περὶ
+                    Βηρισάδου</title>, ea scriptio in Byzantinum hominem
+                    cadit optime; sin Alabandensi, Caricorum auctori,
+                    assignanda est, conjeceris titulum fuisse <title>Περὶ Μαυσώλου</title>;
+                    si denique lectio <title>Περὶ Βησαίου</title> probanda
+                    deque &#230; &#198;gypti&#230; oraculo intelligenda est,
+                    qu&#230;ritur an non referendus liber sit ad Leontem
+                    Pell&#339;um, quem mythologumenis &#198;gyptiorum
+                    scripsisse novimus. — &#230;terea <bibl>Plutarchus De
+                    fluv. c. 2 et 24</bibl> meminit Leonis Byzantii ἐν τοῖς
+                    Βοιωτιακοῖς, et ἐν γ' Περὶ ποταμῶν. Ac nescio an
+                    apud eundem <bibl>Plutarchum l. l. c. II</bibl> pro ἱστορεῖ
+                    Ἰάσωνὲν τοῖς Θρᾳκικοῖς reponendum sit ἵ. ΛΕΩΝ
+                    Ceterum B&#339;otica illa et Thracica nonnisi partes
+                    operis <title>Περὶ ποταμῶν</title>, in quo fluvii secundum terras
+                    distributi, fuisse puto. Ne cum Westermanno (ad
+                    <bibl>Voss. Hist. p. 70</bibl>) putem ea, qu&#230; e Bοιωτιακοῖς
+                    Plutarchus affert, ex belli Phocici historia repetita
+                    esse, vel argumento fragmenti prohibeor.
+                    Probabile vero est Leontem illum Pseudo-Plutarchi
+                    aut serioris &#230;vi hominem esse, aut nomen
+                    Aristotelici nostri fuisse mentitum. — Memoratur
+                    denique ap. <bibl>schol. Apoll. Rhod. II, 197</bibl> Leon
+                    nescio cujas ἐν Περίπλῳ. At vereor ne corruptum
+                    scholium sit. Pro οὗ μνημονεύει καὶ Λέων ἐν
+                    Περίπλῳ καὶ Δημοσθένης (l. Τιμοσθένης) ἐν τοῖς
+                    Λιμέσιν, reponendum est, ni fallor : οὗ μν. Κλέων
+                    ἐν τῷ περὶ λιμένων καὶ Τιμ. Etc Similiter Κλέων
+                    prο Λέων legitur ap. <bibl>Plutarch. Phocion. c. 14</bibl>, ut
+                    modo monui.
+                    Fragmenta Leontis Aristotelici habemus nulla,
+                    præter unum locum Athen&#230;i; quamquam ne hic
+                    quidem dubitationi locum non relinquit.</p>
+                        
+                        
+                    <div type="textpart" subtype="subwork" n="1"><ab><title>[ΤΑ ΚΑΤΑ ΦΙΛΙΠΠΟΝ ΚΑΙ ΒΥΖΑΝΤΙΟΝ.]</title></ab>
+                    
+                    <cit n="1" xml:lang="grc">
+                        <bibl>Athen&#230;us XII, p. 550, F</bibl> 
+                    <quote>Καὶ Πύθων δ᾿ ὁ Βυζάντιος
+                    ῥήτωρ, ὡς Λέων ἱστορεῖ ὁ πολίτης αὐτοῦ,
+                    πάνυ ἦν παχὺς τὸ σῶμα· καὶ Βυζαντίοις ποτὲ στασιάζουσι
+                    πρὸς ἀλλήλους τοῖς πολίταις παρακαλῶν εἰς φιλίαν
+                    ἔλεγεν, « Ὁρᾶτέ με, ἄνδρες πολῖται, οἷός εἰμι τὸ σῶμα·
+                    ἀλλὰ καὶ γυναῖκα ἔχω πολλῷ ἐμοῦ παχυτέραν. Ὅταν
+                    οὖν ὁμονοῶμεν, καὶ τὸ τυχὸν ἡμᾶς σκιμπόδιον δέχεται·
+                    ἐὰν δὲ στασιάσωμεν, οὐδὲ ἡ σύμπασα οἰκία.»</quote>
+                    <note> Igitur de <bibl>Pythone h. l.</bibl> narrantur, qu&#230; Suidas
+                    et Plutarchus de Leonte tradunt, eo tantum differentes,
+                    quod nostro loco Byzantii, apud illos vero
+                    Athenis res gesta dicatur. « Sed, opinor, corrigeudus
+                    Athen&#230;us et scribendum Πύθων δὲ ὁ Β ῥήτωρ
+                    ἱστορεῖ ὡς Λέων ὁ πολίτης αὐτοῦ. » Toup. Ad <bibl>Suidam
+                    l. l</bibl>. Addit Bernhardyus :« Haud frustra Toupius
+                    contendit Athenæum esse mendosum. Nimirum
+                    Pythonem Byzantium constat legationem ad Athenienses
+                    obiisse (v. <bibl>Fabric. In Sext. Empir. p. 297</bibl>;
+                    cf. <bibl>Westermann. Gesch. d. gr. Bereds. § 62, 12</bibl>)
+                    clarissimam, eamque perturbandis duorum Byzantiorum
+                    facundia potentium negotiis satis opportunam;
+                    Leontis industriam in domesticis rebus suorum
+                    civium unice positam fuisse videmus. Pr&#230;terea
+                    quæ desipientis foret argumentatio, ut publicus
+                    orator risum componeret Atheniensium allata
+                    conjugii mentione vel maxime ridicula, eam apparet
+                    vel peridoneam exstitisse, si quidem Leonti
+                    discordi&#230; civiles essent componend&#230;. Cujus rei
+                    indicium, ut Athenæum mittam, habet Philostratus,
+                    loco illud non suo propositum : <quote>καὶ πρεσβεύων
+                    σβεύων δὲ παρ᾿ Ἀθηναίοις οὗτος, ἐστασίαζε μὲν
+                    πολὺν ἤδη χρόνον ἡ πόλις καὶ παρὰ τὰ ἤθη
+                    ἐπολιτεύετο</quote> : atque tum intemperanti&#230; crimine
+                    Byzantios flagrasse haud pauci scriptores testantur
+                    (V. <bibl>Meinek. In Menandr. p. 26 sq.</bibl>), quorum
+                    unus <bibl>&#230;us p. 442, C</bibl> sive <bibl>&#198;lian. V. H. III,
+                    14</bibl>, quem nominavit Leonidem imperatorem, eum
+                    nihil suspicor ab Leonte nostro discrepare. Huno
+                    item decet et dictum a <bibl>Plutarcho (Nic. c. 22</bibl>) proditum
+                    et eventus mortis ab ipso sponte susceptus.
+                    De Athen&#230;o tamen non libet definire, quum et
+                    errorem ille potuerit rerum similitudine commisisse
+                    et correctio præsto sit haud violenta, quam
+                    epitomes scriptura commendat : <quote>καὶ Πύθων δ᾿ ὁ Β.
+                    Ῥήτωρ, ἢ, ὡς ἱστορεῖται Λέων ὁ πολίτης αὐτοῦ</quote>.
+                    Omnibus igitur perpensis saltem obtinebimus Atheniensium
+                    nomen ab Leontis memoria prorsus esse
+                    removendum.»
+                    Ego propono : Πύθων ὁ Βυζάντιος ῥήτωρ ἢ Λέων.
+                    Ὡς Λέων ἱστορεῖ ὁ πολίτης αὐτοῦ. Facillime alterum                                  
+                    <pb n="329"/>                                   
+                    Λέων omitti potuit. Epitome habet : <quote>Λέων δ᾿ ὁ Βυζάντιος
+                    παχὺς ὢν τὸ σῶμα τοῖς πολίταις ποτὲ στασιάζουσι
+                    πρὸς ἀλλήλους, π. ἐ. φ., ἔλεγεν <foreign>κτλ</foreign>.</quote> Ceterum
+                    suspicor istam Byzantinorum dissidentiam ad illud
+                    pertinere tempus, quo Atheniensium classis sub
+                    Phocione duce Byzantium venit. Jam antea Athenienses
+                    sub Charete classem miserant auxiliarem;
+                    at non receperant eam Byzantii diffidentes (<bibl>Plutarch.
+                    Phocion. 14</bibl>). Similis diffidentia animos
+                    occupaverit civium, quum deinde Phocion advenit,
+                    quem altera pars, puto, in urbem recipiendum,
+                    altera vero contra putabat, donec sententia Leonis,
+                    qui, probitatem Phocionis noverat, pervicit,
+                    (<quote>Λέων, ἀνὴρ Βυζανττίων πρῶτος ἀρετῇ καὶ τῷ Φωκίωνι
+                    γεγονὼς ἐν Ἀκαδημίᾳ συνήθης, ἀνεδέξατο τὴν
+                    πίστιν ὑπὲρ αὐτοῦ πρὸς τὴν πόλιν</quote>. <bibl>Plutarch. l. l</bibl>.)
+                    H&#230;c igitur Byzantiorum seditio, cujus causa Athenienses
+                    fuerunt, deinde in Atheniensium seditionem
+                    apud alios auctores abiisse videtur. Quo facto,
+                    in promptu erat Leonti substituere Pythonem.
+                    Ceterum admodum probabilis est Bernhardyi
+                    sententia, ex qua Leon ille idem est qui alio
+                    Athen&#230;i loco Leonidas appellatur. Eo vero loco
+                    auctorem Athen&#230;us laudat Damonis opus <title>Περὶ
+                    Βυζαντίου</title>; quod quum alias nusquam memovatum
+                    videam, nescio aν ΔΑΜΩΝ corruptum sit ex
+                    ΑΕΩΝ.</note></cit></div>
+                        
+                    <div type="textpart" subtype="subwork" n="2"><ab><title>ΒΟΙΩΤΙΑΚΑ.</title></ab>
+                    
+                   
+                    <cit n="2" xml:lang="grc">
+                    <bibl>Plutarch. De fluv. 2, 2</bibl> 
+                    <quote>Παράκειται δ᾿ αὐτῷ
+                    (τῷ Ἰσμηνῷ) Κιθαιρὼν ὄρος, ὀνομαζόμενον δὲ πρότερον
+                    Ἀστέριον, δι᾿ αἰτίαν τοιαύτην. Βοιωτοῦ τοῦ Ποσειδῶνος
+                    ἐκ δυοῖν γυναικῶν τῶν ἐπισήμων θέλοντος γῆμαι
+                    τὴν ὠφελιμωτέραν, καὶ ἐν ταῖς ἀκρωρείαις λόφου τινὸς
+                    ἀνωνύμου νυκτὸς περιμένοντος ἀμφοτέρας, αἰφνίδιος
+                    ἐξ οὐρανοῦ κατενεχθεὶς ἀστὴρ ἔπεσε τοῖς Εὐρυθεμίστης
+                    ὤμοις, καὶ ἀφανὴς ἐγένετο. Βοιωτὸς δὲ τὸ σημαινόμενον
+                    νοήσας, τὴν μὲν κόρην ἔγημε, τὸ δ᾿ ὄρος ὠνόμασεν
+                    Ἀστέριον ἀπὸ τοῦ συγκυρήματος. Ὕστερον δ᾿ ἐκλήθη
+                    Κιθαιρὼν δι᾿ αἰτίαν τοιαύτην. Τισιφόνη μία τῶν
+                    Ἐριννύων, εἰς ἐπιθυμίαν ἐμπεσοῦσα παιδὸς εὐπρεποῦς,
+                    Κιθαιρῶνος τοὔνομα, καὶ μὴ στέγουσα τὴν ἐπίτασιν
+                    τῶν ἐρώτων, λόγους αὐτῷ περὶ συνόδων ἀπέστειλεν·
+                    ὁ δὲ τὸ καταπληκτικὸν τῆς προειρημένης φοβηθεὶς,
+                    οὐδ᾿ ἀποκρίσεως αὐτὴν ἠξίωσεν· ἡ ἀποτυχοῦσα τῆς
+                    προαιρέσεως, ἐκ τῶν πλοκάμων ἕνα τῶν δρακόντων
+                    ἀπέσπασεν, καὶ ἐπὶ τὸν ὑπερήφανον ἔβαλεν· ὁ δ᾿ ὄφις
+                    τοῖς κόλποις περισφίγξας αὐτὸν ἀνεῖλεν, Ἀστερίου
+                    ποιμαίνοντος ἐν ταῖς ἀκρωρείαις. Κατὰ δὲ πρόνοιαν
+                    θεῶν, τὸ ὄρος ἀπ᾿ αὐτοῦ μετωνομάσθη Κιθαιρὼν, καθὸ
+                    ἱστορεῖ Λέων ὁ Βυζάντιος ἐν τοῖς Βοιωτιακοῖς.</quote>
+                    <note>B&#339;otiaca h&#230;c Leontis cujusdam Byzantini non
+                    peculiare opus sed caput fuerint operis De fluviis
+                    quod eodem modo quo Plutarcheum fuerit adornatum.
+                    Idque de aliis similibus titulis s&#230;penumero
+                    valere mihi persuasum est. — Apud eundem <bibl>Plutarchum
+                    (De fluv. II, 2)</bibl> leguntur hæc : <quote>Γεννᾶται
+                    δ᾿ ἐν αὐτῷ (τῷ Στρυμῶνι) λίθος Παυσίλυπος καλούμενος·
+                    ὃν ἐὰν εὕρῃ τις πενθῶν, παύεται παραχρῆμα τῆς
+                    κατεχούσης αὐτὸν συμφορᾶς, καθὼς ἱστορεῖ Ἰάσων
+                    ὁ Βυζάντιος ἐν τοῖς Θρᾳκικοῖς <note type="editorial">(vgo Τραγικοῖς, emend.
+                    <bibl>Jonsius H. phil. III, 2, 2</bibl>)</note></quote>. Iason aliunde non
+                    notus. Num scribendum ἱστορεῖ ΛΕΩΝ?</note></cit></div>
+                        
+                    <div type="textpart" subtype="subwork" n="3"><ab><title>ΠΕΡΙ ΠΟΤΑΜΩΝ.</title></ab>
+                        <div type="textpart" subtype="book" n="1"><ab><title>E LIBRO TERTIO.</title></ab>
+                    
+                    
+                    
+                    <cit n="3" xml:lang="grc">
+                    <bibl>Plutarch. De fluv. 24, 2, de Tigri fl.</bibl>  
+                    <quote>Γεννᾶται δ᾿ ἐν αὐτῷ λίθος, Μυνδὰν καλούμενος, πάνυ λευκός·
+                    ὃν ἐὰν κατέχῃ τις, οὐδὲν ὑπὸ θηρίων ἀδικεῖται· καθὼς
+                    ἱστορεῖ Λέων ὁ Βυζάντιος ἐν γ’ Περὶ ποταμῶν</quote></cit>
+                    
+                            <div type="textpart" subtype="subwork" n="4"><ab><title>(ΠΕΡΙΠΑΑΟΥΣ.)</title></ab>
+                    
+                    <cit n="4" xml:lang="grc">
+                    <bibl>Schol. Apoll. Rh. II, 297</bibl> 
+                    <quote>Ἔστι γὰρ καὶ Αἶνος
+                    ὄρος τῆς Κεφαλληνίας, ὅπου Αἰνησίου <note type="editorial">(Scrib. Αἰνηίου                                      
+                    <pb n="330"/>    
+                    cum cod. Paris.)</note> Διὸς ἱερόν ἐστιν· οὗ μνημονεύει
+                    καὶ Λέων ἐν Περίπλῳ καὶ Δημοσθένης <note type="editorial">(scr. Τιμοσθένης)</note>
+                    ἐν τοῖς Λιμέσιν.</quote> <note>Antecedit <bibl>fragm. Hesiodi 151
+                    ed. Didot.</bibl>      
+                    Auctor Peripli idem esse cum eo, qui <title>Περὶ ποταμῶν</title>
+                    scripsit, videri possit. Mihi tamen pro καὶ
+                    Λέων etc., scribendum videtur καὶ Κλέων ἐν τῷ Περὶ
+                    λιμένων. De quo Cleonis opere aliunde constat.</note></cit>
+                            
+                    
+                    <cit n="5" xml:lang="grc">
+                     <bibl>Schol. Eurip. Med. 169</bibl>
+                     <quote>Λέων ὁ ῥήτωρ οὐ σφαγῆναι
+                    <note type="editorial">(sc. Τὴν Μήδειαν)</note>, ἀλλὰ διαφθαρῆναι αὐτὸν
+                    <note type="editorial">(sc. Fratrem)</note> φαρμάκοις (φησίν).</quote>
+                    <note>Hæc num ad Leontem Byzantium an ad Alabandensem
+                    referenda sint, nescio.</note></cit></div></div></div>
+                            
+                    <div type="textpart" subtype="author" n="2"><ab><title>LEO ALABABDENSIS.</title></ab> <!--2 new authors/synonyms, whats to do here?-->
+                    
+                    <p>Scripsit Leo Alabandensis, rhetor, Suida teste,
+                    Carica libris quattuor, Lyciaca libris duobus, Artem
+                    rhetoricam, De statibus. Quibus temere Suidas
+                    subjungit Historiam belli sacri : hæc enim ad
+                    Leontem Byzantium pertinet, &#198;tas scriptoris
+                    ignota. Laudatur semel.
+                    Hesychius : <quote>Βαιᾶγις, ἑορτὴ παρὰ Ἀσσυρίοις, ὡς
+                    Αέων ὁ Ἀλαβανδεὺς ἐν τρίτῳ.</quote> De re mihinon constat.
+                    Num cogitandum de βαιοφόρῳ ἑορτῇ Syrorum? In
+                    Lyciacis, qu&#230; duorum solummodo librorum erant,
+                    h&#230;c legi non poterant. Num ingitur in Caricis? an
+                    etiam Assyriaca Leon scripsit?</p></div></div></div>
+                        
+                        
+                    
+                <div type="textpart" subtype="author" n="3"><ab><title>LEO PELL&#198;US.</title></ab>
+                    
+                    
+                    <p>Leo Pell&#230;us Αἰγυπτιακὰ scripsit, vel uti Clemens
+                    (<ref>fr. 2</ref>) accuratius tradit, <title>Περὶ τῶνκατ᾿ Αἴγυπτον θεῶν</title>.
+                    &#198;tate suppar fuisse videtur Alexandro Magno.
+                    Verisimiliter enim Lobeckius, ex comparatis inter
+                    se cholio Apollonii Rhodii (<ref>fr. I</ref>) et Augustini
+                    locis concludit scriptum opus fuisse ad Olympiadem
+                    matrem Alexandri, cujus divinitatem Leo
+                    etiam sua de diis doctrina comprobari voluisse
+                    mihi videtur. Vide not. Ad <bibl>Pseudocallisth. Pr&#230;fat.
+                    p. XIX.</bibl></p>
+               
+                    
+                <div type="textpart" subtype="subwork" n="1"><ab><title>ΠΕΡΙ ΤΩΝ ΚΑΤ᾿ ΑΙΓΥΠΤΟΝ ΘΕΩΝ.</title></ab>
+                    <div type="textpart" subtype="book" n="1"><ab><title>E LIBRO PRIMO.</title></ab>
+                    <!--Müller switches the author-->
+                    <cit n="1" xml:lang="grc">
+                    <bibl>Schol. Apoll. Rh. IV, 262</bibl> 
+                    <quote>Κόσμης δὲ ἐν πρώτῳ Αἰγυπτιακῶν καὶ Λέων ἐν πρώτῳ τῶν Πρὸς τὴν μητέρα
+                    καὶ Κνωσσὸς (Εὔδοξος?) ἐν α’ Τεωγραφικῶν τῆς
+                    Ἀσίας πάντων ἀρχαιοτάτους τοὺς Αἰγυπτίους φασὶ,
+                    καὶ ἐν Αἰγύπτῳ πρώτην κτισθῆναι πόλιν Θήβας. Καὶ
+                    Νικάνωρ δὲ τούτοις συμφωνεῖ καὶ Ἀρχέμαχος ἐν τοῖς
+                    Μετονομασίαις.</quote>
+                    <note>Πρὸς τὴν μητέρα] « Hoc est, nisi fallor, πρὸς τὴν
+                    Ἀλεξάνδρου μητέρα. Nihilo tamen secius Jablonskio
+                    assentior <bibl>Panth. Proleg. p. XXX</bibl> fictam esse
+                    illam Alexandri M. epistolam, in qua ad matrem
+                    scribit <quote>sibi a Leone quodam antistite sacrorum
+                    &#198;gyptiorum metu su&#339; potestatis proditum esse,
+                    qui dii vulgo haberentur, eos homines fuisse</quote> (<bibl>Aug.
+                    C. D. VIII, 5</bibl>); ipsosque hujus epistol&#230; fictores
+                    Leonis Pell&#230;i qui librum suum Olympiadi inscripsisse
+                    videtur, nomine ad fingendum Leonem hierophantam
+                    &#198;gyptium abusos arbitror. » <bibl>LOBECK.
+                    Aglaoph. p. 1000</bibl>. — Nicanorem intellige eum
+                    qui, sicuti Archemachus, Μετονομασίας scripsit. Cf.
+                    <bibl>Fragm. Hist. Rer. Alex. p. 152</bibl>.</note></cit>
+                    
+                    
+                    <cit n="2" xml:lang="grc">
+                    <bibl>Clem. Alex. Strom, I, 21, p. 139 Sylb. </bibl>
+                    <quote>Λέων δὲ ὁ τὰ Περὶ τῶν κατ᾿ Αἴγυπτον θεῶν πραγματευσάμενος
+                    τὴν Ἶσιν ὑπὸ Ἑλλήνων Δήμητρα καλεῖσθαί
+                    φησιν. </quote>
+                    <note>Eadem ex <bibl>Clem. Eusebius P. E. X, 12,
+                    p. 499, B</bibl>.</note></cit>
+                    
+                    <cit n="3" xml:lang="la">
+                    <bibl>Tertullian. De coron. mil. 7</bibl>
+                    <quote xml:lang="la">Leonis scripta evolvas, priima Isis repertas spicas capite circumtulit.</quote></cit>
+                    
+                    <cit n="4" xml:lang="la">
+                    <bibl>Augustinus. Civ. D. VIII, 27</bibl>
+                    <quote xml:lang="la">De Iside uxore Osiris et de parentibus eorum qui omnes reges fuisse
+                    scribuntur, quibus parentibus suis illa quum sacrificaret,
+                    invenit hordei segetem : qu&#339; et quanta mala                                     
+                    <pb n="331"/>                   
+                        non a poetis, sed mysticis eorum literis memori&#339;
+                    mandata sint, sicut Leone sacerdote prodente ad
+                    Olympiadem scribit Alexander, legant qui volunt.</quote>
+                    <note>Cf. etiam <bibl>Idem De cons. Evang. I, 23</bibl>.</note></cit>
+                   
+                    <cit n="5" xml:lang="la">
+                    <bibl>Arnobius IV, 29</bibl>
+                    <quote>Possumus quidem hoc in loco
+                    omnes istos, nobis quos inducitis atque appellatis
+                    deos, homines fuisse monstrare, vel Agrigentino
+                    Euhemero replicato... vel Nicagora Cyprio
+                    vel Pell&#339;o Leone vel Cyrenensi Theodoro vel
+                    Hippone ac Diagora Meliis vel auctoribus aliis
+                    mille.</quote>
+                    <note>Pro Nicagora nonnulli exhibent Nicanore, atque
+                    ita etiam <bibl>Clem. Al. Pr. 2, p. 7, 12</bibl>, qui ex
+                    Arnobio sua petiverit Hunc Nicanorem Lobeck.
+                    <bibl>Aglaopham. p. 1000</bibl> eundem esse censet cum eo,
+                    qui ap. <bibl>schol. Apollon. (fr. I)</bibl> memoratur, Quod
+                    mihi non persuasit. Nam Nicogaras veram nominis
+                    formam jam inde colliges, quod nomina in
+                    αγόρας desineatia apud Cyprios sunt frequentissima.
+                    Deinde vero Nicagoram de Cypri loco laudat
+                    <bibl>Antigon. Mir. 173 (157 Westerm.)</bibl> : <quote>Περὶ δὲ
+                    τῆς ἐν Κιτίῳ (λίμνης Καλλίμαχός) φησιν, Νικαγόραν
+                    (εἰπεῖν), ὅτι ἀνιμηθείσης ἐπ᾿ ὀλίγον τῆς γῆς ἅλες
+                    εὑρίσκονται.</quote> Cf. <bibl>Plin. 31, 7</bibl>. Ex quo loco apparet
+                    Nicagoram scripsisse ante Callimachum; neque tamen
+                    multo antiquior Callimacho fuerit. <bibl>Adde Fulgent.
+                    Myth. II, 8 de Prometheo</bibl> : Quamvis Nicagoras
+                    in Disthemithea libro quem scripsit primum
+                    illum (Prometheum) formasse idolum referat etc.,
+                    ubi <bibl>Voss. Hist. p. 474</bibl> scrib. Conjicit in δεσμ. Προμηθέως
+                    libro. Fortasse erat in <title>Περὶ τῆς Ἡμιθέας</title> libro.
+                    — <bibl>Schol. Apoll. Rh. II, 269</bibl> : Νικαγόρας δὲ
+                    φησὶν ἀπὸ τῶν ἀντοίκων αὐτὸν (τὸν Νεῖλον) ῥεῖν. Is
+                    num idem N. sit an alius nescio. Alius est Nicagoras
+                    Atheniensis sophista, qui sub Philippo Romanorum
+                    imperatore floruit. V. <bibl>Suidas v. Νικαγόρας</bibl>;
+                    <bibl>Voss. Hist. Gr. p. 287</bibl>. Nicagoram Zeliten, Alexandri
+                    æqualem, memorat <bibl>Clemens Al. Protr. c. 4,
+                    p. 16 Sylb</bibl>. : <quote>Τί δεῖ καὶ Νικαγόρου μεμνῆσθαι. —
+                    Ζελείτης τὸ γένος ἦν κατὰ τοὺς Ἀλεξάνδρου γεγονὼς
+                    χρόνους. — Ἑρμῆς προσηγορεύετο ὁ Νικαγόρας καὶ τῇ
+                    στολῇ τοῦ Ἑρμοῦ ἐκέχρητο, ὡς αὐτὸς μαρτυρεῖ.</quote></note></cit>
+                    
+                    <cit n="6" xml:lang="la">
+                    <bibl>Hyginus Poet. Astron. II, 20 </bibl>                
+                    <quote xml:lang="la">De Hammonis simulacro Leon, qui res &#230;gyptias conscripsit,
+                    ait : Quum Liber &#198;gyptum et reliquos fines regno
+                    teneret, et omnia primus hominibus ostendiss diceretur,
+                    Hammonem quendam ex Africa venisse
+                    et pecoris multitudinem ad Liberum adduxisse,
+                    quo facilius et ejus gratia uteretur et aliquid primus
+                    invenisse diceretur. Itaque pro beneficio ejus Liber
+                    existimatur agrum dedisse, qui est contra Thebas
+                    &#198;gyptias; et qui simulacra faciunt Hammonis.
+                    Capite cornuto instituunt, ut homines memoria
+                    teneant, eum primum pecus ostendisse. Qui autem
+                    Libero factum voluerunt assignare, quod non
+                    petierit ab Hammone, sed ultro sit ad eum adductus,
+                    Liberi cornuta simulacra fecerunt et arietem
+                    memori&#339; causa inter sidera fixum dixerunt.</quote></cit></div></div></div>
+
+             
+        
+            
+            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2leo_la">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2leo_la.xml</idno>
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2013</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.820"
+                                >Leo Byzantius</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref target="https://archive.org/details/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#KS" when="2014-11-19">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="3" xml:lang="grc">
+                
+                    <head xml:lang="grc">
+                        <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1941.tlg003.opp-lat1">LEO BYZANTIUS.</title>
+                </head>
+
+                
+                    <pb n="328"/>
+                                
+                         
+                    <div type="textpart" subtype="subwork" n="1"><ab><title>(DE PHILIPPI CONTRA BYZANTIOS BELLO.)</title></ab> 
+                            
+                           
+                            <p n="1">Fuit etiam Python Byzantius orator (vel potius Leon),
+                            ut Leon civis ejus narrat, obeso admodum corpore, et orto
+                            aliquando inter Byzantios dissidio, ad concordiam hortans
+                            cives, dixit :<quote>« Videtis me, o cives, quali sim corpore: at
+                            uxorem habeo multo etiam crassiorem. Et tamen quum
+                            concordes sumus, quitibet nos lectulus capit; sin discordes,
+                            ne tota quidem domus.»</quote></p></div>
+                            
+                            <pb n="329"/>
+                            
+                        <div type="textpart" subtype="subwork" n="2"><ab><title>BOEOTICA.</title></ab>
+                            
+                        
+                            
+                            <p n="2">Adjacet Ismeno Cithæron mons, prius Asterius ideo vocatus,
+                            quod, quum B&#339;otus Neptuni filius ex duabus nobilibus
+                            mulieribus eam, qu&#230; sibi utilior videbatur, ducere
+                            vellet, et in cacumine collis cujusdam innominati nocte
+                            utramque exspectaret, derepente stella de c&#339;lo delata cecidit
+                            in humeros Eurythemistes et evanuit statim. Quod signum
+                            reputans secum B&#339;otus hanc puellam uxorem duxit et
+                            montem Asterium ab illo casu denominavit, quem postremo
+                            Cith&#230;ronem vocarunt ob hanc causam. Quum Tisiphone,
+                            Furiarum una, Cith&#230;ronis pulcherrimi pueri amore correpta
+                            esset, et eum occultare nulto modo posset, illius
+                            congressus ausa est petere. At Cith&#230;ron Furi&#230; horrorem
+                            exosus, ne dignatus est quidem ei responsum dare: unde
+                            vana spe delusa e crinibus serpentum unum avulsit, et in
+                            superbum juvenem projecit, quem serpens nexibus suis
+                            constringens interemit in Asterii montis cacuminibus greges
+                            tunc temporis pascentem. Diis autem ita volentibus, mons
+                            ille ab eo vocatus est Cith&#230;ron, ut auctor est Leo Byzantius
+                            in libris Rerum B&#339;oticarum.</p></div>
+                            
+                    <div type="textpart" subtype="subwork" n="3"><ab><title>DE FLUVIIS.</title></ab>
+                                <div type="textpart" subtype="book" n="1"><ab><title>E LIBRO TERTIO.</title></ab>
+                            
+                            
+                            <p n="3">Nascitur in Tigride iapis, Myndan nomine, albo prorsus
+                            colore, quem qui tenet, is a bestiis nihil l&#230;ditur, sicuti
+                            narrat Leon Byzantius libro tertio <title>De fluminibus</title>.</p></div></div>
+                           
+                            <pb n="330"/>
+                            
+                                    <div type="textpart" subtype="subwork" n="4"><ab><title>PERIPLUS.</title></ab>
+                            
+                            
+                            
+                            <p n="4">In &#198;no monte Cephaleni&#230; fanum est Jovis &#198;neii; cujus
+                            meninerunt Leon in Periplo et Timosthenes De pottubus.</p>
+                            
+                            <p n="5">Leon rhetor Medeam dicit non mactasse fratrem, sed
+                            veneno sustulisse.</p></div>
+                                        
+                                        <div type="textpart" subtype="author" n="2"><ab><title>LEO ALABABDENSIS.</title></ab>
+                       
+                            <p>B&#230;agis, festum apud Assyrios, teste Leone Alabandensi
+                            in libro tertio.</p>
+                                        
+                                            <div type="textpart" subtype="author" n="2"><ab><title>LEO PELL&#198;US.</title></ab>
+                                                <div type="textpart" subtype="subwork" n="1"><ab><title>DE DIIS ÆGYPTIIS.</title></ab>
+                            
+                            
+                            <p n="1">Cosmes libro primo De rebus &#198;gyptiis et Leon libro
+                            primo (De diis &#198;gyptiis) quem ad matrem (Alexandri?)
+                            scripsit, et Eudoxus libro primo Geographiarum Asi&#230;
+                            omnium antiquissimos esse &#198;gyptios dicunt, primamque
+                            in &#198;gypto urbem Thebas conditam. Quibuscum consen
+                            tiunt Nicanor et Archemachus in Metonomasiis.</p>
+                            
+                            <p n="2">Leon qui De diis &#198;gyptiis exposuit, Isidem a Gr&#230;cis
+                            Demetrem appellari dicit.</p></div></div></div>
+                           
+                            <pb n="331"/>
+                                    </div>
+                 
+                
+            </div>
+        
+        </body>
+    </text>
+</TEI>
