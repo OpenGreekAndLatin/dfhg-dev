@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2nymphod_grc">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2nymphod_grc.xml</idno>
+                <authority>University of Leipzig</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2013</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.1005"
+                                >Nymphodorus Syracusanus</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref target="https://archive.org/details/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#KS" when="2015-03-02">Created the XML file</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="4" xml:lang="grc">
+                
+                    <head xml:lang="grc">
+                        <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg0578.tlg003.opp-grc1">NYMPHODORUS SYRACUSANUS.</title>
+                </head>
+
+                <pb n="374"/>
+                    
+                    
+
+
+<p>Nymphoduros vulgo (*) distinguunt duos, Syracusanum
+et Amphipolitam: illi tribuunt libros
+<title>Περὶ τῶν ἐν Σικελίᾳ θαυμαζομένων</title> et <title>Περίπλουν</title>, ad
+hunc referunt opus <title>Περὶ νομίμων βαρβαρικῶν</title>. Id
+num recte fiat dubito. Argumenta librorum, quos
+modo dixi, ut inter se simillima, sic ab uno eodemque
+Nymphodoro tractata esse suspicor. Statui
+itaque possit Nymphodorum Syracusis natum diutius
+degisse Amphipoli. Sed altera etiam datur ratio.
+Etenim Νυμφ. Ὁ Ἀμφιπολίτης, quem uni debemus
+loco <bibl>Clementis (fr. 20)</bibl>, primitus fuerit N. ὁ
+ἀμφίπολος sc. Διὸς Ὀλυμπίου. Similiter Philochorus
+fuit <quote xml:lang="grc">μάντις καὶ ἱεροσκόπος</quote>. De amphipolia, summo
+apud Syracusanos magistratu, quem Timoleon
+(a. 343 a. C.) instituerat, vide <bibl>Diodor, XVl, 70,
+6</bibl> et <bibl>Ebert. in libro <title>Σικελιών</title> inscripto p. 122 sqq</bibl>.
+Neque vero alienum a Sicula Nymphodororum
+familia tale munus fuisse, ex Agrigentinorum psephismate
+colligo, quod scriptum est <quote xml:lang="grc">ἐπὶ ἱεροθύτα
+Νυμφοδώρου τοῦ Φίλωνος</quote> (v. <bibl>Gruter. p. 401</bibl>.
+<bibl>Ebert. l. l. p. 130</bibl> et in <bibl>Diss, Sicul. p. 158</bibl>. **).
+Alius Nymphodorus, nobilis sine dubio Syracusanus,
+Dinocratis exulum Syracusanorum ducis
+familiaris et socius, qui Centoripinorum urbem
+Agathoclis pr&#230;sidio firmatam oppugnans cecidit
+(312 a. C), memoratur a <bibl>Diodoro (XIX, 103)</bibl>.
+Vixisse Nymphodorum Philippi vel Alexandri
+temporibus statuit <bibl>Ebert, in Diss, Sic, l. l.</bibl> Verum
+argumentatio viri doctissimi fundamento nititur
+debilissimo. Scilicet persuasit sibi Ebertus Nymphodorum
+τὸν θαυματοποιὸν, cujus <bibl>Duris (fr. 44</bibl>
+ubi vide) ap, <bibl>Athen&#230;am I, p. 19, F</bibl>, mentionem facit,
+eundem esse cum eo, qui de Sicili&#230; scripsit
+miraculis. Quam opinionem dudum refellerunt
+<bibl>Westermannus in Pr&#230;f. ad Scriptt, Paradox.
+p. XXXIV</bibl> et <bibl>Hüllmann, ad fragm, Duridis
+p. 130</bibl>, — Auctor Institutorum Barbaricorum sub
+Ptolem&#230;o Philadelpho scripsisse mihi videtur.
+Nam qu&#230; <bibl>fr. 20 de Sarapide</bibl> leguntur, scripta vix
+sunt antequam fama hujus numinis a Ptolem&#230;o
+Sotere instituti percrebuerit; ab altera parte Nymphodorus
+scripsit unte Apollonium; videlicet
+<bibl>Scholiasta ad Apoll. Rh, fr, 17</bibl> dicit: <quote xml:lang="grc">ὥς φησι
+Νυμφόδωρος, ᾧ ἠκολούθησε</quote> vel sec. cud. Parisin.
+<quote xml:lang="grc">Ὧιδοκεῖ ἠκολουθηκέναι (Ἀπολλώνιος)</quote>. Qu&#230; etiamsi
+e conjectura posita sint, admittere tamen conjecturam
+&#230;tas scriptoris debuit, Denique e <ref>fr. 2</ref> colligimus
+Nymphodorum librum <title>De Sicili&#230; rebus
+mirabilibus</title> scripsisse post quam Theocritus idyllium,
+quod primum in editionibus nostris legitur,
+composuerat. Certius aliquid exputari posset, si
+quidem constaret de defectione servorum Chiorum,
+qu&#230; paullo ante Nymphodori &#230;vum (μικρὸν πρὸ
+ἡμῶν <ref>fr. 12</ref> init.) accidisse narratur.
+<title>Τὰ ἐν Σικελίᾳ θαυμαζόμενα</title>, si Ebertum audiamus,
+non peculiare constituerunt opus, sed pars
+fuere Peripli. Res incertissima, nec quidquam impedit
+quominus cum <bibl>Westermanno (l.l.p. XXXV)</bibl>
+statuas Nymphodorum, etsi nonnulla <title>Sicili&#230; mirabilia</title> 
+in <title>Periplo</title> passim attigisset, idem caput accuratius
+et copiosius libro singulari persecutum esse.
+— <title>Periplum</title> in plures libros distributum fuisse
+inde patet, quod laudatur N. <title>ἐν Περίπλοις</title> (<ref>fr. 10</ref>)
+et <title>ἐν Ασίας περίπλῳ</title> (<ref>fr. 10, 11</ref>). <ref>Fragm. 12</ref> citatur
+N. <title>ἐν Ἀσίας παράπλῳ</title>. Quodsi h&#230;c lectio genuina
+est, uti esse videtur, Asi&#230; minoris tantum oram
+occidentalem Nymphodorus describendo legisse
+videtur; neque contrarium ex fragmentis demontrari
+potest, Totum igilur opus fuerit <title>Periplus</title>
+maris Mediterranei, adjunctis fortasse oris Ponti
+Euxini. Ceterum non tam geographum Noster egit,
+quam periegetam. Homo doctus et curiosus, sed
+a vitiis sui &#230;vi minime liber.</p>
+                    
+                    <div type="textpart" subtype="subwork" n="1"><ab><title>ΠΕΡΙ ΤΩΝ ΕΝ ΣΙΕΑΙΑ ΘΑΥΜΑΖΟΜΕΝΩΝ.</title></ab>
+                    
+
+
+<cit n="1" xml:lang="grc">
+    <bibl>Athen&#230;us XIII, p. 589, A</bibl>
+<quote>Νυμφόδωρος δ᾿ ὁ Συρακούσιος
+ἐν τῷ Περὶ τῶν ἐν Σικελίᾳ θαυμαζομένων ἐξ
+Ὑκκάρου φησὶ Σικελικοῦ φρουρίου εἶναι τὴν Λαΐδα.</quote>
+<note>Cf. <bibl>Polemo fr. 44</bibl>. <foreign xml:lang="grc">Ὑκκάρων</foreign> corrigi voluit
+Meursius, sine causa. Vid, <bibl>Philist, fr. 5.</bibl></note></cit>
+
+<note type="footnote" n="1">(*) <bibl>Vossius H. Gr. p. 476 ed Westerm.</bibl>; <bibl>Weichert. Leb.
+d. Apoll. Rh. p. 259, n. 331</bibl>. <bibl>Ebert. In Dissert. Sicul. p. 154
+sqq.</bibl> Ubi fragmenta N. Siculi collegit.</note>
+<note type="footnote" n="2">(**) Inscriptio ad ea tempora pertinere videtur, quibus in
+Romanorum ditionem isula jam devenerat. <bibl>Fabric. B. Gr.
+IV, p. 753 Harl.</bibl>; <bibl>Tittmann. Gr Staatsv. p. 513; Ebert.
+p. 158</bibl>. Atque Nymphodorum Agrigentinum memorat <bibl>Cicero
+Verrin. IV, 22.</bibl></note>
+
+                    <pb n="375"/>
+
+
+<cit n="2" xml:lang="grc">
+<bibl>Schol. Theocrit. L, 69</bibl>
+<quote>Νυμφόδωρος ἐν τῷ Περὶ
+Σικελίας θαυμαζομένων φησὶν ὅτι ἐπὶ Δάφνιδας Ἆκις
+ποταμὸς Σικελίας οὐκ ἦν.</quote> 
+<note>Cf. <bibl>Eustath. Ad Il. II, p. 588 fin</bibl>.
+ἐνῆν libri; Ebertus conj. <quote xml:lang="grc">Ὅτι ἀπ᾿ Ἄκιδος Ἆκις π
+Σικελίᾳ ἐνῆν</quote>. Quod quam parum sit verisimile exposuit
+<bibl>Dübnerus (in Revue de philolog. 1847, p. 457)</bibl>,
+qui ipse locum hunc corruptum manu lenissma
+sanitati restituit. «<quote xml:lang="fr">Causaubon, ait, a corrigé ὅτι
+ἐπὶ Δάφνιδος, du temps de Daphnis; mais il alaissé
+la suite intacte. Le poëte dit: «Où étiez—vous
+donc, Nymphes, lorsquc Daphnis se mourait?
+Vous n’étiez ni dans l’Anapus, ni sur l’Etna, ni
+dans l’Acis.» Sur cela un savant scholiaste avait
+fait la remarque: <quote xml:lang="grc">Νυμφ... φησὶν ὅτι ἐπὶ Δάφνιδος
+Ἆκις ποταμὸς Σικελίας οὐκ ἦν</quote>, du temps de Daphnis
+il n’existait pas de fleuve Acis en Sicile. En effet
+ce fleuve prit naissance sous le rocher avec lequel
+Polyphême écrasa son rival, tandis que Daphuis se
+liait aux plus anciennes traditions de l‘ile.</quote>» De
+Acide fl. cf. quem Ebert. laudat, <bibl>Carrera Monument.
+urbis Catan. II, 4 et 6</bibl> (<bibl>Thes. Sic. vol. X</bibl>),
+et <bibl>Interpr. ad Vib, Seq. p. 4 ed. Oberlin</bibl>.</note></cit>
+
+
+
+<cit n="3" xml:lang="grc">
+<bibl>&#198;lian. N. A. XI, 20</bibl>
+<quote>Ἐν Σικελίᾳ Ἀδρανός ἐστι
+πόλις, ὡς λέγει Νυμφόδωρος, καὶ ἐν τῇ πόλει ταύηῃ
+Ἀδρανοῦ νεὼς ἐπιχωρίου δαίμονος· πάνυ δὲ καὶ ἐναργῆ
+φησιν εἶναι τοῦτον. Καὶ τὰ ἄλλα μὲν ὅσα ὑπὲρ αὐτοῦ
+λέγει, καὶ ὅπως ἐμφανής ἐστι, καὶ ἐς τὸ τῶν δεομένων
+προχείρως εὐμενής τε ἅμα καὶ ἵλεως, εἰσόμεθα· νῦν δὲ
+ἐκεῖνα εἰρήσεται. Κύνες εἰσὶν ἱεροὶ, καὶ οἵδε θεραπευτῆρες
+αὐτοῦ καὶ λατρεύοντές οἱ, ὑπεραίροντες τὸ κάλλος
+τοὺς Μολοττοὺς κύνας καὶ σὺν τούτῳ καὶ τὸ μέγεθος,
+χιλίων οὐ μείους τὸν ἀριθμόν. Οὐκοῦν οὗτοι
+μεθ᾿ ἡμέραν μὲν αἰκάλλουσί τε καὶ σαίνουσι τοὺς ἐς
+τὸν νεὼν καὶ τὸ ἄλσος παριόντας, εἴτε εἶεν ξένοι, εἴτε
+ἐπιχώριοι· νύκτωρ δὲ τοὺς μεθύοντας ἤδη καὶ σφαλλομένους
+κατὰ τὴν ὁδὸν οἵδε πομπῶν δίκην καὶ ἡγεμόνων
+τε μάλα εὐγενῶς ἄγουσι, προηγούμενοι ἐς οἰκεῖα
+ἕκαστον. Καὶ τῶν μὲν παροινούντων τιμωρίαν ἀρκοῦσαν
+εἰσπράττονται· ἐμπηδῶσι γὰρ καὶ τὴν ἐσθῆτα
+αὐτοῖς καταρρηγνύουσι, καὶ σωφρονίζουσιν ἐς τοσοῦτον
+αὐτούς· τούς γε μὴν πειρωμένους λωποδυτεῖν διασκῶσι
+πικρότατα.</quote>
+<note><quote xml:lang="grc">ἐς τὸ τῶν δεομένων</quote>] sc. Πλῆθος, quod excidisse
+putai Schneider.; item ad vocem <quote xml:lang="grc">εἰσόμεθα</quote> cum
+eodem supple <quote xml:lang="grc">ἄλλοθι vel ὕστερον</quote>, aut cum Jacobsio
+scribe <quote xml:lang="grc">ἐασόμεθα. — εὐγενῶς] εὐμενῶς</quote> Jacobs. —
+<quote xml:lang="grc">σωφρονίζουσιν</quote>] Gesner.; libri <quote xml:lang="grc">σωφρονοῦσιν</quote>. — De
+Adrano urbe a Dionysio condita v. <bibl>Diodor. XIV,
+37, 4</bibl>. Adranus, pater Palicorum, <bibl>Hesych. v. Πελικοί
+(I. q. Vulcanus)</bibl>.</note></cit></div>
+                    
+                        <div type="textpart" subtype="subwork" n="2"><ab><title>ΠΕΡΙΠΛΟΥΣ.</title></ab>
+                        
+
+
+<cit n="4" xml:lang="grc">
+<bibl>Athen&#230;us VIII, p. 331, E</bibl>
+<quote>Νυμφόδωρος δ᾿ ὁ Συρακόσιος
+ἐν τοῖς Περίπλοις, ἐν τῷ Ἑλώρῳ ποταμῷ
+λάβρακας εἶναί φησι καὶ ἐγχέλεις μεγάλας οὕτω τιθασοὺς,
+ὡς ἐκ τῶν χειρῶν δέχεσθαι τῶν προσφερόντων
+ἄρτους.</quote></cit>
+
+<cit n="5" xml:lang="grc">
+<bibl>Schol. Hom. Od. M, 301</bibl>
+<quote>Νυμφόδωρος ὁ τὴν
+Σικελίαν περιηγησάμενος καὶ Πολύαινος καὶ Πανύασις
+φύλακα τῶν Ἡλίου βοῶν Φυλάκιον <note type="editorial">(Φύλαιον codd.
+Vindobb. Φυλάῖκον <bibl>cod. Harl. 5674 in Cram.
+An. Paris. III, p. 480</bibl>)</note> φησὶ γενέσθαι, ὃν Φιλοστέφανος
+Αἰολιδῶν εἶναί φησι καὶ ἔχειν ἐν Μυλαῖς
+ἡρῷον.</quote>
+<note><quote xml:lang="grc">Μεμψήδωρος, Μεμφόδωρος</quote> libri; corr. Ebert. Bubulci
+nomen fuerit <quote xml:lang="grc">Φύλακος</quote>, sicuti alius Phylacus,
+Deionis f., <bibl>&#198;oli nepos. ap. Pherecyd. fr. 75</bibl> et
+alios memoratur, Cf. M<bibl>üller. Dor. I, 425</bibl>. <bibl>Schol.
+Par. Apoll. Rh, IV, 965</bibl>: <quote xml:lang="grc">Μύλας δέ φησι χερρένησον
+εἶναι ἐν Σικελίᾳ, ἐν ᾗ τοῦ Ἡλίου βόες ἐνέμοντο.</quote>
+Ubi ad vocem <foreign xml:lang="grc">φησὶ</foreign> suppleo <foreign xml:lang="grc">Τίμαιος</foreign> ex antecedentibus.</note></cit>
+
+
+<pb n="376"/>
+
+
+
+<cit n="5a" xml:lang="grc">
+<bibl>Schol. Theocrit. V, 15</bibl>
+<quote>Νυμφόδωρος δὲ καὶ
+Θεόφραστός φασι τοῦ Κράθιδος τὸ ὕδωρ ξανθίζειν.</quote>
+<note>Supple τὰς τρίχας. Vide <bibl>Aristot. Mir. ausc. 183</bibl>;
+Theophrast. ap. <bibl>&#198;lian. N. A. XII, 36</bibl>; <bibl>Plinius,
+XXXI, 2.</bibl></note></cit>
+
+
+<cit n="6" xml:lang="grc">
+<bibl>&#198;lian, N. A. XVI, 34</bibl>
+<quote>Νυμφόδωρος λέγει τὴν
+Σαρδὼ εἶναι θρεμμάτων μητέρα ἀγαθήν. Θαυμάσαι
+δὲ ἄξιον τίκτει ζῷον τὰς αἶγας αὕτη· τὰς γάρ τοι δορὰς
+τοῖς ἐπιχωρίοις <note type="editorial">(τοὺς ἐπιχωρίους Ebert.)</note> ἠσθῆσθαι,
+καὶ εἶναι ταῦτα σκέπην· καὶ διὰ χειμῶνος μὲν ἀλεαίνειν,
+ψύχειν δὲ ἐν τῷ θέρει, φύσει τινὶ ἀπορρήτῳ.
+Συμπεφυκέναι δὲ ἄρα ταῖς δοραῖς καὶ πήχεως τὴν
+τρίχα· τοῦ φορήματος δὲ ἄρα τούτου ἔοικε χρῆναι διὰ
+μὲν τοῦ κρυμοῦ τὰς τρίχας ἐς τὸν χρῶτα ἀποστρέφειν,
+διὰ τοῦ θέρους δὲ ἔξω, εἰ μέλλοι ὁ ἠσθημένος διὰ μὲν
+τοῦ κρυμοῦ θάλπεσθαι, διὰ δὲ τοῦ θέρους μὴ ἀποκνίγεσθαι.</quote>
+<note>De Sardorum mastrucis cf. <bibl>Wesseling. ad Diodor.
+V, 15.</bibl> <bibl>Münter. Sard, Idole p. 22 sq</bibl>., citante
+Eberto.</note></cit>
+
+
+<cit n="7" xml:lang="la">
+<bibl n="1">Natal. Com, Mythol. IX, 2</bibl>
+<quote n="1" xml:lang="la">Narrant Oresti post illam cœdem diem dicitam fuisse apud Areopagitas,
+ut sensit Nymphodorus, ab Erinnybus,
+ultricibus scelerum, ut vero Dionysiocles, a Tyndaro,
+patre Clyt&#339;mnestr&#339;, at vero Amorgius
+Simonides, ab Erigone, &#198;gisthi et Clyt&#339;mnestr&#339;
+filia.</quote> 
+<bibl>Idem ib.</bibl>
+<quote>Alii istud ipsum <note type="editorial">(sc. Orestem
+sanitati restitutum esse)</note> juxta Gytheum saxum
+contigisse memorant, quod Otiosum <note type="editorial">(i. e. Ἀργὸν
+Αίθον)</note> vocarunt; super quo ubi sedisset Orestes,
+fuit ab insania liberatus, ut ait Nymphodorus
+Syracusius in Περίπλῳ sive Navigatione, et Pausanias
+in Laconicis <note type="editorial">(<bibl>III, 22, I</bibl>, ubi v. Siebelis;
+cf. <bibl>O. Müller. Eamen. p. 149</bibl>)</note>.</quote> 
+<note>Qu&#230; priore loco Natalis affert, eadem leguntur ap. <bibl>Tzetz. ad Lyc.
+p. 1374</bibl> (<ref>p. 1016 ed Müll.</ref>), non laudatis tamen
+auctoribus, quos suopte ingenio nugator noster
+addiderit. Neque altero loco Hymphodori mentio
+genuina esse mihi videtur in dies magis dubitanti
+num usquam Comes fontes adierit, qui nos jam
+lateant.</note></cit>
+
+
+<cit n="8" xml:lang="la">
+<bibl>Idem VIII, 4</bibl>
+<quote xml:lang="la">At Nymphodorus Syracusius in
+libro Asiatic&#339; navigationis non ab Athamante,
+sed afuriata Ino s&#339;vitum esse scripsit in filios, quæ
+et Learchum et Melicertam trucidaverit, ac postea
+desperatione capto in mare insilierit ob impatentiam
+doloris, ut ibi suffocaretur.</quote> 
+<note>H&#230;c Natalem e <bibl>schol. Eurip. Med, 1272 sqq</bibl>. consuisse, consuta
+dedisse Nymphodoro, recte sine dubio statuit
+Ebert.</note></cit>
+
+
+<cit n="9" xml:lang="grc">
+<bibl>Steph. Byz.</bibl>
+<quote>Ἀθύρας, ἐπίνειον καὶ ποταμὸς περὶ
+τὸ Βυζάντιον. Ἔστι δὲ καὶ Σκυθίας ποταμὸς Ἀθύρας,
+ὡς Νυμφόδωρος.</quote>
+<note>— <title>De Athyra Thraci&#230;</title> fluvio v.
+<bibl>Plin. IV, 11</bibl>; <bibl>Ptolem. III, 11</bibl>; <bibl>P. Mela II, 2, 6</bibl>;
+<bibl>Agathias Imp. Justin. V, p. 158, C</bibl>; <bibl>Eustath. ad Il.
+K, p. 804, 32</bibl>, <bibl>Od. I, p. 1627, 5</bibl>. «<quote>Nymphodori
+Athyran vereor ne invenire non possim. Putet
+aliquis nullum pr&#230;ter Thracium dici Athyran,
+quum septemtrionales et Asi&#230; et Europ&#230; populi
+s&#230;pe communi Scythrum nomine appellentur.
+Non deerunt etiam qui de Τύρας cogitent, quem
+Nymphodorus aut inscite confuderit cum Ἀθύρᾳ,
+aut docte ita nuncuparit. <bibl>Suidas in Μοργούς</bibl>· <quote xml:lang="grc">οὕτω
+καλοῦσαι τοὺς ἀμοργοὺς, τὸ α ἀφαιροῦντες, ὥσπερ καὶ
+ἐπ᾿ ἄλλων· μαῦρον γὰρ τὸ ἀμαυρὸν, καὶ σφόδελον τὸ
+ἀσφόδελον καλοῦσιν.</quote> Horum omnium nihil facilc
+placeat; in quo mihi certe solatium haud parvum
+h&#230;sitantem etiam vidisse Casaubonum. Videlicet
+Holstenius ad hunc Stephani locum pro Σκυθίας
+Casaubonum affirmat legisse Σικελίας: qu&#230; duo
+nomina sane permutari potuere. Verum Athyras
+Siculus aut rarissme aut nusquam occurrit: testibus
+<bibl>Hesychio v. Τηρίας</bibl>, <bibl>Diodor. XIV, 14</bibl>, <bibl>XXII,
+2</bibl>, <bibl>Plinio III, 8</bibl>, in Sicilia erat fluvius Τηρίας, qui
+olim male Τυρίας appellatus est. Quocirca si cum
+alius homine farin&#230; hic agerem, haud erubescerem
+dicere, natam eam conjecturam esse e perperam
+intellectis Procopii verbis De &#230;dif. <bibl>Justin. IV, 8</bibl>:
+<quote>τοῦ δὲ Ῥηγίου ἐπέκεινα πόλις ἐστί που Ἀθύρας ὄνομα</quote>
+<foreign xml:lang="grc">κτλ.</foreign>, ubi manifesto dicitur Rhegium Constantinopoli
+vicinum</quote>» Ebert. Cf. <bibl>Mannert. Geogr. VII,
+p. 172</bibl>.
+De Cio urbe a Polyphemo condita vide <ref>fragm.
+<pb n="377"/>
+18</ref>, quod num ad Periplum an ad Nomima Barbarica
+pertineat, incertum est.</note></cit>
+                            
+                            
+
+<cit n="10" xml:lang="grc">
+<bibl>Athen&#230;us XIII. p. 609, E</bibl>
+<quote>Νυμφόδωρος δ᾿ ἐν τῷ
+τῆς Ἀσίας Περίπλῳ καλλίονας φησὶ γίνεσθαι γυναῖκας
+τῶν πανταχοῦ γυναικῶν ἐν Τενέδῳ, τῇ Τρωικῇ νήσῳ.</quote>
+<note>Eadem ex Athenæo <bibl>Eustath. In Il, A, p. 875, 52</bibl>.</note></cit>
+
+
+
+<cit n="11" xml:lang="grc">
+<bibl>Athen&#230;us VII. p. 321, F</bibl>
+<quote>Ἔστι δὲ ποικίλος ὁ ἰχθὺς <note type="editorial">(sc. Ἡ σάλπη)</note>, ὅθεν καὶ τὸν Λοκρὸν ἢ Κολοφώνιον
+Μνασέαν, συνταξάμενον τὰ ἐπιγραφόμενα Παίγνια,
+διὰ τὸ ποικίλον τῆς συναγωγῆς Σάλπην οἱ συνήθεις
+προσηγόρευον. Νυμφόδωρος δὲ ὁ Συρακούσιος ἐν τῷ
+τῆς Ἀσίας Περίπλῳ Λεσβίαν φησὶ γενέσθαι Σάλπην
+τὴν τὰ Παίγνια συνθεῖσαν.Ἄλκιμος δὲ κτλ.</quote> 
+<note>Excerpsit <bibl>Eustath. ad Il. Σ, p. 1163, 12</bibl>. Salpa
+piscis frequens ad Mytilenen (<bibl>Athen. l. l.</bibl>); hinc
+Lesbia poetria Nymphodori. De re v. <bibl>Bodeum
+Gesch. d. lyr. Dichtk. Tom. III, p. 468</bibl>. Salpen
+quandam obstetricem laudat <bibl>Plin. XXVIII, 7, 23</bibl>.</note></cit>
+
+
+<cit n="12" xml:lang="grc">
+<bibl>Athen&#230;us VI, p. 215, C </bibl>
+<quote>Ὁ μὲν οὖν Θεόπομπος
+<note type="editorial">(<ref>fr. 134</ref>)</note> ταῦθ᾿ ἱστόρησεν. Ἐγὼ δὲ τοῖς χίοις ἡγοῦμαι
+διὰ τοῦτο νεμεσῆσαι τὸ δαιμόνιον· χρόνοις γὰρ
+ὕστερον ἐξεπολεμήθησαν διὰ δούλους. Νυμφόδωρος γοῦν
+ὁ Συρακόσιος ἐν τῷ τῆς Ἀσίας Παράπλῳ τάδ᾿ ἱστορεῖ
+περὶ αὐτῶν. «Τῶν Χίων οἱ δοῦλοι ἀποδιδράσκουσιν αὐτοὺς
+καὶ εἰς τὰ ὄρη ὁρμώμενοι, τὰς ἀγροικίας αὐτῶν
+κακοποιοῦσι, πολλοὶ συναθροισθέντες. Ἡ γὰρ νῆσός
+ἐστι τραχεῖα καὶ κατάδενδρος. Μικρὸν δὲ πρὸ ἡμῶν,
+οἰκέτην τινὰ μυθολογοῦσιν αὐτοὶ οἱ Χῖοι ἀποδράντα ἐν
+τοῖς ὄρεσι τὰς διατριβὰς ποιεῖσθαι, ἀνδρεῖον δέ τινα
+ὄντα καὶ τὰ πολέμια ἐπιτυχῆ, τῶν δραπετῶν ἀφηγεῖσθαι
+ὡς ἂν βασιλέα στρατεύματος. Καὶ πολλάκις τῶν
+Χίων ἐπιστρατευσάντων ἐπ· αὐτὸν καὶ οὐδὲν ἀνύσαι
+δυναμένων, ἐπεὶ αὐτοὺς ἑώρα μάτην ἀπολλυμένους
+Ὁ Δρίμακος <note type="editorial">(τοῦτο γὰρ ἦν ὄνομα τῷ δραπέτῃ)</note>, λέγει
+πρὸς αὐτοὺς τάδε· Ὑμῖν, ὦ χῖοί τε καὶ κύριοι, τὸ μὲν
+γινόμενον πρᾶγμα παρὰ τῶν οἰκετῶν οὐδέποτε μὴ
+παύσηται. Πῶς γὰρ, ὁπότε κατὰ χρησμὸν γίνεται θεοῦ
+δόντος; Ἀλλ᾿ ἐὰν ἐμοὶ πείθησθε καὶ ἐᾶτε ἡμᾶς ἡσυχίαν
+ἄγειν, ἐγὼ ὑμῖν ἔσομαι πολλῶν ἀγαθῶν ἀρχηγός.
+«Σπεισαμένων οὖν τῶν Χίων πρὸς αὐτὸν καὶ ἀνοχὰς
+ποιησαμένων χρόνον τινὰ, κατασκευάζεται μέτρα
+καὶ σταθμὰ καὶ σφραγῖδα ἰδίαν. Καὶ δείξας τοῖς Χίοις
+εἶπε διότι Λήψομαι ὅ τι ἂν παρά τινος ὑμῶν λαμβάνω,
+τούτοις τοῖς μέτροις καὶ σταθμοῖς, καὶ λαβὼν τὰ ἱκανὰ,
+ταύτῃ τῇ σφραγῖδι τὰ ταμιεῖα σφραγισάμενος καταλείψω.
+Τοὺς δ᾿ ἀποδιδράσκοντας ὑμῶν δούλους ἀνακρίνας τὴν
+αἰτίαν, ἐὰν μέν μοι δοκῶσιν ἀνήκεστόν τι παθόντες
+ἀποδεδρακέναι, ἕξω μετ᾿ ἐμαυτοῦ, ἐὰν δὲ μηδὲν λέγωσι
+δίκαιον, ἀποπέμψω πρὸς τοὺς δεσπότας. Ὁρῶντες οὖν
+οἱ λοιποὶ οἰκέται τοὺς Χίους ἡδέως τὸ πρᾶγμα προσδεξαμένους,
+πολλῷ ἔλαττον ἀπεδίδρασκον, φοβούμενοι
+τὴν ἐκείνου κρίσιν. Καὶ οἱ ὄντες δὲ μετ᾿ αὐτοῦ δραπέται
+πολὺ μᾶλλον ἐφοβοῦντο ἐκεῖνον ἢ τοὺς ἰδίους αὑτῶν
+δεσπότας, καὶ πάντ᾿ αὐτῷ τὰ δέοντ᾿ ἐποίουν, πειθαρχοῦντες
+ὡς στρατηγῷ. Ἐτιμωρεῖτό τε γὰρ τοὺς ἀτακτοῦντας,
+καὶ οὐδενὶ ἐπέτρεπε συλᾶν ἀγρὸν οὐδ᾿ ἄλλο
+ἀδικεῖν οὐδὲ ἓν ἄνευ τῆς αὑτοῦ γνώμης. Ἐλάμβανε δὲ
+ταῖς ἑορταῖς ἐπιπορευόμενος ἐκ τῶν ἀγρῶν οἶνον καὶ
+ἱερεῖα τὰ καλῶς ἔχοντα, ὅσα δ᾿ <note type="editorial">(καὶ ὅσα Eb.)</note> ἂν αὐτοῖς
+δοίησαν οἱ κύριοι· καὶ εἴ τινα αἴσθοιτο ἐπιβουλεύοντα
+αὑτῷ, ἢ ἐνέδρας κατασκευάζοντα, ἐτιμωρεῖτο.
+<pb n="378"/>
+«Εἶτ᾿, ἐκήρυξε γὰρ ἡ πόλις χρήματα δώσειν πολλὰ τῷ
+εὐτὸν λαβόντι ἢ τὴν κεφαλὴν κομίσαντι, οὗτος ὁ Δρίμα
+κος, πρεσβύτερος γενόμενος, καλέσας τὸν ἐρώμενον τὸν
+ἑαυτοῦ εἴς τινα τόπον, λέγει αὐτῷ ὅτι Ἐγώ σε πάντων
+ἀνθρώπων ἠγάπησα μάλιστα, καὶ σύ μοι εἶ καὶ
+παῖς καὶ υἱὸς καὶ τὰ ἄλλα πάντα. Ἐμοὶ μὲν οὖν
+χρόνος ἱκανὸς βεβίωται, σὺ δὲ νέος εἶ, καὶ ἀκμὴν ἔχεις
+τοῦ ζῆν. Τί οὖν ἐστίν; ἄνδρα σε δεῖ γενέσθαι καλὸν
+κἀγαθόν. Ἐπεὶ γὰρ ἡ πόλις τῶν Χίων δίδωσι τῷ ἐμὲ
+ἀποκτείναντι χρήματα πολλὰ, καὶ ἐλευθερίαν ὑπισχνεῖται,
+δεῖ σε, ἀφελόντα μου τὴν κεφαλὴν, εἰς Χίον
+ἀπενεγκεῖν, καὶ λαβόντα παρὰ τῆς πόλεως τὰ χρήματα
+εὐδαιμονεῖν. Ἀντιλέγοντος δὲ τοῦ νεανίσκου, πείθει
+αὐτὸν τοῦτο ποιῆσαι. Καὶ ὃς, ἀφελόμενος αὐτοῦ τὴν
+κεφαλὴν, λαμβάνει παρὰ τῶν Χίων τὰ ἐπικηρυχθέντα
+χρήματα, καὶ θάψας τὸ σῶμα τοῦ δραπέτου, εἰς τὴν
+ἰδίαν ἐχώρησεν. Καὶ οἱ Χῖοι πάλιν ὑπὸ τῶν οἰκετῶν
+ἀδικούμενοι καὶ διαρπαζόμενοι, μνησθέντες τῆς τοῦ
+τετελευτηκότος ἐπιεικείας, ἡρῷον ἱδρύσαντο κατὰ τὴν
+χώραν, καὶ ἐπωνόμασαν ἥρωος εὐμενοῦς. Καὶ αὐτῷ
+ἔτι καὶ νῦν οἱ δραπέται ἀποφέρουσιν ἀπαρχὰς πάντων
+ὧν ἀφέλωνται. Φασὶ δὲ καὶ καθ᾿ ὕπνους ἐπιφαινόμενον
+πολλοῖς τῶν Χίων προσημαίνειν οἰκετῶν ἐπιβουλάς.
+Καὶ οἷς ἂν ἐπιφανῇ, οὗτοι θύουσιν αὐτῷ, ἐλθόντες
+ἐπὶ τὸν τόπον οὗ τὸ ἡρῷόν ἐστιν αὐτοῦ·» Ὁ μὲν
+οὖν Νυμφόδωρος ταῦτα ἱστόρησεν.</quote>
+<note><title>De servis (θεράπουσι) Chiorum</title> cf. <bibl>Thuc. VIII,
+40</bibl>; <bibl>Stephan. Byz. v. Χίος</bibl>; Nocol. Damasc. ap.
+<bibl>Athen. p. 266, F</bibl>. De tempore seditionis, qu&#230;
+paullo ante Nymphodori &#230;tatem exarserit, nihil
+compertum habemus. Narrationis occasionem Periegat&#230;
+Pr&#230;buit <foreign xml:lang="grc">ἡρωον</foreign> Drimaci.</note></cit>
+
+<cit n="13" xml:lang="la">
+<bibl>Natal. Com. IX, 4</bibl>
+<quote xml:lang="la">Alcimus in Rebus Siculis
+et Syracusius Nymphodorus Chim&#339;ram Lyciœ
+montem esse dixerunt, in quo ignis nasceretur.
+Ejus in summa parte leones dicti sunt habitasse,
+in medio erant uberrima et am&#339;nissima pascua,
+ad radices serpentes.</quote>
+<note>H&#230;c N. excerpsit ex <bibl>Eustath. ad Il. Z, p, 634,
+60</bibl>, ut monet <bibl>Heyn. ad Il. tom. V, p. 224</bibl>.</note></cit></div>
+                    
+                    
+
+                            <div type="textpart" subtype="subwork" n="3"><ab><title>NOMIMA BAPBAPIKA.</title></ab>
+
+
+
+<cit n="14" xml:lang="grc">
+<bibl>Clem. Alex. Protrept. I, c. 5, p. 19 Sylb.</bibl>
+<quote>Τί μοι Σαυρομάτας καταλέγειν, οὓς Νυμφόδωρος ἐν Νομίμοις
+βαρβαρικοῖς τὸ πῦρ σέβειν ἱστορεῖ;</quote></cit>
+
+
+<cit n="15" xml:lang="grc">
+<bibl>Schol. Apollon. Rh. II, 1010</bibl>
+<quote>Τιβαρηνοὶ, ἔθνος Σκυθίας. Οὗτοι δικαιότατοι λέγονται· καὶ οὐδέποτε
+μάχην τινὶ συνέβαλον, εἰ μὴ πρότερον καταγγείλειαν
+καὶ ἡμέραν καὶ τόπον καὶ ὥραν τῆς μάχης. Ἐν δὲ τῇ
+τῶν Τιβαρηνῶν γῇ αἱ γυναῖκες, ὅταν τέκωσι, τημελοῦσι
+τοὺς ἄνδρας, ὥσπερ λεχούς·</quote>
+<note><quote xml:lang="grc">(ὡς ἱστορεῖ Νυμφόδωρος
+ἔν τισι νόμοις[l. Ἐν τοῖς Νομίμοις]</quote>. 
+H&#230;c omittit cod. Paris.) <title>De Tibarenorum moribus</title> cf. <bibl>Ephorus
+fr. 82</bibl>.</note></cit>
+
+<cit n="16" xml:lang="grc">
+<bibl>Schol. Ap. Rh. II, 1929</bibl><note><quote xml:lang="grc">λιμῷ μιν <note type="editorial">(sc. Regem
+Mossyn&#339;corum)</note> κεῖν᾿ ἦμαρ</quote> <foreign xml:lang="grc">κτλ.</foreign>]:</note> 
+<quote>Ἱστορεῖ Ἔφορος καὶ Νυμφόδωρος περὶ τούτων, ὅτι τὸν βασιλέα
+αὐτῶν ἄδικόν τι κρίναντα ἐγκλείουσι καὶ λιμαγχονοῦσι.</quote>
+<note>Eadem <bibl>Nicolaus Damasc. in Νομ. Βαρβ. v. Μόσυ-
+<pb n="379"/> 
+νοι</bibl>. <bibl>Mela De sit. Orb. I, 19.</bibl> Cf. <bibl>Apoll. Rh l. l</bibl>. qui
+etiam reliqua qu&#230; de Mossyn&#339;cis narratex N. sumpserit.
+<bibl>Diodor. XIV, 30, 7</bibl>, ibique <bibl>Wesseling. Hemsterhus.
+Ad Aristoph. Plut. p. 87</bibl>; <bibl>Berkel. Ad Steph.
+p. 564</bibl>.</note></cit>
+
+
+<cit n="17" xml:lang="grc">
+<bibl>Schol. Apoll. Rh. III, 202</bibl>
+<quote>Τὰ τῶν ἀρσένων σώματα οὐ θέμις Κόλχοις οὔτε καίειν οὔτε θάπτειν·
+βύρσαις δὲ νεαραῖς εἱλοῦντες ἐκρέμων τῶν ἀρσένων τὰ
+σώματα, τὰ δὲ θήλεα τῇ γῇ ἐδίδοσαν, ὥς φησι Νυμφόδωρος,
+ᾧ ἠκολούθησε <note type="editorial">(ᾧ δοκεῖ οὗτος ἠκολουθηκέναι
+cod. Paris.)</note>. Σέβονται δὲ μάλιστα οὐρανὸν καὶ γῆν.</quote></cit>
+
+
+<cit n="18" xml:lang="grc">
+<bibl>Schol. Apoll. Rh. IV, 1470</bibl>
+<quote>Πολύφημος ἐν
+Μυσίᾳ καταλειφθεὶς ἔκτισε πόλιν Κίον, τὴν οὕτως
+ὀνομασθεῖσαν ἀπὸ τοῦ παραρρέοντος ποταμοῦ. Μαχόμενος
+πρὸς Χάλυβας οὗτος ἐτελεύτησεν, ὥς φησι Νυμφόδωρος.
+Ὅτι δὲ τὴν Κίον ἔκτισεν, εἴρηκεν Αὐτόχαρις
+ἐν πρώτῳ Χρόνων.</quote>
+<note>Cf. <bibl>Müller, Min. p. 293</bibl>. Num
+h&#230;c quoque, sicuti reliqua, qu&#230; schol. Apoll. E
+Nymphodoro cita, ad Nomima pertineant, an
+e Periplo petita sint, in medio relinquo.</note></cit></div>
+                                
+                    <div type="textpart" subtype="book" n="1"><ab><title>LIBER TERTIUS.</title></ab>
+
+
+<cit n="19" xml:lang="grc">
+<bibl>Schol. Lucian. Lexiph. c. 6, p. 151 ed. Jacobitz.</bibl>
+<quote>Ἀ βυρτάκη: σκεύασμα βαρβαρικὸν διὰ καρδάμου
+καὶ πράσων. Νυμφόδωρος δὲ ἐν τρίτῳ Βαρβαρικῶν
+νόμων φησὶν ὡς λυτικῷ τῆς κοιλίας χρῆσθαι τούτῳ
+τοὺς βαρβάρους.</quote>
+<note><title>De ἀβυρτάκῃ Medorum</title> cf. <bibl>Theopomp. fr. 337</bibl>
+et <bibl>Steph. Thes. s. v.</bibl></note></cit>
+
+<cit n="20" xml:lang="grc">
+<bibl>Clem. Alex. Strom. I, 21, p. 139 Sylb.</bibl>
+<quote>Νυμφόδωρος δὲ ὁ Ἀμφιπολίτης ἐν τρίτῳ Νομίμων Ἀσίας τὸν
+Ἆπιν τὸν ταῦρον τελευτήσαντα καὶ ταριχευθέντα εἰς
+σορὸν ἀποτίθεσθαι τῷ ναῷ τοῦ τιμωμένου δαίμονος,
+κἀντεῦθεν Σορόαπιν κληθῆναι καὶ Σάραπιν συνηθείᾳ
+τινὶ τῶν ἐγχωρίων ὕστερον.</quote> 
+<note>Cf. <bibl>Heyn. Ad Apollodor.
+II, 1, 1, 6</bibl>. et quos laudat <bibl>Droysen. Hellenism
+II, p. 41</bibl>.</note></cit>
+
+                        <div type="textpart" subtype="book" n="2"><ab><title>[LIBER DECIMUS TERTIUS?]</title></ab>
+
+<cit n="21" xml:lang="grc">
+<bibl>Schol. Soph. &#338;d. C. 337</bibl>
+<quote>Νυμφόδωρος δὲ ἐν τῷ
+ιγ' <note type="editorial">[ἐν τῶ γ' scrib. Videtur]</note> τῶν [Νομίμων] Βαρβαρικῶν
+γράφει οὕτως· «Ἔθεσι δὲ τὰ μὲν ἐναντίοις, τὰ
+δὲ ὁμοίοις χρῶνται <note type="editorial">(sc. Οἱ Αἰγύπτιοι</note>) τοῖς Ἕλλησι. Τὸ
+μὲν γὰρ ἐξίστασθαι τοῖς πρεσβυτέροις τοὺς νεωτέρους,
+ὁμοτρόπως καὶ ἡμῖν διοικοῦσι, τῶν δ᾿ ἄλλων οὐδέν.
+Ἐν μὲν γὰρ τοῖς Ἕλλησιν οἱ μὲν ἄνδρες κατὰ τὴν
+ἀγορὰν οἰκονομοῦσιν, αἱ δὲ γυναῖκες ἔνδον μένουσαι
+ταλασιουργοῦσιν· ἐκεῖ δὲ αἱ μὲν γυναῖκες ἐν ἀγορᾷ
+περιπατοῦσι καὶ καπηλεύουσιν, οἱ δὲ ἄνδρες κατὰ τὴν
+οἰκίαν ὑφαίνουσιν. Ὁ γὰρ Σέσωστρις ἐκθηλῦναι τοὺς
+ἄνδρας βουλόμενος, ἅτε μεγίστης χώρας γεγενημένους
+καὶ πολλοὺς ὄντας, ὅπως μὴ συστραφέντες ἐπ᾿ ἰσομοιρίαν
+ὁρμήσωσι, τὰ μὲν ἐκείνων ἔργα ταῖς γυναιξὶ, τὰ
+δὲ τῶν γυναικῶν ἐκείνοις προσέταξεν, ἵνα μὴ μόνον
+τῶν ὅπλων στερηθέντες, ἀλλὰ καὶ τὴν ψυχὴν ὑπὸ τῶν
+ἐπιτηδευμάτων ἀνεθέντες, ἀσμένως ἐπὶ τοῖς ὑπάρχουσι
+καταμένωσιν. Ὅθεν τοὺς μὲν ψιλοὺς εἶναι, τὰς δὲ
+ἀνιέναι τὰς τρίχας προσέταξε· καὶ τοὺς μὲν ἐπὶ τῶν
+κεφαλῶν φέρειν τὰ φορτία, τὰς δὲ ἐπὶ τῶν ὤμων ἠνάγκασε.
+Ἔπειτα δὲ τοὺς μὲν καθημένους, τὰς δὲ ὀρθὰς
+ἑστώσας οὐρεῖν. Καὶ τοὺς <note type="editorial">(τοῖς Br.)</note> μὲν β' ἱμάτια
+περιέβαλε, τὰς <note type="editorial">(ταῖς Br.)</note> δὲ ἕν· ὑπολαμβάνων ἅμα
+τοῖς ἐπιτηδεύμασι καὶ τὰς ψυχὰς αὐτῶν ἐκθηλύνειν
+<pb n="380"/>
+<note type="editorial">(ἐκθηλύνεσθαι ed. Rom.)</note>. Ὃ καὶ Λυδοῖς ὕστερον
+συμπεσεῖν φασίν.»</quote>
+<note>Mores &#198;gyptiorum h. l. memorati eodem ordine
+legis ap. <bibl>Herdotum II, 35 sq</bibl>., ubi v. <bibl>Valcken.
+Coll. Welcker. Tril. p. 590</bibl>. Nymphodori esse
+videtur istud de Sesostri commentum. Ceterum
+sumpta h&#230;c ex eodem haud dubie libro tertio, quo
+de Sarapi sermo erat.</note></cit>
+
+
+<cit n="22" xml:lang="grc">
+<bibl n="1">Hesych. v. Αἰγίς </bibl>
+<quote n="1">Νυμφόδωρος δὲ καὶ τὸν θώρακα
+αἰγίδα λέγεσθαί φησιν ὑπὸ Λακώνων.</quote> 
+<note>Cf. <bibl>Steph. Thes. I, p. 903, A.</bibl></note>
+<bibl n="2">Harpocrat.</bibl>
+<quote n="2">Αἰγίδας ἐκάλουν τὰ ἐκ τῶν στεμμάτων
+δίκτυα· Λυκοῦργος ἐν τῷ περὶ διοικήσεως καὶ
+Νυμφόδωρος. Ἡρόδοτος δ᾿ ἐν δ' ταύτας φησὶν ὑπὸ
+Λιβύων αἴγεας καλεῖσθαι.</quote>
+<note><quote xml:lang="grc">Ὡς Λυκοῦργος καὶ Ἡρόδοτος</quote>. Ν. Δ᾿ cod. E; καὶ Ἡρ.
+Ἐν δ', Ν. Δ᾿ reliqui; transposuit Mauusacus. <bibl>Herodotus
+IV, 189</bibl>: <quote xml:lang="grc">ἐκ τῶν αἰγέων τουτέων αἰγίδας οἱ Ἕλληνες
+μετωνόμασαν.</quote> — «<quote>Αἰγὶς, Rete contextum ἐκ
+στεμμάτων, inquit <bibl>Dionys. ap. Eustath. (p. 603, 15
+sqq.</bibl>) Idem tradit ibidem Pausanias, addens esse <quote xml:lang="grc">τὸ
+ἐκ στεμμάτων πλέγμα</quote>. Sed qu&#230; res sit hujusmodi
+<foreign xml:lang="grc">αἰγὶς</foreign>, ait Eust., aperte non significarunt. Verisimile
+est autem hujusmodi στέμματα esse lanea; et qu&#230;
+ex iis contexta erant, non re ipsa fuisse retia piscatoria,
+sed qu&#230;dam αἰγιδοειδῆ, &#198;gidis formam habentia.</quote>»
+<bibl>Steph. Thes. I, p. 904 A</bibl>. — Ceterum h&#230;c
+ex eo petita fuerint loco, ubi de Libyum <foreign xml:lang="grc">Νομίμοις</foreign>
+sermo erat. Eodem pertinent sequentia.</note></cit>
+                            
+
+<cit n="(23)" xml:lang="la">
+<bibl>Nat. Com. Myth. VII, 12</bibl>
+<quote xml:lang="la">Memori&#339; prodidit Nymphodorus libro tertio Historiarum, et Theopompus
+libro XXVII, Gorgones non squamosarum
+anguium spiris capita habuisse implicita, sed ipsa
+capita fuisse draconum squamosorum dentesque in
+morem aprorum habuisse, ac oculum, singulas manus
+ferreas alasque, quibus volarent.</quote>
+<note>Petita h&#230;c videri possint e <bibl>schol. &#198;schyli Prom.
+792</bibl>: <quote xml:lang="grc">Εἶχον (αἰ Γοργόνες) καὶ αὗται ἕνα ὀφθαλμὸν,
+ὥσπερ αἱ Φορκίδες, ἦσαν δὲ καὶ πτερωταὶ, καὶ τρίχας
+δράκοντος ἔχουσαι. Εἶχον δὲ καὶ συῶν μεγάλων ὀδόντας,
+χεῖρας χαλκᾶς καὶ πτέρυγας αἷς ἐπέτοντο.</quote> — Histori&#339;,
+quas Natalis dicit, sunt <title>Νόμιμα βαρβαρικά</title>, ac
+bene quadrat libri numerus, quum eodem in libro
+et &#198;gyptiorum et Libyum instituta tradita esse
+probabile sit. Peripli fragmentis locum tribuit
+Ebert.</note></cit>
+
+
+<cit n="23" xml:lang="la">
+<bibl>Plinius H. N. VII, 2, p. 5 Tchn.</bibl>
+<quote xml:lang="la">In eadem Africa familias quasdam effascinantium, Isgonus
+et Nymphodorus: quorum laudatione intereant probata,
+arescant arbores, emoriantur infantes. Esse
+ejusdem generis in Triballis et Illyriis adjicit Isigonus.</quote>
+<note>Nymphodori mentio ex scriptis Isigonifluxerit.
+De re cf. <bibl>Phylarch. fr. 68</bibl> et <bibl>Damonis fr. 2.</bibl>
+Nymphodorus ap. <bibl>Plinium recensetur etiam inter
+auctores libr. V, XXXIII, XXXIV, XXXV.</bibl>
+Qu&#230; vero ex eo citantur libr. <ref>XXXIV, s. 23</ref>, produnt
+esse medicum, a nostro scriptore diversum, eundem
+vero, puto, cujus meminit <bibl>Galenus tom. IV,
+p. 653</bibl> et <bibl>Celsus VIII, 20</bibl>. Nymphodorum qui <title>De
+machinationibus</title> scripsit, habes ap. <bibl>Vitrun. Pr&#230;f.
+p. 7</bibl>.</note></cit>
+
+
+<pb n="381"/>
+
+             
+        
+            
+            
+                        </div></div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
