@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2democh_grc">
+
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2democh_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike 4.0 International
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.457"
+                                >Cadmus Milesius</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/details/fragmentahistori02mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#KS" when="2014-12-02">Created the XML file</change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="4">
+
+                    <head xml:lang="grc">
+                        <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1303.tlg003.opp-grc1"
+                            >DEMOCHARES LEUCONOENSIS.</title></head>
+<pb n="444"/>
+                                      
+                        
+                                                                         
+                                            
+                                            <note>Demochares Leuconoensis(*), tanquam orator
+                                            atque <foreign xml:lang="grc">ἀνὴρ πολιτικὸς</foreign> satis notus est, ut historicus
+                                            memoratur a paucissimis. Parentes habuit Lachetem
+                                            et sororem Demosthenis, avum Democharem,
+                                            qui materteram Demosthenis duxerat. (V. <bibl>Demosth.
+                                            Or. I c. Aphob. p. 818 R. (103, 24
+                                            Bekk.)</bibl>, <bibl>Or. II, p. 836 R. (123, 3 Bekk.)</bibl>; <bibl>Suidas
+                                            s. v. Δημοχάρης et Γύλων</bibl>; <bibl>Plutarch. Mor. p. 751.</bibl>)
+                                            Mater quum duobus annis junior esset <bibl>Demosthene
+                                            (p. 824</bibl>: <quote>ἐμὲ ἕπτ᾿ ἐπῶν ὄντα καὶ τὴν ἀδελφὴν πέντε</quote>),
+                                            natales ejus incidunt in an. 380. Demochares natus
+                                            fuerit circa 355-350; vixit adhuc an. 280, Gorgia
+                                            archonte, sub quo statuam aliosque honores Demostheni
+                                            decernendos a populo flagitavit(**); anno
+                                            272 similia Demochari Athenienses decrevere,
+                                            postulante filio Lachete. Tum igitur jam mortuus
+                                            erat. Rempublicam capesserat ante an. 322; nam
+                                            quum oratores dedi sibi Antipater jussit, Demochares,
+                                            acerrimus tum Macedonic&#230; factionis adversarius,
+                                            gladio accinctus in concione orationem
+                                            habuisse dicitur (*). Scilicet vir fuit <quote>καὶ κατὰ πόλεμον
+                                            ἀγαθὸς καὶ κατὰ τοὺς πολιτικοὺς λόγους οὐδενὸς
+                                            χείρων</quote>, patri&#230; libertatis amantissimus, summis per
+                                            vitam a civibus muneribus, egregiis post mortem
+                                            honoribus ornatus. Ecce decretum populi Athenieniensis,
+                                            quod servavit <bibl>Plutarchus in Vit. X Or.
+                                            p. 752 (p. 1037 Didot.)</bibl>: <quote>Ἄρχων Πυθάρατος (Ol.
+                                            127, 2. 272)· Λάχης Δημοχάρους Λευκονοεὺς αἰτεῖ
+                                            δωρεὰν τὴν βουλὴν καὶ τὸν δῆμον τῶν Ἀθηναίων
+                                            Δημοχάρει Λάχητος Λευκονοεῖ εἰκόνα χαλκῆν ἐν ἀγορᾷ
+                                            καὶ σίτησιν ἐν πρυτανείῳ [αὐτῷ] καὶ τῶν ἐγγόνων ἀεὶ
+                                            τῷ πρεσβυτάτῳ, καὶ προεδρίαν ἐν πᾶσι τοῖς ἀγῶσιν,
+                                            εὐεργέτῃ καὶ συμβούλῳ γεγονότι ἀγαθῷ τῷ δήμῳ τῶν
+                                            Ἀθηναίων, καὶ εὐεργετηκότι τὸν δῆμον τάδε· πρεσβεύοντι
+                                            καὶ γράφοντι καὶ πολιτευομένῳ, [**] οἰκοδομὴν
+                                            τειχῶν, καὶ παρασκευὴν ὅπλων καὶ βελῶν καὶ μηχανημάτων,
+                                            καὶ ὀχυρωσαμένῳ τὴν πόλιν ἐπὶ τοῦ τετραετοῦς
+                                            πολέμου (1), καὶ εἰρήνην καὶ ἀνοχὰς καὶ συμμαχίαν
+                                            
+                                                <note n="1" type="footnote">(*) Demochares, pater Ariste&#339; Procon. ap. Suid. v.
+                                                    Ἀριστέας; D. Spartanus ap. <bibl>Plut. Agid. 19; D</bibl>. libertus
+                                                    pompeii, ap. <bibl>Appian. B. C. V, 83 sqq. 105</bibl>. Vid. Etiam
+                                                    <bibl>B&#339;ckh. C. l. I, 314, 4</bibl>. Demochares corrupte pro Philochares
+                                                    ap. <bibl>Plut. Mor. p. 840, D</bibl>. Cf. <bibl>Callisth. fr. 38</bibl>.</note>
+                                                <note n="2" type="footnote">(**) <bibl>Plutarch. Vit. X Or. p. 851 (p. 1036 Didot)</bibl>: <quote>Δημοχάρης
+                                                    <note type="editorial">(libri Τιμοχάρης)</note> Λάχητος Λευκονοεὺς αἰτεῖ Δημοσθένει
+                                                    τῷ Δημοσθένους Παιανιεῖ δωρεὰν εἰκόνα χαλκῆν ἐν ἀγορᾷ,
+                                                    καὶ σίτησιν ἐν πρυτανείῳ, καὶ προεδρίαν αὐτῷ καὶ ἐγγόνων
+                                                    ἀεὶ τῷ πρεσβυτάτῳ· εὐεργέτῃ καὶ συμβούλῳ γεγονότι πολλῶν
+                                                    καὶ καλῶν τῷ δήμῳ τῶν Ἀθηναίων, καὶ τήν τε οὐσίαν εἰς τὸ
+                                                    κοινὸν καθεικότι τὴν ἑαυτοῦ, καὶ ἐπιδόντι τάλαντα ὀκτὼ καὶ
+                                                    τριήρη, ὅτε ὁ δῆμος ἠλευθέρωσεν Εὔβοιαν· καὶ ἑτέραν, [ὅτε εἰς
+                                                    Ἑλλήσποντον Κηφισόδωρος ἐξέπλευσε·* καὶ ἑτέραν, ὅτε Χάρης
+                                                    καὶ Φωκίων στρατηγοὶ ἐξεπέμφθησαν] εἰς Βυζάντιον ὑπὸ
+                                                    τοῦ δήμου· καὶ λυτρωσαμένῳ πολλοὺς τῶν ἁλόντων ἐν Πύδνῃ
+                                                    καὶ Μεθώνῃ καὶ Ὀλύνθῳ ὑπὸ Φιλίππου· καὶ χορηγίαν ἀνδράσιν
+                                                    ἐπιδόντι, ὅτε ἐκλιπόντων τῶν Πανδιονιδῶν τοῦ χορηγεῖν
+                                                    ἐπέδωκε, καὶ καθώπλισε τοὺς πολίτας τῶν ἐλλειπόντων· καὶ
+                                                    εἰς τὴν τειχοποιίαν ἀνάλωσε χειροτονηθεὶς ὑπὸ τοῦ δήμου,
+                                                    ἐπιδόντος αὐτοῦ τρία τάλαντα· καὶ ἃς ἐπέδωκε δύο τάφρους
+                                                    περὶ τὸν Πειραιᾶ ταφρεύσας· καὶ μετὰ τὴν ἐν Χαιρωνείᾳ μάχην
+                                                    ἐπέδωκε τάλαντον· καὶ εἰς τὴν σιτωνίαν ἐπέδωκεν ἐν τῇ σιτοδείᾳ
+                                                    τάλαντον καὶ ὅτε εἰς συμμαχίαν τῷ δήμῳ προσηγάγετο
+                                                    πείσας, καὶ εὐεργέτης γενόμενος καὶ σύμβουλος, δι᾿ ὦν ἔπεισε
+                                                    θηβαίους, Εὐβοεῖς, Κορινθίους, Μεγαρεῖς, Ἀχαιοὺς, Λοκροὺς,
+                                                    Βυζαντίους, Μεσσηνίους, καὶ δυνάμεις ἃς συνεστησατο τῷ
+                                                    δήμ(??)ρ καὶ τοῖς συμμάχοις πεζοὺς μὲν μυρίους, ἱππέας δὲ χιλίους,
+                                                    καὶ σύνταξιν χρημάτων, ἣν ἔπεισε πρεσβεύσας διδόναι,
+                                                    τοὺς μὲν συμμάχους εἰς τὸν πόλεμον πλείω [πεντακοσίων]
+                                                    ταλάντων· καὶ ὡς ἐκώλυσε Πελοποννησίους ἐπὶ Θήβας Ἀλεξάνδρῳ
+                                                    βοηθῆσαι, χρήματα δοὺς, καὶ αὐτὸς πρεσβεύσας· καὶ
+                                                    ἄλλων πολλῶν καὶ καλῶν τῷ δήμῳ συμβούλῳ γεγονότι, καὶ
+                                                    πεπολιτευμένῳ τῶν καθ᾿ ἑαυτὸν πρὸς ἐλευθερίαν καὶ δημοκρατίαν
+                                                    ἄριστα· φυγόντι δὲ δι᾿ ὀλιγαρχίαν, καταλυθέντος τοῦ δήμου,
+                                                    καὶ τελευτήσαντος αὐτοῦ ἐν Καλαυρίᾳ, διὰ τὴν πρὸς τὸν
+                                                    δῆμον εὔνοιαν, πεμφθέντων στρατιωτῶν ἐπ᾿ αὐτὸν ἀπὸ Ἀντιτιπάτρου,
+                                                    διαμείναντι ἐν τῇ πρὸς τὸ πλῆθος εὐνοίᾳ καὶ οἰκειότητι,
+                                                    καὶ οὔτε ὐποχειρίῳ γενομένῳ τοῖς ἐχθροῖς, οὔτε τι
+                                                    ἀνάξιον ἐν τῷ κινδύνῳ πράξαντι τοῦ δήμου.</quote></note>
+                                                <note n="3" type="footnote">(*) <bibl>Plutarch. Vit. X Or. p. 8476 (p. 1032 Didot)</bibl>: <quote>Εἶχε
+                                                    δὲ (Δημοσθένης) καὶ ἀδελφὴν, ἐξ ἧς καὶ Λάχητος Λευκονοέως
+                                                    ἀδελφιδοῦς αὐτῷ Δημοχάρης ἐγένετο, ἀνὴρ καὶ κατὰ πόλεμον
+                                                    ἀγαθὸς, καὶ κατὰ τοὺς πολιτικοὺς λόγους οὐδενὸς χείρων. Ἔστι
+                                                    δ᾿ αὐτοῦ εἰκὼν ἐν τῷ πρυτανείῳ εἰσιόντων πρὸς τὴν ἑστίαν
+                                                    δεξιᾷ [ὁ πρῶτος] περιεζωσμένος ἅμα τῷ ἱματίῳ καὶ ξίφος·
+                                                    οὕτω γὰρ δημηγορῆσαι λέγεται, ἡνίκα Ἀντίπατρος ἐξῄτει τοὺς
+                                                    ῥήτορας. Χρόνῳ δὲ ὕστερον Ἀθηναῖοι σίτησίν τ᾿ ἐν πρυτανείῳ
+                                                    τοῖς συγγενέσι τοῦ Δημοσθένους ἔδοσαν, καὶ αὐτῷ τετελευτηκότι
+                                                    τὴν εἰκόνα ἀνέθεσαν ἐν ἀγορᾷ, ἐπὶ Γοργίου ἄρχοντος αἰτησαμένου
+                                                    αὐτῷ τὰς δωρεὰς τοῦ ἀδελφιδοῦ Δημοχάρους· ᾦ καὶ
+                                                    αὐτῷ πάλιν ὁ υἱὸς Λάχης Δημοχάρους Λευκονοεὺς ἠτήσατο
+                                                    δωρεὰς, ἐπὶ Πυθαράτου ἄρχοντος, δεκάτῳ ὕστερον ἔτει, τὴν
+                                                    τῆς εἰκόνος στάσιν ἐν ἀγορᾷ καὶ σίτησιν ἐν πρυτανείῳ αὐτῷ
+                                                    τε καὶ ἐγγόνων ἀεὶ τῷ πρεσβυτάτῳ, καὶ προεδρίαν ἐν ἅπασι
+                                                    τοῖς ἀγῶσι. Καὶ ἔστι τὰ ψηφίσματα ὑπὲρ ἀμφοτέρων ἀναγεγραμμένα·
+                                                    ἡ δ᾿ εἰκὼν τοῦ Δημοχάρους εἰς τὸ πρυτανεῖον μετεκομίσθη,
+                                                    περὶ ἧς προείρηται.</quote>
+                                                    (1) Ἐπὶ τοῦ τετραετοῦς πολέμου] «By the four years war.
+                                                    (307-303) we must understand the war which Cassander
+                                                    a. Polysperchon carried on against the Greeks, partly during
+                                                    the absence of Demetrius in Asia, and partly after his
+                                                    return. Cf. <bibl>Diodor XX, 100.» clinton. F. H. ad an. 302</bibl>, cui
+                                                    exilium Democharis assignat, allato loco <bibl>Plutarchi in Demetr.
+                                                        c. 24</bibl>: <quote>Προσεψηφίσαντο (Ἀθηναῖοι) δεδόχθαι τῷ δήμῳ
+                                                            τῶν Ἀθηναίων, πᾶν ὅ τι ἂν ὁ βασιλεὺς Δημήτριος κελεύσῃ,
+                                                            τοῦτο καὶ πρὸς θεοὺς ὅσιον καὶ πρὸς ἀνθρώπους εἶναι δίκαιον.
+                                                            Εἰπόντος δέ τινος τῶν καλῶν κἀγαθῶν ἀνδρῶν, μαίνεσθαι τὸν
+                                                            Στρατοκλέα τοιαῦτα γράφοντα, Δημοχάρης ὁ Λευκονοεὺς εἶπε·
+                                                            «Μαίνοιτο μεντἂν, εἰ μὴ μαίνοιτο.» Πολλὰ γὰρ ὁ Στρατοκλῆς
+                                                            ὠφελεῖτο διὰ τὴν κολακείαν. Ὁ δὲ Δημοχάρης ἐπὶ τούτῳ
+                                                            διαβληθεὶς ἐφυγαδεύθη.</quote> Verba ὑπὸ τῶν καταλυσάντων τὸν
+                                                    δῆμον e mente Democharis dicta intellige de Demetrio ejus-</note>
+                                                                                       
+                                                    <pb n="445"/>
+                                                                                                                                                                              
+                                            ποιησαμένῳ πρὸς Βοιωτούς· ἀνθ᾿ ὧν ἐξέπεσεν ὑπὸ τῶν
+                                            καταλυσάντων τὸν δῆμον· καὶ ὡς κατῆλθεν ἐπὶ Διοκλέους
+                                            ἄρχοντος (2) ὑπὸ τοῦ δήμου, συστείλαντι τὴν διοίκησιν
+                                            πρώτῳ, καὶ φεισαμένῳ τῶν ὑπαρχόντων καὶ πρεσβεύσαντι
+                                            πρὸς Λυσίμαχον, καὶ λαβόντι τῷ δήμῳ τριάκοντα
+                                            τὰλαντα ἀργυρίου, καὶ πάλιν ἕτερα ἑκατόν· καὶ γράψαντι
+                                            πρεσβείαν πρὸς Πτολεμαῖον εἰς Αἴγυπτον, καθ᾿
+                                            ἣν ἐκπλεύσαντες πεντήκοντα ἐκόμισαν τάλαντα ἀργυρίου
+                                            τῷ δήμῳ· καὶ πρὸς Ἀντίπατρον (3) πρεσβεύσαντι
+                                            
+                                                <note n="3" type="footnote">que factione, in quorum arbitrio tum erant omnia. Qu&#230;
+                                            antecedunt <foreign xml:lang="grc">οἰκοδομὴν τειχῶν κτλ</foreign>. Democharem spectant
+                                                urbem munientem contra Cassandrum, qui obsidione eam
+                                                cinxit (cf. <bibl>Plut. Dem. 23</bibl>). Aliter de bello quattuor annorum
+                                                statuit <bibl>Droysenius Ztschft. f. Alterthumsw. 1836. n. 20.
+                                                    21</bibl>. Quem librum quum ad manus non habeam, argumenta
+                                                quidem viri doctissimi afferre nequeo, capita vero
+                                                disputationis exscribere licet ex <bibl>Westermanno in Paulys
+                                                    Realencycl. v. Demochares</bibl>: «Nach Droysens Auseinandersetzung
+                                                ordnen sich die einzelnen Thatsachen am
+                                                angemessensten folgendermassen. Zuerst erscheint Demochares
+                                                in einer &#339;ffentlichen Stellung an der Spitze der wahren
+                                                Patrioten seit der Wiederherstellung der Democratie
+                                                durch Demetrius Poliorcetes im J. 307; durch Stratocles
+                                                Einfluss gestürzt (<bibl>Plut. Dem. 24</bibl>), verliefs er Athen 303,
+                                                kehrte jedoch 298 dahin zurück; im vierj&#230;hrigen Kriege
+                                                (wahrscheinlich dem, wodurch Demetrius 297-294 den
+                                                durch die Schlacht bei Ipsus verlornen Einfluss in Griechenland
+                                                wieder erlangt) rettete Demochares die Stadt durch
+                                                Ausbesserung der Mauern und durch Anschaffung von Munition
+                                                und Vorr&#230;then, im J. 297; 296 ging er als Gesandter
+                                                zuerst an Philipp (<bibl>Seneca De ira III, 26</bibl>), dann an Antipater,
+                                                Cassanders Sohn (<bibl>Polyb. XII, 13, 8</bibl>); in demselben
+                                                Jahre schloss er ein Bündniss mit den B&#339;otiern, wofur er
+                                                bald darauf von den Feinden der Democratie (wahrscheinlich
+                                                von Lachares, 296 oder 295) vertrieben wurde; und
+                                                unter dem Archon Diocles (etwa 287 oder 286) kebrte er
+                                                zurück und machte sich durch Einschr&#230;nkung des Staatsaufwandes
+                                                und gute Verwaltung um die Finanzen Atbens
+                                                verdient; endlich (vor 271) ging er als Gesandter an Lysimachus,
+                                                und beantragte eine Gesandschaft an Ptolem&#230;us.»
+                                                (2) ἐπὶ Διοκλέους ἄρχ.] Annus hujsu archontis ignoratur.
+                                                <bibl>Corsini F. H. tom. 11, 97</bibl> ait.: «Si Demochares populo
+                                                revocante reversus est, ille post sublatum Demetrii imperium
+                                                rediisse debuit: ideoque Diocles, quo archonte Demochares
+                                                ab exilio revocatus est, Ol. 123, 2 vel 3 (287.
+                                                286), archontum fastis adjungi debet.» Quam argumentationem
+                                                infirmam esse demonstrat <bibl>Clinton. (F. H. tom. II,
+                                                    p. 466 ed. Tert.)</bibl>, cui Diocles statim post Philippum archontem
+                                                (291) ponendus esse videtur.
+                                                (3) Πρὸς Ἀντίπατρον πρεσβ.] Post mortem Cassandri
+                                                (Ol. 120, 4. 297) regnum suscipit Philippus filius per
+                                                menses (non vero annos, uti est ap. Euseb.) quattuor,
+                                                deinde succedunt fratres ejus Antipater et Alexander per
+                                                annos duos et menses sex (<bibl>Euseb. p. 180 Mai</bibl>). Hic est
+                                                Antipater, quem Demochares convenit. Idem paullo ante
+                                                ad Philippum legationem obierat, si quid veri subest narratiuncul&#230;,
+                                                quam servavit <bibl>Seneca De ira III, 26</bibl>: Demochares
+                                                ad illum (Philippum) Parrhesiastes ob nimiam
+                                                et procacem linguam appellatus, inter alios Atheniensium
+                                                legatos nenerat. Audita benigne legatione, Philippus,
+                                                «Dicite, inquit, mihi, facere quid possum,
+                                                quod sit Atheniensibus gratum.» Excepit Demochares,
+                                                «Te, inquit, suspendere.» Indignatio circumstantium</note>
+                                            
+                                            καὶ λαβόντι εἴκοσι τάλαντα ἀργυρίου καὶ Ἐλευσῖνάδε
+                                            κομισαμένῳ τῷ δήμῳ, καὶ ταῦτα πείσαντι ἑλέσθαι τὸν
+                                            δῆμον καὶ πράξαντι· καὶ φυγόντι μὲν ὑπὲρ δημοκρατίας
+                                            (4), μετεσχηκότι δὲ οὐδεμιᾶς ὀλιγαρχίας, οὐδὲ ἀρχὴν
+                                            οὐδεμίαν ἠρχότι καταλελυκότος τοῦ δήμου· καὶ
+                                            μόνῳ Ἀθηναίων τῶν κατὰ τὴν αὐτὴν ἡλικίαν πολιτευσαμένων
+                                            μὴ μεμελετηκότι τὴν πατρίδα κινεῖν ἑτέρῳ
+                                            πολιτεύματι ἢ δημοκρατίᾳ· καὶ τὰς κρίσεις καὶ τοὺς
+                                            νόμους καὶ τὰ δικαστήρια καὶ τὰς οὐσίας πᾶσιν Ἀθηναίοις
+                                            ἐν ἀσφαλεῖ ποιήσαντι διὰ τῆς αὑτοῦ πολιτείας,
+                                            καὶ μηδὲν ὑπεναντίον τῇ δημοκρατίᾳ πεπραχότι μήτε
+                                            λόγῳ μήτε ἔργῳ.</quote>
+                                            Singula qu&#230; hoc decreto subindicantur accuratius
+                                            perscrutari non vacat. Satis habemus imaginem
+                                            Democharis paucis lineolis adumbrasse. Igitur virum
+                                            agnoscimus moribus severis, lingua acerbe
+                                            libera (5), ingenio rebus eloquendis pariter ac strenue
+                                            gerendis idoneo. A studiis philosophicis non    
+                                            
+                                            <note n="3" type="footnote">ad tam inhumanum responsum exorta est: quos Philippus
+                                            conticescere jussit, et Thersitam illum salvum
+                                            incolumemque dimittere. «At vos, inquit, ceteri legati,
+                                            nuntiate Atheniensibus, multo superbiores esse, qui
+                                            ista dicunt, quam qui impune dicta audiunt. Lysimachum,
+                                            Ptolem&#230;um, Philippum, Antipatrum legatus D.
+                                            adiit eo consilio ut patriam muniret contra Demetrium
+                                            Poliorceten (v. <bibl>Droysen. l. l. p. 564 sqq</bibl>.). Ceterum <bibl>Seneca
+                                                l.l.</bibl> Perperam intelligit Philippum patrem <bibl>Alexandri M.
+                                                    Ruhnkenisu ad Rutil. Lup. I, 2</bibl> historiam ad Antipatrum,
+                                                cujsu <bibl>Plutarchus l. l</bibl>. meminit, referri voluit. Pro Antipatro
+                                                autem <bibl>Clinton. (p. 466)</bibl>, Cassandri filii immemor, substituendum
+                                                censuit Antigonum Gonatam. Quibus omnibus
+                                                facile supersedemus, quamquam recte moneat Clinton,
+                                                Democharem apud Antigonum Gonatam in gratia fuisse.
+                                                Nempe <bibl>Diogenes L. VII, 14</bibl> narrat: <quote>Δημοχάρους δὲ τοῦ Λάχητος
+                                                    ἀσπαζομένου αὐτὸν (Ζήνωνα) καὶ φάσκοντος λέγειν καὶ
+                                                    γράφειν ὧν ἃν χρείαν ἔχῃ πρὸς Ἀντίγονον, ὡς ἐκείνου πάντα
+                                                    παρέξοντος, ἀκούσας οὐκέτ᾿ αὐτῷ συνδιέτριψε.</quote> De qua narratione
+                                                speciosius quam verius Ruhnken.: «In tota Democharis
+                                                vita nihil magis eminet quam democratiæ studium tyrannidisque
+                                                odium. Itaque a vero abhorrere videtur Democharem
+                                                gratiam, qua apud Antigonum Gonatam floreret,
+                                                Zenoni philosopho venditasse.» Ceterum de Demochare
+                                                Antigoni amico cf. Etiam <bibl>Diog. L. IV, 41 (v. infra)</bibl>. <bibl>Droysen.
+                                                    Hellen. II, p. 209.</bibl>
+                                                (4) φυγόντι ὑπὲρ δημοκρατίας] His indicari videatur alterum
+                                                D. exilium, pulsi fortasse a Lachare, qui tyrannide potitus est
+                                                Ol. 121, 1. 296. Quamquam nescio an rectius statuas verbis
+                                                καὶ φύγοντι μὲν κτλ. Non continuari seriem chronologicam
+                                                rerum a D. gestarum; sed merita et virtutes, qu&#230; in
+                                                rebus modo recensitis conspiciantur, paucis comprehendi.
+                                                (5) Vide locum <bibl>Senec&#230; in not. 3</bibl>. Adde <bibl>&#198;lian. V. H.
+                                                    VIII, 12</bibl>:<quote> Ἐξέπεσε γὰρ καὶ οὗτος (Θεὁφραστος) ἐπὶ τῆς ἐξ
+                                                        Ἀρείου πάγου βουλῆς λέγων, καὶ ταὐτην ἀπολογίαν προεφέρετο,
+                                                        ὅτι κατεπλάγη τὸ ἀξίωμα τοῦ συνεδρίου. Πικρὁτατα οὖν
+                                                        ἀπήντησε καὶ ἑτοιμότατα πρὸς τοῦτον αὐτοῦ τὸν λόγον ὁ Δημοχάρης,
+                                                        εἰπών· Ὦ Θεόφραστε, Ἀθηναῖοι ἤσαν, ἀλλ᾿ οὐχ οἱ
+                                                        δώδεκα θεοὶ οἱ δικάζοντες</quote>. <bibl>Idem III, 7</bibl>: <quote>Δημοχάρης, ὁ τοῦ
+                                                            Δημοσθένους ἀδελφιδοῦς, ἐπιδεῖξαι βουλόμενος, ὅτι τῆς ἐκ τῶν
+                                                            πολλῶν κακοφημίας ὑπερφρονεῖ, θεασάμενός τινας καθεζομένους
+                                                            ἐν ἰατρείῳ ψογεροὺς, καὶ κακῶς ἀγορεύειν ἐκ παντὸς τρὸπου
+                                                            διψῶντας, «Τί φατε ὑμεῖς (εἴπε) Δυσμενίδαι;» τὸ ἠθος
+                                                            αὐτῶν ἅμα ἐκκαλύψας διὰ τούτου τοῦ ὀνόματος.</quote></note>
+                                            
+                                                <pb n="446"/>
+                                             
+                                            prorsus alienus fuisse videtur; nam cum Zenone
+                                            coluisse dicitur amicitiam (n. 3). Ac sane Stoicorum
+                                            potissimum doctrinam Demochares in ea qu&#230;
+                                            tunc Athenis erat rerum publicarum conditione
+                                            probare debuit; relequos philosophos fere omnes
+                                            publicæ disciplin&#230; et dignitatis sincerique patri&#230;
+                                            amoris judicavit corruptores. Id quod luculenter patet
+                                            ex oratione, qua legem Sophoclis de pellendis
+                                            philosophis vel potius de coercenda eorum docendi
+                                            libertate contra Philonem defendere studuit (6).
+                                            
+                                            <note n="3" type="footnote">(6)<bibl>Athen. XIII, p. 610, F</bibl>: <quote>Σοφοκλῆς δέ τις ψηφίσματι ἐξήλασε
+                                                πάντας φιλοσόφους τῆς Ἀττικῆς, καθ᾿ οὗ λόγον ἔγραψε Φίλων,
+                                                ὁ Ἀριστοτέλους γνώριμος, ἀπολογίαν ὑπὲρ τοῦ Σοφοκλέους
+                                                Δημοχάρους πεποιηκότος, τοῦ Δημοσθένους ἀνεψιοῦ (debebat
+                                                ἀδελφιδοῦ).</quote>
+                                                <p>Legem accuratius definit <bibl>Diog. L. V, 38</bibl>: <quote>μηδένα τῶν φιλοσόφων
+                                                    σχολῆς ἀφηγεῖσθαι ἂν μὴ τῇ βουλῇ καὶ τῷ δήμῳ
+                                                    δόξῃ, εἰ δὲ μὴ, θάνατον εἶναι τὴν ζημίαν.</quote> Tempus legis constituendum
+                                                    ex versu Alexidis ap. <bibl>Athen. l.l</bibl>.: <quote>Πολλὰ ἀγαθὰ
+                                                        δοῖεν οἱ θεοὶ Δημητρίῳ <foreign>κτλ.</foreign></quote>, ubi quum Demetrius nullus
+                                                    alius sit quam Poliorcetes, lex illa procul dubio lata est
+                                                    post liberatas a Demetrio Athenas (307) et ante exilium
+                                                    Democharis (302). Cf. <bibl>Clinton F. H. ad ann. 316</bibl>. Ipsa
+                                                    legis natura obstat ne sub Demtrii Phalerei administratione
+                                                    latam esse putemus, monente <bibl>Grauerto Analect. p. 335</bibl>,
+                                                    quem laudat <bibl>Droysen. Hellenism, I, p. 498</bibl>; ibidem vide de
+                                                    legis scopo pllitico (cf. <bibl>Larcher. Ad Herodot. VII, p. 714</bibl>),
+                                                    quem ex ipsis orationis Demochare&#230; fragmentis intelligere
+                                                    licet. Pertinent huc:</p>
+                                                <bibl>Athen&#230;us XI, p. 508, F</bibl>: <quote>Εὐάγων δ᾿ ὁ Λαμψακηνὸς, ὥς φασιν
+                                                    Εὐρύπυλος καὶ Δικαιοκλῆς ὁ Κνίδιος ἐν εἰκοστῷ καὶ πρώτῳ
+                                                    Διατριβῶν, ἔτι δὲ Δημοχάρης ὁ ῥήτωρ ἐν τῷ ὑπὲρ Σοφοκλέους
+                                                    κρὀς Φίλωνα, δανείσας τῇ πατρίδι ἀργύριον ἐπὶ ἐνεχύρῳ τῇ
+                                                    ἀκροπόλει, καὶ ἀποστερήσας, τυραννεῖν ἐβουλεύετο, ἕως
+                                                    συνδραμόντες ἐπ᾿ αὐτὸν οἱ Λαμψακηνοὶ, καὶ τὰ χρήματα ἀποδόντες,
+                                                    ἐξέβαλον. Τίμαιος δ᾿ ὁ Κυζικηνὸς (v. <bibl>Marquardt.
+                                                        Cyz. p. 71.</bibl>), ὡς ὁ αὐτὸς Δημοχάρης φησὶ, χρήματα καὶ σῖτον
+                                                    ἐπιδοὺς τοῖς πολίταις, καὶ διὰ ταῦτα πιστευθεὶς εἶναι χρηστὸς
+                                                    παρὰ τοῖς Κυζικηνοῖς, μικρὸν ἐπισχὼν χρόνον ἐπέθετο τῇ
+                                                    πολιτείᾳ δι᾿ Ἀριδαίου. Κριθεὶς δὲ, καὶ ἁλοὺς, καὶ ἀδοξήσας,
+                                                    ἐν μὲν τῇ πόλει ἐπέμενε παλαιὸς καὶ γεγηρακὼς, ἀτίμως
+                                                    δὲ καὶ ἀδόξως διαζῶν. Τοιοῦτοι δ᾿ εἰσὶ καὶ νῦν τῶν Ἀκαδημαΐκῶν
+                                                    τινες, ἀνοσίως καὶ ἀδόξως βιοῦντες. Χρημάτων γὰρ
+                                                    ἐξ ἀσεβείας καὶ παρὰ φύσιν κυριεύσαντες διὰ γοητείαν, νῦν
+                                                    εἰσὶ περίβλεπτοι· ὥσπερ καὶ Χαίρων ὁ Πελληνεὺς, ὃς οὐ μόνον
+                                                    Πλάτωνι ἐσχόλακεν, ἀλλὰ καὶ Ξενοκράτει. Καὶ οὕτος οὖν,
+                                                    τῆς πατρίδος πικρῶς τυραννήσας, οὐ μόνον τοὺς ἀρίστους τῶν
+                                                    πολιτῶν ἐξήλασεν, ἀλλὰ καὶ τοῖς τούτων δούλοις τὰ χρήματα
+                                                    τῶν δεσποπῶν χαρισάμενος, καὶ τὰς ἐκείνων γυναῖκας συνῴκισε
+                                                    πρὸς γάμου κοινωνίαν, ταῦτ᾿ ὠφεληθεὶς ἐκ τῆς καλῆς Πολετείας
+                                                    καὶ τῶν παρανόμων Νόμων.</quote>
+                                                Etiam reliquorum, qu&#230; eodem sensu apud <bibl>Athen. l.l</bibl>.
+                                                Dicta sunt, bona pars ex Demochare fluxerit.
+                                                <bibl>Idem V, 215, C</bibl> postquam dixerat de Lysia Epicureo
+                                                philosopho, <quote>ὃς ἔξ ἱματίου τύραννος ἢν, subjicit: Τοιοῦτοι
+                                                    εἰσὶν οἱ ἀπὸ φιλοσοφίας στρατηγοὶ, περὶ ὦν Δημοχάρης ἔλεγεν·
+                                                    «Ὥσπερ ἐκ θύμβρας οὐδεὶς ἂν δύναιτο κατασκευάσαι
+                                                    λόγχην, οὐδ᾿ ἐκ Σωκράτους στρατιώτην ἄμεμπτον.</quote>» Sequitur
+                                                disputatio de Socratis expeditionibus, quippe qu&#230; mera
+                                                Platonis sint commenta. — Idem Democharis dictum <bibl>Athen&#230;us
+                                                    de alia re loquens repetit V, p. 187, D.</bibl> Cf. <bibl>Eusebius
+                                                        P. E. XV, 2, p. 791.</bibl>
+                                                Ex alia oratione Democharis <bibl>Plutarch. Vit. X Orat.
+                                                    p. 840, D (p. 1024 Didot.)</bibl>:<quote> Ἐγένετο (sc. Αἰσχίνης) δ᾿ εὔφω.</quote></note>
+                                            
+                                            
+                                            His jungenum est de Demetrio Phalereo judicium
+                                            (<ref>fr. 2</ref>). Concedit quidem exsanguinem et
+                                            jacentem civitatem ab eo relevatam esse, quatenus
+                                            ille effecerit ut copia rerum quæ ad vitam necessari&#230;
+                                            sunt, urbs abundaret; at num etiam &#230;
+                                            et dignitati Atheniensium consuluit? Nonne
+                                            totus pendebat ex nutu Cassandri? Igitur nihil nisi
+                                            boni publicani laudem Demetrius mereri Demochari
+                                            videtur. Tanto Noster flagravit studio prisc&#230;
+                                            libertatis. Quam ubi tandem cives recuperaverant
+                                            quodammodo, tantum abfuit ut servile in
+                                            Demetrium Poliorceten obsequium approbaret,
+                                            ut suis in adulatores et ipsum libertatis auctorem
+                                            dicteriis exilium sibi contraheret. Ejusmodi indolis
+                                            vir non caret adversariis. Quorum in numero
+                                            fuisse scimus Democlem sive Democlidem
+                                            oratorem (*) atque Archedicum poetam comicum.
+                                            Ille discipulus fuit Theophrasti Sophoclea ista
+                                            lege exulare coacti, hic vero a partibus stetit Stratoclis,
+                                            quem Demochari auctorem exilii fuisse supra
+                                            diximus. Convicia eorum avide ex more suo
+                                            arripuit <bibl>Tim&#230;us (fr. 140 sq.)</bibl>, uti Suidas testatur
+                                            et Polybius.
+                                            <bibl>Suidas</bibl> v. <quote>ᾧ τὸ ἱερὸν πῦρ οὐκ ἔξεστι φυσῆσαι: Τιμαῖος
+                                            ἐν λη' Ἱστοριῶν· Ὡς οἱ περὶ Δημοκλείδην κατὰ
+                                            Δημοχάρους εἶπον, ὅτι μόνῳ αὐτῷ πάντων Ἀθηναίων
+                                            οὐκ ἔξεστι τὸ ἱερὸν πῦρ φυσῆσαι, ὡς μὴ καθαρεύοντι
+                                            τοῖς ἄνω μέρεσιν.</quote>
+                                            <bibl>Polybius XII, 13</bibl><quote>Τίμαιός φησι Δημοχάρην ἡταιρηκέναι
+                                            μὲν τοῖς ἄνω μέρεσι τοῦ σώματος, οὐκ εἶναι
+                                            δ᾿ ἄξιον τὸ ἱερὸν πῦρ φυσᾶν, ὑπερβεβηκέναι δὲ τοῖς</quote>
+                                            
+                                            
+                                            <note n="3" type="footnote"><quote>νος, ὡς δῆλον ἔκ τε ὧν φησι Δημοσθένης καὶ ἐκ τοῦ Δημοχάρους
+                                            λόγου.</quote> Huc etiam illa pertinere videntur qu&#230; leguntur
+                                                in <bibl>Anonymi Vit. &#198;schinis (p. 269 in Βιογρ. Westermanni)</bibl>:
+                                                <quote>Δημοχάρης δ᾿ ὁ ἁδελφιδοῦς Δημοσθένους, εἰ ἄρα πιστευτέον
+                                                    αὐτῷ λέγοντι περὶ Αἰσχίνου, φησὶν Ἰσχάνδρου τοῦ τραγῳδοποιοῦ
+                                                    τριταγωνιστὴν γενέσθαι τὸν Αἰσχίνην καὶ ὑποκρινόμενον
+                                                    Οἰνόμαον διώκoiτα <!--letters hard to read, maybe other ideas?-->
+                                                    Πέλοπα αἰσχρῶς πεσεῖν καὶ ἀναστῆναι ὑπὸ
+                                                    Σαννίωνος τοῦ χοροδιδασκάλου (ἐνθένδ᾿ οὐν ὁ Δημοσθένης
+                                                    Οἰνόμαον αὐτὸν ὀνομάζει, πρὸς εἰδότας τὸ πρᾶγμα ἐπισκώπτων),
+                                                    καὶ μετὰ Σωκράτους καὶ Σιμύλου τῶν κακῶν ὑποκριτῶν
+                                                    ἀλᾶσθαι κατ᾿ ἀγρόυς. Cf. Harpocration. v. Ἰσχανδρός Δημοσθένης κατ᾿
+                                                    Αἰσχίνου· τραγικὸς ὑποκριτὴς ὁ Ἰσχανδρός ἐστι.
+                                                    Δοκεῖ δ᾿ αὐτῷ συνυποκρινόμενος Αἰσχίνης ὁ ῥήτωρ ἑν Κολλυτῷ
+                                                    καταπεσεῖν, καθά φησι Δημοχάρης ἐν τοῖς Διαλόγοις.</quote> Ubiistud
+                                                ἐν Διαλόγοις gravem corruptel&#230; suspicionem pr&#230;bere propter
+                                                locum Plutarchi bene monet Ruhnken. Ad <bibl>Rutil. Lup.
+                                                    I, 2 (p. 87 ed. Frosch.)</bibl>, quo loco ex oratione quadam D.
+                                                citantur h&#230;c: Demochares: «Nam quis h&#339;c simul
+                                                universa perpeti possit, timorem, morbum, senectutem,
+                                                contumeliam, inopiam, vim? Quarum qu&#339;vis una res
+                                                per se satis est gravis ad efficiendum.» <bibl>Idem I, 21</bibl>: Demo.
+                                                Chares: «Nihil enim valebat assidua pro fratre ac
+                                                misericors deprecatio, quum judicaret tyrannus, cujus
+                                                crudelitas omnem natur&#339; necessitudinem extinguebat.»</note>
+                                              <note n="4" type="footnote">(*) De eo vide <bibl>Dionys. Dinarch. c. 11</bibl>; <bibl>Plutarch. X Orat.
+                                                p. 842, D</bibl>; <bibl>Ruhnken. Ad Rut. Lup. l.l.</bibl>; <bibl>Westermann. Gesch.
+                                                d. gr. Bereds. P 100. n. 31</bibl>. <bibl>De Archedico v. Meinek. Fragm.
+                                                Com. I , p. 458</bibl>.</note>
+                    <pb n="447"/>
+                                            
+                                             <quote>ἐπιτηδεύμασι τὰ Βότρυος ὑπομνήματα καὶ τῶν ἄλλων
+                                             ἀναισχυντογράφων.</quote>
+                                             De his ita judicat Polybius:<quote>Ταύτην δὲ τὴν λοιδορίαν,
+                                             ait, καὶ τὰς ἐμφάσεις οὐχ οἷον ἄν τις διέθετο
+                                             πεπαιδευμένος ἀνὴρ, ἀλλ᾿ οὐδὲ τῶν ἐπὶ τέγους ἀπὸ τοῦ
+                                             σώματος εἰργασμένων οὐδείς. Ὁ δ᾿, ἵνα πιστὸς φανῇ
+                                             κατὰ τὴν αἰσχρολογίαν καὶ τὴν ὅλην ἀναισχυντίαν, καὶ
+                                             προσκατέψευσται τἀνδρὸς, κωμικόν τινα μάρτυρα
+                                             προσεπισπασάμενος ἀνώνυμον. Πόθεν δ᾿ ἐγὼ καταστοχάζομαι
+                                             τοῦτο; Πρῶτον μὲν ἐκ τοῦ πεφυκέναι καὶ τετράφθαι
+                                             καλῶς Δημοχάρην, ἀδελφιδοῦν ὄντα Δημοσθένους.
+                                             Δεύτερον ἐκ τοῦ μὴ μόνον στρατηγίας αὐτὸν
+                                             ἠξιῶσθαι παρ᾿ Ἀθηναίοις, ἀλλὰ καὶ τῶν ἄλλων τιμῶν,
+                                             ὧν οὐδὲν ἂν αὐτῷ συνεξέδραμε τοιαύταις ἀτυχίαις παλαίοντι.
+                                             Διὸ καὶ δοκεῖ μοι Τίμαιος οὐχ οὕτω Δημοχάρους
+                                             κατηγορεῖν, ὡς Ἀθηναίων, οἳ τοιοῦτον ἄνδρα
+                                             προῆγον, καὶ τοιούτῳ τὴν πατρίδα καὶ τοὺς ἰδίους βίους
+                                             ἐνεχείριζον. Ἀλλ᾿ οὐκ ἔστι τούτων οὐδέν. Οὐ γὰρ ἂν
+                                             Ἀρχέδικος ὁ κωμῳδιογράφος (*) ἔλεγε ταῦτα μόνος περὶ
+                                             Δημοχάρους, ὡς Τίμαιός φησιν· ἀλλὰ πολλοὶ μὲν ἂν
+                                             τῶν Ἀντιπάτρου φίλων, καθ᾿ οὗ πεπαρρησίασται πολλὰ
+                                             καὶ δυνάμενα λυπεῖν οὐ μόνον αὐτὸν τὸν Ἀντίπατρον,
+                                             ἀλλὰ καὶ ἐκείνου τοὺς διαδόχους καὶ φίλους γεγονότας·
+                                             πολλοὶ δὲ τῶν ἀντιπεπολιτευμένων, ὧν ἦν καὶ Δημήτριος
+                                             ὁ Φαληρεὺς, οὗ κεῖνος οὐ τὴν τυχοῦσαν πεποίηται
+                                             κατηγορίαν ἐν ταῖς Ἱστορίαις (Sequentia vide in
+                                             <ref>fr. 2</ref>)..., ἀλλ᾿ ὅμως οὔτε Δημήτριος οὔτ᾿ ἄλλος οὐδεὶς
+                                             εἴρηκε περὶ Δημοχάρους τοιοῦτον οὐδέν. Ἐξ ὧν ἐγὼ
+                                             βεβαιοτέραν τὴν τῆς πατρίδος ἡγούμενος μαρτυρίαν
+                                             ἢ τὴν Τιμαίου πικρίαν, θαρσῶν ἀποφαίνομαι μηδενὶ
+                                             τὸν Δημοχάρους βίον ἔνοχον εἶναι τῶν τοιούτων κατηγορημάτων.</quote>
+                                              — H&#230;c recte sine dubio Polybius. Ceterum
+                                             Tim&#230;i loco adde qu&#230; leguntur apud <bibl>Diog.
+                                             L. IV, 41</bibl>: <quote>Τούτου (Λεωχάρους, at scr. Κλεοχάρους.
+                                                 Vide <bibl>Ruhnk. Ad Rutil. Lup. I, 2</bibl>) τοῦ Μυρλεανοῦ
+                                                 ἤρων καὶ Δημοχάρης ὁ Λάχητος καὶ Πυθοκλῆς ὁ τοῦ
+                                           
+                                           
+                                              <note n="5" type="footnote">(*)Quum Archedici loco apud Suidam nominetur Democlides,
+                                              <bibl>Ruhnken. Ad Rutil. Lup. I, 2, p. 88</bibl>, ut loca
+                                              inter se pugnantia concilientur, statuit, a Tim&#230;o duplicem
+                                              proditum esse convicii auctorem, Archedicum comicum
+                                              et Democlidem oratorem, Polybium vero et Suidam satis
+                                              habuisse alterutrum e Tim&#230;o memorare. Qu&#230; quidem repugnare
+                                              videntur verbis Polybii <foreign xml:lang="grc">ἐλεγε ταῦτα μόνος</foreign>, nisi fortasse
+                                              diversis locis Tim&#230;us de eadem re verba fecerat,
+                                              quorum alium Polybius, alium Suid&#230; auctor respexerit.</note>
+                                         
+                                                                                   
+                                           
+                                            Βουγέλου· οὓς καταλαβὼν (sc. Ἀρκεσίλαος) ὑπ᾿ ἀνεξικακίας
+                                           (ἀνδρικακίας <bibl>Hesych. Mil. p. 12</bibl>) παραχωρεῖν
+                                            ἔφη. Διὰ ταῦτα δὴ οὖν ἔδακνόν τε αὐτὸν οἱ προειρημένοι
+                                            καὶ ἐπέσκωπτον, ὡς φίλοχλον καὶ φιλόδοξον.</quote>
+                                            De historiis Democharis <bibl>Cicero Brut. 83</bibl>:
+                                            <quote>Demochares autem qui fuit Demostheni sororis
+                                            filius, et orationes scripsit aliquot, et earum rerum
+                                            historiam, qu&#339; erant Athenis ipsius &#339;tate gest&#339;,
+                                            non tam historico quam oratorio genere perscripsit.</quote>
+                                            <bibl>Idem De orat. II, 23</bibl>: <quote>Alia qu&#339;dam dicendi molliora
+                                            et remissiora genera viguerunt. Inde Demochares,
+                                            quem aiunt sororis filium fuisse Demostheni.</quote>
+                                            Opus satis amplum fuisse et a sene demum Demochares
+                                            compositum liquet ex <ref>fragm. 3. 4. 6</ref>. Ne
+                                            plura de eo disseramus, impedimur fragmentorum
+                                            paucitate.</quote></note>
+                                            
+                                                                                       
+                          
+                                       
+                                           
+                                                <div type="textpart" subtype="subwork" n="1"><ab><title>ΙΣΤΟΡΙΑΙ.</title></ab>
+                                            
+                                            
+                                            <cit n="1" xml:lang="grc">
+                                            <bibl>Plutarch. Demosth. c. 30</bibl>
+                                            <quote>Δημοχάρης ὁ τοῦ Δημοσθένους
+                                            οἰκεῖος οἴεσθαί φησιν αὐτὸν (Δημοσθένη) οὐχ
+                                            ὑπὸ φαρμέκου, θεῶν δὲ τιμῇ καὶ προνοίᾳ τῆς Μακεδόνων
+                                            ὠμότητος ἐξαρπαγῆναι συντόμως καταστρέψαντα
+                                            καὶ ἀλύπως. </quote>
+                                            <note>[Κατέστρεψε δ᾿ ἕκτῃ ἐπὶ δέκα τοῦ Πυανεψιῶνος
+                                            μηνὸς, ἐν ᾗ τὴν σκυθρωποτάτην τῶν Θεσμοφορίων
+                                            ἡμέραν ἄγουσαι παρὰ τῇ θεῷ νηστεύουσιν αἱ
+                                            γυναῖκες] <bibl>(Ol. 114, 3. 322.) Agnoscis et Demosthenis
+                                            cognatum et oratorem</bibl>.</note></cit>
+                                            
+                                            
+                                            <cit n="2" xml:lang="grc">
+                                            <bibl>Polybius XII, 13, 9</bibl> 
+                                            <quote>Οὗ <note type="editorial">(Demetrii Phalerei)</note>
+                                            κεῖνος <note type="editorial">(Demochares)</note> οὐ τὴν τυχοῦσαν πεποίηται κατηγορίαν
+                                            ἐν ταῖς Ἱστορίαις, φάσκων αὐτὸν τοιοῦτον
+                                            γεγονέναι προστάτην τῆς πατρίδος, καὶ ἐπὶ τούτους
+                                            σεμνύνεσθαι κατὰ τὴν πολιτείαν, ἐφ(??)οἷς ἂν καὶ τελώνης
+                                            σεμνυνθείη ἦ βάναυσος. Ἐπὶ γὰρ τῷ πολλὰ καὶ λυσιτε·
+                                            λῶς πωλεῖσθαι κατὰ τὴν πόλιν, καὶ δαψιλῆ τὰ πρὸς
+                                            τὸν βίον ὑπάρχειν πᾶσιν, ἐπὶ τούτοις φησὶ μεγαλαυχεῖν
+                                            αὐτόν· καὶ δὴ ὅτι κοχλίας αὐτομάτως βαδίζων προηγεῖτο
+                                            τῆς πομπῆς αὐτῷ, σίαλον ἀναπτύων, σὺν δὲ τούτοις
+                                            ὄνοι διεπέμποντο διὰ τοῦ θεάτρου (διότι δὴ πάντων τῶν
+                                            τῆς Ἑλλάδος καλῶν ἡ πατρὶς παρακεχωρηκυῖα τοῖς
+                                            ἄλλοις, ἐποίει Κασσάνδρῳ τὸ προσταττόμενον), ἐπὶ                                                                                                                                                                                                                       
+                                            <pb n="448"/>
+                                            τούτοις αὐτὸν οὐκ αἰσχύνεσθαί φησιν.</quote> 
+                                            <note>Antecedentia vid. <bibl>In Introductione. Cf. Droysen. Hellen. I, p. 429.</bibl></note></cit>
+                                            
+                        <div type="textpart" subtype="book" n="1"><ab><title>E LIBRO VICESIMO.</title></ab>
+                                            
+                                            <cit n="3" xml:lang="grc">
+                                            <bibl>Athen. VI, p. 252, F</bibl>
+                                            <quote>Διαβόητος δὲ ἐγένετο ἐπὶ κολακείᾳ
+                                            καὶ ὁ τῶν Ἀθηναίων δῆμος. Δημοχάρης γοῦν,
+                                            ὁ Δημοσθένους τοῦ ῥήτορος ἀνεψιὸς (immo ἀδελφιδοῦς),
+                                            ἐν τῇ εἰκοστῇ τῶν Ἱστοριῶν διηγούμενος περὶ ἧς
+                                            ἐποιοῦντο οἱ Ἀθηναῖοι κολακείας πρὸς τὸν Πολιορκητὴν
+                                            Δημήτριον, καὶ ὅτι τοῦτ᾿ οὐκ ἦν ἐκείνῳ βουλομένῳ,
+                                            γράφει οὕτως· «Ἐλύπει μὲν καὶ τούτων ἔνια αὐτὸν, ὡς
+                                            ἔοικεν, οὐ μὴν ἀλλὰ καὶ ἄλλα γε παντελῶς αἰσχρὰ καὶ
+                                            ταπεινά· Λεαίνης μὲν καὶ Λαμίας Ἀφροδίτης ἱερὰ,
+                                            καὶ Βουρίχου καὶ Ἀδειμάντου καὶ Ὀξυθέμιδος τῶν κολάκων
+                                            αὐτοῦ καὶ βωμοὶ καὶ ἡρῷα καὶ σπονδαί. Τούτων
+                                            ἑκάστῳ καὶ παιᾶνες ᾔδοντο, ὥστε καὶ αὐτὸν τὸν
+                                            Δημήτριον θαυμάζειν ἐπὶ τοῖς γινομένοις, καὶ λέγειν,
+                                            ὅτι οὐδεὶς ἐπ᾿ αὐτοῦ Ἀθηναίων γέγονε μέγας καὶ ἁδρὸς
+                                            τὴν ψυχήν.»</quote>
+                                            <note>Sequitur <bibl>Duridis fr. 30. De re (302 a. C.)</bibl> cf.
+                                            <bibl>Droysen. Hellen. I, p. 511 sqq.</bibl></note></cit>
+                                           
+                                            
+                            <div type="textpart" subtype="part" n="1"><ab><title>E LIBRO VICESIMO PRIMO.</title></ab>
+                                            
+                                            <cit n="4" xml:lang="grc">
+                                            <bibl>Athen. VI, p. 253, B </bibl>
+                                            <quote>Φησὶ γοῦν ὁ Δημοχάρης, ἐν
+                                            τῇ πρώτῃ καὶ εἰκοστῇ γράφων· «Ἐπανελθόντα δὲ τὸν
+                                            Δημήτριον ἀπὸ τῆς Λευκάδος καὶ Κερκύρας εἰς τὰς
+                                            Ἀθήνας, οἱ Ἀθηναῖοι ἐδέχοντο οὐ μόνον θυμιῶντες καὶ
+                                            στεφανοῦντες καὶ οἰνοχοοῦντες, ἀλλὰ καὶ προσόδια καὶ
+                                            χοροὶ καὶ ἰθύφαλλοι μετ᾿ ὀρχήσεως καὶ ᾠδῆς ἀπήντων
+                                            αὐτῷ, καὶ ἐφιστάμενοι κατὰ τοὺς ὄχλους ᾖδον ὀρχούμενοι,
+                                            καὶ ἐπᾴδοντες, ὡς εἴη μόνος θεὸς ἀληθινὸς, οἱ
+                                            δ᾿ ἄλλοι καθεύδουσιν, ἢ ἀποδημοῦσιν, ἢ οὐκ εἰσὶ, γεγονὼς
+                                            δ᾿ εἴη ἐκ Ποσειδῶνος καὶ Ἀφροδίτης, τῷ δὲ
+                                            κάλλει διάφορος, καὶ τῇ πρὸς πάντας φιλανθρωπίᾳ
+                                            κοινός. Δεόμενοι δ᾿ αὐτοῦ ἱκέτευον, φησὶ, καὶ προσηύχοντο.»</quote></cit>
+                                            
+                                            
+                                            
+                                            <cit n="5" xml:lang="grc">
+                                            <bibl>Plutarch. Demetr. 27 </bibl>
+                                            <quote>Δημοχάρης δ᾿ ὁ Σόλιος
+                                            (scr. Λευκονοεὺς) τὸν Δημήτριον ἐκάλει Μῦθον· εἶναι
+                                            γὰρ αὐτῷ καὶ Λαμίαν.</quote> 
+                                            <note>Constat de Lamia Demetrii
+                                            meretrice; de Libyc&#230; Lami&#230; fabula v. <bibl>Duris fr. 35</bibl>.</note></cit>
+                                            
+                                            
+                                            
+                                            <cit n="6" xml:lang="grc">
+                                            <bibl>Lucian. Macrob. c. 10 (p. 640 Didot.)</bibl>
+                                            <quote>Ἀγαθοκλῆς δὲ ὁ Σικελίας τύραννος ἐτῶν ἐνενήκοντα πέντε
+                                            τελευτᾷ, καθάπερ Δημοχάρης καὶ Τίμαιος ἱστοροῦσιν.</quote>
+                                            <note>Moritur Agathocles an. 289 a. C.</note></cit></div></div></div>
+                                            
+                                           
+                                            
+                 
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
