@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg1phanod_grc">
+ <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="TY">Tariq Yousef</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg1phanod_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2015</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                                <persName>
+                                    <name xml:lang="la">Theodorus Müller</name>
+                                    <name xml:lang="de">Theodor Müller</name>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.1074"
+                                >Phanodemus</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">1</biblScope>
+                        </monogr>
+                        <ref target="https://archive.org/details/fragmentahistori01mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+            
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#TY" when="2015-02-04">Automatically created the XML file</change>
+            <change who="#MB" when="2015-02-05">Proofread and updated</change>
+        </revisionDesc>
+        
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="1" xml:lang="grc">
+                
+                <head>
+                    <title
+                        ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg1583.tlg003.opp-grc1"
+                        xml:lang="la">PHANODEMI FRAGMENTA</title>
+                </head>
+                <pb n="366"/>
+                
+                <div type="textpart" subtype="work" n="1">
+                    <ab><title type="main" xml:lang="la">ATTHIDIS</title></ab>
+                    <div type="textpart" subtype="book" n="2">
+                        <ab><title xml:lang="la">LIBRI SECUNDI.</title></ab>
+                
+<cit n="1" xml:lang="grc"><bibl>Athen. IX, 11, p. 392, D</bibl><quote>Περὶ δὲ τῆς γενέσεως
+αὐτῶν (ὀρτύγων) Φανόδημος ἐν δευτέρῳ Ἀτθίδος φησὶν,
+ὡς κατεῖδεν Ἐρυσίχθων Δῆλον τὴν νῆσον, τὴν
+ὑπὸ τῶν ἀρχαίων καλουμένην Ὀρτυγίαν, παρὰ τὰς
+ἀγέλας τῶν ζῴων τούτων φερομένας ἐκ τοῦ πελάγους
+ἱζάνειν εἰς τὴν νῆσον, διὰ τὸ εὔορμον εἶναι.</quote>
+<note>Recipienda esse videtur Casauboni conjectura
+κατεῖχεν pro κατεῖδεν; cf. Paus. I, 18 et 31. In
+Phanodemi verbis deest haud dubie aliquid,
+quod ad coturnicum generationem spectet.</note>
+</cit>
+                    </div>
+                    
+                    <div type="textpart" subtype="book" n="4">
+                        <ab><title xml:lang="la">LIBRI QUARTI.</title></ab>
+
+<cit n="2" xml:lang="grc"><bibl>Schol. Aristoph. Av. 873</bibl><quote>Κολαινὶς ... φησὶ δὲ
+Ἑλλάνικος, Κόλαινον Ἕρμου ἀπόγονον ἐκ μαντείου
+ἱερὸν αὐτῆς ἱδρύσασθαι Κολαινίδος, Καὶ Φανόδημος ἐν
+τῇ τετάρτῃ.</quote>
+</cit>
+                    </div>
+
+                    <div type="textpart" subtype="book" n="5">
+                        <ab><title xml:lang="la">LIBRI QUINTI.</title></ab>
+
+<cit n="3" xml:lang="grc"><bibl>Suidas</bibl><quote>Παρθένοι. Τὰς Ἐρεχθέως θυγατέρας οὕτως
+ἔλεγον καὶ ἐτίμων. Ἦσαν δὲ ἀριθμὸν ἕξ. Πρεσβυτάτη
+μὲν Πρωτογένεια· δευτέρα δὲ Πανδωρα·
+τρίτη Πρόκρις· τετάρτη Κρέουσα· πέμπτη Ὠρείθυια·
+ἕκτη Χθονία. Τούτων λέγεται Πρωτογένεια καὶ Πανδώρα
+δοῦναι ἑαυτὰς σφαφῆναι ὑπὲρ τῆς χώρας, στρατιᾶς
+ἐλθούσης ἐκ Βοιωτίς. Ἐσφαγιάσθησαν δὲ ἐν τῷ
+Ὑακίνθῳ καλουμένῳ πάγῳ ὑπὲρ τῶν Σφενδονίων. Διὸ
+καὶ οὕτως καλοῦνται παρθένοι Ὑακινθίδες, καθάπερ
+μαρτυρεῖ Φανόδημος ἐν τῇ πέμπτῃ Ἀτθίδι, μεμνημένος
+τῆς τιμῆς αὐτῶν.</quote>
+<note>Eadem apud Apostolium XV, 84. Pearsonius
+bene scripsit ἐτίμων· ἦσαν κ, τ. λ. Pro vulg. καὶ ἐτιμώρησαν
+δὲ τὸν ἀρ. ἕξ. Commendat istam scripturam
+Hesychius: Παρθένοι, τὰς Ἐρεχθέως οὕτως
+ἔλεγον καὶ ἐτίμων. Pro Σφενδονίην Valcken. Et Hemsterh.
+Legendum censent Σφενδαλέων. Nam Σφενδάλη
+δῆμος Ἱπποθοωντίδος φυλῆς, Stephan. B.</note>
+</cit>
+
+    <cit n="3a" xml:lang="la"><bibl>Natal. Com. Mythol. IX, 10, p. 996</bibl> <quote>Quod
+autem &#198;geus, Pandionis filius, patri in regno
+successerit, ita scriptum est a Phanodemo in
+libro quinto Rerum Atticarum: Αἰγεὺς ὁ Πανδίονος
+υἱὸς βασιλεύων Ἀθηνῶν γαμεῖ Μήταν πρώτον
+τὴν Ὁπλῆτος, δεύτερον Χαλκιόπην Ῥηξήνορος.</quote>
+<note>Num vero h&#230;c Natalis ex Phanodemo petiverit,
+vel alio, qui Phanodemum ante oculos
+habuit, an fraudulenter sub auctoris nostri nomine
+vendiderit, in medio relinquendum.</note>
+</cit>
+                    </div>
+<pb n="367" />
+
+                    <div type="textpart" subtype="book" n="6">
+                        <ab><title xml:lang="la">LIBRI SEXTI.</title></ab>
+
+<cit n="4" xml:lang="grc"><bibl>Suidas v.</bibl><quote> Τριτοπάτορες. ... Φανόδημος δὲ ἐν ἕκτῳ
+φησὶν, ὅτι μόνοι οἱ Ἀθηναῖοι θύουσί τε καὶ εὔχονται
+αὐτοῖς ὑπὲρ γενέσεως παίδων, ὅταν γαμεῖν μέλλωσιν·
+ἐν δὲ τῷ Ὀρφέως Φυσικῷ ὀνομάζεσθαι τοὺς Τριτοπάτορας
+Ἀμαλκείδην καὶ Πρωτοκλέα καὶ Πρωτοκρέοντα,
+θυρωροὺς καὶ φύλακας ὄντας τῶν ἀνέμων.</quote>
+<note>Cf. Etym. M., Phot.et Phavor. v. Τριτοπάτορες,
+Tzetz. ad Lycophr. 738. Apud Etym. M. et
+Phavorinum legitur ἐν δὲ τοῖς Ὀρφέως φυσικοῖς.
+Pro Πρωτοκλέοντα, ut vulgo legitur in Suid&#230;
+loco, Phavorinus et Tzetzes exhibent Πρωτοκρέοντα,
+quod recepi; cf. Welcker de &#198;sch. Trilog.
+p. 152.</note>
+</cit>
+                    </div>
+
+                    <div type="textpart" subtype="book" n="7">
+                        <ab><title xml:lang="la">LIBRI SEPTIMI.</title></ab>
+
+<cit n="5" xml:lang="grc"><bibl>Athen. III, 30, p. 144, C</bibl><quote>Αἰγύπτιοι τὸν ὑποξίζοντα
+ἄρτον κυλλάστιν καλοῦσι. Μνημονεύει δ᾿ αὐτοῦ Ἀριστοφάνης
+ἐν Δαναίσι ... μνημονεύουσιν αὐτοῦ καὶ
+Ἑκαταῖος καὶ Ἡρόδοτος καὶ ὁ Φανόδημος ἐν ἑβδόμῃ
+Ἀτθίδος.</quote> <note>Cf. Herodot II, 77, Hesych. v. Κύλλαστις,
+Jablonskius Vocc. &#198;gypt. p. 17.</note>
+</cit>
+                    </div>
+
+                    <div type="textpart" subtype="book" n="9">
+                        <ab><title xml:lang="la">LIBRI NONI.</title></ab>
+                        
+<cit n="6" xml:lang="grc"><bibl>Harpocrat.</bibl><quote>Λεωκόρειον, Δημοσθένης ἐν τῷ κατὰ
+Κόνωνος. Τὸ δὲ Λεωκόρειον εἶναί φησι Φανόδημος
+ἐννάτῳ Ἀτθίδος ἐν μέσῳ τῷ Κεραμεικῷ.</quote>
+<note>Phavorin. h. v. eadem refert.</note>
+</cit>
+                    </div>
+                </div>
+
+       <div type="textpart" subtype="work" n="2">
+           <ab><title type="main" xml:lang="la">FRAGMENTA INCERT&#198; SEDIS</title></ab>
+
+<cit n="7" xml:lang="grc"><bibl>Proclus in Comment. ad Platon. Tim&#230;um, p.
+30, ed. Basil.</bibl> <quote>Τοὺς δὲ Ἀθηναίους Καλλισθένης μὲν
+καὶ Φανόδημος πατέρας τῶν Σαϊτῶν ἱστοροῦσι γενέσθαι.</quote>
+<note>Platonis locus est in Tim&#230;o p. 11, E.
+Cf. Theopomp. fr. 172.</note></cit>
+
+<cit n="8" xml:lang="grc"><bibl>Dionys. Halic. Ant. Rom. I, 61, p. 50 Sylb.</bibl><quote>Τεῦκρον δὲ ἄλλοι τε πολλοὶ καὶ Φανόδημος, ὁ τὴν
+Ἀττικὴν γράψας ἀρχαιολογίαν, ἐκ τῆς Ἀττικῆς μετοικῆσαί
+φασιν εἰς τὴν Ἀσίαν, δήμου Ξυπεταίας ἄρχοντα·
+καὶ πολλὰ παρέχονται τοῦ λόγου τεκμήρια, κρατήσαντα
+δὴ χώρας συχνῆς τε καὶ ἀγαθῆς, καὶ οὐ πολὺ
+τὸ ἐπιχώριον γένος ἐχούσης, ἀσμένως τὸν Δάρδανον
+ἰδεῖν, καὶ τὸ σὺν αὐτῷ παραγενόμενον Ἑλληνικὸν,
+τῶν τε πρὸς τοὺς βαρβάρους πολέμων συμμαχίας
+ἕνεκα, καὶ ἵνα ἡ γῆ μὴ ᾖ ἔρημος.</quote>
+<note>Ξυπεταία pro vulg. Ἐξποταιέως est Meursii (in
+Popul. Att. s. V. Ξυπέτη) conjectura, qu&#230; firmatur
+Strabonis loco lib. XIII, p. 604, ubi traditur,
+esse nonnullorum scriptt. sententiam, Teucrum
+ex illo Demo in Asiam migrasse.</note>
+</cit>
+
+<cit n="9" xml:lang="grc"><bibl>Schol. Aristoph. Vesp. 1238 (1190) de scolio
+quodam, cujus hoc initium Aristophanes attulit</bibl><quote>Ἀδμήτου λόγον, ὦ ταῖρε, μαθὼν, τοὺς ἀγαθοὺς φίλει·
+quod pluribus explicans inter alia hoc tradit: Αἰτὸς
+δὲ (ὁ Ἀρτεμίδωρος) φησὶ, Φαινόδημον λέγειν, ὅτι φυγὰς
+ἐκ Φερῶν Ἄδμητος ἦλθε πρὸς Θησέα, τὸν Ἀλκήστιδος
+καὶ Ἱππάσου νεώτατον παῖδα, καὶ κατῳκίσθη
+παρ᾿ αὐτοῦ ἐν τῆ αὐτοῦ χώρᾳ, εἰς ὃν τὸ σκόλιον.</quote>
+<note>Fabricius in Bibl. gr. I, p. 695 ed. antiq. pro
+Φαινόδημον scripsit Φανόδημον, et sic cod. Venet.</note>
+</cit>
+
+<cit n="10" xml:lang="grc"><bibl>Etymolog. M. p. 747 ed. Sylb.</bibl><quote>Ταυροπόλον,
+    τὴν, τὴν Ἄρτεμιν· ... οἱ δὲ λέγουσιν, ὅτι τῶν Ἑλλή-<pb n="368" />
+    νων βουλομένων ἀνελεῖν τὴν Ἰφιγένειαν ἐν Αὐλίδι,
+    ἡ Ἄρτεμις ἀντέδωκεν ἔλαφον· κατὰ δὲ Φανόδημον,
+    ἄρκτον.</quote></cit>  
+
+<cit n="11" xml:lang="grc"><bibl>Tzetzes ad Lycophr. 183</bibl><quote>Ἡ δὲ Ἄρτεμις αὐτὴν
+(τὴν Ἰφιγένειαν) ἐλεήσασα, κατὰ Φανόδημον τὸν
+ἱστορικὸν, εἰς ἄρκτον μετέβαλε.</quote>
+</cit>
+
+<cit n="12" xml:lang="grc"><bibl>Suidas</bibl><quote>Ἐπὶ Παλλαδίῳ, δικαστήριον Ἀθήνησιν,
+ἐν ᾧ οἱ Ἐφέται ἀκουσίου φόνου ἐδίκαζον. Ἀργεῖοι
+γὰρ ἀπὸ. Ἰλίου πλέοντες, ἡνίκα προσέσχον Φαλήροις,
+ὑπὸ Ἀθηναίων ἀγνούμενοι ἀνῃρέθησαν. Ὕστερον δὲ
+Ἀκάμαντος γνωρίσαντος, καὶ τοῦ Παλλαδίου εὑρεθέντος,
+κατὰ χρησμὸν αὐτόθι τὸ δικαστήριον ἀπέδειξαν,
+ὡς Φανόδημος.</quote>
+<note>Eustathius ad Odyss. p. 1419 eadem iisdem 
+verbis ex Pausani&#230; Lexico affert. Cf. Hesych.,
+Harpocrat., Phavor. v. Ἐπὶ Παλλαδίῳ, qui cum
+Suida consentiunt. Apostolius VΙΙΙ, 42 habet
+ἑκουσίου pro ἀκουσίου. Perperam. Cf. Müller. in
+&#198;schyl. Eum. p. 155 et quos laudat Hermann.
+Antiquit. § 104.</note>
+</cit>
+
+<cit n="13" xml:lang="grc"><bibl>Athen&#230;us X, 10, p. 437, C</bibl><quote>Τὴν δὲ τῶν Χοῶν
+ἑορτὴν, τὴν Ἀθήνησιν ἐπιτελουμένην, Φανόδημός
+φησι Δημοφῶντα τὸν βασιλέα βουλόμενον ὑποδέξασθαι
+παραγενόμενον τὸν Ὀρέστην Ἀθήναζε· πρὸς
+δὲ τὰ ἱερὰ οὐ θέλων αὐτὸν προσιέναι, οὐδ᾿ ὁμόσπονδον
+γενέσθαι, μήπω δικασθέντα, ἐκέλευσε συγκλεισθῆναι
+τά τε ἱερά, καὶ χόα οἴνου ἑκάστῳ παρατεθῆναι, τῷ
+πρώτῳ ἐκπιόντι εἰπὼν ἆθλον δοθήσεσθαι πλακοῦντα.
+Παρήγγειλέ τε καὶ τοῦ πότου παυσαμένους τοὺς μὲν
+στεφάνους, οἷς ἐστεφανοῦντο, πρὸς τὰ ἱερὰ μὴ τιθέναι,
+διὰ τὸ ὁμωρόφους γενέσθαι τῷ Ὀρέστῃ, περὶ δὲ τὸν
+χόα τὸν ἑαυτοῦ ἕκαστον περιθεῖναι, καὶ τῇ ἱερείᾳ
+ἀποφέρειν τοὺς στεφάνους πρὸς τὸ ἐν Λίμναις τέμενος,
+ἔπειτα θύειν ἐν τῷ ἱερῷ τὰ ἐπίλοιπα· καὶ ἔκτοτε τὴν
+ἑορτὴν κληθῆναι χόας.</quote>
+</cit>
+
+<cit n="14" xml:lang="grc"><bibl>Athen&#230;us XI, 3, p. 465, A</bibl><quote>Φανόδημος δὲ πτὸς
+τῷ ἱερῷ φησι τοῦ ἐν Λίμναις Διονύσου τὸ γλεῦκος φέροντας
+τοὺς Ἀθηναίους ἐκ τῶν πίθων τῷ θεῷ κιρνάναι,
+εἶτ᾿ αὑτοῖς προσφέρεσθαι, ὅθεν καὶ Λιμναῖον κληθῆναι
+τὸν Διόνυσον, ὅτι μιχθὲν τὸ γλεῦκος τῷ ὕδατι τότε
+πρῶτον ἐπόθη κεκραμένον· διόπερ ὀνομασθῆναι τὰς
+πηγὰς νύμφας καὶ τιθήνας τοῦ Διονύσου, ὅτι τὸν οἶνον
+αὐξάνει τὸ ὕδωρ κιρνάμενον.</quote>
+</cit>
+
+<cit n="15" xml:lang="grc"><bibl>Athen. IV, 19, p. 168, A</bibl><quote>Ὅτι τοὺς ἀσώτους καὶ
+τοὺς μὴ ἔκ τινος περιουσίας ζῶντας τὸ παλαιὸν ἀνεκαλοῦντό
+τε οἱ Ἀρεοπαγῖται καὶ ἐκολαζον, ἱστόρησαν Φανόδημος
+καὶ Φιλόχορος.</quote>
+</cit>
+
+<cit n="16" xml:lang="grc"><bibl>Plutarch. Themistocl. 13</bibl><quote>Ἄμα δ᾿ ἡμέρᾳ Ξέρξης
+μὲν ἄνω καθῆτο τὸν στόλον ἐποπτεύων καὶ τὴν παράταξιν,
+ὡς μὲν Φανόδημός φησιν, ὑπὲρ τὸ Ἡράκλειον,
+ᾗ βραχεῖ πόρῳ διείργεται τῆς Ἀττικῆς ἡ νῆσος (Σαλαμίς),
+ὡς δ᾿ Ἀκεστόδωρος, ἐν μεθορίῳ τῆς Μεγαρίδος,
+ὑπὲρ τῶν καλουμένων κεράτων.</quote>
+</cit>
+           
+           <cit n="17" xml:lang="grc"><bibl>Idem Cim. 12, narrat, Persarum pr&#230;fectum
+           ad Eurymedontem</bibl> <quote>ταῖς ναυσὶ παρορμεῖν, οὐκ ὄντα
+           μάχεσθαι τοῖς Ἕλλησι πρόθυμον, ἀλλὰ προσδεχόμενον<pb n="369"/>ὀγδοήκοντα ναῦς Φοινίσσας ἀπὸ Κύπρου προσπλεούσας.
+           Ταύτας φθῆναι βουλόμενος ὁ Κίμων ἀνήχθη, βιάζεσθαι
+           παρεσκευασμένος, ἂν ἑκόντες μὴ ναυμαχῶσιν.
+           Οἱ δὲ πρῶτον μὲν, ὡς μὴ βιασθεῖεν, εἰς τὸν ποταμὸν
+           εἰσωρμίσαντο, προσφερομένων δὲ τῶν Ἀθηναίων,
+           ἀντεξέπλευσαν, ὡς ἱστορεῖ Φανόδημος, ἑξακοσίαις
+           ναυσὶν, ὡς δ᾿ Ἔφορος, πεντήκοντα καὶ τριακοσίαις.</quote></cit>
+
+<cit n="18" xml:lang="grc"><bibl>Plutarch.Cimon. c. 19, p. 491, A</bibl><quote>Cimon decessit
+in obsidione Citii: Τελευτῶν τοὺς περὶ αὑτὸν
+ἐκέλευσεν εὐθὺς ἀποπλεῖν, ἀποκρυψαμένους τὸν θάνατον
+αὐτοῦ. Καὶ συνέβη, μήτε τῶν πολεμίων, μήτε τῶν
+συμμάχων αἰσθομένων, ἀσφαλῶς αὐτοὺς ἀνακομισθῆναι,
+στρατηγουμένους ὑπὸ Κίμωνος, ὥς φησι Φανόδημος,
+τεθνηκότος ἐφ᾿ ἡμέρας τριάκοντα.</quote>
+</cit>
+
+<cit n="19" xml:lang="grc"><bibl>Athen. I, 17, p. 20, A, postquam plures θαυματοποιοὶ
+et γελωτοποιοὶ memorati sunt, hoc additur</bibl><quote>Διοπείθης δὲ ὁ Λοκρὸς, ὥς φησι Φανόδημος,
+παραγενόμενος εἰς Θήβας, καὶ ὑποζωννύμενος οἴνου
+κύστεις μεστὰς καὶ γάλακτος, καὶ ταύτας ἀποθλίβων,
+ἀνιμᾷν ἔλεγεν ἐκ τοῦ στόματος.</quote>
+</cit>
+
+<cit n="20" xml:lang="grc"><bibl>Schol. Hesiod. Ad Theog. 913, p. 303. de raptu
+proserpin&#230;</bibl><quote>Ἡρπάσθαι δὲ αὐτήν φασιν οἱ μὲν ἐκ
+Σικελίας, Βακχυλίδης δὲ ἐκ Κρήτης, Ὀρφεὺς ἐκ τῶν
+περὶ τὸν ὠκεανὸν τόπων, Φανόδημος δὲ ἀπὸ τῆς Ἀττικῆς,
+Δημάδης δὲ ἐν νάπαις.</quote>
+</cit>
+
+<cit n="21" xml:lang="grc"><bibl>Eustath. ad Iliad. Z. p. 648, 38</bibl><quote>Φαύλως οὖν ὁ
+Φανόδημος Ἀφροδίτην νομίζει τὴν Δάειραν καὶ τὴν
+αὐτὴν τῇ Δήμητρι λέγει.</quote>
+</cit>
+
+<cit n="22" xml:lang="grc"><bibl>Harpocratio</bibl><quote>Χαλκεῖα, Ὑπερίδης ἐν τῷ κατὰ
+Δημέου ξενίας. Τὰ Χαλκεῖα ἐορτὴ παρ᾿ Ἀθηναίοις
+ἀγομένη Πυανεψιῶνος ἔνῃ καὶ νέᾳ, χειρώναξι κοινὴ,
+μάλιστα δὲ χαλκεῦσιν, ὥς φησιν Ἀπολλώνιος ὁ Ἀχαρνεύς.
+Φανόδημος δὲ οὐκ Ἀθηνᾷ φησιν ἄγεσθαι τὴν
+ἑορτὴν, ἀλλὰ Ἡφαίστῳ.</quote> <note>Et Phavorin., ubi eadem 
+leguntur, Etym. M.,Pollux VII, 105. V. Welcker.
+de &#198;schyl. Trilog. p. 290.</note>
+</cit>
+           
+           <cit n="23" xml:lang="grc"><bibl>Hesych.</bibl> <quote>Γαλεοὶ, μάντεις· οὗτοι κατὰ τὴν Σικελίαν
+           ᾤκησαν, καὶ γένος τὶ, ὥς φησι Φανόδημος καὶ
+           Ῥίνθων Ταραντῖνοι.</quote>
+           <note>Editores recte scripserunt Ταραντῖνος pro Ταραντῖνοι.
+               Phavorinus h&#230;c repetivit, nisi quod
+               omisit καὶ Ῥίνθων Ταραντῖνοι. De vatibus istis cf.
+               Cic. De divin. I, 20, Ælian. V. H. XII, 46, Steph.
+               B. V, Γαλεῶται.</note></cit>
+
+<cit n="24" xml:lang="grc"><bibl>Hesychius s. v. Ταῦρος</bibl><quote>... Φανόδημος (φησὶ)
+ρὰς κριθὰς προσαγορεύεσθαι ταῦρον, ὅτι κέρας ἔχουσιν.</quote>
+</cit>
+           
+           <cit n="25" xml:lang="grc"><bibl>Hesychius</bibl> <quote>Ἀχάνας τινὲς μὲν Περσικὰ μέτρα,
+           Φανόδημος δὲ κίστας, εἰς ἃς κατετίθεντο τοὺς ἐπισιτισμοὺς
+           οἱ ἐπὶ θεωρίας ἰόντες, οἱ εἰς θεοὺς στελλόμενοι
+           (codex τιλλόμενοι).</quote>
+           <note>Schol. ad Aristoph. Acharn. 109, Suidas,
+               Phavorinus h. v. et Eustath. ad Homer., p. 1446
+               et 1854 Rom. eadem fere habent, sed Phanodemum
+               non nominant. Verba οἱ εἰς θεοὺς στελλόμενοι
+               glossema esse sponte intelligitur.</note></cit>
+           <pb n="370"/>
+
+<cit n="26" xml:lang="grc"><bibl>Harpocrat.</bibl><quote>Ἑκάτης νῆσος, Λυκοῦργος κατὰ Μενεσαίχμου.
+Πρὸ τῆς Δήλου κεῖταί τι νησύδριον, ὅπερ
+ὑπ᾿ ἐνίων καλεῖται Ψαμμητίχη, ὡς Φανόδημος ἐν
+πρώτῃ Δηλιακῶν. Ψαμμητίχην δὲ κεκλῆσθαί φησιν
+ὁ Σημὸς ἐν τῇ πρώτῃ, διὰ τὸ τοῖς Ψαμμήτοις τιμᾶσθαι
+τὴν θεόν. Ψάμμητα δ᾿ ἐστὶ ψαιστῶν τις ἰδέα.</quote>
+<note>Phavorinus omisit ἐν πρώτῃ ante Δηλιακῶν et
+scripsit Ψαμμηδύχη; Suidas qui Phanodemum
+non nominat, Ψαμμίτη exhibet, pro Ψαμμηδίχη,
+et Ψάμμιτα pro Ψάμμητα.—Monuimus in dissert.
+de Phanodemi scriptis, non esse, cur Phanodicum
+pro Phanodemo in hoc loco substituamus
+autcum Siebeli scribamus: ... Ὡς Φανόδημος·
+ἐν δὲ πρώτῃ Δηλ. Ψαμμ. κεκλ. Φησὶν ὁ Σῆμος διὰ
+τὸ τοῖς Ψαμμήτοις τιμᾶσθαι τὴν θεόν.</note>
+</cit>
+       </div>
+
+			</div>
+		</body>
+	</text>
+</TEI>
