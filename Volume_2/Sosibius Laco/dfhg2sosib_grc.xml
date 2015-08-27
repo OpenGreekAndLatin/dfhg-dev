@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2sosib_grc">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2sosib_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.1719"
+                                >Sosibius</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft#page/624/mode/2up"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Müller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#UK" when="2015-05-29">Created the XML file</change>
+            <change who="#UK" when="2015-05-29">Encoded the text</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="2" xml:lang="grc">
+                <div type="textpart" subtype="book" n="4">
+
+                    <head xml:lang="grc">
+                        <title ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1685.tlg004"
+                            xml:lang="la">SOSIBIUS LACO.</title>
+                    </head>
+
+                    <pb n="624"/>
+
+                    <p>Sosibius Laco, grammaticus <foreign xml:lang="grc">τῶν ἐπιλυτικῶν</foreign>
+                        s. <foreign xml:lang="grc">λυτικῶν <note type="footnote">In <bibl>Vit. Arati
+                                    cod. Matritensis</bibl>, in <bibl>Βιογρ. Westermanni p.
+                                    58</bibl>, leguntur h&#230;c: <cit xml:lang="grc">
+                                    <quote><persName role="author" type="alt">Δωσίθεος</persName> δὲ
+                                        ὁ πολιτικός φησιν καὶ πρὸς Ἀντίοχον τὸν Σελεύκον
+                                            <note>(Aratum venisse dicit)</note></quote>
+                                </cit>. <bibl>Meinek. ad Euphor. p. 16 not.</bibl> reponendum
+                                suspicatur <foreign xml:lang="grc"><persName role="author"
+                                        >Σωσί&#976;ιος</persName> ὁ λυτικὸς</foreign> vel <foreign
+                                    xml:lang="grc">ὁ ἐπιλυτικός</foreign>. Equidem intellexerim
+                                Dositheum, quem una cum <persName role="author">Callippo</persName>,
+                                    <persName role="author">Eudoxo</persName>, allis astronomis de
+                                siderum ortu laudat <bibl>Plinius H. N. XVIII, 74</bibl>. Quare
+                                nescio an pro <foreign xml:lang="grc">ὁ πολιτικός</foreign> ex
+                                vetusta interpretatione latina reponendum sit: <hi rend="italics"
+                                    >Pelusinus</hi>.—Ex nostri <persName role="author"
+                                    >Sosibii</persName> familia nescio an oriundi sint Sosibii,
+                                pater et filius, qui in aula Ptolem&#230;i Philopatoris et Epiphanis
+                                vixerunt. Frequens eorum mentio ap. <bibl>Polybium (v. indicem s. h.
+                                    v.)</bibl>. Cf. <bibl>Plutarch. Cleomen. c. 23</bibl>;
+                                    <bibl>Zenob. III, 94</bibl>. Alius Sosibius memoratur ap.
+                                    <bibl>Diog. L. II, 46</bibl>, Anaxagor&#230; &#230;qualis; alius
+                                Sosibius Britannici educator, ap. <bibl>Tacit. Annal. XI, 1. Conf.
+                                    Malala p. 224 ed. Bonn</bibl>. – Apud <bibl>schol. Theocrit. ad
+                                    Id. X</bibl>, et <bibl>Tzetz. Hist. II, 592</bibl>, pro vulgata
+                                    <foreign xml:lang="grc"><persName role="author"
+                                        >Σωσί&#976;ιος</persName></foreign> legendum est <foreign
+                                    xml:lang="grc"><persName role="author" type="alt"
+                                        >Σωσίθεος</persName></foreign>, monente <bibl>Jonsio p.
+                                    152</bibl>. Apud <bibl>Tzetzen Hist. V, 202</bibl>, ubi: <cit
+                                    xml:lang="grc">
+                                    <quote>Ἄτλας ὁ Λί&#976;υς, ὥς φασι παῖδες τῶν Αἰγυπτίων, καὶ
+                                        μᾶλλον ὅσοι πείθονται Σώφιδι χρονογράφω, ἐν χρόνοις ἦν
+                                        Ὀσίριδος</quote>
+                                </cit>, non latet Sosibii mentio, sed scribendum est: <foreign
+                                    xml:lang="grc">Σώθιδι</foreign>, chronologo ficto ex
+                                chronologiis, in quibus tempora &#198;gyptiorum ex periodi
+                                Sothiac&#230; rationibus adornata erant.</note> καλουμένων</foreign>
+                        <note>(<ref>v. fr. 6 et 21</ref>. <bibl>Lehrs. De Aristarchi stud. Hom. p.
+                                200 sqq.</bibl>)</note>, sub Ptolem&#230;o Philadelpho vixit
+                        Alexandri&#230;, uti constat ex Athen&#230;o <note>(v. <ref>fr. 21</ref>
+                            coll. <ref>fr. 22</ref>)</note>. Verum jam sub Ptolem&#230;o Sotere in
+                        &#198;gyptum venisse videtur, si quidem recte statuimus ad Nostrum referenda
+                        esse verba <persName role="author">Plutarchi</persName> in <bibl>Os. Et Is.
+                            c. 28</bibl>: <quote>Πτολεμαῖος ὁ Σωτὴρ ὄναρ εἶδε τὸν ἐν Σινώπῃ τοῦ
+                            Πλούτωνος κολοσσὸν, οὐκ ἐπιστάμενος οὐδὲ ἑωρακὼς πρότερον . . . . καὶ
+                            διηγουμένῳ τοῖς φίλοις τὴν ὄψιν εὑρέθη πολυπλανὴς ἄνθρωπος, ὄνομα
+                                <persName role="author">Σωσί&#976;ιος</persName>, ἐν Σινώπῃ φάμενος
+                            ἑωρακέναι τοιοῦτον κολοσσὸν, οἷον ὁ βασιλεὺς ἰδεῖν ἔδοξεν.</quote> Cf.
+                            <ref>Manethonis fr. 62</ref>. — Ex scriptis <persName role="author"
+                            >Sosibii</persName> ad nos proxime pertinet liber qui <title
+                            xml:lang="grc">Χρόνων ἀναγραφή</title> inscribitur. Fragmenta ejus
+                        perrara quidem, magni autem ad pernoscendas rationese veteris
+                        chronologi&#230; sunt momenti. Tempora rerum ad seriem annosque regum
+                        Laced&#230;moniorum, ubi fieri id poterat, auctor revocanit. Pr&#230;terea
+                            <persName role="author">Sosibius</persName>
+                        <title xml:lang="la">De antiquitatibus Laconics</title> scripsit, sive uno
+                        ampliore opere id fecerit, sive sigulas argumenti partes peculiaribus
+                        libellis tractanerit. Reliqua <persName role="author">Sosibii</persName>
+                        scripta, excepto libro <title xml:lang="grc">Περὶ βασιλείας πρὸς
+                            Κάσσανδρον</title>
+                        <note>(<ref>fr. 22</ref>)</note>, si quidem recte id nonnulli ad <persName
+                            role="author">Sosbium</persName> referebant, isque <persName
+                            role="author">Sosibius</persName>, cui epinicium Callimachus composuisse
+                        dicitur, Laco noster est, grammatici argumenti sunt.</p>
+
+                    <div type="textpart" subtype="work" n="1">
+                        <ab><title type="main" xml:lang="grc">ΧΡΟΝΩΝ ΑΝΑΓΡΑΦΗ.</title></ab>
+
+                        <cit n="1" xml:lang="la">
+                            <bibl>Censormus De die nat. c. 21</bibl>
+                            <quote><persName role="author">Sosibius</persName> scripsit esse CCCXCV
+                                    <note>(sc. annos ab excidio Troj&#230; usque ad Olympiadem
+                                    primam)</note>.</quote>
+                        </cit>
+
+                        <cit n="2" xml:lang="grc">
+                            <bibl>Clem. Alex. Strom. I, p. 141 Syl.</bibl>
+                            <quote><persName role="author">Σωσί&#976;ιος</persName> δὲ ὁ Λάκων ἐν
+                                    <title>Χρόνων ἀναγραφῇ</title> κατὰ τὸ ὄγδοον ἔτος τῆς Χαρίλλου
+                                τοῦ Πολυδέκτου βασιλείας <persName role="author">Ὅμηρον</persName>
+                                φέρει. Βασιλεύει μὲν οὖν Χάριλλος ἔτη ἑξήκοντα τέσσαρα <note>(l.
+                                        <foreign xml:lang="grc">τρία</foreign>)</note>, μεθ᾿ ὃν υἱὸς
+                                Νίκανδρος ἔτη τριάκοντα ἐννέα· τούτου κατὰ τὸ τριακοστὸν τέταρτον
+                                ἔτος τεθῆναί φησι τὴν πρώτην ὀλυμπιάδα, ὡς εἶναι ἐννενήκοντὰ που
+                                ἐτῶν πρὸ τῆς τῶν Ὀλυμπίων θέσεως <persName role="author"
+                                    >Ὅμηρον</persName>.</quote>
+                            <note xml:lang="la">Vide <bibl>Fr. chronol. p. 133</bibl>.</note>
+                        </cit>
+
+                        <cit n="3" xml:lang="grc">
+                            <bibl>Athen&#230;us XIV, p. 635, F</bibl>
+                            <quote>Ἐγένετο δὲ ἡ θέσις τῶν Καρνείων κατὰ τὴν ἕκτην καὶ εἰκοστὴν
+                                ὀλυμπιάδα, ὡς <persName role="author">Σωσί&#976;ιός</persName> φησιν
+                                ἐν τῷ <title type="alt">Περὶ χρόνων</title>.</quote>
+                        </cit>
+                    </div>
+
+                    <!-- How to encode this survey? -->
+                    <div type="textpart" subtype="column" n="1">
+                        <ab>
+                            <lb n="1"/>TROJANA EXPEDITIO. . . . . . . . 1180 a. C. 
+                            <lb n="2"/>Troj&#230; excidium . . . . . . . . . . 1171 
+                            <lb n="3"/>(an. 395 ante 776.) 
+                            <lb n="4"/>REDITUS HERACLIDARUM . . . . . . 1091 (5x63 a. 776).
+                            <lb n="5"/> (<hi rend="italics">an.</hi> 80 <hi rend="italics" >post.</hi> 1171.) 
+                            <lb n="6"/><hi rend="italics">Priores reges sex annis</hi> 219 . . . 1091–873 
+                            <lb n="7"/>Charilai an. 1 . . . . . . . . . . . 872 
+                            <lb n="8"/> » » 8 HOMERUS (<hi rend="italics" >Lycurg.</hi>) 865 (5x63 p. 1180). 
+                            <lb n="9"/> » » 63 . . . . . . . . . . 810 
+                            <lb n="10"/>Nicandri an. 1 . . . . . . . . . . . 809 
+                            <lb n="11"/> » » 34 Olymp. 1 . . . . 776 <lb n="12"/> » » 39 . . . . . . . . . . . 771 
+                            <lb n="13"/>Theopompi an. 1. . . . . . . . . 770 
+                            <lb n="14"/>CARNEA INSTITUTA Ol. 26, 1 . . . . 676 (8x63 p. 1180).</ab>
+
+
+                        <p>Charilao pro 64 annis tribui 63. Hunc enim numerum postulant rationes
+                            cyclic&#230; hujus chronologi&#230;; neque violenta nutatio est quum
+                            s&#230;pissime voces <foreign xml:lang="grc">τρία</foreign> et <foreign
+                                xml:lang="grc">τέτταρα</foreign> confundantur. Dixi de <persName
+                                role="author">Sosibii</persName> computo in <bibl>Fragm. Chronol. p.
+                                121. 128 133</bibl>. <!-- FRAGMENTA HIST. GR. –VOL. II. 40 -->
+                            <pb n="625" break="no"/> Vulgarem rationem <persName role="author"
+                                >Sosibius</persName> in eo sequitur quod res, qu&#230; epocharum
+                            instar sunt, ab &#230;ra Trojana proficiscens exputat, uti patet ex
+                            epochis Homeri et ludorum Carneorum. Sed in ipsa epocha Trojana
+                            constituenda ab ea via, quam plerique inierunt, recedit. Etenim postquam
+                            spatium inter Trojam et Heraclidas intermedium, quod in vett. <foreign
+                                xml:lang="grc">ἀναγραφαῖς</foreign> erat annorum 126, ad annos 90
+                            quidam revocanerant, plurimi, qui id probarunt, ita fecerunt, ut in
+                            epocha Trojana veterem numerum cyclicum retinerent, atque ab hoc
+                            proficiscentes annum reditus Heraclidarum exputarent. Sic v. c. Castor
+                            epocham Trojanam ponit an. 1217 <note>(= 7x63 ante Ol. 1)</note>, et
+                            hinc annos 90 deducens Heraclidarum descensum assignat anno 1127. Contra
+                            Laco noster ab epocha, quam Heraclidarum reditui veteres <foreign
+                                xml:lang="grc">ἀναγραφαὶ</foreign> tribuebant <note>(an. 1091=5x63
+                                ante Ol. 1)</note>, proficiscitur, ut additis annis 90 epocham
+                            Trojanam constituat. Eandem rationem etiam is secutus est, ex quo
+                            Eusebius suum Proclidarum catalogum mutuatus est, nisi quod Heraclidarum
+                            regni initium uno cyclo inferiorem ponat <note>(1028 a. C. = 4x63 a. Ol.
+                                1)</note>, ideoque usque ad Charilaum non sex, sed tres tantum reges
+                            recenset. Idem ita fecit, ut ab ep. Trojana usque ad finem Theopompi
+                            sint anni 368 sive sex cycli. Quodsi similiter <persName role="author"
+                                >Sosibius</persName> quoque rem adornavit, sequitur Theopompum apud
+                            eum regnasse annis 31 <note>(770–740)</note>, adeo ut a Troja ad finem
+                            Theopompi septem sint cycli.–Homeri epocha simul etiam Lyrurgi esse
+                            debet. Qu&#230; quum Charilai anno octavo adscribatur, patet eam de
+                            anno, quo leges Lyrurgi esse debet. Qu&#230; quum Charilai anno octavo
+                            adscribatur, patet eam de anno, quo leges Lycurgus scripserit,
+                            intelligendam esse. Alii annum quo tutelam Lycurgus suscepit, pro epocha
+                            habebant. Sic etiam Eusebii auctor fecit, apud quem Charilaus regnum
+                            suscipit an. 884. Quare ille ita regum annos adornavit, ut a Troja usque
+                            ad Charilaum sint anni 252 sive 4x63 <note>(<bibl>Fragm. Chron. p.
+                                    186</bibl>)</note>. De Carneis v. <bibl>Hermann. l. l. § 53, 29
+                                sqq.</bibl></p>
+                        <p>Primus in Carneis ludis vicit Terpander, Mid&#230; regis &#230;qualis,
+                            teste <persName role="author">Hellanico</persName>
+                            <note>(<ref>fr. 122, 123</ref>)</note> in Carneonicis. Jam quum Midas
+                            paullo antiquior esse debeat <note>(<bibl>Herodot. I, 14</bibl>)</note>
+                            Gyge <note>(713—678)</note>, Lydorum rege; alii Carnea jam ante Ol. 26
+                            celebrata esse suspicantur <note>(uti <bibl>Hermann. l.
+                                l.</bibl>)</note>, alii omnia testimonia, ex quibus Terpander jam
+                            longe ante Ol. 26 floruisset, propter <persName role="author"
+                                >Sosibii</persName> locum rejicienda putant <note>(v. <bibl>Fischer.
+                                    tabb. chron. ad Ol. 26</bibl>)</note>. At pendent h&#230;c omnia
+                            ex diversis systematis chronologicis, quibus quisque se auctor
+                            addixerat. Quodsi <persName role="author">Sosibii</persName> computum ad
+                            veterum <foreign xml:lang="grc">ἀναγραφῶν</foreign> rationes, ex quibus
+                            Trojana epocha anno 1217 a. C. assignatur, revocaneris, sequitur
+                            Carneorum institutionem assignandam esse anno 713 a. C. <note>(Ol.
+                                16)</note>, adeo ut Terpander percommode Mid&#230; regis
+                            &#230;qualis esse posset, eodem modo, quo <persName role="author"
+                                >Sosibius</persName>, si de Mida et Gype locutus foret, tempora
+                            eorum ad Olymp. 26 detulisset.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="2">
+                        <ab><title type="main" xml:lang="grc">ΠΕΡΙ ΤΩΝ ΕΝ ΛΑΚΕΔΑΙΜΟΝΙ
+                                ΟΥΣΙΩΝ.</title></ab>
+
+                        <cit n="4">
+                            <bibl>Αthen&#230;us XV, p. 674, A</bibl>
+                            <quote>Καὶ γάρ καὶ Λακεδαίμονιοι καλάμῳ στεφανοῦνται ἐν τῇ τῶν Προμαχίων
+                                ἐορτῇ, ὥς φησι <persName role="author">Σωσί&#976;ιος</persName> ἐν
+                                    <title type="alt">Λακεδαίμονι θυσιῶν</title>, γράφων οὕτως·
+                                    <quote>«Ἐν ταύτῃ συμ&#976;αίνει, τοὺς μὲν ἀπὸ τῆς χώρας καλάμοις
+                                    στεφανοῦσθαι ἢ στλεγγίδι, τοὺς δ᾿ ἐκ τῆς ἀγωγῆς παῖδας
+                                    ἀστεφανώτους ἀκολουθεῖν.<sic>«</sic></quote></quote>
+                            <note xml:lang="la">Cf. Müller. Dor. II, p. 25.</note>
+                        </cit>
+
+                        <cit n="5" xml:lang="grc">
+                            <bibl>Id. XV, p. 678, B</bibl>
+                            <quote>Θυρεατικοί. Οὕτω καλοῦνται στέφανοί τινες παρὰ Λακεδαιμονίους, ὥς
+                                φησι <persName role="author">Σωσί&#976;ιος</persName> ἐν τοῖς <title
+                                    type="alt">Περὶ θυσιῶν</title>, ψιλίνους αὐτοὺς φάσκων νῦν
+                                ὀνομάζεσθαι, ὄντας ἐκ φοινίκων. Φέρειν δ᾿ αὐτοὺς ὑπόμνημα τῆς ἐν
+                                Θυρέᾳ γενομένης νίκης τοὺς προστάτας τῶν ἀγομένων χορῶν ἐν τῇ ἑορτῇ
+                                ταύτῃ, ὅτε καὶ τὰς Γυμνοπαιδιὰς ἐπιτελοῦσι. Χοροὶ δ᾿ εἰσὶ τὸ μὲν
+                                εὐπροσώπων <note>(<foreign xml:lang="grc">πρόσω</foreign>
+                                    libri)</note> παίδων, τὸ δ᾿ ἐξ ἀρίστων <note>( <foreign
+                                        xml:lang="grc">ἀρίστου</foreign> libri)</note> ἀνδρῶν,
+                                γυμνῶν ὀρχουμένων καὶ ᾀδόντων Θαλήτου καὶ Ἀλκμᾶνος ᾄσματα καὶ τοὺς
+                                Διονυσοδότου τοῦ Λάκωνος παιᾶνας.</quote>
+                            <note xml:lang="la"><p>Cf. <bibl>Müller. Dor. II, p. 373</bibl>,
+                                        <bibl>Hermann. l.l. § 53, 28</bibl>.—<foreign xml:lang="grc"
+                                        >Ψιλίνους</foreign>] Fortasse huc pertinet <bibl>glossa
+                                        Hesychii</bibl>: <cit xml:lang="grc">
+                                        <quote><app>
+                                                <rdg>Ψιλός</rdg>
+                                                <rdg cert="low">ψίλινος</rdg>
+                                            </app>, στέφανος πτερινός.</quote>
+                                    </cit> Vide <bibl>Toup. Epist. crit. p. 76</bibl>. Idem
+                                        <bibl>Hesychius</bibl>: <cit xml:lang="grc">
+                                        <quote>Ψιλίον, πτερόν. . . ἢ εἶδος ἄνθους.</quote>
+                                    </cit></p>
+                                <p>Sequuntur alia qu&#230;dam, qu&#230; ad Laced&#230;moniorum
+                                    antiquitates spectant.</p></note>
+                        </cit>
+
+                        <pb n="626"/>
+
+                        <cit n="6" xml:lang="grc">
+                            <bibl>Schol. Pind Ol. VI, 46</bibl>
+                            <quote>Ἡ δὲ Λακωνικὴ Πιτάνη Εὐρώτα τοῦ ποταμοῦ γενεαλογεῖται εἶναι, ὡς
+                                    <persName role="author">Σωσί&#976;ιος</persName>
+                                <note>(cod. <foreign xml:lang="grc"><persName role="author"
+                                            type="alt">Σωσινγιος</persName>.</foreign> Correx.
+                                        <bibl>Gerhard.</bibl>)</note></quote>
+                            <note xml:lang="la">Ap. <bibl>Hesych. II, p. 966</bibl> menoratur
+                                    <foreign xml:lang="grc">ἀγὼν γυμνικὸς ἐν Πιτάνῃ
+                                    ἀγόμενος</foreign>.</note>
+                        </cit>
+
+                        <cit n="7" xml:lang="grc">
+                            <bibl>Ιd. ibid. Ol. VII, 66</bibl>
+                            <quote><persName role="author">Σωσί&#976;ιος</persName> Ἐρμῆν φησι
+                                    <note>(sc. <foreign xml:lang="grc">Πλῆξαι τοῦ Διὸς τὴν κεφαλὴν,
+                                        ὅτε τὴν Ἀθηνᾶν ἐγέννα</foreign>)</note>.</quote>
+                            <note xml:lang="la">Cf. <ref>Aristoclis fr. 4</ref>.</note>
+                        </cit>
+
+                        <cit n="8" xml:lang="grc">
+                            <bibl>Id. Pyth. II, 127</bibl>
+                            <quote><persName role="author">Σωσί&#976;ιος</persName> δὲ (φησὶ) τὰ
+                                ὑπορχήματα μέλη πάντα Κρητικὰ λέγεοθαι.</quote>
+                            <note xml:lang="la">Cf. <bibl>Müller. Dor. I, p. 351</bibl>.</note>
+                        </cit>
+
+                        <cit n="9" xml:lang="grc">
+                            <bibl>Suidas</bibl>
+                            <quote><persName role="author">Σωσί&#976;ιος</persName>, Λάκων,
+                                γραμματικὸς τῶν ἐπιλυτικῶν καλουμένων.* Ἐν τούτοις δ᾿ ἱστορεῖ καὶ
+                                τοῦτο, ὅτι εἶδός τι κωμῳδίας ἐστὶ καλούμενον δικηλιστῶν καὶ [ἤτοι?]
+                                μιμηλῶν. Περὶ τῶν [μιμηλῶν] ἐν Λακωνικῇ ἱστορουμένων παλαιῶν
+                                        <note>(<foreign xml:lang="grc">παιδιῶν</foreign> conj.
+                                    Bernh. pro <foreign xml:lang="grc">παλαιῶν</foreign>; addere
+                                    quoque eam possis)</note>, καὶ ἄλλα.</quote>
+                            <note xml:lang="la">Post <foreign xml:lang="grc">καλουμένων</foreign>
+                                titulum libri excidisse patet. Transponenda huc videntur verba
+                                    <foreign xml:lang="grc">Περὶ τῶν . . . παιδιῶν</foreign>,
+                                monente Bernhardyo. Ceterum vereor ne titulus ex
+                                    <bibl>Athen&#230;i</bibl> loco (<ref>fr. 10</ref>) effictus sit.
+                                Deest quidem apud <bibl>Athen&#230;um</bibl> vox <foreign
+                                    xml:lang="grc">μιμηλῶν</foreign>; sed nescio an e nostro loco
+                                reponenda sit pro <foreign xml:lang="grc">μιμητάς</foreign> in
+                                verbis <foreign xml:lang="grc">δικηλισταί, ὡς ἄν τις σκ. εἴτῃ καὶ
+                                    μιμητάς</foreign>. Vocem <foreign xml:lang="grc"
+                                    >μιμηλῶν</foreign> uncis inclusi, utpote male repetitam.</note>
+                        </cit>
+
+                        <cit n="10" xml:lang="grc">
+                            <bibl>Athen&#230;us XIV, p. 621, D</bibl>
+                            <quote>Παρὰ δὲ Λακεδαιμονίοις κωμικῆς παιδιᾶς ἦν τις τρόπος παλαιὸς, ὥς
+                                φησι <persName role="author">Σωσί&#976;ιος</persName>, οὐκ ἄγαν
+                                σπουδαῖος, ἅτε δὴ κἀν τούτοις τὸ λιτὸν τῆς Σπάρτης μεταδιωκούσης.
+                                Ἐμιμεῖτο γάρ τις ἐν εὐτελεῖ τῇ λέξει κλέπτοντάς τινας ὀπώραν, ἢ
+                                ξενικὸν ἰατρὸν τοιαυτὶ λέγοντα, ὡς Ἄλεξις ἐν Μανδραγοριζομένῃ διὰ
+                                τούτων παρίστησιν· <lg>
+                                    <l>Ἐὰν ἐπιχώριος</l>
+                                    <l>ἰατρὸς εἴπῃ, τρυ&#976;λίον τούτῳ δότε</l>
+                                    <l>πτισάνης ἔωθεν, καταφρονοῦμεν εὐθέως·</l>
+                                    <l>ἂν δὲ πτισάναν καὶ τρυ&#976;λίον, θαυμάζομεν.</l>
+                                    <l>Καὶ πάλιν ἐὰν μὲν τευτλίον παρεἱδομεν·</l>
+                                    <l>ἐὰν δὲ σεῦτλον, ἀσμένως ἠκούσαμεν·</l>
+                                    <l>ὡς οὐ τὸ σεῦτλον ταυτὸν ὂν τῷ τευτλίῳ.</l>
+                                </lg> Ἐκαλοῦντο δ᾿ οἱ μετιόντες τὴν τοιαύτην παιδιὰν παρὰ τοῖς
+                                Λάκωσι δικηλισταὶ, ὡς ἄν τις σκευοποιοὺς εἴπῃ καὶ μιμητάς. Τοῦ δὲ
+                                εἴδους τῶν δικηλιστῶν πολλαὶ κατὰ τόπους εἰσὶ προσηγορίαι. Σικυώνιοι
+                                μέν γὰρ φαλλοφόρους αὐτοὺς καλοῦσιν, ἄλλοι δ᾿ αὐτοκα&#976;δάλους· οἱ
+                                δὲ φλύακας, ὡς Ἰταλοί· σοφιστὰς δὲ οἱ πολλοί· Θη&#976;αῖοι δὲ, τὰ
+                                πολλὰ ἰδίως ὀνομάξειν εἰωθότες, ἐθελοντάς.</quote>
+                            <note xml:lang="grc">Cf. <bibl>Müller. Dor. II, p. 344</bibl>.</note>
+                        </cit>
+
+                        <cit n="11" xml:lang="grc">
+                            <bibl>Zenob. I, 54</bibl>
+                            <quote>Ἄκουε τοῦ τὰ τέσσσαρα ὦτα ἔχοντος: . . . Ἄλλοι δὲ τὴν παροιμίαν
+                                παραγγέλλειν τῶν ἀληθευόντων ἀκούειν· οὐδεὶς γὰρ ἀψευδέστερος τοῦ
+                                Ἀπόλλωνος, ὂν τετράχειρα καὶ τετράωτον ἱδρύσαντο Λακεδαιμόνιοι, ὥς
+                                φησι <persName role="author">Σωσί&#976;ιος</persName>, ὅτι τοιοῦτος
+                                ὤφθη τοῖς περὶ Ἀμύκλαν μαχομένοις.</quote>
+                            <note xml:lang="la">Cf. <bibl>Müller. Dor. I, p. 358, p. <num>9<gap
+                                            reason="illegible" quantity="1" unit="character"
+                                    /></num></bibl>.</note>
+                        </cit>
+
+                        <pb n="627"/>
+
+                        <cit n="12" xml:lang="grc">
+                            <bibl>Plutarch. Lycurg. c. 25, 4</bibl>
+                            <quote>Οὐδὲ γὰρ αὐτὸς ἦν ἀκράτως αὐστηρὸς ὁ Λυκοῦργος· ἀλλὰ καὶ τὸ τοῦ
+                                Γέλωτος ἀγαλμάτιον ἐκεῖνον ἱδρύσασθαι <persName role="author"
+                                    >Σωσί&#976;ιος</persName> ἱστορεῖ, τὴν παιδιάν ὥσπερ ἥδυσμα τοῦ
+                                πόνου καὶ τῆς διαίτης ἐμ&#976;αλόντα κατὰ καιρὸν εἰς τὰ συμπόσια καὶ
+                                τὸς τοιαύτας διατρι&#976;άς.</quote>
+                            <note xml:lang="la">Cf. <bibl>Müller. Dor. II, p. 390</bibl>.</note>
+                        </cit>
+
+                        <cit n="13" xml:lang="grc">
+                            <bibl>Athen&#230;us III, p. 78, C</bibl>
+                            <quote><persName role="author">Σωσί&#976;ιος</persName> δ᾿ ὁ Λάκων
+                                ἀποδεικνὺς εὕρημα Λιονύσου τὴν συκῆν, διὰ τοῦτό φησι καὶ
+                                Λακεδαιμονίους συκίτην Διόνυσον τιμᾶν.</quote>
+                        </cit>
+
+                        <cit n="14" xml:lang="grc">
+                            <bibl>Clemens Alex. Protr. c. 2, p. 11,23 Sylb.</bibl>
+                            <quote>Ἔστι καὶ Ποδάγρας Ἀρτέμιδος ἐν τῇ Λακωνικῇ ἱερὸν, ὥς φησι
+                                    <persName role="author">Σωσί&#976;ιος</persName>.</quote>
+                        </cit>
+
+                        <cit n="15" xml:lang="grc">
+                            <bibl n="1">Idem ibid. p. 10, 46</bibl>
+                            <quote n="1"><persName role="author">Σωσί&#976;ιος</persName> δὲ καὶ τὸν
+                                Ἡρακλέα πρὸς τῶν Ἱπποκοωντίδων κατὰ τῆς χειρὸς οὐτασθῆναι
+                                λέγει.</quote>
+                            <bibl n="2">Arnobius anv. Gent. IV, 12</bibl>
+                            <quote n="2" xml:lang="la">Non ab Hippocoontis liberis ipsum <persName
+                                    role="author">Sosibius</persName> Herculem cruciatum tulisse
+                                pronuntiat?</quote>
+                            <!-- how/where to encode language of second quote? -->
+                            <note xml:lang="la">Cf. Diodor., IV, 33.</note>
+                        </cit>
+
+                        <cit n="16" xml:lang="grc">
+                            <bibl>Schol. Eur. Orest. 1632</bibl>
+                            <quote>Ὅτι καὶ ἡ Ἑλένη τοῖς χειμαζομένοις κατὰ θάλατταν, ἐπήκοός ἐστι,
+                                κατὰ <persName role="author">Εὐριπίδην</persName> σεσημείωται· ὁ
+                                μέντοι <persName role="author">Σωσί&#976;ιος</persName> ἔμπαλιν
+                                οἴεται οὐκ εὐμενῶς αὐτὴν ἐπιφαίνεσθαι. Πολέμων δὲ</quote>
+                            <note xml:lang="la"><foreign xml:lang="grc">κ. τ. λ.</foreign> De re v.
+                                    <bibl>Welcker. Trilog. p. 599, 288 sqq</bibl>.</note>
+                        </cit>
+
+                        <cit n="17" xml:lang="grc">
+                            <bibl>Diogenes L. I, 115, de Epimenide</bibl>
+                            <quote>Καὶ τὸ σῶμα αὐτοῦ φυλάσσουσι Λακεδαιμόνιοι παρ᾿ ἑαυτοῖς κατά τι
+                                λόγιον, ὥς φησι <persName role="author">Σωσί&#976;ιος</persName> ὁ
+                                Λάκων.</quote>
+                            <note xml:lang="la">V. <bibl>Müller. Dor. II, p. 395</bibl>.</note>
+                        </cit>
+
+                        <cit n="18" xml:lang="grc">
+                            <bibl>Hesychius</bibl>
+                            <quote>Ἠλακάτια, ἀγὼν ἐν Λακεδαιμονίᾳ, ἐπὶ Ἠλακάτῳ, ὃς ἦν ἐρώμενος
+                                Ἡρακλέους, ὥς φησι <persName role="author"
+                                >Σωσί&#976;ιος</persName>.</quote>
+                            <note xml:lang="la">Cf. <bibl>Μüller. l. l. I, p. 451</bibl>;
+                                    <bibl>Hermann. l. l. §53, 17</bibl>. Ex eodem <persName
+                                    role="author">Sosibio</persName> fluxerint reliqua qu&#230; de
+                                ludis festisque Laconicis apud <persName role="author"
+                                    >Hesychium</persName> leguntur.</note>
+                        </cit>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="3">
+                        <ab><title type="main" xml:lang="grc">ΠΕΡΙ ΑΛΚΜΑΝΟΣ.</title></ab>
+                        <div type="textpart" subtype="book" n="1">
+                            <ab><note>E LIBRO TERTIO.</note></ab>
+
+                            <cit n="19" xml:lang="grc">
+                                <bibl n="1">Athen&#230;us III, p. 115, A</bibl>
+                                <quote n="1"><persName role="author">Σωσί&#976;ιος</persName> δ᾿ ἐν
+                                        <num type="ordinal" value="3">τρίτῳ</num>
+                                    <title>Περὶ Ἀλκμᾶνος</title> κρί&#976;ανά φησι λέγεσθαι
+                                    πλακοῦντάς τινας τῷ σχήματι μαστοειδεῖς.</quote>
+                                <bibl n="2">Idem XIV, p. 646, A</bibl>
+                                <quote n="2">Κρι&#976;άνας· πλακοῦντάς τινας ὀνομαστικῶς <persName
+                                        role="author">Ἀπολλόδωρος</persName> παρ᾿ <persName
+                                        role="author">Ἀλκμᾶνι</persName>. Ὁμοίως καὶ <persName
+                                        role="author">Σωσί&#976;ιος</persName> ἐν <num
+                                        type="ordinal" value="3">τρίτῳ</num>
+                                    <title>Περὶ Ἀλκμᾶνος</title>, τῷ σχήματι μαστοειδεῖς εἶναι
+                                    φάσκων αὐτοὺς, χρῆσθαι δ᾿ αὐτοῖς Λάκωνας πρὸς τὰς τῶν γυναικῶν
+                                    ἑστιάσεις· περιφέρειν τε αὐτοὺς, ὅταν μέλλωσιν ᾄδειν τὸ
+                                    παρεσκευασμένον ἐγκώμιον τῆς παρθένου αἱ ἐν τῷ χορῷ
+                                    ἀκόλουθοι.</quote>
+                            </cit>
+                        </div>
+                        <div type="textpart" subtype="book" n="incerta">
+                            <ab><note>E LIBRIS INCERTIS.</note></ab>
+                            <!-- <div type="textpart" subtype="book" n="incerta"> -->
+                            <cit n="20" xml:lang="grc">
+                                <bibl>Idem XIV, p. 648, B</bibl>
+                                <quote>Πόλτου δὲ μνημονεύει <persName role="author"
+                                        >Ἀλκμὰν</persName> οὕτως· <lg>
+                                        <l>Ἤδη παρέξει τι πυάνιόν τε πόλτον</l>
+                                        <l>χίδρον τε λευκὸν κηρίναν τ᾿ ὀπώραν.</l>
+                                    </lg> Ἔστι δὲ τὸ πυάνιον, ὥς φησι <persName role="author"
+                                        /><persName role="author">Σωσί&#976;ιος</persName>,
+                                    πανσπερμία ἐν <pb n="628" break="no"/> γλυκεῖ ἡψημένη· χίδρον δὲ
+                                    οἱ ἑφθοὶ πυροὶ. Κηρίναν δὲ ὀπώραν λέγει τὸ μέλι. </quote>
+                            </cit>
+
+                            <cit n="21" xml:lang="grc">
+                                <bibl n="1">Idem III, p. 81, F</bibl>
+                                <quote n="1"><persName role="author">Ἀλκμὰν</persName> δὲ τὸ
+                                    στρουθίον μῆλον, ὅταν λέγῃ <quote>«Μεῖον ἢ κοδύμαλον.»</quote>
+                                    <persName role="author">Ἀπολλόδωρος</persName> δὲ καὶ <persName
+                                        role="author">Σωσί&#976;ιος</persName> τὸ κυδώνιον μῆλον
+                                    ἀκούουσιν. Ὅτι δὲ διαφέρει τὸ κυδώνιον μῆλον τοῦ στρουθίου,
+                                    σαφῶς εἴρηκεν ὁ <persName role="author">Θεόφραστος</persName> ἐν
+                                    τῷ <num type="ordinal" value="2">δευτέρῳ</num> τῆς
+                                        <title>Ἱστορίας</title>.</quote>
+                                <bibl n="2">Hesychius</bibl>
+                                <quote n="2">Περφίλα· <persName role="author"
+                                        >Σωσί&#976;ιος</persName>· κύριον ὄνομα.</quote>
+                                <bibl n="3">Idem</bibl>
+                                <quote n="3">Σάνδυξ, δένδρον θαμνῶδες, οὖ τὸ ἄνθος χροιὰν κόκκῳ
+                                    ἐμφερῆ ἔχει.</quote>
+                                <bibl n="4">Schol. Theocrit. V, 92</bibl>
+                                <quote n="4"><persName role="author">Σώσι&#976;ιος</persName> δὲ τὰς
+                                    ἀνεμώνας παρὰ Λάκωσι φαινίδας καλεῖσθαί φησι.</quote>
+                                <note xml:lang="la">Ubi conf. <bibl>Dubner. p. 138</bibl>.</note>
+                            </cit>
+                        </div>
+                    </div>
+                    
+
+                    <div type="textpart" subtype="work" n="4">
+                        <ab><title type="main" xml:lang="grc">ΠΕΡΙ ΟΜΗΠΟΥ.</title></ab>
+
+                        <cit n="22" xml:lang="grc">
+                            <bibl>Athen&#230;us XI, p. 493, C</bibl>
+                            <quote><persName role="author">Σωσί&#976;ιος</persName> δὲ ὁ λυτικὸς,
+                                προθεὶς τὰ ἔπη <note>(<bibl>Ἰλ. λ΄, 631</bibl>)</note>· <lg>
+                                    <l>Ἄλλος μὲν μογέων ἀποκινήσασκε τραπέζης</l>
+                                    <l>πλεῖον ἐὸν, Νέστωρ δ᾿ ὁ γέρων ἀμογητὶ ἄειρεν,</l>
+                                </lg> γράφει κατὰ λέξιν· <quote><sic>»</sic>Νῦν τὸ μὲν ἐπιτιμώμενόν
+                                    ἐστι τῷ ποιητῇ, ὅτι τοὺς μὲν λοιποὺς <app>
+                                        <rdg>ἔστι</rdg>
+                                        <rdg cert="low">ἔφη</rdg>
+                                    </app> μογέοντας ἀείρειν τὸ δέπας, τὸν δὲ Νέστορα μόνον ἀμογητί.
+                                    Ἄλογον δ᾿ ἐδόκει, Διομήδους καὶ Αἴαντος, ἔτι δ᾿ Ἀχιλλέως
+                                    παρόντων, εἰσάγεσθαι τὸν Νέστορα γενναιότερον, τῇ ἡλικίᾳ
+                                    προ&#976;ε&#976;ηκότα. Τούτων τοίνυν οὕτως κατηγορουμένων, τῇ
+                                    ἀναστροφῇ χρησάμενοι, ἀπολύομεν τὸν ποιητήν. Ἀπὸ γὰρ τούτου τοῦ
+                                    ἑξαμέτρου· <lg>
+                                        <l>Πλεῖον ἐὸν, Νέστωρ δ᾿ ὁ γέρων ἀμογητὶ ἄερεν,</l>
+                                    </lg> ἀπὸ τοῦ μέσου ἐξελόντες τὸ γέρων, τάξομεν τοῦ πρώτου
+                                    στίχου πρὸς τὴν ἀρχὴν ὑπὸ τὸ Ἄλλος μέν, εἶτα τὸ ἐξ ἀρχῆς
+                                    συνεροῦμεν· Ἄλλος μὲν γέρων μογέων ἀποκινήσασκε τραπέζης πλεῖον
+                                    ἐὸν, ὁ δὲ Νέστωρ ἀπονητὶ ἄειρεν. Νῦν οὖν, οὕτω τεταγμένων, ὁ
+                                    Νέστωρ φαίνεται τῶν μὲν λοιπῶν πρεσ&#976;υτῶν μόνος τὸ δέπας
+                                    ἀμογητὶ ἀείρων.»</quote> Ταῦτα καὶ ὁ θαυμάσιος λυτικὸς <persName
+                                    role="author">Σωσί&#976;ιος</persName>, ὃν οὐκ ἀχαρίτως διέπαιξε
+                                διὰ τὰς πολυθρυλήτους ταύτας καὶ τὰς τοιαύτας λύσεις Πτολεμαῖος ὁ
+                                Φιλάδελφος βασιλεύς. Λαμ&#976;άνοντος γὰρ αὐτοῦ σύνταξιν βασιλικὴν,
+                                μεταπεμψάμενος τοὺς ταμίας, ἐκέλευσεν, ἐὰν παραγένηται ὁ <persName
+                                    role="author">Σωσί&#976;ιος</persName> ἐπὶ τὴν ἀπαίτησιν τῆς
+                                συντάξεως, λέγειν αὐτῷ, ὅτι ἀπείληφε. Καὶ μετ᾿ οὐ πολὺ παραγενομένῳ
+                                καὶ αἰτοῦντι, εἰπόντες δεδωκέναι αὐτῷ, τὰς ἡσυχίας εἶχον, ὁ δὲ τῷ
+                                βασιλεῖ προσελθὼν κατεμέμφετο τοὺς ταμίας. Πτολεμαῖος δὲ
+                                μεταπεμψάμενος αὐτοὺς, καὶ ἥκειν κελεύσας μετὰ τῶν βι&#976;λίων, ἐν
+                                οἷς αἱ ἀναγραφαί εἰσι τῶν τὰς συντάξεις λαμ&#976;ανόντων, λα&#976;ὼν
+                                ταύτας εἰς χεῖρας ὁ βασιλεὺς, καὶ κατιδὼν, ἔφη καὶ αὐτὸς εἰληφέναι
+                                αὐτὸν οὕτως. Ἦν ὀνόματα ἐγγεγραμμένα ταῦτα, Σωτῆρος, Σωσιγένους,
+                                Βίωνος, Ἀπόλλωνος, Δίωνος· εἰς ἃ ἀπο&#976;λέψας ὁ βασιλεύς εἶπεν,
+                                    <quote>«ὦ θαυμάσιε λυτικὲ, ἐὰν ἀφέλῃς τοῦ Σωτῆρος τὸ σω, καὶ τοῦ
+                                        Σω<pb n="629" break="no"/>σιγένους τὸ σι, και τοῦ Βίωνος τὴν
+                                    πρώτην συλλα&#976;ὴν βι, καὶ τὴν τελευταίαν τοῦ Ἀπόλλωνος,
+                                    εὑρήσεις σαυτὸν ἀπειληφότα κατὰ τὰς σὰς ἐπινοίας. Καὶ ταῦτα οὐχ
+                                    ὑφ᾿ ἄλλων, ἀλλὰ τοῖς σαυτοῦ πτεροῖς, κατὰ τὸν θαυμάσιον
+                                        <persName role="author">Αἰσχύλον</persName>, ἁλίσκῃ,
+                                    ἀπροσδιονύσους λύσεις πραγματευόμενος.»</quote>
+                            </quote>
+                        </cit>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="5">
+                        <ab><title type="main" xml:lang="grc">ΟΜΟΙΟΤΗΤΕΣ.</title></ab>
+
+                        <cit n="23" xml:lang="grc">
+                            <bibl>Athen&#230;us XV, p. 690, E</bibl>
+                            <quote><persName role="author">Πολέμων</persName> δ᾿ ἐν τοῖς <title>πρὸς
+                                    Ἀδαῖον</title> παρὰ Ἠλείοις φησὶ μύρον τι πλαγγόνιον καλεῖσθαι,
+                                εὑρεθὲν ὑπό τινος Πλάγγονος. Ὁμοίως ἱστορεῖ καὶ <persName
+                                    role="author">Σωσί&#976;ιος</persName> ἐν
+                                    <title>Ὁμοιότησι</title>, ὡς καὶ τὸ Μεγάλλιον· ὠνομάσθη γὰρ καὶ
+                                τοῦτο ἀπὸ Μεγάλλου τοῦ Σικελιώτου.</quote>
+                            <note xml:lang="la">Pr&#230;ter <persName role="author"
+                                    >Sosibium</persName>
+                                <foreign xml:lang="grc">Ἰό&#976;ας ὁ βασιλεὺς</foreign> librum, cui
+                                    <title>Ὁμοιότητες</title> titulus erat, scripsisse dicitur apud
+                                    <bibl>Athen&#230;um IV, p. 170, E</bibl>.</note>
+                        </cit>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="6">
+                        <ab><title type="main" xml:lang="grc" ana="#dubia">(ΠΕΡΙ ΒΑΣΙΛΕΙΑΣ ΠΡΟΣ
+                                ΚΑΣΣΑΝΔΡΟΝ.)</title></ab>
+
+                        <cit n="24" xml:lang="grc">
+                            <bibl>Athen&#230;us IV, p. 144, E</bibl>
+                            <quote><persName role="author">Θεόφραστος</persName> δ᾿ ἐν τᾠ
+                                    <title>πρὸς Κάσσανδρον Περὶ βασιλείας</title> (εἰ γνήσιον τὸ
+                                σύγγραμμα· πολλοὶ γὰρ αὐτό φασιν εἶναι <persName role="author"
+                                    >Σωσι&#976;ίου</persName>, εἰς ὂν <persName role="author"
+                                    >Καλλίμαχος</persName> ὁ ποιητὴς ἐπινίκιον ἐλεγειακὸν ἐποίησε),
+                                τοὺς Περσῶν γησι βασιλεῖς ὑπὸ τρυφῆς προκηρύττειν τοῖς ἐφευρίσκουσί
+                                τινα καινὴν ἡδονὴν ἀργυρίου πλῆθος.</quote>
+                            <note xml:lang="la">Cf. <bibl>Ebert. Diss. Sic. p. 72</bibl>.</note>
+                        </cit>
+                    </div>
+                    <pb n="630"/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

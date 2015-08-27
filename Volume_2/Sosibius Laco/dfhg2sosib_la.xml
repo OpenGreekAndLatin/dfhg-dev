@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2sosib_la">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2sosib_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.1719"
+                                >Sosibius</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">2</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/stream/fragmentahistori02mueluoft#page/624/mode/2up"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Müller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#UK" when="2015-05-29">Created the XML file</change>
+            <change who="#UK" when="2015-05-29">Encoded the text</change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="translation" subtype="volume" n="2" xml:lang="la">
+                <div type="textpart" subtype="book" n="4">
+
+                    <head xml:lang="la">
+                        <title
+                            ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1685.tlg004.opp-lat1"
+                            xml:lang="la">SOSIBIUS LACO.</title>
+                    </head>
+
+                    <pb n="624"/>
+
+                    <div type="textpart" subtype="work" n="1">
+                        <ab><title type="main" xml:lang="la">CHRONICA.</title></ab>
+
+                        <p n="2">Sosibius Laco in Temporum recensione Homerum ponit ad annum octavum
+                            regni Charilli <note>(<hi rend="italics">Charilai</hi>)</note>, qui
+                            Polydect&#230; filius erat. Regnat vero Charillus annis sexaginta
+                            quattuor; et post hunc Nicander filius per annos triginta novem. Hujus
+                            autem anno tricesimo quarto primam celobratam esse Olympiadem, adeo ut
+                            Homerus ferit annis nonaginta fere ante institutionem Olympiorum.</p>
+
+                        <p n="3">Carnea instituta sunt Olympiade vicesima sexta, ut Sosibius in
+                            libro De temporibus ait.</p>
+                    </div>
+                    <pb n="625"/>
+
+                    <div type="textpart" subtype="work" n="2">
+                        <ab><title type="main" xml:lang="la">DE LACED&#198;MONIORUM
+                            SACRIS.</title></ab>
+
+                        <p n="4">Laced&#230;monii etiam calamo coronantur festo Promachiorum die, ut
+                            ait Sosibius in libris De Laced&#230;moniorum sacris, ubi ita scribit:
+                                <quote>«In hoc festo rustici quidem juvenes calamis coronantur aut
+                                strigile sive bractea; qui vero publica civitatis disciplina
+                                innutriti sunt, absque corona sequuntur.»</quote></p>
+
+                        <p n="5"><hi rend="italics">Thyreatic&#230;</hi>. Sic vocabantur coron&#230;
+                            qu&#230;dam apud Laced&#230;monios, ut ait Sosibius in libris De
+                            sacrificiis solennibus: <hi rend="italics">psilina</hi> aiens nunc
+                            nominari, esseque e palma. Gestare autem eas, in victori&#230; ad
+                            Thyream reportat&#230; menmoriam, duces chororum qui in illo festo
+                            ducuntur, quando etiam Gymnop&#230;dias celebrant. Sunt autem chori,
+                            hinc formosorum puerorum, illinc fortissimorum virorum; qui nudi
+                            saltant, et carmina canut Thalet&#230; et Alcmanis, et Dionysodoti
+                            Laced&#230;monii p&#230;anas.</p>
+
+                        <pb n="626"/>
+
+                        <p n="6">Laconica Pitane Eurot&#230; fl. filia esse fertur, teste
+                            Sosibio.</p>
+
+                        <p n="7">Sosibius Mercurium caput Jovis Minervam parturientis percussisse
+                            ait.</p>
+
+                        <p n="8">Sosibius cantica hyporchematica omnia Cretica dici ait.</p>
+
+                        <p n="9">Sosibius, Laco, grammaticus eorum ex secta, qui Epilytici vocantur
+                            (scripsit de mimicis Laconum ludis). In his inter alia etiam narrat esse
+                            quoddam com&#339;di&#230; genus, quod agatur a Dicelistis, id est a
+                            mimis. Alia quoque scripsit.</p>
+
+                        <p>Apud Laced&#230;monios, ut ait Sosibius, est comici ludicri genus quoddam
+                            vetnstum, non magni utique studii; nam in his quoque tenuitatem sequitur
+                            Sparta. Imitabatur enim aliquis tenuis dictione quosdam, qui arborum
+                            fructus furantur, aut medicum peregrinum tale quidpiam dicentem, quale
+                            Alexis in Muliere-mandragoris-utente indicat his verbis: <lg>
+                                <l>Indigena si</l>
+                                <l>medicus dicat, patinam huic date</l>
+                                <l>ptisan&#230; mane; spernimus statim:</l>
+                                <l>sin peregrino idiomate eadem pronunciet, miramur.</l>
+                                <l>Rursus si quis betam <foreign xml:lang="grc">τευτλίον</foreign>
+                                    dicat, contemnimus:</l>
+                                <l>sin <foreign xml:lang="grc">σεῦτλον</foreign>, libenter tunc
+                                    audimus:</l>
+                                <l>quasi non idem esset <foreign xml:lang="grc">σεῦτλον</foreign>
+                                    atque <foreign xml:lang="grc">τευτλίον</foreign>.</l>
+                            </lg> Vocabantur autem qui hoc ludicrum exercebant apud
+                            Laced&#230;monios, <hi rend="italics">dicelist&#230;;</hi> quasi quis
+                            dicat, <hi rend="italics">qui apparatus scenicos et personas
+                                conficiunt</hi>, aut <hi rend="italics">imitatores</hi>. Sunt autem
+                            ejusdem generis <hi rend="italics">dicelistarum</hi> diversa diversis
+                            locis nomina. Sicyonii enim <hi rend="italics">phallophoros</hi>
+                            mominant; alii <hi rend="italics">autocabdalos</hi> (quasi <hi
+                                rend="italics">improvisatores</hi>); alii <hi rend="italics"
+                                >phlyacas</hi>, ut Itali: vulgus vero <hi rend="italics"
+                                >sophistas</hi> vocat: Thebani autem, qui plerisque rebus propria
+                            imponere nomina solent, <foreign xml:lang="grc">ἐθελοντάς</foreign> (<hi
+                                rend="italics">voluntario</hi>s aut <hi rend="italics"
+                                >spontaneos</hi>).</p>
+
+                        <p n="11"><hi rend="italics">Ausculta quattuor aures habeti</hi> . . . Alii
+                            putant proverbium adhortari ut vera dicentibus aurem pr&#230;beas. Nemo
+                            enim a mendacio alienior Apolline, cujus signum quattuor manibus et
+                            auribus instructum dedicarunt Laced&#230;monii, quoniam talis ipsis ad
+                            amyclam pugnantibus apparuerat, uti Sosibius narrat.</p>
+
+                        <pb n="627"/>
+
+                        <p n="12">Neque usquequaque austerus erat ipse Lycurgus, quum auctor sit
+                            Sosibius dedicatum ab eo Risus simulacrum, ut qui jocum, quasi
+                            condimentum sever&#230; vit&#230; rationis, opportune conviviss et id
+                            genus conventibus immiserit.</p>
+
+                        <p n="13">Sosibius Laco postquam ficus inventorem Bacchum esse docuit,
+                            propterea etiam Laced&#230;monios Bacchum <hi rend="italics"
+                                >Syciten</hi> (quasi <hi rend="italics">Ficuum patronum</hi>)
+                            colere.</p>
+
+                        <p n="14">Est etiam Podagr&#230; Dian&#230; Laced&#230;mone fanum, ut
+                            Sosibius ait.</p>
+
+                        <p n="15">Sosibius Herculem quoque ab Hippocoontidis in manu vulnus
+                            accepisse narrat.</p>
+
+                        <p n="16">Helenam quoque iis qui tempestate in mari jactantur auxiliatricem
+                            esse Euripides significat; Sosibius vero eam non propitiam apparere
+                            ait.</p>
+
+                        <p n="17">Etiam corpus Epimenidis Laced&#230;monii apud se servant oraculo
+                            quodam admoniti, ut Sosibius ait.</p>
+
+                        <p>Elacatia, ludi qui Laced&#230;mone celebrantur in honorem Elacati, qui
+                            Herculis amasius fuerat, teste Sosibio.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="3">
+                        <ab><title type="main" xml:lang="la">ΠΕΡΙ ΑΛΚΜΑΝΟΣ.</title></ab>
+                        <div type="textpart" subtype="book" n="1">
+
+                            <p n="19">Sosibius libro tertio de Alcmane ait <hi rend="italics"
+                                    >cribana</hi> vocari mazas quasdam mammis forma similes.</p>
+                            <p><hi rend="italics">Cribanas</hi>, placentas quasdam proprie sic
+                                nominatas apud Alcmanem Apollodorus. Similiter etiam Sosibius tertio
+                                libro De Alcmane, dicens formam habere mammarum, uti autem illis
+                                Lacones in mulierum epulis, circumferreque eas, quando laudes
+                                virginis (spons&#230;) encomio parato cantatur&#230; sunt amic&#230;
+                                illius, chorum formantes.</p>
+                        </div>
+                        
+                            <div type="textpart" subtype="book" n="incerta">
+                            <p n="20"><hi rend="italics">Pultis</hi> Alcman meminit his verbis: <lg>
+                                    <l>Jam et <hi rend="italics">pyaniam</hi> pultem
+                                        pr&#230;bebit,</l>
+                                    <l>et chidrum candidum et cereum fructum.</l>
+                                </lg>
+                                <hi rend="italics">Pyanium</hi> autem, ut Sosibius ait, dicuntur
+                                varii generis <pb n="628" break="no"/> semina in musto cocta. <hi
+                                    rend="italics">Chidrum</hi> vero est coctum triticum; <hi
+                                    rend="italics">cereum</hi> autem <hi rend="italics">fructum</hi>
+                                dicit mel.</p>
+
+                            <p n="21">Alcman <hi rend="italics">codymali</hi> nomine intelligit
+                                struthium malum, quum ait: «Minus quam codymalum.» Apollodorus vero
+                                et Sosibius Cydonium malum intelligunt. Differre autem a struthio
+                                malo malum Cydonium clare dixit Theophrastus secundo Histori&#230;
+                                plantarum libro.</p>
+                            <p>Perphila, nomen proprium. Sosibius.</p>
+                            <p>Sandyx, arbor fruticosa, cujus flos colore similis est cocci, ut
+                                Sosibius ait.</p>
+                            <p>Sosibius anemonas apud Lacones <hi rend="italics">ph&#230;nidas</hi>
+                                appellari dicit.</p>
+                        </div>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="4">
+                        <ab><title type="main" xml:lang="la">DE HOMERO.</title></ab>
+
+                        <p>Sosibius vero Lyticus (<hi rend="italics">qu&#230;stionum solutor</hi>)
+                            solutor pr&#230;positis illis versibus: <lg>
+                                <l>Alius quidem non sine labore submovisset a mensa</l>
+                                <l>plenum si esset; Nestor vero senex null labore tollebat,</l>
+                            </lg> h&#230;c verbotenus scribit: <quote>«Nunc reprehendunt poetam quod
+                                reliquos dicat non sine labore tollere poculum, unum vero Nestorem
+                                nullo labore. Contra rationem autem esse videbatur quum adsint
+                                Diomendes et Ajax atque etiam Achilles, Nestorem his validiorem
+                                esse, qui &#230;tate multo erat provectior. Quorum ab accustione
+                                liberabimus poetam, inversione utentes sive transpositione. Nam in
+                                illo versu, <lg>
+                                    <l>plenum si esset; Nestor vero senex nullo labore tollebat:</l>
+                                </lg> e medio versu eximemus vocem <hi rend="italics">senex</hi>,
+                                ponemusque sub prioris versus initium post verba <hi rend="italics"
+                                    >Alius quidem</hi>, deinde conectemus verba ut antea: nempe,
+                                Alius quidem senex non sine labore submovisset de mensa, plenum si
+                                esset; Nestor vero sine labore tollebat. Nunc igitur, his ita
+                                constitutis, apparet Nestorem unumpr&#230; reliquis senibus sine
+                                labore sustulisse poculum.»</quote> H&#230;c quidem admirabilis ille
+                            qu&#230;stionum solutor Sosibius. Quem ob hasce aliasque ejus generis
+                            jactatas solutiones haud infestive lusit rex Ptolem&#230;us
+                            Philadelphus. Nam quum annuo stipendio regio frueretur Sosibius,
+                            arcessitis qu&#230;storibus rex mandanit, si venisset Sosibius ad
+                            petendum stipendium, dicerent ei esse illud ei jam persolutum. Qui quum
+                            haud multo post venienti Sosibio stipendiumque petenti respondissent, se
+                            jam ei numerasse, nec ullum verbum ultra: ille regem adiens,
+                            qu&#230;stores accusavit. Quibus arcessitis et adesse jussis cum
+                            tabulis, in quibus consignata eorum nomina erant qui stipendia
+                            accipiebant, Ptolem&#230;us in manus sumpsit tabulas, eisque inspectis,
+                            ipse quoque Sosibio dixit, accepisse eum quod peteret: nempe hoc modo:
+                            inscripta tabulis erant h&#230;c nomina (eorum quibus stipendium jam
+                            fuerat numeratum): <hi rend="italics">Soteris, Sosigenis, Bionis,
+                                apollonis, Dionis.</hi> Qu&#230; rex intuitus dixit: <quote>«O
+                                admirabilis qu&#230;stionum solutor, si a Soteris nomine sumpseris
+                                syllabam <hi rend="italics">So</hi>, tum a Sosi<pb n="629"
+                                    break="no"/>genis nomine secundam <hi rend="italics">si</hi>, et
+                                a Bione rursus primam <hi rend="italics">bi</hi>, denique
+                                terminationem <foreign xml:lang="grc">τοῦ Ἀπόλλωνος</foreign>:
+                                reperies, te jam accepisse stipendium, secundum tua inventa: et
+                                quidem, non ab aliis, sed propriis tuis pennis, ut ait admirabilis
+                                &#198;schylus, captus tenseris, tam incongruis solutionibus
+                                occupatus.» </quote></p>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="5">
+                        <ab><title type="main" xml:lang="la">SIMILITUDINES.</title></ab>
+
+                        <p n="23">Polemon in epistolis ad Ad&#230;um, apud Eleos ait unguentum
+                            aliquod vocari <hi rend="italics">plangonium</hi> a Plangone quodam
+                            inventum. Eadem tradit Sosibius in Similitudinibus, adjiciens similem
+                            esse rationem <hi rend="italics">megallii</hi>: nam et hoc unguentum
+                            nomen inventit a Megallo Siculo.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="6">
+                        <ab><title type="main" xml:lang="la" ana="#dubia">(DE REGNO AD
+                                CASSANDRUM.)</title></ab>
+
+                        <p>Theophrastus in libro De regno ad Cassandrum (si genuinum illud scriptum
+                            est: multi enim auctorem ejus aiunt Sosibium esse illum, in quem
+                            Callimachus carmen scripsit elegiacum) Persarum reges ait luxuri&#230;
+                            causa pecuni&#230; summam publice polliceri his qui novam aliquam
+                            voluptatem excogitaverint.</p>
+                    </div>
+                    <pb n="630"/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
