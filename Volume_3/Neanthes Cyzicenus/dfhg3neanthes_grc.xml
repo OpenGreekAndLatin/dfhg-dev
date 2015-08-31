@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg3neanthes_grc">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+
+                <title>Fragmenta Historicorum Graecorum</title>
+
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg3neanthes_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1525"
+                                >Neanthes Cyzicenus </author>
+
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+
+                            <biblScope unit="volume">3</biblScope>
+
+                        </monogr>
+
+                        <ref target="https://archive.org/stream/fragmentahistori03mueluoft#page/n11/mode/2up">Internet
+                            Archive</ref>
+
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Müller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt means that the
+                                name of the fragmentary author is not mentioned by the source
+                                text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+
+            <change who="#UK" when="2015-03-18">Created the XML file</change>
+            <change who="#UK" when="2015-03-18">Encoded the text</change>
+
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text>
+
+        <body>
+
+
+            <div type="edition" subtype="volume" n="3" xml:lang="grc">
+                <div type="textpart" subtype="book" n="5">
+
+                    <head xml:lang="grc">
+                        <title ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.964"
+                            xml:lang="la" type="main">NEANTHES CYZICENUS.</title><title
+                            xml:lang="la" type="sub">LYSIMACHUS.</title>
+                        <persName role="author"><name type="personal">Neanthes</name>
+                            <name type="ethnicon">Cyzicenus</name></persName>. </head>
+
+                    <pb n="1"/>
+
+                    <p><bibl>Suidas</bibl>: <quote><persName role="author">Νεάνθης</persName>
+                            <note type="footnote"><foreign xml:lang="grc"><persName role="author"
+                                        >Νεάνθης</persName></foreign> corruptum in <foreign
+                                    xml:lang="grc"><persName role="author" type="alt"
+                                        >Νέανθος</persName></foreign>
+                                <ref>fr. 28</ref>; in <foreign xml:lang="grc"><persName
+                                        role="author" type="alt">Κλεάνθης</persName></foreign>
+                                <ref>fr. 30</ref> (uti patet ex collato <ref>fr. 17</ref>), <ref>fr.
+                                    3</ref> ap. <bibl>schol. Arist. Eq. 84</bibl> (uti patet ex
+                                    <bibl>Plut. Them. c. 29</bibl>); <ref>fr. 35</ref>, ubi de
+                                fabula Abydenorum laudatur <foreign xml:lang="grc"><foreign
+                                        xml:lang="grc"><persName role="author" type="alt"
+                                            >Κλεάνθης</persName></foreign> ἐν
+                                        <title>Μυθικοῖς</title></foreign>; in <foreign
+                                    xml:lang="grc"><persName role="author" type="alt"
+                                        >Εὐάνθης</persName></foreign>
+                                <ref>fr. 16</ref>, ubi v. not.; <ref>fr. 31</ref> ex
+                                    <bibl>Jovin.</bibl> ubi <persName role="author"
+                                    >Euanthes</persName>
+                                <foreign xml:lang="grc">ἐν <title>Μυθικοῖς</title></foreign>
+                                laudatur de fabula Cyzicena, qu&#230; Neanthi vindicare non
+                                dubitavi. Eidem tribui locum <persName role="author"
+                                    >Plinii</persName> (<ref>fr. 34</ref>), ubi de tabula Arcadica
+                                laudatur <hi rend="italics"><persName role="author"
+                                        >Εuanthes</persName>, inter auctores Gr&#230;ci&#230; non
+                                    spretus</hi>. Ceterum <hi rend="italics"><persName role="author"
+                                        type="alt">Euanthes Cyzicenus Olympionica</persName></hi>
+                                memoratur ap. <bibl>Pausan. VI, 13, 7</bibl>.—<hi rend="italics"
+                                        ><persName role="author">Euanthes Milesius</persName></hi>
+                                ap. <bibl>Diogen. L. l, 29</bibl>: <cit xml:lang="grc">
+                                    <quote><persName role="author">Εὔδοξος</persName> ὁ Κνίδιος καὶ
+                                            <persName role="author" type="alt">Εὐάνθης</persName> ὁ
+                                        Μιλήσιος φασὶ τῶν Κροίσου τινὰ φίλων λα&#976;εῖν παρὰ τοῦ
+                                        βασιλέως ποτήριον χρυσοῦν ὅπως δῷ τῷ σοφωτάτῳ τῶν Ἑλλήνων.
+                                        Τὸν δὲ δοῦναι Θαλῇ <foreign xml:lang="grc"
+                                        >κτλ.</foreign></quote>
+                                </cit> Fortasse Milesius qui de septem sapientibus egit, non
+                                diversus ab <hi rend="italics"><persName role="author" type="alt"
+                                        >Euanthe Samio</persName></hi>, quem de Solone laudat <persName role="author"
+                                    >Hermippus</persName> ap. <bibl>Plutarch. Solon. c. 1</bibl>:
+                                    <cit xml:lang="grc">
+                                    <quote>Οὐ μέντοι στρατηγὸς ἐπὶ τοῦτον ἐπεδείχθη τὸν πόλεμον
+                                            <note>(ad bellum Cyrrh&#230;um)</note>, ὥς λέγειν φησὶν
+                                            <persName role="author">Ἕρμιππος</persName>
+                                        <persName role="author" type="alt">Εὐάνθη</persName> τὸν
+                                        Σάμιον.</quote>
+                                </cit>—<hi rend="italics"><persName role="author" type="alt"
+                                        >Euanthis</persName></hi>
+                                <foreign xml:lang="grc">ἐποποιοῦ</foreign> hymnum in Glaucum
+                                commemorat <bibl>Athen. VII, p. 296, C.</bibl>—Quod deinde <persName
+                                    role="author" type="alt">Cleanthem</persName> attinet, scripsit
+                                quidem Assius stoicus nonnulla argumenti mythici, ut <foreign
+                                    xml:lang="grc">ἀρχαιολογίαν περὶ θεῶν, Περὶ γιγάντων</foreign>
+                                    (<bibl>Diogen. L.</bibl>) s. <foreign xml:lang="grc"
+                                    >Θεομαχίαν</foreign>, cujus tertium librum laudat <bibl>Plut. De
+                                    fluv. c. 17</bibl>, sed opus <title xml:lang="grc"
+                                    >Μυθικά</title> inscriptum <persName role="author"
+                                    >Diogenes</persName> non affert, neque ex iis, qu&#230; affert,
+                                    <ref>fragmentum 35</ref> peti potuit. Pr&#230;terea <hi
+                                    rend="italics"><persName role="author" type="alt"
+                                        >Cleanthes</persName></hi>
+                                <foreign xml:lang="grc">ἑνα’ <title>Περὶ ὀρῶν</title></foreign>
+                                laudatur <bibl>Plut. De fl. c. 5</bibl>.</note>, Κυζιχηνὸς, ῥήτωρ,
+                            μαθητὴς <persName role="author">Φιλίσκου</persName> τοῦ Μιλησίου· ἔγραψε
+                                <title xml:lang="grc">Περὶ κακοζηλίας ῥητορικῆς καὶ λόγους πολλοὺς
+                                πανηγυρικούς</title>.</quote> Cf. <bibl>Eudoc. P. 309</bibl>.</p>
+                    <p><persName role="author">Philiscus</persName>, <persName role="author"
+                            >Isocratis</persName> discipulus (v. <bibl>Suidas v. Φιλίσkος</bibl>),
+                        non solum <persName role="author">Neanthis</persName>, sed etiam <persName
+                            role="author">Tim&#230;i</persName> magister fuisse perhibetur. Verum,
+                        quamvis eodem magistro usi sint, &#230;quales tamen Tim&#230;um et Neanthem
+                        dicere vix licebit. Etenim Tim&#230;us circa an. 315 a. C. Athenas profectus
+                        paullo post an. 264 diem obiisse debet. Neanthes vero scripsisse dicitur
+                            <title xml:lang="la">De rebus Attali</title>, qui regnavit inde ab anno
+                        241 usque ad an. 198 a.. C. <persName role="author">Neanthes</persName>
+                        igitur juvenis ad Philiscum senem circa an. 280 a. C. accesserit, quum
+                        Tim&#230;us triginta quinque annis antea eundem sophistam audiisset. Verum
+                        vel sic Neanthes, quo tempore Attalus regnum suscepit, fere senex esse
+                        debuit: adeo ut valde dubium sit, num <foreign xml:lang="grc">αἱ περἱ
+                            Ἄτταλον ἱστορίαι</foreign> usque ad mortem regis deduct&#230; fuerint,
+                        an nonnisi partem rerum ab Attalo gestarum comprehenderint.</p>
+                    <p>Ceterum Cyzicenus noster vit&#230; partem haud dubie degebat in aula
+                        principis, cujus res gestas posteritati mandare decreverat, quique Cyzicenam
+                        mulierem, celeberrimam istam Apolloniadem, duxerat uxorem (v. <bibl>Polyb.
+                            XXII, 18</bibl>). Fortasse <persName role="author">Neanthes</persName>
+                        inter magistros regis fuit sicuti <hi rend="italics">Lysimachus</hi> ille,
+                        cujus <persName role="author">Athen&#230;us</persName> meminit <bibl>VI, p.
+                            252, C</bibl>: <quote>Ἀττάλου δὲ τοῦ βασιλέως ἐγένετο κόλαξ καὶ
+                            διδάσκαλος Λυσίμαχος, ὃν <persName role="atuhor">Καλλίμαχος</persName>
+                            μὲν Θεοδώρειον ἀναγράφει, <persName role="author">Ἕρμιππος</persName> δ᾿
+                            ἐν τοῖς Θεοφράστου μαθηταῖς καταλέγει. Οὗτος δὲ ὁ ἀνὴρ καὶ Περὶτῆς
+                            Ἀττάλου παιδείας συγγέγραφε βί&#976;λους πᾶσαν κολακείαν
+                            ἐμφαινούσας.</quote> Aliunde de hoc viro non constat.</p>
+                    
+                     <ab> 
+                    <lb n="1"/><hi rend="italics">Scripta Neanthis</hi>:
+                                
+                    <lb n="2"/>1. <title xml:lang="grc">Ἑλληνικά</title>, libris minimum VI, <ref>fr. 1—4</ref>.
+
+                    <lb n="3"/> 2. <title xml:lang="grc">Ὧροι Κυζικηνῶν</title>, libris min. II, <ref>fr. 5</ref>.
+                            
+                    <lb n="4"/> 3. <title xml:lang="grc">Αἱ περὶ Ἄτταλον ἱστορίαι</title>, <ref>fr. 7</ref>.
+                            
+                    <lb n="5"/> 4. <title xml:lang="grc">Περὶ ἐνδόξων ἀνδρῶν</title>, <ref>fr. 8—16</ref>.
+                            
+                    <lb n="6"/> 5. <title xml:lang="grc">Περὶ Πυθαγορικῶν</title>, <ref>fr. 17—21</ref>.  Fortasse pars operis antecedentis.
+                            
+                    <lb n="7"/> 6. <title xml:lang="grc">Περὶ τελετῶν</title>, libris min. II, <ref>fr. 23—27</ref>.
+                            
+                    <lb n="8"/> 7. <title xml:lang="grc">Τὰ κατὰ πόλιν μυθικά</title>, libris min. V,  <ref>fr. 28—35</ref>.
+                            
+                    <lb n="9"/> 8. <title xml:lang="grc">Περὶ κακοζηλίας ῥητορικῆς</title>. <bibl>Suid.Eudoc.</bibl>
+                            
+                    <lb n="10"/> 9. <title xml:lang="grc">Λόγοι πολλοὶ πανηγυρικοί</title>. (Cf. <bibl>Westermann. Gesch. d gr. Bereds. § 50, 10</bibl>).
+                        </ab>
+                    
+                    
+                    <p>In <title xml:lang="la">Hellenicis</title> a mythica &#230;tate exorsus ad
+                        sua usque tempora narrationem de rebus Gr&#230;corum ratione compendiaria
+                        deduxisse videtur; nam libro tertio jam egit de Themistocle. Qu&#230; ex
+                        opere <title xml:lang="la">De viris illustribus</title> supersunt, omnia
+                        spectant ad poetas et philosophos, quibus accensendi septem, quos vocant,
+                        sapientes (<ref>fr. 10</ref>). Ab hoc opere <bibl>Jonsius p. 157</bibl>, et
+                            <bibl>Menagius ad Diog. L. VIII, 72</bibl>, distinguendum esse putant
+                        librum de Pythagoreis (N. <foreign xml:lang="grc">ὁ καὶ περὶ τῶν Πυθαγορικῶν
+                            εἰπών</foreign>, <ref>fr. 22</ref> et <ref>fr. 19</ref>). Nescio an
+                        recte. In libris <title xml:lang="grc">Περὶ τελετῶν </title>(<ref>fr. 23.
+                            24</ref>; <title type="alt" xml:lang="grc">περὶ τελετῆς</title>
+                        <ref>fr. 25</ref>) <foreign xml:lang="grc">λόγους μυστικοὺς</foreign>
+                        enarravit, nominaque mystica vel mythice vel allegorice exposuit (<ref>fr.
+                            23 et 27</ref>). Periegetam egit, locorumque fabulas cum urbium
+                        originibus, cum deorum cultu aliisque civitatum institutis conjunctas in
+                        opere <title xml:lang="grc">Κατὰ πόλιν μυθικά</title> inscripto congessit.
+                        Deprehendimus fabulas Lydias (<ref>fr. 26</ref>), Syrias (<ref>fr.
+                        30</ref>), Atticas (<ref>fr. 32</ref>), Arcadicas (<ref>fr. 33</ref>).</p>
+                    <p>Fides <persName role="author">Neanthi</persName> haud ita magni facienda.
+                        Falso multa ab eo tradita esse de rebus antiquariis, vel inde colligas, quod
+                        contra eum librum conscripsit <persName role="author">Polemo</persName>
+                            (<foreign xml:lang="grc"><persName role="author">Πολ.</persName> ἐν ταῖς
+                                <title>πρὸς Νεάνθην ἀντιγραφαῖς</title></foreign>, <ref>fr.
+                        24</ref>). <persName role="author">Plutarchus</persName> quoque nota
+                            <foreign xml:lang="grc">τὴν <persName role="author">Νεάνθου</persName>ς
+                            ἐν <pb n="2" break="no"/>ἐνίοις εὐχέρειαν</foreign> (<ref>fr. 32</ref>).
+                        Quod quidem vituperium haud redimi dixerim verbis <persName role="author"
+                            >Plinii</persName>, cui <hi rend="italics">Neanthes est inter auctores
+                            Gr&#230;ci&#230; non spretus</hi> (<ref>fr. 33</ref>). Qu&#230; haud
+                        absque ironia dicta esse ex iis, qu&#230; <persName role="author"
+                            >Neanthe</persName> duce narrat incredibilia, facile patet. Verum ne
+                        opus quidem est hisce testimoniis, quum levitatem auctoris ex ipsis
+                        fragmentis affatim cognoscere possis. Legas, qu&#230;so, <ref>fragm.
+                            36</ref> de nomine Capherei promontorii, <ref>fr. II</ref> de Heraclito
+                            <foreign xml:lang="grc">κυνο&#976;ρώτῳ</foreign>, <ref>fr. 9</ref> de
+                        morte Sophoclis, <ref>fr. 17</ref> de Pythagora Syro, <ref>fr. 20</ref> de
+                        Empedoclis <foreign xml:lang="grc">λογοκλοπείᾳ</foreign>, et si qu&#230; his
+                        similia.</p>
+
+                    <div type="textpart" subtype="work" n="1">
+                        <ab>
+                            <title type="main" xml:lang="grc">ΕΛΛΗΝΙΚΑ.</title>
+                        </ab>
+                        <div type="textpart" subtype="book" n="2">
+                            <note>E LIBRO SECUNDO.</note>
+
+                            <cit n="1" xml:lang="grc">
+                                <bibl>Athen&#230;us III, p. 111, D</bibl>
+                                <quote>Θρόνος ἄρτου ἄνομα. <persName role="author"
+                                        >Νεάνθης</persName> ὁ Κυζικηνὸς, ἐν <num type="ordinal"
+                                        value="2">δευτέρῳ</num>
+                                    <title>Ἑλληνικῶν</title> γράφων οὕτως· <quote>«Ὁ δὲ Κόδρος τόμον
+                                        ἄρτου τὸν καλούμενον θρόνον <note>(<foreign xml:lang="grc"
+                                                >τοῦ καλουμένου θρόνου</foreign> Casaub.)</note>
+                                        λαμ&#976;άνει, καὶ κρέας, καὶ τῷ πρεσ&#976;υτάτῳ νέμουσι
+                                                <note>(<foreign xml:lang="grc">νέμει</foreign> em.
+                                            Casaub.)</note>.</quote></quote>
+                                <note xml:lang="la">Res obscura.</note>
+                            </cit>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="3 and 4">
+                            <note>E LIBRIS TERTIO ET QUARTO.</note>
+
+                            <cit n="2" xml:lang="grc">
+                                <bibl n="1">Idem XIII, p. 576, D</bibl>
+                                <quote n="1"><persName role="author">Νεάνθης</persName> δ᾿ ὁ
+                                    Κυζικηνὸς ἐν τῇ <num type="ordinal" value="3">τρίτῃ</num> καὶ
+                                        <num type="ordinal" value="4">τετάρτῃ</num> τῶν
+                                        <title>Ἑλληνικῶν</title> ἱστοριῶν Εὐτέρπης αὐτὸν <note>(sc.
+                                            <foreign xml:lang="grc">τὸν
+                                        Θεμιστοκλέα</foreign>)</note> εἷναί φησιν υἱόν.</quote>
+                                <bibl n="2">Plutarch. Themist. c. 1</bibl>
+                                <quote n="2">Φανίας... τὴν μητέρα Θεμιστοκλέους... Εὐτέρπην
+                                    ἀναγράφει. <persName role="author">Νεάνθης</persName> δὲ καὶ
+                                    πόλιν αὐτῇ Καρίας Ἁλικαρνασσὸν προστίθησι.</quote>
+                            </cit>
+
+                            <cit n="3">
+                                <bibl n="1">Plutarch. Themist. c. 29, 10</bibl>
+                                <quote n="1">Πόλεις δ᾿ αὐτῷ τρεῖς μὲν οἱ πλεῖστοι δοθῆναι λέγουσιν,
+                                    εἰς ἄρτον καὶ οἶνον καὶ ὄψον, Μαγνησίαν καὶ Λάμψακον καὶ
+                                    Μυοῦντα· δύο δ᾿ ἄλλας προστίθησιν ὁ Κυζικηνὸς <persName
+                                        role="author">Νεάνθης</persName> καὶ Φανίας <note>(<ref>fr.
+                                            10</ref>)</note>, Περκώτην καὶ Παλαίσκηψιν εἰς στρωμνὴν
+                                    καὶ ἀμπεχόνην.</quote>
+                                <bibl n="2">Schol. Aristoph. Equit. 84</bibl>
+                                <quote n="2">Ὁ βασιλεὺς δωρεῖται αὐτῷ <note>(<foreign xml:lang="grc"
+                                            >Θεμιστοκλεῖ</foreign>)</note> τρεῖς πόλεις, Μαγνησίαν
+                                    εἰς σῖτον, Λάμψακον εἰς ὄψα, ὡς δὲ <persName role="author"
+                                        type="alt">Κλεάνθης</persName>
+                                    <note>(scr. <foreign xml:lang="grc"><persName role="author"
+                                                >Νεάνθης</persName></foreign>)</note> καὶ Περκώτην
+                                    εἰς στρωμνὴν καὶ Παλαίσχηψιν εἰς στολήν.</quote>
+                            </cit>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="6">
+                            <note>E LIBRO SEXTO.</note>
+
+                            <cit n="4" xml:lang="grc">
+                                <bibl>Athen&#230;us VII, p. 311, E</bibl>
+                                <quote>Ὁ δὲ Γαίσων, οὗ Ἀρχέστρατος μνημονεύει, ἡ Γαισωνὶς λίμνη
+                                    ἐστὶ, μεταξὺ Πριήνης καὶ Μιλήτου ἡνωμένη τῇ θαλάττῃ, ὡς
+                                        <persName role="auhtor">Νεάνθης</persName> ὁ Κυζικηνὸς
+                                    ἱστορεῖ ἐν τῇ <num type="ordinal" value="6">ἕκτῃ</num> τῶν
+                                        <title>Ἑλληνικῶν</title>.</quote>
+                                <note xml:lang="la">Cf. <ref>Ephorus fr. 91</ref> (qui G&#230;sonem
+                                    fluvium dicit in lacum influentem); <bibl>Herodot. IX,
+                                    97</bibl>; <hi rend="italics">Gessus</hi> ap. <bibl>Plinium V.
+                                        29, 31</bibl>, <hi rend="italics">G&#230;sus</hi> ap.
+                                        <bibl>Melam I, 17 ubi cf. Tzschucke</bibl>.</note>
+                            </cit>
+                        </div>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="2">
+                        <ab>
+                            <title type="main" xml:lang="grc">ΩΡΟΙ [ΚΥΞΙΚΗΝΩΝ].</title>
+                        </ab>
+                        <div type="textpart" subtype="book" n="1">
+                            <note>E LIBRO PRIMO.</note>
+
+                            <cit n="5" xml:lang="grc">
+                                <bibl>Athen&#230;us p. IV, 175, D</bibl>
+                                <quote>Τοῦτο δὲ τὸ ὄργανον <note>(sc. <foreign xml:lang="grc">τὸ
+                                            τρίγωνον</foreign>)</note>
+                                    <persName role="author">Νεάνθης</persName> ὁ Κυζικηνὸς ἐν <num
+                                        type="ordinal" value="1">πρώτῳ</num>
+                                    <title>Ὥρων</title> εὕρημα εἶναι λέγει <persName role="author"
+                                        >Ἰ&#976;ύκου</persName>, τοῦ Ῥηγίνου ποιητοῦ, ὡς καὶ
+                                        <persName role="author">Ἀνακρέοντος</persName> τὸ
+                                    βάρ&#976;ιτον.</quote>
+                                <note xml:lang="la">Cf. <bibl>Jub&#230; fragm.</bibl> h. l.
+                                    laudatum.</note>
+                            </cit>
+
+                            <cit n="6" xml:lang="grc">
+                                <bibl>Strabo I, p. 45</bibl>
+                                <quote>Οὐδ᾿ ὁ Σκήψιος δὲ <persName role="author"
+                                        >Δημήτριος</persName> εὖ, ἀλλὰ καὶ τῷ <persName
+                                        role="author">Ἀπολλοδώρῳ</persName> τῶν ἁμαρτιῶν ἐνίων
+                                    αἴτιος ἐκεῖνος κατέστη. Πρὸς γὰρ <persName role="author"
+                                        >Νεάνθη</persName> τὸν Κυζικηνὸν φιλοτιμοτέρως ἀντιλέγων,
+                                    εἰπόντα ὅτι οἱ Ἀργοναῦται πλέοντες εἰς Φᾶσιν τὸν <persName
+                                        role="author">Ὁμήρου</persName> καὶ τῶν ἄλλων ὁμολογούμενον
+                                    πλοῦν, ἱδρύσαντο τὰ τῆς Ἰδαίας μητρὸς ἱερὰ περὶ Κύζικον, ἀρχήν
+                                    φησι μηδ᾿ εἰδέναι τὴν εἰς Φᾶσιν ἀποδημίαν τοῦ Ἰάσονος <persName
+                                        role="author">Ὅμηρον</persName>.</quote>
+                                <note xml:lang="la">De tem-<pb n="3" break="no"/> plo Matris
+                                    Id&#230;&#230; in Dindymo monte, quod Zenonem imperatorem cultui
+                                    Christiano dedicasse opinatur <bibl>Cedrenus p. 119, B</bibl>,
+                                    v. <bibl>Marquardt, Cyzicus u. sein Gebiet, p. 148 et p. 95
+                                        sqq.</bibl></note>
+                            </cit>
+                        </div>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="3">
+                        <ab>
+                            <title type="main" xml:lang="grc">ΑΙ ΠΕΡΙ ΑΤΤΑΛΟΝ ΙΣΤΟΡΙΑΙ.</title>
+                        </ab>
+                        <div type="textpart" subtype="book" n="1">
+                            <note>E LIBRO PRIMO.</note>
+
+                            <cit n="7" xml:lang="grc">
+                                <bibl>Athen&#230;us XV, p. 699, D</bibl>
+                                <quote>Ὁ δέ τις ἑλάνας <note>(sc. <foreign xml:lang="grc"
+                                            >ἔλεγε</foreign>)</note>, τὰς λαμπάδας οὕτω φάσκων
+                                    καλεῖσθαι παρὰ τὴν ἕλην· οὕτω δ᾿ εἰπεῖν <persName role="author"
+                                        >Νεάνθην</persName> ἐν <num type="ordinal" value="1"
+                                        >πρώτῃ</num>
+                                    <title>Τῶν περὶ Ἄτταλον ἱστοριῶν</title>.</quote>
+                                <note xml:lang="la">Eadem Eustathius ad <bibl>Homer. Od. p. 1571 ed.
+                                        Rom.</bibl></note>
+                            </cit>
+                        </div>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="4">
+                        <ab>
+                            <title type="main" xml:lang="grc">ΠΕΡΙ ΕΝΔΟΞΩΝ ΑΝΔΡΩΝ.</title>
+                        </ab>
+
+                        <ab>
+                            <title type="sub" xml:lang="grc">ΕΠΙΧΑΡΜΟΣ.</title>
+                            <cit n="8" xml:lang="grc">
+                                <bibl>Stephan. Byz.</bibl>
+                                <quote>Κραστός.. ἐκ ταύτης <note>(<foreign xml:lang="grc"
+                                            >Κραστοῦ</foreign>)</note> ἦν <persName role="author"
+                                        >Ἐπίχαρμος</persName> ὁ κωμικὸς καὶ Λαὶς ἡ ἑταίρα, ὡς
+                                        <persName role="author">Νεάνθης</persName> ἐν τῷ <title>Περὶ
+                                        ἐνδόξων ἀνδρῶν</title>.</quote>
+                                <note xml:lang="la">De Laidis patria cf. Polemonis et aliorum
+                                    sententias ap. <bibl>Athen. p. 588, C</bibl>.—Ex eodem <title
+                                        xml:lang="la">De viris illustribus</title> petita esse
+                                    qu&#230; de <persName role="author">Periandro</persName>,
+                                        <persName role="author">Heraclito</persName>, <persName
+                                        role="author">Sophocle</persName>, <persName role="author"
+                                        >Platone</persName>, <persName role="author"
+                                        >Antisthene</persName>, <persName role="author"
+                                        >Timone</persName> traduntur, recte statuit <bibl>Marquardt.
+                                        l. l. p. 166</bibl>.</note>
+                            </cit>
+                        </ab>
+
+                        <ab>
+                            <title type="sub" xml:lang="grc"> ΣΟΦΟΚΛΗΣ.</title>
+                            <cit n="9" xml:lang="grc">
+                                <bibl>Vita Sophoclis p. 130 Westerm.</bibl>
+                                <quote>Τελευτῆσαι δὲ αὐτὸν <persName role="author">Ἴστρος</persName>
+                                    <note>(<ref>fr. 51</ref>)</note> καὶ <persName role="author"
+                                        >Νεάνθης</persName> φασὶ τοῦτον τὸν τρόπον. Καλλιππίδην
+                                    ὑποκριτὴν ἀπ᾿ ἐργασίας ἐξ Ὀποῦντος ἥκοντα παρὰ τοὺς Χόας, πέμψαι
+                                    αὐτῷ σταφυλήν· τὸν δὲ <persName role="author"
+                                        >Σοφοκλέα</persName> λα&#976;όντα εἰς τὸ στόμα ῥᾶγα ἔτι
+                                    ὀμφακίζουσαν ὑπὸ τοῦ ἄγαν γήρως ἀποπνιγέντα τε·
+                                    λευτῆσαι.</quote>
+                            </cit>
+                        </ab>
+
+                        <ab>
+                            <title type="sub" xml:lang="grc">ΠΕΡΙΑΝΔΡΟΣ.</title>
+                            <cit n="10" xml:lang="grc">
+                                <bibl>Diogenes L. 1, 99</bibl>
+                                <quote><persName role="author">Σωτίων</persName> δὲ καὶ <persName
+                                        role="author">Ἡρακλείδης</persName> καὶ <persName
+                                        role="author">Παμφίλη</persName> ἐν τῷ <num type="ordinal"
+                                        value="5">πέμπτῳ</num> τῶν <title>Ὑπομνημάτων</title> δύο
+                                    φασὶ Περιάνδρους γεγονέναι, τὸν μὲν τύραννον, τὸν δὲ σοφὸν καὶ
+                                    Ἀμ&#976;ρακιώτην· τοῦτο καὶ <persName role="author"
+                                        >Νεάνθης</persName> φησὶν ὁ Κυζικηνὸς ἀνεψίους τε εἶναι
+                                    ἀλλήλοις.</quote>
+                                <note xml:lang="la">Cf. <ref>Aristot. fr. 136</ref>;
+                                        <bibl>Schneider. Ad Aristot. Polit. p. 301</bibl>;
+                                        <bibl>Müller. Dor. II, p. 155</bibl>.</note>
+                            </cit>
+                        </ab>
+
+                        <ab>
+                            <title type="sub" xml:lang="grc">ἩΡΑΚΛΕΙΤΟΣ.</title>
+                            <cit n="11" xml:lang="grc">
+                                <bibl>Idem IX, 4</bibl>
+                                <quote><persName role="author">Ἔρμιππος</persName> δέ φησι λέγειν
+                                    αὐτὸν <note>(<persName role="author">Heraclitum</persName> aqua
+                                        intercute laborantem)</note> τοῖς ἰατροῖς, εἴ τις δύναται τὰ
+                                    ἔντερα πιέσας ὑγρὸν ἐξεράσαι΄; ἀπειπόντων δὲ, θεῖναι εἰς τὸν
+                                    ἥλιον καὶ κελεύειν τοὺς παῖδας βολ&#976;ίτοις καταπλάττειν τοὺς
+                                    παῖδας βολ&#976;ίτοις καταπλάττειν· οὕτω δὴ κατατεινόμενον
+                                    δευτεραῖον τελευτῆσαι καὶ ταφῆναι ἐν τῇ ἀγορᾷ. <persName
+                                        role="author">Νεάνθης</persName> δ᾿ ὁ Κυζικηνός φησι μὴ
+                                    δυνηθέντ᾿ αὐτὸν ἀποσπάσαι τὰ βόλ&#976;ιτα μεῖναι καὶ διὰ τὴν
+                                    μετα&#976;ολὴν ἀγνοηθέντα κυνό&#976;ρωτον γενέσθαι.</quote>
+                            </cit>
+                        </ab>
+
+                        <ab>
+                            <title type="sub" xml:lang="grc">ΠΛΑΤΩΝ.</title>
+                            <cit n="12" xml:lang="grc">
+                                <bibl>Diogenes L. III, 3</bibl>
+                                <quote><persName role="author">Νεάνθης</persName> δέ φησιν αὐτὸν
+                                    τεττάρων καὶ ὀγδοήκοντα τελευτῆσαι ἐτῶν.</quote>
+                                <note xml:lang="grc">Ex his <persName role="author">Plato</persName>
+                                    natus foret Ol. 87, 1. Rectius <persName role="author"
+                                        >Hermippus.</persName> l. l. et <persName role="author"
+                                        >Apollodorus</persName> natum Ol. 88, 1, vixisse dicunt
+                                    annis 81. Cf. <bibl>Clinton. ad an. 429</bibl>.</note>
+                            </cit>
+                            <pb n="4"/>
+                            <cit n="13" xml:lang="grc">
+                                <bibl>Idem III, 4</bibl>
+                                <quote>Ἔνιοι δὲ διὰ τὴν πλατύτητα τῆς ἑρμηνείας οὕτως ὀνομασθῆναι
+                                            <note>(<foreign xml:lang="grc">φασὶ τὸν <persName
+                                                role="author">Πλάτωνα</persName></foreign>)</note>.
+                                    ἤ ὅτι πλατὺς ἧ τὸ μέτωπον, ὥς φησιν <persName role="author"
+                                        >Νεάνθης</persName>.</quote>
+                            </cit>
+                            <cit n="14" xml:lang="grc">
+                                <bibl>Idem III, 25</bibl>
+                                <quote>Τούτου, φησὶ <persName role="author">Νεάνθης</persName> ὁ
+                                    Κυζικηνὸς, εἰς Ὀλύμπια ἀνιόντος, τοὺς Ἕλληνας ἅπαντας
+                                    ἐπιστραφῆναι πρὸς αὐτόν· ὅτε καὶ Δίωνι συνέμιξε μέλλοντι
+                                    στρατεύειν ἐπὶ Διονύσιον.</quote>
+                            </cit>
+                        </ab>
+
+                        <ab>
+                            <title type="sub" xml:lang="grc">ΑΝΤΙΣΘΕΝΗΣ.</title>
+                            <cit n="15" xml:lang="grc">
+                                <bibl>Idem VI, 13</bibl>
+                                <quote>Καὶ πρῶτος ἐδίπλωσε τὸν τρί&#976;ωνα <note>(<foreign
+                                            xml:lang="grc">καθά φησι <persName role="author"
+                                                >Διοκλῆς</persName>)</foreign></note> καὶ μόνῳ αὐτῷ
+                                    ἐχρῆτο· βάκτρον τε ἀνέλα&#976;ε καὶ πήραν· πρῶτον δὲ καὶ
+                                        <persName role="author">Νεάνθης</persName> φησὶ διπλῶσαι
+                                    θοιμάτιον.</quote>
+                            </cit>
+                        </ab>
+
+                        <ab>
+                            <title type="sub" xml:lang="grc">ΤΙΜΩΝ.</title>
+                            <cit n="16" xml:lang="grc">
+                                <bibl>Schol. Arist. Lys. 808</bibl>
+                                <quote>Τίμων οὗτος ἦν ὁ λεγόμενος μισάνθρωπος, ὅν φησι <persName
+                                        role="author">Νεάνθης</persName> ἀπὸ ἀχράδος πεσόντα χωλὸν
+                                    γενέσθαι, μὴ προσιέμενον δὲ ἰατροὺς ἀποθανεῖν σαπέντα. Καὶ μετὰ
+                                    τὴν τελευτὴν αὐτοῦ τὸν τάφον ἄ&#976;ατον γενέσθαι ὑπὸ θαλάσσης
+                                    περιρραγέντα, ἐν ὁδῷ τῇ ἐκ Πειραιῶς εἰς Ζωστῆρα καὶ Σούνιον
+                                    φερούσῃ.</quote>
+                                <note xml:lang="la">Eadem <bibl>Suidas v. Ἀπορρῶγας (cl.
+                                        Τίμων)</bibl>, ubi <foreign xml:lang="grc"><persName
+                                            role="author">Νεάνθης</persName></foreign> in duobus
+                                    codd. Par., <foreign xml:lang="grc"><persName role="author"
+                                            type="alt">Εὐάνθης</persName></foreign> in
+                                        reliq.—<foreign xml:lang="grc">ἀχράδος</foreign>] ita
+                                        <bibl>Suidas</bibl>; schol. <foreign xml:lang="grc"
+                                        >χαράδρας</foreign> corrupte.</note>
+                            </cit>
+                        </ab>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="5">
+                        <ab>
+                            <title type="main" xml:lang="grc">ΠΕΡΙ ΠΥΘΑΓΟΡΟΥ ΚΑΙ
+                                ΠΥΘΑΓΟΡΙΚΩΝ.</title>
+                        </ab>
+                        <cit n="17" xml:lang="la">
+                            <bibl>Clem. Alex. Strom. 1, p. 129, 42 Sylb. (p. 352 Pott.)</bibl>
+                            <quote><persName role="author">Pythagoras</persName> sec. Aristarchum et
+                                Theopompum Tyrrhenus fuit, <foreign xml:lang="grc">ὡς δὲ <persName
+                                        role="author">Νεάνθης</persName> Σύριος ἢ
+                                Τύριος</foreign>.</quote>
+                            <note xml:lang="la">Eadem <bibl>Theodoret. Therap. 1, p. 468</bibl>, et
+                                    <bibl>Porphyr. V. Pyth. init.</bibl> (<ref>v. fr. 30</ref>), ubi
+                                laudatur <foreign xml:lang="grc"><persName role="author" type="alt"
+                                        >Κλεάνθης</persName> ἐν πέμπτῳ
+                                    <title>Μυθικῶν</title></foreign>. Eodem etiam Noster locus
+                                relegandus erat; sed h. l. posui, quia <persName role="author"
+                                    >Neanthes</persName> in libris de <title xml:lang="la"
+                                    >Pythagoricis</title> mentionem hujus rei omittere vix potuit.
+                                Contra Menagius ad <bibl>Diog. L VIII, 72, p. 383</bibl> pro <title
+                                    xml:lang="grc">Μυθικῶν</title> legi vult <title xml:lang="grc"
+                                    type="alt">Πυθαγορικῶν</title>. At nonne mirum foret quinto
+                                demum libro lectorem de patria <persName role="author"
+                                    >Pythagor&#230;</persName> doceri? Cf. <ref>not. ad fr.
+                                30</ref>.</note>
+                        </cit>
+
+                        <cit n="18" xml:lang="grc">
+                            <note><bibl>Porphyr. V. Pyth. § 55 p. 90 ed. Kiessl.</bibl>, postquam de
+                                causis seditionis Cyloni&#230; dixerat, pergit.</note>
+                            <quote>Τοὐντεῦθεν δ᾿ οἱ μέν φασιν ὅτι τῶν ἑταίρων τοῦ Πυθαγόρου
+                                συνηγμένων ἐν τῇ Μίλωνος οἰκίᾳ τοῦ ἀθλητοῦ παρὰ τὴν Πυθαγόρου
+                                ἀποδημίαν (ὡς γὰρ <persName role="author">Φερεκύδην</persName> τὸν
+                                Σύριον αὑτοῦ διδάσκαλον γενόμενον εἰς Δῆλον ἐπεπόρευτο νοσοκομήσων
+                                αὐτὸν περιπετῆ γενόμενον τῷ ἱστορουμένῳ φθειριάσεως πάθει καὶ
+                                κηδεύσων), πάντας πανταχῆ ἐνέπρησαν αὐτοῦ τε καὶ κατέλευσαν, δύο
+                                ἐκφυγόντων ἐκ τῆς πυρᾶς, Ἀρχίππου τε καὶ Λύσιδος, ὥς φησι <persName
+                                    role="author">Νεάνθης</persName>, ὧν ὁ Λύσις ἐν Ἑλλάδι ᾤκησεν,
+                                Ἐπαμινώνδᾳ τε συγγέγονεν, οὗ καὶ διδάσκαλος γέγονε. <persName
+                                    role="author">Δικαίαρχος</persName> δὲ καὶ οἱ ἀκρι&#976;έστεροι
+                                καὶ τὸν <persName role="author">Πυθαγόραν</persName> φασὶ παρεῖναι
+                                τῇ ἐπι&#976;ουλῇ.</quote>
+                        </cit>
+
+                        <pb n="5"/>
+
+                        <cit n="19" xml:lang="grc">
+                            <bibl>Theolog. arithm. p. 40, 10 Ast.</bibl>
+                            <quote>Ἐπεὶ δὲ ὁ ἀπὸ τοῦ ς’ κύ&#976;ος σις’ γίνεται, ὁ ἐπὶ ἑπταμήνων
+                                γονίμων χρόνος, συναριθμουμένων τοῖς ἑπτὰ τῶν ἕξ ἡμερῶν, ἔν κίς
+                                ἀφροῦται καὶ διαφύσεις σπέρματος λαμ&#976;άνει τὸ σπέρμα, <persName
+                                    role="author">Ἀνδροκύδης</persName> δὲ ὁ Πυθαγορικὸς ὁ περὶ τῶν
+                                συμ&#976;όλων γράψας καὶ <persName role="author"
+                                    >Εὐ&#976;ουλίδης</persName> καὶ <persName role="author"
+                                    >Νεάνθης</persName>, οἱ τά κατὰ τὸν ἄνδρα ἀναγράψαντες, σις’
+                                ἔτεσι τὰς μετεμψυχώσεις τὰς αὐτῷ συμ&#976;ε&#976;ηκυίας ἔφασαν
+                                γεγονέναι.</quote>
+                            <note xml:lang="la">Sequentia lege in <ref>fragm. Aristoxeni
+                                23</ref>.</note>
+                        </cit>
+
+                        <ab>
+                            <title type="sub" xml:lang="grc">ΕΜΠΕΔΟΚΛΗΣ.</title>
+                            <cit n="20" xml:lang="grc">
+                                <bibl>Diogen. L. VIII, 54</bibl>
+                                <quote>Ἀκοῦσαι δ᾿ αὐτὸν <note>(<foreign xml:lang="grc">τὸν <persName
+                                                role="author"
+                                        >Ἐμπεδοκλέα</persName></foreign>)</note> Πυθαγόρου <persName
+                                        role="author">Τιμαῖος</persName>
+                                    <note>(<ref>fr. 81</ref>)</note> διὰ τῆς <num type="ordinal"
+                                        value="9">ἐνάτης</num>
+                                    <title>ἱστορεῖ</title>, λέγων ὅτι καταγνωσθεὶς ἐπὶ λογοκλοπείᾳ
+                                    τότε <note>(<foreign xml:lang="grc">καθὰ καὶ <persName
+                                                role="author">Πλάτων</persName></foreign>)</note>
+                                    τῶν λόγων ἐκωλύθη μετέχειν... Φησὶ δὲ <persName role="author"
+                                        >Νεάνθης</persName> ὅτι μέχρι <persName role="author"
+                                        >Φιλολάου</persName> καὶ <persName role="author"
+                                        >Ἐμπεδοκλέους</persName> ἐκοινώνουν οἱ Πυθαγορικοὶ τῶν
+                                    λόγων· ἐπεὶ δ᾿ αὐτὸς διὰ τῆς ποιήσεως ἐδημοσίωσεν αὐτὰ, νόμον
+                                    ἔθεντο μηδενὶ μεταδώσειν ἐποποιῷ. Τὸ δ᾿ αὐτὸ καὶ <persName
+                                        role="author">Πλάτωνά</persName> φασι παθεῖν· καὶ γὰρ τοῦτον
+                                    κωλυθῆναι. Τίνος μέντοι γ᾿ αὐτῶν ἤκουσεν ὁ <persName
+                                        role="author">Ἐμπεδοκλῆς</persName> οὐκ εἶπε· τὴν γὰρ
+                                    περιφερομένην πρὸς <persName role="author">Τηλαυγοῦς</persName>
+                                    ἐπιστολὴν, ὅτι μετέσχεν <persName role="author"
+                                        >Ἱππάσου</persName> καὶ <persName role="author"
+                                        >Βροντίνου</persName>, μὴ εἶναι ἀξιόπιστον.</quote>
+                                <note xml:lang="la">Vix dubium est <persName role="author"
+                                        >Tim&#230;um</persName> et <persName role="author"
+                                        >Neanthem</persName>
+                                    <persName role="author">Philisci</persName> discipulos vel
+                                    alterum ex altero, vel utrumque ex eodem fonte hausisse. Quare
+                                    pro <foreign xml:lang="grc">Πυθαγόρου <persName role="author"
+                                            >Τιμαῖος</persName></foreign> reponendum puto <foreign
+                                        xml:lang="grc">Πυθαγορικῶν τινὸς <persName role="author"
+                                            >Τιμ.</persName></foreign> Contra ipsum Pythagoram Emp.
+                                    Magistrum dixerat Alcidamas ap. <bibl>Diog. VIII, 56</bibl>; ad
+                                    huc respicit <bibl>Diog. VIII, 50</bibl>. Ceterum cf.
+                                        <bibl>Karsten. Empedoclis Reliq. p. 4</bibl>; de <foreign
+                                        xml:lang="grc">λογοκλοπείας</foreign> fabula <bibl>idem p.
+                                        51</bibl>.</note>
+                            </cit>
+                        </ab>
+
+                        <cit n="21" xml:lang="grc">
+                            <bibl>Idem VIII, 58 de trag&#339;diis Empedoclis</bibl>
+                            <quote><persName role="author">Ἡρακλείδης</persName> δὲ ὁ τοῦ
+                                Σεραπίωνος, ἑτέρου φησὶν τὰς τραγῳδίας, <persName role="author"
+                                    >Ἱερώνυμος</persName> δὲ τρισὶ καὶ τετταράκοντά φησιν
+                                ἐντετυχηκέναι. <persName role="author">Νεάνθης</persName> δὲ νέον
+                                ὄντα γεγραφέναι τὰς τραγῳδίας καὶ αὐτὸς ἔπειτα αὐταῖς
+                                ἐντετυχηκέναι.</quote>
+                            <note xml:lang="la"><persName role="author">Heraclidem</persName>
+                                veriora tradere non dubium. V. <bibl>Karsten. l. l. p.
+                                64</bibl>.</note>
+                        </cit>
+
+                        <cit n="22" xml:lang="grc">
+                            <bibl>Idem VIII, 72</bibl>
+                            <quote><persName role="author">Νεάνθης</persName> δ᾿ ὁ Κυζικηνὸς ὁ καὶ
+                                περὶ τῶν Πυθαγορικῶν εἰπὼν φησὶ Μέτωνος τελευτήσαντος τυραννίδος
+                                ἀρχὴν ὑποφύεσθαι· εἶτα τὸν <persName role="author"
+                                    >Ἐμπεδοκλέα</persName> πεῖσαι τοὺς Ἀκραγαντίνους παύσασθαι μὲν
+                                τῶν στάσεων, ἰσότητα δὲ πολιτικὴν ἀσκεῖν. Ἔτι δὲ πολλὰς τῶν
+                                πολιτίδων ἀπροίκους ὑπαρχούσας αὐτὸν προικίσαι διὰ τὸν παρόντα
+                                πλοῦτον, καὶ στρόφιον ἐπιθέσθαι χρυσοῦν, ὡς <persName role="author"
+                                    >Φα&#976;ωρῖνος</persName> ἐν <title>Ἀπομνημονευμάτων</title>
+                                <num type="ordinal" value="1">πρώτῳ</num>· ἔτι τ᾿ ἐμ&#976;άδας
+                                χαλκᾶς καὶ στέμμα Δελφικόν. Κόμη τ᾿ ἦν αὐτῷ βαθεῖα καὶ παῖδες
+                                ἀκόλουθοι, καὶ αὐτὸς ἀεὶ σκυθρωπὸς ἐφ᾿ ἑνὸς ἦν σχήματος. Τοιοῦτος δὲ
+                                προῄει, τῶν πολιτῶν ἐντυχόντων, καὶ τοῦτο ἀξιωσάντων οἱονεὶ
+                                βασιλείας τινὸς παράσημον. Ὕστερον δὲ διά τινα πανήγυριν πορευόμενον
+                                ἐφ᾿ ἁμάξης ὡς εἰς Μεσσήνην, πεσεῖν, καὶ τὸν μηρὸν κλᾶσαι· νοσήσαντα
+                                δ᾿ ἐκ τούτου, τελευτῆσαι ἐτῶν ζ’ καὶ ο’ [ὥς φησι <persName
+                                    role="author">Νεάνθης</persName> ὁ Κυζικηνός].</quote>
+                            <note xml:lang="grc">Postrema addit <persName role="author">Hesychius
+                                    Miles.</persName> (v. <bibl>Ἐμπεδοκλῆς p. 24 ed. Orelli</bibl>),
+                                qui eadem ad verbum exhibet, nisi quod <persName role="author"
+                                    >Neanthis</persName> mentionem ad initio articuli ad finem
+                                relegavit. Ceterum de re cf. <bibl>Karsten. l. l. p. 15
+                                sqq.</bibl></note>
+                        </cit>
+
+                        <pb n="6"/>
+
+                        <cit n="22a" xml:lang="grc">
+                            <bibl>Iamblich. V. Pyth. c. 31, § 189</bibl>
+                            <quote>Καὶ ἐξ ὧν <persName role="author">Ἱππό&#976;οτος</persName> καὶ
+                                    <persName role="author">Νεάνθης</persName> περὶ Μυλλίου καὶ
+                                Τιμύχας τῶν Πυθαγορείων ἱστοροῦσι μαθεῖν ἔνεστι τὴν ἐκείνων τῶν
+                                ἀνδρῶν σωφροσύνην, καὶ ὅπως αὐτὴν <persName role="author"
+                                    >Πυθαγόρας</persName> παρέδωκε. Τὸν γὰρ Διονύσιον τὸν τύραννόν
+                                φασιν, ὡς πάντα ποιῶν οὐδενὸς αὐτῶν ἐπετύγχανε τῆς φιλίας,
+                                φυλαττομένων τὸ μοναρχικὸν αὐτοῦ καὶ παράνομον, λόχον τινὰ τριάκοντα
+                                ἀνδρῶν, ἡγουμένου Εὐρυμένους Συρακουσίου, Δίωνος ἀδελφοῦ, ἐπιπέμψαι
+                                τοῖς ἀνδράσι λοχήσοντα τὴν μετά&#976;ασιν αὐτῶν ἀπὸ Τάραντος εἰς
+                                Μεταπόντιον εἰωθυῖαν κατὰ καιρὸν γίνεσθαι· ἡρμόζοντο γὰρ πρὸς τὰς
+                                τῶν ὡρῶν μετα&#976;ολὰς, καὶ τόπους εἰς τὰ τοιάδε ἐπελέγοντο
+                                ἐπιτηδείους. Ἐν δὴ Φάλαις <note>(<foreign xml:lang="grc"
+                                        >Φάναις</foreign> Scalig.)</note>, χωρίῳ τῆς Τάραντος
+                                φαραγγώδει, καθ᾿ ὃ συνέ&#976;αινειν αὐτοῖς ἀναγκαίως τὴν ὁδοιπορίαν
+                                γενήσεσθαι, ἐλόχα κατακρύψας τὸ πλῆθος ὁ Εὐρυμένης. Ἐπειδὴ δὲ οὐδὲν
+                                προειδόμενοι ἀφίκοντο οἱ ἄνδρες περὶ μέσον ἡμέρας εἰς τὸν τόπον,
+                                λῃστρικῶς αὐτοῖς ἐπαλαλάξαντες ἐπέθεντο οἱ στρατιῶται. Οἱ δὲ
+                                ἐκταραχθέντες μετ᾿ εὐλα&#976;είας ἅμα τε διὰ τὸ αἰφνίδιον καὶ αὐτὸ
+                                τὸ πλῆθος (ἦσαν γὰρ αὐτοὶ σύμπαντες δέκα που τὸν ἀριθμόν), καὶ ὅτι
+                                ἄνοπλοι πρὸς ποικίλως ὡπλισμένους διαγωνισόμενοι ἔμελλον ἁλίσκεσθαι,
+                                δρόμῳ καὶ φυγῇ διασώζειν αὑτοὺς διέγνωσαν, οὐδὲ τοῦτο ἀλλότριον
+                                ἀρετῆς τιθέμενοι· τὴν γὰρ ἀνδρείαν ᾔδεσαν φευκτέων καἰ ὑπομενετέων
+                                ἐπιστήμην, ὡς ἂν ὁ ὀρθὸς ὑπαγορεύῃ λόγος· καὶ ἐπετύγχανον δὲ ἤδη
+                                τούτου· βαρυνόμενοι γὰρ τοῖς ὅπλοις ἀπελείποντο οἱ σὺν Εὐρυμένει τοῦ
+                                διωγμοῦ· εἰ μή περιφεύγοντες ἐνέτυχον πεδίῳ τινὶ κυάμοις ἐσπαρμένῳ
+                                καὶ τεθηλότι ἱκανῶς· καὶ μὴ βουλόμενοι δόγμα παρα&#976;αίνειν τὸ
+                                κελεῦον κυάμων μὴ θιγγάνειν, ἔστησαν, καὶ ὑπ᾿ ἀνάγκης λίθοις καὶ
+                                ξύλοις καὶ τοῖς προστυχοῦσιν ἕκαστος μέχρι τοσοῦτον ἠμύνοντο τοὺς
+                                διώκοντας, μέχρι τινὰς αὐτῶν μὲν ἀνηρηκέναι, πολλοὺς δὲ
+                                τετραυματικέναι, πάντας μὲν ὑπὸ τῶν δορυφόρων ἀναιρεθῆναι, καὶ
+                                μηδένα τοπαράπαν ζωγρηθῆναι, ἀλλὰ πρὸ τούτων θάνατον ἀσμενίσαι κατὰ
+                                τὰς τῆς αἱρέσεως ἐντολάς. Ἐν συγχύσει δὲ πολλῇ τὸν μὲν Εὐρυμένην καὶ
+                                τοὺς σὺν αὐτῷ καὶ οὐ τῇ τυχούσῃ γενέσθαι, εἰ μηδὲ ἔνα ζῶντα ἀγάγοιεν
+                                τῷ πέμψαντι Διονυσίῳ, εἰς αὐτὸ μόνον τοῦτο προτρεψαμένῳ αὐτούς. Γῆς
+                                οὖν ἐπαμήσαντες τοῖς πεσοῦσι, καὶ ἡρῷον πολυάνδριον ἐπιχώσαντες
+                                αὐτόθι, ὑπέστρεφον. Εἶτα αὐτοῖς ἀπήντησε Μυλλίας Κροτωνιάτης καὶ
+                                Τιμύχα Λακεδαιμονία, γυνὴ αὐτοῦ, ἀπολελειμμέναι τοῦ πλήθους, ὅτι
+                                ἔγκυος οὖσα ἡ Τιμύχα τὸν δέκατον ἤδη μῆνα εἶχε καὶ σχολαίως διὰ
+                                τοῦτο ἐ&#976;άδιζε. Τούτους δὲ ζωγρήσαντες ἄσμενοι πρὸς τὸν τύραννον
+                                ἤγαγον, μετὰ πάσης κομιδῆς καὶ ἐπιμελείας διασώσαντες. Ὁ δὲ περὶ τῶν
+                                γεγονότων διαπυθόμενος καὶ ἀθυμήσας ἔφαινεν <note>(<foreign
+                                        xml:lang="grc">ὡς ἐνέφαινεν</foreign> conj. Kiessl.)</note>,
+                                Ἀλλ᾿ ὑμεῖς γε, εἶπεν, ὑπὲρ πάντων τῆς ἀξίας τεύξεσθε παρ᾿ ἐμοῦ
+                                τιμῆς, εἴ μοι συμ&#976;ουλεῦσαι <note>(cod. Ciz. <foreign
+                                        xml:lang="grc">Συμ&#976;ασιλεῦσαι</foreign> vgo)</note>
+                                θελήσετε. Τοῦ δὲ Μυλλίου καὶ τῆς Τιμύχας πρὸς πάντα ἃ ἐπηγγέλλετο
+                                ἀνανευόντων, Ἀλλὰ ἔν γέ με, ἔφη, διδάξαντες μετὰ τῆς
+                                ἐπι&#976;αλλ0ύσης προπομπῆς διασώζεσθε. Πυθομένου δὲ τοῦ Μυλλίου,
+                                καὶ τί ποτ᾿ ἐστιν ὃ μαθεῖν προθυμεῖται· Ἐκεῖνο, εἶπεν ὁ Διονύσιος,
+                                τίς ἡ αἰτία, δι᾿ ἥν <pb n="7" break="no"/> οἱ ἕταιροί σου ἀποθανεῖν
+                                μᾶλλον εἵλοντο ἤ κυάμους πατῆσαι. Καὶ ὁ Μυλλίας εὐθὺς, Ἀλλ᾿ ἐκεῖνοι
+                                μὲν, εἶπεν, ὑπέμειναν, ἵνα μὴ κυάμους πατήσωσιν, ἀποθανεῖν, ἐγὼ δὲ
+                                αἱροῦμαι, ἵνα τούτου σοι τὴν αἰτίαν μὴ ἐξείπω, κυάμους μᾶλλον
+                                πατῆσαι. Καταπλαγέντος δὲ τοῦ Διονυσίου καὶ μεταστῆσαι κελεύσαντος
+                                αὐτὸν σὺν βίᾳ, βασάνους δὲ ἐπιφέρειν τε οὖσαν καὶ ἔπογκον
+                                        <note>(<foreign xml:lang="grc">ἔτι ἔγκυον</foreign>
+                                    Sch&#230;fer.)</note>, ἐρήμην δὲ τοῦ ἀνδρὸς, ῥᾳδίως τοῦτο
+                                ἐκλαλήσειν φό&#976;ῳ τῶν βασάνων· ἡ γενναία δὲ συμ&#976;ρύξασα ἐπὶ
+                                τῆς γλώσσης τοὺς ὀδόντας καὶ ἀποκόψασα αὐτὴν προσέπτυσε τῷ τυράννῳ,
+                                ἐμφαίνουσα ὅτι, εἰ καὶ ὑπὸ τῶν βασάνων τὸ θῆλυ αὐτῆς νικηθὲν
+                                συναναγκασθείη τῶν ἐχεμυθουμένων τι ἀνακαλύψαι, τὸ μὴν ὑπηρετῆσον
+                                ἐκποδὼν ὐπ᾿ αὐτῆς περικέκοπται. Οὕτως δυσκατάθετοι πρὸς τὰς
+                                ἐξωτερικὰς φιλίας ἦσαν, εἰ καὶ βασιλικαὶ τυγχάνοιεν.</quote>
+                            <note xml:lang="la">Eandem historiam respexit <bibl>S. Ambrosius De
+                                    Virginit. II, c. 4</bibl>. Ceterum de Tymicha v. <bibl>Menagius
+                                    in Historia mulier. philosopharum</bibl>.—Prima verba <foreign
+                                    xml:lang="grc">Ἱππό&#976;οτος... ἱστοροῦσι</foreign> habes etiam
+                                ap. <bibl>Porphyr. V. Pyth. extrem.</bibl>; cetera ibi
+                                perierunt.</note>
+                        </cit>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="6">
+                        <ab>
+                            <title type="main" xml:lang="grc">ΠΕΡΙ ΤΕΛΕΤΩΝ.</title>
+                        </ab>
+                        <div type="textpart" subtype="book" n="1">
+                            <note>E LIBRO PRIMO.</note>
+
+                            <cit n="23" xml:lang="grc">
+                                <bibl>Favorin. v. Βριτόμαρτις p. 391, 7 Bas.</bibl>
+                                <quote><persName role="author">Νεάνθης</persName> ἐν τῷ <num
+                                        type="ordinal" value="1">πρώτῳ</num>
+                                    <title>Περὶ τελετῶν</title> φησι χρησμὸν Διὶ δοθῆναι, ὅτι ὁ ἐκ
+                                    τῆς μήτρας τῆς Ἑκάτης γενησόμενος μεταστήσει τῆς βασιλείας
+                                    αὐτόν· γεννώσης δὲ τῆς Ἑκάτης, τὰς συμπαρούσας κόρας τῇ λεχοῖ
+                                    ἀνα&#976;οῆσαι βρίτον, τοῦτ᾿ ἔστιν ἀγαθόν· παρὰ τοῦτο δὲ
+                                    ἐπίφθεγμα ὠνομάσθαι τὴν θεόν.</quote>
+                                <note xml:lang="la">Eadem <bibl>Etym. M. p. 214, 25</bibl>.
+                                        <quote>«De voce <foreign xml:lang="grc">βρίτον</foreign> v.
+                                            <bibl>Bekk. An. p. 567</bibl>, <bibl>Müller.
+                                            &#198;ginet. p. 164</bibl>, <bibl>Prolegom. p.
+                                            244</bibl>, <bibl>Welcker. zu Schwenks Andeut. p.
+                                            343</bibl>.»</quote>
+                                    <bibl>MARQUARDT. Cyz. p. 169</bibl>.</note>
+                            </cit>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="2">
+                            <note>E LIBRO SECUNDO.</note>
+
+                            <cit n="24" xml:lang="grc">
+                                <bibl>Athen&#230;us XIII, p. 602, B</bibl>
+                                <quote>Δια&#976;όητα δ᾿ ἐστὶ καὶ τὰ ἐπὶ Κρατίνῳ τῷ Ἀθηναίῳ γενόμενα·
+                                    ὅς μειράκιον [ὤν] εὔμορφον, Ἐπιμενίδου καθαίροντος τὴν Ἀττικὴν
+                                    ἀνθρωπείῳ αἵματι διά τινα μύση παλαιὰ, ὡς ἱστορεῖ <persName
+                                        role="author">Νεάνθης</persName> ὁ Κυζικηνὸς ἐν <num
+                                        type="ordinal" value="2">δευτέρῳ</num>
+                                    <title>Περὶ τελετῶν</title>, ἑκὼν αὑτὸν ἐπέδωκεν ὁ Κρατῖνος ὑπὲρ
+                                    τῆς θρεψαμένης· ᾧ καὶ ἐπαπέθανεν ὁ ἐραστὴς Ἀριστόδημος, λύσιν τ᾿
+                                    ἔλα&#976;ε τὸ δεινόν.</quote>
+                                <note xml:lang="la">[<foreign xml:lang="grc">ὤν</foreign>] adjecit
+                                        <bibl>Dindorf. De re confer Diogen. L. I, 110</bibl>, qui
+                                    Aristodemi loco Ctesibium ponit; <bibl>Heinrich. Epimenid. p.
+                                        94</bibl>. <bibl>B&#339;ckh. C. I. I, p. 445</bibl>. Ceterum
+                                    addit <bibl>Athen&#230;us</bibl> h&#230;c: <cit xml:lang="grc">
+                                        <quote>Οὐκ ἀγνοῶ δὲ ὅτι τὰ παρὰ Κρατίνου καὶ Ἀριστοδήμου
+                                            πεπλάσθαι φησὶ <persName role="author"
+                                                >Πολέμων</persName>
+                                            <note>(<ref>fr. 53</ref>)</note> ἐν ταῖς <title>Πρὸς
+                                                Νεάνθην ἀντιγραφαῖς</title>.</quote>
+                                    </cit></note>
+                            </cit>
+
+                            <cit n="25" xml:lang="grc">
+                                <note><bibl>Athen&#230;us IX, p. 375, F</bibl>, ex <persName
+                                        role="author">Agathoclis</persName>
+                                    <title xml:lang="grc">Περὶ Κυζικοῦ</title> opere fabulam
+                                    Cretensem narrat de sue Jovis nutrice, suisque apud Pr&#230;sios
+                                    sanctitate;</note>
+                                <quote>τὰ παραπλήσια, <foreign xml:lang="la">pergit,</foreign>
+                                    ἱστορεῖ καὶ <persName role="author">Νεάνθης</persName> ὁ
+                                    Κυζικηνὸς ἐν <num type="ordinal" value="2">δευτέρῳ</num>
+                                    <title type="alt">Περὶ τελετῆς</title>
+                                    <note>(scr. <foreign xml:lang="grc"
+                                    >Τελετῶν</foreign>)</note>.</quote>
+                            </cit>
+
+                            <cit n="26" xml:lang="grc">
+                                <bibl>Harpocratio v. Ἄττης</bibl>
+                                <quote>Ὁ Ἄττης παρὰ Φρυξὶ μάλιστα τιμᾶται ὡς πρόσπολος τῆς μητρὸς
+                                    τῶν θεῶν. Τὰ δὲ περὶ αὐτὸν δεδήλωκε <persName role="author"
+                                        >Νεάνθης</persName>· μυστικὸς δὲ ὁ λόγος.</quote>
+                                <note xml:lang="la"><quote>«Dym&#230;orum <foreign xml:lang="grc"
+                                            >ἀπόρρητον λόγον</foreign> de Cyble&#230; et At-<pb
+                                            n="8" break="no"/>tis commerciis et luctuoso pueri a sue
+                                        interempti casu <note>(<bibl>Pausan. VII, 17,
+                                            5</bibl>)</note> sine dubio enarravit Neanthes eo loco,
+                                        quo suum facinora memorabilia collegit <note>(<bibl>Athen.
+                                                p. 375, F</bibl>)</note>»</quote>
+                                    <bibl>LOBECK. Aglaoph. I, p. 151</bibl>, citante
+                                        <bibl>Marquardt. l. l.</bibl></note>
+                            </cit>
+
+                            <cit n="27" xml:lang="grc">
+                                <bibl>Clem. Al. Strom. V, p. 243, 20 Sylb. (p. 673 Pott.)</bibl>
+                                <quote>Συνομόλογος τῆς τοιᾶσδε δόξης καὶ ὁ Κυζικηνὸς <persName
+                                        role="author">Νεάνθης</persName>, γράφων τοὺς Μακεδόνων
+                                    ἱερεῖς ἐν ταῖς κατευχαῖς βέδυ κατακαλεῖν ἵλεω αὐτοῖς τε καὶ τοῖς
+                                    τέκνοις, ὅπερ ἑρμηνεύουσιν ἀέρα.</quote>
+                                <note xml:lang="la">Antecedit locus <persName role="author"
+                                        >Philyllii</persName> comici, quo <foreign xml:lang="grc"
+                                        >βέδυ</foreign> vocem <foreign xml:lang="grc">ἀέρα</foreign>
+                                    significare probatur. Secundum alios, eodem Clemente testante,
+                                        <foreign xml:lang="grc">βέδυ</foreign> non <foreign
+                                        xml:lang="grc">ἀὴρ</foreign> sed <foreign xml:lang="grc"
+                                        >ὕδωρ</foreign> Phrygum sermone dicitur. Aliud aqu&#230;
+                                    nomen sacerdotale vide ap. <bibl>Ephorum fr. 27. cf. Lobeck.
+                                        Aglaoph. p. 883</bibl>, <bibl>Müller. Dor. 1,
+                                    8</bibl>.—Pr&#230;ter allata ad librum <title xml:lang="grc"
+                                        >Περὶ τελετῷν</title> referre licet <ref>fr.
+                                    36</ref>.</note>
+                            </cit>
+                        </div>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="7">
+                        <ab>
+                            <title type="main" xml:lang="grc">ΤΑ ΚΑΤΑ ΠΟΛΙΝ ΜΥΘΙΚΑ.</title>
+                        </ab>
+                        <div type="textpart" subtype="book" n="2">
+                            <note>E LIBRO SECUNDO.</note>
+
+                            <cit n="28" xml:lang="grc">
+                                <bibl>Parthenius Erot. c. 33, p. 179 Westerm.</bibl>
+                                <quote>Περὶ Ἀσσάονος. (Ἱστορεῖ <persName role="author"
+                                        >Ξάνθος</persName> Λυδιακοῖς καὶ <persName role="author"
+                                        >Νεάνθης</persName>
+                                    <note>(<foreign xml:lang="grc"><persName role="author"
+                                                type="alt">Νέανθος</persName></foreign> cod.)</note>
+                                    <num value="2">β</num> καὶ <persName role="author"
+                                        >Σιμμίας</persName> ὁ Ῥόδιος.) Διαφόρως δὲ καὶ τοῖς πολλοῖς
+                                    ἱστορεῖται καὶ τὰ τῆς Νιό&#976;ης· οὐ γὰρ Ταντάλου φασὶν αὐτὴν
+                                    γενέσθαι, ἀλλ᾿ Ἀσσάονος μὲν θυγατέρα, Φιλόττου δὲ γυναῖκα· εἰς
+                                    ἔριν δὲ ἀφικομένην Λητοῖ περὶ καλλιτεκνίας, ὑποσχεῖν τίσιν
+                                    τοιάνδε· τὸν μὲν Φίλοττον ἐν κυνηγίᾳ διαφθαρῆναι, τὸν δὲ Ἀσσάονα
+                                    τῆς θυγατρὸς πόθῳ σχόμενον σὐτὴν αὑτῷ γήμασθαι· μὴ ἐνδιδούσης δὲ
+                                    τῆς Νιό&#976;ης, τοὺς παῖδας αὐτῆς εἰς εὐωχίαν καλέσαντα
+                                    καταπρῆσαι· καὶ τὴν μὲν διὰ ταύτην τὴν συμφορὰν ἀπὸ πέτρας
+                                    ὑψηλοτάτης αὑτὴν ῥῖψαι· ἔννοιαν δὲ λα&#976;όντα τῶν σφετέρων
+                                    ἁμαρτημάτων διαχρήσασθαι τὸν Ἀσσάονα ἑαυτόν.</quote>
+                            </cit>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="3">
+                            <note>E LIBRO TERTIO.</note>
+
+                            <cit n="29" xml:lang="grc">
+                                <bibl>Ammonius p. 33. Valcken.</bibl>
+                                <quote>Ἰδίως δὲ <persName role="author">Νεάνθης</persName> ὁ
+                                    Κυζικηνὸς ἐν <num type="ordinal" value="3">τρίτῳ</num> τῶν
+                                        <title type="alt">Κατὰ πόλιν</title> βωμοὺς θεῶν φησιν,
+                                    ἐσχάρας δ᾿ ἡρώων.</quote>
+                                <note xml:lang="la"><bibl>Valckenarius p. 49</bibl>, loci <persName
+                                        role="author">Plutarchei</persName>
+                                    <note>(<ref>fr. 32</ref>)</note> immemor, scribi voluit <foreign
+                                        xml:lang="grc">ἐν τρίτῳ <title type="alt">Τελετῶν</title>
+                                        καταπολὺ βωμοὺς κτλ.</foreign>—<quote>« De differentia vocum
+                                            <foreign xml:lang="grc">ἐσχάρα</foreign> et <foreign
+                                            xml:lang="grc">βωμός</foreign> cf. <bibl>Eustath. ad Od.
+                                            ζ’, 305, p. 1564, 28 Rom. [ubi eadem ex Neanthe affert]
+                                            et 1575, 5</bibl>; <bibl>Bekk. An. Gr. p. 256,
+                                        32</bibl>; <bibl>Vales. ad Harpocr. p. 468</bibl>;
+                                            <bibl>Pausan. V, 13, 8</bibl>. <bibl>Bergl. ad Alciphr.
+                                            p. 239</bibl>.»</quote>
+                                    <bibl>MARQUARDT</bibl>.</note>
+                            </cit>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="5">
+                            <note>E LIBRO TERTIO.</note>
+                            <cit n="30" xml:lang="grc">
+                                <bibl>Porphyrius Vit. Pyth.: init.</bibl>
+                                <quote>Οἱ μὲν γὰρ Σάμιον αὐτὸν <note>(<foreign xml:lang="grc"
+                                                ><persName role="author"
+                                            >Πυθαγόραν</persName></foreign>)</note> εἶναι φασί·
+                                        <persName role="author" type="alt">Κλεάνθης</persName>
+                                    <note>(scr. <foreign xml:lang="grc"><persName role="author"
+                                                >Νεάνθης</persName></foreign> vid. <ref>fr.
+                                        17</ref>)</note> δὲ ἐν <num type="ordinal" value="5"
+                                        >πέμπτῳ</num> τῶν <title type="alt">Μυθικῶν</title>, Σύρον
+                                    ἐκ Τύρον τῆς Συρίας. Σιτοδείας δὲ καταλα&#976;ούσης τοὺς
+                                    Σαμίους, προσπλεύσαντα τὸν Μνήσαρχον κατ᾿ ἐμπορίαν μετὰ σίτου τῇ
+                                    νήσῳ, καὶ ἀποδόμενον, τιμηθῆναι πολιτείᾳ. <persName
+                                        role="author">Πυθαγόρου</persName> δ᾿ ἐκ παίδων εἰς πᾶσαν
+                                    μάθησιν ὄντος εὐφυοῦς, τὸν Μνήσαρχον ἀπαγαγεῖν αὐτὸν εἰς Τύρον,
+                                    ἐκεῖ δὲ τοῖς Χαλδαίοις συστάντα μετασχεῖν τούτων ἐπιπλεῖον
+                                    ποιῆσαι. Ἐπανελθόντα δ᾿ εἰς τὴν Ἰωνίαν ἐντεῦθεν τὸν <persName
+                                        role="author">Πυθαγόραν</persName> πρῶτον μὲν Φερεκύδῃ τῷ
+                                    Συρίῳ ὁμιλῆσαι· δεύτερον δ᾿ Ἑρμοδάμαντι τῷ Κρεοφυλίῳ, ἐν Σάμῳ
+                                    ἤδη γηράσκοντι. Λέγει δὲ ὁ <persName role="author" type="alt"
+                                        >Κλεάνθης</persName>
+                                    <pb n="9" break="no"/> ἄλλους εἶναι, οἵ τὸν πατέρα αὐτοῦ
+                                    Τυρρηνὸν ἀποφαίνονται, τῶν τὴν Λῆμνον ἀποικησάντων <note>(v.
+                                            <ref>Aristot. fr. 1</ref>)</note>. Ἐντεῦθεν δὲ κατὰ
+                                    πρᾶξιν εἰς Σάμον ἐλθόντα καταμεῖναι καὶ ἀστὸν γενέσθαι. Πλέοντος
+                                    δὲ τοῦ Μνησάρχου εἰς τὴν Ἰταλίαν, συμπλεύσαντα <persName
+                                        role="author">Πυθαγόραν</persName> νέον ὄντα κομιδῇ, σφόδρα
+                                    οὖσαν εὐδαίμονα* καὶ τόθ᾿ ὕστερον εἰς αὐτὴν ἀποπλεῦσαι.
+                                    Καταλέγει δ᾿ αὐτοῦ καὶ ἀδελφοὺς δύο, Εὔνοστον καὶ Τυρρηνὸν
+                                    πρεσ&#976;υτέρους.</quote>
+                                <note xml:lang="la"><foreign xml:lang="grc">Πέμπτῳ <title type="alt"
+                                            >μυθικῶν</title>] π. <title type="alt"
+                                            >Πυθαγορικῶν</title></foreign> Menag. <note>(vide not.
+                                        ad <ref>fr. 17</ref>)</note>; qua conjectura facile caremus.
+                                    Syrorum fabulas a <persName role="author">Neanthe</persName>
+                                    collectas ipse <persName role="author">Porphyrius</persName> nos
+                                    docet <ref>fragm. 31</ref>, ubi de Syris agitur ab esu carnium
+                                    olim abstinentibus. Vel hoc occasionem dare poterat ut de
+                                        <persName role="author">Pythagor&#230;</persName> super hanc
+                                    rem placitis, deque <persName role="author">Pythagora</persName>
+                                    Tyrio Chald&#230;rumque alumno verba faceret. Ceterum num omnia,
+                                    qu&#230; ex <persName role="author">Neanthe</persName> h. l.
+                                        <persName role="author">Porph.</persName> affert, ex iisdem
+                                        <title xml:lang="la">Mythicis</title> fluxerint, neque nego
+                                    neque affirmo.</note>
+                            </cit>
+
+                            <cit n="31" xml:lang="grc">
+                                <bibl n="1">Porphyrius De abstin. IV, 15, p. 345 ed.
+                                    R&#339;hr.</bibl>
+                                <quote n="1">Καὶ μὴν καὶ τοὺς Σύρους ἱστοροῦσι τὸ παλαιὸν ἀπέχεσθαι
+                                    τῶν ζῴων, καὶ διὰ τοῦτο μηδὲ τοῖς θεοῖς θύειν· ὕστερον δὲ θῦσαι
+                                    μὲν εἰς ἀποτροπήν τινων κακῶν, αὐτοὺς δὲ μηδὲ ὅλως προσίεσθαι
+                                    τὴν σαρκοφαγίαν. Προϊόντος δὲ τοῦ χρόνου, ὥς φησι <persName
+                                        role="author">Νεάνθης</persName> ὁ Κυζικηνὸς καὶ <persName
+                                        role="author">Ἀσκλεπιάδης</persName> ὁ Κύπριος, κατὰ
+                                    Πυγμαλίωνα, τὸν γένει μὲν Φοίνικα βασιλεύσαντα δὲ Κυπρίων, τὴν
+                                    σαρκοφαγίαν παραδεχθῆναι ἐκ τῆς τοιαύτης παρανομίας. Λέγει δὲ ὁ
+                                        <persName role="author">Ἀσκληπιάδης</persName> ἐν τῷ
+                                        <title>Περὶ Κύπρου καὶ Φοινίκης</title> ταῦτα· <quote>«Τὸ
+                                        μὲν γὰρ πρῶτον οὐκ ἐθύετο τοῖς θεοῖς οὐδὲν ἔμψυχον, ἀλλ᾿
+                                        οὐδὲ νόμος ἦν περὶ τούτου διὰ τὸ νόμῳ φυσικῷ κεκωλῦσθαι· ὑπὸ
+                                        δέ τινας καιροὺς πρῶτον ἱερεῖον θῦσαι μυθεύονται ψυχὴν ἀντὶ
+                                        ψυχῆς αἰτουμένους, εἶτα τούτου γενομένου ὁλοκαυτίζειν τὸ
+                                        τυθέν. Ὕστερον δέ ποτε φλεγομένου τοῦ ἱερείου πεσεῖν σάρα
+                                        εἰς γῆν, ἤν ἀνελόντα τὸν ἱερέα καὶ κατακαιόμενον,
+                                        ἀ&#976;ουλήτως προσαγαγεῖν τῷ στόματι τοὺς δακτύλους
+                                        ἀκούμενον τὴν κατάκαυσιν· γευσάμενον δὲ τῆς κνίσσης,
+                                        ἐπιθυμῆσαι καὶ μὴ ἀποσχέσθαι, ἀλλὰ καὶ τῇ γυναικὶ
+                                        μεταδοῦναι. Γνόντα δὲ τοῦτο τὸν Πυγμαλίωνα αὐτόν τε καὶ τὴν
+                                        γυναῖκα κατὰ κρημνῶν ἀφεῖναι, ἑτέρῳ δὲ τὴν ἱερωσύνην
+                                        παραδοῦναι· ὃς οὐ πολλοῦ χρόνου διαλείποντος τὴν μὲν αὐτὴν
+                                        θυσίαν ἔτυχεν ποιούμενος, ἐπεὶ δὲ τῶν αὐτῶν κρεῶν ἔφαγε,
+                                        ταῖς αὐταῖς ἐκείνῳ συμφοραῖς περιέπιπτεν. Ἐπὶ πλέον δὲ τοῦ
+                                        πράγματος προ&#976;αίνοντος, καὶ τῶν ἀνθρώπων τῇ θυσίᾳ
+                                        χρωμένων καὶ διὰ τὴν ἐπιθυμίαν οὐκ ἀπεχομένων, ἀλλὰ τῆς
+                                        σαρκὸς ἁπτομένων, οὐκ <note>(scr. <foreign xml:lang="grc"
+                                                >οὕτω δὴ</foreign> vel tale quid)</note> ἀποστῆναι
+                                        τοῦ κολάζειν. Τὸ μέντοι τῶν ἰχθύων ἀπέχεσθαι ἄχρι τῶν
+                                            <persName role="author">Μενάνδρου</persName> χρόνων τοῦ
+                                        κωμικοῦ διέμεινε.»</quote></quote>
+                                <bibl n="2">Hieronym. Adv. Jovin. II, c. 14</bibl>
+                                <quote n="2" xml:lang="la"><hi rend="italics"><persName
+                                            role="author" type="alt">Euanthes <note>(scr. <persName
+                                                  role="author">Neanthes</persName>)</note>
+                                            Cyzicenus</persName> et <persName role="author"
+                                            >Asclepiades Cyprius</persName>, &#230;tate qua
+                                        Pygmalion in Oriente regnabat, scribunt esum carnium non
+                                        fuisse.</hi></quote>
+                            </cit>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="incerta">
+                            <note>E LIBRIS INCERTIS.</note>
+                            <cit n="32" xml:lang="grc">
+                                <bibl>Plutarch. Qu. Symp. I, 10, p. 761 ed. Didot</bibl>
+                                <quote>Προε&#976;λήθη δέ τι τοιοῦτον ὑπὸ Μάρκου τοῦ γραμματικοῦ.
+                                        <persName role="author">Νεάνθη</persName> τὸν Κυζικηνὸν ἔφη
+                                    λέγειν ἐν τοῖς <title>Κατὰ πόλιν μυθικοῖς</title>, ὅτι τῇ
+                                    Αἰαντίδι φυλῇ γέρας ὑπῆρχε τὸ μὴ κρίνεσθαι τὸν [αὐτῆς] χορὸν
+                                    ἔσχατον. [Ὅ] μὲν οὖν <pb n="10" break="no"/> ἔφη* πρὸ[ς
+                                    ἀπόδει]ξιν ἱστορίας ὁ ἀνα***. εἰ δὲ τοῦτό γ᾿ οὐ νοθεύετε,
+                                    προκείσθω τῆς αἰτίας ἐν κοινῷ πᾶσιν ἡ ζήτησις... μηδὲ ἡμεῖς τὴν
+                                        <persName role="author">Νεάνθους</persName> ἐν ἐνίοις
+                                    εὐχέρειαν ἀποδράσεως ποιησόμεθα πρόφασιν.</quote>
+                                <note xml:lang="la">Locum lacunosum dedi ex <bibl>recensione
+                                        Dübneri</bibl>. Scripserim: <foreign xml:lang="grc">οῦδὲν
+                                        μὲν οὖν ἔφη πρὸς ἀπόδειξιν ἱστ. ὁ ἀναγράψας αὐτήν</foreign>,
+                                    id quod in latinis expressi.</note>
+                            </cit>
+
+                            <cit n="33" xml:lang="la">
+                                <bibl>Plinius H. N. VIII, 34</bibl>
+                                <quote><hi rend="italics"><persName role="author" type="alt"
+                                            >Euanthes</persName>
+                                        <note>(<hi rend="italics"><persName role="author"
+                                                  >Neanthes</persName></hi>)</note>, inter auctores
+                                        Gr&#230;ci&#230; non spretus, tradit Arcades scribere, ex
+                                        gente Anthi cujusdam, sorte famili&#230; lectum, ad stagnum
+                                        quoddam regionis ejus duci, vestituque in quercu suspenso
+                                        transnatare, atque abire in deserta, transfigurarique in
+                                        lupum, et cum ceteris ejusdem generis congregari per annos
+                                        novem. Quo in tempore si homine se abstinuerit, reverti ad
+                                        idem stagnum, et quum transnataverit effigiem recipere, ad
+                                        pristinum habitum addito novem annorum senio. Id quoque
+                                        Fabius, eandem recipere vestem. Mirum est quo procedat
+                                        Gr&#230;ca credulitas. Nullum tam impudens mendacium est, ut
+                                        teste careat.</hi></quote>
+                                <note xml:lang="la"><bibl>Conf. Pausan. VIII, 2 sqq.</bibl> ibique
+                                    interpr.</note>
+                            </cit>
+
+                            <cit n="34" ana="#dubia" xml:lang="grc">
+                                <bibl n="1">Schol. Apoll. Rh. I, 1063</bibl>
+                                <quote n="1">Ὁ μὲν <persName role="author">Ἀπολλώνιος</persName>
+                                    νεόγαμον τὸν Κύζικον [καὶ ἄπαιδα] ἱστορεῖ, Εὐφορίων δὲ ἐν
+                                    Ἀπολλοδώρῳ μελλόγαμον, τὴν δὲ Κλείτην <note>(<foreign
+                                            xml:lang="grc">τὴν δὲ γαμετὴν</foreign> conj.
+                                        Mein.)</note> οὐ Μέροπος λέγει θυγατέρα, Θρῇσσαν
+                                            <note>(<foreign xml:lang="grc">Λάρισσαν</foreign> ex
+                                            <bibl>Parthenio Erot. c. 64 scrib. Meinek. ad Euphor. p.
+                                            60</bibl>)</note> δὲ τὴν Πιάσου... <persName
+                                        role="author" type="alt">Εὐάνθης</persName>
+                                    <note>(<foreign xml:lang="grc"><persName role="author"
+                                                >Νεάνθης</persName></foreign>?)</note> δὲ ἐν τοῖς
+                                    Μυθικοῖς συμφωνεῖ τῷ Ἀπολλωνίῳ.</quote>
+                                <note n="1" xml:lang="la">Verba <foreign xml:lang="grc">καὶ
+                                        ἄπαιδα</foreign> omittit cod. Parisinus. Neque de hac re
+                                    Noster cum Apollonio consentit: nam paullo post scholiasta
+                                    h&#230;c: <cit xml:lang="grc">
+                                        <quote>Ἱστορεῖ δὲ Ἀπολλώνιος ἄτεκνον τὸν Κύζικον ἀνῃρῆσθαι,
+                                                <persName role="author" type="alt"
+                                                >Εὐάνθης</persName>
+                                            <note>(<foreign xml:lang="grc"><persName role="author"
+                                                  >Νεανθης</persName></foreign>?)</note> δὲ
+                                            ἐσχηκέναι φησὶ παῖδα ὁμώνυμον ἑαυτῷ.</quote>
+                                    </cit></note>
+                                <bibl n="2">Idem, I, 1065</bibl>
+                                <quote n="2"><persName role="author" type="alt">Εὐάνθης</persName>
+                                    <note>(<foreign xml:lang="grc"><persName role="author"
+                                                >Νεάνθης</persName></foreign>)</note> δὲ καὶ
+                                        <persName role="author">Δηΐλοχος</persName> ἱστοροῦσιν, ὅτι
+                                    ἀπήγξατο ἡ Κλείτη, καὶ ὅτι ἡ ταύτης κρήνη ἐν Κυζίκῳ.</quote>
+                                <note n="2" xml:lang="la">Cf. <ref>Deiochi fragm. 4 et 7</ref>.
+                                        <bibl>Meinek. ad Euphor. p. 61</bibl>
+                                    <persName role="author" type="alt">Euanthem</persName>
+                                    scholiast&#230; poetam epicum esse suspicatur quem laudat
+                                        <bibl>Athen&#230;us VII, p. 296</bibl>. <persName
+                                        role="author">Neanthem</persName> agnoscit Marquardt.
+                                    Quanquam offendere potest fabulas Cyzicenas, quas in Annalibus
+                                    omittere vix poterat, iterum in hoc libro expositas esse.</note>
+                            </cit>
+
+                            <cit n="35" xml:lang="grc">
+                                <bibl>Athen&#230;us XIII, p. 572, E</bibl>
+                                <quote>Πόρνης δὲ Ἀφροδίτης ἱερόν ἐστι παρὰ Ἀ&#976;υδηνοῖς, ὥς φησι
+                                        <persName role="author">Πάμφιλος</persName>. Κατεχομένης γὰρ
+                                    τῆς πόλεως δουλείᾳ, τοὺς φρουροὺς τοὺς ἐν αὐτῇ ποτε θύσαντας, ὡς
+                                    ἱστορεῖ <persName role="author" type="alt">Κλεάνθης</persName>
+                                    <note>(l. <foreign xml:lang="grc"><persName role="author"
+                                                >Νεάνθης</persName></foreign>)</note> ἐν τοῖς <title
+                                        type="alt">Μυθικοῖς</title>, καὶ μεθυσθέντας ἑταίρας
+                                    πλείονας προσλα&#976;εῖν, ὧν μίαν, κατακοιμηθέντας αὐτοὺς
+                                    ἰδοῦσαν, ἀνελομένην τὰς κλεῖς καὶ τὸ τεῖχος ὑπερ&#976;ᾶσαν,
+                                    ἀπαγγεῖλαι τοῖς Ἀ&#976;υδηνοῖς. Τοὺς δ᾿ αὐτίκα μεθ᾿ ὅπλων
+                                    ἀφικομένους ἀνελεῖν μὲν τοὺς φύλακας, κρατήσαντας δὲ τῶν τειχῶν
+                                    καὶ γενομένους ἐγκρατεῖς, τῆς ἐλευθερίας χαριστήρια τῇ πόρνῃ
+                                    ἀποδιδόντας, Ἀφροδίτης Πόρνης ναὸν ἱδρύσασθαι.</quote>
+                            </cit>
+
+                            <cit n="36" xml:lang="grc">
+                                <bibl>Schol. Vat. et Neapol. in Eurip. Troad. 89</bibl>
+                                <quote>Καφηρεὺς δὲ ἀκρωτήριον Εὐβοίας, μεταξὺ <note>(<foreign
+                                            xml:lang="grc">ἀντικρὺ</foreign>? Kampmann.)</note>
+                                    Σκύ6ρου. <persName role="author">Νεάνθης</persName> δὲ ὁ
+                                    Κυζικηνὸς Καθηρέα αὐτόν φησι πρότερον κεκλῆσθαι· εἶναι γὰρ ἐκεῖ
+                                    βωμὸν εἰς ὃν Εὐβοεῖς καθαιρόμενοι ἔθυον. Χρόνου δὲ προῖόντος
+                                    Καφηρεὺς ἐκλήθη παραφθειράντων τῶν ἐνοικούντων τὴν λέξιν. Περὶ
+                                    τοῦτο δὲ οἱ πλεῖσται τῶν Ἑλλήνων κατὰ τὸν ἀπόπλουν
+                                    διεφθάρησαν.</quote>
+                                <note xml:lang="la">Quodsi h&#230;c ad libros <title xml:lang="grc"
+                                        >Περὶ τελετῶν</title> referri mavelis, nihil
+                                    refragor.</note>
+                            </cit>
+                        </div>
+                    </div>
+                    
+                    <pb n="11"/>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

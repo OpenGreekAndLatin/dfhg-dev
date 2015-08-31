@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/dev/tei-epidoc.rng" type="xml"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg3neanthes_la">
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+
+                <title>Fragmenta Historicorum Graecorum</title>
+
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg3neanthes_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/"> Available
+                        under a Creative Commons Attribution-ShareAlike International 4.0
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="hthttp://catalog.perseus.org/catalog/urn:cite:perseus:author.964"
+                                >Neanthes Cyzicenus</author>
+
+
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+
+                            <biblScope unit="volume">3</biblScope>
+
+                        </monogr>
+
+                        <ref target="https://archive.org/stream/fragmentahistori03mueluoft#page/n11/mode/2up">Internet
+                            Archive</ref>
+
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Müller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt means that the
+                                name of the fragmentary author is not mentioned by the source
+                                text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+
+            <change who="#UK" when="2015-03-18">Created the XML file</change>
+            <change who="#UK" when="2015-03-18">Encoded the text</change>
+
+        </revisionDesc>
+
+    </teiHeader>
+
+    <text>
+
+        <body>
+
+
+            <div type="translation" subtype="volume" n="3" xml:lang="la">
+                <div type="textpart" subtype="book" n="5">
+
+                    <head xml:lang="la">
+                        <title
+                            ref="http://data.perseus.org/catalog/urn:cts:greekLit:tlg1525.tlg003.opp-lat1"
+                            xml:lang="la">NEANTHES CYZICENUS.</title>
+                    </head>
+
+                    <pb n="2"/>
+
+                    <div type="textpart" subtype="work" n="1">
+                        <ab>
+                            <title type="main" xml:lang="la">HELLENICA.</title>
+                        </ab>
+
+                        <div type="textpart" subtype="book" n="2">
+
+                            <p n="1"><hi rend="italics">Thronus</hi>, panis nomen, commemorat
+                                Neanthes Cyzicenus secundo libro Rerum Gr&#230;carum sic scribens:
+                                    <quote>«Et Codrus frustum panis, quem <hi rend="italics"
+                                        >thronum</hi> vocant, sumit, atque carnem, et natu maximo
+                                    distribuit.»</quote></p>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="3 and 4">
+
+                            <p n="2">Neanthes Cyzicenus Historiarum Gr&#230;carum libro tertio et
+                                quarto matrem Themistoclis Euterpen (Halicarnassensem ex caria)
+                                fuisse tradit.</p>
+
+                            <p n="3">Plerique auctores tradunt datas Themistocli fuisse tres
+                                civitates, quarum e reditibus panem, vinum et obsonia pararet,
+                                Magnesiam Lampsacum et Myuntem: duas addunt ad vestem stragulam et
+                                amictum ei concessas Neanthes cyzicenus et Phanias, nimirum Percoten
+                                et Pal&#230;scepsin.</p>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="6">
+
+                            <p n="4"><hi rend="italics">G&#230;son</hi>, cujus meminit Archestratus,
+                                G&#230;sonis palus est inter Prienen et Miletum mari conjuncta, ut
+                                tradit Neanthes libro sexto Hellenicorum.</p>
+                        </div>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="2">
+                        <ab>
+                            <title type="main" xml:lang="la">ANNALES CYZICENORUM.</title>
+                        </ab>
+
+                        <div type="textpart" subtype="book" n="1">
+                            <p n="5">Triangulum instrumentum Neanthes Annalium libro primo inventum
+                                esse ait Ibyci Rhegini poet&#230;, quemadmodum Anacreontis sit
+                                barbiton.</p>
+
+                            <p n="6">Non recte etiam Demetrius Scepsius, sed et errorum quorundam
+                                causam Apollodoro is pr&#230;buit. Nam contra Neanthem Cyzicenum
+                                majore contentione disputans, qui dixerat Argonautas, quum
+                                navigarent ad Phasin (qu&#230; sit ad Homero et aliis testibus
+                                confirmata navigatio) Id&#230;&#230; matris templa, qu&#230; sunt
+                                circa Cyzicum, fundavisse:<pb n="3" break="no"/>omnino de Iasonis
+                                peregrinatione ad Phasin Homero nihil quicquam fuisse cognitum
+                                ait.</p>
+                        </div>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="3">
+                        <ab>
+                            <title type="main" xml:lang="la">DE REBUS ATTALI.</title>
+                        </ab>
+                        <div type="textpart" subtype="book" n="1">
+                            <p n="7">Hic (unus e dipnosophistis) <hi rend="italics">helanas</hi>
+                                dixit, lampades aiens sic vocari a splendore <note>(<foreign
+                                        xml:lang="grc">παρὰ τὴν ἕλην</foreign>)</note>, usum autem
+                                esse eo vocabulo Neanthem libro primo Historiarum de rebus
+                                Attali.</p>
+                        </div>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="4">
+                        <ab>
+                            <title type="main" xml:lang="la">DE VIRIS ILLUSTRIBUS.</title>
+                        </ab>
+
+                        <ab>
+                            <title type="sub" xml:lang="la">EPICHARMUS.</title></ab>
+                        <p n="8">E Crasto urbe oriundus Epicharmus comicus et Lais meretrix, teste
+                            Neanthe in libro De viris illustribus.</p>
+
+                        <ab>
+                            <title type="sub" xml:lang="la">SOPHOCLES.</title>
+                        </ab>
+                        <p n="9">Obiisse Sophoclem Ister et Neanthes tradunt hoc modo: Callippidem
+                            histrionem, quum Opunte venisset ad Choes celebrandos, misisse ei uvam,
+                            cujus acinum adhuc immaturum in os injicientem Sophoclem propter summam
+                            senectutem suffocatum fuisse ideoque vitam finiisse.</p>
+
+                        <ab>
+                            <title type="sub" xml:lang="la">PERIANDER.</title>
+                        </ab>
+                        <p n="10">Sotion et Heraclides et Pamphila in quinto Commentariorum duos
+                            aiunt fuisse Periandros, tyrannum alterum, alterum vero sapientem eumque
+                            Ambracioten. Idem Neanthes quoque Cyzicenus dicit, addens patrueles sibi
+                            invicem fuisse.</p>
+
+                        <ab>
+                            <title type="sub" xml:lang="la">HERACLITUS.</title>
+                        </ab>
+                        <p n="11">Hermippus refert Heraclitum medicis dixisse, num posset quisquam
+                            pressis intestinis humorem exhaurire; negantibus autem, se ipsum solis
+                            objecisse radiis ac jussisse pueris boum fimo se oblinere; ita vero
+                            distentum altero die obiisse sepultumque in foro esse. Neanthes vero
+                            Cyzicenus ait illum, fimo bubulo quum se eximere non posset, ita
+                            perstitisse atque ob eam mutationem ignotum a canibus discerptum
+                            esse.</p>
+
+                        <ab>
+                            <title type="sub" xml:lang="la">PLATO.</title>
+                        </ab>
+                        <p n="12">Neanthes tradit Platonem obisse annos natum octoginta
+                            quattuor.</p>
+
+                        <pb n="4"/>
+
+                        <p n="13">Sunt qui Platonem ob orationis ubertatem et miram latitudinem sic
+                            appellatum putent; sive quod ampla fuerit fronte, ut Neanthes
+                            scribit.</p>
+
+                        <p n="14">Refert Neanthes Cyzicenus Platonem, quum ad Olympia aliquando
+                            ascendisset, Gr&#230;corum in se omnium ora convertisse, eodemque
+                            tempore Dionem convenisse, bellum adversus Dionysium parantem.</p>
+
+                        <ab>
+                            <title type="sub" xml:lang="la">ANTISTHENES.</title>
+                        </ab>
+                        <p n="15">Antisthenes primus pallium, ut ait Diocles, duplicavit, ipsoque
+                            solo utebatur vestimento; baculumque sumpsit ac peram. Hunc etiam
+                            Neanthes primum refert duplicasse pallium.</p>
+
+                        <ab>
+                            <title type="sub" xml:lang="la">TIΜON.</title>
+                        </ab>
+                        <p n="16">Intelligendus est <foreign xml:lang="grc">μισάνθρωπος</foreign>,
+                            quem dicunt. Hunc Neanthes tradit, quum de piro silvestri cecidisset,
+                            claudum factum esse, et quum medicos admittere nollet, putredine
+                            consumptum obiisse; porro sepulcrum ejus ad viam, qu&#230; ex
+                            Pir&#230;co ad Zosterem et Sunium ducit, inaccessum factum esse mari
+                            undique circumfuso.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="5">
+                        <ab>
+                            <title type="main" xml:lang="la">DE PYTHAGORA ET DE PYTHAGOREIS.</title>
+                        </ab>
+                        <p n="17">Pythagoras secundum Neanthem Syrus vel Tyrius fuit.</p>
+
+                        <p n="18">Proinde, ut nonnulli referunt, Pythagor&#230; familiares in
+                            Milonis athlet&#230; &#230;dibus congregatos, absente tum Pythagora (nam
+                            ad Pherecydem Syrium, quo pr&#230;ceptore olim fuerat usus, in Delum
+                            discesserat, ut famoso illo pediculari morbo correpto adesset curamque
+                            ejus gereret), omnes igne immisso exusserunt et lapidibus obruerunt;
+                            duobus tantum ex incendio elapsis, Archippo et Lyside, ut Neanthes
+                            prodidit. Ex hisce Lysis in Gr&#230;cia habitavit, et ad Epaminondam se
+                            contulit, cujus etiam pr&#230;ceptor fuit. Sed Dic&#230;archus et
+                            accuratiores auctores ipsum quoque Pythagoram adfuisse aiunt, quum
+                            insidi&#230; struerentur.</p>
+
+                        <pb n="5"/>
+
+                        <p n="19">Androcydes Pythagoreus, qui de symbolis Pythagoreorum scripsit, et
+                            Eubulides et Neanthes, qui vitam Pythagor&#230; conscripserunt,
+                            ducentesimo quoque et decimo sexto anno metempsychoses Pythagor&#230;
+                            fuisse tradunt.</p>
+
+                        <p n="20">Empedoclem audiisse Pythagoram Tim&#230;us auctor est in nono
+                            Historiarum, dicens improbatum, quod doctrinam evulgasset, consortio
+                            exclusum fuisse, quemadmodum etiam Platonem... Refert vero Neanthes
+                            usque ad Philolaum et Empedoclem ad sermonum communionem admittere omnes
+                            solitos, ubi vero ipse poemate disciplinam divulgavit, legum tulerunt,
+                            uti nullo cum epico poeta communicare disciplinam liceret. Idem Platoni
+                            quoque accidisse narrat ille: quippe et hunc fuisse prohibitum. Quem
+                            tamen illorum audiverit Empedocles, non dixit: eam enim qu&#230;
+                            Telaugis fertur epistolam, in Hippasum et Brontinum audiisse dicitur,
+                            non esse fide dignam.</p>
+
+                        <p n="21">Heraclides Serapionis filius trag&#339;dias alterius fuisse
+                            memorat. Hieronymus vero quadraginta tres se vidisse asserit, Neanthes
+                            autem hunc juvenem scripsisse trag&#339;dias, quas ipse quoque postea
+                            viderit.</p>
+
+                        <p n="21">Neanthes Cyzicenus, qui etiam de Pythagoreis scripsit, refert
+                            Metone vita functo tyrannidis pullulare exordia c&#339;pisse; tum vero
+                            Empedoclem Agrigentinos induxisse uti seditionibus omissis
+                            &#230;qualitatem civilem amplecterentur. Multis itidem civium, qu&#230;
+                            sine dote erant, dotem dedisse de copia divitiarum: ideo et purpuram eum
+                            induisse et strophium aureum circumdedisse Favorinus in primo
+                            Commentariorum auctor est; crepidas item &#230;reas et Delphicam
+                            sumpsisse coronam. Coma item illi prolixa fuit et pueri pedissequi: et
+                            ipse gravis semper atque in uno severitatis habitu perstitit. Eo habitu
+                            igitur prodibat, ut civibus ipsi occursantibus ac pro magno id munere
+                            habentibus, specimen quoddam et insigne regium pr&#230; se ferre
+                            videretur. Postremo vero quum celebritatis cujusdam causa Messanam curru
+                            invectus pergeret, cecidisse coxamque fregisse: quo etiam ex morbo
+                            defunnctum esse &#230;tatis anno septuagesimo septimo [ut Neanthes
+                            Cyzicenus tradit].</p>
+
+                        <pb n="6"/>
+
+                        <p n="22a">Licebit pr&#230;terea virorum illorum continentiam, et quomodo
+                            illam Pythagoras docuerit, ex illis etiam cognoscere, qu&#230;
+                            Hippobotus et Neanthes de Myllia et Timycha Pythagoreis memori&#230;
+                            prodiderunt. Referunt enim Dionysium tyrannum, quum nihil inexpertum
+                            omitteret, non potuisse tamen ullius Pythagorei amicitiam sibi
+                            conciliare, utpote qui ingenium ejus imperiosum et a legum observatione
+                            abhorrens caute declinabant. Turmam itaque triginta militum, duce
+                            Eurymene Syracusano, Dionis fratre, viris immisisse, ut, quum pro more
+                            et temporis ratione Metapontum Tarento commigrarent, iis insidias
+                            tenderet: in usu quippe habebebant, ut pro diversis anni tempestatibus
+                            domicilium mutarent, et loca huic rei apta seligerent. Itaque in agro
+                            Tarentino, regione convallibus obsita, quam Phalas nominabant, qua illis
+                            necessario transeundum erat, copias suas Eurymenes in insidiis
+                            collocaverat: quumque Pythagorei nihil tale metuentes circa meridiem eo
+                            pervenissent, milites, clamore edito, latronum more in eos irruerunt.
+                            Illi vero re improvisa numeroque insidiantium (nam ipsi non amplius
+                            decem erant) in metum terroremque conjecti, ac se facile captum iri
+                            rati, quod inermes adversus bene armatos pugnaturi essent, cursu fugaque
+                            sibi consulere decreverunt, minime id a virtute alienum existimantes;
+                            quippe qui probe noverant fortitudinem fugiendorum et sustinendorum,
+                            prout recta ratio dictaverit, scientiam esse. Nec cesserat infeliciter
+                            consilium; siquidem Eurymenis milites armis graves fugientibus segnius
+                            instabant; nisi ad campum fabis consitum affatimque jam florentem
+                            pervenissent. Tum enim placitum illud, quod fabas attingere vetabat,
+                            violare abnuentes pedem fixerunt, et necessitate compulsi lapidibus,
+                            fustibus et aliis, qu&#230;cunque pr&#230; manibus erant, tamdiu se
+                            contra hostes defenderunt, donec quidam ex ipsis c&#230;si, plures
+                            vulnerati, denique omnes a satellitibus interfecti sunt: neque enim
+                            ultus eorum vivus capi sustinuit, sed omnes secundum sect&#230; su&#230;
+                            regulas perire maluerunt. At Eurymenes ejusque satellites valde
+                            conturbati erant, quod ne unum quidem ad Dionysium adducere possent,
+                            quum tamen in hunc unice finem a tyranno missi essent. Terra itaque
+                            c&#230;sis injecta, communique tumulo iis ibidem constructo, domum ire
+                            parabant, quum iis forte obviam facti sunt Myllias Crotoniates et
+                            Timycha Laced&#230;monia, uxor ejus, quos reliqua multitudo a tergo
+                            reliquerat, quum Timycha jam decem mensibus gravida tardus incederet.
+                            Hos igitur vivos in potestatem redactos ad tyrannum l&#230;ti
+                            deduxerunt, nullo studio curaque omissa, quo illos incolumes
+                            conservarent. Dionysius autem cognito quod acciderat m&#339;rore
+                            affectus, ubi apparuit, Vos vero, ait, dignos a me honores consequimini,
+                            si consiliis vestris pr&#230;sto adesse mihi volueritis. Qu&#230;
+                            promissa quum illi respuissent, At unum saltem si me docueritis, inquit
+                            Dionysius, incolumes dato sufficienti pr&#230;sidio dimittam:
+                            interroganteque Myllia, quid tandem esset, quod <gap reason="illegible"
+                                quantity="1" unit="word"/>
+                            <pb n="7" break="no"/>discere averet; Hoc, subjecit tyrannus, cur socii
+                            tui mori maluerint quam fabas calcare? Illi quidem, Myllias statim
+                            respondet, ne fabas calcarent, mori sustinuerunt: at ego malim fabas
+                            calcare quam causam hujus rei tibi prodere. Quo responso perculsus
+                            Dionysius Mylliam e conspectu abripi, Timych&#230; vero tormenta
+                            admoveri jussit, ratus eam, utpote mulierem et gravidam et a marito
+                            destitutam, facilius illud metu tormentorum indicaturam esse: sed mulier
+                            generosa dentibus linguam mordicus correptam abscidit, et in tyrannum
+                            exspuit; eoque illi demonstravit, licet sexus ejus muliebris tormentis
+                            succumbens tacendum aliquid evulgare adigeretur, ministram tamen
+                            loquendi a se e medio sublatam pr&#230;cisamque esse. Adeo difficulter
+                            ad admittendas extraneas, imo regias etiam amicitias adduci se passi
+                            sunt.</p>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="6">
+                        <ab>
+                            <title type="main" xml:lang="la">DE INITIIS.</title>
+                        </ab>
+                        <div type="textpart" subtype="book" n="1">
+
+                            <p n="23">Neanthes libro primo De initiis ait accepisse Jovem oraculum,
+                                fore, ut si masculum partum Hecate ederet, ab eo ipse regno
+                                pelleretur. Quum vero <hi rend="italics">puellam</hi> Hecate ederet,
+                                puellas lecto ejus adstantes exclamasse <foreign xml:lang="grc"
+                                    >βρίτον</foreign>, id est <hi rend="italics">bonum</hi>, atque
+                                ab acclamatione hac deam Britomartim esse vocatam.</p>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="2">
+
+                            <p n="24">Celebratum etiam est Cratini factum Atheniensis; qui quum
+                                formosus esset adolescentulus, quo tempore Epimenides Atticam humano
+                                sanguine lustravit ob vetusta qu&#230;dam piacula, ut tradit
+                                Neanthes Cyzicenus secundo libro De initiis, ultro se ipsum pro
+                                patria obtulit: cujus post mortem Aristodemus etiam, amator ejus,
+                                sponte vitam finivit, et cessavit malum.</p>
+
+                            <p n="25">Similia illis, qu&#230; Agathocles de sue Jovis nutrice
+                                tradit, leguntur apud Neanthem in libro secundo De initiis.</p>
+
+                            <p n="26">Attes apud Phryges maxime honoratur utpote minister<pb n="8"
+                                    break="no"/>Matris deorum. Exponit de eo Neanthes. Mystica
+                                narratio est.</p>
+
+                            <p n="27">Congruunt cum hac opinione qu&#230; Neanthes Cyzicenus
+                                scribit, Macedonum sacerdotes in precibus <foreign xml:lang="grc"
+                                    >βέδυ</foreign> invocare, ut propitium sit ipsisque et liberis
+                                suis, eamque vocem interpretari <hi rend="italics">aerem</hi>.</p>
+                        </div>
+                    </div>
+
+                    <div type="textpart" subtype="work" n="7">
+                        <ab>
+                            <title type="main" xml:lang="la">DE SINGULARUM CIVITATUM NARRATIONIBUS
+                                FABULOSIS.</title>
+                        </ab>
+                        <div type="textpart" subtype="book" n="2">
+
+                            <p n="28">De Assaone. (Narrat Xanthus in libro De rebus Lydorum,
+                                Neanthes libro secundo, et Simmias Rhodius) Diverse multis narratur
+                                etiam Niob&#230; historia. Non enim Tantali dicunt sed Assaonis
+                                fuisse filiam, uxorem vero Philotti; qu&#230; quia cum Latona de
+                                prolis pulchritudine contendere ausa esset, hanc subiisset
+                                p&#339;nam. Nempe Philottum in venatione dilaceratum esse, Assaonem
+                                vero, fili&#230; amore captum, connubio voluisse eam sibi jungere,
+                                et non obtemperante Nioba, filios ejus in convivium convocasse atque
+                                concremasse. Hanc ob calamitatem Niobam de rupe altissima
+                                pr&#230;cipitem se dedisse, Assaonem vero, scelere suo cognito,
+                                manum sibi intulisse.</p>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="3">
+
+                            <p n="29">Peculiari modo Neanthes Cyzicenus libro tertio Narrationum
+                                fabulosarum, qu&#230; in singulis civitatibus obtinent, <foreign
+                                    xml:lang="grc">βωμοὺς</foreign> ait deorum, <foreign
+                                    xml:lang="grc">ἐσχάρας</foreign> vero heroum esse.</p>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="5">
+
+                            <p n="30">Neanthes libro quinto Rerum fabulosarum Pythagoram Syrum
+                                fuisse prodit ex Tyro Syri&#230; urbe. Sed fame magna exorta in
+                                Samo, Mnesarchum mercatur&#230; causa appulisse in insulam et
+                                pr&#230;mii loco civitate donatum esse. Pythagoram autem, cui a
+                                pueris ingenium ad omnes disciplinas aptissimum inerat, Tyrum postea
+                                fuisse abductum et Chald&#230;is ibidem commendatum, quorum doctrina
+                                imbui inprimis cupiebat. Reversum autem inde in Ioniam Pythagoram
+                                primum Pherecydi Syrio se adjunxisse, deinceps <pb n="9" break="no"
+                                /> Hermodamanti Creophylio, qui senex in Samo tum degebat. Nec tamen
+                                deesse scribit Neanthes, qui patrem ejus Tyrrhenum affirment, ex
+                                illorum genere, qui Lemnum incolebant: quumque negotiorum causa inde
+                                in Samum venisset, permanisse istic, civemque factum fuisse.
+                                Mnesarcho autem in Italiam navigante, Pythagoram admodum
+                                adolescentulum una cum ipso eodem profectum: quumque opibus ea terra
+                                maxime floreret, ipsum deinceps navi eam repetiisse. Recenset
+                                pr&#230;terea duos ipsius fratres, Eunostum et Tyrrhenum natu
+                                majores.</p>
+
+                            <p n="31">Syros quoque antiquitus ab animalibus abstinuisse atque ideo
+                                neque diis ca mactare consuevisse memori&#230; proditum est. Postea
+                                vero licet ad quorundam malorum aversionem procurandam ea
+                                sacrificaverint, numquam tamen eo adductos, ut carnium esum
+                                admiserint. Processu autem temporis, Neanthes Cyzicenus et
+                                Asclepiades Cyprius inquiunt, tempore Pygmalionis, qui quum genere
+                                esset Ph&#339;nix Cypriorum etiam imperium obtinebat, ex hujuscemodi
+                                piaculo carnium esum fuisse introductum. Asclepiades enim in libro
+                                De Cypro et Ph&#339;nice hunc in modum narrat: <quote>«Principio
+                                    sane nullum animatum diis sacrificari consueverat, quin neque
+                                    ulla de hoc lex erat, propterea quod naturali lege esset
+                                    prohibitum. Quibusdam autem calamitosis temporibus quum anima
+                                    pro anima repeteretur, primam fabulantur victimam sacrificatam
+                                    et deinceps totam flammis consumendam traditam esse. Quod quidem
+                                    sacrificium quum postea fieret ac victima concremaretur, carnis
+                                    frustulum in terram decidisse, sacerdotem vero id sustulisse,
+                                    quumque ignita carne digitos adussisset, eos forte ori
+                                    admovisse, ut adustioni remedium quodammodo ferret; atque ita
+                                    quum ex assa carne degustasset, edere ex ea mirum in modum
+                                    appetivisse, neque ea abstinuisse, sed eandem etiam cum uxore
+                                    communicasse. Pygmalionem autem, re comperta, ipsum una cum
+                                    uxore e rupe pr&#230;cipitem dandum jussisse, atque alium
+                                    pr&#230;fecisse sacerdotio, qui quum non multo post idem
+                                    sacrificium faceret, eo quod ex iisdem carnibus comedisset,
+                                    eodem etiam quo ille supplicio affectus sit. At quum ulterius
+                                    res progrederetur, cupiditateque inducti a carnibus non
+                                    abstinerent, sed vescerentur iis, p&#339;nam tandem inferri
+                                    desiisse. Abstinentia tamen a piscibus usque ad Menandri comici
+                                    tempora apud Syros permansit.</quote></p>
+                        </div>
+
+                        <div type="textpart" subtype="book" n="incerta">
+
+                            <p n="32">Proposuit Marcus grammaticus tale quidpiam de quo
+                                dispiceretur. Neanthem Cyzicenum in Urbium fabulis narrare dixit
+                                hunc &#198;antidi tribui honorem eximium habitum <pb n="10"
+                                    break="no"/> fuisse, ut nunquam choro ipsius ultimus locus
+                                assignaretur. [Nihil quidem ad confirmationem histori&#230; anctor
+                                attulit;] sin vero hoc certe, quod posuit, non ut falsum repudiatis,
+                                proposita sit in medium omnibus caus&#230; indagatio... neque nos
+                                Neanthis in nonnullis rebus levitatem usurpemus pro subter fugiendi
+                                disputationem occasione.</p>
+
+                            <p n="34">Apollionios Cyzicum brevi post nuptias, Euphorion vero in
+                                Apollodoro mox celebraturum nuptias occubuisse dicit. Idem Euphorion
+                                desponsam puellam non Clitem neque Meropis filiam, sed Larissam,
+                                Piasi filiam dicit... Euanthes <note><note>(<hi rend="italics"
+                                            >Neanthes</hi>)</note></note> in Mythicis cum Apollodoro
+                                facit.</p>
+                            <p>Apollonius ait Cyzicum improlem cecidisse, Euanthes <note>(<hi
+                                        rend="italics">Neanthes</hi>)</note> vero filium ipsi
+                                cognominem habuisse narrat.</p>
+                            <p>Euanthes <note>(<hi rend="italics">Neanthes</hi>)</note> et Deilochus
+                                narrant Cliten suspendio vitam finiisse, atque fontem Clites Cyzici
+                                esse.</p>
+
+                            <p n="35">Veneris Meretricis templum est apud Abydenos, ut Pamphilus
+                                ait. <quote>«Quum enim servitute, inquit, premeretur Abydus,
+                                    custodes urbis aliquando, ut narrat Cleanthes <note>(<hi
+                                            rend="italics">Neanthes</hi>)</note> in Mythicis,
+                                    peracto sacrificio vino madidos, meretrices adscivisse. Earum
+                                    unam, somno sopitos conspicatam, raptis clavibus murum
+                                    transcendisse et Abydenis rem renuntiasse. Illos igitur protinus
+                                    advenissee armatos, et occisis custodibus muro potitos,
+                                    restaurata patri&#230; libertate, gratias ut meretrici
+                                    redderent, Veneri Meretrici templum statuisse.»</quote></p>
+
+                            <p n="36">Caphareus, Eub&#339;&#230; promontorium e regione Scyri
+                                    ins<sic>.</sic> situm, Neanthes Cyzicenus prius <hi
+                                    rend="italics">Cathareum</hi> dicit vocatum esse; videlicet aram
+                                ibi exstare, in qua Eub&#339;enses lustrantes se <note>(<foreign
+                                        xml:lang="grc">καθαιρόμενοι</foreign>)</note> sacra facere
+                                solerent. Progrediente autem tempore vocabulum ab incolis corruptum
+                                abiisse in <hi rend="italics">Caphareum</hi>. Circa hoc promontorium
+                                plurimi Cr&#230;corum Troja domum redeuntium, naufragio
+                                perierunt.</p>
+                        </div>
+                    </div>
+
+                    <pb n="11"/>
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
