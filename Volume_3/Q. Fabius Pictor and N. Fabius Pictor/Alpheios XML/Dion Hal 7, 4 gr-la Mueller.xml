@@ -1,0 +1,89 @@
+<aligned-text xmlns="http://alpheios.net/namespaces/aligned-text">
+    <language lnum="L1" xml:lang="grc"/>
+    <language lnum="L2" xml:lang="lat"/>
+    <sentence n="1">
+        <wds lnum="L1">
+            <comment class="uri"/>
+            <w n="1-1">
+                <text>Κόϊντος</text>
+                <refs nrefs="1-1"/>
+            </w>
+            <w n="1-2">
+                <text>δὲ</text>
+                <refs nrefs="1-2"/>
+            </w>
+            <w n="1-3">
+                <text>Φάβιος</text>
+                <refs nrefs="1-2"/>
+            </w>
+            <w n="1-4">
+                <text>κατὰ</text>
+            </w>
+            <w n="1-5">
+                <text>τὸ</text>
+            </w>
+            <w n="1-6">
+                <text>πρῶτον</text>
+                <refs nrefs="1-9"/>
+            </w>
+            <w n="1-7">
+                <text>ἔτος</text>
+                <refs nrefs="1-8"/>
+            </w>
+            <w n="1-8">
+                <text>τῆς</text>
+                <refs nrefs="1-7"/>
+            </w>
+            <w n="1-9">
+                <text>ὀγδόης</text>
+                <refs nrefs="1-7"/>
+            </w>
+            <w n="1-10">
+                <text>ὀλυμπιάδος</text>
+                <refs nrefs="1-6"/>
+            </w>
+            <w n="1-11">
+                <text>.</text>
+            </w>
+        </wds>
+        <wds lnum="L2">
+            <comment class="uri"/>
+            <w n="1-1">
+                <text>Q.</text>
+                <refs nrefs="1-1"/>
+            </w>
+            <w n="1-2">
+                <text>Fabius</text>
+                <refs nrefs="1-2 1-3"/>
+            </w>
+            <w n="1-3">
+                <text>Romam</text>
+            </w>
+            <w n="1-4">
+                <text>conditam</text>
+            </w>
+            <w n="1-5">
+                <text>ait</text>
+            </w>
+            <w n="1-6">
+                <text>Olympiadis</text>
+                <refs nrefs="1-10"/>
+            </w>
+            <w n="1-7">
+                <text>octavae</text>
+                <refs nrefs="1-8 1-9"/>
+            </w>
+            <w n="1-8">
+                <text>anno</text>
+                <refs nrefs="1-7"/>
+            </w>
+            <w n="1-9">
+                <text>primo</text>
+                <refs nrefs="1-6"/>
+            </w>
+            <w n="1-10">
+                <text>.</text>
+            </w>
+        </wds>
+    </sentence>
+</aligned-text>

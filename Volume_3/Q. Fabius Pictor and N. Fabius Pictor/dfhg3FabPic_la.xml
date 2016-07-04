@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2fabpic_la">
+    
+    <teiHeader>
+        <fileDesc>
+            
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+                
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2fabpic_la.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike 4.0 International
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.622"
+                                >Fabius Pictor</author>
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">3</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/details/fragmentahistori03mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+        
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+        
+        <revisionDesc>
+            <change who="#KS" when="2015-03-10">Created the XML file</change>
+            
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="3" xml:lang="grc">
+                
+                
+                <head xml:lang="grc">
+                    <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg2542.tlg003.opp-lat2"
+                        >QUINTUS FABIUS PICTOR
+                        ET
+                        NUMERIUS FABIUS PICTOR.</title></head>
+
+                    <pb n="83"/> <!-- check and correct the page breaks -->
+                    
+                <div type="textpart" subtype="work" n="1"><ab><title type="main" xml:lang="la">Q. FABII PICTORIS ANNALES.</title></ab>
+
+
+
+<p n="1">Quod atlinet ad filios ex Ilia natos, Quintus Fabius qui
+Pictor vocatur (quem Lucius Cincius, Porcius Cato et Calpurnius
+Piso et reliquorum Scriptorum plerique sunt se-
+<pb n="84"/>
+cuti) ita scribit: «Amulii jussu ministri quidam infantes
+in alveo collocatos acceperunt et asportarunt, ut eos in
+fluvium circiter centum viginti stadia ab urbe distantem
+projicerent. Quum autem eo accessissent, et animadvertissent
+Tiberim ob continuos imbres extra naturalem alveum
+egressum in campos, de Palatii vertice ad aquam proximam
+descenderunt (neque enim ulterius progredi poterant),
+ubi fluvii exundatio collis radices alluebat, et ibi ipsum
+alveum in aquis posuerunt. Qui aliquamdiu quidem fluitavit;
+sed postea, aquis paullatim ex ripa extrema recedentibus,
+saxo impactus et eversus infantes ejecit, qui vagientes
+in c&#339;no volutabantur. Quum autem lupa qu&#230;dam apparuisset,
+uberibus recenti partu lacte turgentibus, eorum
+ori mammas pr&#230;buit, et lingua c&#339;num, quo pleni erant,
+lambendo abstersit. Interea vero forte pastores greges pastum
+agebant (locus enim jam pervius erat) et ex his quidam,
+conspecta lupa &#230; infantes fovebat, aliquamdiu
+spectaculi novitate attonitus et vix satis oculis suis credens
+h&#230;sit: deinde quum abiisset et convocasset e proximo loco
+quotquot potuit pastores (neque enim ejus verbis fides habebatur),
+eos ad ipsum spectaculum adduxit. Quum autem
+et illi propius accedentes hanc tanquam filios foventem,
+illo tanquam e matre pendentes animadvertissent, divinam
+quandam rem se videre rati, frequentes, clamore feram
+territantes, prorius accesserunt. At lupa eorum adventu
+non valde efferata, sed ut mansueta, sensim ab infantibus
+recessit, et cum magna turb&#230; pastoralis contemptione abiit.
+Etenim non procul inde aberat lucus quidam arborum densitate
+opacus et rupes cava fontes emittens. Ille autem locus
+Pani sacer dicehatur, ibique erat dei ara: quo quum
+illa venisset, se occultavit. Iste tamen lucus non exstat amplius:
+sed antrum unde fons fluebat, palatii &#230;dificiis adjunctum
+visitur in via illa qu&#230; fert ad Circum. Et sacellum est
+juxta ipsum, ubi est statua hujus cassus index, lupa duobus
+infantibus mammas pr&#230;bens: opus antiquum, ex &#230;re
+factum. Is autem locus (ut fertur) olim ab Arcadibus, qui
+cum Evandro &#230;dificia ibi condiderant, consecratus fuerat.
+Quum igitur fera recessisset, pastores sustulerunt infantes
+illos; existimantes eos accurate alendos, quos dii salvos
+voluissent. Inter eos autem eart quidam regii pecoris magister,
+vir probus nomine Faustulus, qui cujusdam urgentis
+negotii causa in urbe aderat, quo tempore de lli&#230; stupro
+partuque compertum est: et postea, dum infantes ad fluvium
+deportarentur, cum ministris qui eos ferebant, divino
+quodam casu Palatium petens eadem via ivit. Qui quum
+ceteris non declarasset sibi ullo modo eam rem esse notam,
+postulavit ut sibi infantes concederentur: quos communi
+sociorum consensu traditos accepit et ad uxorem suam detulit.
+Quam quum invenisset jam enixam, et m&#339;rentem ob
+infantem, quem mortuum ediderat, eam consolari c&#339;pit et
+infantes ei supponendos dedit, omnibus eorum casibus ab
+initio ante narratis. Illis autem crescentibus, huic quidem
+<pb n="85"/>
+Romuli, illi vero Remi nomen dedit. Qui quum adoleverunt,
+erant et dignilate form&#230; et animi celsitudine non subulcis aut
+bubulcis similes, sed iis quos quivis stirpe regia ortos judicasset,
+et iis qui ex deorum semine creduntur nati: quem
+admodum in patriis Romanorum carminibus nunc quoque
+canitur. Vitam autem degebant pastoriciam, et victum sibi
+manibus parabant, in montibus plerumque compingentes
+ex lignis et arundine sine ulla contignatione casulas. Quarum
+una ad mea uspue tempora exstabat, ad latus quod
+a Palatio ad Circum ducit, qu&#230; Romuli vocatur: quam
+sacram servant ii quibus ea cura est mandata, nibil ei ornatus
+gratia addentes. Quodsi qua ejus pars vel tempestatis
+vel temporis injuria laborarit, quod reliquum est sarciunt,
+et quantum fieri potest ad pristinam formam instaurant.
+Quum autem annum circiter duodevicesimum agernt,
+controv ersiam quandam de pascuis habuerunt cum Numitoris
+postoribus, qui in Aventino colle e regione Palatii
+sito sua stabula habebant. Frequenter autem de se mutuo
+comqucrebantur, vel quod agros allenos alteri depascerentur,
+vel quod communes alteri soli tenerent, vel alias ob
+causas quascumque. Ex ista autem altercatione interdum ad
+manus et ad arma est ventum. Quum autem Numitoris pastores
+multa vulnera ab illis adolescentibus accepissent et
+nonnullos de suis amisissent et ab illis locis per vim arcevemtur,
+dolum quendam illis struxerunt. Quum autem iusidias
+in occulta vallis parte ante posuissent, et cum illis qui
+adolescentibus insidiabantur adoriendi tempus constituissent,
+reliqui conferto agmine eorum stabula noctu invaserunt.
+Tunc autem forte Romulus cum paganorum pr&#230;cipuis in urbem
+quandam nomine C&#230;ninam pro publica salute sacra patria
+facturus iverat. Sed quum Remus eorum adventum hostilem
+cognovisset, ad opem ferendam accurrit, armis celeriter
+correptis, et paucis quibusdam paganis, qui eo mature
+convenerant, secum ductis. At illi eum non exspectarunt,
+sed fuga se receperunt hostes allicientes in eum locum,
+ubi commode conversi eos aggressuri erant. Remus vero
+doli ignarus, longius eos persecutus, locum in quo insidi&#230;
+posit&#230; erant pr&#230;teriit. Interea et insidiarum manus surrexit,
+et qui fugiebant se converterunt, eosque circumventos
+multisque lapidibus contusos in suam potestatem
+redegerunt. Hoc enim ipsis domini mandarant ut illos adolescentes
+vivos ad se adducerent. Remus igitur hoc modo
+captus abductus est.» (Interponitur de eadem re narratio
+&#198;lii Tuberonis.)
+80. Remus igitur, quum vel hoc modo, vel quemadmodum
+Fabius tradit, in potestatem hostium venisset, vinctus Albam
+est deductus. Romulus vero quum fratris infortunium cognovisset,
+cum fortissimorum pastorum mann illos sibi
+persequendos putavit, sperans fore ut eos adhuc in ipso
+itinere nancisceretur. Sed a Faustulo, qui ejus insanum
+impetum videbat, cohibitus est. Hactenus enim pater existimatus
+adolescentes totam rem celaverat, ne quod peri-
+<pb n="86"/>
+culum adirent antequam ad firmissimum &#230;tatis robur
+pervenissent. Tum vero necessitate compulsus, semotis arbitris,
+soli Romulo rem declaravit. At juvenem, quum ab
+ipso initio omnem suam fortunam intellexisset, matris
+miseratio et Numitoris cura subiit; et post longam consultationem
+cum Faustulo habitam decrevit a pr&#230;senti conatu
+desistere, et majore copiarum apparatu totam familiam ab
+Amulii injuriis vindicare, et quodvis extremum periculum
+pro maximis pr&#230;miis subire, et cum avo materno agere
+quidquid ipsi visum fuisset.
+81. Ut h&#230;c autem optima esse visa sunt, Romulus,
+convocatis omnibus paganis, rogatisque ut Albam ocius
+properarent (non tamen per eandem portam omnes, neque
+conferta manu ingredientes, ne qua oppidanis suspicio oriretur)
+seque in foro exspectarent ad imperata faciendum
+parati, ipse primum urbem petiit. Interea qui Remum abduxerant,
+postquam eum ad regis tribunal stiterunt, omnes
+injurias quas ab illis adolescentibus acceperant, eos accusando
+declararunt; suorumque vulnera ostenderunt, minitantes
+se, nisi de illis sumeretur supplicium, omne pecus
+deserturos. Tum Amulius, agrestibus, qui magno numero
+convenerant, et ipsi Numitori gratificari volens (forte enim
+aderat eam rem &#230;que ac clientes moleste ferens) et regionis
+tranquillitati studens, simul adolescentis arrogantiam
+et tam intrepidam orationem suspectam habens, injuriarum
+comdemnavit, et p&#339;n&#230; modum arbitrio Numitoris permisit,
+dicens &#230;quum esse ut is qui injuriam fecit, a nullo
+alio potius quam ab eo, qui illam accepit, plectatur. Dum
+autem Remus a Numitoris pastoribus revinctis post tergum
+manibus duceretur, et ab iis qui eum deducebant conviciis
+jactatis illuderetur, Numitor sequens, et corporis decus
+plane regium demirabatur, et considerabat, generosum et
+constantem in rebus duris animum: quod nec ad misericordiam
+captandam, nec ad preces (sicut omnes in tali
+fortuna constituti solent facere) se converteret; sed cum
+modesto silentio ad supplicium pergeret. Postquam vero
+domum venerunt, reliquis jussis secedere, ipsum Remum
+solum interrogavit, quisnam esset et quibus ortus: quod
+talis vir e vulgaribus natus non videretur. Quum autem Remus
+respondisset, se illud tantum scire ex nutricii fide,
+se infantem cum fratre eodem partu edito recens natum in
+silva expositum, et a pastoribus susceptum et educatum
+fuisse: Numitor post interpositam brevem moram, sive aliquod
+verisimile suspicatus, sive deo rem in lucem proferente,
+sic juvenem alloquitur: «Te, Reme, in mea potestate
+esse, ita ut te quocumque supplicio afficere possim,
+et eos qui huc adduxerunt, multis et atrocibus injuriis
+acceptis, mortem tuam vehementissime expetere quum
+ipse noris, non est quod te doceam. Quodsi te a morte et
+a quovis alio malo liberaro, an gratiam mihi habebis, et
+roganti operam tuam in re utrique nostrum commoda
+navabis?» Quum autem juvenis respondisset qu&#230; homines in
+vit&#230; desperatione, salutis spe impulsi, vit&#230; necisque arbitris
+et dicere et polliceri solent, Numitor ejus vincula solvi
+jussit, et omnibus qui aderant ablegatis, suam fortunam
+ci narravit: ut Amulius frater regno ipsum fraudarat or-
+<pb n="87"/>
+batumque liberis reddiderat,alterum inter venandum coculte
+interimens, alteram vinctam in carcere custodiens,
+ceteraque se ut dominus ervo utebatur.
+82. Ita locutus et multis lacrimis inter loquendum fusis,
+oravit Remum ut suas domesticas injurias ulcisci vellet.
+Cujus orationem quum juvenis libenter excepisset, et
+jam se ad opus aggrediendum duci postularet, Numitor,
+ejus animi alacritate collaudata, inquit: «Tempus rei
+gerend&#230; ego dispensaturus sum; tu interim, re cum nullis
+aliis communicata, nuntium ad fratrem mittas, per quem
+significes te salvum esse et rogare ut ille quam primum veniat.»
+Postea vero inventus missusque est quidam qui ad
+hoc ministerium idoneus videbatur, qui non procul ab
+urbe Romulum nactus mandata renuntiat. Ille vero valde
+l&#230;tus ad Numitorem properavit: et primum utrumque amplexus
+salutavit, deinde narravit ut et expositi et educati
+fusissent, et alia qu&#230;cumque ex satellite acceperat. Illis
+autem audire gestientibus nec multis ut crederent argumentis
+egentibus, voluptati erat quod referebat. Ut vero se
+mutuo agnoverunt, statim consilia ineunt, et de rei aggrediend&#230;
+modo et opportunitate consultare c&#339;perunt. Dum
+autem h&#230;c ab istis geruntur, Faustulus ad Amulium adducitur.
+Veritus enim ne in magn&#230; rei indicio a se delato fidem
+Numitori absque manifestis signis non faceret, ut facilius
+infantes agnoscerentur, una cum alveo, in quo expositi
+fuerant, paullo post ad urbem contendit. Eum autem valde
+trepide portam transeuntem et quod ferebat diligentissime
+occultantem, quum quidam ex custodibus animadvertisset
+(erat enim hostilis incursionis metus, et port&#230; a fidelissimis
+regi custodiebantur), comprehendit, et quidnam
+celaret cognoscere cupiens, amictum ei per vim detraxit.
+Quum autem alveum conspexisset hominemque h&#230;sitantem
+vidisset, qu&#230;sivit ex eo cur ita trepidaret, quove consilio
+vas illud celaret, quod ei ferre propalam liceret. Interea
+vero plures custodes confluebant, inter quos unus alveum
+agnovit, quippe qui infantes in eo ad fluvium deportarat,
+et iis qui tunc aderant rem indicavit. Illi vero Faustulum
+comprehensum ad regem adduxerunt. Amulius tormentorum
+minis homini intentatis nisi sponte vera dixisset, primum
+quidem an pueri viverent qu&#230;sivit; deinde vero,
+quum hoc cognovisset, qu&#230;sivit, quonam modo illi incolumes
+evassissent. Quum autem ille omnia ut gesta erant
+narrasset: «Age igitur, inquit rex, quando hactenus vera
+dixisti, die ubinam nunc inveniri possint; non enim æquum
+est ut inter bubulcos vitam ingloriam degant, quum mei
+sint cognati, pr&#230;sertimque quum divina providentia servati
+fuerint.»
+83. At Faustulus, novam regis clementiam suspectam
+habens, et existimans ejus mentem a verbis discrepre, ita
+respondet, «Juvenes sunt in montibus ubi armenta pascunt,
+ut eorum vit&#230; genus fert; ego vero missus sum ub
+ipsis, ut quo in statu res ipsorum sint; matri significarem:
+quam quum apud te servari audissem, filiam tuam rogaturus
+eram ut me ad eam duceret. Alveum autem ferebam,
+<pb n="88"/>
+ut pr&#230;ter verba manifestum etiam rei argumentum possem
+ostendere. Nunc igitur, quando tibi visum est juvenes huc
+arcessere, gaudeo: proinde mecum quoscumque volueris
+mitte. Ego enim lis qui venerint pueros ostendam: illi vero
+tua mandata ipsis exponent. H&#230;c autem illc dicebat,
+qu&#230;rens rationem qua necem juvenum differret; simulque
+sperans, se, ubi in montes ventum esset, illis a quibus
+ducebatur evasurum. Amulius vero satellitum fidelissimos
+cum occultis mandatis, ut quos subulcus ipsis indicasset
+comprehensos ad se ducerent, ocius dimisit. Quo facto mox
+decrevit accitum ad se fratrem in libera custodia asservare,
+donec pr&#230;sentem rerum statum benc composnisset: quare
+illum quasi alia de causa arcessivit. At nuntius qui missus
+fuerat, tum perlclitantis benevolentia tum etiam miseratione
+fortun&#230; commotus, Numitori mentem Amulii indicat.
+Ille vero quum juvenibus periculum impendens declarasset,
+eosque hortatus fuisset ut se fortiter gererent, quum aliorum
+clientum et amicorum armatorum tum etiam fidelissimorum
+famulorum non exigua manu stipatus ad regiam venit. Quin
+et validissima agrestium manus, qui in urbem convenerant,
+eo venit, foro relicto, gladios sub vestibus abscondentes.
+Omnesque conglobati, aditu, qui a paucis militibus servabatur,
+per vim occupato, Amulium sine ullo negotio obtruncant,
+atque ita srcem occupant. H&#230;c sunt qu&#230; Fabius
+scribit.</p>
+
+
+<p n="2">Q. Fabius Romam conditam ait Olympiadis octav&#230; anno
+primo.</p>
+    
+
+<p n="3">Mense quarto post urbem conditam, ut Fabius narrat,
+mulieres Sabinas rapere ausi sunt.</p>
+    
+
+<p n="4">Tarpeiam, ut Fabius et Cincius scribunt, cupido cepit
+armillarum, quas in sinistris brachiis Sabini gestabant, et
+annulorum quos ferebant.
+Fabius vero et Cincius nihil tale accidisse dicunt, sed
+puellam pacta proditionis servasse affirumant. At in iis qu&#230;
+sequuntur omnes scriptores consentiunt.
+Piso ait Sabinis paratis aurum puell&#230; tradere quod in sinistris
+brachiis gestabant, Tarpeiam non ornatum illum,
+sed eorum scuta petiisse etc. Fabius vero hanc fraudem Sabinis
+attribuit: ait enim eos, quum aurum, ut Tarpeia postularat,
+ex pactis tradere deberent, indignatos mercedis
+magnitudine, arma quibus se tegebant in eam jecisse, quod
+h&#230;c, quo tempore jurassent, illi promisissent.</p>
+
+<pb n="89"/>
+
+
+
+<p n="5">Divisit Servius Tullius totum agrum, ut Fabius ait, in
+partes viginti sex, quas et ipsas tribus appellat, et quattuor
+urbanas iis addit, ita ut omnes efficiant numerum triginta
+tribuum.</p>
+
+<p n="7">Sequentis narrationis cursum sistens rationes reddere volo,
+cur neque Fabio assentiar neque reliquis historicis qui scribunt
+illos pueros qui a Tarquinio relicti fuerant, ejus filios
+fuisse: ne qui eorum, qui illorum historias legerunt, me
+h&#230;c comminisci arbitrentur, quod illos pueros non filios,
+sed nepotes Tarquinii fuisse dixerim. Omnino enim negli&#230;ntes
+seriptores hanc historiam ediderunt in lucem, non
+examinatis iis, qu&#230; quum nullo pacto fieri potuerint et absurda
+sint, fidem ejus tollunt.</p>
+    
+
+<p n="8">Hoc loco rursus cogor Fabii mentionem facere, et ejus negligentiam
+in temporum supputatione redarguere. Quum
+enim ad eam su&#230; Histori&#230; partem venit ubi describit Aruntis
+interitum, non semel tantum peccat (sicuti antea jam dixi)
+quod scribit Aruntem Tarquinii filium esse; sed etiam iterum,
+quia ait illum defunctum a matre Tanaquilide sepultum
+fuisse, qu&#230; ut illis temporibus adhuc fuerit superstes, nullo
+modo fieri potest.</p>
+
+<p n="9">Tarquinium Collatinum Fabius Egerii filium fuisse tradit.</p>
+
+<p n="11">Alius fortasse satis esse putaret vel ex iis ipsis qu&#230; nunc
+Rom&#230; fiunt, veterum institutorum non levia argumenta sumer:
+sed ego, ne quis absurda illa opinione motus hoc argumentum
+invalidum putet, Romanos videlicet, tota Gr&#230;cia
+devicta, lubenter, patriis ritibus neglectis, alios meliores
+didicisse, ex illo tempore conjecturam ducam, quo nondum
+Gr&#230;ci&#230; principatum neque ullam aliam transmarinam pro.
+<pb n="90"/>
+vinciam habebant; et Quintum Fabium auctorem sequar,
+cujus unius fides et auctoritas mihi sufficiet, nec ulla alia pr&#230;terea
+opus est mihi: nam Romanorum scriptorum antiquissimus
+est, fidemque meretur non ex iis modo qu&#230; audiendo
+accepit, sed ex iis etiam qu&#230; ipse vidit et cognovit.</p>
+    
+
+<p n="16">Jam Amilcar Erycinorum urbem,inter ipsum verticem
+et eos qui in imo monte consederant sitam, occupat. Inde
+eveniebat, ut Romani, qui summum fastigium tenebant, ab
+hoste obsesi, mirabili constantia qu&#230;vis aspera tolerarent,
+et pericula omnia subirent; Carthaginienses vero supra hominum
+fidem ipsi quoque hostibus undique prementibus resisterent;
+quamquam et commeatuum accedebat difficultas,
+quod uno dumtaxat loco et unico aditu usum maris retinerent.
+Verum hic quoquc postquam omnibus rationibus,
+qu&#230; vel ab arte vel a vi atque robore ad expugnandos hostes
+petuntur, utrique essent usi, et inopi&#230; nultum non tolerassent
+genus, omnis denique invasionis et pugn&#230; periculum
+fecissent: tandem, non, ut Fabius ait, exhaustis viribus et
+victi malis, sed ut viri quidam nullo malorum sensu pr&#230;diti
+atque invicti, hieram fecerunt. Prius enim quam alii
+alios vincerent (esti per biennium rursus continuum eodem
+hoc loco ab eisdem certatum est), accidit, ut alia quadam
+ratione finis bello imponeretur. Igitur, quod ad Erycem, et
+copias terrestres, hic status rerum erat.</p>
+
+<pb n="91"/>
+
+
+
+<p n="18">Fabius, historiaum scriptor Romanus, causam bello
+Hannibalico pr&#230;buisse, ait, pr&#230;ter injuriam Saguntinis illatam,
+Asdrubalis etiam avaritiam et dominandi cupiditatem.
+Illum enim, postquam magnum in Hispania potentatum sibi
+peperisset, in Africam deinde rediisse, et antiquare patrias
+leges esse aggressum, ac formam reipublic&#230; Carthaginiensium
+in principatum unius mutare. Sed primores civitatis
+viros, consilio illius animadverso, magno consensu se ab
+illo sejunxisse. Quod suspicatum Asdrubalem, ex Africa
+excessisse, atque Hispaniam ex illo tempore pro libidine sua
+administrasse, nulla posthac senatus Carthaginiensis ratione
+habita. Hannibalem vero, qui ab adolescentia particeps et
+&#230;mulus consiliorum illius fuisset, quum eo tempore in provincia
+Hispania et successisset, in administratione rerum
+idem cum Asdrubale tenuisse institutum. Itaque hoc
+quoque bellum nunc ab eo Romanis fuisse illatum proprio
+ipisus consilio, pr&#230;ter Carthaginiensium sententiam: neminem
+enim Carthagine, qui quidem aliquo loco esset in republica,
+ea approbasse qu&#230; adversus Saguntinorum civitatem
+fecit Hannibal. His expositis, addit deinde: capta
+Saguntinorum urbe, advenisse Romanos, qui aut dedi sibi
+Haunibalem a P&#339;nis postularent, aut bellum suscipi. Hic si
+quis qucrat ex Fabio: ecquam meliorem Carthaginienses
+exspectare occasionem quiverint, quodve inire justius aut
+sibi utilus consilium potuerint, siquidem semper ipsis, ut
+hic quidem ait, facta Hannibalis displicuerant, quam ut,
+Romanorum postulatis morem gerentes, auctorem injuri&#230;
+dederent, communem patri&#230; hostem probabin ratione per
+alios tollerent, publicam ditioni su&#230; tranquillitatem affirmarent,
+bellum imminens a suis cervicibus depellerent,
+unius denique decreti ope ab illo homines se vindicarent? Quid
+habeat, quod ad h&#230;c respondeat? Palam est, responderi
+nihil posse, Nam Carthaginienses quidem tantum ab eo abfuerunt,
+ut quidquam facerent illorum quæ diximus, ut
+bellum ex Hannibalis sententia susceptum per annos septemdecim
+continuos gessertint, neque prius incepto destiterint,
+quam, tentata quavis belli spe, de patria ipsa tandem
+et sua omnium salute c&#339;perunt periclitari.
+Quorsum vero Fabii, et eorum qu&#230; ab illo scripta sunt,
+mentionem feci? Non, quod adeo similia veri putem ista
+qu&#230; commemoravi, ut verear, ne fidem apud nonnullos
+inveniant. Etenim, quam sint h&#230;c a ratione allena, vel me
+tacente, facile in oculos legentium incurrit. Verum ut eos
+admonerem, in quorum manus histori&#230; illius venerint, ne
+tilulum libri, sed res ipsas attendant. Reperiuntur enim, qui
+ad narrantem potiius, quam ad illa qu&#230; narrantur, animum
+advertentes, quum eisdem temporibus auctorem vixisse co-
+<pb n="92"/>
+gitant, et Romanum senatorem fuisse, quidquid ab eo dictum
+est, pro fide digno protinus arripiunt. Ego vero fidem
+ejus scriptoris, sicut minime aspernandam censeo, ita non
+tanti certe faciendam, ut judicium letoris unice velim inde
+pendere: sed ex rebus potius ipsis, qu&#230; narrantur, faciendum
+judicium dico. Enimvero belli hujus Romanorum et
+Carthaginiensium (nam inde sumus digressi) prima causa
+censeri debet, ira Amilicaris, qui Barca est cognominatus,
+fuitque Hannibalis pater naturalis. Hic enim, post bellum
+de Sicilia invictum animum retinens, quod copias, quibus
+ad Erycem pr&#230;fuerat, integras ill&#230;sasque conservaverat,
+eadem secum agitantes consilia: utut propter cladem maritimo
+pr&#339;lio acceptam a Carthaginiensibus, temporibus cedens,
+pacem fecerat; iram tamen coquebat, occasioni ad
+bellum inferendum semper intentus. Itaque, nisi motu mercenariorum
+impediti Carthaginienses fuissent, nulla interposita
+mora novum bellum denuo esset exorsus, quantum
+quidem in ipso foret. Nunc, intestina seditione pr&#230;ventus, in
+rebus patri&#230; componendis coactus est se occupare.</p></div>
+    
+    
+                <div type="textpart" subtype="work" n="2"><ab><title type="main" xml:lang="la">NUMERII FABII PICTORIS ANNALES.</title></ab>                      
+
+<p n="21">Successit filius Ascanius, urbemque condidit Albam, Longam
+nunc dictam, cui de Alba flumine, qui nunc Tiberis
+vocatur, nomen indidit. De hujusmodi vero appellatione
+Fabius, qui res a Romanis gestas literis consignavit, fabulam
+aliam prodidit. Datum videlicet &#198;ne&#230; oraculum fuisse
+de animante quadrupede, qu&#230; condend&#230; urbis dux foret.
+Jam quum sacra facturus fuisset, f&#339;tam suem albo colore
+manibus sacrificantis elapsam in collem quendam se recepisse,
+ibique peperisse triginta porcellos. &#198;neam portentum
+id miratum, et oraculi responsum mente volventem, urbem
+ibidem loci exstruere molitum esse: vidisse vero per quietem
+somnium, quo clarissime vetabatur, monebaturque
+post annos triginta, quot numero porcelli erant, urbem condere,
+atque ita ab incepto destitisse.</p></div>
+
+<pb n="93"/>
+
+                <div type="textpart" subtype="fragmenta" n="3"><ab><title type="main" xml:lang="la">FRAGMENTA
+                            QUÆ AD CERTUM ALIQUEM FABIORUM REFEBRI
+                            NEQUEUNT.</title></ab>
+
+
+
+<p n="28">Fabius Pictor, Romanus historicus, nulli Romanorum
+magistratui permitti ait ut ex bonis publicis aliquid in suos
+usus convertat.</p>
+
+<p n="29">Fabius historicus inquit tunc demum Romanos sensisse
+divitias, quum Sabinorum gentem sibi subjecissent.</p>
+
+<pb n="94"/>
+                 
+
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

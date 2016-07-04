@@ -1,0 +1,142 @@
+<aligned-text xmlns="http://alpheios.net/namespaces/aligned-text">
+    <language lnum="L1" xml:lang="grc"/>
+    <language lnum="L2" xml:lang="lat"/>
+    <sentence n="1">
+        <wds lnum="L1">
+            <comment class="uri"/>
+            <w n="1-1">
+                <text>Τετάρτῳ</text>
+                <refs nrefs="1-2"/>
+            </w>
+            <w n="1-2">
+                <text>δὲ</text>
+            </w>
+            <w n="1-3">
+                <text>μηνὶ</text>
+                <refs nrefs="1-1"/>
+            </w>
+            <w n="1-4">
+                <text>μετὰ</text>
+                <refs nrefs="1-3"/>
+            </w>
+            <w n="2-1">
+                <text>τὴν</text>
+                <comment class="mark"/>
+                <refs nrefs="1-4 1-5"/>
+            </w>
+            <w n="2-2">
+                <text>κτίσιν</text>
+                <refs nrefs="1-4 1-5"/>
+            </w>
+            <w n="2-3">
+                <text>,</text>
+            </w>
+            <w n="2-4">
+                <text>ὡς</text>
+                <refs nrefs="1-7"/>
+            </w>
+            <w n="2-5">
+                <text>Φάβιος</text>
+                <refs nrefs="1-8"/>
+            </w>
+            <w n="2-6">
+                <text>ἱστορεῖ</text>
+                <refs nrefs="1-9"/>
+            </w>
+            <w n="2-7">
+                <text>,</text>
+            </w>
+            <w n="2-8">
+                <text>τὸ</text>
+            </w>
+            <w n="2-9">
+                <text>περὶ</text>
+            </w>
+            <w n="2-10">
+                <text>τὴν</text>
+                <refs nrefs="1-13"/>
+            </w>
+            <w n="2-11">
+                <text>ἁρπαγὴν</text>
+                <refs nrefs="1-13"/>
+            </w>
+            <w n="3-1">
+                <text>ἐτολμήθη</text>
+                <refs nrefs="1-14 1-15"/>
+            </w>
+            <w n="3-2">
+                <text>τῶν</text>
+                <refs nrefs="1-11 1-12"/>
+            </w>
+            <w n="3-3">
+                <text>γυναικῶ</text>
+                <comment class="mark">Sabinas added by translator</comment>
+                <refs nrefs="1-11 1-12"/>
+            </w>
+        </wds>
+        <wds lnum="L2">
+            <comment class="uri"/>
+            <w n="1-1">
+                <text>Mense</text>
+                <refs nrefs="1-3"/>
+            </w>
+            <w n="1-2">
+                <text>quarto</text>
+                <refs nrefs="1-1"/>
+            </w>
+            <w n="1-3">
+                <text>post</text>
+                <refs nrefs="1-4"/>
+            </w>
+            <w n="1-4">
+                <text>urbem</text>
+                <refs nrefs="2-1 2-2"/>
+            </w>
+            <w n="1-5">
+                <text>conditam</text>
+                <refs nrefs="2-1 2-2"/>
+            </w>
+            <w n="1-6">
+                <text>,</text>
+            </w>
+            <w n="1-7">
+                <text>ut</text>
+                <refs nrefs="2-4"/>
+            </w>
+            <w n="1-8">
+                <text>Fabius</text>
+                <refs nrefs="2-5"/>
+            </w>
+            <w n="1-9">
+                <text>narrat</text>
+                <refs nrefs="2-6"/>
+            </w>
+            <w n="1-10">
+                <text>,</text>
+            </w>
+            <w n="1-11">
+                <text>mulieres</text>
+                <refs nrefs="3-2 3-3"/>
+            </w>
+            <w n="1-12">
+                <text>Sabinas</text>
+                <refs nrefs="3-2 3-3"/>
+            </w>
+            <w n="1-13">
+                <text>rapere</text>
+                <refs nrefs="2-10 2-11"/>
+            </w>
+            <w n="1-14">
+                <text>ausi</text>
+                <refs nrefs="3-1"/>
+            </w>
+            <w n="1-15">
+                <text>sunt</text>
+                <refs nrefs="3-1"/>
+            </w>
+            <w n="1-16">
+                <text>.</text>
+            </w>
+        </wds>
+    </sentence>
+</aligned-text>

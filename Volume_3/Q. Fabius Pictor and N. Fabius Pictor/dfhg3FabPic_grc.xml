@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../../xslt/muller-xslt.xsl"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="dfhg2fabpic_grc">
+
+    <teiHeader>
+        <fileDesc>
+
+            <titleStmt>
+                <title>Fragmenta Historicorum Graecorum</title>
+                <editor>Karl Müller</editor>
+                <sponsor>University of Leipzig</sponsor>
+                <funder>The European Social Fund (ESF) - Sächsische AufbauBank</funder>
+
+                <respStmt>
+                    <persName xml:id="MB">Monica Berti</persName>
+                    <resp>Editor in chief</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GC">Gregory Crane</persName>
+                    <resp>Associate editor</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="GF">Greta Franzini</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+
+                <respStmt>
+                    <persName xml:id="SS">Simona Stoyanova</persName>
+                    <resp>Editorial assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="UK">Uta Koschmieder</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+                <respStmt>
+                    <persName xml:id="KS">Kevin Strassburger</persName>
+                    <resp>Student assistant</resp>
+                </respStmt>
+            </titleStmt>
+
+            <publicationStmt>
+                <authority/>
+                <idno type="filename">dfhg2fabpic_grc.xml</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available
+                        under a Creative Commons Attribution-ShareAlike 4.0 International
+                        License</licence>
+                </availability>
+                <date>2014</date>
+                <publisher>University of Leipzig</publisher>
+                <pubPlace>Germany</pubPlace>
+            </publicationStmt>
+
+            <sourceDesc>
+                <listBibl xml:lang="la">
+                    <biblStruct>
+                        <monogr>
+                            <title>Fragmenta Historicorum Graecorum</title>
+                            <editor>
+                                <persName>
+                                    <name xml:lang="la">Carolus Müller</name>
+                                    <addName xml:lang="de">Karl Müller</addName>
+                                </persName>
+                            </editor>
+                            <author ref="http://catalog.perseus.org/catalog/urn:cite:perseus:author.622"
+                                >Fabius Pictor</author> 
+                            <imprint>
+                                <publisher>Ambroise-Firmin Didot</publisher>
+                                <pubPlace>Paris, France</pubPlace>
+                                <date>1841</date>
+                            </imprint>
+                            <biblScope unit="volume">3</biblScope>
+                        </monogr>
+                        <ref
+                            target="https://archive.org/details/fragmentahistori03mueluoft"
+                            >Internet Archive</ref>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy>
+                    <category>
+                        <catDesc>Citation sigla</catDesc>
+                        <category xml:id="dubia">
+                            <catDesc>Parentheses around the number of a fragment, e. g. (1), mean
+                                Müller's uncertainty (dubia) about the attribution of a fragment to
+                                a certain author.</catDesc>
+                        </category>
+                        <category xml:id="incerta">
+                            <catDesc>Square brackets around the number of a fragment, e. g. [1],
+                                mean Muller suggests an attribution of a fragment to a certain
+                                author.</catDesc>
+                        </category>
+                        <category xml:id="anonyma">
+                            <catDesc>A question mark after the number of the fragmemt, e. g. 1?,
+                                means that the name of the fragmentary author is not mentioned by
+                                the source text.</catDesc>
+                        </category>
+                    </category>
+                </taxonomy>
+            </classDecl>
+            <p>The following text is encoded in accordance with EpiDoc standards and with the
+                CTS/CITE Architecture.</p>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="la">Latin</language>
+                <language ident="grc">Greek</language>
+            </langUsage>
+        </profileDesc>
+
+        <revisionDesc>
+            <change who="#KS" when="2015-03-08">Created the XML file</change>
+
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div type="edition" subtype="volume" n="3" xml:lang="grc">
+                
+
+                    <head xml:lang="grc">
+                        <title ref="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg2542.tlg003.opp-grc2"
+                            >QUINTUS FABIUS PICTOR
+                            ET
+                            NUMERIUS FABIUS PICTOR.</title></head>
+<pb n="80"/>
+                                 
+
+<p><bibl type="secondary"><author>A. Knause</author> <title>Vit&#230; et Fragmenta vett. Historicorum
+Roman.</title> Berolin. 1833 <biblScope unit="page">38</biblScope></bibl>:
+<persName role="author"><name type="praenomen">Quintus</name> <name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName>
+<persName><name type="gentilicium" nymRef="Fabius">Fabii</name> <name type="cognomen" nymRef="Pictor">Pictoris</name></persName>
+<persName><name type="praenomen" nymRef="Quintus">Quinti</name> <name type="gentilicium" nymRef="Fabius">Fabii</name> <persName><expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>F</abbr><ex>ilii</ex></expan></persName> 
+<persName><expan><abbr>Q</abbr><ex>uinti</ex></expan> <expan><abbr>N</abbr><ex>epotis</ex></expan></persName> <name type="cognomen">Pictoris</name></persName>
+appellatur a <bibl type="primary"><author>Livio</author> <biblScope unit="volume">I</biblScope>, <biblScope unit="chapter">44</biblScope></bibl> (<ref>fr. 6</ref>) <quote>scriptorum
+antiquissimus</quote>, et <bibl type="primary"><biblScope unit="volume">II</biblScope>, <biblScope unit="chapter">40</biblScope></bibl> (<ref>fr. 12</ref>) <quote>longe antiquissimus
+auctor</quote>; a <bibl type="primary"><author>Dionysio</author> (fr. 11)</bibl> <quote xml:lang="grc">παλαιότατος
+ἀνὴρ τῶν τὰ Ῥωμαῖκὰ συνταξαμένων</quote>, et (<ref>fr. 1</ref>) auctor
+<persName role="author"><name type="praenomen" nymRef="Lucius">Lucii</name> <name type="gentilicium" nymRef="Cincius">Cincii</name></persName> dicitur. Intelligendus est etiam
+    ap. <bibl type="primary"><author>Livium</author> <biblScope unit="volume">VIII</biblScope>, <biblScope unit="chapter">30</biblScope></bibl> <quote>apud antiquissimos scriptores</quote>,
+    ubi mox (<ref>fr. 13</ref>) nominatim affertur; <bibl type="primary"><biblScope unit="volume">IV</biblScope>, <biblScope unit="chapter">7</biblScope> extr</bibl>.
+<quote>In annalibus priscis</quote>; <bibl><biblScope unit="volume">VII</biblScope>, <biblScope unit="chapter">9</biblScope></bibl> <quote>in vetustioribus annalibus</quote>;
+    <bibl type="primary"><biblScope unit="volume">III</biblScope>; <biblScope unit="chapter">23</biblScope> extr</bibl>. <quote>Apud vetustiores scriptores</quote>;
+    <bibl type="primary"><biblScope unit="volume">VIII</biblScope>, <biblScope unit="chapter">26</biblScope> extr.</bibl><quote>Auctoribus dedi, quibus dignius credi
+        est</quote>. Etiam <bibl type="primary"><biblScope unit="volume">III</biblScope>, <biblScope unit="chapter">4</biblScope> init</bibl>. Laudatur secundum quorundam
+codicum auctoritatem. Videtur autem mihi
+extra dubitationem positum, neminem, qui pedestri
+oratione scripserit, historicum ante <persName type="author"><name type="praenomen" nymRef="Quintus">Quintum</name> hunc
+<name type="gentilicium" nymRef="Fabius">Fabium</name></persName> inter Romanos floruisse. Deinde ita refert
+    <bibl type="primary"><author>Dionysius Halicarnassensis</author> in <title>A. R.</title> <biblScope unit="volume">I</biblScope>, <biblScope unit="chapter">6</biblScope></bibl>: <quote xml:lang="grc">Ὁμοίας
+δὲ τούτοις καὶ οὐδὲν διαφόρους ἐξέδωκαν ἱστορίας καὶ
+Ῥωμαίων ὅσοι τὰ παλαιὰ ἔργα τῆς πόλεως Ἑλληνικῇ
+διαλέκτῳ συνέγραψαν· ὦν εἰσι πρεσβύτατοι <persName role="author"><name type="praenomen" nymRef="Quintus">Κόϊντος</name> 
+<name type="gentilicum">Φά&#976;ιος</name></persName>, <persName role="author"><name type="praenomen">Λεύκιος</name> <name type="gentilicium">Κίγκιος</name></persName>, ἀμφότεροι κατὰ τοὺς Φοινικικοὺς
+ἀκμάσαντες πολέμους</quote>. Ab hoc nostro <persName role="author"><name type="praenomen" nymRef="Quintus">Quinto</name>
+<name type="gentilicium" nymRef="Fabius">Fabio</name> <name type="cognomen" nymRef="Pictor">Pictore</name></persName> sejungendi sunt <persName><name type="praenomen">Servius</name> <name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName>
+et <persName><name type="praenomen">Numerius</name> <name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName>, uterque a <persName role="author"><name type="cognomen" nymRef="Cicero">Cicerone</name></persName>
+laudatus. Ac de illo quidem ita narrat in
+    <bibl type="primary"><title>Bruto</title> <biblScope unit="chapter">21</biblScope> init.</bibl>: <quote>Sed vivo <persName role="author"><name>Catone minores</name></persName> natu
+        multi uno tempore oratores florucrunt. Nam et <persName role="author"><name type="praenomen"><expan><abbr>A</abbr><ex>ulus</ex></expan></name>
+<name type="cognomen">Albinus</name></persName> is, qui gr&#230;ce scripsit historiam, qui consul
+        cum <persName><name type="praenomen"><expan><abbr>L</abbr><ex>ucius</ex></expan></name> <name type="cognomen" nymRef="Lucullus">Lucullo</name></persName> fuit, et literatus et disertus fuit:
+et tenuit cum hoc locum quendam etiam <persName><name type="praenomen">Servius</name>
+<name type="gentilicium">Fulvius</name></persName>, et una <persName><name type="praenomen">Servius</name> <name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName>, et juris et literarum
+et antiquitatis bene peritus.</quote> De altero autem
+    <bibl type="primary"><author>M. Tullius</author> <title>De div.</title> <biblScope unit="volume">I</biblScope>, <biblScope unit="chapter">21</biblScope></bibl>: <quote>Hisque adjungatur etiam
+&#198;ne&#339; somnium, quod est</quote>, etc. (v. <ref>fr. 20</ref>). Quinti autem
+Fabii nostri avus est <persName><name type="praenomen">Gaius</name> <name type="gentilicium">Fabius</name></persName>, <persName><name type="praenomen" nymRef="Marcus">Marci</name>
+    filius, primus <name type="gentilicium">Pictor</name></persName> cognominatus, de quo
+    <bibl type="primary"><author>C. Plinius</author> in <title>H. N.</title> <biblScope unit="volume">XXXV</biblScope>, <biblScope unit="chapter">4</biblScope></bibl> h&#230;c memori&#230; prodidit:
+<quote>Apud Romanos quoque honos mature huic
+(sc. pingendi) arti contigit. Siquidem cognomina
+ex ea Pictorum traxerunt Fabii clarissim&#339; gentis:
+princepsque ejus cognominis ipse &#339;dem Salutis
+pinxit anno urbis condit&#339; <num value="450">CCCCL</num>, qu&#339; pictura
+duravit ad nostram memoriam, &#339;de <persName><name type="gentilicium">Claudii</name></persName> principatu
+exusta.</quote> Huic <persName><name type="praenomen" nymRef="Gaius">Gaio</name> <name type="gentilicium" nymRef="Fabius">Fabio</name>, <persName><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>F</abbr><ex>ilii</ex></expan></persName>, <name type="cognomen" nymRef="Pictor">Pictori</name></persName>,
+duo filii erant: unus <persName><name type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name> <name type="gentilicium">Fabius</name>, <persName><expan><abbr>C</abbr><ex>aius</ex></expan> <expan><abbr>F</abbr><ex>ilii</ex></expan></persName> <persName><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>N</abbr><ex>epotis</ex></expan></persName>,
+<name type="cognomen">Pictor</name></persName>, qu&#230;stor militaris a. u. c. 475; &#230;dilis curulis
+a. 480; pr&#230;tor a. 483; consul a. 485 cum
+<persName><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>into</ex></expan></name> <name type="gentilicium" nymRef="Ogulnius">Ogulnio</name> <name type="cognomen" nymRef="Gallus">Gallo</name></persName>, annis 35 postquam Salutis &#230;dem
+    pater pinxerat: alter <persName><name type="praenomen" nymRef="Gaius"><expan><abbr>C</abbr><ex>aii</ex></expan></name> <name type="gentilicium" nymRef="Fabius">Fabii</name></persName> filius (cf. <bibl type="primary"><author>Valer.
+Max.</author> <biblScope unit="volume">IV</biblScope>, <biblScope unit="chapter">3</biblScope></bibl>) erat <persName><name type="praenomen">Numerius</name> <name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name>, <persName><expan><abbr>C</abbr><ex>aii</ex></expan> <expan><abbr>F</abbr><ex>ilii</ex></expan></persName>
+<persName><expan><abbr>M</abbr><ex>arci</ex></expan> <expan><abbr>N</abbr><ex>epotis</ex></expan></persName></persName>, qu&#230;stor militaris a. 478, &#230;dilis curulis
+a. 483; qu&#230;stor a. 486; consul a. 488 cum
+<persName><name type="praenomen" nymRef="Decimus">Decio</name> <name type="gentilicium" nymRef="Iunius">Junio</name> <name type="cognomen">Pera</name></persName>: qui filium habuit <persName><name type="praenomen" nymRef="Numerius">Numerium</name>
+<name type="gentilicium" nymRef="Fabius">Fabium</name> <name type="cognomen" nymRef="Pictor">Pictorem</name></persName>, anno 510 qu&#230;storem
+provincialem. Horum alterum, fortasse filium,
+    <bibl type="primary"><author>Cicero</author> <title>De divin.</title> <biblScope unit="volume">I</biblScope>, <biblScope unit="chapter">21</biblScope></bibl> significasse putandus est.
+In Pictorum autem familia literarum studium
+viguit, ut in Nobiliorum et aliarum complurium
+(<bibl type="primary"><author>Cic.</author> <title>Brut.</title> <biblScope unit="chapter">20</biblScope>, <biblScope unit="column">§ 79</biblScope>.</bibl>) De Fabiorum genere et
+nomine v. <persName role="author"><name>Plutarchum</name></persName> in <persName><name type="gentilicium" nymRef="Fabius">Fabio</name> <name type="cognomen" nymRef="Maximus">Maximo</name></persName> init.
+«<persName role="author"><name type="praenomen">Quintus</name> igitur <name type="gentilicium">Fabius</name>, <persName><expan><abbr>C</abbr><ex>aii</ex></expan> <expan><abbr>F</abbr><ex>ilii</ex></expan></persName><persName><expan><abbr>C</abbr><ex>aii</ex></expan> <expan><abbr>N</abbr><ex>epotis</ex></expan></persName></persName>, gentilis et
+amicus <persName><name type="Agnomen" nymRef="Cunctator">Cunctatoris</name></persName>, interfuit bello Callico (<ref>fr. 17</ref>)
+et Punico secundo (<ref>fr. 18. 19</ref>). Proqu&#230;stor fuit
+    a. 535; <bibl type="primary"><author>Polybio</author> teste <biblScope unit="volume">III</biblScope>, <biblScope unit="chapter">9</biblScope>, <biblScope unit="line">4</biblScope></bibl> (<ref>fr. 18</ref>), <quote>τοῦ συνεδρίου
+μετεῖχε τῶν Ῥωμαίων</quote>. Quando mortuus sit,
+ignotum est. Nam qui pr&#230;tor fuit in bello, quod
+cum Antiocho gestum est (cf. <bibl type="primary"><author>Liv.</author> <biblScope unit="volume">XXXVII</biblScope>, <biblScope unit="chapter">40</biblScope>.
+<biblScope unit="chapter">50</biblScope>. <biblScope unit="chapter">51</biblScope></bibl>), quique obiit a. u. c. 587, <persName><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name type="gentilicium" nymRef="Aelius">&#198;lio</name> <name type="cognomen" nymRef="Paetus">P&#230;to</name></persName>,
+<persName><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arco</ex></expan></name> <name type="gentilicium" nymRef="Iunius">Junio</name> <name type="cognomen" nymRef="Pennus">Penno</name></persName> coss., duobus annis post <persName role="author"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <name type="cognomen" nymRef="Ennius">Ennii</name></persName>
+    mortem (<bibl type="primary"><author>Liv.</author> <biblScope unit="volume">XLV</biblScope>, <biblScope unit="chapter">44</biblScope></bibl>), a <name>T. Livio</name> flamen quirinalis
+    dictus, ille, inquam, etsi fuerunt <note n="1" type="footnote">(*) Intellige <bibl type="secondary"><author>Lachmannum</author> <title>De fontibus Livii</title> <biblScope unit="volume">II</biblScope> <biblScope unit="page">15</biblScope></bibl>;
+        cujus opinionem improbat etiam <bibl type="secondary"><author>Dewhitte</author> <title>De Q. Fabio
+Pictore</title> (Halni&#230; 1832) <biblScope unit="page">6</biblScope></bibl>.</note> qui antiquissimum
+historicum putarent, tament mihi cum
+Vossio videtur esse pater <persName><name type="praenomen" nymRef="Servius">Servii</name> <name type="gentilicium" nymRef="Fabius">Fabii</name> <persName><expan><abbr>Q</abbr><ex>uinti</ex></expan><expan><abbr>F</abbr><ex>ilii</ex></expan></persName> <persName><expan><abbr>Q</abbr></expan> <expan><abbr>N</abbr><ex>epotis</ex></expan></persName>
+<name type="cognomen" nymRef="Pictor">Pictoris</name></persName>, a <bibl type="primary"><author>Cicerone</author> in <title>Bruto</title> (<biblScope unit="chapter">21</biblScope>)</bibl> laudati.
+Aperium est autem, quanto in honore apud &#230;quales
+noster fuerit, de quo testimonium hoc addi
+potest, quod <bibl type="primary"><author>Livio</author> teste (<biblScope unit="volume">XXII</biblScope>, <biblScope unit="chapter">57</biblScope>)</bibl> post pugnam
+Cannensem a. u. c. 538 <quote>Delphos ad oraculum
+missus est sciscitatum, quibus precibus suppliciisque
+deos possent placare, et qu&#339;ham futura finis tan-
+<pb n="81"/>
+    tis cladibus foret</quote>. Fadem de re <bibl type="primary"><author>Appianus</author> <title>De bello
+Hannib.</title> <biblScope unit="chapter">27</biblScope></bibl>: <quote xml:lang="grc">Ἡ δὲ βουλὴ. Κόϊντον μὲν Φάβιον,
+τὸν συγγραφέα τῶνδε τῶν ἔργων, ἐν Δελφοὺς ἔπεμπε
+χρησόμενον περὶ τῶν παρόντων</quote>. Et <bibl type="primary"><author>Livius</author> <biblScope unit="volume">XXIII</biblScope>,
+<biblScope unit="chapter">11</biblScope></bibl>: <quote>Dum h&#339;c geruntur, <persName role="author"><name type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName> legatus
+a Delphis Romam rediit, responsumque ex scripto
+recitavit</quote> sqq. Pari modo de honore et auctoritate,
+qua inter &#230;quales floruerit, testantur <bibl type="primary"><author>Polybiani</author>
+loci <biblScope unit="volume">I</biblScope>, <biblScope unit="chapter">14</biblScope>, <biblScope unit="line">2</biblScope></bibl> et <bibl type="primary"><biblScope unit="volume">III</biblScope>, <biblScope unit="chapter">9</biblScope>, <biblScope unit="line">4</biblScope></bibl> (Vide <ref>fr. 15 et 18</ref>).
+«Perscripsit noster res gestas populi Romani
+inde ab &#198;ne&#230; adventu, urbeque condita, usque
+ad suam &#230;tatem; sed in quo anno desierit, dici
+nequit; auctor tamen affertur a <bibl type="primary"><author>Livio</author> <biblScope unit="volume">XXII</biblScope> <biblScope unit="chapter">7</biblScope></bibl>
+(<ref>fr. 19</ref>), de pr&#339;lio ad Trasimenum pugnato (a. u.
+c. 537), videturque etiam mox insecuta tempora
+enarrasse. <bibl type="primary"><author>Dionysius autem Hal.</author> <title>A. R.</title> <biblScope unit="volume">I</biblScope>, <biblScope unit="chapter">6</biblScope></bibl> de
+<persName role="author"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinto</ex></expan></name> <name type="gentilicium" nymRef="Fabius">Fabio</name></persName> et <persName role="author"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Cincius">Cincio</name></persName> ait: <quote xml:lang="grc">Τούτων δὲ τῶν ἀνδρῶν
+ἑκάτερος, οἷς μὲν αὐτὸς ἔργοις παρεγένετο, διὰ τὴν
+ἐμπειρίαν ἀκριβῶς ἀνέγραψε, τὰ δὲ ἀρχαῖα τὰ μετὰ
+τὴν κτίσιν τῆς πόλεως γενόμενα κεφαλαιωδῶς ἐπέδραμε.</quote>
+Atque hoc in universum non solum de
+<persName role="author"><name type="gentilicium" nymRef="Fabius">Fabio</name></persName> <persName role="author"><name>Cincio</name></persName>que, sed etiam de omnibus veteribus
+historicis sine dubio vere dictum est; sed tamen
+fatendum est, id quod neutiquam Dionysii sententi&#230;
+obstat, in Fabii fragmentis fabulas multo copiosius
+explicatas esse, quam <persName role="author"><name type="gentilicium" nymRef="Livius">Livium</name></persName> aliosque
+    historicos exposuisse videmus. Cf. <bibl type="primary"><author>Dionys.</author> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">79</biblScope></bibl>
+(<ref>fr. 1</ref>). Ceteri loci, quos possis laudare (<ref>fr. 24.
+21. 26. 27</ref>), num ad <persName role="author"><name type="praenomen" nymRef="Quintus">Quintum</name> <name type="gentilicium" nymRef="Fabius">Fabium</name> <name type="cognomen" nymRef="Pictor">Pictorem</name></persName>
+pertineaut, mihi quidem non satis videtur exploratum
+esse. Speciem annalium ita etiam servavit,
+ut in antiquioribus rebus annorum numeros adderet,
+quemadmodum Sabinas quarto urbis mense
+raptas narravit (<ref>fr. 3</ref>). &#198;ra autem urbis condit&#230;,
+qua usus est, a Catoniana quinque ferme annis
+discrepat.
+«Jam ut plenius dicatur de sermone, quo sit
+in conficiendis annalibus usus, ex <bibl type="primary"><author>Ciceronis</author> locis
+    <title>De orat.</title> <biblScope unit="volume">II</biblScope>, <biblScope unit="chapter">12</biblScope></bibl> (ubi est <persName><name>Pictor</name></persName>) et <bibl type="primary"><title>De legg.</title> <biblScope unit="volume">I</biblScope>, <biblScope unit="chapter">2</biblScope></bibl>
+    <note n="2" type="footnote">(*) <bibl type="primary"><author>Cic</author> <title>De legg.</title> <biblScope unit="volume">1</biblScope> <biblScope unit="chapter">2</biblScope></bibl>: <quote>Aest enim historia literis
+nostris... Nam post annales pontificum maximorum,
+si aut ad Fabium aut ad eum, qui libi semper in ore
+est, <persName><name type="cognomen">Catonem</name></persName>... venias ...quid tam exile quam isti
+omnes?</quote></note>
+(quo loco <persName><name type="gentilicium">Fabius</name></persName> nominatur) Latine <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabium</name>
+<name type="cognomen" nymRef="Pictor">Pictorem</name></persName> scripsisse satis elucet. De eodem, hoc
+    est de <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabio</name> <name type="cognomen" nymRef="Pictor">Pictore</name></persName>, rem conficit <bibl type="primary"><author>Quinctilianus</author>,
+qui in <title>Inst. Orat.</title> <biblScope unit="volume">I</biblScope>, <biblScope unit="chapter">6</biblScope>, <biblScope unit="line">12</biblScope></bibl> ita scribit: <quote>Lupus
+masculinum, quamquam <persName role="author"><name type="cognomen">Varro</name></persName> in libro qui initia
+urbis Rom&#339; enarrat, <persName><name type="cognomen">Lupum</name></persName> feminam dicit, <persName><name type="gentilicium">Ennium</name></persName>
+<persName><name type="cognomen" nymRef="Pictor">Pictoremque</name> <name type="gentilicium" nymRef="Fabius">Fabium</name></persName> secutus.</quote> Tum latina
+verba ex <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabii</name> <name type="cognomen" nymRef="Pictor">Pictoris</name></persName> rerum gestarum libris affert
+<bibl type="primary"><author>Nonius</author> s. v. Picumnus</bibl>. Denique <bibl type="primary"><author>Gellius</author> in <title>N. A.</title>
+<biblScope unit="volume">V</biblScope>, <biblScope unit="chapter">4</biblScope></bibl> ex Fabii, quem vocat, annalibus aliqua latine
+    scripta ad verbum rettulit. En <bibl type="primary"><author>Dionysius</author> difficultatem
+movet qui <biblScope unit="volume">1</biblScope>, <biblScope unit="chapter">6</biblScope></bibl> sic dicat: <quote xml:lang="grc">ὁμοίας δὲ τούτοις</quote>
+<foreign xml:lang="grc">κτλ.</foreign> (v. supra). Scisse <persName role="author"><name>Quintum Fabium</name></persName> gr&#230;ce
+scribere, quis est qui dubitet, pr&#230;sertim quum
+Olympiadas (<bibl type="primary"><author>Solin.</author> fr. 2</bibl>) et talenta (<bibl type="primary"><author>Liv.</author> <biblScope unit="volume">I</biblScope>, <biblScope unit="chapter">55</biblScope></bibl>.
+(<ref>fr. 10</ref>) noverit, legatusque Delphos ad oraculum
+missus sit? Quod <persName role="author"><name>Dionysius</name></persName> quidem (<ref>fr. 1</ref>) et
+Olympiadas et stadia auctore Fabio affert, videri
+forsitan possit numerum ad suam computandi rationem
+vertisse. Gr&#230;co eum sermone scripsisse
+pr&#230;ter <persName role="author"><name nymRef="Dionysius">Dionysium</name></persName> nemo ait, ne <persName role="author"><name type="cognomen">Cicero</name></persName> quidem,
+qui id plerumque accurate animadvertat, ut ei
+res, si non mira, at notatu digna fuisse videatur.
+Nec vero quisquam veterum utraque eum lingua
+annalium libros de iisdem rebus gestis composuisse
+testatur, quod si fecisset, meo quidem judicio,
+sine ulla dubitatione unus et alterrem plane novam
+et inauditam &#230; prodidisset. Nova autem
+res fuit, quum qui modo secuti sunt, Gr&#230;ce scripserint,
+<persName role="author"><name type="gentilicium">Cincius</name></persName>, <persName role="author"><name type="praenomen">Numerius</name> <name type="gentilicium">Fabius</name></persName>, <persName><name type="gentilicium">Scipio</name></persName>, <persName><name type="gentilicium">Acilius</name>
+<name type="cognomen">Glabrio</name></persName>: latine demum ceteri, de quibus constat,
+inde a <persName role="author"><name type="cognomen" nymRef="Cato">Catone</name></persName>. Deinde veterum historicorum alii
+latine, gr&#230;ce alii scriptitarunt; at quis unquam
+audivit scriptorem ullum easdem res tractasse
+duobus voluminibus diversis, uno latine, altero
+gr&#230;ce confecto? <persName role="author"><name type="praenomen">Publius</name> quidem <name type="gentilicium">Rutilius</name> <name type="cognomen">Rufus</name></persName>,
+nec alus quisquam veterum, vitam suam latine,
+historiam Romanam gr&#230;ce composuit: at vero
+diversa ea res est, pr&#230;sertim quum historiam,
+quantum videtur, ab urbe condita inceperit, in
+eaque de suo tempore talia necessario narravit,
+qu&#230; in Vita ne tangenda quidem erant. Noli autem
+<persName role="author"><name type="praenomen" nymRef="Aulus"><expan><abbr>A</abbr><ex>ulum</ex></expan></name> <name type="gentilicium" nymRef="Postumius">Postumium</name> <name type="cognomen" nymRef="Albinus">Albinum</name></persName> objicere, de cujus historiis
+magna obscuritas est: gr&#230;ce enim <persName role="author"><name type="praenomen" nymRef="Aulus"><expan><abbr>A</abbr><ex>ulum</ex></expan></name> <name type="gentilicium" nymRef="Postumius">Postumium</name></persName>
+historiam scripsisse, luculenti testes tradiderunt,
+qu&#230;que ex <persName role="author"><name type="gentilicium" nymRef="Postumius">Postumii</name></persName> <title>Annalibus</title> latina verba laudantur,
+ea videntur ad alium scriptorem referenda
+esse. De antiquissimo igitur historico, cujus a veteribus
+non ita rara facta mentio est, inaudita ejusmodi
+res, qu&#230; nullis nititur firmis argumentis,
+proponi nequit. Nec vero possis contendere <persName role="author"><name type="praenomen" nymRef="Quintus">Quintum</name>
+<name type="gentilicium" nymRef="Fabius">Fabium</name></persName> scripsisse et <title>Annales antiquiorum
+temporum</title> et su&#230; &#230;tatis historias vel potius commentarios
+(<title>βίβλους ὑπομνήσεως</title> <bibl type="primary"><author>Polyb.</author> <biblScope unit="volume">III</biblScope>, <biblScope unit="chapter">9</biblScope>, <biblScope unit="line">3</biblScope></bibl>)
+eorumque librorum unum gr&#230;ce, latine alterum
+conscriptum fuisse. Hoc qui de <persName role="author"><name type="praenomen" nymRef="Quintus">Quinto</name> <name type="gentilicium" nymRef="Fabius">Fabio</name>
+<name type="cognomen" nymRef="Pictor">Pictore</name></persName> suspicantur <note n="3" type="footnote">(*) Intelligit, puto, Zumptium in censura libri <bibl type="secondary"><author>Blumiani</author>
+<title>Einleitung in Roms alte Gesch.</title> In Berlin. Jahrb. f.
+wiss. Kritik. 1829, tom. <biblScope unit="volume">II</biblScope> <biblScope unit="page">95</biblScope> <biblScope unit="part">b</biblScope></bibl>.</note> (suspicantur, inquam, nam
+plane certum testimonium non exstat), in rem
+suam vertunt diversorum <persName role="author"><name nymRef="Fabii">Fabiorum</name></persName> <title>Annalium</title> diversas
+inscriptiones, imprimisque eam quam exhi-
+<pb n="82"/>
+bet <persName role="author"><name>Polybius</name></persName>. Deinde etiam <persName role="author"><name nymRef="Dionysius">Dionysium</name></persName> torquent,
+qui <persName role="author"><name type="praenomen" nymRef="Quintus">Quintum</name> <name type="gentilicium" nymRef="Fabius">Fabium</name></persName> vetusta tempora <foreign xml:lang="grc">κεφαλαιωδῶς</foreign>,
+i. e. summatim vel capitulatim, sua vero
+(in Commentariis, aiunt, sive <title>ἐν βίβλοι ὑπομνήσεως</title>
+a <persName role="author"><name nymRef="Polybius">Polybio</name></persName> citatis) <foreign xml:lang="grc">ἀκριβῶς</foreign> scripsisse dicat. At
+id non dixit de uno <persName><name type="praenomen" nymRef="Quintus">Quinto</name> <name type="gentilicium" nymRef="Fabius">Fabio</name></persName>, dicit etiam de
+<persName role="author"><name type="praenomen" nymRef="Lucius">Lucio</name> <name type="gentilicium" nymRef="Cincius">Cincio</name></persName>. Neque illud <foreign xml:lang="grc">κεφαλαιωδῶς</foreign> quadrare
+putant in <persName role="author"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <name type="gentilicium" nymRef="Fabius">Fabii</name></persName> annales de antiquis temporibus
+scriptos, quoniam <persName role="author"><name type="gentilicium" nymRef="Livius">Livio</name></persName>, <persName role="author"><name>Dionysio</name></persName> ceterisque testibus,
+vetustas res copiosius exposuerit quam ceteri
+Annalium confectores, nunc quidem superstites.
+Quam ob rem <persName role="author"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uintum</ex></expan></name> <name type="gentilicium" nymRef="Fabius">Fabium</name></persName> aut bis Annales inde ab
+urbe condita composuisse et gr&#230;ce et latine, aut
+latine tantum contra <persName role="author"><name nymRef="Dionysius">Dionysii</name></persName> testimonium, aut
+duorum librorum (<title>Annalium et Commentariorum</title>)
+unum gr&#230;ce, alterum latine. Sed de his
+sententiis partim dictum est, partim post dicetur:
+nunc vero agamus de <title>Annalium et Commentariorum</title>
+ista diversitate. <persName role="author"><name>Dionysius</name></persName>, ut ipse ait, gr&#230;cum
+<persName><name type="praenomen" nymRef="Quintus">Quinti</name> <name type="gentilicium" nymRef="Fabius">Fabii</name></persName> de antiquis temporibus librum
+adhibuit, unde, si urgeres titulum <title>βίβλων ὑπομνήσεως</title>,
+nihil sequi posse videretur (quamquam vero
+ne illud ipsum quidem), nisi su&#230; &#230;tatis commentarios
+<persName role="author"><name type="gentilicium" nymRef="Fabius">Fabium</name></persName> latine fortasse scripsisse. En <persName role="author"><name type="cognomen" nymRef="Quinctilianus">Quinctilianus</name></persName>,
+<persName role="author"><name type="gentilicium">Gellius</name></persName>, <persName role="author"><name type="gentilicium">Nonius</name></persName> obstant, qui ipsius <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabii</name>
+<name type="cognomen" nymRef="Pictor">Pictoris</name></persName> (non <persName role="author"><name type="praenomen" nymRef="Quintus">Quinti</name> <name type="gentilicium" nymRef="Fabius"><expan><abbr>Fab</abbr><ex>ii</ex></expan></name> <name type="cognomen" nymRef="Pictor"><expan><abbr>P</abbr><ex>ictoris</ex></expan></name></persName>) latina verba
+exhibent de historia temporum antiquissimorum.
+An antiquas res latine scripsit, commentarios
+gr&#230;ce? Diserte recteque obloquitur Dionysius.
+Sed meo judicio <persName role="author"><name nymRef="Dionysianus">Dionysianum</name></persName> illud <foreign xml:lang="grc">κεφαλαιωδῶς</foreign>
+nihil est nisi Gr&#230;culi verbositas, quum exceptis
+orationibus et ratiocinationibus, vix quicquam
+vel perpauca copiosius quam <persName role="author"><name type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name type="gentilicium">Fabius</name></persName> aut exposuerit
+aut exponere etiam potuerit. Ac nihil, opinor,
+<persName role="author"><name>Dionysius</name></persName> sensit, nisi in uno et eodem libro
+<persName role="author"><name type="praenomen" nymRef="Quintus">Quintum</name> <name type="gentilicium" nymRef="Fabius">Fabium</name></persName> antiquas res brevius narrasse
+quam quibus gestis ipse interfuerit. Tum si ex
+<persName role="author"><name nymRef="Dionysius">Dionysii</name></persName> verbis (<foreign xml:lang="grc">κεφαλαιωδῶς</foreign> et <foreign xml:lang="grc">ἀκριβῶς</foreign>) in duos
+<persName role="author"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <name type="gentilicium" nymRef="Fabius">Fabii</name></persName> libros conjectura facienda est, qu&#230; fieri
+alioquin etiam nequit, jure mirari mihi videor,
+quid sit, cur diversos libros non nominaverit.
+Deinde etiam <persName role="author" type="gentilicium" nymRef="Cincius">Cincium</persName> videri <persName role="author">Dionysio</persName> test duos
+libros scripsisse oportet vel potius necesse est,
+quum non de Quinto solum Fabio, sed etiam de
+<persName role="author"><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Cicnius">Cincio</name></persName> ita statuerit. Verum, ut dicam quomodo
+res se habeat, <persName role="author"><name>Polybius</name></persName> ipsos <persName role="author"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>uinti</ex></expan></name> <name type="gentilicium" nymRef="Fabius">Fabii</name></persName> Annales
+intellexit, ac minus accurate, quod solet fieri
+a scriptoribus, <title>βίβλους ὑπομνήσεως</title> appellavit. Si
+non est ita, fingamus <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabium</name></persName> etiam tertium librum,
+<title>Hannibalica</title>, scripsisse, qu&#230; pars fuerit
+    Annalium, testemque afferamus <bibl type="primary"><author>Appianum</author> in
+<title>Hann.</title>  <biblScope unit="chapter">27</biblScope></bibl>. Nihil dico de Fabii Annalibus <bibl type="primary"><author>Gellianis</author>
+(<biblScope unit="volume">V</biblScope>, <biblScope unit="chapter">4</biblScope>)</bibl>, nihil de <persName role="author"><name>Fabii Pictoris</name></persName> gestorum
+    libris a <bibl type="primary"><author>Nonio</author> s. v. Picumnus</bibl> citatis, quos possis
+eodem jure quartum quintumque <persName role="author"><name type="praenomen" nymRef="Quintus"><expan><abbr>Q</abbr><ex>unti</ex></expan></name> <name type="gentilicium" nymRef="Fabius">Fabii</name></persName> opus
+historicum dicere. Porro etiam, quod vidertur non
+minus certum, de translatione Annalium Fabianorum,
+sive gr&#230;ca sive latina, cogitari nequit,
+quum et testimonia plane desint, et ejusmodi opinione
+res difficultate non tam liberetur quam
+implicetur. Certe <persName role="author"><name type="gentilicium" nymRef="Claudius">Claudium</name></persName> quendam <title>Annales Acilianos</title>
+ex gr&#230;co in latinum sermonem vertisse
+    <bibl type="primary"><author>Livius</author> <biblScope unit="volume">XXV</biblScope> <biblScope unit="chapter">39</biblScope></bibl>, et <bibl type="primary"><biblScope unit="volume">XXXV</biblScope> <biblScope unit="chapter">14</biblScope></bibl> diligenter animadvertit,
+eaque videtur historiarum gr&#230;ce conscriptarum
+omnino prima translatio esse. Denique,
+etiamsi <persName role="author"><name type="praenomen"><expan><abbr>Q</abbr><ex>uintus</ex></expan></name> <name type="gentilicium">Fabius</name></persName> (id quod nullo ego modo concedo)
+utraque lingua diversis nimirum temporibus
+annales confecerit: tamen nulla inde causa enascitur,
+cur apud <bibl type="primary"><author>Ciceronem</author> <title>De div.</title> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">21</biblScope></bibl> <persName role="author"><name>Quinti</name></persName>, non
+<persName role="author"><name type="praenomen" nymRef="Numerius">Numerii</name> <name type="gentilicium" nymRef="Fabius">Fabii</name></persName>, quem vocat <persName role="author"><name type="gentilicium">Tullius</name></persName>, Gr&#230;cos annales
+intelligamus, ut pingui <persName><name>Minerva</name></persName> cum <persName role="author"><name type="Dionysius">Dionysio</name></persName>
+<persName role="author"><name type="cognomen">Cicero</name></persName> consentire cogatur. Immo vero sic
+<foreign xml:lang="grc">αἴνιγμα</foreign> augetur, non solvitur; nec vero ullum hujus
+lectionis vestigium in codicibus inest. Utinam
+adessent, qui litem dirimerent, emunct&#230; mehercule
+naris homines! (<bibl type="primary"><author>Cic.</author> <title>Ep. Ad div.</title> <biblScope unit="volume">IX</biblScope> <biblScope unit="chapter">16</biblScope> <biblScope unit="line">6</biblScope></bibl>).
+Sed fortasse sine illorum sagacitate, testimoniis
+veterum accuratius examinatis, res ita expediri
+potest, <persName role="author"><name type="praenomen" nymRef="Quintus">Quintum</name> <name type="gentilicium" nymRef="Fabius">Fabium</name></persName> gr&#230;ce scripsisse <persName role="author"><name>Dionysius</name></persName>
+testatur, qui quum auctorem eum habuerit, errasse
+putandus non est: testimonia vero, qu&#230; dicuntur
+latine eum scripsisse arguere, <persName role="author"><name type="cognomen" nymRef="Cicero">Ciceronis</name></persName>, <persName role="author"><name type="cognomen" nymRef="Quintilian">Quintiliani</name></persName>,
+<persName role="author"><name type="gentilicium" nymRef="Gellius">Gellii</name></persName> et <persName role="author"><name type="gentilicium" nymRef="Nonius">Nonii</name></persName> dico in quibus non diserte
+<persName role="author"><name type="praenomen">Quintus</name> <name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName>, nec <persName><name type="praenomen">Quintus</name> <name type="gentilicium">Fabius</name></persName>, sed
+<persName><name type="gentilicium">Fabius</name></persName> tantum, vel <persName><name type="cognomen">Pictor</name></persName>, vel <persName><name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName> laudatur,
+referri fortasse possunt vel debent potius
+ad <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabium</name> <name type="cognomen" nymRef="Pictor">Pictorem</name></persName> eum, qui <persName role="author"><name type="gentilicium" nymRef="Nonius">Nonio</name></persName> teste et rerum
+gestarum libros latine scripsit, et de jure pontificio
+libros composuit, quod quidem alterum
+<persName role="author"><name type="praenomen" nymRef="Quintus">Quinti</name> <name type="gentilicium" nymRef="Fabius">Fabii</name></persName> &#230;tate, ut de <persName><name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Cincius">Cincio</name></persName> Alimento disputantes
+quidam recte viderunt, nemo nec voluit
+nec etiam potuit. <bibl type="primary"><author>Nonius</author> autem s. v. Picumnus</bibl>
+ita scripsit: <quote><persName role="auhtor"><name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName> rerum gestarum libro
+primo: «<title>Etsimul videbant Picum Martium</title>.» Idem
+libro juris pontificii tertio: «<title>Pilumno et Picumno.</title>»</quote>
+Intelligo autem in Nonii loco <persName><name type="praenomen" nymRef="Servius">Servium</name> <name type="gentilicium" nymRef="Fabius">Fabium</name>
+<name type="cognomen" nymRef="Pictor">Pictorem</name></persName> a <bibl type="primary"><author>Cicerone</author> in <title>Bruto</title> <biblScope unit="chapter">21</biblScope></bibl> laudatum.
+Accedit ad sententiam nostram, quod <persName role="author"><name>Dionysius</name></persName>
+latine <persName role="author"><name type="praenomen" nymRef="Quintus">Quintum</name> <name type="gentilicium" nymRef="Fabius">Fabium</name></persName> scripsisse nullo loco nec
+    testatur nec significat, quodque <bibl type="primary"><author>Cicero</author> bis <title>De
+orat.</title> <biblScope unit="volume">II</biblScope> <biblScope unit="chapter">12</biblScope> <biblScope unit="line">51</biblScope> et <biblScope unit="line">53</biblScope></bibl>: non tamen <bibl type="primary"><title>De legg.</title> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">2</biblScope></bibl>,
+nimirum quod est &#230;qualis <persName role="author"><name type="cognomen" nymRef="Cato">Catonis</name></persName>) <persName role="author"><name type="cognomen" nymRef="Pictor">Pictorem</name></persName>,
+quem dicit, post <persName role="author"><name type="cognomen" nymRef="Cato">Catonem</name></persName> posuit, ut &#230;qualis
+<persName role="author"><name type="praenomen" nymRef="Marcus"><expan><abbr>M</abbr><ex>arci</ex></expan></name> <name type="gentilicium" nymRef="Porcius">Porcii</name></persName>, non longe antiquissimus auctor, ut ait
+<persName role="author"><name type="gentilicium">Livius</name></persName>, intelligendus esse videatur. Atque huic
+ipsi rei, quamvis minoris momenti videri possit,
+certe dandum est aliquid, quum in nominandis
+pluribus historicis veteres temporum ordinem
+<pb n="83"/>
+justum plerumque secuti sint... Deinde si <persName role="author"><name type="praenomen">Quintus</name></persName>
+noster <persName role="author"><name type="gentilicium">Fabius</name></persName> gr&#230;ce scripsit, facile perspicitur,
+    cur per talenta (<bibl type="primary"><author>Liv.</author> <biblScope unit="volume">I</biblScope>, <biblScope unit="chapter">55</biblScope></bibl>) pecuniam numerarit,
+    afferatque annos Olympiadum. Porro <bibl type="primary"><author>Dionysius</author>
+<biblScope unit="volume">I</biblScope> <biblScope unit="chapter">6</biblScope></bibl> auctores suos nominans, sed eos solummodo,
+qui latine scripserant, auctorem dicit <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabium</name> <name type="cognomen" nymRef="Maximus">Maximum</name></persName>,
+non <persName role="author"><name type="praenomen" nymRef="Quintus">Quintum</name> <name type="gentilicium" nymRef="Fabius">Fabium</name> <name type="cognomen" nymRef="Pictor">Pictorem</name></persName> semi—gr&#230;cum.
+Recentiores vero <persName><name type="gentilicium" nymRef="Fabius">Fabii</name></persName>, vel <persName><name type="cognomen" nymRef="Pictor">Pictoris</name></persName> vel <persName><name type="gentilicium" nymRef="Fabius">Fabii</name> 
+    <name type="cognomen" nymRef="Pictor">Pictoris</name></persName> fragmenta ad <persName role="author"><name type="praenomen" nymRef="Quintus">Quintum</name> <name type="gentilicium" nymRef="Fabius">Fabium</name> <name type="cognomen" nymRef="Pictor">Pictorem</name></persName>
+omnia retulerunt, non ulla de causa alia nisi quod
+sine dubo nobilissimus ille historicus intelligendus
+esset. Ita vero ratiocinati varias et inter sese diversas
+conjecturas protulerunt, unum alterumve testimonium
+veterum ut ineptum rejicientes, vel mirabilia
+etiam in lucem proferentes. At quis qu&#230;so
+veterum <persName><name type="praenomen" nymRef="Quintus">Quintum</name> <name type="gentilicium" nymRef="Fabius">Fabium</name> <name type="gentilicium" nymRef="Fabii">Fabiorum</name></persName> nobilissimum
+scriptorem dixit? Utinam nobilitatis hjuus argumenta
+attulissent! Scilicet omnia ad hunc unum
+referentibus videbatur esse pernobilis. Nec vero
+<bibl type="primary"><author>Gellius</author>, qui <biblScope unit="volume">V</biblScope> <biblScope unit="chapter">4</biblScope></bibl> Fabii annales bon&#230; atque sincer&#230;
+vetustatis libros vocet, movere nos poterit, ut
+<persName role="author"><name type="praenomen" nymRef="Quintus">Quintum</name> <name type="gentilicium" nymRef="Fabius">Fabium</name></persName> antiquissimum scriptorem intelligamus,
+clarissimumque putemus, quum eodem
+ferme nomine ab eodem auctore collaudentur
+    <bibl type="primary"><author>Quintus Claudius</author> <biblScope unit="volume">IX</biblScope> <biblScope unit="chapter">13</biblScope></bibl> <bibl type="primary"><author>Lucius</author> que <author>Piso</author> <biblScope unit="volume">XI</biblScope> <biblScope unit="chapter">14</biblScope></bibl>.
+Similiter autem recentiores de fragmentis qu&#230; <persName role="author"><name type="gentilicium" nymRef="Cinicus">Cincii</name></persName>
+nomen habent, judicarunt. Denique h&#230;c de Fabiis
+sententia nostra valde se ideo commendat, quod
+Posita ea nulli veterum testimonio fides derogatur,
+mec nov&#230; et inaudit&#230; res proferuntur. Omnisque
+ormnino hoc modo dilabitur difficultas, nisi quibus
+Fabiis pauca qu&#230;dam fragmenta recte tribuamus.
+Dubium tamen mihi non est, quin <persName role="author"><name type="praenomen" nymRef="Quintus">Quinto</name> <name type="gentilicium" nymRef="Fabius">Fabio</name>
+<name type="cognomen" nymRef="Pictor">Pictori</name></persName> ea sint vindicanda, &#230; exhibent <persName role="author"><name>Polybius</name></persName>,
+<persName role="author"><name type="gentilicium">Livius</name></persName>, <persName role="author"><name>Dionysius</name></persName>, <persName role="author"><name>Plutarchus</name></persName>, <persName role="author"><name>Eutropius</name></persName>, <persName role="author"><name>Orosius</name></persName>,
+<persName role="author"><name>Solinus</name></persName> et <persName role="author"><name>Syncellus</name></persName> de anno urbis condit&#230; disputans.
+Ad <persName role="author"><name type="praenomen" nymRef="Servius">Servium</name> <name type="gentilicium" nymRef="Fabius">Fabium</name> <name type="cognomen" nymRef="Pictor">Pictorem</name></persName> refero, qu&#230;
+laudantur a <persName role="author"><name type="cognomen" nymRef="Quinctilian">Quinctiliano</name></persName>, <persName role="author"><name type="gentilicuim" nymRef="Gellius">Gellio</name></persName>, <persName role="author"><name type="praenomen" nymRef="Macrobius">Macrobio</name></persName>, <persName role="author"><name type="cognomen" nymRef="Festus">Festo</name></persName>,
+    <persName role="author"><name type="gentilicium" nymRef="Nonius">Nonio</name></persName>, <bibl type="primary"><author>Servio</author> <title>ad Georg.</title> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">21</biblScope></bibl>. Hunc significat
+    etiam <bibl type="primary"><author>Cicero</author> <title>De oratore</title> <biblScope unit="volume">II</biblScope> <biblScope unit="chapter">12</biblScope></bibl> bis, et <bibl type="primary"><title>De legg.</title>
+        <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">2</biblScope></bibl>. Quanquam &#230; <bibl type="primary"><author>Gellius</author> <biblScope unit="volume">V</biblScope> <biblScope unit="chapter">4</biblScope></bibl> exhibet ex Annalibus,
+quum <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabium</name></persName> simpliciter auctorem nominet,
+facile etiam ad <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabium</name> <name type="cognomen" nymRef="Maximus">Maximum</name></persName> referre
+possis. Tum qu&#230; afferunt <persName role="author"><name>Strabo</name></persName>, <persName role="author"><name>Diodorus</name></persName>, <persName role="author"><name>Nicolaus</name></persName>
+<persName role="author"><name>Damascenus</name></persName>, <persName role="author"><name type="praenomen">Plinius</name></persName>, <bibl><ptr target="bibliography.xml#blah"/><author>Servius</author> in <title>&#198;n.</title> <biblScope unit="volume">XII</biblScope> <biblScope unit="chapter">603</biblScope></bibl>,
+<persName role="author"><name>Arnobius</name></persName>, <persName role="author"><name>Suidas</name></persName>, <persName role="author"><name>Syncellus</name></persName> altreo loco, auctorque
+libri <title>De origine gentis Roman&#230;</title>, cui tribuenda
+sint, nolo dicernere, quamvis si non omnibus illis,
+at plerisque locis <persName role="author"><name type="praenomen" nymRef="Quintus">Quintum</name> <name type="gentilicium" nymRef="Fabius">Fabium</name></persName> intelligendum
+    suspicer. <persName role="author"><name type="praenomen" nymRef="Numerius">Numerio</name> <name type="gentilicium" nymRef="Fabius">Fabio</name> <name type="cognomen" nymRef="Pictor">Pictori</name></persName> unum locum <bibl type="primary"><author>Ciceronianum</author>
+tribuo <title>De legg.</title> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">21</biblScope></bibl>. Quarto loco <persName><name type="praenomen" nymRef="Quintus">Quintas</name>
+<name type="gentilicium">Fabius</name> <name type="cognomen">Maximus</name> <name type="Agnomen">Servilianus</name></persName> pontifex a <persName role="author"><name>Servio</name></persName>,
+<persName role="author"><name type="praenomen">Macrobio</name></persName>, <persName role="author"><name>Prisciano</name></persName> satis diserte citatur. Denique
+Fabium grammaticum (?) intelligo apud Victorinum
+(<ref>fr. 31</ref>)... Restat ut dicendum sit de historici
+notri auctoriate. <persName role="author"><name type="gentilicium">Livius</name></persName> eum ita interdum
+auctorem exhibet, ut permagni facere videatur
+(cf. <ref>fr. 16. 19</ref>). <persName role="author"><name nymRef="Dionysius">Dionysio</name></persName> teste plures illum antiqui
+historici secuti sunt, qui fidei nomine ab ipsis veteribus
+s&#230;pius celebrantur (v. <ref>fr. 1</ref>). Ipse vero
+<persName role="author"><name>Dionysius</name></persName> interdum ejus fidem exprobrat, ut <ref>fr. 8.
+et 7</ref>, ubi reprehendit <quote xml:lang="grc">τὸ ῥᾴθυμον αὐτοῦ περὶ τὴν
+ἐξέτασιν τῶν χρόνων</quote>. Aliis tamen in locis summis
+laudibus effert, ut <ref>fr. 11</ref>. Contra <persName role="author"><name>Polybius</name></persName> (<ref>fr. 15.
+15, 18</ref>) valde in eum invehitur. Recentiores vero
+modo <persName><name type="gentilicium">Fabio</name></persName> modo <persName role="author"><name nymRef="Polybius">Polybio</name></persName> longis disputationibus
+fidem derogantes, videntur mihi fluctus, quod
+aiunt, in simpulo excitasse. Ab errore enim se
+alienum esse nemo contendet; <persName role="author"><name>Polybius</name></persName> autem ut
+in aliis rebus, ita etiam in scriptorum auctoritatc
+ponderanda et examinanda nimis severus judex
+est, omninoque non sine aliquo lectorum fastidio
+in tritis ac vulgaribus ratiocinationibus et auctoribus
+reprehendendis commorari solet. Sed tamen
+omnium, quos fidei nomine reprehendit, <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabio</name></persName>
+maxime pepercit. Nam <ref>fr. 15</ref> de Fabio et Philino
+fatetur: <quote xml:lang="grc">ἑκόντας μὲν οὖν ἐψεῦσθαι τοὺς ἄνδρας οὐχ
+ὑπολαμβάνω</quote>. Tum <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabium</name></persName> ait de bello Punico
+primo videri <title>ἐμπειρότατα</title> scripsisse, s&#230;peque etsi
+non fatetur, ejus potissimum auctoritate nisus est.
+Negandum tamen non est, id quod Romano homini
+eique patricio non magnopere imputari velim,
+amore eum in populares ductum cum ceteris historicis
+Romani populi facta gentemque <persName><name type="gentilicium" nymRef="Fabius">Fabiam</name></persName> satis
+celebrasse; verum ne in ejusmodi quidem laudibus
+injustiorem eum fuisse, fidem faciunt ea, qu&#230; <persName role="author"><name type="gentilicium" nymRef="Livius">Livio</name></persName>
+teste (<ref>fr. 13</ref>) de <persName><name type="gentilicium" nymRef="Fabius">Fabio</name> <name type="cognomen" nymRef="Rullianus">Rulliano</name></persName> narraverat.
+Luculentum vero fidei et auctoritatis testimonium
+est, quod plurimi scriptores hunc sibi maxime auctorem
+elegerunt, inter quos est etiam, quem nondum
+nominavimus, <bibl type="primary"><author>Plutarchus</author>, quiad auctoritatem
+ejus provocat in <title>Romulo</title> <biblScope unit="chapter">14</biblScope></bibl> (<ref>fr. 3.</ref>), dicitque
+    duobus locis prioribus (<bibl type="primary"><title>Rom.</title> <biblScope unit="chapter">3</biblScope> et <biblScope unit="chapter">8</biblScope></bibl>; v. <bibl type="primary">Dioclis
+fr. 2</bibl>) auctorem nostro fuisse <persName role="author"><name>Dioclem</name> <orgName>Peparethium</orgName></persName>.»
+    H&#230;c Krausius. Cf. <bibl type="secondary"><author>Baumgart.</author> <title>De Q. Fabio
+Pict.</title> Vratislav. 1842</bibl>, quo scripto uti non licuit.</p>
+    
+    
+                <div type="textpart" subtype="work" n="1"><ab><title type="main" xml:lang="la">Q. FABII PICTORIS ANNALES.</title></ab>
+
+
+<cit n="1" xml:lang="grc">
+    <bibl type="primary"><author>Dionysius Hal.</author> <title>Ant. Rom.</title> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">79</biblScope> <biblScope unit="page">201</biblScope> <biblScope unit="part">R</biblScope></bibl>
+<quote>Περὶ δὲ τῶν ἐκ τῶν <persName><name>Ἰλίας</name></persName> γενομένων <persName role="author"><name type="praenomen" nymRef="Quintus">Κόϊντος</name> μὲν <name type="gentilicium" nymRef="Fabius">Φά&#976;ιος</name>
+ὁ <name type="cognomen" nymRef="Pictor">Πίκτωρ</name></persName> λεγόμενος, ᾧ <persName role="author"><name type="paenomen" nymRef="Lucius">Λεύκιός</name> τε <name type="gentilicium" nymRef="Cincius">Κίγκιος</name></persName> καὶ
+<persName role="author"><name type="cognomen" nymRef="Cato">Κάτων</name> <name type="gentilicium" nymRef="Porcius">Πόρκιος</name></persName> καὶ <persName role="author"><name type="cognomen" nymRef="Piso">Πείσων</name> <name type="gentilicium" nymRef="Calpurnius">Καλπούρνιος</name></persName> καὶ τῶν ἄλ-
+<pb n="84"/>
+λων συγγραφέων οἱ πλείους ἠκολούθησαν, τῇδε γράφει·
+«Ὡς κελεύσαντος <persName><name nymRef="Amulius">Ἀμουλίου</name></persName> τὰ βρέφη λαβόντες ἐν σκάφῃ
+κείμενα τῶν ὑπηρετῶν τινες ἔφερον ἐμβαλοῦντες εἰς τὸν
+ποταμὸν ἀπέχοντα ἀπὸ τῆς πόλεως ἀμφὶ <num value="120">ἑκατὸν εἴκοσι</num>
+σταδίους. Ἐπεὶ δὲ ἐγγὺς ἐγένοντο καὶ εἶδον ἔξω τοῦ
+γνησίου ῥείθρου τὸν <placeName ref="http://pleiades.stoa.org/places/423080">Τίβεριν</placeName> ὑπὸ χειμώνων συνεχῶν ἐκτετραμμένον
+εἰς τὰ πεδία, καταβάντες ἀπὸ τοῦ <placeName>Παλαντίου</placeName>
+τῆς κορυφῆς ἐπὶ τὸ προσεχέστατον ὕδωρ· οὐ
+γὰρ ἔτι προσωτέρω χωρεῖν οἷοί τ᾿ ἦσαν· ἔνθα πρῶτον
+ἡ τοῦ ποταμοῦ πλήμμη τῆς ὑπωρείας ἥπτετο, τίθενται
+τὴν σκάφην ἐπὶ τοῦ ὕδατος· ἡ δὲ μέχρι μέν τινος ἐνήχετο,
+ἔπειτα τοῦ ῥείθρου κατὰ μικρὸν ὑποχωροῦντος ἐκ
+τῶν περὶ ἔσχατα, λίθου προσπταίσει περιτραπεῖσα ἐκβάλλει
+τὰ βρέφη. Τὰ μὲν δὴ κνυζόμενα κατὰ τοῦ τέλματος
+ἐκυλινδοῦντο. Λύκαινα δὲ τις ἐπιφανεῖσα, νεοτόκους
+σπαργῶσα τοὺς μαστοὺς ὑπὸ γάλακτος, ἐδίδου τὰς
+θηλὰς τοῖς στόμασιν αὐτῶν, καὶ τῇ γλώττῃ τὸν πηλὸν,
+οὗ κατάπλεω ἦσαν, ἀπελίχμα. Ἐν δὲ τούτῳ τυγχάνουσιν
+οἱ νομεῖς ἐξελαύνοντες τὰς ἀγέλας ἐπὶ νομήν· ἤδη
+γὰρ ἐμβατὸν ἦν τὸ χωρίον· καί τις αὐτῶν ἰδὼν τὴν λύκαιναν,
+ὡς ἠσπάζετο τὰ βρέφη, τέως μὲν ἀχανὴς ἦν
+ὑπὸ θάμβους καὶ ἀπιστίας τῶν θεωρουμένων· ἔπειτα
+ἐλθὼν καὶ συλλέξας οὓς ἐδύνατο πλείστους τῶν ἀγχοῦ
+νεμόντων (οὐ γὰρ ἐπιστεύετο λέγων), ἄγει τοὔργον αὐτοὺς
+θεασομένους. Ὥς δὲ κἀκεῖνοι πλησίον ἐλθόντες
+ἔμαθον τὴν μὲν ὥσπερ τέκνα περισπῶσαν, τὰ δ᾿ ὡς
+μητρὸς ἐξεχόμενα, δαιμόνιόν τι χρῆμα ὁρᾶν ὑπολαβόντες,
+ἐγγυτέρω προσῄεσαν ἀθρόοι, δεδιττόμενοι βοῇ τὸ
+θηρίον. Ἡ δὲ λύκαινα οὐ μάλα ἀγριαίνουσα τῶν ἀνθρώπων
+τῇ προσόδῳ, ἀλλ᾿ ὥσπερ ἂν χειροήθης, ἀποστᾶσα
+τῶν βρεφῶν ἠρέμα καὶ κατὰ πολλὴν ἀλογίαν
+τοῦ ποιμενικοῦ ὁμίλου ἀπῄει. Καὶ ἦν γάρ τις οὐ πολὺ
+ἀπέχων ἱερὸς χῶρος ὕλῃ βαθείᾳ συνηρεφὴς, καὶ πέτρα
+κοίλη πηγὰς ἀνιεῖσα· ἐλέγετο δὲ Πανὸς εἶναι τὸ νάπος,
+καὶ βωμὸς ἦν αὐτόθι τοῦ θεοῦ· εἰς τοῦτο τὸ χωρίον ἐλθοῦσα
+ἀποκρύπτεται. Τὸ μὲν οὖν ἄλσος οὐκέτι διαμένει·
+τὸ δὲ ἄντρον ἐξ οὗ ἡ λιβὰς ἐκδίδοται, τῷ Παλαντίῳ
+προσῳκοδομημένον δείκνυται κατὰ τὴν ἐπὶ τὸν ἱππόδρομον
+φέρουσαν ὁδόν· καὶ τέμενός ἐστιν αὐτοῦ πλησίον,
+ἔνθα εἰκὼν κεῖται τοῦ πάθους, λύκαινα παιδίοις δυσὶ
+τοὺς μαστοὺς ἐπέχουσα, χάλκεα ποιήματα παλαιᾶς
+ἐργασίας. Ἦν δὲ τὸ χωρίον τῶν σὺν Εὐάνδρῳ ποτὲ
+οἰκισάντων αὐτὸ Ἀρκάδων ἱερὸν, ὡς λέγεται. Ὡς δὲ
+ἀπέστη τὸ θηρίον, αἴρουσιν οἱ νομεῖς τὰ βρέφη, σπουδὴν
+ποιούμενοι τρέφειν, ὡς θεῶν αὐτὰ σώζεσθαι βουλομένων.
+Ἦν δέ τις ἐν αὐτοῖς συφορβίων βασιλικῶν
+ἐπιμελούμενος, ἐπιεικὴς ἀνὴρ, <persName><name nymRef="Faustulus">Φαυστύλος</name></persName> ὄνομα, ὃς
+ἐν τῇ πόλει κατὰ δή τι ἀναγκαῖον ἐγεγόνει καθ᾿ ὃν χρόνον
+ἡ φθορὰ τῆς <persName><name>Ἰλίας</name></persName> καὶ ὁ τόκος ἠλέγχετο· καὶ μετὰ
+ταῦτα κομιζομένων ἐπὶ τὸν ποταμὸν τῶν βρεφῶν, τοῖς
+φέρουσιν αὐτὰ κατὰ θείαν τύχην ἅμα διεληλύθει τὴν
+αὐτὴν ὁδὸν, εἰς τὸ <placeName>Παλάντιον</placeName> ἰών· ὃς ἥκιστα τοῖς ἄλλοις
+καταφανὴς γενόμενος ὡς ἐπίσταταί τι τοῦ πράγματος,
+ἀξιώσας αὑτῷ συγχωρηθῆναι τὰ βρέφη, λαμβάνει τε
+αὐτὰ παρὰ τοῦ κοινοῦ καὶ φέρων ὡς τὴν γυναῖκα ἔρχεται.
+Τετοκυῖαν δὲ καταλαβὼν καὶ ἀχθομένην ὅτι νεκρὸν
+αὐτῇ τὸ βρέφος ἦν, παραμυθεῖται καὶ δίδωσιν
+ὑποβάλλεσθαι τὰ παιδία, πᾶσαν ἐξ ἀρχῆς διηγησάμενος
+τὴν κατασχοῦσαν αὐτὰ τύχην. Αὐξομένοις δὲ αὐτοῖς
+ὄνομα τίθεται, τῷ μὲν <persName><name nymRef="Romulus">Ῥωμύλον</name></persName>, τῷ δὲ <persName><name nymRef="Remus">Ῥῶμον</name></persName>. Οἱ
+<pb n="85"/>
+δὲ ἀνδρωθέντες γίνονται κατά τε ἀξίωσιν μορφῆς καὶ
+φρονήματος ὄγκον οὐ συφορβοῖς καὶ βουκόλοις· ἐοικότες,
+ἀλλ᾿ οἵους ἄν τις ἀξιώσειε τοὺς ἐκ βασιλείου τε φύντας
+γένους, καὶ ἀπὸ δαιμόνων σπορᾶς γενέσθαι νομιζομένους,
+ὡς ἐν τοῖς πατρίοις ὕμνοις ὑπὸ Ῥωμαίων ἔτι καὶ
+νῦν ᾄδεται. Βίος δ᾿ αὐτοῖς ἦν βουκολικὸς καὶ δίαιτα
+αὐτουργὸς, ἐν ὄρεσι τὰ πολλὰ πηξαμένοις διὰ ξύλων
+καὶ καλάμων σκηνὰς αὐτωρόφους· ὧν ἔτι καὶ εἰς ἐμὲ ἦν
+τις ἐκ τοῦ Παλαντίου ἐπὶ τῆς πρὸς τὸν ἱππόδρομον
+στρεφούσης λαγόνος, Ῥωμύλου λεγομένη, ἣν φυλάττουσιν
+ἱερὰν οἷς τούτων ἐπιμελὲς, οὐδὲν ἐπὶ τὸ σεμνότερον
+ἐξάγοντες· εἰ δέ τι πονήσειεν ὑπὸ Χειμῶνος ἢ χρόνου,
+τὸ λεῖπον ἐξακούμενοι, καὶ τῷ πρόσθεν ἐξομοιοῦντες
+εἰς δύναμιν. Ἐπεὶ δὲ ἀμφὶ τὰ <num value="18">ὀκτωκαίδεκα</num> ἔτη γεγονότες
+ἦσαν, ἀμφίλογόν τι περὶ τῆς νομῆς αὐτοῖς
+γίνεται πρὸς τοὺς <persName><name nymRef="Numitor">Νομίτορος</name></persName> βουκόλους, οἱ περὶ τὸ
+<placeName>Αὐέντιον</placeName> ὅρος ἀντικρὺ τοῦ <placeName>Παλαντίου</placeName> κείμενον εἶχον
+τὰς βουστάσεις. Ἠτιῶντο δὲ ἀλλήλους θάτεροι θαμινὰ
+ἢ τὴν μὴ προσήκουσαν ὀργάδα κατανέμειν, ἢ τὴν κοινὴν
+μόνους διακρατεῖν ἢ ὅ τι δήποτε τύχοι. Ἐκ δὲ τῆς
+ἁψιμαχίας ταύτης ἑγένοντο πληγαί ποτε διὰ χειρῶν,
+εἶτα δι᾿ ὅπλων. Τραύματα δὲ πολλὰ πρὸς τῶν μειρακίων
+λαμβάνοντες οἱ τοῦ <persName nymRef="Numitor">Νουμίτορος</persName> καί τινας ἀπολέσαντες
+τῶν σφετέρων καὶ τῶν χωρίων κατὰ κράτος
+ἐξειργόμενοι, παρασκευάζονται δόλον τινὰ ἐπ᾿ αὐτούς.
+Προλοχίσαντες γὰρ τῆς φάραγγος τὸ ἀφανὲς, καὶ συνθέμενοι
+τοῖς λοχῶσι τὰ μειράκια τὸν τῆς ἐπιθέσεως καιρὸν,
+οἱ λοποὶ κατὰ πλῆθος ἐπὶ τὰ μανδρεύματα αὐτῶν
+νόκτωρ ἐπέβαλον. <persName><name nymRef="Romulus">Ῥωμύλος</name></persName> μὲν οὖν τὸν χρόνον τοῦτον
+τυγχάνει ἅμα τοῖς ἐπιφανεστάτοις τῶν κωμητῶν πεπορευμένος
+εἴς τι χωρίον <placeName ref="http://pleiades.stoa.org/places/438703">Καινινᾶν</placeName> ὀνομαζόμενον, ἱερὰ
+ποιήσων ὑπὲρ τοῦ κοινοῦ πάτρια· <persName><name nymRef="Remus">Ῥῶμος</name></persName> δὲ τὴν ἔφοδον
+αὐτῶν αἰσθόμενος ἐξεβοήθει, τὰ ὅπλα λαβὼν διὰ
+ταχέων, ὀλίγους τῶν ἐκ τῆς κώμης φθασάντων καθ᾿ ἓν
+γενέσθαι παραλαβών. Κἀκεῖνοι οὐ δέχονται αὐτὸν,
+ἀλλὰ φεύγουσιν ὑπαγόμενοι ἔνθα ἔμελλον ἐν καλῷ ὑποστρέψαντες
+ἐπιθήσεσθαι. Ὁ δὲ <persName><name nymRef="Remus">Ῥῶμος</name></persName> κατ᾿ ἄγνοιαν
+τοῦ μηχανήματος, ὡς ἄχρι πολλοῦ διώκων αὐτοὺς,
+παραλλάττει τὸ λελοχισμένον χωρίον, καὶ ἐν τούτῳ ὅ τε
+λόχος ἀνίσταται καὶ οἱ φεύγοντες ὑποστρέφουσι. Κυκλωσάμενοι
+δὲ αὐτοὺς καὶ πολλοῖς ἀράττοντες λίθοις,
+λαμβάνουσιν ὑποχειρίους. Ταύτην γὰρ εἶχον ἐκ τῶν
+δεσποτῶν τὴν παρακέλευσιν, ζῶντας αὐτοῖς τοὺς νεανίσκους
+ἀποκομίσαι. Οὕτω μὲν δὴ χειρωθεὶς ὁ <persName><name nymRef="Remus">Ῥῶμος</name></persName>
+ἀπήγετο.
+<note type="editorial">Interponitur <persName role="author"><name type="gentilicium" nymRef="Aelius">&#198;lii</name> <name type="cognomen" nymRef="Tubero">Tuberonis</name></persName> de eadem hac re
+narratio. Deinde pergit <persName role="author"><name>Dionysius</name></persName> hunc in modum:</note>
+so. Ὁ μὲν οὖν <persName><name nymRef="Remus">Ῥῶμος</name></persName> ἐπὶ τοῖς πολεμίοις γενόμενος
+οὕτως εἴθ᾿ ὡς ὁ <persName role="author"><name type="gentilicium" nymRef="Fabius">Φά&#976;ιος</name></persName> παραδέδωκε, δέσμιος εἰς τὴν
+<placeName ref="http://pleiades.stoa.org/places/422826">Ἄλβαν</placeName> ἀπήγετο. <persName><name nymRef="Romulus">Ῥωμύλος</name></persName> δ᾿ ἐπεὶ τὸ περὶ τὸν ἀδελφὸν
+ἔγνω πάθος, διώκειν εὐθὺς ᾤετο δεῖν τοὺς ἀκμαιοτάτους
+ἔχων τῶν νομέων, ὡς ἔτι κατὰ τὴν ὁδὸν ὄντα καταληψόμενος
+τὸν <persName><name nymRef="Remus">Ῥῶμον</name></persName>. Ἀποτρέπεται δ῾ ὑπὸ τοῦ <persName><name nymRef="Faustulus">Φαυστύλου</name></persName>
+ὁρῶντος αὐτοῦ τὴν σπουδὴν μανικωτέραν οὖσαν.
+Νομισθεὶς γὰρ γὰρ πατὴρ, τὸν ἔμπροσθεν χρόνον ἀπόρρητα
+ποιούμενος τοῖς μειρακίοις διετέλεσεν, ὡς μὴ θᾶττον
+ὁρμήσωσι παρακινδυνεῦσαί τι πρὶν ἐν τῷ κρατίστῳ τῆς
+ἀκμῆς γενέσθαι· τότε δὲ πρὸς τῆς ἀνάγκης βιασθεὶς μονωθέντι
+τῷ <persName><name nymRef="Romulus">Ῥωμύλῳ</name></persName> λέγει. Μαθόντι δὲ τῷ νεανίσκῳ πᾶσαν
+ἐξ ἀρχῆς τὴν κατασχοῦσαν αὐτοὺς τύχην, τῆς τε μητρὸς
+<pb n="86"/>
+οἶκτος εἰσέρχεται καὶ <persName><name nymRef="Numitor">Νομίτορος</name></persName> φροντίς· καὶ πολλὰ
+βουλευσαμένῳ μετὰ τοῦ <persName><name nymRef="Faustulus">Φαυστύλου</name></persName>, τῆς μὲν αὐτίκα
+ὁρμῆς ἐπισχεῖν ἐδόκει, πλείονι δὲ παρασκευῇ δυνάμεως
+χρησάμενον ὅλον ἀπαλλάξαι τὸν οἶκον τῆς <persName><name nymRef="Romulus">Ἀμουλίου</name></persName>
+παρανομίας, κίνδυνόν τε τὸν ἔσχατον ὑπὲρ τῶν μεγίστων
+ἄθλων ἀναρρῖψαι, πράττειν δὲ μετὰ τοῦ μητροπάτορος
+ὅ τι ἂν ἐκείνῳ δοκῇ.
+81. Ὡς δὲ ταῦτα κράτιστα εἶναι ἔδοξε, συγκαλέσας
+τοὺς κωμήτας ἅπαντας ὁ <persName><name nymRef="Romulus">Ῥωμύλος</name></persName> καὶ δεηθεὶς εἰς τὴν
+<placeName ref="http://pleiades.stoa.org/places/422826">Ἄλβαν</placeName> ἐπείγεσθαι διὰ ταχέων, μὴ κατὰ τὰς αὐτὰς
+πύλας ἅπαντας, μηδ᾿ ἀθρόους εἰσιόντας, μή τις ὑπόνοια
+πρὸς τοὺς ἐν τῇ πόλει γένηται, καὶ περὶ τὴν ἀγορὰν
+ὑπομένοντας ἑτοίμους εἶναι δρᾶν τὸ κελευόμενον, ἀπῄει
+πρῶτος εἰς τὴν πόλιν. Οἱ δὲ τὸν <persName><name nymRef="Remus">Ῥῶμον</name></persName> ἄγοντες ἐπειδὴ
+κατέστησαν ἐπὶ τὸν βασιλέα, τάς τε ὕβρεις ἁπάσας,
+ὅσας ἦσαν ὑβρισμένοι πρὸς τῶν μειρακίων, κατηγόρουν,
+καὶ τοὺς τραυματίας σφῶν ἐπεδείκνυσαν, τιμωρίας εἰ
+μὴ τεύξονται καταλείψειν προλέγοντες τὰ συφόρβια.
+<persName><name nymRef="Romulus">Ἀμούλιος</name></persName> δὲ τοῖς χωρίταις κατὰ πλῆθος ἐληλυθόσι χαρίζεσθαι
+βουλόμενος καὶ τῷ <persName><name nymRef="Numitor">Νομίτορι</name></persName> (παρὼν γὰρ ἐτύγχανε
+συναγανακτῶν τοῖς πελάταις), εἰρήνην τε ἀνὰ
+τὴν χώραν σπεύδων εἶναι, καὶ ἅμα τὸ αὔθαδες τοῦ
+μειρακίου, ὡς ἀκατάπληκτον ἦν ἐν τοῖς λόγοις, δι᾿ ὑποψίας
+λαμβάνων, καταψηφίζεται τὴν δίκην· τῆς δὲ τιμωρίας
+τὸν <persName><name nymRef="Numitor">Νομίτορα</name></persName> ποιεῖ κύριον, εἰπὼν ὡς τῷ δράσαντι
+δεινὰ τὸ ἀντιπαθεῖν οὐ πρὸς ἄλλου τινὸς μᾶλλον
+ἢ τοῦ πεπονθότος ὀφείλεται. Ἐν ὅσῳ δὲ ὁ <persName><name nymRef="Remus">Ῥῶμος</name></persName> ὑπὸ
+τῶν τοῦ <persName><name nymRef="Numitor">Νομίτορος</name></persName> βουκόλων ἤγετο, δεδεμένος τε ὀπίσω
+τὼ χεῖρε καὶ πρὸς τῶν ἀγόντων ἐπικερτομούμενος,
+ἀκολουθῶν ὁ <persName><name nymRef="Numitor">Νομίτωρ</name></persName> τοῦ τε σώματος τὴν εὐπρέπειαν
+ἀπεθαύμαζεν, ὡς πολὺ τὸ βασιλικὸν εἶχε, καὶ τοῦ φρονήματος
+τὴν εὐγένειαν ἐνεθυμεῖτο, ἣν παρὰ τὰ δεινὰ
+διέσωσεν, οὐ πρὸς οἶκτον ἢ λιπαρήσεις, ὡς ἅπαντες ἐν
+ταῖς τοιαῖσδε ποιοῦσι τύχαις, τραπόμενος, ἀλλὰ σὺν
+εὐκόσμῳ σιωπῇ ἐπὶ τὸν μόρον ἀπιών. Ὡς δ᾿ εἰς τὴν
+οἰκίαν ἀφίκοντο, μεταστῆσαι τοὺς ἄλλους κελεύσας, μονωθέντα
+τὸν <persName><name nymRef="Remus">Ῥῶμον</name></persName> εἴρετο τίς εἴη, καὶ τίνων· ὡς οὐκ
+ἂν ἐκ τῶν τυχόντων γε ἄνδρα τοιοῦτον γενόμενον. Εἰπόντος
+δὲ τοῦ <persName><name nymRef="Remus">Ῥώμου</name></persName> τοσοῦτον εἰδέναι μόνον κατὰ
+πίστιν τοῦ τρέφοντος, ὅτι σὺν ἀδελφῷ διδύμῳ ἐκτεθείη
+βρέφος εἰς νάπην εὐθὺς ἀπὸ γονῆς, καὶ πρὸς τῶν νομέων
+ἀναιρεθεὶς ἐκτραφείη, βραχὺν ἐπισχὼν χρόνον, εἴτε
+ὑποτυπωθείς τι τῶν ἀληθῶν εἴτε τοῦ δαίμονος ἄγοντος
+εἰς τοὔμφανες τὸ πρᾶγμα, λέγει πρὸς αὐτόν· «Ὅτι
+μὲν ἐπ᾿ ἐμοὶ γέγονας, ὦ <persName><name nymRef="Remus">Ῥῶμε</name></persName>, παθεῖν ὅ τι ἂν δικαιώσω,
+καὶ ὡς περὶ πολλοῦ ποιήσαιντο ἂν οἱ κομίσαντές σε
+δεῦρο, πολλὰ καὶ δεινὰ παθόντες, ἀποθανεῖν, οὐδὲν δεῖ
+πρὸς εἰδότα λέγειν. Εἰ δέ σε θανάτου τε καὶ ἄλλου
+παντὸς ἐκλυσαίμην κακοῦ, ἆρα ἂν εἰδείης μοι χάριν
+καὶ δεομένῳ ὑπουργήσειας ὃ κοινὸν ἀμφοῖν ἔσται ἀγαθόν;»
+Ἀποκριναμένου δὲ τοῦ μειρακίου ὁπόσα τοὺς ἐν
+ἀπογνώσει βίου κειμένους ἡ τοῦ σωθῆναι ἐλπὶς τοῖς κυρίοις
+τούτου λέγειν καὶ ὑπισχνεῖσθαι ἐπαίρει, λῦσαι
+κελεύσας αὐτὸν ὁ <persName><name nymRef="Numitor">Νομίτωρ</name></persName> καὶ ἅπαντας ἐκποδὼν ἀπελθεῖν,
+φράζει τὰς αὑτοῦ τύχας, ὡς ὁ <persName><name nymRef="Amulius">Ἀμούλιος</name></persName> αὐτὸν
+ἀδελφὸς ὢν ἀπεστέρησε τῆς βασιλείας, ὀρφανὸν δὲ τέ-
+<pb n="87"/>
+κνων ἔθηκε, τὸν μὲν ἐπὶ θήρᾳ κρύφα διαχειρισάμενος,
+τὴν δὲ θυγατέρα εἱρκτῇ δεδεμένην φυλάττων, τά τε
+ἄλλα ὅσα δεσπότης χρώμενος δούλῳ.
+82. Ταῦτ᾿ εἰπὼν καὶ πολὺν θρῆνον ἅμα τοῖς λόγοις
+καταχεόμενος ἠξίου τιμωρὸν τοῖς κατοίκοις αὐτοῦ τὸν
+<persName><name nymRef="Remus">Ῥῶμον</name></persName> γενέσθαι. Ἀσμένως δὲ ὑποδεξαμένου τὸν λόγον
+τοῦ μειρακίου, καὶ πάλαι τάττειν αὐτὸν ἐπὶ τὸ ἔργον
+ἀξιοῦντος, ἐπαινέσας ὁ <persName><name nymRef="Numitor">Νομίτωρ</name></persName> τὴν προθυμίαν, «Τῆς
+μὲν πράξεως, ἔφη, τὸν καιρὸν ἐγὼ ταμιεύσομαι, σὺ δὲ
+τέως πρὸς τὸν ἀδελφὸν ἀπόρρητον τοῖς ἄλλοις ἅπασιν
+ἀγγελίαν πέμψον, ὅτι σώζῃ τε δηλῶν καὶ διὰ ταχέων
+αὐτὸν ἥξειν ἀξιῶν.» Ἐκ δὲ τούτου πέμπεταί τις ἐξευρεθεὶς,
+ὃς ἐδόκει ὑπηρετήσειν, καὶ περιτυχὼν οὐ πρόσω
+τῆς πόλεως ὄντι <persName><name nymRef="Romulus">Ῥωμύλῳ</name></persName>, διασαφεῖ τὰς ἀγγελίας. Ὁ δὲ
+περιχαρὴς γενόμενος ἔρχεται σπουδῇ πρὸς Νομίτορα,
+καὶ περιπλακεὶς ἀμφοῖν ἀσπάζεται μὲν πρῶτον, ἔπειτα
+φράζει τὴν ἔκθεσιν σφῶν καὶ τροφὴν καὶ τἄλλα ὅσα παρὰ
+τοῦ σωματοφύλακος ἐπύθετο. Τοῖς δὲ βουλομένοις τε
+καὶ οὐ πολλῶν ἴνα πιστεύσειαν τεκμηρίων δεομένοις
+καθ᾿ ἡδονὰς τὸ λεγόμενον ἦν. Ἐπεὶ δὲ ἀνέγνωσαν ἀλλήλους,
+αὐτίκα συνετάττοντο καὶ διεσκόπουν ὅστις ἔσται
+τρόπος ἢ καιρὸς εἰς τὴν ἐπίθεσιν ἐπιτήδειος. Ἐν ᾧ δὲ
+οὗτοι περὶ ταῦτα ἦσαν, ὁ <persName><name nymRef="Faustulus">Φαυστύλος</name></persName> ἀπάγεται πρὸς
+<persName><name nymRef="Amulius">Ἀμούλιον</name></persName>· δεδοικὼς γὰρ μὴ οὐ πιστὰ δόξῃ τῷ <persName><name nymRef="Numitor">Νομίτορι</name></persName>
+λέγειν ὁ <persName><name nymRef="Faustulus">Φαυστύλος</name></persName> ἄνευ σημείων ἐμφανῶν μεγάλου
+πράγματος μηνυτὴς γενόμενος, τὸ γνώρισμα τῆς
+ἐκθέσεως τῶν βρεφῶν τὴν σκάφην ἀναλαβὼν, ὀλίγου
+ὕστερον ἐδίωκεν εἰς τὴν πόλιν. Διερχόμενον δ᾿ αὐτὸν τὰς
+πύλας ταραχωδῶς πάνυ καὶ περὶ πολλοῦ ποιούμενον
+μηδενὶ ποιῆσαι καταφανὲς τὸ λεγόμενον, τῶν φυλάκων
+τις καταμαθὼν (ἦ δὲ πολεμίων ἐφόδου δέος, καὶ τὰς
+πύλας οἱ μάλιστα πιστευόμενοι πρὸς τοῦ βασιλέως ἐφρούρουν)
+συλλαμβάνει τε καὶ τὸ κρυπτὸν ὅ τι δήποτ᾿ ἦν
+καταμαθεῖν ἀξιῶν ἀποκαλύπτει βίᾳ τὴν περιβολήν. Ὡς
+δὲ τὴν σκάφην ἐθεάσατο καὶ τὸν ἄνθρωπον ἔμαθεν ἀπορούμενον,
+ἠξίου λέγειν τίς ἡ ταραχὴ καὶ τί τὸ βούλημα
+τοῦ μὴ φανερῶς ἐκφέρειν σκεῦος οὐδὲν δεόμενον ἀπορρήτου
+φορᾶς. Ἐν δὲ τούτῳ πλείους τῶν φυλάκων συνέρρεον
+καί τις αὐτῶν γνωρίζει τὴν σκάφην, αὐτὸς ἐν ἐκείνῃ
+τὰ παιδία κομίσας ἐπὶ τὸν ποταμὸν, καὶ φράζει πρὸς
+τοὺς παρόντας. Οἱ δὲ συλλαβόντες τὸν <persName><name nymRef="Faustulus">Φαυστύλον</name></persName> ἄγουσιν
+ἐπὶ τὸν βασιλέα. <persName><name nymRef="Amulius">Ἀμούλιος</name></persName> δὲ ἀπειλῇ βασάνων καταπληξάμενος
+τὸν ἄνθρωπον, εἰ μὴ λέξῃ τὰς ἀληθείας
+ἑκὼν, πρῶτον μὲν εἰ ζῶσιν οἱ παῖδες ἤρετο· ὡς δὲ τοῦτ᾿
+ἔμαθεν, ὅστις αὐτοῖς ὁ τρόπος τῆς σωτηρίας ἐγένετο, διηγησαμένου
+αὐτοῦ πάντα ὡς ἐπράχθη, «Ἄγε δὴ, φησὶν
+ὁ βασιλεὺς, ἐπειδὴ ταῦτα ἀληθεύσας ἔχεις, φράσον ὅπου
+ἂν νῦν εὑρεθεῖεν· οὐ γὰρ ἔτι δίκαιοί εἰσιν ἐν βουκόλοις
+καὶ ἀδόξῳ βίῳ ζῆν, ἔμοιγε ὄντες συγγενεῖς, ἄλλως τε
+καὶ θεῶν προνοίᾳ σωζόμενοι.»
+83. <persName><name nymRef="Faustulus">Φαυστύλος</name></persName> δὲ τῆς ἀλόγου πρᾳότητος ὑποψίᾳ κινηθεὶς
+μὴ φρονεῖν αὐτὸν ὅμοια τοῖς λόγοις, ἀποκρίνεται
+ὧδε· «Οἱ μὲν παῖδές εἰσιν ἐν τοῖς ὄρεσι βουκολοῦντες,
+ὥσπερ ἐκείνων βίος· ἐγὼ δ᾿ ἐπέμφθην ὑπ᾿ αὐτῶν
+τῇ μητρὶ δηλώσων ἐν αἷς εἰσι τύχαις· ταύτην δὲ παρά
+σοι φυλάττεσθαι ἀκούων, δεήσεσθαι τῆς θυγατρὸς τῆς
+σῆς ἔμελλον, ἵνα με πρὸς αὐτὴν ἀγάγοι. Τὴν δὲ σκάφην
+ἔφερον, ἵν᾿ ἔχω δεικνύναι τεκμήριον ἐμφανὲς ἅμα τοῖς
+<pb n="88"/>
+λόγοις. Νῦν οὖν ἐπειδὴ δέδοκταί σοι τοὺς νεανίσκους
+δεῦρο κομίσαι, χαίρω τε καὶ πέμψον οὕστινας βούλει σὺν
+ἐμοί. Δείξω μὲν οὖν τοῖς ἐλθοῦσι τοὺς παῖδας ἐγὼ, φράσουσι
+δ᾿ αὐτοῖς ἐκεῖνοι τὰ παρὰ σοῦ.» Ὁ μὲν δὴ ταῦτ᾿
+ἔλεγεν, ἀναβολὴν εὑρέσθαι βουλόμενος τοῖς παισὶ τοῦ
+θανάτου, καὶ ἅμα αὐτὸς ἀποδρᾶσαι τοὺς ἄγοντας, ἐπειδὰν
+ἐν τοῖς ὄρεσι γένηται, ἐλπίσας. <persName><name nymRef="Amulius">Ἀμούλιος</name></persName> δὲ τοῖς
+πιστοτάτοις τῶν ὁπλοφόρων ἐπιστείλας κρύφα, οὓς ἂν
+ὁ συφορβὸς αὐτοῖς δείξῃ συλλαβόντας ὡς αὐτὸν ἄγειν,
+ἀποστέλλει διὰ ταχέων. Ταῦτα δὲ διαπραξάμενος αὐτίκα
+γνώμην ἐποιεῖτο καλέσας τὸν ἀδελφὸν ἐν φυλακῇ
+ἀδέσμῳ ἔχειν, ἕως ἂν εὖ θῆται τὰ παρόντα· καὶ αὐτὸν
+ὡς ἐπ᾿ ἄλλῳ δή τινι ἐκάλει. Ὁ δὲ ἀποσταλεὶς ἄγγελος
+εὐνοίᾳ τε τοῦ κινδυνεύοντος καὶ ἐλέῳ τῆς τύχης ἐπιτρέψας,
+κατήγορος γίνεται τῷ <persName><name nymRef="Numitor">Νομίτορι</name></persName> τῆς <persName><name nymRef="Romulus">Ἀμουλίου</name></persName>
+γνώμης. Ὁ δὲ τοῖς παισὶ δηλώσας τὸν κατειληφότα
+κίνδυνον αὐτοὺς, καὶ παρακελευσάμενος ἄνδρας ἀγαθοὺς
+γενέσθαι, παρῆν ἄγων ὡπλισμένους ἐπὶ τὰ βασίλεια τῶν
+τε ἄλλων πελατῶν καὶ ἑταίρων καὶ θεραπείας πιστῆς
+χεῖρα οὐκ ὀλίγην. Ἡκον δὲ καὶ οἱ ἐκ τῶν ἀγρῶν συνελθόντες
+εἰς τὴν πόλιν, ἐκλείποντες τὴν ἀγορὰν, ἔχοντες
+ὑπὸ ταῖς περιβολαῖς ἑαυτῶν ξίφη κεκρυμμένα, στῖφος
+κρατερόν. Βιασάμενοι δὲ τὴν εἴσοδον ἀθρόᾳ ὁρμῇ πάντες,
+οὐ πολλοῖς ὁπλίταις φρουρουμένην, ἀποσφάττουσιν
+εὐπετῶς τὸν Ἀμούλιον καὶ μετὰ τοῦτο τὴν ἄκραν καταλαμβάνονται.
+Ταῦτα μὲν οὖν τοῖς τοῖς περὶ τὸν <persName role="author"><name type="gentilicium" nymRef="Fabius">Φά&#976;ιον</name></persName>
+εἴρηται.</quote><note>Cf.<bibl type="primary"><author>Dioclis Perarethii</author> fr. 2</bibl></note></cit>
+    
+    
+    
+
+<cit n="2" xml:lang="grc">
+    <bibl n="1" type="primary"><author>Dionys. Hal.</author> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">74</biblScope> <biblScope unit="page">187</biblScope> <biblScope unit="part">R</biblScope>.</bibl>
+    <quote n="1"><persName role="author"><name type="praenomen" nymRef="Quintus">Κόϊντος</name> δὲ <name type="gentilicium" nymRef="Fabius">Φά&#976;ιος</name></persName>
+        κατὰ τὸ <num type="ordinal" value="1">πρῶτον</num> ἔτος τῆς <num type="ordinal" value="8">ὀγδόης</num> ὀλυμπιάδος <note type="editorial">(<placeName ref="http://pleiades.stoa.org/places/423025">Romam</placeName>
+conditam ait)</note>.</quote>
+    <bibl n="2" type="primary">Eadem ex Dion. <author>Euseb. Chr.</author> <biblScope unit="page">208</biblScope> Mai.</bibl><bibl n="3" type="primary"><author>Syncell.</author>
+        <biblScope unit="page">193</biblScope></bibl><bibl n="4" type="primary"><author>D. Solin.</author> <title>Polyb.</title> <biblScope unit="chapter">2</biblScope></bibl>
+    <quote n="2" xml:lang="la"><persName role="author"><name type="gentilicium" nymRef="Cincius">Cincio</name></persName> <placeName ref="http://pleiades.stoa.org/places/423025">Romam</placeName>
+<num type="ordinal" value="20">duodecima</num> olympiade placet conditam, <persName role="author"><name type="cognomen" nymRef="Pictor">Pictori</name></persName>
+<num type="ordinal" value="8">octava</num>.</quote></cit>
+
+<cit n="3" xml:lang="grc">
+    <bibl type="primary"><author>Plutarch.</author> <title>Romul.</title> <biblScope unit="chapter">14</biblScope></bibl>
+<quote><num type="ordinal" value="4">Τετάρτῳ</num> δὲ μηνὶ μετὰ
+τὴν κτίσιν, ὡς <persName role="author"><name type="gentilicium" nymRef="Fabius">Φά&#976;ιος</name></persName> ἱστορεῖ, τὸ περὶ τὴν ἁρπαγὴν
+ἐτολμήθη τῶν γυναικῶν <note type="editorial">(Sabinarum)</note>.</quote></cit>
+
+
+
+<cit n="4" xml:lang="grc">
+    <bibl type="primary"><author>Dionys.</author> <biblScope unit="volume">II</biblScope> <biblScope unit="chapter">38</biblScope></bibl>
+<note>Tarpeia Sabinos Tatio duce
+Capitolium aggressuros conspicit,</note>
+<quote n="1">καὶ αὐτὴν, ὡς μὲν
+<persName role="author"><name type="gentilicium" nymRef="Fabius">Φά&#976;ιός</name></persName> τε καὶ <persName role="author"><name type="gentilicium" nymRef="Cincius">Κίγκιος</name></persName> γράφουσιν, ἔρως εἰσέρχεται τῶν
+ψαλίων, ἃ περὶ τοῖς ἀριστεροῖς βραχίοσιν ἐφόρουν καὶ
+τῶν δακτύλων.</quote>
+<note>In sequentibus (<ref>c. 39</ref>) ex <persName role="author"><name type="cognomen" nymRef="Piso">Pisone</name></persName> <persName role="author"><name>Dionysius</name></persName>
+refert Tarpeiam initam cum Tatio proditionem
+per nuntium <persName><name nymRef="Romulus">Romulo</name></persName> indicaturam fuisse,
+nuntium vero ad regem Sabinorum transfugisse et
+illi consilia Tarpei&#230; indicasse. Deinde subjicit:</note> 
+<quote n="2">Οἱ δὲ περὶ τὸν <persName role="author"><name type="gentilicium" nymRef="Fabius">Φά&#976;ιόν</name></persName> τε καὶ <persName role="author"><name type="gentilicium" nymRef="Cincius">Κίγκιον</name></persName> οὐδὲν τοιοῦτον λέγουσι
+γεγονέναι, ἀλλὰ φυλάξαι τὴν κόρην διαβεβαιοῦνται
+τὰς περὶ τὴν προδοσίαν συνθήκας· τὰ δὲ ἑξῆς ἅπκντες
+πάλιν ὁμοίως γράφουσιν.</quote> 
+<note>Mox tamen iterum ex
+<persName role="author"><name type="cognomen" nymRef="Piso">Pisone</name></persName> notat narrationis discrepantiam <ref>c. 40</ref></note>
+<quote n="3">Ὁ μὲν
+Πείσων φησὶ τῶν Σαβίνων τὸν χρυσὸν ἑτοίμων ὄντων
+διδόναι τῇ κόρῃ τὸν περὶ τοῖς ἀριστεροῖς βραχίοσι, τὴν
+Τάρπειαν οὐ τὸν κόσμον, ἀλλὰ τοὺς θυρεοὺς παρ᾿ αὐτῶν
+αἰτεῖν... Οἱ δὲ περὶ τὸν <persName role="author"><name type="gentilicium" nymRef="Fabius">Φά&#976;ιον</name></persName> ἐπὶ τοῖς Σαβίνοις·
+πολοῦσι τὴν τῶν ὁμολογιῶν ἀπάτην. Δέον γὰρ αὐτοὺς
+τὸν χρυσὸν, ὥσπερ ἡ Τάρπεια ἠξίου, κατὰ τὰς
+ὁμολογίας ἀποδιδόναι, χαλεπαίνοντας ἐπὶ τῷ μεγέθει
+τοῦ μισθοῦ τὰ σκεπαστήρια κατ᾿ αὐτῆς βάλλειν, ὡς
+ταῦτα, ὅτε ὤμνυσαν, αὐτῇ δώσειν ὑποσχομένους.</quote></cit>
+
+<pb n="89"/>
+
+
+
+<cit n="5" xml:lang="grc">
+    <bibl type="primary"><author>Dionys. H.</author> <biblScope unit="volume">IV</biblScope> <biblScope unit="chapter">15</biblScope> <biblScope unit="page">673</biblScope> <biblScope unit="part">R</biblScope></bibl> 
+<note>de Servio Tullio</note>
+ <quote>Διεῖλε δὲ καὶ τὴν χώραν ἅπασαν, ὡς μὲν <persName role="author"><name type="gentilicium" nymRef="Fabius">Φά&#976;ιός</name></persName> φησιν,
+εἰς μοίρας <num value="26">ἓξ καὶ εἴκοσιν</num>, ἃς καὶ αὐτὰς καλεῖ φυλὰς, καὶ
+τὰς ἀστικὰς προστιθεὶς αὐταῖς <num value="4">τέτταρας</num>, <num value="30">τριάκοντα</num> πεποίηκε
+φυλὰς ἀμφοτέρων.</quote></cit>
+
+
+<cit n="6" xml:lang="la">
+    <bibl type="primary"><author>Livius</author> <biblScope unit="volume">I</biblScope>, <biblScope unit="chapter">44</biblScope></bibl>
+<note>de Servio Tullio</note>
+<quote xml:lang="la">Censu perfecto, quem maturaverat metu legis de incensis lat&#339; cum
+vinculorum minis mortisque, edixit, ut omnes cives
+Romani, equites peditesque, in suis quisque centuriis,
+in <placeName ref="http://pleiades.stoa.org/places/422863">campo Martio</placeName>, cum prima luce adessent.
+Ibi instructum exercitum omnem suovetaurilibus
+lustrasit: idque conditum lustrum appellatum, quia
+is censendo finis factus est. <num value="80000">Millia octoginta</num> eo
+lustro civium censa dicuntur. Adjicit scriptorum antiquissimus
+<persName role="author"><name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName>, eorum, qui ferre arma
+possent, eum numerum fuisse.</quote></cit>
+
+
+<cit n="7" xml:lang="grc">
+    <bibl type="primary"><author>Dionys. H.</author> <biblScope unit="volume">IV</biblScope> <biblScope unit="chapter">6</biblScope> <biblScope unit="page">647</biblScope> <biblScope unit="part">R</biblScope></bibl>
+<quote>Βούλομαι δ᾿ ἐπιστήσας
+τὸν ἑξῆς λόγον ἀποδοῦναι τὰς αἰτίας δι᾿ ἃς οὔτε
+<persName role="author"><name type="gentilicium" nymRef="Fabius">Φα&#976;ίῳ</name></persName> συγκατεθέμην οὔτε τοῖς ἄλλοις ἱστορικοῖς ὅσοι
+γράφουσιν υἱοὺς εἶναι τοὺς καταλειφθέντας παῖδας ὑπὸ
+<persName><name nymRef="Tarquinius">Ταρκυνίου</name></persName>, ἵνα μή τινες τῶν ἐκείναις ἐντυχόντων ἱστορίαις
+σχεδιάζειν ὑπολάβωσιν, οὐχ υἱοὺς ἀλλ᾿ υἱωνοὺς
+αὐτοὺς γράφοντα τοὺς παῖδας· παντάπασι γὰρ ἀπερισκέπτως
+καὶ ῥᾳθύμως οἱ συγγραφεῖς αὐτῶν ταύτην ἐξενηνόχασι
+τὴν ἱστορίαν, οὐδὲν ἐζητηκότες τῶν ἀναιρούντων
+αὐτὴν ἀδυνάτων καὶ ἀτόπων.</quote></cit>
+
+
+<cit n="8" xml:lang="grc">
+    <bibl type="primary"><author>Dionys. H.</author> <biblScope unit="volume">IV</biblScope> <biblScope unit="chapter">30</biblScope> <biblScope unit="page">717</biblScope> <biblScope unit="part">R</biblScope></bibl>
+<quote>Ἐνταῦθα πάλιν ἀναγκάζομαι μεμνῆσθαι <persName role="author"><name type="gentilicium" nymRef="Fabius">Φα&#976;ίου</name></persName>, καὶ τὸ ῥᾴθυμον αὐτοῦ
+περὶ τὴν ἐξέτασιν τῶν χρόνων ἐλέγχειν. Ἐπὶ γὰρ τῆς
+<persName><name nymRef="Arrun">Ἀρούντα</name></persName> τελευτῆς γενόμενος, οὐ καθ᾿ ἓν ἁμαρτάνει μόνον,
+ὃ καὶ πρότερον ἔφην, ὅτι γέγραφεν υἱὸν εἶναι <persName><name nymRef="Tarquinius">Ταρκυνίου</name></persName>
+τὸν <persName><name nymRef="Arrun">Ἀρούνταν</name></persName>, ἀλλὰ καὶ καθ᾿ ἕτερον, ὅτι φησὶν
+ἀποθανόντα ὑπὸ τῆς μητρὸς <persName><name nymRef="Tanaquil">Τανακυλίδος</name></persName> τεθάφθαι, ἣν
+ἀμήχανον ἔτι κατ᾿ ἐκείνους περιεῖναι τοὺς χρόνους.</quote></cit>
+                    
+                    
+<cit n="9" xml:lang="grc">
+    <bibl type="primary"><author>Dionys. H.</author> <biblScope unit="volume">IV</biblScope> <biblScope unit="chapter">64</biblScope></bibl> 
+<note>de L. Tarquinio Collatino</note>
+<quote>Τοῦτον τὸν ἄνδρα <persName role="author"><name type="gentilicium" nymRef="Fabius">Φά&#976;ιος</name></persName> μὲν υἱόν φησιν Ἠγερίου.</quote></cit>
+
+
+
+<cit n="10" xml:lang="la">
+    <bibl type="primary"><author>Livius</author> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">55</biblScope></bibl>
+<note>de Jovis templo, quam in Tarpeio
+monte <persName><name>Tarquinius Superbus</name></persName> &#230;dificavit:</note> 
+<quote xml:lang="la">Caput humanum integra facie aperientibus fundamenta templi
+dicitur apparuisse. Qu&#339; vusa species haud per
+ambages arcem eum imperii caputque rerum fore
+portendebat: idque ita cecinere vates, quique in
+urbe erant quosque ad eam rem consultandam ex
+<placeName ref="http://pleiades.stoa.org/places/413122">Etruria</placeName> acciverant. Augebatur ad impensas regis
+animus. Itaque Pometian&#339; manubi&#339;, qu&#339; perducendo
+ad culmen operi destinat&#339; erant, vix in fundamenta
+suppeditavere. Eo magis <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabio</name></persName>, pr&#339;terquam
+quod antiquior est, crediderim, <num value="40">quadraginta</num>
+ea sola talenta fuisse, quam <persName role="author"><name type="cognomen" nymRef="Piso">Pisoni</name></persName>, qui <num value="40000">quadraginta
+millia</num> pondo argenti seposita in eam rem
+scribit, summam pecuni&#339; neque ex unius tum urbis
+pr&#339;da sperandam, et nullius, ne horum quidem
+magnificenti&#339; operum, fundamenta non exsuperaturam.</quote></cit>
+
+
+
+<cit n="11" xml:lang="grc">
+    <bibl type="primary"><author>Dionysius</author> <biblScope unit="volume">VII</biblScope> <biblScope unit="chapter">71</biblScope> <biblScope unit="page">1483</biblScope> R.</bibl><note>(de ludis
+Romanorum expositurus est eum in finem ut hinc
+quoque appareat gentes qu&#230; ad condendam Romam
+convenerint, Gr&#230;cas fuisse, non vero barbaras)</note>
+<quote>Ἕτερος μὲν οὖν ἀποχρῆν ἂν ὑπέλαβε καὶ αὐτὰ
+τὰ νῦν πραττόμενα ἐπὶ τῇ πόλει μηνύματα οὐ μικρὰ
+τῶν παλαιῶν ἐπιτηδευμάτων ὑπολαβεῖν· ἐγὼ δὲ, ἵνα
+μή τις ἀσθενῆ τὴν πίστιν εἶναι ταύτην ὑπολάβῃ, [εἴτε]
+κατ᾿ ἐκείνην τὴν ἀπίθανον ὑπόληψιν, ὅτι παντὸς τοῦ
+<placeName ref="http://pleiades.stoa.org/places/1001896">Ἑλληνικοῦ</placeName> κρατήσαντες, ἀσμένως ἂν τὰ κρείττω μετέμαθον
+ἔθη, τῶν ἐπιχωρίων ὑπεριδόντες, ἐξ ἐκείνου ποιή-
+<pb n="90"/>
+σομαι τοῦ χρόνου τὴν τέκμαρσιν, ὅτε οὔπω τὴν τῆς
+Ἑλλάδος εἶχον ἡγεμονίαν, οὐδὲ ἄλλην διαπόντιον οὐδεμίαν
+ἀρχὴν, <persName role="author"><name type="praenomen" nymRef="Quintus">Κοίντῳ</name> <name type="gentilicium" nymRef="Fabius">Φα&#976;ίῳ</name></persName> βεβαιωτῇ χρώμενος, καὶ
+οὐδεμιᾶς ἔτι δεόμενος πίστεως ἑτέρας· παλαιότατος γὰρ
+ἀνὴρ τῶν τὰ Ῥωμαϊκὰ συνταξαμένων, καὶ πίστιν οὐκ
+ἐξ ὧν ἤκουσε μόνον, ἀλλὰ καὶ ἐξ ὦν αὐτὸς ἔγνω, παρεχόμενος.</quote>
+<note>Ipsam ludorum descriptionem, cui suas
+argumentationes <persName role="author"><name>Dionysius</name></persName> immiscet, exscribere
+longum sit. <persName role="author"><name nymRef="Dionysius">Dionysium</name></persName> tu adeas.</note></cit>
+
+
+<cit n="12" xml:lang="la">
+    <bibl type="primary"><author>Livius</author> <biblScope unit="volume">II</biblScope> <biblScope unit="chapter">40</biblScope>, de Coriolano</bibl>
+<quote xml:lang="la">Abductis deinde legionibus
+ex agro Romano, invidia rei oppressum
+periisse tradunti; alii alio leto. Apud <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabium</name></persName>, longe
+antiquissimum auctorem, usque ad senectutem
+vixisse eundem invenio. Refert certe hanc s&#339;pe eum
+exacta &#339;tate usurpasse vocem: Multo miserius seni
+exilium esse.</quote></cit>
+
+
+<cit n="13" xml:lang="la">
+    <bibl type="primary"><author>Livius</author> <biblScope unit="volume">VIII</biblScope> <biblScope unit="chapter">30</biblScope></bibl>
+<note>postquam de fausto pr&#339;lio dixerat
+quod <persName role="author"><name type="gentilicium">Fabius</name></persName>, absente <persName><name type="gentilicium" nymRef="Papirius">Papirio</name></persName> dictatore, contra
+quam jussum erat, cum Samnitis commisit (322 a.
+C.), pergit:</note>
+<quote xml:lang="la">Auctores habeo, bis cum hoste signa collata, dictatore
+absente, bis rem egregie gestam. Apud antiquissimos
+scriptores una h&#339;c pugna invenitur; in
+quibusdam annalibus tota res pr&#339;termissa est. Magister
+equitum, ut ex tanta c&#339;de, multis potitus
+spoliis, congesta in ingentem aceroum hostilia arma
+subdito igne concermavit: seu notum id deorum cuipiam
+fuit, seu credcre libet <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabio</name></persName> auctori, eo factum,
+ne su&#339; glori&#339; fructum dictator caperet, nomenque
+ibi scriberet, aut spolia in triumpho ferret.</quote></cit>
+
+
+<cit n="14" xml:lang="la">
+    <bibl type="primary"><author>Livius</author> <biblScope>X</biblScope> <biblScope>37</biblScope></bibl> 
+<note>de anno 460 a. u., 294 a. <persName><name type="praenomen" nymRef="Gaius"><expan><abbr>C</abbr>aius</expan></name> <name type="praenomen" nymRef="Lucius"><expan><abbr>L</abbr><ex>ucio</ex></expan></name> <name type="gentilicium" nymRef="Postumius">Postumio</name> <name type="cognomen" nymRef="Megellus">Megillo</name></persName> et <persName><name>M. Atilio Regulo</name></persName> coss.:</note>
+<quote xml:lang="la">Et hujus anni parum constans memoria est. <persName><name>Postumium</name></persName>,
+auctor est <persName><name type="gentilicium">Claudius</name></persName>, in <placeName ref="http://pleiades.stoa.org/places/433078">Samnio</placeName> captis aliquot
+urbibus, in <placeName ref="http://pleiades.stoa.org/places/442469">Apulia</placeName> fusum fugatumque, saucium
+ipsum cum paucis <placeName ref="http://pleiades.stoa.org/places/442640">Luceriam</placeName> compulsum: ab <persName><name type="gentilicium" nymRef="Atilius">Atilio</name></persName>
+in <placeName ref="http://pleiades.stoa.org/places/413122">Etruria</placeName> res gestas, eumque triumphasse. <persName role="author"><name type="gentilicium">Fabius</name></persName>,
+ambo consules in <placeName ref="http://pleiades.stoa.org/places/433078">Samnio</placeName> et ad <placeName ref="http://pleiades.stoa.org/places/442640">Luceriam</placeName> res gessisse
+scribit, traductumque in <placeName ref="http://pleiades.stoa.org/places/413122">Etruriam</placeName> exercitum
+(sed ab utro consule, non adjecit), et ad <placeName ref="http://pleiades.stoa.org/places/442640">Luceriam</placeName>
+utrimque multos occisos: inque ea pugna Jovis Statoris
+&#339;dem votam, ut <persName><name>Romulus</name></persName> ante voverat: sed
+fanum tantum, id est locus templo effatus, sacratus
+fuerat. Ceterum hoc demum anno ut &#339;dem
+etiam fieri senatus juberet, bis ejusdem voti damnata
+republica, in religionem venit.</quote></cit>
+
+
+<cit n="15" xml:lang="grc">
+    <note><bibl type="primary"><author>Polybius</author> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">14</biblScope> <biblScope unit="line">3</biblScope> et <biblScope unit="chapter">15</biblScope> <biblScope unit="line">12</biblScope></bibl>, de Fabii in enarrando
+bello Punico primo auctoritate. Vide <ref>Philini
+fr. 1.</ref></note></cit>
+
+
+<cit n="16" xml:lang="grc">
+    <bibl type="primary"><author>Polyb.</author> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">58</biblScope></bibl>
+<quote>Ὁ γὰρ <persName><name nymRef="Hamilcar">Ἀμίλκας</name></persName>, τῶν Ῥωμαίων
+τὸν <placeName ref="http://pleiades.stoa.org/places/462202">Ἔρυκα</placeName> τηρούντων ἐπί τε τῆς κορυφῆς καὶ παρὰ
+τὴν ῥίζαν, καθάπερ εἴπομεν, κατελάβετο τὴν πόλιν τῶν
+    <placeName ref="http://pleiades.stoa.org/places/462201">Ἐρυκινῶν</placeName>, ἥτις ἦν μεταξὺ τῆς τε κορυφῆς καὶ τῶν
+πρὸς τῇ ῥίζῃ στρατοπεδευσάντων. Ἐξ οὗ συνέβαινε παραβόλως
+μὲν ὑπομένειν καὶ διακινδυνεύειν πολιορκουμένους
+τοὺς τὴν κορυφὴν κατέχοντας τῶν Ῥωμαίων·
+ἀπίστως δὲ τοὺς Καρχηδονίους ἀντέχειν, τῶν τε πολεμίων
+πανταχόθεν προσκειμένων, καὶ τῶν χορηγιῶν οὐ
+ῥᾳδίως αὐνοῖς παρακομιζομένων, ὡς ἂν τῆς θαλάττης
+καθ᾿ ἕνα τόπον καὶ μίαν πρόσοδον ἀντεχομένοις. Οὐ
+μὴν ἀλλὰ πάλιν ἐνταῦθα πάσαις μὲν ἀμφότεροι ταῖς
+πολιορκητικαῖς ἐπινοίαις καὶ βίαις χρησάμενοι κατ᾿
+ἀλλήλων, πᾶν δὲ γένος ἐνδείας ἀνασχόμενοι, πάσης
+δ᾿ ἐπιθέσεως καὶ μάχης πεῖραν λαβόντες· τέλος, οὐχ,
+ὡς <persName role="author" type="gentilicium" nymRef="Fabius"><name>Φά&#976;ιος</name></persName> φησὶν, ἐξαδυνατοῦντες καὶ περικακοῦντες,
+ἀλλ᾿ ὡς ἂν ἀπαθεῖς καὶ ἀήττητοί τινες ἄνδρες, ἱερὸν
+ἐποιήσαντο στέφανον. Πρότερον γὰρ ἐκείνους ἀλλήλων
+ἐπικρατῆσαι, καίπερ <num value="2">δύο</num> ἔτη πάλιν ἐν τούτῳ τῷ τόπῳ
+διαγωνισαμένους, δι᾿ ἄλλου τρόπου συνέβη λαβεῖν τὸν
+πόλεμον τὴν κρίσιν.</quote></cit>
+
+
+<cit n="17" xml:lang="la">
+    <bibl n="1" type="primary"><author>Eutrop.</author> <biblScope unit="volume">III</biblScope> <biblScope unit="chapter">2</biblScope></bibl>
+<quote n="1" xml:lang="la"><persName><name>L. &#198;milio</name></persName> consule <note type="editorial">(529 a. u.
+ 225 a. C.)</note> ingentes Gallorum copi&#339; <placeName ref="http://pleiades.stoa.org/places/783">Alpes</placeName> transie-
+<pb n="91"/>
+ runt. Sed pro Romanis tota <placeName ref="http://pleiades.stoa.org/places/1052">Italia</placeName> consensit: traditumque
+est a <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabio</name></persName> historico, qui ei bello interfuit,
+<num value="80000">DCCC millia</num> hominum parata ad id bellum fuisse.</quote>
+    <bibl n="2" type="primary"><author>Orosius</author> <biblScope>IV</biblScope> <biblScope unit="chapter">13</biblScope></bibl>
+<note>de eodem anno</note> 
+<quote n="2" xml:lang="la">Consules totius Itali&#339; ad pr&#339;sidium imperii contraxere vires. Quo
+facto in utriusque consulis exercitu <num value="80000">octingenta millia</num>
+armatorum fuisse referuntur, sicut <persName role="author"><name type="gentilicium">Fabius</name></persName> historicus,
+qui eidem bello interfuit, scripsit.</quote></cit>
+                    
+
+<cit n="18" xml:lang="grc">
+    <bibl type="primary"><author>Polyb.</author> <biblScope unit="volume">III</biblScope> <biblScope unit="chapter">8</biblScope></bibl>
+<quote><persName role="author"><name type="gentilicium" nymRef="Fabius">Φά&#976;ιος</name></persName> δέ φησιν, ὁ Ῥωμαῖκὸς
+συγγραφεὺς, ἅμα τῷ κατὰ Ζακανθαίους ἀδικήματι,
+καὶ τὴν <persName><name nymRef="Hasdrubal">Ἀσδρούβου</name></persName> πλεονεξίαν καὶ φιλαρχίαν, αἰτίαν
+γίγνεσθαι τοῦ κατ᾿ <persName><name nymRef="Hannibal">Ἀννίβαν</name></persName> πολέμου. Ἐκεῖνον γὰρ,
+μεγάλην ἀνειληφότα τὴν δυναστείαν ἐν τοῖς κατ᾿ <placeName ref="http://pleiades.stoa.org/places/246423">Ἰβηρίαν</placeName>
+τόποις, μετὰ ταῦτα παραγενόμενον ἐπὶ <placeName ref="http://pleiades.stoa.org/places/716588">Λιβύην</placeName>, ἐπιβαλέσθαι,
+καταλύσαντα τοὺς νόμους, εἰς μοναρχίαν περιστῆσαι
+τὸ πολίτευμα τῶν <placeName ref="http://pleiades.stoa.org/places/314921">Καρχηδονίων</placeName>· τοὺς δὲ <num type="ordinal" value="1">πρώτους</num>
+ἄνδρας ἐπὶ τοῦ πολιτεύματος, προειδομένους αὐτοῦ
+τὴν ἐπιβολὴν, συμφρονῆσαι καὶ διαστῆναι πρὸς αὐτόν·
+τὸν δ᾿ <persName><name nymRef="Hasdrubal">Ἀσδρούβαν</name></persName>, ὑπειδόμενον, ἀναχωρήσαντα ἐκ τῆς
+    <placeName ref="http://pleiades.stoa.org/places/716588">Λιβύης</placeName>, τὸ λοιπὸν ἤδη τὰ κατὰ τὴν <placeName ref="http://pleiades.stoa.org/places/246423">Ἰβηρίαν</placeName> χειρίζειν
+κατὰ τὴν αὐτοῦ προαίρεσιν, οὐ προσέχοντα τῷ συνεδρίῳ
+τῶν <placeName ref="http://pleiades.stoa.org/places/314921">Καρχηδονίων</placeName>· <persName><name nymRef="Hannibal">Ἀννίβαν</name></persName> δὲ, κοινωνὸν καὶ ζηλωτὴν
+ἐκ μειρακίου γεγονότα τῆς ἐκείνου προαιρέσεως, καὶ
+τότε διαδεξάμενον τὰ κατὰ τὴν <placeName ref="http://pleiades.stoa.org/places/246423">Ἰβηρίαν</placeName>, τὴν αὐτὴν
+ἀγωγὴν <persName><name nymRef="Hasdrubal">Ἀσδρούβᾳ</name></persName> ποιεῖσθαι τῶν πραγμάτων. Διὸ καὶ
+νῦν τὸν πόλεμον τοῦτον ἐξενηνοχέναι κατὰ τὴν αὐτοῦ
+προαίρεσιν Ῥωμαίοις, παρὰ τὴν Καρχηδονίων γνώμην.
+Οὐδένα γὰρ εὐδοκεῖν τῶν ἀξιολόγων ἀνδρῶν ἐν <placeName ref="http://pleiades.stoa.org/places/314921">Καρχηδόνι</placeName>
+τοῖς ὑπ᾿ <persName><name nymRef="Hannibal">Ἀννίβου</name></persName> περὶ τὴν <placeName ref="http://pleiades.stoa.org/places/266021">Ζακανθαίων</placeName> πόλιν
+πραχθεῖσι. Ταῦτα δ᾿ εἰπών φησι μετὰ τὴν τῆς προειρημένης
+πόλεως ἅλωσιν παραγενέσθαι τοὺς Ῥωμαίους,
+οἰομένους δεῖν ἢ τὸν <persName><name nymRef="Hannibal">Ἀννίβαν</name></persName> ἐκδιδόναι σφίσι τοὺς
+Καρχηδονίους, ἢ τὸν πόλεμον ἀναλαμβάνειν. Εἰ δέ
+τις ἔροιτο τὸν συγγραφέα, ποῖος ἦν καιρὸς οἰκειότερος
+τοῖς Καρχηδονίοις, ἢ ποῖον πρᾶγμα τούτου δικαιότερον
+ἢ συμφορώτερον, ἐπείπερ ἐξ ἀρχῆς δυσηρεστοῦντο,
+καθάπερ οὗτός φησι,τοῖς ὑπ᾿ <persName><name nymRef="Hannibal">Ἀννίβου</name></persName> πραττομένοις,
+τοῦ, πεισθέντας τότε τοῖς ὑπὸ Ῥωμαίων παρακαλουμένοις,
+ἐκδοῦναι μὲν τὸν αἴτιον τῶν ἀδικημάτων, ἐπανελέσθαι
+δ᾿ εὐλόγως δι᾿ ἑτέρων τὸν κοινὸν ἐχθρὸν τῆς
+πόλεως, περιποιήσασθαι δὲ τῇ χώρᾳ τὴν ἀσφάλειαν,
+ἀποτριψαμένους τὸν ἐπιφερόμενον πόλεμον, δόγματι
+μόνον τὴν ἐκδίκησιν ποιησαμένους; τί ἂν εἰπεῖν ἔχοι
+πρὸς αὐτά; δῆλον γάρ, ὡς οὐδέν. Οἵ γε τοσοῦτον ἀπέσχον
+τοῦ πρᾶξαί τι τῶν προειρημένων, ὡς ἑπτακαίδεκα
+ἔτη συνεχῶς πολεμήσαντες κατὰ τὴν <persName><name nymRef="Hannibal">Ἀννίβου</name></persName> προκίρεσιν,
+οὐ πρότερον κατελύσαντο τὸν πόλεμον, ἕως οὗ πάσας
+ἐξελέγξαντες τὰς ἐλπίδας, τελευταῖον εἰς τὸν περὶ
+τῆς πατρίδος καὶ τῶν ἐν αὐτῇ σωμάτων παρεγένοντο
+κίνδυνον.
+Τίνος δὲ χάριν ἐμνήσθην <persName role="author"><name type="gentilicium" nymRef="Fabius">Φα&#976;ίου</name></persName> καὶ τῶν ὑπ᾿ ἐκείνου
+γεγραμμένων; Οὐχ ἕνεκα τῆς πιθανότητος τῶν
+εἰρημένων ἀγωνιῶν, μὴ πιστευθῇ παρά τισιν· ἡ μὲν
+γὰρ παρὰ τούτων ἀλογία, καὶ χωρὶς τῆς ἐμῆς ἐξηγήσεως,
+αὐτὴ δι᾿ αὐτῆς δύναται θεωρεῖσθαι παρὰ τοῖς
+ἐντυγχάνουσιν· ἀλλὰ τῆς τῶν ἀναλαμβανόντων τὰς
+ἐκείνου βίβλους ὑπομνήσεως· ἵνα μὴ πρὸς τὴν ἐπιγραφὴν,
+ἀλλὰ πρὸς τὰ πράγματα βλέπωσιν. Ἔνιοι γὰρ
+οὐκ ἐπὶ τὰ λεγόμενα συνεπιστήσαντες, ἀλλ᾿ ἐπ᾿ αὐτὸν
+τὸν λέγοντα, καὶ λαβόντες ἐν νῷ, διότι κατὰ τοὺς καιροὺς
+ὁ γράφων γέγονε, καὶ τοῦ συνεδρίου μετεῖχε τῶν
+Ῥωμαίων, πᾶν εὐθέως ἡγοῦνται τὸ λεγόμενον ὑπὸ τού-
+<pb n="92"/>
+του πιστόν. Ἐγὼ δὲ φημὶ μὲν δεῖν οὐκ ἐν μικρῷ προσλαμβάνεσθαι
+τὴν τοῦ συγγραφέως πίστιν, οὐκ αὐτοτελῆ
+δὲ κρίνειν· τὸ δὲ πλεῖον ἐξ αὐτῶν τῶν πραγμάτων
+ποιεῖσθαι τοὺς ἀναγινώσκοντας τὰς δοκιμασίας.
+Οὐ μὴν ἀλλὰ καὶ τοῦ γε Ῥωμαίων καὶ Καρχηδονίων
+πολέμου (τὴν γὰρ παρέκβασιν ἐντεῦθεν ἐποιησάμεθα)
+νομιστέον πρώτην μὲν αἰτίαν γεγονέναι τὸν <persName><name nymRef="Hamilcar">Ἀμίλκου</name></persName>
+θυμὸν, τοῦ <persName><name nymRef="Barcas">Βάρκα</name></persName> μὲν ἐπικαλουμένου, πατρὸς δὲ κατὰ
+φύσιν <persName><name nymRef="Hannibal">Ἀννίβου</name></persName> γεγονότος. Ἐκεῖνος γὰρ, οὐχ ἡττηθεὶς
+τῷ περὶ <placeName ref="http://pleiades.stoa.org/places/462492">Σικελίας</placeName> πολέμῳ τῇ ψυχῇ, τῷ δοκεῖν αὐτὸς
+μὲν ἀκέραια διατετηρηκέναι τὰ περὶ τὸν <placeName>Ἔρυκα</placeName> στρατόπεδα
+ταῖς ὁρμαῖς ἐφ᾿ ὦν αὐτὸς ἦν, διὰ δὲ τὴν ἐν τῇ
+ναυμαχίᾳ τῶν Καρχηδονίων ἧτταν τοῖς καιροῖς εἴκων,
+πεποιῆσθαι τὰς συνθήκας, ἔμενεν ἐπὶ τῆς ὀργῆς, τηρῶν
+ἀεὶ πρὸς ἐπίθεσιν. Εἰ μὲν οὖν μὴ τὸ περὶ τοὺς ξένους
+ἐγένετο κίνημα τοῖς Καρχηδονίοις, εὐθέως ἂν ἄλλην
+ἀρχὴν ἐποιεῖτο καὶ παρασκευὴν πραγμάτων, ὅσον ἐπ᾿
+ἐκείνῳ. Προκαταληφθεὶς δὲ ταῖς ἐμφυλίοις ταραχαῖς,
+ἐν τούτοις καὶ περὶ ταύτας διέτριβε τὰς πράξεις.</quote></cit>
+                    
+                    
+
+<cit n="19" xml:lang="la">
+    <bibl type="primary"><author>Livius</author> <biblScope unit="volume">XXII</biblScope> <biblScope unit="chapter">7</biblScope></bibl>
+    <quote xml:lang="la">H&#339;c est nobilis ad <placeName ref="http://pleiades.stoa.org/places/413347">Trasimenum</placeName>
+pugna atque inter paucas memorata populi
+Romani cludes. <num value="15000">Quindecim millia</num> Romanorum in
+acie c&#339;sa sunt; <num value="10000">decem milia</num> sparsa fuga per
+omnem <placeName ref="http://pleiades.stoa.org/places/413122">Etruriam</placeName> diversis itineribus urbem petiere.
+<num value="2500">Mille quingenti</num> hostium in acie, multi postea
+utrimque ex vulneribus periere. Multiplex c&#339;des
+utrimque facta traditur ab aliis. Ego pr&#339;terquam
+quod nihil haustum ex vano velim, quo nimis inclinant
+ferme scribentium animi, <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabium</name></persName>, &#339;qualem
+temporibus hujusce belli, potissimum auctorem
+habui.</quote></cit></div>
+                    
+                    <div type="textpart" subtype="work" n="2"><ab><title type="main" xml:lang="la">NUMERII FABII PICTORIS ANNALES.</title></ab>
+                        
+
+<cit n="20" xml:lang="la">
+    <bibl type="primary"><author>Cicero</author> <title>De divin.</title> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">21</biblScope> extr.</bibl>
+<quote xml:lang="la">Sint h&#339;c somnia fabularum: hisque adjungatur etiam &#198;ne&#339; somnium,
+quod in <persName role="author"><name type="praenomen" nymRef="Numerius">Numerii</name> <name type="gentilicium" nymRef="Fabius">Fabii</name> <name type="cognomen" nymRef="Pictor">Pictoris</name></persName> Annalibus
+ejusmodi est, ut omnia qu&#339; ab &#198;nea gesta sunt
+qu&#339;que illi acciderunt ea fuerint, qu&#339; ei secundum
+quietem visa sunt.</quote>
+<note>Ex <persName role="author"><name type="praenomen" nymRef="Numerius">Numerio</name></persName> igitur sua habet <persName role="author"><name>Diodorus</name></persName>.</note></cit>
+
+
+<cit n="21" xml:lang="grc">
+    <bibl type="primary"><author>Diodor.</author> <biblScope unit="volume">VII</biblScope> <biblScope unit="chapter">3</biblScope> <biblScope unit="line">3</biblScope></bibl> 
+<note>(ap. <bibl><author>Syncell.</author> <biblScope unit="page">194</biblScope></bibl>, <bibl><author>Euseb.</author>
+<biblScope unit="page">210</biblScope></bibl>)</note>
+<quote>Τὴν δ᾿ ἀρχὴν διαδεξάμενος Ἀσκάνιος υἱὸς
+ἔκτισεν <placeName>Ἄλβαν</placeName> τὴν νῦν καλουμένην Λόγγαν, ἣν ὠνόμασεν
+ἀπὸ τοῦ ποταμοῦ τοῦ τότε μὲν Ἀλβᾶ καλουμένου,
+νῦν δὲ <placeName>Τιβέρεως</placeName> ὀνομαζομένου. Περὶ δὲ τῆς προσηγορίας
+ταύτης <persName role="author"><name type="gentilicium" nymRef="Fabius">Φά&#976;ιος</name></persName> ὁ τὰς Ῥωμαίων πράξεις
+ἀναγράψας ἄλλως μεμυθολόγηκεν. Φησὶ γὰρ <persName><name>Αἰνείᾳ</name></persName>
+γενέσθαι λόγιον, τετράπουν αὐτῷ καθηγήσασθαι πρὸς
+κτίσιν πόλεως· μέλλοντος δ᾿ αὐτοῦ θύειν ὗν ἔγκυον τῷ
+χρώματι λευκὴν, ἐκφυγεῖν ἐκ τῶν χειρῶν, καὶ διωχθῆναι
+πρός τινα λόφον, πρὸς ὃν κομισθεῖσαν τεκεῖν <num value="30">λ</num> χοίρους.
+Τὸν δὲ <persName><name nymRef="Aeneas">Αἰνείαν</name></persName> τό τε παράδοξον θαυμάσαντα καὶ
+τὸ λόγιον ἀνανεούμενον ἐπιχειρῆσαι μὲν οἰκίσαι τὸν
+τόπον, ἰδόντα δὲ κατὰ τὸν ὕπνον ὄψιν ἐναργῶς διακωλύουσαν
+καὶ συμβουλεύουσαν μετὰ <num value="30">λ</num> ἔτη κτίζειν,
+ὅσοσπερ ὁ τῶν τεχθέντων ἀριθμὸς ἦν, ἀποστῆναι τῆς
+προθέσεως.</quote>
+    <note>Cf. <bibl type="primary"><author>Dionys. Hal.</author> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">56</biblScope></bibl>, ubi <persName role="author"><name>Numerius</name></persName> inter eos
+intelligendus, quos verbis <foreign xml:lang="grc">ἕτεροι δὲ</foreign> introducit,
+        monente <bibl type="secondary"><author>Klausenio</author> <title>&#198;neas u. die Penaten</title> 1840
+<biblScope unit="volume">II</biblScope> <biblScope unit="part">596</biblScope> <biblScope unit="line">1021</biblScope></bibl>.</note></cit>
+                    </div>
+                        
+
+  <pb n="93"/>              
+                        
+                        <div type="textpart" subtype="fragmenta" n="3"><ab><title xml:lang="la">FRAGMENTA
+                            QU&#198; AD CERTUM ALIQUEM FABIORUM REFERRI
+                            NEQUEUNT.</title></ab>
+                        
+
+<cit n="22" xml:lang="la">
+    <bibl type="primary"><title>De Origin. gent. Rom.</title> <biblScope unit="chapter">20</biblScope></bibl>
+<quote xml:lang="la"><persName role="author"><name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName> libro <num type="ordinal" value="1">primo</num> et <persName role="author"><name type="gentilicium">Vennonius</name></persName> solito institutoque egressam
+virginem in usum sacrorum aquam petitum ex
+eo fonte, qui erat in luco Martis, subito imbribus
+tonitrubusque, qu&#339; cum illa erant, disjectis, a
+Marte compressam. Conturbatamque mox recreatam
+consolatione dei nomen suum indicantis, affirmantisque,
+ex ea natos dignos patre evasuros.</quote></cit>
+                        
+                        
+                        
+<cit n="23" xml:lang="la">
+    <bibl type="primary"><author>Servius</author> <title>ad Virg. &#198;n.</title> <biblScope unit="volume">XII</biblScope> <biblScope unit="chapter">603</biblScope></bibl>
+<note>de Amata Latini uxore:</note>
+<quote xml:lang="la">Alii dicunt (al. <persName role="author"><name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName> dicit), quod
+inedia se interemerit.</quote></cit>
+                            
+                       
+<cit n="24" xml:lang="la">
+    <bibl type="primary"><author>Cicero</author> <title>De divin.</title> <biblScope unit="volume">I</biblScope> <biblScope unit="chapter">26</biblScope></bibl>
+<quote xml:lang="la">Omnes hoc historici, <persName role="author"><name type="gentilicium" nymRef="Fabius">Fabii</name></persName>, <persName role="author"><name type="gentilicium" nymRef="Gellius">Gellii</name></persName>, sed proxime <persName role="author"><name type="gentilicium">C&#339;lius</name></persName>: Quum bello
+Latino Ludi votivi maximi <num type="ordinal" value="1">primum</num> fierent, civitas ad
+arma repente est excitata. Itaque Ludis intermissis
+instaurativi constituti sunt. Qui antequem fierent,
+quumque jam populus consedisset, servusper circum,
+quum virgis c&#339;deretur, furcam ferens ductus est.
+Exin cuidam rustico Romano dormienti visus est
+venire qui diceret, pr&#339;sulem sibi non placuisse ludis,
+idque ab eodem jussum esse eum senatui nuntiare:
+illum non ausum. Iterum esse idem jussum,
+et monitum ne vim suam experiri vellet: ne tum
+quidem esse ausum. Exin filium ejus esse mortuum:
+eandem in somnis admonitionem fuisse tertiam.
+Tum illum etiam debilem factum, rem ad amicos
+detulisse, quorum de sententia lecticula in curiam
+esse delatum; quumque senatui somnium enarravisset,
+pedibus suis salvum revertisse. Itaque somnio
+comprobato a senatu, ludos illos iterum instauratos
+memori&#339; proditum est.</quote></cit>
+
+                       
+<cit n="25" xml:lang="la">
+    <bibl type="primary"><author>Arnobius</author> <title>Adv. Gent.</title> <biblScope unit="volume">VI</biblScope> <biblScope unit="chapter">7</biblScope></bibl>
+<quote xml:lang="la">Quod si planum fieri testimoniis postulatis auctorum, <persName role="author"><name>Sammonicus</name></persName>,
+<persName role="author"><name type="gentilicium">Granius</name></persName>, <persName role="author"><name type="gentilicium">Valerianus</name></persName> vobis et <persName role="author"><name type="gentilicium">Fabius</name></persName> indicabunt,
+cujus <persName><name>Olus</name></persName> fuerit filius, gentis et nationis cujus,
+ut a germani servulis vita fuerit spoliatus et lumine:
+quid de suis commeruerit civibus, ut ei sit abnegata
+telluris patri&#339; sepultura. Condiscetis etiam, quamvis
+nolle istud publicare se fingant, quid sit capite
+resecto factum, vel in parte qua rei curiosa fuerit
+obscuritate conclusum; ut immobilis videlicet atque
+fixa obsignati ominis perpetuitas staret.</quote></cit>
+
+
+                        
+<cit n="26" xml:lang="la">
+    <bibl type="primary"><author>Plinius</author> <title>H. N.</title> <biblScope unit="volume">XIV</biblScope> <biblScope unit="chapter">13</biblScope></bibl>
+<quote><persName role="author"><name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName> in Annalibus scripsit, matronam, quod loculos, in
+quibus erant claves vinari&#339; cell&#339;, resignavisset,
+a suis inedia mori coactam.</quote></cit>
+                        
+                        
+<cit n="27" xml:lang="la">
+    <bibl type="primary"><author>Plinius</author> <title>H. N.</title> <biblScope unit="volume">X</biblScope> <biblScope unit="chapter">24</biblScope></bibl>
+<quote>Tradit et <persName role="author"><name type="gentilicium">Fabius</name> <name type="cognomen">Pictor</name></persName> in Annalibus suis, quum obsideretur pr&#339;sidium
+Romanum a Ligustinis, hirundinem a pullis ad se
+allatam: ut lino ad pedem ejus aligato nodis significaret,
+quoto die adveniente auxilio eruptio
+fieri deberet.</quote></cit>
+                        
+                       
+<cit n="28" xml:lang="grc">
+    <bibl type="primary">Suidas</bibl>
+<quote><persName role="author"><name type="gentilicium" nymRef="Fabius">Φά&#976;ιος</name> <name type="cognomen" nymRef="Pictor">Πίκτωρ</name></persName>, συγγραφεὺς Ῥωμαίων.
+Οὗτος λέγει ἄρχοντι Ῥωμαίων μὴ ἐξεῖναι μηδενὶ σφετερίζεσθαι
+ἐκ τοῦ δημοσίου ὁτιοῦν.</quote></cit>
+                        
+                      
+<cit n="29" xml:lang="grc">
+    <bibl n="1" type="primary"><author>Strabo</author> <biblScope unit="volume">V</biblScope> <biblScope unit="page">228</biblScope></bibl>
+<note>de Sabinis</note>
+<quote n="1">Φησὶ δ᾿ ὁ συγγραφεὺς
+<persName role="author"><name type="gentilicium" nymRef="Fabius">Φά&#976;ιος</name> <orgName>Ῥωμαίους</orgName></persName> αἰσθέσθαι τοῦ πλούτου τότε
+πρῶτον, ὅτε τοῦ ἔθνους τούτου κατέστησαν κύριοι.</quote>
+<note><persName role="author"><name type="gentilicium" nymRef="Fabius">Fabium</name></persName> grammaticum memorat</note> 
+    <bibl n="2" type="primary"><author>Marius Victorin.</author> <title>Art. Gramm.</title> <biblScope unit="volume">I</biblScope> <biblScope unit="page">2468</biblScope> ed. Putsch.</bibl>
+<quote n="2" xml:lang="la">Repertores
+literarum <persName role="author"><name>Cadmus</name></persName> ex Ph&#339;nice in Gr&#339;ciam, et
+<persName role="author"><name>Evander</name></persName> ad nos transtulerunt... Grammatici pr&#339;terea
+<persName role="author"><name>Demetrius Phalereus</name></persName>, ex nostris autem <persName role="author"><name type="gentilicium">Cincius</name></persName>,
+<persName role="author"><name type="gentilicium">Fabius</name></persName>, <persName role="author"><name type="gentilicium">Gellius</name></persName> tradiderunt,</quote><note>etc.</note></cit>
+                       
+<pb n="94"/>                                            
+                 
+                        </div>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

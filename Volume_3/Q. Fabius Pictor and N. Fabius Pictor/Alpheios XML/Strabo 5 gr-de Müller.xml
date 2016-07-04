@@ -1,0 +1,185 @@
+<aligned-text xmlns="http://alpheios.net/namespaces/aligned-text">
+    <language lnum="L1" xml:lang="grc"/>
+    <language lnum="L2" xml:lang="eng"/>
+    <sentence n="1">
+        <wds lnum="L1">
+            <comment class="uri"/>
+            <w n="1-1">
+                <text>Φησὶ</text>
+                <refs nrefs="1-4"/>
+            </w>
+            <w n="1-2">
+                <text>δ᾿</text>
+            </w>
+            <w n="1-3">
+                <text>ὁ</text>
+                <refs nrefs="1-1"/>
+            </w>
+            <w n="1-4">
+                <text>συγγραφεὺς</text>
+                <refs nrefs="1-2"/>
+            </w>
+            <w n="1-5">
+                <text>Φάβιος</text>
+                <refs nrefs="1-3"/>
+            </w>
+            <w n="1-6">
+                <text>Ῥωμαίους</text>
+                <refs nrefs="1-6 1-7"/>
+            </w>
+            <w n="1-7">
+                <text>αἰσθέσθαι</text>
+                <refs nrefs="1-8 1-25"/>
+            </w>
+            <w n="1-8">
+                <text>τοῦ</text>
+                <refs nrefs="1-23"/>
+            </w>
+            <w n="1-9">
+                <text>πλούτου</text>
+                <refs nrefs="1-24"/>
+            </w>
+            <w n="1-10">
+                <text>τότε</text>
+                <refs nrefs="1-20"/>
+            </w>
+            <w n="1-11">
+                <text>πρῶτον</text>
+                <refs nrefs="1-21 1-22"/>
+            </w>
+            <w n="1-12">
+                <text>,</text>
+            </w>
+            <w n="1-13">
+                <text>ὅτε</text>
+                <refs nrefs="1-10"/>
+            </w>
+            <w n="1-14">
+                <text>τοῦ</text>
+                <refs nrefs="1-16"/>
+            </w>
+            <w n="1-15">
+                <text>ἔθνους</text>
+                <refs nrefs="1-16"/>
+            </w>
+            <w n="1-16">
+                <text>τούτου</text>
+                <refs nrefs="1-15"/>
+            </w>
+            <w n="1-17">
+                <text>κατέστησαν</text>
+                <refs nrefs="1-11 1-14 1-17 1-18"/>
+            </w>
+            <w n="1-18">
+                <text>κύριοι</text>
+                <refs nrefs="1-12 1-13"/>
+            </w>
+            <w n="1-19">
+                <text>.</text>
+            </w>
+        </wds>
+        <wds lnum="L2">
+            <comment class="uri"/>
+            <w n="1-1">
+                <text>Der</text>
+                <refs nrefs="1-3"/>
+            </w>
+            <w n="1-2">
+                <text>Historiker</text>
+                <refs nrefs="1-4"/>
+            </w>
+            <w n="1-3">
+                <text>Fabius</text>
+                <refs nrefs="1-5"/>
+            </w>
+            <w n="1-4">
+                <text>berichtet</text>
+                <refs nrefs="1-1"/>
+            </w>
+            <w n="1-5">
+                <text>,</text>
+            </w>
+            <w n="1-6">
+                <text>die</text>
+                <refs nrefs="1-6"/>
+            </w>
+            <w n="1-7">
+                <text>Römer</text>
+                <refs nrefs="1-6"/>
+            </w>
+            <w n="1-8">
+                <text>wären</text>
+                <refs nrefs="1-7"/>
+            </w>
+            <w n="1-9">
+                <text>,</text>
+            </w>
+            <w n="1-10">
+                <text>nachdem</text>
+                <refs nrefs="1-13"/>
+            </w>
+            <w n="1-11">
+                <text>sie</text>
+                <refs nrefs="1-17"/>
+            </w>
+            <w n="1-12">
+                <text>die</text>
+                <refs nrefs="1-18"/>
+            </w>
+            <w n="1-13">
+                <text>Herrschaft</text>
+                <refs nrefs="1-18"/>
+            </w>
+            <w n="1-14">
+                <text>über</text>
+                <refs nrefs="1-17"/>
+            </w>
+            <w n="1-15">
+                <text>dieses</text>
+                <refs nrefs="1-16"/>
+            </w>
+            <w n="1-16">
+                <text>Volk</text>
+                <refs nrefs="1-14 1-15"/>
+            </w>
+            <w n="1-17">
+                <text>erlangt</text>
+                <refs nrefs="1-17"/>
+            </w>
+            <w n="1-18">
+                <text>hatten</text>
+                <refs nrefs="1-17"/>
+            </w>
+            <w n="1-19">
+                <text>,</text>
+            </w>
+            <w n="1-20">
+                <text>zum</text>
+                <refs nrefs="1-10"/>
+            </w>
+            <w n="1-21">
+                <text>ersten</text>
+                <refs nrefs="1-11"/>
+            </w>
+            <w n="1-22">
+                <text>Mal</text>
+                <refs nrefs="1-11"/>
+            </w>
+            <w n="1-23">
+                <text>dem</text>
+                <refs nrefs="1-8"/>
+            </w>
+            <w n="1-24">
+                <text>Reichtum</text>
+                <refs nrefs="1-9"/>
+            </w>
+            <w n="1-25">
+                <text>verfallen</text>
+                <refs nrefs="1-7"/>
+            </w>
+            <w n="1-26">
+                <text>.</text>
+            </w>
+        </wds>
+    </sentence>
+</aligned-text>
