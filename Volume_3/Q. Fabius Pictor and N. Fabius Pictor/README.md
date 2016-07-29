@@ -1,3 +1,5 @@
+##Digital Fabius Pictor
+
 This repo contains files of the <i>Digital Fabius Pictor</i> project, which has been developed by Kevin Straßburger as part of his contribution to the <i>Digital Fragmenta Historicorum Graecorum</i> (DFHG) project at the Alexander von Humboldt Chair of Digital Humanities at the University of Leipzig:
 
 * `Alignment`: a folder with translation alignment examples of fragments of Fabius Pictor (html files)
