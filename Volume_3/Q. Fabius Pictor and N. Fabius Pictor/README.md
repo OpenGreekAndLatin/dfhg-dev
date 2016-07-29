@@ -24,6 +24,7 @@ This repo contains files of the <i>Digital Fabius Pictor</i> project, which has 
 * [Cic. Div. 1, 21, 43 / Serv. Auct. 5, 73: la-la (Peter)](http://sosol.perseids.org/alpheios/app/align-editsentence-perseids.xhtml?s=1&numSentences=1&doc=30266)
 
 ***
+###Source texts preserving fragments in different collections
 |Source text|Müller|Peter|Beck/Walter|
 |---|:---:|---:|:---:|
 |Dion. Hal. 1, 74|x|x|x|
