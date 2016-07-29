@@ -1,0 +1,1 @@
+This repo contains files of the `Digital Fabius Pictor` project, which as been developed by Kevin Strasßburger as part of his contribution to the Digital Fragmenta Historicorum Graecorum (DFHG) Project at the Alexander von Humboldt Chair of Digital Humanities at the University of Leipzig.
