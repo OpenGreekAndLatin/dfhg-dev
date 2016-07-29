@@ -36,7 +36,7 @@ This repo contains files of the <i>Digital Fabius Pictor</i> project, which has 
 |Dion. Hal. 4, 6|x|x|x|
 |Dion. Hal. 4, 30|x|x|x|
 |Dion. Hal. 4, 64|x|x|x|
-|Liv. 1,55(53P)|x|x|x|
+|Liv. 1, 55(53P)|x|x|x|
 |Dion. Hal. 7, 71|x|x|x|
 |Liv. 2, 40|x|x|x|
 |Liv. 8, 30|x|x|x|
@@ -47,23 +47,23 @@ This repo contains files of the <i>Digital Fabius Pictor</i> project, which has 
 |Oros. 4, 13, 5|x|x|x|
 |Polyb. 3, 8|x|x|x|
 |Liv. 22, 7|x|x|x|
-|Cic. *de div*. 1, 21(55BW)|x|x|x|
-|Diod. 7, 3, 3(7, 5, 4P+BW)|x|app.crit.|x|
+|Cic. *De div*. 1, 21(55BW)|x|x|x|
+|Diod. 7, 3, 3 (7, 5, 4P+BW)|x|app.crit.|x|
 |*De origin. gent. Rom*. 20|x||x|
-|Serv. *ad Verg.  Aen*. 12,603|x|x|x| 
-|Cic. *de div*. 1, 26(43BW)|x|x|x|
-|Arnob. *adv. gent*. 6, 7|x|x|x|
-|Plin. *n. h*. 10, 24(71P+BW)|x|x|x|
+|Serv. *Ad Verg.  Aen*. 12,603|x|x|x| 
+|Cic. *De div*. 1, 26(43BW)|x|x|x|
+|Arnob. *Adv. gent*. 6, 7|x|x|x|
+|Plin. *N.H*. 10, 24(71P+BW)|x|x|x|
 |Suidas|x|x|x| 
 |Strabo 5, 228|x|x|x|
-|Mar. Vict. *art gramm*. 1|x|x|x|
+|Mar. Vict. *Art gramm*. 1|x|x|x|
 |Isid. *Etym*. 4, 7, 34||x|x|
-|Plin. *n. h*. 14, 13(89P+BW)|x|x|x|
-|Serv. *ad Verg. Aen*. 5, 73||x|x|
+|Plin. *N.H*. 14, 13(89P+BW)|x|x|x|
+|Serv. *Ad Verg. Aen*. 5, 73||x|x|
 |Syncellus|x|x||
 |Plut. *Rom*. 3|||
 |Fragment. Fab. Pic. 1||x|x|
-|Serv. *ad Verg. Aen*. 8, 630|||x|
-|Quint. *inst*. 1, 6, 12|||x|
+|Serv. *Ad Verg. Aen*. 8, 630|||x|
+|Quint. *Inst*. 1, 6, 12|||x|
 |Non. P. 834L|||x|
 |Gell. 5, 4, 3|||x|
