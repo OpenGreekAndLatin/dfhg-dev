@@ -26,7 +26,7 @@ This repo contains files of the <i>Digital Fabius Pictor</i> project, which has 
 ***
 ###Source texts preserving fragments in different collections
 |Source text|Müller|Peter|Beck/Walter|
-|---|:---:|---:|:---:|
+|---|:---:|:---:|:---:|
 |Dion. Hal. 1, 74|x|x|x|
 |Dion. Hal. 1, 79|x|x|x|
 |Eusebius|x|app.crit.|x|
